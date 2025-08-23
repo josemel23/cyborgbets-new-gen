@@ -34,27 +34,47 @@ jobs:
         if: github.event.inputs.accion == 'scraper'
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
+          pip install requests beautifulsoup4 lxml selenium pandas openpyxl
+
+      - name: Debug - Mostrar estructura
+        if: github.event.inputs.accion == 'scraper'
+        run: |
+          echo "🔍 Estructura del repositorio:"
+          find . -name "*.py" -type f | head -20
+          echo "🎯 Buscando scraper para: ${{ github.event.inputs.liga }}"
 
       - name: Ejecutar Scraper
         if: github.event.inputs.accion == 'scraper'
         run: |
           echo "🕷️ Ejecutando scraper: ${{ github.event.inputs.liga }}"
-          if [ -f "scrapers/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py" ]; then
+          
+          # BUSCAR EN MÚLTIPLES UBICACIONES POSIBLES
+          if [ -f "scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py" ]; then
+            echo "✅ Encontrado en: scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py"
+            cd scraper/${{ github.event.inputs.liga }}
+            python ${{ github.event.inputs.liga }}_standings.py
+          elif [ -f "scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standigs.py" ]; then
+            echo "✅ Encontrado en: scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standigs.py"
+            cd scraper/${{ github.event.inputs.liga }}
+            python ${{ github.event.inputs.liga }}_standigs.py
+          elif [ -f "scrapers/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py" ]; then
+            echo "✅ Encontrado en: scrapers/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py"
             cd scrapers/${{ github.event.inputs.liga }}
             python ${{ github.event.inputs.liga }}_standings.py
-            echo "✅ Scraper ejecutado correctamente"
           elif [ -f "scrapers/${{ github.event.inputs.liga }}.py" ]; then
+            echo "✅ Encontrado en: scrapers/${{ github.event.inputs.liga }}.py"
             cd scrapers
             python ${{ github.event.inputs.liga }}.py
-            echo "✅ Scraper ejecutado correctamente"
           else
             echo "❌ Error: No se encontró el scraper para ${{ github.event.inputs.liga }}"
-            echo "Buscado en:"
+            echo "📁 Ubicaciones buscadas:"
+            echo "  - scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py"
+            echo "  - scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standigs.py"
             echo "  - scrapers/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py"
             echo "  - scrapers/${{ github.event.inputs.liga }}.py"
+            echo ""
+            echo "📂 Archivos Python encontrados:"
+            find . -name "*.py" -type f
             exit 1
           fi
 
