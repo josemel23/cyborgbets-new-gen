@@ -42,6 +42,12 @@ jobs:
           echo "🔍 Estructura del repositorio:"
           find . -name "*.py" -type f | head -20
           echo "🎯 Buscando scraper para: ${{ github.event.inputs.liga }}"
+          echo "📂 Contenido del directorio scraper:"
+          ls -la scraper/ || echo "Directorio scraper no encontrado"
+          if [ -d "scraper/${{ github.event.inputs.liga }}" ]; then
+            echo "📂 Contenido de scraper/${{ github.event.inputs.liga }}:"
+            ls -la "scraper/${{ github.event.inputs.liga }}/"
+          fi
 
       - name: Ejecutar Scraper
         if: github.event.inputs.accion == 'scraper'
@@ -51,20 +57,20 @@ jobs:
           # BUSCAR EN MÚLTIPLES UBICACIONES POSIBLES
           if [ -f "scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py" ]; then
             echo "✅ Encontrado en: scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py"
-            cd scraper/${{ github.event.inputs.liga }}
-            python ${{ github.event.inputs.liga }}_standings.py
+            cd "scraper/${{ github.event.inputs.liga }}"
+            python "${{ github.event.inputs.liga }}_standings.py"
           elif [ -f "scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standigs.py" ]; then
-            echo "✅ Encontrado en: scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standigs.py"
-            cd scraper/${{ github.event.inputs.liga }}
-            python ${{ github.event.inputs.liga }}_standigs.py
+            echo "✅ Encontrado en: scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standigs.py (typo en nombre)"
+            cd "scraper/${{ github.event.inputs.liga }}"
+            python "${{ github.event.inputs.liga }}_standigs.py"
           elif [ -f "scrapers/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py" ]; then
             echo "✅ Encontrado en: scrapers/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py"
-            cd scrapers/${{ github.event.inputs.liga }}
-            python ${{ github.event.inputs.liga }}_standings.py
+            cd "scrapers/${{ github.event.inputs.liga }}"
+            python "${{ github.event.inputs.liga }}_standings.py"
           elif [ -f "scrapers/${{ github.event.inputs.liga }}.py" ]; then
             echo "✅ Encontrado en: scrapers/${{ github.event.inputs.liga }}.py"
             cd scrapers
-            python ${{ github.event.inputs.liga }}.py
+            python "${{ github.event.inputs.liga }}.py"
           else
             echo "❌ Error: No se encontró el scraper para ${{ github.event.inputs.liga }}"
             echo "📁 Ubicaciones buscadas:"
@@ -75,6 +81,9 @@ jobs:
             echo ""
             echo "📂 Archivos Python encontrados:"
             find . -name "*.py" -type f
+            echo ""
+            echo "📂 Estructura completa del directorio scraper:"
+            find scraper/ -type f 2>/dev/null || echo "Directorio scraper no existe"
             exit 1
           fi
 
@@ -82,7 +91,7 @@ jobs:
         if: github.event.inputs.accion == 'scraper'
         run: |
           echo "📁 Archivos JSON encontrados:"
-          find . -name "*.json" -type f -ls || echo "No se encontraron archivos JSON"
+          find . -name "*.json" -type f -ls 2>/dev/null || echo "No se encontraron archivos JSON"
           echo "📁 Estado de git:"
           git status
 
