@@ -1,40 +1,19 @@
-name: Test Inputs Completos
+name: Test Con Inputs
 
 on:
   workflow_dispatch:
     inputs:
       accion:
-        description: 'Accion a ejecutar'
         required: true
         type: choice
         options:
           - scraper
           - deploy
-      liga:
-        description: 'Nombre del scraper'
-        required: false
-        type: string
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Test completo
+      - name: Test con parametros
         run: |
-          echo "Accion: ${{ github.event.inputs.accion }}"
-          echo "Liga: ${{ github.event.inputs.liga }}"
-          
-      - name: Checkout codigo
-        uses: actions/checkout@v3
-        
-      - name: Buscar archivo
-        run: |
-          echo "Buscando archivo: scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py"
-          if [ -f "scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py" ]; then
-            echo "Archivo encontrado!"
-            ls -la "scraper/${{ github.event.inputs.liga }}/"
-          else
-            echo "Archivo no encontrado"
-            echo "Estructura actual:"
-            find . -name "*.py" -type f
-          fi
+          echo "Accion recibida: ${{ github.event.inputs.accion }}"
