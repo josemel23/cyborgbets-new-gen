@@ -10,10 +10,12 @@ on:
         options:
           - scraper
           - deploy
+        default: 'scraper'
       liga:
         description: 'Nombre del scraper'
         required: false
         type: string
+        default: 'liga_mx'
 
 jobs:
   ejecutar:
