@@ -1,0 +1,684 @@
+{
+    "teams": [
+        {
+            "team": "Pescara",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "14",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Empoli",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "7",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Palermo",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "13",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Sampdoria",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "16",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Frosinone",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "8",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Cesena",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "6",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Avellino",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "1",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Bari 1908",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "2",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Spezia",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "17",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Virtus Entella",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "20",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Modena",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "11",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Juve Stabia",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "9",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Venezia",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "19",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Südtirol",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "18",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Calcio Padova",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "3",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Catanzaro",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "5",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Reggiana",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "15",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Monza",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "12",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Carrarese",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "4",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        },
+        {
+            "team": "Mantova",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            },
+            "position": "10",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0"
+        }
+    ]
+}

@@ -1,0 +1,306 @@
+{
+    "Eastern Conference": [
+        {
+            "team": "Cleveland Cavaliers",
+            "position": "01",
+            "wins": "64",
+            "losses": "18",
+            "points_for": "121.9",
+            "points_against": "112.4",
+            "win_percentage": "78.0",
+            "logo_url": ""
+        },
+        {
+            "team": "Boston Celtics",
+            "position": "02",
+            "wins": "61",
+            "losses": "21",
+            "points_for": "116.3",
+            "points_against": "107.2",
+            "win_percentage": "74.4",
+            "logo_url": ""
+        },
+        {
+            "team": "New York Knicks",
+            "position": "03",
+            "wins": "51",
+            "losses": "31",
+            "points_for": "115.8",
+            "points_against": "111.7",
+            "win_percentage": "62.2",
+            "logo_url": ""
+        },
+        {
+            "team": "Indiana Pacers",
+            "position": "04",
+            "wins": "50",
+            "losses": "32",
+            "points_for": "117.4",
+            "points_against": "115.1",
+            "win_percentage": "61.0",
+            "logo_url": ""
+        },
+        {
+            "team": "Milwaukee Bucks",
+            "position": "05",
+            "wins": "48",
+            "losses": "34",
+            "points_for": "115.5",
+            "points_against": "113.0",
+            "win_percentage": "58.5",
+            "logo_url": ""
+        },
+        {
+            "team": "Detroit Pistons",
+            "position": "06",
+            "wins": "44",
+            "losses": "38",
+            "points_for": "115.5",
+            "points_against": "113.6",
+            "win_percentage": "53.7",
+            "logo_url": ""
+        },
+        {
+            "team": "Orlando Magic",
+            "position": "07",
+            "wins": "41",
+            "losses": "41",
+            "points_for": "105.4",
+            "points_against": "105.5",
+            "win_percentage": "50.0",
+            "logo_url": ""
+        },
+        {
+            "team": "Atlanta Hawks",
+            "position": "08",
+            "wins": "40",
+            "losses": "42",
+            "points_for": "118.2",
+            "points_against": "119.3",
+            "win_percentage": "48.8",
+            "logo_url": ""
+        },
+        {
+            "team": "Chicago Bulls",
+            "position": "09",
+            "wins": "39",
+            "losses": "43",
+            "points_for": "117.8",
+            "points_against": "119.4",
+            "win_percentage": "47.6",
+            "logo_url": ""
+        },
+        {
+            "team": "Miami Heat",
+            "position": "10",
+            "wins": "37",
+            "losses": "45",
+            "points_for": "110.6",
+            "points_against": "110.0",
+            "win_percentage": "45.1",
+            "logo_url": ""
+        },
+        {
+            "team": "Toronto Raptors",
+            "position": "11",
+            "wins": "30",
+            "losses": "52",
+            "points_for": "110.9",
+            "points_against": "115.2",
+            "win_percentage": "36.6",
+            "logo_url": ""
+        },
+        {
+            "team": "Brooklyn Nets",
+            "position": "12",
+            "wins": "26",
+            "losses": "56",
+            "points_for": "105.1",
+            "points_against": "112.2",
+            "win_percentage": "31.7",
+            "logo_url": ""
+        },
+        {
+            "team": "Philadelphia 76ers",
+            "position": "13",
+            "wins": "24",
+            "losses": "58",
+            "points_for": "109.6",
+            "points_against": "115.8",
+            "win_percentage": "29.3",
+            "logo_url": ""
+        },
+        {
+            "team": "Charlotte Hornets",
+            "position": "14",
+            "wins": "19",
+            "losses": "63",
+            "points_for": "105.1",
+            "points_against": "114.2",
+            "win_percentage": "23.2",
+            "logo_url": ""
+        },
+        {
+            "team": "Washington Wizards",
+            "position": "15",
+            "wins": "18",
+            "losses": "64",
+            "points_for": "108.0",
+            "points_against": "120.4",
+            "win_percentage": "22.0",
+            "logo_url": ""
+        }
+    ],
+    "Western Conference": [
+        {
+            "team": "Oklahoma City Thunder",
+            "position": "01",
+            "wins": "68",
+            "losses": "14",
+            "points_for": "120.5",
+            "points_against": "107.6",
+            "win_percentage": "82.9",
+            "logo_url": ""
+        },
+        {
+            "team": "Houston Rockets",
+            "position": "02",
+            "wins": "52",
+            "losses": "30",
+            "points_for": "114.3",
+            "points_against": "109.8",
+            "win_percentage": "63.4",
+            "logo_url": ""
+        },
+        {
+            "team": "Los Angeles Lakers",
+            "position": "03",
+            "wins": "50",
+            "losses": "32",
+            "points_for": "113.4",
+            "points_against": "112.2",
+            "win_percentage": "61.0",
+            "logo_url": ""
+        },
+        {
+            "team": "Denver Nuggets",
+            "position": "04",
+            "wins": "50",
+            "losses": "32",
+            "points_for": "120.8",
+            "points_against": "116.9",
+            "win_percentage": "61.0",
+            "logo_url": ""
+        },
+        {
+            "team": "LA Clippers",
+            "position": "05",
+            "wins": "50",
+            "losses": "32",
+            "points_for": "112.9",
+            "points_against": "108.2",
+            "win_percentage": "61.0",
+            "logo_url": ""
+        },
+        {
+            "team": "Minnesota Timberwolves",
+            "position": "06",
+            "wins": "49",
+            "losses": "33",
+            "points_for": "114.3",
+            "points_against": "109.3",
+            "win_percentage": "59.8",
+            "logo_url": ""
+        },
+        {
+            "team": "Golden State Warriors",
+            "position": "07",
+            "wins": "48",
+            "losses": "34",
+            "points_for": "113.8",
+            "points_against": "110.5",
+            "win_percentage": "58.5",
+            "logo_url": ""
+        },
+        {
+            "team": "Memphis Grizzlies",
+            "position": "08",
+            "wins": "48",
+            "losses": "34",
+            "points_for": "121.7",
+            "points_against": "116.9",
+            "win_percentage": "58.5",
+            "logo_url": ""
+        },
+        {
+            "team": "Sacramento Kings",
+            "position": "09",
+            "wins": "40",
+            "losses": "42",
+            "points_for": "115.7",
+            "points_against": "115.3",
+            "win_percentage": "48.8",
+            "logo_url": ""
+        },
+        {
+            "team": "Dallas Mavericks",
+            "position": "10",
+            "wins": "39",
+            "losses": "43",
+            "points_for": "114.2",
+            "points_against": "115.4",
+            "win_percentage": "47.6",
+            "logo_url": ""
+        },
+        {
+            "team": "Phoenix Suns",
+            "position": "11",
+            "wins": "36",
+            "losses": "46",
+            "points_for": "113.6",
+            "points_against": "116.6",
+            "win_percentage": "43.9",
+            "logo_url": ""
+        },
+        {
+            "team": "Portland Trail_blazers",
+            "position": "12",
+            "wins": "36",
+            "losses": "46",
+            "points_for": "110.9",
+            "points_against": "113.9",
+            "win_percentage": "43.9",
+            "logo_url": ""
+        },
+        {
+            "team": "San Antonio Spurs",
+            "position": "13",
+            "wins": "34",
+            "losses": "48",
+            "points_for": "113.9",
+            "points_against": "116.7",
+            "win_percentage": "41.5",
+            "logo_url": ""
+        },
+        {
+            "team": "New Orleans Pelicans",
+            "position": "14",
+            "wins": "21",
+            "losses": "61",
+            "points_for": "109.8",
+            "points_against": "119.3",
+            "win_percentage": "25.6",
+            "logo_url": ""
+        },
+        {
+            "team": "Utah Jazz",
+            "position": "15",
+            "wins": "17",
+            "losses": "65",
+            "points_for": "111.9",
+            "points_against": "121.2",
+            "win_percentage": "20.7",
+            "logo_url": ""
+        }
+    ]
+}

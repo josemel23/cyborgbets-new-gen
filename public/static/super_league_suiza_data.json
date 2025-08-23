@@ -1,0 +1,412 @@
+{
+    "teams": [
+        {
+            "team": "Basel",
+            "btts": {
+                "Yes": "100%"
+            },
+            "cards": {
+                "over_3_5": "100%",
+                "over_4_5": "100%",
+                "over_5_5": "50%"
+            },
+            "corners": {
+                "8.5": "75%",
+                "9.5": "75%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
+                "13.5": "25%",
+                "average": "12"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "100%",
+                "3.5": "100%"
+            },
+            "position": "4",
+            "matches_played": "4",
+            "wins": "2",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "8",
+            "goals_against": "7",
+            "goal_difference": "+1",
+            "points": "6"
+        },
+        {
+            "team": "Young Boys",
+            "btts": {
+                "Yes": "75%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "75%",
+                "over_5_5": "50%"
+            },
+            "corners": {
+                "8.5": "75%",
+                "9.5": "75%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
+                "13.5": "25%",
+                "average": "12"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "50%",
+                "3.5": "50%"
+            },
+            "position": "5",
+            "matches_played": "4",
+            "wins": "1",
+            "draws": "2",
+            "losses": "1",
+            "goals_for": "5",
+            "goals_against": "6",
+            "goal_difference": "-1",
+            "points": "5"
+        },
+        {
+            "team": "Thun",
+            "btts": {
+                "Yes": "100%"
+            },
+            "cards": {
+                "over_3_5": "67%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "67%",
+                "9.5": "67%",
+                "10.5": "67%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "9.67"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "100%",
+                "3.5": "100%"
+            },
+            "position": "2",
+            "matches_played": "3",
+            "wins": "3",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "6",
+            "goals_against": "3",
+            "goal_difference": "+3",
+            "points": "9"
+        },
+        {
+            "team": "Sion",
+            "btts": {
+                "Yes": "33%"
+            },
+            "cards": {
+                "over_3_5": "67%",
+                "over_4_5": "67%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "33%",
+                "9.5": "33%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "33%",
+                "13.5": "0%",
+                "average": "7.67"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "67%",
+                "3.5": "50%"
+            },
+            "position": "3",
+            "matches_played": "3",
+            "wins": "2",
+            "draws": "1",
+            "losses": "0",
+            "goals_for": "7",
+            "goals_against": "2",
+            "goal_difference": "+5",
+            "points": "7"
+        },
+        {
+            "team": "Luzern",
+            "btts": {
+                "Yes": "100%"
+            },
+            "cards": {
+                "over_3_5": "100%",
+                "over_4_5": "33%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "100%",
+                "9.5": "67%",
+                "10.5": "67%",
+                "11.5": "33%",
+                "12.5": "33%",
+                "13.5": "0%",
+                "average": "11"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "67%",
+                "3.5": "50%"
+            },
+            "position": "6",
+            "matches_played": "3",
+            "wins": "1",
+            "draws": "1",
+            "losses": "1",
+            "goals_for": "5",
+            "goals_against": "5",
+            "goal_difference": "0",
+            "points": "4"
+        },
+        {
+            "team": "St. Gallen",
+            "btts": {
+                "Yes": "67%"
+            },
+            "cards": {
+                "over_3_5": "67%",
+                "over_4_5": "67%",
+                "over_5_5": "33%"
+            },
+            "corners": {
+                "8.5": "33%",
+                "9.5": "33%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "33%",
+                "13.5": "0%",
+                "average": "9.34"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "100%",
+                "3.5": "100%"
+            },
+            "position": "1",
+            "matches_played": "3",
+            "wins": "3",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "11",
+            "goals_against": "2",
+            "goal_difference": "+9",
+            "points": "9"
+        },
+        {
+            "team": "Grasshopper",
+            "btts": {
+                "Yes": "100%"
+            },
+            "cards": {
+                "over_3_5": "100%",
+                "over_4_5": "33%",
+                "over_5_5": "33%"
+            },
+            "corners": {
+                "8.5": "67%",
+                "9.5": "67%",
+                "10.5": "67%",
+                "11.5": "67%",
+                "12.5": "67%",
+                "13.5": "0%",
+                "average": "11"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "67%",
+                "3.5": "50%"
+            },
+            "position": "10",
+            "matches_played": "3",
+            "wins": "0",
+            "draws": "1",
+            "losses": "2",
+            "goals_for": "4",
+            "goals_against": "6",
+            "goal_difference": "-2",
+            "points": "1"
+        },
+        {
+            "team": "Lugano",
+            "btts": {
+                "Yes": "67%"
+            },
+            "cards": {
+                "over_3_5": "67%",
+                "over_4_5": "67%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "33%",
+                "9.5": "33%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7.33"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "100%",
+                "3.5": "100%"
+            },
+            "position": "9",
+            "matches_played": "3",
+            "wins": "1",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "4",
+            "goals_against": "7",
+            "goal_difference": "-3",
+            "points": "3"
+        },
+        {
+            "team": "Lausanne Sport",
+            "btts": {
+                "Yes": "100%"
+            },
+            "cards": {
+                "over_3_5": "100%",
+                "over_4_5": "67%",
+                "over_5_5": "67%"
+            },
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "67%",
+                "12.5": "67%",
+                "13.5": "67%",
+                "average": "13"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "100%",
+                "3.5": "100%"
+            },
+            "position": "8",
+            "matches_played": "3",
+            "wins": "1",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "5",
+            "goals_against": "6",
+            "goal_difference": "-1",
+            "points": "3"
+        },
+        {
+            "team": "Zürich",
+            "btts": {
+                "Yes": "100%"
+            },
+            "cards": {
+                "over_3_5": "67%",
+                "over_4_5": "67%",
+                "over_5_5": "33%"
+            },
+            "corners": {
+                "8.5": "67%",
+                "9.5": "33%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "33%",
+                "13.5": "33%",
+                "average": "9.34"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "67%",
+                "3.5": "50%"
+            },
+            "position": "7",
+            "matches_played": "3",
+            "wins": "1",
+            "draws": "1",
+            "losses": "1",
+            "goals_for": "5",
+            "goals_against": "5",
+            "goal_difference": "0",
+            "points": "4"
+        },
+        {
+            "team": "Servette",
+            "btts": {
+                "Yes": "100%"
+            },
+            "cards": {
+                "over_3_5": "100%",
+                "over_4_5": "67%",
+                "over_5_5": "67%"
+            },
+            "corners": {
+                "8.5": "67%",
+                "9.5": "67%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "33%",
+                "13.5": "0%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "67%",
+                "3.5": "50%"
+            },
+            "position": "11",
+            "matches_played": "3",
+            "wins": "0",
+            "draws": "1",
+            "losses": "2",
+            "goals_for": "3",
+            "goals_against": "8",
+            "goal_difference": "-5",
+            "points": "1"
+        },
+        {
+            "team": "Winterthur",
+            "btts": {
+                "Yes": "67%"
+            },
+            "cards": {
+                "over_3_5": "33%",
+                "over_4_5": "33%",
+                "over_5_5": "33%"
+            },
+            "corners": {
+                "8.5": "33%",
+                "9.5": "33%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "33%",
+                "13.5": "33%",
+                "average": "9.66"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "67%",
+                "3.5": "0%"
+            },
+            "position": "12",
+            "matches_played": "3",
+            "wins": "0",
+            "draws": "1",
+            "losses": "2",
+            "goals_for": "3",
+            "goals_against": "9",
+            "goal_difference": "-6",
+            "points": "1"
+        }
+    ]
+}

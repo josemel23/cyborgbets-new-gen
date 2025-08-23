@@ -1,0 +1,848 @@
+/* ===== Estilos Mejorados para Radar Analysis (Tema Oscuro Premium) ===== */
+:root {
+  /* Colores base mejorados - Más oscuros */
+  --radar-bg-primary: linear-gradient(135deg, #0a0f1c 0%, #1a1f2e 100%);
+  --radar-bg-secondary: rgba(20, 28, 46, 0.6);
+  --radar-bg-card: rgba(25, 35, 52, 0.4);
+  --radar-bg-hover: rgba(35, 45, 65, 0.6);
+  
+  /* Bordes y líneas - Más sutiles */
+  --radar-border: rgba(75, 85, 99, 0.15);
+  --radar-border-hover: rgba(75, 85, 99, 0.3);
+  
+  /* Colores principales */
+  --radar-primary: #3b82f6;
+  --radar-primary-light: #60a5fa;
+  --radar-primary-dark: #1e40af;
+  
+  /* Textos mejorados - Menos blancos */
+  --radar-text-primary: #e2e8f0;
+  --radar-text-secondary: #94a3b8;
+  --radar-text-muted: #64748b;
+  
+  /* Colores de categorías - Más saturados */
+  --color-goles: #22c55e;       /* Verde más vibrante */
+  --color-btts: #f59e0b;        /* Amarillo/dorado */
+  --color-tarjetas: #ef4444;    /* Rojo */
+  --color-esquinas: #ec4899;    /* Rosa/magenta */
+  --color-puntos: #3b82f6;      /* Azul */
+  --color-defensa: #8b5cf6;     /* Violeta */
+  --color-mejor-posicion: #f59e0b; /* Dorado */
+  --color-ataque: #06b6d4;      /* Cyan */
+  
+  /* Sombras más pronunciadas */
+  --radar-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  --radar-shadow-hover: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.radar-section {
+  padding: 40px 0;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--radar-bg-primary);
+  color: var(--radar-text-primary);
+  min-height: 100vh;
+}
+
+.radar-section .radar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ===== Header ===== */
+.radar-section .radar-header {
+  text-align: center;
+  margin-bottom: 30px;
+  background: var(--radar-bg-secondary);
+  backdrop-filter: blur(15px);
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid var(--radar-border);
+  box-shadow: var(--radar-shadow);
+}
+
+.radar-section .radar-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: var(--radar-text-primary);
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.radar-section .radar-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: var(--radar-text-secondary);
+  font-weight: 300;
+}
+
+/* ===== Panel de controles ===== */
+.radar-section .controls-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.radar-section .control-group {
+  background: var(--radar-bg-card);
+  padding: 15px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--radar-border);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.radar-section .control-group:hover {
+  border: 1px solid var(--radar-border-hover);
+  background: var(--radar-bg-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.radar-section .control-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: var(--radar-text-secondary);
+  font-size: 0.9rem;
+}
+
+.radar-section select,
+.radar-section input {
+  width: 200px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(15, 23, 42, 0.9);
+  color: var(--radar-text-primary);
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid var(--radar-border);
+  transition: all 0.3s ease;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.radar-section select:focus,
+.radar-section input:focus {
+  outline: none;
+  border: 1px solid var(--radar-primary);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+  background: rgba(15, 23, 42, 1);
+}
+
+.radar-section .analyze-btn {
+  background: linear-gradient(135deg, var(--radar-primary), var(--radar-primary-dark));
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.radar-section .analyze-btn:hover {
+  background: linear-gradient(135deg, var(--radar-primary-dark), #1e3a8a);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+}
+
+/* ===== Resultados ===== */
+.radar-section .results-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(250px, 1fr));
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.radar-section .category-card {
+  background: var(--radar-bg-card);
+  backdrop-filter: blur(12px);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid var(--radar-border);
+  transition: all 0.3s ease;
+  min-width: 250px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.radar-section .category-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--radar-border-hover);
+}
+
+.radar-section .category-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  color: var(--radar-text-primary);
+  word-wrap: break-word;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.radar-section .team-item {
+  background: rgba(15, 23, 42, 0.6);
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid;
+  transition: all 0.3s ease;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+}
+
+.radar-section .team-item:hover {
+  background: rgba(15, 23, 42, 0.8);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+.radar-section .team-info {
+  margin-bottom: 8px;
+}
+
+.radar-section .team-name {
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  color: var(--radar-text-primary);
+  word-wrap: break-word;
+  line-height: 1.2;
+}
+
+.radar-section .team-league {
+  font-size: 0.7rem;
+  color: var(--radar-text-muted);
+  margin-bottom: 2px;
+}
+
+.radar-section .team-stats {
+  text-align: center;
+}
+
+.radar-section .stat-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--category-color);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Colores para categorías con fondos más oscuros ===== */
+
+/* GOLES */
+.radar-section .goles { 
+  border-left-color: var(--color-goles);
+  --category-color: var(--color-goles);
+}
+
+.radar-section .goles .category-title {
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.15), rgba(34, 197, 94, 0.08));
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+/* BTTS */
+.radar-section .btts { 
+  border-left-color: var(--color-btts);
+  --category-color: var(--color-btts);
+}
+
+.radar-section .btts .category-title {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(245, 158, 11, 0.08));
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+/* TARJETAS */
+.radar-section .tarjetas { 
+  border-left-color: var(--color-tarjetas);
+  --category-color: var(--color-tarjetas);
+}
+
+.radar-section .tarjetas .category-title {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(239, 68, 68, 0.08));
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+/* ESQUINAS */
+.radar-section .esquinas { 
+  border-left-color: var(--color-esquinas);
+  --category-color: var(--color-esquinas);
+}
+
+.radar-section .esquinas .category-title {
+  background: linear-gradient(135deg, rgba(236, 72, 153, 0.15), rgba(236, 72, 153, 0.08));
+  border: 1px solid rgba(236, 72, 153, 0.2);
+}
+
+/* RENDIMIENTO */
+.radar-section .rendimiento { 
+  border-left-color: var(--color-puntos);
+  --category-color: var(--color-puntos);
+}
+
+.radar-section .rendimiento .category-title {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(59, 130, 246, 0.08));
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+/* GOLES EQUIPO */
+.radar-section .goles-equipo { 
+  border-left-color: var(--color-defensa);
+  --category-color: var(--color-defensa);
+}
+
+.radar-section .goles-equipo .category-title {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(139, 92, 246, 0.08));
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+/* POSICIÓN */
+.radar-section .posicion { 
+  border-left-color: var(--color-mejor-posicion);
+  --category-color: var(--color-mejor-posicion);
+}
+
+.radar-section .posicion .category-title {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(245, 158, 11, 0.08));
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+/* DEFENSA y ATAQUE */
+.radar-section .defensa { 
+  border-left-color: var(--color-defensa);
+  --category-color: var(--color-defensa);
+}
+
+.radar-section .defensa .category-title {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(139, 92, 246, 0.08));
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.radar-section .ataque { 
+  border-left-color: var(--color-ataque);
+  --category-color: var(--color-ataque);
+}
+
+.radar-section .ataque .category-title {
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(6, 182, 212, 0.08));
+  border: 1px solid rgba(6, 182, 212, 0.2);
+}
+
+/* DEFAULT */
+.radar-section .default { 
+  border-left-color: var(--color-ataque);
+  --category-color: var(--color-ataque);
+}
+
+.radar-section .default .category-title {
+  background: linear-gradient(135deg, rgba(6, 182, 212, 0.15), rgba(6, 182, 212, 0.08));
+  border: 1px solid rgba(6, 182, 212, 0.2);
+}
+
+/* ===== Loading y estados ===== */
+.radar-section .loading {
+  text-align: center;
+  padding: 40px;
+  color: var(--radar-text-secondary);
+  font-size: 1.1rem;
+}
+
+.radar-section .no-results {
+  text-align: center;
+  padding: 40px;
+  color: var(--radar-text-muted);
+  font-size: 1rem;
+  background: var(--radar-bg-card);
+  border-radius: 12px;
+  border: 1px solid var(--radar-border);
+}
+
+/* ===== Overlay de análisis con degradado y desenfoque ===== */
+.radar-section .analysis-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    135deg, 
+    rgba(10, 15, 28, 0.85) 0%, 
+    rgba(15, 23, 42, 0.92) 35%,
+    rgba(26, 31, 46, 0.88) 65%,
+    rgba(10, 15, 28, 0.9) 100%
+  );
+  backdrop-filter: blur(12px) saturate(0.8);
+  -webkit-backdrop-filter: blur(12px) saturate(0.8);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radar-section .analysis-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ===== Contenido del loader en el overlay ===== */
+.radar-section .loader-content {
+  background: rgba(25, 35, 52, 0.7);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(75, 85, 99, 0.2);
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 
+    0 25px 50px rgba(0, 0, 0, 0.5),
+    0 10px 30px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transform: scale(0.9) translateY(20px);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.radar-section .analysis-overlay.active .loader-content {
+  transform: scale(1) translateY(0);
+}
+
+/* ===== Spinner animado ===== */
+.radar-section .loader-spinner {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 25px;
+  position: relative;
+}
+
+.radar-section .loader-spinner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid rgba(59, 130, 246, 0.2);
+  border-top: 3px solid #3b82f6;
+  border-radius: 50%;
+  animation: radarSpin 1.2s linear infinite;
+}
+
+.radar-section .loader-spinner::after {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  border: 2px solid rgba(34, 197, 94, 0.2);
+  border-top: 2px solid #22c55e;
+  border-radius: 50%;
+  animation: radarSpin 0.8s linear infinite reverse;
+}
+
+@keyframes radarSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ===== Texto del loader ===== */
+.radar-section .loader-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--radar-text-primary);
+  margin-bottom: 15px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.radar-section .loader-message {
+  font-size: 1rem;
+  color: var(--radar-text-secondary);
+  margin-bottom: 20px;
+  min-height: 24px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+/* ===== Barra de progreso ===== */
+.radar-section .loader-progress {
+  width: 100%;
+  height: 4px;
+  background: rgba(59, 130, 246, 0.2);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.radar-section .loader-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #22c55e, #3b82f6);
+  background-size: 200% 100%;
+  border-radius: 2px;
+  animation: progressFlow 2s ease-in-out infinite;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+@keyframes progressFlow {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ===== Estados del botón durante análisis ===== */
+.radar-section .analyze-btn.loading {
+  background: linear-gradient(135deg, #6b7280, #4b5563);
+  color: #9ca3af;
+  cursor: not-allowed;
+  pointer-events: none;
+  transform: none;
+  box-shadow: none;
+}
+
+.radar-section .analyze-btn.loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  margin: -8px 0 0 -8px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top: 2px solid #fff;
+  border-radius: 50%;
+  animation: buttonSpin 1s linear infinite;
+}
+
+@keyframes buttonSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ===== Efecto de desenfoque en el contenido principal ===== */
+.radar-section.analyzing {
+  transition: filter 0.4s ease;
+}
+
+.radar-section.analyzing .radar-container {
+  filter: blur(3px) brightness(0.7);
+  transition: all 0.4s ease;
+  pointer-events: none;
+}
+
+/* ===== Partículas animadas de fondo (opcional) ===== */
+.radar-section .loader-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.radar-section .loader-particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgba(59, 130, 246, 0.6);
+  border-radius: 50%;
+  animation: floatParticle 8s linear infinite;
+}
+
+.radar-section .loader-particle:nth-child(2n) {
+  background: rgba(34, 197, 94, 0.6);
+  animation-delay: -2s;
+  animation-duration: 10s;
+}
+
+.radar-section .loader-particle:nth-child(3n) {
+  background: rgba(245, 158, 11, 0.6);
+  animation-delay: -4s;
+  animation-duration: 12s;
+}
+
+@keyframes floatParticle {
+  0% {
+    transform: translateY(100vh) translateX(0) scale(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-10vh) translateX(100px) scale(0);
+    opacity: 0;
+  }
+}
+
+/* ===== Simulación de análisis en el fondo ===== */
+.radar-section .results-grid.clearing {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: all 0.3s ease;
+}
+
+.radar-section .results-grid.simulating {
+  filter: blur(2px) brightness(0.6);
+  opacity: 0.7;
+}
+
+.radar-section .simulation-card {
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+  animation: simulationFadeIn 0.6s ease forwards;
+  background: rgba(25, 35, 52, 0.3) !important;
+  border: 1px solid rgba(75, 85, 99, 0.1) !important;
+}
+
+@keyframes simulationFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.radar-section .simulation-content {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.radar-section .simulation-loader {
+  margin-bottom: 20px;
+}
+
+.radar-section .simulation-dots {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.radar-section .simulation-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--category-color);
+  animation: simulationPulse 1.4s ease-in-out infinite;
+}
+
+.radar-section .simulation-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.radar-section .simulation-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes simulationPulse {
+  0%, 80%, 100% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  40% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+.radar-section .simulation-stats {
+  margin-top: 15px;
+}
+
+.radar-section .simulation-bar {
+  width: 100%;
+  height: 6px;
+  background: rgba(59, 130, 246, 0.2);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.radar-section .simulation-progress {
+  height: 100%;
+  background: linear-gradient(90deg, var(--category-color), rgba(255, 255, 255, 0.3));
+  border-radius: 3px;
+  width: 0%;
+  transition: width 0.8s ease;
+  position: relative;
+}
+
+.radar-section .simulation-progress::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.radar-section .simulation-text {
+  font-size: 0.8rem;
+  color: var(--radar-text-muted);
+  font-style: italic;
+}
+
+/* ===== Estados de transición ===== */
+.radar-section .results-grid {
+  transition: all 0.4s ease;
+}
+
+.radar-section .category-card {
+  transition: all 0.4s ease;
+}
+
+/* ===== Efecto de "escaneo" en las tarjetas de simulación ===== */
+.radar-section .simulation-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(var(--category-color-rgb), 0.2), transparent);
+  animation: scanEffect 3s infinite;
+  pointer-events: none;
+}
+
+@keyframes scanEffect {
+  0% { left: -100%; }
+  50% { left: 100%; }
+  100% { left: 100%; }
+}
+
+/* ===== Variables CSS para colores RGB (necesarias para el efecto de escaneo) ===== */
+.radar-section .goles {
+  --category-color-rgb: 34, 197, 94;
+}
+
+.radar-section .btts {
+  --category-color-rgb: 245, 158, 11;
+}
+
+.radar-section .tarjetas {
+  --category-color-rgb: 239, 68, 68;
+}
+
+.radar-section .esquinas {
+  --category-color-rgb: 236, 72, 153;
+}
+
+.radar-section .rendimiento {
+  --category-color-rgb: 59, 130, 246;
+}
+
+.radar-section .goles-equipo {
+  --category-color-rgb: 139, 92, 246;
+}
+
+.radar-section .posicion {
+  --category-color-rgb: 245, 158, 11;
+}
+
+.radar-section .defensa {
+  --category-color-rgb: 139, 92, 246;
+}
+
+.radar-section .ataque {
+  --category-color-rgb: 6, 182, 212;
+}
+
+/* ===== Scrollbar personalizada ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.4);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.6);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.8);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 1200px) {
+  .radar-section .results-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .radar-section .results-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .radar-section .radar-title { 
+    font-size: 2rem; 
+  }
+  
+  .radar-section .controls-panel { 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .radar-section .control-group { 
+    width: 100%; 
+    max-width: 300px; 
+  }
+  
+  .radar-section select,
+  .radar-section input { 
+    width: 100%; 
+  }
+  
+  .radar-section .results-grid { 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .radar-section .results-grid { 
+    grid-template-columns: 1fr;
+  }
+  
+  .radar-section .category-card {
+    padding: 16px;
+    min-width: auto;
+  }
+  
+  .radar-section .radar-container {
+    padding: 15px;
+  }
+}

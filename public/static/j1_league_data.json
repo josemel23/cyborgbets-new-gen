@@ -1,0 +1,684 @@
+{
+    "teams": [
+        {
+            "team": "Kyoto Sanga",
+            "btts": {
+                "Yes": "65%"
+            },
+            "cards": {
+                "over_3_5": "23%",
+                "over_4_5": "8%",
+                "over_5_5": "4%"
+            },
+            "corners": {
+                "8.5": "69%",
+                "9.5": "50%",
+                "10.5": "27%",
+                "11.5": "15%",
+                "12.5": "12%",
+                "13.5": "4%",
+                "average": "9.19"
+            },
+            "goals": {
+                "1.5": "71%",
+                "2.5": "58%",
+                "3.5": "42%"
+            },
+            "position": "2",
+            "matches_played": "26",
+            "wins": "14",
+            "draws": "6",
+            "losses": "6",
+            "goals_for": "43",
+            "goals_against": "30",
+            "goal_difference": "+13",
+            "points": "48"
+        },
+        {
+            "team": "Cerezo Osaka",
+            "btts": {
+                "Yes": "65%"
+            },
+            "cards": {
+                "over_3_5": "31%",
+                "over_4_5": "4%",
+                "over_5_5": "4%"
+            },
+            "corners": {
+                "8.5": "73%",
+                "9.5": "62%",
+                "10.5": "50%",
+                "11.5": "38%",
+                "12.5": "27%",
+                "13.5": "27%",
+                "average": "10.81"
+            },
+            "goals": {
+                "1.5": "69%",
+                "2.5": "58%",
+                "3.5": "46%"
+            },
+            "position": "9",
+            "matches_played": "26",
+            "wins": "10",
+            "draws": "7",
+            "losses": "9",
+            "goals_for": "40",
+            "goals_against": "37",
+            "goal_difference": "+3",
+            "points": "37"
+        },
+        {
+            "team": "Nagoya Grampus",
+            "btts": {
+                "Yes": "65%"
+            },
+            "cards": {
+                "over_3_5": "27%",
+                "over_4_5": "12%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "65%",
+                "9.5": "42%",
+                "10.5": "35%",
+                "11.5": "19%",
+                "12.5": "12%",
+                "13.5": "8%",
+                "average": "9.31"
+            },
+            "goals": {
+                "1.5": "67%",
+                "2.5": "65%",
+                "3.5": "64%"
+            },
+            "position": "16",
+            "matches_played": "26",
+            "wins": "7",
+            "draws": "7",
+            "losses": "12",
+            "goals_for": "30",
+            "goals_against": "37",
+            "goal_difference": "-7",
+            "points": "28"
+        },
+        {
+            "team": "Albirex Niigata",
+            "btts": {
+                "Yes": "62%"
+            },
+            "cards": {
+                "over_3_5": "15%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "42%",
+                "9.5": "38%",
+                "10.5": "31%",
+                "11.5": "23%",
+                "12.5": "23%",
+                "13.5": "12%",
+                "average": "9.16"
+            },
+            "goals": {
+                "1.5": "54%",
+                "2.5": "54%",
+                "3.5": "54%"
+            },
+            "position": "20",
+            "matches_played": "26",
+            "wins": "4",
+            "draws": "8",
+            "losses": "14",
+            "goals_for": "26",
+            "goals_against": "45",
+            "goal_difference": "-19",
+            "points": "20"
+        },
+        {
+            "team": "Kawasaki Frontale",
+            "btts": {
+                "Yes": "65%"
+            },
+            "cards": {
+                "over_3_5": "31%",
+                "over_4_5": "12%",
+                "over_5_5": "8%"
+            },
+            "corners": {
+                "8.5": "77%",
+                "9.5": "54%",
+                "10.5": "31%",
+                "11.5": "23%",
+                "12.5": "19%",
+                "13.5": "8%",
+                "average": "10.15"
+            },
+            "goals": {
+                "1.5": "69%",
+                "2.5": "62%",
+                "3.5": "54%"
+            },
+            "position": "8",
+            "matches_played": "26",
+            "wins": "10",
+            "draws": "9",
+            "losses": "7",
+            "goals_for": "41",
+            "goals_against": "32",
+            "goal_difference": "+9",
+            "points": "39"
+        },
+        {
+            "team": "Urawa Reds",
+            "btts": {
+                "Yes": "62%"
+            },
+            "cards": {
+                "over_3_5": "15%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "69%",
+                "9.5": "58%",
+                "10.5": "54%",
+                "11.5": "38%",
+                "12.5": "27%",
+                "13.5": "19%",
+                "average": "10.54"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "46%",
+                "3.5": "42%"
+            },
+            "position": "7",
+            "matches_played": "26",
+            "wins": "12",
+            "draws": "8",
+            "losses": "6",
+            "goals_for": "36",
+            "goals_against": "26",
+            "goal_difference": "+10",
+            "points": "44"
+        },
+        {
+            "team": "Shimizu S-Pulse",
+            "btts": {
+                "Yes": "46%"
+            },
+            "cards": {
+                "over_3_5": "42%",
+                "over_4_5": "15%",
+                "over_5_5": "8%"
+            },
+            "corners": {
+                "8.5": "69%",
+                "9.5": "54%",
+                "10.5": "35%",
+                "11.5": "23%",
+                "12.5": "23%",
+                "13.5": "15%",
+                "average": "9.62"
+            },
+            "goals": {
+                "1.5": "54%",
+                "2.5": "42%",
+                "3.5": "31%"
+            },
+            "position": "13",
+            "matches_played": "26",
+            "wins": "8",
+            "draws": "7",
+            "losses": "11",
+            "goals_for": "30",
+            "goals_against": "35",
+            "goal_difference": "-5",
+            "points": "31"
+        },
+        {
+            "team": "Kashima Antlers",
+            "btts": {
+                "Yes": "50%"
+            },
+            "cards": {
+                "over_3_5": "38%",
+                "over_4_5": "19%",
+                "over_5_5": "8%"
+            },
+            "corners": {
+                "8.5": "58%",
+                "9.5": "54%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "42%",
+                "13.5": "23%",
+                "average": "10.5"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "46%",
+                "3.5": "43%"
+            },
+            "position": "1",
+            "matches_played": "26",
+            "wins": "15",
+            "draws": "3",
+            "losses": "8",
+            "goals_for": "38",
+            "goals_against": "25",
+            "goal_difference": "+13",
+            "points": "48"
+        },
+        {
+            "team": "Vissel Kobe",
+            "btts": {
+                "Yes": "46%"
+            },
+            "cards": {
+                "over_3_5": "19%",
+                "over_4_5": "8%",
+                "over_5_5": "4%"
+            },
+            "corners": {
+                "8.5": "69%",
+                "9.5": "50%",
+                "10.5": "35%",
+                "11.5": "31%",
+                "12.5": "19%",
+                "13.5": "4%",
+                "average": "9.62"
+            },
+            "goals": {
+                "1.5": "54%",
+                "2.5": "46%",
+                "3.5": "38%"
+            },
+            "position": "6",
+            "matches_played": "26",
+            "wins": "14",
+            "draws": "4",
+            "losses": "8",
+            "goals_for": "34",
+            "goals_against": "25",
+            "goal_difference": "+9",
+            "points": "46"
+        },
+        {
+            "team": "Kashiwa Reysol",
+            "btts": {
+                "Yes": "48%"
+            },
+            "cards": {
+                "over_3_5": "24%",
+                "over_4_5": "4%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "80%",
+                "9.5": "72%",
+                "10.5": "52%",
+                "11.5": "28%",
+                "12.5": "20%",
+                "13.5": "12%",
+                "average": "10.56"
+            },
+            "goals": {
+                "1.5": "33%",
+                "2.5": "32%",
+                "3.5": "31%"
+            },
+            "position": "3",
+            "matches_played": "25",
+            "wins": "13",
+            "draws": "8",
+            "losses": "4",
+            "goals_for": "35",
+            "goals_against": "23",
+            "goal_difference": "+12",
+            "points": "47"
+        },
+        {
+            "team": "Machida Zelvia",
+            "btts": {
+                "Yes": "38%"
+            },
+            "cards": {
+                "over_3_5": "15%",
+                "over_4_5": "8%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "35%",
+                "9.5": "23%",
+                "10.5": "8%",
+                "11.5": "8%",
+                "12.5": "8%",
+                "13.5": "4%",
+                "average": "7.54"
+            },
+            "goals": {
+                "1.5": "62%",
+                "2.5": "58%",
+                "3.5": "54%"
+            },
+            "position": "4",
+            "matches_played": "26",
+            "wins": "14",
+            "draws": "4",
+            "losses": "8",
+            "goals_for": "39",
+            "goals_against": "25",
+            "goal_difference": "+14",
+            "points": "46"
+        },
+        {
+            "team": "Sanfrecce Hiroshima",
+            "btts": {
+                "Yes": "38%"
+            },
+            "cards": {
+                "over_3_5": "23%",
+                "over_4_5": "8%",
+                "over_5_5": "4%"
+            },
+            "corners": {
+                "8.5": "58%",
+                "9.5": "50%",
+                "10.5": "31%",
+                "11.5": "19%",
+                "12.5": "19%",
+                "13.5": "12%",
+                "average": "9.39"
+            },
+            "goals": {
+                "1.5": "38%",
+                "2.5": "35%",
+                "3.5": "31%"
+            },
+            "position": "5",
+            "matches_played": "26",
+            "wins": "14",
+            "draws": "4",
+            "losses": "8",
+            "goals_for": "30",
+            "goals_against": "18",
+            "goal_difference": "+12",
+            "points": "46"
+        },
+        {
+            "team": "Avispa Fukuoka",
+            "btts": {
+                "Yes": "46%"
+            },
+            "cards": {
+                "over_3_5": "31%",
+                "over_4_5": "19%",
+                "over_5_5": "8%"
+            },
+            "corners": {
+                "8.5": "35%",
+                "9.5": "15%",
+                "10.5": "12%",
+                "11.5": "8%",
+                "12.5": "8%",
+                "13.5": "0%",
+                "average": "7.61"
+            },
+            "goals": {
+                "1.5": "38%",
+                "2.5": "35%",
+                "3.5": "31%"
+            },
+            "position": "10",
+            "matches_played": "26",
+            "wins": "9",
+            "draws": "9",
+            "losses": "8",
+            "goals_for": "27",
+            "goals_against": "26",
+            "goal_difference": "+1",
+            "points": "36"
+        },
+        {
+            "team": "Shonan Bellmare",
+            "btts": {
+                "Yes": "46%"
+            },
+            "cards": {
+                "over_3_5": "8%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "58%",
+                "9.5": "46%",
+                "10.5": "38%",
+                "11.5": "31%",
+                "12.5": "23%",
+                "13.5": "15%",
+                "average": "9.54"
+            },
+            "goals": {
+                "1.5": "46%",
+                "2.5": "46%",
+                "3.5": "46%"
+            },
+            "position": "17",
+            "matches_played": "26",
+            "wins": "6",
+            "draws": "7",
+            "losses": "13",
+            "goals_for": "22",
+            "goals_against": "41",
+            "goal_difference": "-19",
+            "points": "25"
+        },
+        {
+            "team": "Yokohama F. Marinos",
+            "btts": {
+                "Yes": "38%"
+            },
+            "cards": {
+                "over_3_5": "38%",
+                "over_4_5": "12%",
+                "over_5_5": "4%"
+            },
+            "corners": {
+                "8.5": "73%",
+                "9.5": "58%",
+                "10.5": "46%",
+                "11.5": "46%",
+                "12.5": "38%",
+                "13.5": "23%",
+                "average": "10.73"
+            },
+            "goals": {
+                "1.5": "46%",
+                "2.5": "42%",
+                "3.5": "38%"
+            },
+            "position": "18",
+            "matches_played": "26",
+            "wins": "6",
+            "draws": "6",
+            "losses": "14",
+            "goals_for": "26",
+            "goals_against": "34",
+            "goal_difference": "-8",
+            "points": "24"
+        },
+        {
+            "team": "Fagiano Okayama",
+            "btts": {
+                "Yes": "36%"
+            },
+            "cards": {
+                "over_3_5": "8%",
+                "over_4_5": "4%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "72%",
+                "9.5": "60%",
+                "10.5": "48%",
+                "11.5": "36%",
+                "12.5": "28%",
+                "13.5": "24%",
+                "average": "10.72"
+            },
+            "goals": {
+                "1.5": "31%",
+                "2.5": "28%",
+                "3.5": "25%"
+            },
+            "position": "12",
+            "matches_played": "25",
+            "wins": "9",
+            "draws": "6",
+            "losses": "10",
+            "goals_for": "23",
+            "goals_against": "22",
+            "goal_difference": "+1",
+            "points": "33"
+        },
+        {
+            "team": "Gamba Osaka",
+            "btts": {
+                "Yes": "35%"
+            },
+            "cards": {
+                "over_3_5": "15%",
+                "over_4_5": "12%",
+                "over_5_5": "4%"
+            },
+            "corners": {
+                "8.5": "54%",
+                "9.5": "42%",
+                "10.5": "35%",
+                "11.5": "19%",
+                "12.5": "12%",
+                "13.5": "8%",
+                "average": "9.35"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "42%",
+                "3.5": "36%"
+            },
+            "position": "11",
+            "matches_played": "26",
+            "wins": "10",
+            "draws": "4",
+            "losses": "12",
+            "goals_for": "29",
+            "goals_against": "35",
+            "goal_difference": "-6",
+            "points": "34"
+        },
+        {
+            "team": "Tokyo",
+            "btts": {
+                "Yes": "38%"
+            },
+            "cards": {
+                "over_3_5": "23%",
+                "over_4_5": "8%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "62%",
+                "9.5": "50%",
+                "10.5": "38%",
+                "11.5": "23%",
+                "12.5": "15%",
+                "13.5": "15%",
+                "average": "9.3"
+            },
+            "goals": {
+                "1.5": "54%",
+                "2.5": "50%",
+                "3.5": "46%"
+            },
+            "position": "15",
+            "matches_played": "26",
+            "wins": "8",
+            "draws": "6",
+            "losses": "12",
+            "goals_for": "29",
+            "goals_against": "37",
+            "goal_difference": "-8",
+            "points": "30"
+        },
+        {
+            "team": "Yokohama",
+            "btts": {
+                "Yes": "31%"
+            },
+            "cards": {
+                "over_3_5": "27%",
+                "over_4_5": "12%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "35%",
+                "9.5": "23%",
+                "10.5": "19%",
+                "11.5": "12%",
+                "12.5": "12%",
+                "13.5": "8%",
+                "average": "8.23"
+            },
+            "goals": {
+                "1.5": "42%",
+                "2.5": "31%",
+                "3.5": "21%"
+            },
+            "position": "19",
+            "matches_played": "26",
+            "wins": "6",
+            "draws": "4",
+            "losses": "16",
+            "goals_for": "16",
+            "goals_against": "32",
+            "goal_difference": "-16",
+            "points": "22"
+        },
+        {
+            "team": "Tokyo Verdy",
+            "btts": {
+                "Yes": "19%"
+            },
+            "cards": {
+                "over_3_5": "31%",
+                "over_4_5": "8%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "54%",
+                "9.5": "50%",
+                "10.5": "31%",
+                "11.5": "19%",
+                "12.5": "15%",
+                "13.5": "8%",
+                "average": "9.35"
+            },
+            "goals": {
+                "1.5": "31%",
+                "2.5": "27%",
+                "3.5": "23%"
+            },
+            "position": "14",
+            "matches_played": "26",
+            "wins": "8",
+            "draws": "7",
+            "losses": "11",
+            "goals_for": "16",
+            "goals_against": "25",
+            "goal_difference": "-9",
+            "points": "31"
+        }
+    ]
+}
