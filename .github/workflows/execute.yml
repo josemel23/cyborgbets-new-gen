@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Clonar repositorio
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Configurar Python
         if: github.event.inputs.accion == 'scraper'
@@ -56,6 +58,33 @@ jobs:
             exit 1
           fi
 
+      - name: Verificar archivos generados
+        if: github.event.inputs.accion == 'scraper'
+        run: |
+          echo "📁 Archivos JSON encontrados:"
+          find . -name "*.json" -type f -ls || echo "No se encontraron archivos JSON"
+          echo "📁 Estado de git:"
+          git status
+
+      - name: Commit y Push cambios
+        if: github.event.inputs.accion == 'scraper'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Agregar todos los archivos
+          git add .
+          
+          # Verificar si hay cambios para commitear
+          if git diff --staged --quiet; then
+            echo "ℹ️ No hay cambios para commitear"
+          else
+            echo "📝 Commiteando cambios..."
+            git commit -m "🤖 Actualizar datos de ${{ github.event.inputs.liga }} - $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+            echo "✅ Cambios guardados en GitHub"
+          fi
+
       - name: Configurar Node.js
         if: github.event.inputs.accion == 'deploy'
         uses: actions/setup-node@v4
@@ -81,6 +110,7 @@ jobs:
         run: |
           if [ "${{ github.event.inputs.accion }}" == "scraper" ]; then
             echo "🎯 Scraper '${{ github.event.inputs.liga }}' ejecutado con éxito"
+            echo "📋 Los archivos han sido guardados en GitHub"
           elif [ "${{ github.event.inputs.accion }}" == "deploy" ]; then
             echo "🎯 Deploy a Firebase completado con éxito"
           fi
