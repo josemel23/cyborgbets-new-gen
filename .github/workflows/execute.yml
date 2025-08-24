@@ -146,36 +146,82 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
 
-      # OPCIÓN 4: Deploy a Railway - VERSIÓN CORREGIDA
+      # OPCIÓN 4: Deploy a Railway - MÉTODO OFICIAL
+      - name: Setup Node.js for Railway CLI
+        if: steps.setup.outputs.project_type == 'flask' || steps.setup.outputs.project_type == 'python'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
       - name: Deploy to Railway
         if: steps.setup.outputs.project_type == 'flask' || steps.setup.outputs.project_type == 'python'
-        uses: bervProject/railway-deploy@v0.1.2
-        with:
-          railway_token: ${{ secrets.RAILWAY_TOKEN }}
-          service: ${{ secrets.RAILWAY_SERVICE }}
-
-      # OPCIÓN 4 ALTERNATIVA: Deploy a Railway usando el método oficial
-      - name: Deploy to Railway (Método alternativo)
-        if: false  # Cambia a true si la opción anterior sigue fallando
         run: |
-          # Instalar Railway CLI
-          npm install -g @railway/cli
+          echo "🚂 Iniciando deploy a Railway..."
           
-          # Autenticar con Railway
-          echo "${{ secrets.RAILWAY_TOKEN }}" | railway login
+          # Instalar Railway CLI
+          npm install -g @railway/cli@latest
+          
+          # Verificar instalación
+          railway --version
+          
+          # Conectar a Railway usando el token
+          railway login --browserless
+          
+          # Listar proyectos (para debug)
+          railway projects
           
           # Deploy del proyecto
-          railway up --service ${{ secrets.RAILWAY_SERVICE }}
+          if [ -n "${{ secrets.RAILWAY_SERVICE }}" ]; then
+            echo "🎯 Deploying a servicio específico: ${{ secrets.RAILWAY_SERVICE }}"
+            railway up --service ${{ secrets.RAILWAY_SERVICE }}
+          else
+            echo "🎯 Deploying a proyecto por defecto"
+            railway up
+          fi
+          
+          echo "✅ Deploy a Railway completado"
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
 
-      # OPCIÓN 5: Deploy a Render (alternativa moderna para Python)
+      # OPCIÓN 5: Deploy a Heroku (alternativa confiable)
+      - name: Deploy to Heroku
+        if: false  # Cambia a true si quieres usar Heroku
+        uses: akhileshns/heroku-deploy@v3.12.14
+        with:
+          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+          heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
+          heroku_email: ${{ secrets.HEROKU_EMAIL }}
+          usedocker: false
+
+      # OPCIÓN 6: Deploy a Render (alternativa moderna)
       - name: Deploy to Render
         if: false  # Cambia a true si quieres usar Render
-        uses: johnbeynon/render-deploy-action@v0.0.8
-        with:
-          service-id: ${{ secrets.RENDER_SERVICE_ID }}
-          api-key: ${{ secrets.RENDER_API_KEY }}
+        run: |
+          echo "🎨 Iniciando deploy a Render..."
+          
+          # Trigger deploy usando Render API
+          curl -X POST "https://api.render.com/v1/services/${{ secrets.RENDER_SERVICE_ID }}/deploys" \
+            -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{}'
+          
+          echo "✅ Deploy a Render iniciado"
+
+      # OPCIÓN 7: Deploy a PythonAnywhere (específico para Python)
+      - name: Deploy to PythonAnywhere
+        if: false  # Cambia a true si quieres usar PythonAnywhere
+        run: |
+          echo "🐍 Deploying a PythonAnywhere..."
+          
+          # Subir archivos via SFTP/rsync
+          sudo apt-get install -y sshpass rsync
+          
+          # Sync archivos
+          sshpass -p "${{ secrets.PYTHONANYWHERE_PASSWORD }}" \
+            rsync -avz --delete ./ \
+            ${{ secrets.PYTHONANYWHERE_USER }}@ssh.pythonanywhere.com:/home/${{ secrets.PYTHONANYWHERE_USER }}/mysite/
+          
+          echo "✅ Archivos sincronizados a PythonAnywhere"
 
       - name: Deploy Success Notification
         run: |
