@@ -1,5 +1,4 @@
 name: Panel Scraper
-
 on:
   workflow_dispatch:
     inputs:
@@ -11,51 +10,8 @@ on:
           - deploy
       liga:
         required: false
-        type: choice
+        type: string
         default: liga_mx
-        options:
-          - liga_mx
-          - spain
-          - spain2
-          - england
-          - championship
-          - germany
-          - germany2
-          - italy
-          - italy2
-          - france
-          - france2
-          - netherlands
-          - netherlands2
-          - portugal
-          - portugal2
-          - argentina
-          - brazil
-          - brazil2
-          - bulgaria
-          - mexico
-          - saudi-arabia
-          - colombia
-          - estonia
-          - scotland
-          - japan
-          - china
-          - sweden
-          - belgium
-          - norway
-          - suiza
-          - turkey
-          - ecuador
-          - usa
-          - australia
-          - greece
-          - chile
-          - checa
-          - croacia
-          - libertadores
-          - sudamericana
-          - bolivia
-
 jobs:
   scraper:
     runs-on: ubuntu-latest
@@ -94,148 +50,14 @@ jobs:
           # Crear carpetas public/static si no existen
           mkdir -p public/static
           
-          # Definir el nombre del archivo según la liga
-          case "${{ inputs.liga }}" in
-            "spain")
-              FILE_NAME="la_liga_data.json"
-              ;;
-            "spain2")
-              FILE_NAME="liga_hypermotion_data.json"
-              ;;
-            "england")
-              FILE_NAME="premier_league_data.json"
-              ;;
-            "championship")
-              FILE_NAME="championship_data.json"
-              ;;
-            "germany")
-              FILE_NAME="bundesliga_data.json"
-              ;;
-            "germany2")
-              FILE_NAME="bundesliga_2_data.json"
-              ;;
-            "italy")
-              FILE_NAME="serie_a_data.json"
-              ;;
-            "italy2")
-              FILE_NAME="serie_b_data.json"
-              ;;
-            "france")
-              FILE_NAME="ligue_1_data.json"
-              ;;
-            "france2")
-              FILE_NAME="ligue_2_data.json"
-              ;;
-            "netherlands")
-              FILE_NAME="eredivisie_data.json"
-              ;;
-            "netherlands2")
-              FILE_NAME="eerste_divisie_data.json"
-              ;;
-            "portugal")
-              FILE_NAME="primeira_liga_data.json"
-              ;;
-            "portugal2")
-              FILE_NAME="liga_portugal_2_data.json"
-              ;;
-            "argentina")
-              FILE_NAME="primera_division_argentina_data.json"
-              ;;
-            "brazil")
-              FILE_NAME="serie_a_brasil_data.json"
-              ;;
-            "brazil2")
-              FILE_NAME="serie_b_brasil_data.json"
-              ;;
-            "bulgaria")
-              FILE_NAME="bulgaria_data.json"
-              ;;
-            "mexico"|"liga_mx")
-              FILE_NAME="liga_mx_data.json"
-              ;;
-            "saudi-arabia")
-              FILE_NAME="saudi-arabia_data.json"
-              ;;
-            "colombia")
-              FILE_NAME="liga_betplay_data.json"
-              ;;
-            "estonia")
-              FILE_NAME="meistriliiga_data.json"
-              ;;
-            "scotland")
-              FILE_NAME="scotland_premiership_data.json"
-              ;;
-            "japan")
-              FILE_NAME="j1_league_data.json"
-              ;;
-            "china")
-              FILE_NAME="super_league_china_data.json"
-              ;;
-            "sweden")
-              FILE_NAME="allsvenskan_data.json"
-              ;;
-            "belgium")
-              FILE_NAME="pro_league_belgium_data.json"
-              ;;
-            "norway")
-              FILE_NAME="eliteserien_data.json"
-              ;;
-            "suiza")
-              FILE_NAME="super_league_suiza_data.json"
-              ;;
-            "turkey")
-              FILE_NAME="super_lig_turkey_data.json"
-              ;;
-            "ecuador")
-              FILE_NAME="serie_a_ecuador_data.json"
-              ;;
-            "usa")
-              FILE_NAME="mls_usa_data.json"
-              ;;
-            "australia")
-              FILE_NAME="a_league_australia_data.json"
-              ;;
-            "greece")
-              FILE_NAME="super_league_greece_data.json"
-              ;;
-            "chile")
-              FILE_NAME="primera_division_chile_data.json"
-              ;;
-            "checa")
-              FILE_NAME="checa_data.json"
-              ;;
-            "croacia")
-              FILE_NAME="croacia_data.json"
-              ;;
-            "libertadores")
-              FILE_NAME="libertadores_data.json"
-              ;;
-            "sudamericana")
-              FILE_NAME="sudamericana_data.json"
-              ;;
-            "bolivia")
-              FILE_NAME="Lfpb.json"
-              ;;
-            *)
-              FILE_NAME="${{ inputs.liga }}_data.json"
-              ;;
-          esac
-          
-          echo "Buscando archivo: $FILE_NAME"
-          
-          # Buscar archivo específico generado
-          if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
-            echo "✅ Moviendo $FILE_NAME"
-            cp "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" "public/static/"
-            echo "Archivo movido a: public/static/$FILE_NAME"
-          elif [ -f "scraper/${{ inputs.liga }}/$FILE_NAME" ]; then
-            echo "✅ Moviendo $FILE_NAME desde directorio raíz del scraper"
-            cp "scraper/${{ inputs.liga }}/$FILE_NAME" "public/static/"
-            echo "Archivo movido a: public/static/$FILE_NAME"
+          # Buscar archivos generados en scraper/liga_mx/
+          if [ -f "scraper/${{ inputs.liga }}/public/static/${{ inputs.liga }}_data.json" ]; then
+            echo "✅ Moviendo ${{ inputs.liga }}_data.json"
+            cp "scraper/${{ inputs.liga }}/public/static/${{ inputs.liga }}_data.json" "public/static/"
+            echo "Archivo movido a: public/static/${{ inputs.liga }}_data.json"
           fi
           
-          # Buscar otros archivos JSON en la carpeta del scraper como fallback
-          echo "Buscando otros archivos JSON..."
+          # Buscar otros archivos JSON en la carpeta del scraper
           find "scraper/${{ inputs.liga }}/" -name "*.json" -exec echo "JSON encontrado: {}" \;
           find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
           
@@ -247,37 +69,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-update: ${{ inputs.liga }} data"
+            git commit -m "Auto-update: ${{ inputs.liga }}"
             git push
           fi
-
-  deploy:
-    runs-on: ubuntu-latest
-    if: inputs.accion == 'deploy'
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-      - name: Install Firebase CLI
-        run: |
-          npm install -g firebase-tools
-          firebase --version
-      - name: Verify files
-        run: |
-          echo "Verificando archivos para deploy..."
-          ls -la
-          if [ -d "public" ]; then
-            echo "Archivos en public/:"
-            ls -la public/
-            if [ -d "public/static" ]; then
-              echo "Archivos en public/static/:"
-              ls -la public/static/
-            fi
-          else
-            echo "ERROR: No hay carpeta public/"
-            exit 1
-          fi
-     
