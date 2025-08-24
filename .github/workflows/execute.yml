@@ -9,6 +9,8 @@ on:
         options:
           - scraper
           - deploy
+          - deploy-firebase
+          - deploy-pages
       liga:
         required: false
         type: choice
@@ -99,6 +101,19 @@ jobs:
           }
           echo "✅ Scraper completado"
           
+      - name: Clean and organize files
+        run: |
+          echo "🧹 Limpiando archivos problemáticos..."
+          
+          # Eliminar archivos sin extensión que pueden causar problemas
+          find . -type f ! -name "*.*" -exec echo "🗑️ Eliminando archivo sin extensión: {}" \; -delete
+          
+          # Limpiar archivos temporales
+          find . -name "*.tmp" -delete
+          find . -name "*.log" -delete
+          
+          echo "✅ Limpieza completada"
+          
       - name: Move files to correct location
         run: |
           echo "📁 Moviendo archivos a la ubicación correcta..."
@@ -108,163 +123,84 @@ jobs:
           
           # Definir el nombre del archivo según la liga
           case "${{ inputs.liga }}" in
-            "la_liga")
-              FILE_NAME="la_liga_data.json"
-              ;;
-            "liga_hypermotion")
-              FILE_NAME="liga_hypermotion_data.json"
-              ;;
-            "premier")
-              FILE_NAME="premier_league_data.json"
-              ;;
-            "championship")
-              FILE_NAME="championship_data.json"
-              ;;
-            "bundesliga")
-              FILE_NAME="bundesliga_data.json"
-              ;;
-            "bundesliga_2")
-              FILE_NAME="bundesliga_2_data.json"
-              ;;
-            "italia")
-              FILE_NAME="serie_a_data.json"
-              ;;
-            "italia_2")
-              FILE_NAME="serie_b_data.json"
-              ;;
-            "francia")
-              FILE_NAME="ligue_1_data.json"
-              ;;
-            "francia_2")
-              FILE_NAME="ligue_2_data.json"
-              ;;
-            "eredivisie")
-              FILE_NAME="eredivisie_data.json"
-              ;;
-            "eerste_divisie")
-              FILE_NAME="eerste_divisie_data.json"
-              ;;
-            "portugal")
-              FILE_NAME="primeira_liga_data.json"
-              ;;
-            "portugal_2")
-              FILE_NAME="liga_portugal_2_data.json"
-              ;;
-            "argentina")
-              FILE_NAME="primera_division_argentina_data.json"
-              ;;
-            "brasil")
-              FILE_NAME="serie_a_brasil_data.json"
-              ;;
-            "brasil_b")
-              FILE_NAME="serie_b_brasil_data.json"
-              ;;
-            "bulgaria")
-              FILE_NAME="bulgaria_data.json"
-              ;;
-            "liga_mx")
-              FILE_NAME="liga_mx_data.json"
-              ;;
-            "arabia")
-              FILE_NAME="saudi-arabia_data.json"
-              ;;
-            "liga_betplay")
-              FILE_NAME="liga_betplay_data.json"
-              ;;
-            "estonia")
-              FILE_NAME="meistriliiga_data.json"
-              ;;
-            "escocia")
-              FILE_NAME="scotland_premiership_data.json"
-              ;;
-            "j1_league")
-              FILE_NAME="j1_league_data.json"
-              ;;
-            "china")
-              FILE_NAME="super_league_china_data.json"
-              ;;
-            "suecia")
-              FILE_NAME="allsvenskan_data.json"
-              ;;
-            "belgica")
-              FILE_NAME="pro_league_belgium_data.json"
-              ;;
-            "noruega")
-              FILE_NAME="eliteserien_data.json"
-              ;;
-            "suiza")
-              FILE_NAME="super_league_suiza_data.json"
-              ;;
-            "turquia")
-              FILE_NAME="super_lig_turkey_data.json"
-              ;;
-            "ecuador")
-              FILE_NAME="serie_a_ecuador_data.json"
-              ;;
-            "mls")
-              FILE_NAME="mls_usa_data.json"
-              ;;
-            "australia")
-              FILE_NAME="a_league_australia_data.json"
-              ;;
-            "grecia")
-              FILE_NAME="super_league_greece_data.json"
-              ;;
-            "chile")
-              FILE_NAME="primera_division_chile_data.json"
-              ;;
-            "checa")
-              FILE_NAME="checa_data.json"
-              ;;
-            "croacia")
-              FILE_NAME="croacia_data.json"
-              ;;
-            "libertadores")
-              FILE_NAME="libertadores_data.json"
-              ;;
-            "sudamerica")
-              FILE_NAME="sudamericana_data.json"
-              ;;
-            "bolivia")
-              FILE_NAME="Lfpb.json"
-              ;;
-            *)
-              FILE_NAME="${{ inputs.liga }}_data.json"
-              ;;
+            "la_liga") FILE_NAME="la_liga_data.json" ;;
+            "liga_hypermotion") FILE_NAME="liga_hypermotion_data.json" ;;
+            "premier") FILE_NAME="premier_league_data.json" ;;
+            "championship") FILE_NAME="championship_data.json" ;;
+            "bundesliga") FILE_NAME="bundesliga_data.json" ;;
+            "bundesliga_2") FILE_NAME="bundesliga_2_data.json" ;;
+            "italia") FILE_NAME="serie_a_data.json" ;;
+            "italia_2") FILE_NAME="serie_b_data.json" ;;
+            "francia") FILE_NAME="ligue_1_data.json" ;;
+            "francia_2") FILE_NAME="ligue_2_data.json" ;;
+            "eredivisie") FILE_NAME="eredivisie_data.json" ;;
+            "eerste_divisie") FILE_NAME="eerste_divisie_data.json" ;;
+            "portugal") FILE_NAME="primeira_liga_data.json" ;;
+            "portugal_2") FILE_NAME="liga_portugal_2_data.json" ;;
+            "argentina") FILE_NAME="primera_division_argentina_data.json" ;;
+            "brasil") FILE_NAME="serie_a_brasil_data.json" ;;
+            "brasil_b") FILE_NAME="serie_b_brasil_data.json" ;;
+            "bulgaria") FILE_NAME="bulgaria_data.json" ;;
+            "liga_mx") FILE_NAME="liga_mx_data.json" ;;
+            "arabia") FILE_NAME="saudi-arabia_data.json" ;;
+            "liga_betplay") FILE_NAME="liga_betplay_data.json" ;;
+            "estonia") FILE_NAME="meistriliiga_data.json" ;;
+            "escocia") FILE_NAME="scotland_premiership_data.json" ;;
+            "j1_league") FILE_NAME="j1_league_data.json" ;;
+            "china") FILE_NAME="super_league_china_data.json" ;;
+            "suecia") FILE_NAME="allsvenskan_data.json" ;;
+            "belgica") FILE_NAME="pro_league_belgium_data.json" ;;
+            "noruega") FILE_NAME="eliteserien_data.json" ;;
+            "suiza") FILE_NAME="super_league_suiza_data.json" ;;
+            "turquia") FILE_NAME="super_lig_turkey_data.json" ;;
+            "ecuador") FILE_NAME="serie_a_ecuador_data.json" ;;
+            "mls") FILE_NAME="mls_usa_data.json" ;;
+            "australia") FILE_NAME="a_league_australia_data.json" ;;
+            "grecia") FILE_NAME="super_league_greece_data.json" ;;
+            "chile") FILE_NAME="primera_division_chile_data.json" ;;
+            "checa") FILE_NAME="checa_data.json" ;;
+            "croacia") FILE_NAME="croacia_data.json" ;;
+            "libertadores") FILE_NAME="libertadores_data.json" ;;
+            "sudamerica") FILE_NAME="sudamericana_data.json" ;;
+            "bolivia") FILE_NAME="Lfpb.json" ;;
+            *) FILE_NAME="${{ inputs.liga }}_data.json" ;;
           esac
           
           echo "🔍 Buscando archivo: $FILE_NAME"
           
-          # Buscar archivo específico generado
-          if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
-            echo "✅ Archivo encontrado en public/static/"
-            cp "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" "public/static/"
-            echo "📄 Archivo movido a: public/static/$FILE_NAME"
-          elif [ -f "scraper/${{ inputs.liga }}/$FILE_NAME" ]; then
-            echo "✅ Archivo encontrado en directorio raíz del scraper"
-            cp "scraper/${{ inputs.liga }}/$FILE_NAME" "public/static/"
-            echo "📄 Archivo movido a: public/static/$FILE_NAME"
-          else
-            echo "⚠️ Archivo específico no encontrado, buscando todos los JSON..."
+          # Buscar y copiar archivos JSON
+          FOUND=false
+          
+          # Buscar en diferentes ubicaciones
+          for location in "scraper/${{ inputs.liga }}/public/static" "scraper/${{ inputs.liga }}" "scraper/${{ inputs.liga }}/public"; do
+            if [ -f "$location/$FILE_NAME" ]; then
+              echo "✅ Archivo encontrado en: $location/"
+              cp "$location/$FILE_NAME" "public/static/"
+              FOUND=true
+              break
+            fi
+          done
+          
+          # Si no encuentra el archivo específico, buscar cualquier JSON
+          if [ "$FOUND" = false ]; then
+            echo "⚠️ Archivo específico no encontrado, buscando cualquier JSON..."
+            find "scraper/${{ inputs.liga }}/" -name "*.json" -type f | head -1 | while read file; do
+              if [ -f "$file" ]; then
+                echo "✅ Copiando: $file"
+                cp "$file" "public/static/$FILE_NAME"
+                FOUND=true
+              fi
+            done
           fi
           
-          # Buscar otros archivos JSON en la carpeta del scraper como fallback
-          echo "🔍 Buscando otros archivos JSON..."
-          find "scraper/${{ inputs.liga }}/" -name "*.json" -type f -exec echo "📄 JSON encontrado: {}" \;
-          find "scraper/${{ inputs.liga }}/" -name "*.json" -type f -exec cp {} "public/static/" \;
-          
-          echo "📋 === Archivos finales en public/static/ ==="
-          if [ -d "public/static" ]; then
-            ls -la public/static/
-            # Verificar que hay al menos un archivo JSON
-            if ! ls public/static/*.json 1> /dev/null 2>&1; then
-              echo "❌ ERROR: No se encontraron archivos JSON en public/static/"
-              echo "🔍 Contenido completo de la carpeta del scraper:"
-              find "scraper/${{ inputs.liga }}/" -type f -name "*"
-              exit 1
-            fi
+          # Verificar resultado final
+          if [ -f "public/static/$FILE_NAME" ]; then
+            echo "✅ Archivo final: public/static/$FILE_NAME"
+            ls -la "public/static/$FILE_NAME"
           else
-            echo "❌ ERROR: Carpeta public/static/ no existe"
+            echo "❌ ERROR: No se pudo generar el archivo final"
+            echo "🔍 Archivos disponibles en el scraper:"
+            find "scraper/${{ inputs.liga }}/" -type f -name "*"
             exit 1
           fi
           
@@ -272,7 +208,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add .
+          git add public/static/
           if ! git diff --cached --quiet; then
             git commit -m "🚀 Auto-update: ${{ inputs.liga }} - $(date '+%Y-%m-%d %H:%M')"
             git push
@@ -281,9 +217,81 @@ jobs:
             echo "ℹ️ No hay cambios para committear"
           fi
 
-  deploy:
+  # Deploy a GitHub Pages
+  deploy-pages:
     runs-on: ubuntu-latest
-    if: inputs.accion == 'deploy'
+    if: inputs.accion == 'deploy-pages' || inputs.accion == 'deploy'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Create index.html if not exists
+        run: |
+          if [ ! -f "public/index.html" ]; then
+            echo "📝 Creando index.html..."
+            cat > public/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="es">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>CyborgBets - Panel de Datos</title>
+              <style>
+                  body { font-family: Arial, sans-serif; margin: 40px; background: #1a1a1a; color: white; }
+                  .container { max-width: 800px; margin: 0 auto; }
+                  h1 { color: #00ff41; text-align: center; }
+                  .data-files { margin-top: 30px; }
+                  .file-item { background: #333; padding: 15px; margin: 10px 0; border-radius: 8px; }
+                  a { color: #00ff41; text-decoration: none; }
+                  a:hover { text-decoration: underline; }
+              </style>
+          </head>
+          <body>
+              <div class="container">
+                  <h1>🤖 CyborgBets - Panel de Datos</h1>
+                  <p>Datos actualizados automáticamente de diferentes ligas de fútbol.</p>
+                  <div class="data-files">
+                      <h2>📊 Archivos de Datos Disponibles:</h2>
+                      <div class="file-item">
+                          <h3>Liga MX</h3>
+                          <a href="static/liga_mx_data.json" target="_blank">📄 liga_mx_data.json</a>
+                      </div>
+                      <div class="file-item">
+                          <h3>La Liga</h3>
+                          <a href="static/la_liga_data.json" target="_blank">📄 la_liga_data.json</a>
+                      </div>
+                      <div class="file-item">
+                          <h3>Premier League</h3>
+                          <a href="static/premier_league_data.json" target="_blank">📄 premier_league_data.json</a>
+                      </div>
+                  </div>
+                  <p><small>Última actualización: <span id="lastUpdate"></span></small></p>
+                  <script>
+                      document.getElementById('lastUpdate').textContent = new Date().toLocaleString('es-ES');
+                  </script>
+              </div>
+          </body>
+          </html>
+          EOF
+            echo "✅ index.html creado"
+          fi
+        
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # Deploy a Firebase
+  deploy-firebase:
+    runs-on: ubuntu-latest
+    if: inputs.accion == 'deploy-firebase'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -295,147 +303,33 @@ jobs:
           
       - name: Install Firebase CLI
         run: |
-          echo "📦 Instalando Firebase CLI..."
           npm install -g firebase-tools@latest
           firebase --version
-          echo "✅ Firebase CLI instalado"
           
-      - name: Verify files and structure
+      - name: Create Firebase config
         run: |
-          echo "🔍 Verificando archivos para deploy..."
-          echo "📁 Estructura del repositorio:"
-          ls -la
-          
-          if [ -d "public" ]; then
-            echo "✅ Carpeta public/ encontrada"
-            echo "📄 Archivos en public/:"
-            ls -la public/
-            
-            if [ -d "public/static" ]; then
-              echo "✅ Carpeta public/static/ encontrada"
-              echo "📄 Archivos en public/static/:"
-              ls -la public/static/
-              
-              # Verificar archivos JSON
-              if ls public/static/*.json 1> /dev/null 2>&1; then
-                echo "✅ Archivos JSON encontrados:"
-                ls -la public/static/*.json
-              else
-                echo "⚠️ No se encontraron archivos JSON en public/static/"
-              fi
-            else
-              echo "⚠️ No hay carpeta public/static/"
-            fi
-          else
-            echo "❌ ERROR: No hay carpeta public/"
-            echo "🔧 Creando estructura básica..."
-            mkdir -p public
-            echo '<!DOCTYPE html><html><head><title>Panel Scraper</title></head><body><h1>Panel Scraper</h1><p>Deploy exitoso</p></body></html>' > public/index.html
-          fi
-          
-      - name: Create Firebase config files
-        run: |
-          echo "📝 Verificando archivos de configuración de Firebase..."
-          
-          # Crear firebase.json si no existe
-          if [ ! -f "firebase.json" ]; then
-            echo "📝 Creando firebase.json..."
-            cat > firebase.json << 'EOF'
+          # Crear firebase.json
+          cat > firebase.json << 'EOF'
           {
             "hosting": {
               "public": "public",
-              "ignore": [
-                "firebase.json",
-                "**/.*",
-                "**/node_modules/**",
-                "**/*.py",
-                "scraper/**"
-              ],
-              "rewrites": [{
-                "source": "**",
-                "destination": "/index.html"
-              }],
-              "headers": [
-                {
-                  "source": "**/*.@(json)",
-                  "headers": [
-                    {
-                      "key": "Cache-Control",
-                      "value": "max-age=300"
-                    }
-                  ]
-                }
-              ]
+              "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+              "rewrites": [{"source": "**", "destination": "/index.html"}]
             }
           }
           EOF
-            echo "✅ firebase.json creado"
-          else
-            echo "✅ firebase.json ya existe"
-          fi
           
-          # Crear .firebaserc si no existe
-          if [ ! -f ".firebaserc" ]; then
-            echo "📝 Creando .firebaserc..."
-            cat > .firebaserc << 'EOF'
+          # Crear .firebaserc (necesitarás cambiar el project ID)
+          cat > .firebaserc << 'EOF'
           {
             "projects": {
-              "default": "cyborgbets-new-gen"
+              "default": "tu-proyecto-firebase-id"
             }
           }
           EOF
-            echo "✅ .firebaserc creado con proyecto por defecto"
-          else
-            echo "✅ .firebaserc ya existe"
-          fi
-          
-          # Mostrar configuración actual
-          echo "📋 Configuración actual de Firebase:"
-          cat firebase.json
-          echo "📋 Proyecto configurado:"
-          cat .firebaserc
           
       - name: Deploy to Firebase
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: |
-          echo "🔥 Iniciando deploy a Firebase..."
-          
-          if [ -z "$FIREBASE_TOKEN" ]; then
-            echo "❌ ERROR: FIREBASE_TOKEN no está configurado"
-            echo "🔧 Configura el secret FIREBASE_TOKEN en GitHub"
-            exit 1
-          fi
-          
-          echo "✅ FIREBASE_TOKEN configurado correctamente"
-          
-          # Verificar que Firebase CLI funciona
-          echo "🔍 Verificando Firebase CLI..."
-          firebase --version
-          
-          # Verificar archivos antes del deploy
-          echo "📁 Verificando archivos finales..."
-          ls -la public/
-          
-          # Verificar configuración de Firebase
-          echo "📋 Verificando firebase.json..."
-          cat firebase.json
-          
-          # Intentar inicializar el proyecto (opcional)
-          echo "🔧 Verificando configuración del proyecto..."
-          firebase projects:list --token "$FIREBASE_TOKEN" || {
-            echo "⚠️ No se pudo listar proyectos, pero continuando..."
-          }
-          
-          echo "🚀 Ejecutando deploy con máximo detalle..."
-          firebase deploy --token "$FIREBASE_TOKEN" --non-interactive --debug --verbose || {
-            echo "❌ Error durante el deploy. Información adicional:"
-            echo "🔍 Verificando si hay archivos .firebaserc..."
-            ls -la .firebaserc 2>/dev/null || echo "No hay archivo .firebaserc"
-            echo "🔍 Verificando configuración actual..."
-            firebase list --token "$FIREBASE_TOKEN" 2>/dev/null || echo "No se pudo ejecutar firebase list"
-            exit 1
-          }
-          
-          echo "✅ Deploy completado exitosamente!"
-          echo "🌐 Tu app debería estar actualizada en Firebase Hosting"
+          firebase deploy --token "$FIREBASE_TOKEN" --non-interactive
