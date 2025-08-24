@@ -13,47 +13,48 @@ on:
         required: false
         type: choice
         default: liga_mx
-         options:
-          - arabia
-          - argentina
-          - australia
-          - belgica
-          - bolivia
-          - brasil
-          - brasil_b
-          - bulgaria
-          - bundesliga
-          - bundesliga_2
-          - championship
-          - checa
-          - chile
-          - china
-          - croacia
-          - ecuador
-          - eerste_divisie
-          - eredivisie
-          - escocia
-          - estonia
-          - francia
-          - francia_2
-          - grecia
-          - italia
-          - italia_2
-          - j1_league
-          - la_liga
-          - libertadores
-          - liga_betplay
-          - liga_hypermotion
+        options:
           - liga_mx
-          - mls
-          - noruega
+          - spain
+          - spain2
+          - england
+          - championship
+          - germany
+          - germany2
+          - italy
+          - italy2
+          - france
+          - france2
+          - netherlands
+          - netherlands2
           - portugal
-          - portugal_2
-          - premier
-          - sudamerica
-          - suecia
+          - portugal2
+          - argentina
+          - brazil
+          - brazil2
+          - bulgaria
+          - mexico
+          - saudi-arabia
+          - colombia
+          - estonia
+          - scotland
+          - japan
+          - china
+          - sweden
+          - belgium
+          - norway
           - suiza
-          - turquia
+          - turkey
+          - ecuador
+          - usa
+          - australia
+          - greece
+          - chile
+          - checa
+          - croacia
+          - libertadores
+          - sudamericana
+          - bolivia
 
 jobs:
   scraper:
@@ -279,7 +280,10 @@ jobs:
             echo "ERROR: No hay carpeta public/"
             exit 1
           fi
-     
+      - name: Deploy to Firebase
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
           echo "Desplegando a Firebase..."
           firebase deploy --token "$FIREBASE_TOKEN" --non-interactive
           echo "Deploy completado! Tu app debería estar actualizada"
