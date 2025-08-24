@@ -43,6 +43,26 @@ jobs:
         run: |
           cd "scraper/${{ inputs.liga }}"
           timeout 600 python3 "${{ inputs.liga }}_standings.py"
+      - name: Move files to correct location
+        run: |
+          echo "📁 Moviendo archivos a la ubicación correcta..."
+          
+          # Crear carpetas public/static si no existen
+          mkdir -p public/static
+          
+          # Buscar archivos generados en scraper/liga_mx/
+          if [ -f "scraper/${{ inputs.liga }}/public/static/${{ inputs.liga }}_data.json" ]; then
+            echo "✅ Moviendo ${{ inputs.liga }}_data.json"
+            cp "scraper/${{ inputs.liga }}/public/static/${{ inputs.liga }}_data.json" "public/static/"
+            echo "Archivo movido a: public/static/${{ inputs.liga }}_data.json"
+          fi
+          
+          # Buscar otros archivos JSON en la carpeta del scraper
+          find "scraper/${{ inputs.liga }}/" -name "*.json" -exec echo "JSON encontrado: {}" \;
+          find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
+          
+          echo "=== Archivos en public/static/ ==="
+          ls -la public/static/ || echo "Carpeta public/static/ vacía"
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
