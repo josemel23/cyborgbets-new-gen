@@ -146,13 +146,36 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
 
-      # OPCIÓN 4: Deploy a Railway (para Python/Flask)
+      # OPCIÓN 4: Deploy a Railway - VERSIÓN CORREGIDA
       - name: Deploy to Railway
         if: steps.setup.outputs.project_type == 'flask' || steps.setup.outputs.project_type == 'python'
-        uses: bervProject/railway-deploy@v1.1.0
+        uses: bervProject/railway-deploy@v0.1.2
         with:
           railway_token: ${{ secrets.RAILWAY_TOKEN }}
           service: ${{ secrets.RAILWAY_SERVICE }}
+
+      # OPCIÓN 4 ALTERNATIVA: Deploy a Railway usando el método oficial
+      - name: Deploy to Railway (Método alternativo)
+        if: false  # Cambia a true si la opción anterior sigue fallando
+        run: |
+          # Instalar Railway CLI
+          npm install -g @railway/cli
+          
+          # Autenticar con Railway
+          echo "${{ secrets.RAILWAY_TOKEN }}" | railway login
+          
+          # Deploy del proyecto
+          railway up --service ${{ secrets.RAILWAY_SERVICE }}
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+
+      # OPCIÓN 5: Deploy a Render (alternativa moderna para Python)
+      - name: Deploy to Render
+        if: false  # Cambia a true si quieres usar Render
+        uses: johnbeynon/render-deploy-action@v0.0.8
+        with:
+          service-id: ${{ secrets.RENDER_SERVICE_ID }}
+          api-key: ${{ secrets.RENDER_API_KEY }}
 
       - name: Deploy Success Notification
         run: |
