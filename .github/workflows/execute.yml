@@ -222,6 +222,16 @@ jobs:
           # Agregar timestamp al proceso para forzar cambios
           echo "⏰ Agregando timestamp: $(date)" > "public/static/last_update_${{ inputs.liga }}.txt"
           
+          # Modificar el JSON para forzar que Git detecte cambios (agregamos metadata de actualización)
+          if [ -f "public/static/$FILE_NAME" ]; then
+            echo "🔧 Agregando metadata de actualización al JSON..."
+            # Backup del JSON original
+            cp "public/static/$FILE_NAME" "public/static/$FILE_NAME.bak"
+            # Agregar timestamp al final del JSON (antes del último })
+            sed -i '$ s/}/,"last_updated":"'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}/' "public/static/$FILE_NAME"
+            echo "✅ Metadata agregada al JSON"
+          fi
+          
           # Buscar archivo específico generado
           if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
             echo "✅ ENCONTRADO en scraper/${{ inputs.liga }}/public/static/$FILE_NAME"
@@ -271,7 +281,8 @@ jobs:
           ls -la public/static/ | head -5
           
           echo "🔍 Agregando archivos..."
-          git add public/static/
+          git add public/static/*.json
+          git add public/static/last_update_*.txt
           git add .
           
           echo "📊 Estado después de git add:"
@@ -279,6 +290,8 @@ jobs:
           
           echo "🔍 Verificando diferencias en cache:"
           git diff --cached --name-only
+          echo "📋 Archivos específicos en public/static/ que cambiaron:"
+          git diff --cached --name-only | grep "public/static" || echo "❌ Ningún archivo de public/static/ en el commit"
           
           if ! git diff --cached --quiet; then
             echo "✅ HAY CAMBIOS - Creando commit..."
