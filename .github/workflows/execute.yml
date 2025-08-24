@@ -239,12 +239,36 @@ jobs:
           ls -la public/static/ || echo "Carpeta public/static/ vacía"
       - name: Commit files
         run: |
+          echo "🔧 Configurando Git..."
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          
+          echo "📊 Estado actual de Git:"
+          git status
+          
+          echo "📁 Verificando public/static/:"
+          ls -la public/static/ | head -5
+          
+          echo "🔍 Agregando archivos..."
+          git add public/static/
           git add .
+          
+          echo "📊 Estado después de git add:"
+          git status
+          
+          echo "🔍 Verificando diferencias en cache:"
+          git diff --cached --name-only
+          
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-update: ${{ inputs.liga }}"
-            git push
+            echo "✅ HAY CAMBIOS - Creando commit..."
+            git commit -m "Auto-update: ${{ inputs.liga }} $(date '+%Y-%m-%d %H:%M:%S')"
+            echo "🚀 Haciendo push..."
+            git push origin main
+            echo "✅ Push completado exitosamente"
+          else
+            echo "❌ NO HAY CAMBIOS para commitear"
+            echo "🔍 Mostrando últimos commits:"
+            git log --oneline -n 3
           fi
 
   deploy:
