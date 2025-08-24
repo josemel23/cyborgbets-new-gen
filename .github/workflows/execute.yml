@@ -15,26 +15,88 @@ on:
         default: liga_mx
 
 jobs:
-  test:
+  scraper:
     runs-on: ubuntu-latest
+    if: inputs.accion == 'scraper'
     steps:
-      - name: Test
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install Chrome
         run: |
-          echo "Accion: ${{ inputs.accion }}"
-          echo "Liga: ${{ inputs.liga }}"
-          
+          sudo apt-get update
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+      - name: Setup Display
+        run: |
+          export DISPLAY=:99
+          Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
+          sleep 3
+          echo "DISPLAY=:99" >> $GITHUB_ENV
+      - name: Install Python deps
+        run: |
+          pip install undetected-chromedriver selenium pandas requests beautifulsoup4
+      - name: Run scraper
+        run: |
+          cd "scraper/${{ inputs.liga }}"
+          timeout 600 python3 "${{ inputs.liga }}_standings.py"
+      - name: Move files to correct location
+        run: |
+          mkdir -p public/static
+          if [ -f "scraper/${{ inputs.liga }}/public/static/${{ inputs.liga }}_data.json" ]; then
+            cp "scraper/${{ inputs.liga }}/public/static/${{ inputs.liga }}_data.json" "public/static/"
+            echo "Archivo movido a public/static/"
+          fi
+          find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
+          ls -la public/static/
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update: ${{ inputs.liga }}"
+            git push
+          fi
+
   deploy:
     runs-on: ubuntu-latest
     if: inputs.accion == 'deploy'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
       - name: Install Firebase CLI
         run: |
           npm install -g firebase-tools
           firebase --version
-      - name: Test Firebase deploy
+      - name: Verify files
         run: |
-          echo "Testing Firebase deploy"
-          ls -la public/ || echo "No public folder"
-          echo "Firebase token configured: ${{ secrets.FIREBASE_TOKEN != '' }}"
+          echo "Verificando archivos para deploy..."
+          ls -la
+          if [ -d "public" ]; then
+            echo "Archivos en public/:"
+            ls -la public/
+            if [ -d "public/static" ]; then
+              echo "Archivos en public/static/:"
+              ls -la public/static/
+            fi
+          else
+            echo "ERROR: No hay carpeta public/"
+            exit 1
+          fi
+      - name: Deploy to Firebase
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
+          echo "Desplegando a Firebase..."
+          firebase deploy --token "$FIREBASE_TOKEN" --non-interactive
+          echo "Deploy completado! Tu app debería estar actualizada"
