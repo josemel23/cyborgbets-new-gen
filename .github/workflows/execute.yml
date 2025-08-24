@@ -90,6 +90,12 @@ jobs:
         run: |
           echo "📁 Moviendo archivos a la ubicación correcta..."
           
+          # Verificar que public/static existe (no la creamos si ya existe)
+          if [ ! -d "public/static" ]; then
+            echo "❌ ERROR: La carpeta public/static no existe"
+            exit 1
+          fi
+          
           # Definir el nombre del archivo según la liga
           case "${{ inputs.liga }}" in
             "la_liga")
