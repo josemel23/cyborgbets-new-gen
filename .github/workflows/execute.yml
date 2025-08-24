@@ -219,14 +219,9 @@ jobs:
           
           echo "Buscando archivo: $FILE_NAME"
           
-          # Agregar timestamp al proceso para forzar cambios
-          echo "⏰ Agregando timestamp: $(date)" > "public/static/last_update_${{ inputs.liga }}.txt"
-          
           # Modificar el JSON para forzar que Git detecte cambios (agregamos metadata de actualización)
           if [ -f "public/static/$FILE_NAME" ]; then
             echo "🔧 Agregando metadata de actualización al JSON..."
-            # Backup del JSON original
-            cp "public/static/$FILE_NAME" "public/static/$FILE_NAME.bak"
             # Agregar timestamp al final del JSON (antes del último })
             sed -i '$ s/}/,"last_updated":"'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}/' "public/static/$FILE_NAME"
             echo "✅ Metadata agregada al JSON"
@@ -282,7 +277,6 @@ jobs:
           
           echo "🔍 Agregando archivos..."
           git add public/static/*.json
-          git add public/static/last_update_*.txt
           git add .
           
           echo "📊 Estado después de git add:"
