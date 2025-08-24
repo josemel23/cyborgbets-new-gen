@@ -219,6 +219,9 @@ jobs:
           
           echo "Buscando archivo: $FILE_NAME"
           
+          # Agregar timestamp al proceso para forzar cambios
+          echo "⏰ Agregando timestamp: $(date)" > "public/static/last_update_${{ inputs.liga }}.txt"
+          
           # Buscar archivo específico generado
           if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
             echo "✅ Moviendo $FILE_NAME"
