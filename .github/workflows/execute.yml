@@ -1,4 +1,5 @@
 name: Panel Scraper
+
 on:
   workflow_dispatch:
     inputs:
@@ -10,8 +11,49 @@ on:
           - deploy
       liga:
         required: false
-        type: string
+        type: choice
         default: liga_mx
+        options:
+          - arabia
+          - argentina
+          - australia
+          - belgica
+          - bolivia
+          - brasil
+          - brasil_b
+          - bulgaria
+          - bundesliga
+          - bundesliga_2
+          - championship
+          - checa
+          - chile
+          - china
+          - croacia
+          - ecuador
+          - eerste_divisie
+          - eredivisie
+          - escocia
+          - estonia
+          - francia
+          - francia_2
+          - grecia
+          - italia
+          - italia_2
+          - j1_league
+          - la_liga
+          - libertadores
+          - liga_betplay
+          - liga_hypermotion
+          - liga_mx
+          - mls
+          - noruega
+          - portugal
+          - portugal_2
+          - premier
+          - sudamerica
+          - suecia
+          - suiza
+          - turquia
 
 jobs:
   scraper:
@@ -20,51 +62,223 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
+          
       - name: Install Chrome
         run: |
-          sudo apt-get update
+          sudo apt-get update -qq
           wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
           echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
-          sudo apt-get update
+          sudo apt-get update -qq
           sudo apt-get install -y google-chrome-stable
+          
       - name: Setup Display
         run: |
           export DISPLAY=:99
           Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
           sleep 3
           echo "DISPLAY=:99" >> $GITHUB_ENV
-      - name: Install Python deps
+          
+      - name: Install Python dependencies
         run: |
+          pip install --upgrade pip
           pip install undetected-chromedriver selenium pandas requests beautifulsoup4
+          
       - name: Run scraper
         run: |
+          echo "🚀 Iniciando scraper para: ${{ inputs.liga }}"
           cd "scraper/${{ inputs.liga }}"
-          timeout 600 python3 "${{ inputs.liga }}_standings.py"
+          timeout 600 python3 "${{ inputs.liga }}_standings.py" || {
+            echo "❌ Error en el scraper o timeout alcanzado"
+            exit 1
+          }
+          echo "✅ Scraper completado"
+          
       - name: Move files to correct location
         run: |
           echo "📁 Moviendo archivos a la ubicación correcta..."
+          
+          # Crear carpetas public/static si no existen
           mkdir -p public/static
-          if [ -f "scraper/${{ inputs.liga }}/public/static/${{ inputs.liga }}_data.json" ]; then
-            echo "✅ Moviendo ${{ inputs.liga }}_data.json"
-            cp "scraper/${{ inputs.liga }}/public/static/${{ inputs.liga }}_data.json" "public/static/"
-            echo "Archivo movido a: public/static/${{ inputs.liga }}_data.json"
+          
+          # Definir el nombre del archivo según la liga
+          case "${{ inputs.liga }}" in
+            "la_liga")
+              FILE_NAME="la_liga_data.json"
+              ;;
+            "liga_hypermotion")
+              FILE_NAME="liga_hypermotion_data.json"
+              ;;
+            "premier")
+              FILE_NAME="premier_league_data.json"
+              ;;
+            "championship")
+              FILE_NAME="championship_data.json"
+              ;;
+            "bundesliga")
+              FILE_NAME="bundesliga_data.json"
+              ;;
+            "bundesliga_2")
+              FILE_NAME="bundesliga_2_data.json"
+              ;;
+            "italia")
+              FILE_NAME="serie_a_data.json"
+              ;;
+            "italia_2")
+              FILE_NAME="serie_b_data.json"
+              ;;
+            "francia")
+              FILE_NAME="ligue_1_data.json"
+              ;;
+            "francia_2")
+              FILE_NAME="ligue_2_data.json"
+              ;;
+            "eredivisie")
+              FILE_NAME="eredivisie_data.json"
+              ;;
+            "eerste_divisie")
+              FILE_NAME="eerste_divisie_data.json"
+              ;;
+            "portugal")
+              FILE_NAME="primeira_liga_data.json"
+              ;;
+            "portugal_2")
+              FILE_NAME="liga_portugal_2_data.json"
+              ;;
+            "argentina")
+              FILE_NAME="primera_division_argentina_data.json"
+              ;;
+            "brasil")
+              FILE_NAME="serie_a_brasil_data.json"
+              ;;
+            "brasil_b")
+              FILE_NAME="serie_b_brasil_data.json"
+              ;;
+            "bulgaria")
+              FILE_NAME="bulgaria_data.json"
+              ;;
+            "liga_mx")
+              FILE_NAME="liga_mx_data.json"
+              ;;
+            "arabia")
+              FILE_NAME="saudi-arabia_data.json"
+              ;;
+            "liga_betplay")
+              FILE_NAME="liga_betplay_data.json"
+              ;;
+            "estonia")
+              FILE_NAME="meistriliiga_data.json"
+              ;;
+            "escocia")
+              FILE_NAME="scotland_premiership_data.json"
+              ;;
+            "j1_league")
+              FILE_NAME="j1_league_data.json"
+              ;;
+            "china")
+              FILE_NAME="super_league_china_data.json"
+              ;;
+            "suecia")
+              FILE_NAME="allsvenskan_data.json"
+              ;;
+            "belgica")
+              FILE_NAME="pro_league_belgium_data.json"
+              ;;
+            "noruega")
+              FILE_NAME="eliteserien_data.json"
+              ;;
+            "suiza")
+              FILE_NAME="super_league_suiza_data.json"
+              ;;
+            "turquia")
+              FILE_NAME="super_lig_turkey_data.json"
+              ;;
+            "ecuador")
+              FILE_NAME="serie_a_ecuador_data.json"
+              ;;
+            "mls")
+              FILE_NAME="mls_usa_data.json"
+              ;;
+            "australia")
+              FILE_NAME="a_league_australia_data.json"
+              ;;
+            "grecia")
+              FILE_NAME="super_league_greece_data.json"
+              ;;
+            "chile")
+              FILE_NAME="primera_division_chile_data.json"
+              ;;
+            "checa")
+              FILE_NAME="checa_data.json"
+              ;;
+            "croacia")
+              FILE_NAME="croacia_data.json"
+              ;;
+            "libertadores")
+              FILE_NAME="libertadores_data.json"
+              ;;
+            "sudamerica")
+              FILE_NAME="sudamericana_data.json"
+              ;;
+            "bolivia")
+              FILE_NAME="Lfpb.json"
+              ;;
+            *)
+              FILE_NAME="${{ inputs.liga }}_data.json"
+              ;;
+          esac
+          
+          echo "🔍 Buscando archivo: $FILE_NAME"
+          
+          # Buscar archivo específico generado
+          if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
+            echo "✅ Archivo encontrado en public/static/"
+            cp "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" "public/static/"
+            echo "📄 Archivo movido a: public/static/$FILE_NAME"
+          elif [ -f "scraper/${{ inputs.liga }}/$FILE_NAME" ]; then
+            echo "✅ Archivo encontrado en directorio raíz del scraper"
+            cp "scraper/${{ inputs.liga }}/$FILE_NAME" "public/static/"
+            echo "📄 Archivo movido a: public/static/$FILE_NAME"
+          else
+            echo "⚠️ Archivo específico no encontrado, buscando todos los JSON..."
           fi
-          find "scraper/${{ inputs.liga }}/" -name "*.json" -exec echo "JSON encontrado: {}" \;
-          find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
-          echo "=== Archivos en public/static/ ==="
-          ls -la public/static/ || echo "Carpeta public/static/ vacía"
+          
+          # Buscar otros archivos JSON en la carpeta del scraper como fallback
+          echo "🔍 Buscando otros archivos JSON..."
+          find "scraper/${{ inputs.liga }}/" -name "*.json" -type f -exec echo "📄 JSON encontrado: {}" \;
+          find "scraper/${{ inputs.liga }}/" -name "*.json" -type f -exec cp {} "public/static/" \;
+          
+          echo "📋 === Archivos finales en public/static/ ==="
+          if [ -d "public/static" ]; then
+            ls -la public/static/
+            # Verificar que hay al menos un archivo JSON
+            if ! ls public/static/*.json 1> /dev/null 2>&1; then
+              echo "❌ ERROR: No se encontraron archivos JSON en public/static/"
+              echo "🔍 Contenido completo de la carpeta del scraper:"
+              find "scraper/${{ inputs.liga }}/" -type f -name "*"
+              exit 1
+            fi
+          else
+            echo "❌ ERROR: Carpeta public/static/ no existe"
+            exit 1
+          fi
+          
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-update: ${{ inputs.liga }}"
+            git commit -m "🚀 Auto-update: ${{ inputs.liga }} - $(date '+%Y-%m-%d %H:%M')"
             git push
+            echo "✅ Cambios committeados y pusheados"
+          else
+            echo "ℹ️ No hay cambios para committear"
           fi
 
   deploy:
@@ -74,158 +288,116 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         
-      - name: Detect project type and setup
-        id: setup
-        run: |
-          echo "🔍 Detectando tipo de proyecto..."
-          
-          if [ -f "package.json" ]; then
-            echo "📦 Proyecto Node.js/React detectado"
-            echo "project_type=nodejs" >> $GITHUB_OUTPUT
-            echo "PROJECT_TYPE=nodejs" >> $GITHUB_ENV
-          elif [ -f "requirements.txt" ] && [ -f "app.py" ]; then
-            echo "🐍 Proyecto Python/Flask detectado"
-            echo "project_type=flask" >> $GITHUB_OUTPUT
-            echo "PROJECT_TYPE=flask" >> $GITHUB_ENV
-          elif [ -f "requirements.txt" ] && [ -f "main.py" ]; then
-            echo "🐍 Proyecto Python general detectado"
-            echo "project_type=python" >> $GITHUB_OUTPUT
-            echo "PROJECT_TYPE=python" >> $GITHUB_ENV
-          elif [ -f "index.html" ]; then
-            echo "🌐 Proyecto HTML estático detectado"
-            echo "project_type=static" >> $GITHUB_OUTPUT
-            echo "PROJECT_TYPE=static" >> $GITHUB_ENV
-          else
-            echo "❓ Tipo de proyecto no detectado, asumiendo estático"
-            echo "project_type=static" >> $GITHUB_OUTPUT
-            echo "PROJECT_TYPE=static" >> $GITHUB_ENV
-          fi
-
-      # OPCIÓN 1: Deploy a GitHub Pages (para proyectos estáticos)
-      - name: Deploy to GitHub Pages
-        if: steps.setup.outputs.project_type == 'static'
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          force_orphan: true
-
-      # OPCIÓN 2: Deploy a Vercel (para Node.js/React/Static)
-      - name: Setup Node.js for Vercel
-        if: steps.setup.outputs.project_type == 'nodejs'
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+          cache: 'npm'
           
-      - name: Install and Build for Vercel
-        if: steps.setup.outputs.project_type == 'nodejs'
+      - name: Install Firebase CLI
         run: |
-          npm install
-          npm run build || echo "No build script, usando archivos actuales"
+          echo "📦 Instalando Firebase CLI..."
+          npm install -g firebase-tools@latest
+          firebase --version
+          echo "✅ Firebase CLI instalado"
           
-      - name: Deploy to Vercel
-        if: steps.setup.outputs.project_type == 'nodejs' || steps.setup.outputs.project_type == 'static'
-        uses: amondnet/vercel-action@v25
-        with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-args: '--prod'
-          vercel-org-id: ${{ secrets.ORG_ID }}
-          vercel-project-id: ${{ secrets.PROJECT_ID }}
-          working-directory: ./
-
-      # OPCIÓN 3: Deploy a Netlify (alternativa para estáticos)
-      - name: Deploy to Netlify
-        if: false  # Cambia a true si quieres usar Netlify en lugar de las otras opciones
-        uses: nwtgck/actions-netlify@v2.0
-        with:
-          publish-dir: './public'
-          production-branch: main
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-message: "Deploy from GitHub Actions"
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-
-      # OPCIÓN 4: Deploy a Railway - MÉTODO OFICIAL
-      - name: Setup Node.js for Railway CLI
-        if: steps.setup.outputs.project_type == 'flask' || steps.setup.outputs.project_type == 'python'
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-
-      - name: Deploy to Railway
-        if: steps.setup.outputs.project_type == 'flask' || steps.setup.outputs.project_type == 'python'
+      - name: Verify files and structure
         run: |
-          echo "🚂 Iniciando deploy a Railway..."
+          echo "🔍 Verificando archivos para deploy..."
+          echo "📁 Estructura del repositorio:"
+          ls -la
           
-          # Instalar Railway CLI
-          npm install -g @railway/cli@latest
-          
-          # Verificar instalación
-          railway --version
-          
-          # Conectar a Railway usando el token
-          railway login --browserless
-          
-          # Listar proyectos (para debug)
-          railway projects
-          
-          # Deploy del proyecto
-          if [ -n "${{ secrets.RAILWAY_SERVICE }}" ]; then
-            echo "🎯 Deploying a servicio específico: ${{ secrets.RAILWAY_SERVICE }}"
-            railway up --service ${{ secrets.RAILWAY_SERVICE }}
+          if [ -d "public" ]; then
+            echo "✅ Carpeta public/ encontrada"
+            echo "📄 Archivos en public/:"
+            ls -la public/
+            
+            if [ -d "public/static" ]; then
+              echo "✅ Carpeta public/static/ encontrada"
+              echo "📄 Archivos en public/static/:"
+              ls -la public/static/
+              
+              # Verificar archivos JSON
+              if ls public/static/*.json 1> /dev/null 2>&1; then
+                echo "✅ Archivos JSON encontrados:"
+                ls -la public/static/*.json
+              else
+                echo "⚠️ No se encontraron archivos JSON en public/static/"
+              fi
+            else
+              echo "⚠️ No hay carpeta public/static/"
+            fi
           else
-            echo "🎯 Deploying a proyecto por defecto"
-            railway up
+            echo "❌ ERROR: No hay carpeta public/"
+            echo "🔧 Creando estructura básica..."
+            mkdir -p public
+            echo '<!DOCTYPE html><html><head><title>Panel Scraper</title></head><body><h1>Panel Scraper</h1><p>Deploy exitoso</p></body></html>' > public/index.html
           fi
           
-          echo "✅ Deploy a Railway completado"
+      - name: Create Firebase config files
+        run: |
+          echo "📝 Verificando archivos de configuración de Firebase..."
+          
+          # Crear firebase.json si no existe
+          if [ ! -f "firebase.json" ]; then
+            echo "📝 Creando firebase.json..."
+            cat > firebase.json << 'EOF'
+          {
+            "hosting": {
+              "public": "public",
+              "ignore": [
+                "firebase.json",
+                "**/.*",
+                "**/node_modules/**",
+                "**/*.py",
+                "scraper/**"
+              ],
+              "rewrites": [{
+                "source": "**",
+                "destination": "/index.html"
+              }],
+              "headers": [
+                {
+                  "source": "**/*.@(json)",
+                  "headers": [
+                    {
+                      "key": "Cache-Control",
+                      "value": "max-age=300"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+          EOF
+            echo "✅ firebase.json creado"
+          else
+            echo "✅ firebase.json ya existe"
+          fi
+          
+          # Mostrar configuración actual
+          echo "📋 Configuración actual de Firebase:"
+          cat firebase.json
+          
+      - name: Deploy to Firebase
         env:
-          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
-
-      # OPCIÓN 5: Deploy a Heroku (alternativa confiable)
-      - name: Deploy to Heroku
-        if: false  # Cambia a true si quieres usar Heroku
-        uses: akhileshns/heroku-deploy@v3.12.14
-        with:
-          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
-          heroku_email: ${{ secrets.HEROKU_EMAIL }}
-          usedocker: false
-
-      # OPCIÓN 6: Deploy a Render (alternativa moderna)
-      - name: Deploy to Render
-        if: false  # Cambia a true si quieres usar Render
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: |
-          echo "🎨 Iniciando deploy a Render..."
+          echo "🔥 Iniciando deploy a Firebase..."
           
-          # Trigger deploy usando Render API
-          curl -X POST "https://api.render.com/v1/services/${{ secrets.RENDER_SERVICE_ID }}/deploys" \
-            -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
-            -H "Content-Type: application/json" \
-            -d '{}'
+          if [ -z "$FIREBASE_TOKEN" ]; then
+            echo "❌ ERROR: FIREBASE_TOKEN no está configurado"
+            echo "🔧 Configura el secret FIREBASE_TOKEN en GitHub"
+            exit 1
+          fi
           
-          echo "✅ Deploy a Render iniciado"
-
-      # OPCIÓN 7: Deploy a PythonAnywhere (específico para Python)
-      - name: Deploy to PythonAnywhere
-        if: false  # Cambia a true si quieres usar PythonAnywhere
-        run: |
-          echo "🐍 Deploying a PythonAnywhere..."
+          echo "🚀 Ejecutando deploy..."
+          firebase deploy --token "$FIREBASE_TOKEN" --non-interactive --debug
           
-          # Subir archivos via SFTP/rsync
-          sudo apt-get install -y sshpass rsync
-          
-          # Sync archivos
-          sshpass -p "${{ secrets.PYTHONANYWHERE_PASSWORD }}" \
-            rsync -avz --delete ./ \
-            ${{ secrets.PYTHONANYWHERE_USER }}@ssh.pythonanywhere.com:/home/${{ secrets.PYTHONANYWHERE_USER }}/mysite/
-          
-          echo "✅ Archivos sincronizados a PythonAnywhere"
-
-      - name: Deploy Success Notification
-        run: |
-          echo "✅ Deploy completado exitosamente!"
-          echo "🚀 Proyecto tipo: ${{ steps.setup.outputs.project_type }}"
-          echo "📅 Fecha: $(date)"
-          echo "🌐 Tu aplicación debería estar disponible en línea"
+          if [ $? -eq 0 ]; then
+            echo "✅ Deploy completado exitosamente!"
+            echo "🌐 Tu app debería estar actualizada en Firebase Hosting"
+          else
+            echo "❌ Error durante el deploy"
+            exit 1
+          fi
