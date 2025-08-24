@@ -1,223 +1,24 @@
-name: Panel Scraper
+name: Test Simple
 
 on:
   workflow_dispatch:
     inputs:
       accion:
-        description: 'Selecciona acción'
         required: true
         type: choice
         options:
           - scraper
           - deploy
-        default: 'scraper'
       liga:
-        description: 'Liga a procesar'
         required: false
         type: string
-        default: 'liga_mx'
 
 jobs:
-  scraper:
+  test:
     runs-on: ubuntu-latest
-    if: inputs.accion == 'scraper'
-    
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-          
-      - name: Install system dependencies
+      - name: Test
         run: |
-          echo "🔧 Instalando dependencias del sistema..."
-          sudo apt-get update
-          sudo apt-get install -y \
-            wget \
-            curl \
-            unzip \
-            xvfb \
-            chromium-browser \
-            chromium-chromedriver
-          
-          # Verificar instalación de Chrome
-          chromium-browser --version
-          chromedriver --version
-          
-      - name: Install Python dependencies
-        run: |
-          echo "📦 Instalando dependencias de Python..."
-          python -m pip install --upgrade pip
-          
-          # Dependencias básicas para scraping
-          pip install \
-            requests \
-            beautifulsoup4 \
-            pandas \
-            lxml \
-            selenium \
-            webdriver-manager \
-            python-dotenv \
-            urllib3
-          
-          # Si hay requirements.txt
-          if [ -f requirements.txt ]; then
-            echo "📋 Instalando requirements.txt..."
-            pip install -r requirements.txt
-          fi
-          
-          # Mostrar versiones instaladas
-          pip list | grep -E "(selenium|requests|pandas|beautifulsoup4)"
-          
-      - name: Setup Chrome for Selenium
-        run: |
-          echo "🌐 Configurando Chrome para Selenium..."
-          
-          # Crear directorio para Chrome
-          mkdir -p /tmp/chrome-user-data
-          chmod 777 /tmp/chrome-user-data
-          
-          # Variables de entorno para Chrome headless
-          echo "CHROME_BIN=/usr/bin/chromium-browser" >> $GITHUB_ENV
-          echo "CHROMEDRIVER_PATH=/usr/bin/chromedriver" >> $GITHUB_ENV
-          echo "DISPLAY=:99" >> $GITHUB_ENV
-          
-      - name: Start virtual display
-        run: |
-          echo "🖥️ Iniciando display virtual..."
-          Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
-          sleep 3
-          
-      - name: Test Chrome setup
-        run: |
-          echo "🧪 Probando configuración de Chrome..."
-          python3 -c "
-import os
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-
-print('Testing Chrome setup...')
-chrome_options = Options()
-chrome_options.add_argument('--headless')
-chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument('--disable-dev-shm-usage')
-chrome_options.add_argument('--disable-gpu')
-chrome_options.add_argument('--window-size=1920,1080')
-
-service = Service('/usr/bin/chromedriver')
-driver = webdriver.Chrome(service=service, options=chrome_options)
-
-try:
-    driver.get('https://www.google.com')
-    print('✅ Chrome funciona correctamente')
-    print(f'Título: {driver.title}')
-finally:
-    driver.quit()
-"
-          
-      - name: Run scraper with detailed logging
-        run: |
-          echo "🚀 Ejecutando scraper con logs detallados..."
-          SCRIPT_PATH="scraper/${{ inputs.liga }}/${{ inputs.liga }}_standings.py"
-          
-          if [ -f "$SCRIPT_PATH" ]; then
-            echo "📁 Script encontrado: $SCRIPT_PATH"
-            
-            # Mostrar contenido del script (primeras líneas)
-            echo "=== Primeras 20 líneas del script ==="
-            head -20 "$SCRIPT_PATH"
-            echo "=================================="
-            
-            # Cambiar al directorio del script
-            cd "scraper/${{ inputs.liga }}"
-            
-            echo "📂 Directorio actual: $(pwd)"
-            echo "📋 Archivos en directorio:"
-            ls -la
-            
-            echo "⏰ Iniciando scraper: $(date)"
-            
-            # Ejecutar con Python y capturar todos los outputs
-            python "${{ inputs.liga }}_standings.py" 2>&1 | tee scraper_output.log
-            
-            SCRIPT_EXIT_CODE=${PIPESTATUS[0]}
-            echo "⏰ Scraper terminado: $(date)"
-            echo "🔢 Código de salida: $SCRIPT_EXIT_CODE"
-            
-            # Mostrar logs del scraper
-            echo "=== LOGS DEL SCRAPER ==="
-            cat scraper_output.log
-            echo "========================"
-            
-            # Verificar archivos generados
-            echo "=== Archivos después del scraper ==="
-            ls -la
-            find . -name "*.json" -exec echo "JSON encontrado: {}" \;
-            find . -name "*.csv" -exec echo "CSV encontrado: {}" \;
-            
-            if [ $SCRIPT_EXIT_CODE -ne 0 ]; then
-              echo "❌ El scraper falló con código $SCRIPT_EXIT_CODE"
-              exit 1
-            fi
-            
-          else
-            echo "❌ Error: Script no encontrado en $SCRIPT_PATH"
-            echo "Archivos disponibles:"
-            find scraper/ -name "*.py" 2>/dev/null || echo "No hay archivos Python"
-            exit 1
-          fi
-          
-      - name: Verify generated files
-        run: |
-          echo "🔍 Verificando archivos generados..."
-          
-          # Buscar archivos desde el directorio del script
-          cd "scraper/${{ inputs.liga }}"
-          
-          echo "=== Estado actual del directorio ==="
-          ls -la
-          
-          echo "=== Archivos JSON ==="
-          find . -name "*.json" -exec ls -la {} \; -exec echo "Contenido:" \; -exec head -5 {} \; -exec echo "---" \;
-          
-          echo "=== Archivos CSV ==="
-          find . -name "*.csv" -exec ls -la {} \;
-          
-          # Verificar si liga_mx_data.json existe
-          if [ -f "liga_mx_data.json" ]; then
-            echo "✅ liga_mx_data.json encontrado"
-            ls -la liga_mx_data.json
-            echo "Tamaño del archivo: $(wc -c < liga_mx_data.json) bytes"
-          else
-            echo "❌ liga_mx_data.json NO encontrado"
-          fi
-          
-      - name: Commit and push generated files
-        run: |
-          echo "📝 Preparando commit..."
-          
-          # Configurar git
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action Bot"
-          
-          # Agregar archivos
-          git add .
-          
-          # Verificar cambios
-          if git diff --cached --quiet; then
-            echo "ℹ️ No hay archivos nuevos para commitear"
-          else
-            echo "📤 Commiteando archivos generados..."
-            git status --porcelain
-            
-            git commit -m "🤖 Auto-update: ${{ inputs.liga }} scraper data - $(date '+%Y-%m-%d %H:%M:%S UTC')"
-            git push
-            
-            echo "✅ Cambios enviados al repositorio"
-          fi
+          echo "Funcionando desde GitHub Actions"
+          echo "Accion: ${{ inputs.accion }}"
+          echo "Liga: ${{ inputs.liga }}"
