@@ -1,0 +1,2843 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyborgbets New Gen</title>
+   <link rel="stylesheet" href="styles/base.css">
+   <link rel="stylesheet" href="styles/layout.css">
+   <link rel="stylesheet" href="styles/apt.css">
+   <link rel="stylesheet" href="styles/radar.css">
+   <link rel="stylesheet" href="styles/components.css">
+   <link rel="stylesheet" href="styles/CyborgMatch-section.css">
+   <link rel="stylesheet" href="styles/nba.css">
+   <link rel="stylesheet" href="styles/BetManager.css">
+   <link rel="stylesheet" href="styles/comparacion-nba.css">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script> 
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <span></span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#radar" class="nav-link" data-locked="true">Radar</a>
+                <a href="#ligas" class="nav-link" data-locked="true">Ligas</a>
+                <a href="#estadisticas" class="nav-link" data-locked="true">Estadísticas</a>
+                <a href="#SmartLine" class="nav-link" data-locked="true">SmartLine</a>
+                <a href="#CyborgMatch" class="nav-link" data-locked="true">CyborgMatch</a>
+                <a href="#BetManager" class="nav-link">BetManager</a>
+                <a href="#nba" class="nav-link" data-locked="true">NBA</a>
+                <a href="#tips" class="nav-link">Tips</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Predicciones Deportivas <span class="gradient-text">Inteligentes</span>
+                </h1>
+                <p class="hero-description">
+                    ¡Bienvenido a la nueva era de Cyborgbets New Gen! Con un motor de análisis mejorado y algoritmos más rápidos, ahora tienes acceso a predicciones más precisas, más de 35 ligas internacionales y estadísticas en tiempo real.
+                </p>
+              <button id="comenzarBtn" class="btn btn-primary">
+    <i class="fas fa-chart-line"></i>
+    Comenzar Análisis
+</button>
+            </div>
+            <div class="hero-visual">
+                <div class="stats-card">
+                    <i class="fas fa-trophy"></i>
+                    <div class="stats-info">
+                        <span class="stats-number">75%</span>
+                        <span class="stats-label">Precisión</span>
+                    </div>
+                </div>
+                <div class="stats-card">
+                    <i class="fas fa-globe"></i>
+                    <div class="stats-info">
+                        <span class="stats-number">35+</span>
+                        <span class="stats-label">Ligas</span>
+                    </div>
+                </div>
+                <div class="stats-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <div class="stats-info">
+                        <span class="stats-number">700+</span>
+                        <span class="stats-label">Equipos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+ <section id="tips" class="tips-section">
+        <div class="container">
+            <h2 class="section-title">🎯 Estrategias Profesionales de Apuesta</h2>
+            <p class="section-description">Explora, entiende y simula estrategias de gestión de banca</p>
+
+            <div class="tip-wrapper">
+                <!-- Estrategia: Escalera -->
+                <div class="tip-card" data-id="escalera">
+                    <div class="tip-header" onclick="expandTip('escalera')">
+                        <h3>📈 Escalera de Cuotas</h3>
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="tip-body">
+                        <div class="strategy-intro">
+                            <p>La estrategia de escalera consiste en combinar cuotas pequeñas para crear apuestas de bajo riesgo y retorno constante.</p>
+                        </div>
+                        
+                        <div class="tutorial-section">
+                            <h4>🎓 ¿Cómo funciona?</h4>
+                            <div class="tutorial-steps">
+                                <div class="step">
+                                    <span class="step-number">1</span>
+                                    <div class="step-content">
+                                        <h5>Selecciona eventos seguros</h5>
+                                        <p>Busca eventos con cuotas entre 1.10 y 1.30. Ejemplos: favoritos claros, over/under conservadores.</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">2</span>
+                                    <div class="step-content">
+                                        <h5>Combinar 2 eventos</h5>
+                                        <p>Multiplica las cuotas para obtener una cuota final más atractiva (ej: 1.20 x 1.25 = 1.50).</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">3</span>
+                                    <div class="step-content">
+                                        <h5>Mantén disciplina</h5>
+                                        <p>Usa siempre el mismo porcentaje de tu bankroll (recomendado: 2-5%).</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="pros-cons">
+                                <div class="pros">
+                                    <h5>✅ Ventajas</h5>
+                                    <ul>
+                                        <li>Muy bajo riesgo</li>
+                                        <li>Ganancias constantes</li>
+                                        <li>Ideal para principiantes</li>
+                                    </ul>
+                                </div>
+                                <div class="cons">
+                                    <h5>❌ Desventajas</h5>
+                                    <ul>
+                                        <li>Requiere mucha paciencia</li>
+                                        <li>Ganancias pequeñas</li>
+                                        <li>Necesita constancia</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="calculator">
+                            <h4>🧮 Calculadora</h4>
+                            <div class="form-row">
+                                <input type="number" placeholder="Cuota 1" id="cuota1-escalera" step="0.01">
+                                <input type="number" placeholder="Cuota 2" id="cuota2-escalera" step="0.01">
+                                <input type="number" placeholder="Inversión ($)" id="inversion-escalera" step="0.01">
+                                <button onclick="calcularEscalera()">Calcular</button>
+                            </div>
+                            <p id="resultadoEscalera" class="resultado"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Estrategia: Stake Fijo -->
+                <div class="tip-card" data-id="stake">
+                    <div class="tip-header" onclick="expandTip('stake')">
+                        <h3>💰 Stake Fijo</h3>
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="tip-body">
+                        <div class="strategy-intro">
+                            <p>El stake fijo es la base de toda gestión de bankroll profesional. Consiste en apostar siempre la misma cantidad.</p>
+                        </div>
+                        
+                        <div class="tutorial-section">
+                            <h4>🎓 ¿Cómo aplicarlo?</h4>
+                            <div class="tutorial-steps">
+                                <div class="step">
+                                    <span class="step-number">1</span>
+                                    <div class="step-content">
+                                        <h5>Define tu bankroll</h5>
+                                        <p>Cantidad total dedicada exclusivamente a apuestas. Nunca uses dinero que necesites.</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">2</span>
+                                    <div class="step-content">
+                                        <h5>Calcula tu stake</h5>
+                                        <p>Conservador: 1-2% del bankroll | Moderado: 3-5% | Agresivo: 5-10%</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">3</span>
+                                    <div class="step-content">
+                                        <h5>Mantén la disciplina</h5>
+                                        <p>Nunca cambies el stake por emociones. Recalcula solo mensualmente.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="example-box">
+                                <h5>📊 Ejemplo práctico</h5>
+                                <p>Bankroll: $1000 | Stake 3%: $30 por apuesta</p>
+                                <p>Si ganas 20 de 30 apuestas al mes con cuota promedio 2.0:</p>
+                                <p><strong>Ganancia: +$300 (30% mensual)</strong></p>
+                            </div>
+                        </div>
+
+                        <div class="calculator">
+                            <h4>🧮 Calculadora</h4>
+                            <div class="form-row">
+                                <input type="number" placeholder="Cuota" id="cuota-stake" step="0.01">
+                                <input type="number" placeholder="Stake fijo ($)" id="stake-fijo" step="0.01">
+                                <button onclick="calcularStakeFijo()">Calcular</button>
+                            </div>
+                            <p id="resultadoStakeFijo" class="resultado"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Estrategia: Sistema Fibonacci -->
+                <div class="tip-card" data-id="fibonacci">
+                    <div class="tip-header" onclick="expandTip('fibonacci')">
+                        <h3>🔄 Sistema Fibonacci</h3>
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="tip-body">
+                        <div class="strategy-intro">
+                            <p>Basado en la famosa secuencia matemática, es una progresión inteligente para recuperar pérdidas sin riesgo excesivo.</p>
+                        </div>
+                        
+                        <div class="tutorial-section">
+                            <h4>🎓 ¿Cómo funciona la secuencia?</h4>
+                            <div class="fibonacci-sequence">
+                                <div class="sequence-display">
+                                    <span>1</span> <span>1</span> <span>2</span> <span>3</span> <span>5</span> <span>8</span> <span>13</span> <span>21</span> <span>...</span>
+                                </div>
+                                <p>Cada número es la suma de los dos anteriores</p>
+                            </div>
+                            
+                            <div class="tutorial-steps">
+                                <div class="step">
+                                    <span class="step-number">1</span>
+                                    <div class="step-content">
+                                        <h5>Empieza con 1 unidad</h5>
+                                        <p>Define tu unidad base (ej: $10). Siempre empiezas apostando 1 unidad.</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">2</span>
+                                    <div class="step-content">
+                                        <h5>Si pierdes: avanza</h5>
+                                        <p>Pérdida → Siguiente número en la secuencia (1→1→2→3→5...)</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">3</span>
+                                    <div class="step-content">
+                                        <h5>Si ganas: retrocede 2</h5>
+                                        <p>Victoria → Retrocedes 2 posiciones en la secuencia</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="example-box">
+                                <h5>📊 Ejemplo de progresión</h5>
+                                <div class="progression-example">
+                                    <div class="bet-line lose">Apuesta $10 (1) → Pierde → Siguiente: $10 (1)</div>
+                                    <div class="bet-line lose">Apuesta $10 (1) → Pierde → Siguiente: $20 (2)</div>
+                                    <div class="bet-line lose">Apuesta $20 (2) → Pierde → Siguiente: $30 (3)</div>
+                                    <div class="bet-line win">Apuesta $30 (3) → Gana → Retrocede 2: $10 (1)</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="calculator">
+                            <h4>🧮 Calculadora</h4>
+                            <div class="form-row">
+                                <input type="number" placeholder="Valor base ($)" id="fibo-base" step="0.01">
+                                <input type="number" placeholder="N° de pérdidas" id="fibo-perdidas" min="0" max="10">
+                                <button onclick="calcularFibonacci()">Calcular</button>
+                            </div>
+                            <p id="resultadoFibonacci" class="resultado"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Estrategia: Dutching -->
+<div class="tip-card" data-id="dutching">
+    <div class="tip-header" onclick="expandTip('dutching')">
+        <h3>🎯 Dutching</h3>
+        <span class="toggle-icon">▼</span>
+    </div>
+    <div class="tip-body">
+        <div class="strategy-intro">
+            <p>El Dutching permite apostar a múltiples resultados de un mismo evento para garantizar ganancia sin importar cuál resultado salga ganador.</p>
+        </div>
+        
+        <div class="tutorial-section">
+            <h4>🎓 ¿Cómo funciona?</h4>
+            <div class="tutorial-steps">
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <div class="step-content">
+                        <h5>Identifica el evento</h5>
+                        <p>Busca eventos con 2-3 resultados posibles donde las cuotas combinadas ofrezcan margen de ganancia.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <div class="step-content">
+                        <h5>Calcula las proporciones</h5>
+                        <p>Usa la fórmula: Apuesta = (Inversión Total / Cuota) / Suma de (1/Cuota de cada resultado)</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <div class="step-content">
+                        <h5>Distribuye las apuestas</h5>
+                        <p>Apuesta las cantidades calculadas en cada resultado para garantizar la misma ganancia.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="example-box">
+                <h5>📊 Ejemplo práctico - Tenis</h5>
+                <p><strong>Evento:</strong> Djokovic vs Nadal</p>
+                <p>Djokovic gana: cuota 1.85 → apostar 45.000</p>
+                <p>Nadal gana: cuota 1.45 → apostar 55.000</p>
+                <p><strong>Total invertido:</strong> 100.000 | <strong>Ganancia garantizada:</strong> -1.000</p>
+                <p><em>❌ Ejemplo perdedor - necesitas mejores cuotas</em></p>
+            </div>
+
+            <div class="pros-cons">
+                <div class="pros">
+                    <h5>✅ Ventajas</h5>
+                    <ul>
+                        <li>Ganancia garantizada (si hay valor)</li>
+                        <li>Sin riesgo emocional</li>
+                        <li>Matemáticamente preciso</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h5>❌ Desventajas</h5>
+                    <ul>
+                        <li>Requiere múltiples casas</li>
+                        <li>Ganancias muy pequeñas</li>
+                        <li>Difícil encontrar oportunidades</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <h5>⚠️ Consideraciones importantes</h5>
+                <ul>
+                    <li>Solo funciona si la suma de (1/cuota) es menor a 1</li>
+                    <li>Ideal para mercados con 2-3 resultados</li>
+                    <li>Perfecto para carreras de caballos o tenis</li>
+                    <li>Requiere cálculos precisos para evitar pérdidas</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="calculator">
+            <h4>🧮 Calculadora Dutching (2 resultados)</h4>
+            <div class="form-row">
+                <input type="number" placeholder="Cuota resultado 1" id="dutching-cuota1" step="0.01">
+                <input type="number" placeholder="Cuota resultado 2" id="dutching-cuota2" step="0.01">
+                <input type="number" placeholder="Inversión total" id="dutching-inversion" step="1000">
+                <button onclick="calcularDutching()">Calcular</button>
+            </div>
+            <p id="resultadoDutching" class="resultado"></p>
+        </div>
+    </div>
+</div>
+
+<!-- Estrategia: Sistema d'Alembert -->
+<div class="tip-card" data-id="dalembert">
+    <div class="tip-header" onclick="expandTip('dalembert')">
+        <h3>🔄 Sistema d'Alembert</h3>
+        <span class="toggle-icon">▼</span>
+    </div>
+    <div class="tip-body">
+        <div class="strategy-intro">
+            <p>El sistema d'Alembert es una progresión aritmética más suave que la Martingala. Aumentas/disminuyes la apuesta de forma lineal, no exponencial.</p>
+        </div>
+        
+        <div class="tutorial-section">
+            <h4>🎓 ¿Cómo aplicarlo?</h4>
+            <div class="tutorial-steps">
+                <div class="step">
+                    <span class="step-number">1</span>
+                    <div class="step-content">
+                        <h5>Define tu unidad base</h5>
+                        <p>Elige una unidad fija (ej: 10.000). Esta será tu incremento/decremento estándar.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <span class="step-number">2</span>
+                    <div class="step-content">
+                        <h5>Si pierdes: suma 1 unidad</h5>
+                        <p>Pérdida → próxima apuesta = apuesta anterior + 1 unidad</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <span class="step-number">3</span>
+                    <div class="step-content">
+                        <h5>Si ganas: resta 1 unidad</h5>
+                        <p>Victoria → próxima apuesta = apuesta anterior - 1 unidad (mínimo 1 unidad)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="comparison-table">
+                <div class="comparison-row header">
+                    <span>Resultado</span>
+                    <span>d'Alembert</span>
+                    <span>Martingala</span>
+                </div>
+                <div class="comparison-row">
+                    <span>Base</span>
+                    <span>10.000</span>
+                    <span>10.000</span>
+                </div>
+                <div class="comparison-row">
+                    <span>1° Pérdida</span>
+                    <span>20.000 (+10.000)</span>
+                    <span>20.000 (×2)</span>
+                </div>
+                <div class="comparison-row">
+                    <span>2° Pérdida</span>
+                    <span>30.000 (+10.000)</span>
+                    <span>40.000 (×2)</span>
+                </div>
+                <div class="comparison-row">
+                    <span>3° Pérdida</span>
+                    <span>40.000 (+10.000)</span>
+                    <span>80.000 (×2)</span>
+                </div>
+            </div>
+            
+            <div class="example-box">
+                <h5>📊 Ejemplo de sesión</h5>
+                <div class="progression-example">
+                    <div class="bet-line">Apuesta 10.000 → Pierde → Siguiente: 20.000</div>
+                    <div class="bet-line">Apuesta 20.000 → Pierde → Siguiente: 30.000</div>
+                    <div class="bet-line win">Apuesta 30.000 → Gana → Siguiente: 20.000</div>
+                    <div class="bet-line win">Apuesta 20.000 → Gana → Siguiente: 10.000</div>
+                    <div class="bet-line">Apuesta 10.000 → Pierde → Siguiente: 20.000</div>
+                </div>
+                <p><strong>Balance:</strong> 2 victorias, 3 pérdidas = Break even aproximado</p>
+            </div>
+
+            <div class="pros-cons">
+                <div class="pros">
+                    <h5>✅ Ventajas</h5>
+                    <ul>
+                        <li>Menos agresivo que Martingala</li>
+                        <li>Crecimiento controlado</li>
+                        <li>Recuperación más segura</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h5>❌ Desventajas</h5>
+                    <ul>
+                        <li>Recuperación más lenta</li>
+                        <li>Rachas largas siguen siendo peligrosas</li>
+                        <li>No garantiza ganancias</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <h5>⚠️ Recomendaciones de uso</h5>
+                <ul>
+                    <li>Ideal para cuotas cercanas a 1.85 (50/50)</li>
+                    <li>Establece límite máximo de 8-10 unidades</li>
+                    <li>Requiere bankroll de al menos 50 unidades</li>
+                    <li>Mejor para apuestas con alta probabilidad</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="calculator">
+            <h4>🧮 Calculadora d'Alembert</h4>
+            <div class="form-row">
+                <input type="number" placeholder="Unidad base" id="dalembert-base" step="1000">
+                <input type="number" placeholder="Pérdidas consecutivas" id="dalembert-perdidas" min="0" max="10">
+                <input type="number" placeholder="Victorias después" id="dalembert-victorias" min="0" max="10">
+                <button onclick="calcularDAlembert()">Calcular</button>
+            </div>
+            <p id="resultadoDAlembert" class="resultado"></p>
+        </div>
+    </div>
+</div>
+
+                <!-- Estrategia: Martingala -->
+                <div class="tip-card" data-id="martingala">
+                    <div class="tip-header" onclick="expandTip('martingala')">
+                        <h3>🎯 Martingala Moderada</h3>
+                        <span class="toggle-icon">▼</span>
+                    </div>
+                    <div class="tip-body">
+                        <div class="strategy-intro">
+                            <p>Versión controlada del sistema Martingala clásico. En lugar de duplicar, aumentamos gradualmente para limitar el riesgo.</p>
+                        </div>
+                        
+                        <div class="tutorial-section">
+                            <h4>🎓 Martingala vs Martingala Moderada</h4>
+                            <div class="comparison-table">
+                                <div class="comparison-row header">
+                                    <span>Pérdida</span>
+                                    <span>Martingala Clásica</span>
+                                    <span>Martingala Moderada</span>
+                                </div>
+                                <div class="comparison-row">
+                                    <span>1°</span>
+                                    <span>$20 (×2)</span>
+                                    <span>$15 (×1.5)</span>
+                                </div>
+                                <div class="comparison-row">
+                                    <span>2°</span>
+                                    <span>$40 (×2)</span>
+                                    <span>$22.5 (×1.5)</span>
+                                </div>
+                                <div class="comparison-row">
+                                    <span>3°</span>
+                                    <span>$80 (×2)</span>
+                                    <span>$33.75 (×1.5)</span>
+                                </div>
+                            </div>
+                            
+                            <div class="tutorial-steps">
+                                <div class="step">
+                                    <span class="step-number">1</span>
+                                    <div class="step-content">
+                                        <h5>Define apuesta base</h5>
+                                        <p>Máximo 2% de tu bankroll. Esta será tu primera apuesta.</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">2</span>
+                                    <div class="step-content">
+                                        <h5>Multiplica por 1.5</h5>
+                                        <p>Cada pérdida: nueva apuesta = apuesta anterior × 1.5</p>
+                                    </div>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">3</span>
+                                    <div class="step-content">
+                                        <h5>Establece límite</h5>
+                                        <p>Máximo 5 pérdidas consecutivas. Después, pausa y evalúa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="warning-box">
+                                <h5>⚠️ Advertencias importantes</h5>
+                                <ul>
+                                    <li>Solo para apuestas con cuota mínima 2.0</li>
+                                    <li>Requiere bankroll considerable</li>
+                                    <li>Las rachas largas pueden ser devastadoras</li>
+                                    <li>Usa solo en deportes que conoces muy bien</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="calculator">
+                            <h4>🧮 Calculadora</h4>
+                            <div class="form-row">
+                                <input type="number" placeholder="Apuesta base ($)" id="martingala-base" step="0.01">
+                                <input type="number" placeholder="Pérdidas consecutivas" id="martingala-perdidas" min="0" max="8">
+                                <button onclick="calcularMartingala()">Calcular</button>
+                            </div>
+                            <p id="resultadoMartingala" class="resultado"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Sección SmartLine -->
+<section id="SmartLine" class="smartline-section">
+    <div class="container">
+        <h2 class="section-title"></h2>
+        <p class="section-description">
+            
+        </p>
+
+        <div id="smartlineContent" class="loading">
+            <i class="fas fa-spinner"></i>
+            Cargando líneas de apuesta...
+        </div>
+    </div>
+</section>
+
+    <!-- CyborgMatch Section -->
+    <section id="CyborgMatch" class="CyborgMatch-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">CyborgMatch</h2>
+                <p class="section-description">
+                    
+                </p>
+            </div>
+            
+           <div class="league-selector">
+    <div class="selector-group">
+        <label for="league1">Liga 1:</label>
+        <select id="league1" class="league-select">
+            <option value="">Seleccionar Liga</option>
+            <option value="spain">España - La Liga</option>
+            <option value="spain2">España - Liga Hypermotion</option>
+            <option value="england">Inglaterra - Premier League</option>
+            <option value="championship">Inglaterra - Championship</option>
+            <option value="germany">Alemania - Bundesliga</option>
+            <option value="germany2">Alemania - Bundesliga 2</option>
+            <option value="italy">Italia - Serie A</option>
+            <option value="italy2">Italia - Serie B</option>
+            <option value="france">Francia - Ligue 1</option>
+            <option value="france2">Francia - Ligue 2</option>
+            <option value="netherlands">Países Bajos - Eredivisie</option>
+            <option value="netherlands2">Países Bajos - Eerste Divisie</option>
+            <option value="portugal">Portugal - Primeira Liga</option>
+            <option value="portugal2">Portugal - Liga 2</option>
+            <option value="argentina">Argentina - Primera División</option>
+            <option value="brazil">Brasil - Serie A</option>
+            <option value="brazil2">Brasil - Serie B</option>
+            <option value="bulgaria">Bulgaria - efbet League</option>
+            <option value="mexico">México - Liga MX</option>
+            <option value="saudi-arabia">Arabia - Saudita</option>
+            <option value="colombia">Colombia - Liga BetPlay</option>
+            <option value="estonia">Estonia - Meistriliiga</option>
+            <option value="japan">Japón - J1 League</option>
+            <option value="china">China - Super League</option>
+            <option value="sweden">Suecia - Allsvenskan</option>
+            <option value="belgium">Bélgica - Pro League</option>
+            <option value="norway">Noruega - Eliteserien</option>
+            <option value="suiza">Suiza - Super League</option>
+            <option value="turkey">Turquía - Süper Lig</option>
+            <option value="ecuador">Ecuador - LigaPro</option>
+            <option value="usa">EE. UU. - Major League Soccer</option>
+            <option value="australia">Australia - A-League</option>
+            <option value="greece">Grecia - Super League</option>
+             <option value="croacia">Republica Checa - Chance Liga</option>
+            <option value="chile">Chile - Campeonato Nacional</option>
+            <option value="croacia">Croacia - NHL</option>
+            <option value="bolivia">Bolvia - Lfpb</option>
+            <option value="scotland">Escocia - scotland Premiership</option>
+        </select>
+        <select id="team1" class="team-select" disabled>
+            <option value="">Seleccionar Equipo</option>
+        </select>
+    </div>
+
+    <div class="vs-indicator">VS</div>
+
+    <div class="selector-group">
+        <label for="league2">Liga 2:</label>
+        <select id="league2" class="league-select">
+            <option value="">Seleccionar Liga</option>
+            <option value="spain">España - La Liga</option>
+            <option value="spain2">España - Liga Hypermotion</option>
+            <option value="england">Inglaterra - Premier League</option>
+            <option value="championship">Inglaterra - Championship</option>
+            <option value="germany">Alemania - Bundesliga</option>
+            <option value="germany2">Alemania - Bundesliga 2</option>
+            <option value="italy">Italia - Serie A</option>
+            <option value="italy2">Italia - Serie B</option>
+            <option value="france">Francia - Ligue 1</option>
+            <option value="france2">Francia - Ligue 2</option>
+            <option value="netherlands">Países Bajos - Eredivisie</option>
+            <option value="netherlands2">Países Bajos - Eerste Divisie</option>
+            <option value="portugal">Portugal - Primeira Liga</option>
+            <option value="portugal2">Portugal - Liga 2</option>
+            <option value="argentina">Argentina - Primera División</option>
+            <option value="brazil">Brasil - Serie A</option>
+            <option value="brazil2">Brasil - Serie B</option>
+            <option value="bulgaria">Bulgaria - efbet League</option>
+            <option value="mexico">México - Liga MX</option>
+            <option value="saudi-arabia">Arabia - Saudita</option>
+            <option value="colombia">Colombia - Liga BetPlay</option>
+            <option value="estonia">Estonia - Meistriliiga</option>
+            <option value="japan">Japón - J1 League</option>
+            <option value="china">China - Super League</option>
+            <option value="sweden">Suecia - Allsvenskan</option>
+            <option value="belgium">Bélgica - Pro League</option>
+            <option value="norway">Noruega - Eliteserien</option>
+            <option value="suiza">Suiza - Super League</option>
+            <option value="turkey">Turquía - Süper Lig</option>
+            <option value="ecuador">Ecuador - LigaPro</option>
+            <option value="usa">EE. UU. - Major League Soccer</option>
+            <option value="australia">Australia - A-League</option>
+            <option value="greece">Grecia - Super League</option>
+            <option value="croacia">Republica Checa - Chance Liga</option>
+            <option value="republicacheca">Croacia - NHL</option>
+            <option value="chile">Chile - Campeonato Nacional</option>
+            <option value="bolivia">Bolvia - Lfpb</option>
+            <option value="scotland">Escocia - scotland Premiership</option>
+        </select>
+        <select id="team2" class="team-select" disabled>
+            <option value="">Seleccionar Equipo</option>
+        </select>
+    </div>
+</div>
+
+
+            <div class="compare-button-container">
+                <button id="compareBtn" class="btn btn-primary analyze-btn" disabled>
+                    <i class="fas fa-search"></i>
+                    Comparar Equipos
+                </button>
+            </div>
+
+            <div class="loading" id="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Cargando datos...</p>
+            </div>
+
+            <div id="comparisonResult" class="comparison-result" style="display: none;"></div>
+            
+            <div id="CyborgMatch-container" class="comparison-container" style="display: none;">
+                <h3></h3>
+                <div id="CyborgMatch-content" class="comparison-content">
+                    <!-- El contenido de comparación se generará aquí -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Sección BetManager -->
+<section id="BetManager" class="BetManager-section">
+    <div class="container">
+        <!-- Loading Screen -->
+        <div id="loading-screen" class="loading-screen">
+            <div class="loading-content">
+                <div class="cyber-logo">
+                    <i class="fas fa-robot"></i>
+                    <h1>Bet<span>Manager</span></h1>
+                </div>
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
+                <p class="loading-text">Inicializando sistema...</p>
+            </div>
+        </div>
+        <!-- Main Application -->
+        <div id="app" class="app-container" style="display: none;">
+            <!-- Header -->
+            <header class="main-header">
+                <div class="header-content">
+                    <div class="logo-section">
+                        <div class="logo">
+                            <i class="fas fa-robot"></i>
+                            <h1>CYBORG<span>MATCH</span></h1>
+                        </div>
+                        <div class="version-badge">v2.0</div>
+                    </div>
+
+                    <div class="header-stats">
+                        <div class="quick-stat">
+                            <span class="stat-value" id="header-bank">$0</span>
+                            <span class="stat-label">Bank Actual</span>
+                        </div>
+                        <div class="quick-stat">
+                            <span class="stat-value" id="header-roi">0%</span>
+                            <span class="stat-label">ROI</span>
+                        </div>
+                        <div class="quick-stat">
+                            <span class="stat-value" id="header-winrate">0%</span>
+                            <span class="stat-label">Win Rate</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </header>
+            <!-- Navigation -->
+            <nav class="main-nav">
+                <div class="nav-container">
+                    <div class="nav-tabs">
+                        <button class="nav-tab active" data-tab="dashboard" onclick="CyborgMatch.switchTab('dashboard', this)">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Dashboard</span>
+                        </button>
+                        <button class="nav-tab" data-tab="bets" onclick="CyborgMatch.switchTab('bets', this)">
+                            <i class="fas fa-list"></i>
+                            <span>Apuestas</span>
+                        </button>
+                        <button class="nav-tab" data-tab="analytics" onclick="CyborgMatch.switchTab('analytics', this)">
+                            <i class="fas fa-chart-pie"></i>
+                            <span>Análisis</span>
+                        </button>
+                        <button class="nav-tab" data-tab="calculator" onclick="CyborgMatch.switchTab('calculator', this)">
+                            <i class="fas fa-calculator"></i>
+                            <span>Calculadora</span>
+                        </button>
+                        <button class="nav-tab" data-tab="settings" onclick="CyborgMatch.switchTab('settings', this)">
+                            <i class="fas fa-cog"></i>
+                            <span>Configuración</span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <!-- Main Content -->
+            <main class="main-content">
+                <!-- Dashboard Tab -->
+                <div id="dashboard" class="tab-content active">
+                    <div class="dashboard-grid">
+                        <!-- Bank Setup Card -->
+                        <div id="bank-setup-card" class="bank-setup-card" style="display: none;">
+                            <div class="setup-content">
+                                <i class="fas fa-piggy-bank setup-icon"></i>
+                                <h2>Configuración Inicial</h2>
+                                <p>Establece tu capital inicial para comenzar</p>
+                                <div class="setup-form">
+                                    <div class="input-group">
+                                        <label for="initial-bank">Capital Inicial</label>
+                                        <input type="number" id="initial-bank" step="0.01" min="0" placeholder="100.000">
+                                        <span class="input-currency">$</span>
+                                    </div>
+                                    <button class="btn btn-primary" onclick="CyborgMatch.setupInitialBank()">
+                                        Inicializar Sistema
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Stats Cards -->
+                        <div id="stats-section" class="stats-section">
+                            <div class="stats-grid">
+                                <!-- Primary Stats -->
+                                <div class="stat-card primary">
+                                    <div class="stat-header">
+                                        <i class="fas fa-wallet"></i>
+                                        <span>Bank Actual</span>
+                                    </div>
+                                    <div class="stat-value" id="current-bank">$0.000</div>
+                                    <div class="stat-change" id="bank-change">+$0.000</div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-header">
+                                        <i class="fas fa-chart-line"></i>
+                                        <span>Beneficio Neto</span>
+                                    </div>
+                                    <div class="stat-value" id="net-profit">$0.000</div>
+                                    <div class="stat-change" id="profit-change">0%</div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-header">
+                                        <i class="fas fa-percentage"></i>
+                                        <span>ROI</span>
+                                    </div>
+                                    <div class="stat-value" id="roi-value">0%</div>
+                                    <div class="stat-indicator" id="roi-indicator"></div>
+                                </div>
+                                <div class="stat-card">
+                                    <div class="stat-header">
+                                        <i class="fas fa-target"></i>
+                                        <span>Win Rate</span>
+                                    </div>
+                                    <div class="stat-value" id="win-rate">0%</div>
+                                    <div class="stat-progress">
+                                        <div class="progress-bar" id="winrate-progress"></div>
+                                    </div>
+                                </div>
+                                <!-- Secondary Stats -->
+                                <div class="stat-card secondary">
+                                    <div class="stat-header">
+                                        <i class="fas fa-coins"></i>
+                                        <span>Total Apostado</span>
+                                    </div>
+                                    <div class="stat-value" id="total-staked">$0.000</div>
+                                </div>
+                                <div class="stat-card secondary">
+                                    <div class="stat-header">
+                                        <i class="fas fa-trophy"></i>
+                                        <span>Ganadas</span>
+                                    </div>
+                                    <div class="stat-value" id="total-wins">0</div>
+                                </div>
+                                <div class="stat-card secondary">
+                                    <div class="stat-header">
+                                        <i class="fas fa-times-circle"></i>
+                                        <span>Perdidas</span>
+                                    </div>
+                                    <div class="stat-value" id="total-losses">0</div>
+                                </div>
+                                <div class="stat-card secondary">
+                                    <div class="stat-header">
+                                        <i class="fas fa-fire"></i>
+                                        <span>Racha Actual</span>
+                                    </div>
+                                    <div class="stat-value" id="current-streak">0</div>
+                                </div>
+                                <div class="stat-card secondary">
+                                    <div class="stat-header">
+                                        <i class="fas fa-chart-bar"></i>
+                                        <span>Cuota Promedio</span>
+                                    </div>
+                                    <div class="stat-value" id="avg-odds">0.00</div>
+                                </div>
+                                <div class="stat-card secondary">
+                                    <div class="stat-header">
+                                        <i class="fas fa-clock"></i>
+                                        <span>Pendientes</span>
+                                    </div>
+                                    <div class="stat-value" id="pending-bets">0</div>
+                                </div>
+                            </div>
+                            <!-- Recent Activity -->
+                            <div class="activity-section">
+                                <h3><i class="fas fa-history"></i> Actividad Reciente</h3>
+                                <div class="activity-list" id="recent-activity">
+                                    <div class="no-activity">
+                                        <i class="fas fa-info-circle"></i>
+                                        <p>No hay actividad reciente</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bets Tab -->
+                <div id="bets" class="tab-content">
+                    <div class="bets-header">
+                        <div class="header-left">
+                            <h2><i class="fas fa-list"></i> Gestión de Apuestas</h2>
+                            <div class="filters">
+                                <select id="status-filter" onchange="CyborgMatch.filterBets()">
+                                    <option value="">Todos los estados</option>
+                                    <option value="pending">Pendientes</option>
+                                    <option value="won">Ganadas</option>
+                                    <option value="lost">Perdidas</option>
+                                    <option value="void">Nulas</option>
+                                </select>
+                                <select id="sport-filter" onchange="CyborgMatch.filterBets()">
+                                    <option value="">Todos los deportes</option>
+                                    <option value="football">Fútbol</option>
+                                    <option value="basketball">Baloncesto</option>
+                                    <option value="other">Otros</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="header-right">
+                            <button class="btn btn-primary" onclick="CyborgMatch.openBetModal()">
+                                <i class="fas fa-plus"></i> Nueva Apuesta
+                            </button>
+                        </div>
+                    </div>
+                    <div class="bets-container">
+                        <div class="bets-table-container">
+                            <table class="bets-table" id="bets-table">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Fecha</th>
+                                        <th>Evento</th>
+                                        <th>Deporte</th>
+                                        <th>Mercado</th>
+                                        <th>Cuota</th>
+                                        <th>Stake</th>
+                                        <th>Estado</th>
+                                        <th>Retorno</th>
+                                        <th>Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="bets-tbody">
+                                    <tr class="no-data">
+                                        <td colspan="10">
+                                            <div class="no-data-content">
+                                                <i class="fas fa-inbox"></i>
+                                                <p>No hay apuestas registradas</p>
+                                                <button class="btn btn-primary" onclick="CyborgMatch.openBetModal()">
+                                                    Agregar primera apuesta
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- Analytics Tab -->
+                <div id="analytics" class="tab-content">
+                    <div class="analytics-header">
+                        <h3><i class="fas fa-chart-pie"></i> Análisis Avanzado</h3>
+                    </div>
+                    <div class="analytics-grid">
+                        <div class="chart-card">
+                            <div class="chart-header">
+                                <h3>Evolución del Bank</h3>
+                            </div>
+                            <div class="chart-container">
+                                <table id="bankTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Fecha</th>
+                                            <th>Bank</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Los datos se llenarán aquí -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <div class="chart-header">
+                                <h3>Distribución por Estado</h3>
+                            </div>
+                            <div class="chart-container">
+                                <table id="statusTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Estado</th>
+                                            <th>Cantidad</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Los datos se llenarán aquí -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <div class="chart-header">
+                                <h3>Rendimiento por Deporte</h3>
+                            </div>
+                            <div class="chart-container">
+                                <table id="sportTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Deporte</th>
+                                            <th>Ganadas</th>
+                                            <th>Total</th>
+                                            <th>Beneficio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Los datos se llenarán aquí -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <div class="chart-header">
+                                <h3>Análisis de Cuotas</h3>
+                            </div>
+                            <div class="chart-container">
+                                <table id="oddsTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Rango de Cuotas</th>
+                                            <th>Cantidad</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- Los datos se llenarán aquí -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Calculator Tab -->
+                <div id="calculator" class="tab-content">
+                    <div class="calculator-header">
+                        <h2><i class="fas fa-calculator"></i> Calculadoras</h2>
+                    </div>
+                    <div class="calculator-grid">
+                        <div class="calculator-card">
+                            <h3>Gestión de Bankroll</h3>
+                            <div class="calculator-form">
+                                <div class="input-group">
+                                    <label>Bank Total</label>
+                                    <input type="number" id="calc-bank" step="0.01">
+                                </div>
+                                <div class="input-group">
+                                    <label>% a Apostar</label>
+                                    <input type="number" id="calc-percentage" min="0" max="100" step="0.1" value="10">
+                                </div>
+                                <div class="input-group">
+                                    <label>Cuota</label>
+                                    <input type="number" id="calc-odds" step="0.01" min="1">
+                                </div>
+                                <button class="btn btn-primary" onclick="CyborgMatch.calculateStake()">Calcular</button>
+                                <div class="calc-result" id="stake-result"></div>
+                            </div>
+                        </div>
+                        <div class="calculator-card">
+                            <h3>Calculadora de Valor</h3>
+                            <div class="calculator-form">
+                                <div class="input-group">
+                                    <label>Probabilidad Real (%)</label>
+                                    <input type="number" id="real-probability" min="0" max="100" step="0.1">
+                                </div>
+                                <div class="input-group">
+                                    <label>Cuota de la Casa</label>
+                                    <input type="number" id="bookmaker-odds" step="0.01" min="1">
+                                </div>
+                                <button class="btn btn-primary" onclick="CyborgMatch.calculateValue()">Calcular Valor</button>
+                                <div class="calc-result" id="value-result"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Settings Tab -->
+                <div id="settings" class="tab-content">
+                    <div class="settings-header">
+                        <h2><i class="fas fa-cog"></i> Configuración</h2>
+                    </div>
+                    <div class="settings-grid">
+                        <div class="settings-card">
+                            <h3>Gestión de Capital</h3>
+                            <div class="setting-item">
+                                <label>Cambiar Bank Inicial</label>
+                                <div class="input-group">
+                                    <input type="number" id="new-bank" step="0.01" min="0">
+                                    <button class="btn btn-secondary" onclick="CyborgMatch.changeBankAmount()">Actualizar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="settings-card">
+                            <h3>Datos</h3>
+                            <div class="setting-item">
+                                <button class="btn btn-success" onclick="CyborgMatch.exportData()">
+                                    <i class="fas fa-download"></i> Exportar Datos
+                                </button>
+                                
+                                <button class="btn btn-danger" onclick="CyborgMatch.confirmClearData()">
+                                    <i class="fas fa-trash"></i> Limpiar Datos
+                                </button>
+                            </div>
+                        </div>
+                        <div class="settings-card">
+                            <h3>Personalización</h3>
+                            <div class="setting-item">
+                                <label>Tema</label>
+                                <select id="theme-select" onchange="CyborgMatch.changeTheme()">
+                                    <option value="dark">Oscuro</option>
+                                    <option value="light">Claro</option>
+                                    <option value="auto">Automático</option>
+                                </select>
+                            </div>
+                            <div class="setting-item">
+                                <label>Moneda</label>
+                                <select id="currency-select" onchange="CyborgMatch.changeCurrency()">
+                                    <option value="USD">USD ($)</option>
+                                    <option value="EUR">EUR (€)</option>
+                                    <option value="COP">COP ($)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <!-- Bet Modal -->
+        <div id="betModal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modal-title">Nueva Apuesta</h3>
+                    <button class="btn-close" onclick="CyborgMatch.closeBetModal()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <form id="bet-form" onsubmit="event.preventDefault(); CyborgMatch.saveBet();">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="bet-date">Fecha</label>
+                                <input type="date" id="bet-date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bet-event">Evento</label>
+                                <input type="text" id="bet-event" placeholder="Barcelona vs Sevilla" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bet-sport">Deporte</label>
+                                <select id="bet-sport" required>
+                                    <option value="">Seleccionar deporte</option>
+                                    <option value="football">⚽ Fútbol</option>
+                                    <option value="basketball">🏀 Baloncesto</option>
+                                    <option value="other">🏟️ Otros</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="bet-market">Mercado</label>
+                                <input type="text" id="bet-market" placeholder="1X2, Over/Under, etc." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bet-odds">Cuota</label>
+                                <input type="number" id="bet-odds" step="0.01" min="1" placeholder="2.50" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bet-stake">Stake</label>
+                                <input type="number" id="bet-stake" step="0.01" min="0.01" placeholder="50.000" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="bet-status">Estado</label>
+                                <select id="bet-status" required>
+                                    <option value="pending">🔵 Pendiente</option>
+                                    <option value="won">🟢 Ganada</option>
+                                    <option value="lost">🔴 Perdida</option>
+                                    <option value="void">🟡 Nula</option>
+                                </select>
+                            </div>
+                            <div class="form-group full-width">
+                                <label for="bet-notes">Notas (Opcional)</label>
+                                <textarea id="bet-notes" rows="3" placeholder="Análisis, razones de la apuesta..."></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" onclick="CyborgMatch.closeBetModal()">
+                                Cancelar
+                            </button>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save"></i> Guardar Apuesta
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Toast Notifications -->
+        <div id="toast-container" class="toast-container"></div>
+    </div>
+</section>
+
+    <!-- Prediction Section -->
+    <section id="ligas" class="ligas-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Análisis y Predicciones</h2>
+                <p class="section-description">
+                    
+                </p>
+            </div>
+            <!-- League Selection -->
+            <div class="selection-panel">
+                <div class="league-selector">
+                    <h3>Seleccionar Liga</h3>
+                    <div class="league-grid">
+                        <!-- ESPAÑA -->
+                        <div class="league-card active" data-league="spain" title="España">
+                            <img src="https://flagcdn.com/w40/es.png" alt="España">
+                            <span>La Liga</span>
+                        </div>
+                        <div class="league-card" data-league="spain2" title="España">
+                            <img src="https://flagcdn.com/w40/es.png" alt="España">
+                            <span>Liga Hypermotion</span>
+                        </div>
+                        <!-- INGLATERRA -->
+                        <div class="league-card" data-league="england" title="Inglaterra">
+                            <img src="https://flagcdn.com/w40/gb-eng.png" alt="Inglaterra">
+                            <span>Premier League</span>
+                        </div>
+                        <div class="league-card" data-league="championship" title="Inglaterra">
+                            <img src="https://flagcdn.com/w40/gb-eng.png" alt="Inglaterra">
+                            <span>Championship</span>
+                        </div>
+                        <!-- ALEMANIA -->
+                        <div class="league-card" data-league="germany" title="Alemania">
+                            <img src="https://flagcdn.com/w40/de.png" alt="Alemania">
+                            <span>Bundesliga</span>
+                        </div>
+                        <div class="league-card" data-league="germany2" title="Alemania">
+                            <img src="https://flagcdn.com/w40/de.png" alt="Alemania">
+                            <span>Bundesliga 2</span>
+                        </div>
+                        <!-- ITALIA -->
+                        <div class="league-card" data-league="italy" title="Italia">
+                            <img src="https://flagcdn.com/w40/it.png" alt="Italia">
+                            <span>Serie A</span>
+                        </div>
+                        <div class="league-card" data-league="italy2" title="Italia">
+                            <img src="https://flagcdn.com/w40/it.png" alt="Italia">
+                            <span>Serie B</span>
+                        </div>
+                        <!-- FRANCIA -->
+                        <div class="league-card" data-league="france" title="Francia">
+                            <img src="https://flagcdn.com/w40/fr.png" alt="Francia">
+                            <span>Ligue 1</span>
+                        </div>
+                        <div class="league-card" data-league="france2" title="Francia">
+                            <img src="https://flagcdn.com/w40/fr.png" alt="Francia">
+                            <span>Ligue 2</span>
+                        </div>
+                        <!-- PAÍSES BAJOS -->
+                        <div class="league-card" data-league="netherlands" title="Países Bajos">
+                            <img src="https://flagcdn.com/w40/nl.png" alt="Países Bajos">
+                            <span>Eredivisie</span>
+                        </div>
+                        <div class="league-card" data-league="netherlands2" title="Países Bajos">
+                            <img src="https://flagcdn.com/w40/nl.png" alt="Países Bajos">
+                            <span>Eerste Divisie</span>
+                        </div>
+                        <!-- PORTUGAL -->
+                        <div class="league-card" data-league="portugal" title="Portugal">
+                            <img src="https://flagcdn.com/w40/pt.png" alt="Portugal">
+                            <span>Primeira Liga</span>
+                        </div>
+                        <div class="league-card" data-league="portugal2" title="Portugal">
+                            <img src="https://flagcdn.com/w40/pt.png" alt="Portugal">
+                            <span>Liga Portugal 2</span>
+                        </div>
+                        <!-- BRASIL -->
+                        <div class="league-card" data-league="brazil" title="Brasil">
+                            <img src="https://flagcdn.com/w40/br.png" alt="Brasil">
+                            <span>Série A</span>
+                        </div>
+                        <div class="league-card" data-league="brazil2" title="Brasil">
+                            <img src="https://flagcdn.com/w40/br.png" alt="Brasil">
+                            <span>Série B</span>
+                        </div>
+
+                        <!-- BULGARIA -->
+<div class="league-card" data-league="bulgaria" title="Bulgaria">
+    <img src="https://flagcdn.com/w40/bg.png" alt="Bulgaria">
+    <span>Primera Liga</span>
+</div>
+
+                        <!-- SUIZA -->
+                        <div class="league-card" data-league="switzerland" title="Suiza">
+                            <img src="https://flagcdn.com/w40/ch.png" alt="Suiza">
+                            <span>Super League</span>
+                        </div>
+                        <!-- ESCOCIA -->
+                        <div class="league-card" data-league="scotland" title="Escocia">
+                            <img src="https://flagcdn.com/w40/gb-sct.png" alt="Escocia">
+                            <span>Scottish Premiership</span>
+                        </div>
+                       <!-- ARGENTINA -->
+<div class="league-card" data-league="argentina" title="Argentina">
+    <img src="https://flagcdn.com/w40/ar.png" alt="Argentina">
+    <span>Primera División</span>
+</div>
+<!-- MÉXICO -->
+<div class="league-card" data-league="mexico" title="México">
+    <img src="https://flagcdn.com/w40/mx.png" alt="México">
+    <span>Liga MX</span>
+</div>
+<!-- COLOMBIA -->
+<div class="league-card" data-league="colombia" title="Colombia">
+    <img src="https://flagcdn.com/w40/co.png" alt="Colombia">
+    <span>Liga BetPlay</span>
+</div>
+<!-- BOLIVIA -->
+<div class="league-card" data-league="bolivia" title="Bolivia">
+    <img src="https://flagcdn.com/w40/bo.png" alt="Bolivia">
+    <span>LFPB</span>
+</div>
+                        <div class="league-card" data-league="estonia" title="Estonia">
+                            <img src="https://flagcdn.com/w40/ee.png" alt="Estonia">
+                            <span>Meistriliiga</span>
+                        </div>
+                        <!-- JAPÓN -->
+                        <div class="league-card" data-league="japan" title="Japón">
+                            <img src="https://flagcdn.com/w40/jp.png" alt="Japón">
+                            <span>J1 League</span>
+                        </div>
+                        <!-- CHINA -->
+                        <div class="league-card" data-league="china" title="China">
+                            <img src="https://flagcdn.com/w40/cn.png" alt="China">
+                            <span>Super Liga China</span>
+                        </div>
+                        <!-- SUECIA -->
+                        <div class="league-card" data-league="sweden" title="Suecia">
+                            <img src="https://flagcdn.com/w40/se.png" alt="Suecia">
+                            <span>Allsvenskan</span>
+                        </div>
+                        <!-- BÉLGICA -->
+                        <div class="league-card" data-league="belgium" title="Bélgica">
+                            <img src="https://flagcdn.com/w40/be.png" alt="Bélgica">
+                            <span>Pro League</span>
+                        </div>
+                        <!-- NORUEGA -->
+                        <div class="league-card" data-league="norway" title="Noruega">
+                            <img src="https://flagcdn.com/w40/no.png" alt="Noruega">
+                            <span>Eliteserien</span>
+                        </div>
+                        <!-- ARABIA SAUDITA -->
+                        <div class="league-card" data-league="saudi-arabia" title="Arabia Saudita">
+                            <img src="https://flagcdn.com/w40/sa.png" alt="Arabia Saudita">
+                            <span>Liga Profesional</span>
+                        </div>
+                        <!-- CROACIA -->
+                        <div class="league-card" data-league="croacia" title="Croacia">
+                            <img src="https://flagcdn.com/w40/hr.png" alt="Croacia">
+                            <span>Prva HNL</span>
+                        </div>
+                        <!-- REPÚBLICA CHECA -->
+                        <div class="league-card" data-league="República Checa" title="República Checa">
+                            <img src="https://flagcdn.com/w40/cz.png" alt="República Checa">
+                            <span>Chance Liga</span>
+                        </div>
+                        <!-- TURQUÍA -->
+<div class="league-card" data-league="turkey" title="Turquía">
+    <img src="https://flagcdn.com/w40/tr.png" alt="Turquía">
+    <span>Süper Lig de Turquía</span>
+</div>
+
+<!-- ECUADOR -->
+<div class="league-card" data-league="ecuador" title="Ecuador">
+    <img src="https://flagcdn.com/w40/ec.png" alt="Ecuador">
+    <span>LigaPro de Ecuador</span>
+</div>
+
+<!-- ESTADOS UNIDOS -->
+<div class="league-card" data-league="usa" title="Estados Unidos">
+    <img src="https://flagcdn.com/w40/us.png" alt="Estados Unidos">
+    <span>Major League Soccer (MLS)</span>
+</div>
+
+<!-- AUSTRALIA -->
+<div class="league-card" data-league="australia" title="Australia">
+    <img src="https://flagcdn.com/w40/au.png" alt="Australia">
+    <span>A-League de Australia</span>
+</div>
+
+<!-- GRECIA -->
+<div class="league-card" data-league="greece" title="Grecia">
+    <img src="https://flagcdn.com/w40/gr.png" alt="Grecia">
+    <span>Super League de Grecia</span>
+</div>
+
+<!-- CHILE -->
+<div class="league-card" data-league="chile" title="Chile">
+    <img src="https://flagcdn.com/w40/cl.png" alt="Chile">
+    <span>Campeonato Nacional de Chile</span>
+</div>
+
+<!-- SUDAMÉRICA - COPA LIBERTADORES -->
+<div class="league-card" data-league="libertadores" title="Copa Libertadores">
+    <img src="https://cdn-icons-png.flaticon.com/512/6195/6195567.png" alt="Copa Libertadores">
+    <span>Copa Libertadores</span>
+</div>
+
+<!-- SUDAMÉRICA - COPA SUDAMERICANA -->
+<div class="league-card" data-league="sudamericana" title="Copa Sudamericana">
+    <img src="https://cdn-icons-png.flaticon.com/512/6195/6195567.png" alt="Copa Sudamericana">
+    <span>Copa Sudamericana</span>
+</div>
+
+
+
+                </div>
+            </div>
+            <!-- Team Selection -->
+            <div class="team-selector">
+                <div class="team-selection-container">
+                    <div class="team-select-box">
+                        <h4>Equipo Local</h4>
+                        <select id="homeTeam" class="team-select">
+                            <option value="">Seleccionar equipo...</option>
+                        </select>
+                    </div>
+                    <div class="vs-divider">
+                        <span>VS</span>
+                    </div>
+                    <div class="team-select-box">
+                        <h4>Equipo Visitante</h4>
+                        <select id="awayTeam" class="team-select">
+                            <option value="">Seleccionar equipo...</option>
+                        </select>
+                    </div>
+                </div>
+                <button id="analyzeBtn" class="btn btn-primary analyze-btn" disabled>
+                    <i class="fas fa-search"></i>
+                    Analizar Partido
+                </button>
+            </div>
+        </div>
+        <!-- Results Panel -->
+        <div id="resultsPanel" class="results-panel" style="display: none;">
+            <div class="match-header">
+                <div class="team-info">
+                    <span id="homeTeamName" class="team-name">-</span>
+                    <span class="vs">VS</span>
+                    <span id="awayTeamName" class="team-name">-</span>
+                </div>
+            </div>
+            <div class="predictions-grid">
+                <!-- Predicción de Goles -->
+                <div class="prediction-card">
+                    <div class="card-header">
+                        <i class="fas fa-futbol"></i>
+                        <h3>Predicción de Goles</h3>
+                    </div>
+                    <div class="prediction-content">
+                        <div class="prediction-item">
+                            <span class="prediction-label">Más de 1.5 goles</span>
+                            <span id="over15Prediction" class="prediction-value">-</span>
+                        </div>
+                        <div class="prediction-item">
+                            <span class="prediction-label">Más de 2.5 goles</span>
+                            <span id="over25Prediction" class="prediction-value">-</span>
+                        </div>
+                        <div class="prediction-item">
+                            <span class="prediction-label">Ambos equipos marcan</span>
+                            <span id="btsPrediction" class="prediction-value">-</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="prediction-card">
+                    <div class="card-header">
+                        <i class="fas fa-flag"></i>
+                        <h3>Predicción de Córners</h3>
+                    </div>
+                    <div class="prediction-content">
+                        <div class="prediction-item">
+                            <span class="prediction-label">Más de 8.5 Córners</span>
+                            <span id="corners85Prediction" class="prediction-value">-</span>
+                        </div>
+                        <div class="prediction-item">
+                            <span class="prediction-label">Más de 9.5 Córners</span>
+                            <span id="corners95Prediction" class="prediction-value">-</span>
+                        </div>
+                        <div class="prediction-item">
+                            <span class="prediction-label">Más de 10.5 Córners</span>
+                            <span id="corners105Prediction" class="prediction-value">-</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Análisis de Forma -->
+                <div class="prediction-card">
+                    <div class="card-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Análisis de Forma</h3>
+                    </div>
+                    <div class="prediction-content">
+                        <div class="form-comparison">
+                            <div class="team-form">
+                                <h4 id="homeTeamFormTitle">Equipo Local</h4>
+                                <div class="form-stats">
+                                    <div class="stat-item">
+                                        <span>Posición:</span>
+                                        <span id="homePosition">-</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span>Puntos:</span>
+                                        <span id="homePoints">-</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span>Goles a favor:</span>
+                                        <span id="homeGoalsFor">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team-form">
+                                <h4 id="awayTeamFormTitle">Equipo Visitante</h4>
+                                <div class="form-stats">
+                                    <div class="stat-item">
+                                        <span>Posición:</span>
+                                        <span id="awayPosition">-</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span>Puntos:</span>
+                                        <span id="awayPoints">-</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span>Goles a favor:</span>
+                                        <span id="awayGoalsFor">-</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Recomendación Final -->
+                <div class="prediction-card recommendation-card">
+                    <div class="card-header">
+                        <i class="fas fa-star"></i>
+                        <h3>Recomendación</h3>
+                    </div>
+                    <div class="prediction-content">
+                        <div id="finalRecommendation" class="recommendation-text">
+                            Selecciona los equipos para obtener una recomendación
+                        </div>
+                        <div id="confidenceLevel" class="confidence-level">
+                            <span class="confidence-label">Nivel de confianza:</span>
+                            <div class="confidence-bar">
+                                <div class="confidence-fill" style="width: 0%"></div>
+                            </div>
+                            <span class="confidence-percentage">0%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- Radar section -->
+<section id="radar" class="statistics-section radar-section">
+    <div class="radar-container">
+        <div class="radar-header">
+            <h2 class="radar-title">🎯 RADAR ANALYSIS</h2>
+            <p class="radar-subtitle">
+                 Equipos Rentables En Todas Las Ligas
+            </p>
+        </div>
+        
+       <!-- Filtros Principales -->
+<div class="controls-panel">
+    <div class="control-group">
+        <label for="categorySelect">📊 Categoría de Análisis</label>
+        <select id="categorySelect" class="control-select">
+            <optgroup label="🥅 GOLES">
+                <option value="goles_over15">Over 1.5 Goles</option>
+                <option value="goles_over25">Over 2.5 Goles</option>
+                <option value="goles_over35">Over 3.5 Goles</option>
+                <option value="goles_under25">Under 2.5 Goles</option>
+                <option value="goles_under35">Under 3.5 Goles</option>
+            </optgroup>
+            <optgroup label="🎯 BTTS">
+                <option value="btts_yes">BTTS Sí</option>
+                <option value="btts_no">BTTS No</option>
+            </optgroup>
+            <optgroup label="🟨 TARJETAS">
+                <option value="tarjetas_35">Over 3.5 Tarjetas</option>
+                <option value="tarjetas_45">Over 4.5 Tarjetas</option>
+                <option value="tarjetas_55">Over 5.5 Tarjetas</option>
+                <option value="tarjetas_under45">Under 4.5 Tarjetas</option>
+                <option value="tarjetas_under55">Under 5.5 Tarjetas</option>
+            </optgroup>
+            <optgroup label="🚩 ESQUINAS">
+                <option value="esquinas_over85">Over 8.5 Esquinas</option>
+                <option value="esquinas_over95">Over 9.5 Esquinas</option>
+                <option value="esquinas_under95">Under 9.5 Esquinas</option>
+                <option value="esquinas_under105">Under 10.5 Esquinas</option>
+            </optgroup>
+            <optgroup label="💰 RENTABILIDAD">
+                <option value="equipos_rentables">Equipos Más Rentables</option>
+            </optgroup>
+            <optgroup label="📊 RENDIMIENTO">
+                <option value="victorias_porcentaje">% Victorias</option>
+                <option value="empates_porcentaje">% Empates</option>
+                <option value="derrotas_porcentaje">% Derrotas</option>
+                <option value="puntos_promedio">Puntos por Partido</option>
+                <option value="puntos_totales">Total de Puntos</option>
+            </optgroup>
+            <optgroup label="⚽ GOLES EQUIPO">
+                <option value="goles_favor_promedio">Promedio Goles a Favor</option>
+                <option value="goles_contra_promedio">Promedio Goles en Contra</option>
+                <option value="diferencia_goles">Diferencia de Goles</option>
+                <option value="goles_favor_total">Total Goles a Favor</option>
+                <option value="goles_contra_total">Total Goles en Contra</option>
+            </optgroup>
+            <optgroup label="🏆 POSICIÓN TABLA">
+                <option value="mejor_posicion">Mejores Posicionados</option>
+                <option value="peor_posicion">Peores Posicionados</option>
+            </optgroup>
+        </select>
+    </div>
+
+            
+            <div class="control-group">
+                <label for="topCount">🏆 Top Equipos</label>
+                <select id="topCount" class="control-select">
+                    <option value="5">Top 5</option>
+                    <option value="10" selected>Top 10</option>
+                    <option value="15">Top 15</option>
+                    <option value="20">Top 20</option>
+                    <option value="25">Top 25</option>
+                    <option value="30">Top 30</option>
+                </select>
+            </div>
+            
+            <div class="control-group">
+                <label for="minMatches">⚽ Mín. Partidos</label>
+                <input type="number" id="minMatches" class="control-input" min="1" max="50" value="10" placeholder="Ej: 10">
+            </div>
+            
+            <button class="analyze-btn" onclick="analyzeWithRadarLoader()">
+    🚀 ANALIZAR DATOS
+</button>
+        </div>
+
+
+        <div id="resultsContainer" class="results-grid">
+            <!-- Resultados dinámicos -->
+        </div>
+    </div>
+</section>
+
+
+<!-- Statistics Section -->
+<section id="estadisticas" class="statistics-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title"></h2>
+            <p class="section-description">
+                
+            </p>
+        </div>
+        <div id="leagueStats" class="league-stats">
+
+            <!-- Estadísticas Generales -->
+            <div class="stats-category">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fas fa-trophy"></i>
+                        <h4>Líder</h4>
+                        <p id="leagueLeader">-</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-fire"></i>
+                        <h4>Más Goleador</h4>
+                        <p id="topScorer">-</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Mejor Defensa</h4>
+                        <p id="bestDefense">-</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-flag"></i>
+                        <h4>Más Córners</h4>
+                        <p id="mostCorners">-</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Estadísticas de Goles -->
+            <div class="stats-category">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fas fa-bullseye"></i>
+                        <h4>Mayor Diferencia</h4>
+                        <p id="bestGoalDiff">-</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>Promedio Goles Liga</h4>
+                        <p id="avgGoalsLeague">-</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-arrow-up"></i>
+                        <h4>Más Over 2.5</h4>
+                        <p id="mostOver25">-</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-unlock"></i>
+                        <h4>Siempre Encaja</h4>
+                        <p id="alwaysConcedes">-</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjetas y Disciplina -->
+            <div class="stats-category">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h4>Más Tarjetas 3.5+</h4>
+                        <p id="mostCards35">-</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-ban"></i>
+                        <h4>Más Tarjetas 4.5+</h4>
+                        <p id="mostCards45">-</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-warning"></i>
+                        <h4>Más Tarjetas 5.5+</h4>
+                        <p id="mostCards55">-</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-user-shield"></i>
+                        <h4>Menos Disciplinado</h4>
+                        <p id="leastDisciplined">-</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- NBA Section -->
+    <section id="nba" class="nba-section">
+        <!-- Sección del logo NBA -->
+        <div class="seccion-logo-nba">
+            <img src="https://graffica.info/wp-content/uploads/2017/08/NBA-logo-png-download-free-1200x675.png" alt="Logo NBA" class="logo-nba">
+        </div>
+        <!-- Botones de navegación NBA -->
+        <div class="top-buttons">
+            <button id="players-button">Jugadores</button>
+            <button id="games-button">Juegos</button>
+            <button id="standings-button">Estadísticas</button>
+            <button id="back-button" style="display: none;">Regresar</button>
+        </div>
+        <!-- Contenedor principal para la selección de equipos -->
+        <div id="main-content">
+            <div class="main-selector">
+                <!-- Selección de equipo local -->
+                <div class="team-selector">
+                    <h3>🏠 EQUIPO LOCAL</h3>
+                    <div class="team-logos-grid" id="local-team-logos">
+                        <!-- Los logos se generarán aquí -->
+                    </div>
+                    <div id="local-data" class="team-data" style="display: none;"></div>
+                </div>
+                <!-- Sección de sugerencias -->
+                <div class="sugerencias">
+                    <h2>🎯 PREDICCIONES</h2>
+
+                    <!-- Equipos seleccionados -->
+                    <div class="selected-teams" id="selected-teams" style="display: none;">
+                        <div class="selected-team">
+                            <img id="selected-local-logo" src="" alt="Local">
+                            <span id="selected-local-name">-</span>
+                        </div>
+                        <div class="vs-text">VS</div>
+                        <div class="selected-team">
+                            <img id="selected-visitor-logo" src="" alt="Visitante">
+                            <span id="selected-visitor-name">-</span>
+                        </div>
+                    </div>
+                    <div id="suggestions-loader" class="loader" style="display: none;">
+                        Analizando equipos y calculando predicciones...
+                    </div>
+
+                    <div id="apuestas-sugerencias" class="sugerencia-item">
+                        <p>🏀 Seleccione Los Equipos.</p>
+                    </div>
+                </div>
+                <!-- Selección de equipo visitante -->
+                <div class="team-selector">
+                    <h3>✈️ EQUIPO VISITANTE</h3>
+                    <div class="team-logos-grid" id="visitor-team-logos">
+                        <!-- Los logos se generarán aquí -->
+                    </div>
+                    <div id="visitor-data" class="team-data" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Contenedor exclusivo para jugadores -->
+        <div id="player-container" class="player-container" style="display: none;">
+            <h2>🏀 JUGADORES NBA</h2>
+            <div id="player-list" class="player-list">
+                <!-- Las tarjetas de jugadores se generarán aquí -->
+            </div>
+        </div>
+        <!-- Contenedor exclusivo para juegos -->
+        <div id="games-container" class="games-container" style="display: none;">
+            <h2>🏆 JUEGOS NBA</h2>
+            <div id="games-list" class="games-list">
+                <!-- Las tarjetas de juegos se generarán aquí -->
+            </div>
+        </div>
+        <!-- Contenedor exclusivo para estadísticas -->
+        <div id="standings-container" class="standings-container" style="display: none;">
+            <h2></h2>
+
+            <!-- Selector de conferencia -->
+            <div class="conference-selector">
+                <button id="eastern-btn" class="conference-btn active">Conferencia Este</button>
+                <button id="western-btn" class="conference-btn">Conferencia Oeste</button>
+            </div>
+            <!-- Tabla de estadísticas -->
+            <div id="standings-table-container" class="standings-table-container">
+                <table id="standings-table" class="standings-table">
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th>Equipo</th>
+                            <th>G</th>
+                            <th>P</th>
+                            <th>%G</th>
+                            <th>PF</th>
+                            <th>PC</th>
+                            <th>Dif</th>
+                        </tr>
+                    </thead>
+                    <tbody id="standings-tbody">
+                        <!-- Las filas se generarán aquí -->
+                    </tbody>
+                </table>
+            </div>
+            <!-- Botón de comparación -->
+            <div class="comparison-section">
+                <h3>🔍 COMPARAR EQUIPOS</h3>
+                <div class="comparison-controls">
+                    <select id="team1-select-nba" class="team-select">
+                        <option value="">nba-team1-select</option>
+                    </select>
+                    <span class="vs-text">VS</span>
+                    <select id="team2-select-nba" class="team-select">
+                        <option value="">nba-team2-select</option>
+                    </select>
+                    <button id="compare-btn-nba" class="compare-btn" disabled>Comparar</button>
+                </div>
+            </div>
+            <!-- Contenedor de comparación -->
+            <div id="comparison-container-nba" class="comparison-container" style="display: none;">
+                <h3></h3>
+                <div id="comparison-content-nba" class="comparison-content">
+                    <!-- El contenido de comparación se generará aquí -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <i class="fas fa-futbol"></i>
+                    <span>Cyborgbets New Gen</span>
+                </div>
+                <p class="footer-text">
+                    Predicciones deportivas basadas en datos reales
+                </p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Jose Melo.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+        <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin fa-3x"></i>
+            <p>Analizando datos...</p>
+        </div>
+    </div>
+
+    <!-- RADAR LOADER HTML - Agregar antes del cierre del </body> -->
+
+<!-- Radar Loader Overlay -->
+<div class="radar-loader-overlay" id="radarLoader">
+    <div class="radar-loader-container">
+        <div class="radar-scanner">
+            <div class="radar-grid"></div>
+            <div class="radar-sweep"></div>
+            <div class="radar-blip"></div>
+            <div class="radar-blip"></div>
+            <div class="radar-blip"></div>
+            <div class="radar-blip"></div>
+            <div class="radar-blip"></div>
+        </div>
+        
+        <div class="loader-text">ANALIZANDO LIGAS</div>
+        <div class="loader-message" id="loaderMessage">🔍 Inicializando radar...</div>
+        
+        <div class="loader-progress">
+            <div class="loader-progress-bar"></div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* RADAR LOADER STYLES - Encapsulado para evitar conflictos */
+.radar-loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(5px);
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.radar-loader-overlay.active {
+    display: flex;
+    opacity: 1;
+}
+
+.radar-loader-container {
+    text-align: center;
+    color: white;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.radar-scanner {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    background: 
+        radial-gradient(circle, transparent 35%, rgba(0, 255, 0, 0.1) 36%, rgba(0, 255, 0, 0.1) 45%, transparent 46%),
+        radial-gradient(circle, transparent 65%, rgba(0, 255, 0, 0.08) 66%, rgba(0, 255, 0, 0.08) 75%, transparent 76%);
+    border: 2px solid #00ff00;
+    box-shadow: 
+        0 0 20px rgba(0, 255, 0, 0.3),
+        inset 0 0 20px rgba(0, 255, 0, 0.1);
+}
+
+.radar-sweep {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 90px;
+    background: linear-gradient(to top, transparent, rgba(0, 255, 0, 0.8), #00ff00);
+    transform-origin: bottom center;
+    transform: translate(-50%, -100%);
+    animation: radar-sweep 2s linear infinite;
+}
+
+.radar-sweep::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 4px;
+    height: 4px;
+    background: #00ff00;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+.radar-blip {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #ff6600;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ff6600;
+    opacity: 0;
+    animation: radar-blip 3s ease-in-out infinite;
+}
+
+.radar-blip:nth-child(3) { top: 30%; left: 60%; animation-delay: 0.5s; }
+.radar-blip:nth-child(4) { top: 70%; left: 30%; animation-delay: 1s; }
+.radar-blip:nth-child(5) { top: 45%; left: 80%; animation-delay: 1.5s; }
+.radar-blip:nth-child(6) { top: 25%; left: 25%; animation-delay: 2s; }
+.radar-blip:nth-child(7) { top: 80%; left: 70%; animation-delay: 2.5s; }
+
+.radar-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.radar-grid::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 255, 0, 0.3);
+    transform: translateY(-50%);
+}
+
+.radar-grid::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: rgba(0, 255, 0, 0.3);
+    transform: translateX(-50%);
+}
+
+.loader-text {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #00ff00;
+    text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+.loader-message {
+    font-size: 16px;
+    color: #cccccc;
+    margin-bottom: 10px;
+    min-height: 20px;
+    opacity: 0;
+    animation: fade-in-out 2s ease-in-out infinite;
+}
+
+.loader-progress {
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.loader-progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #00ff00, #00cc00, #00ff00);
+    border-radius: 2px;
+    width: 0%;
+    animation: progress-fill 8s ease-in-out infinite;
+}
+
+/* Animaciones */
+@keyframes radar-sweep {
+    0% { transform: translate(-50%, -100%) rotate(0deg); }
+    100% { transform: translate(-50%, -100%) rotate(360deg); }
+}
+
+@keyframes radar-blip {
+    0%, 15% { opacity: 0; transform: scale(0.5); }
+    20%, 35% { opacity: 1; transform: scale(1); }
+    40%, 100% { opacity: 0; transform: scale(1.5); }
+}
+
+@keyframes fade-in-out {
+    0%, 100% { opacity: 0.7; }
+    50% { opacity: 1; }
+}
+
+@keyframes progress-fill {
+    0% { width: 0%; }
+    25% { width: 30%; }
+    50% { width: 65%; }
+    75% { width: 85%; }
+    100% { width: 100%; }
+}
+
+/* Pulse effect para el botón durante la carga */
+.analyze-btn.loading {
+    position: relative;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.analyze-btn.loading::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: inherit;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    opacity: 0.3;
+    animation: button-pulse 2s ease-in-out infinite;
+    z-index: -1;
+}
+
+@keyframes button-pulse {
+    0%, 100% { opacity: 0.3; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(1.05); }
+}
+</style>
+
+<script>
+// SISTEMA DE RADAR LOADER - Encapsulado y optimizado (Duración extendida +6s) - Mensajes Aleatorios
+(function() {
+    'use strict';
+
+    class RadarLoaderSystem {
+        constructor() {
+            this.messages = [
+                "🔍 Escaneando bases de datos...",
+                "⚽ Analizando estadísticas de equipos...",
+                "📊 Procesando métricas de rendimiento...",
+                "🎯 Calculando probabilidades...",
+                "📈 Optimizando resultados...",
+                "✨ Preparando análisis final...",
+                "🔄 Sincronizando datos de ligas...",
+                "📋 Validando información de equipos...",
+                "🎲 Calculando tendencias estadísticas...",
+                "💹 Optimizando algoritmos de predicción...",
+                "🔬 Análisis profundo de patrones...",
+                "🌍 Consultando bases de datos globales...",
+                "⚡ Procesamiento de IA avanzada...",
+                "🧠 Aplicando machine learning...",
+                "🔗 Sincronizando múltiples fuentes...",
+                "📈 Refinando predicciones...",
+                "🎯 Validación final de resultados...",
+                "📋 Evaluando consistencia de resultados...",
+                "⚡ Optimizando presentación...",
+                "🎯 Calculando probabilidades...",
+                "🧮 Procesando algoritmos complejos...",
+                "📐 Aplicando modelos matemáticos...",
+                "💾 Procesando archivos de estadísticas...",
+                "🎨 Generando visualizaciones...",
+                "⚡ Ejecutando cálculos vectoriales...",
+                "📊 Computando matrices de correlación...",
+                "🔢 Procesando regresiones lineales...",
+                "📈 Aplicando análisis bayesiano...",
+                "💹 Calculando ratios de valor esperado...",
+                "🧠 Ejecutando redes neuronales..."
+            ];
+            this.shuffledMessages = [];
+            this.currentMessageIndex = 0;
+            this.messageInterval = null;
+            this.isActive = false;
+            this.progressInterval = null;
+            this.simulationDuration = 14000; // Duración aumentada de 8s a 14s (+6s)
+            this.messageDuration = 1000; // Duración por mensaje ajustada a 1 segundo para más mensajes
+        }
+
+        // Nuevo método para mezclar mensajes aleatoriamente
+        shuffleMessages() {
+            // Crear una copia del array original
+            this.shuffledMessages = [...this.messages];
+            
+            // Algoritmo de Fisher-Yates para mezclar aleatoriamente
+            for (let i = this.shuffledMessages.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [this.shuffledMessages[i], this.shuffledMessages[j]] = [this.shuffledMessages[j], this.shuffledMessages[i]];
+            }
+            
+            console.log('🔀 Mensajes mezclados aleatoriamente para nueva sesión');
+        }
+
+        show() {
+            if (this.isActive) return;
+
+            this.isActive = true;
+            const overlay = document.getElementById('radarLoader');
+            const button = document.querySelector('.analyze-btn');
+            const radarSection = document.querySelector('.radar-section');
+            const resultsGrid = document.querySelector('.results-grid');
+            
+            // Mezclar mensajes cada vez que se inicia
+            this.shuffleMessages();
+            
+            // Activar overlay del loader
+            if (overlay) {
+                overlay.classList.add('active');
+            }
+
+            // Cambiar estado del botón
+            if (button) {
+                button.classList.add('loading');
+            }
+
+            // Aplicar efecto de desenfoque al contenido principal
+            if (radarSection) {
+                radarSection.classList.add('analyzing');
+            }
+
+            // Limpiar resultados previos y mostrar simulación
+            this.clearPreviousResults();
+            this.showAnalysisSimulation();
+
+            this.startMessageCycle();
+            this.preventScrolling();
+            this.startProgressBar();
+            
+            console.log('🎯 Radar Loader activado - Con simulación de análisis en fondo y mensajes aleatorios');
+        }
+
+        hide() {
+            if (!this.isActive) return;
+
+            this.isActive = false;
+            const overlay = document.getElementById('radarLoader');
+            const button = document.querySelector('.analyze-btn');
+            const radarSection = document.querySelector('.radar-section');
+            
+            // Desactivar overlay del loader
+            if (overlay) {
+                overlay.classList.remove('active');
+            }
+
+            // Restaurar estado del botón
+            if (button) {
+                button.classList.remove('loading');
+            }
+
+            // Quitar efecto de desenfoque del contenido principal
+            if (radarSection) {
+                radarSection.classList.remove('analyzing');
+            }
+
+            // Limpiar simulación de análisis
+            this.clearAnalysisSimulation();
+
+            this.stopMessageCycle();
+            this.stopProgressBar();
+            this.restoreScrolling();
+            
+            console.log('🎯 Radar Loader desactivado');
+        }
+
+        startMessageCycle() {
+            this.currentMessageIndex = 0;
+            this.updateMessage();
+            
+            this.messageInterval = setInterval(() => {
+                this.currentMessageIndex = (this.currentMessageIndex + 1) % this.shuffledMessages.length;
+                this.updateMessage();
+                
+                // Si llegamos al final del array mezclado, volver a mezclar para la próxima ronda
+                if (this.currentMessageIndex === 0) {
+                    this.shuffleMessages();
+                    console.log('🔄 Ciclo completo - Remezclando mensajes');
+                }
+            }, this.messageDuration);
+        }
+
+        stopMessageCycle() {
+            if (this.messageInterval) {
+                clearInterval(this.messageInterval);
+                this.messageInterval = null;
+            }
+        }
+
+        updateMessage() {
+            const messageElement = document.getElementById('loaderMessage');
+            if (messageElement && this.shuffledMessages[this.currentMessageIndex]) {
+                messageElement.textContent = this.shuffledMessages[this.currentMessageIndex];
+                messageElement.style.opacity = '1';
+            }
+        }
+
+        // Nuevo método para obtener un mensaje aleatorio único (sin repetir el anterior)
+        getRandomMessage(excludeIndex = -1) {
+            let availableMessages = this.shuffledMessages.filter((_, index) => index !== excludeIndex);
+            if (availableMessages.length === 0) {
+                availableMessages = [...this.shuffledMessages]; // Si no hay mensajes disponibles, usar todos
+            }
+            const randomIndex = Math.floor(Math.random() * availableMessages.length);
+            return availableMessages[randomIndex];
+        }
+
+        // Método alternativo para ciclo completamente aleatorio (cada mensaje es aleatorio)
+        startRandomMessageCycle() {
+            this.updateRandomMessage();
+            
+            this.messageInterval = setInterval(() => {
+                this.updateRandomMessage();
+            }, this.messageDuration);
+        }
+
+        updateRandomMessage() {
+            const messageElement = document.getElementById('loaderMessage');
+            if (messageElement) {
+                const randomMessage = this.getRandomMessage();
+                messageElement.textContent = randomMessage;
+                messageElement.style.opacity = '1';
+            }
+        }
+
+        // Nuevo método para manejar la barra de progreso
+        startProgressBar() {
+            const progressBar = document.querySelector('.loader-progress-bar');
+            if (!progressBar) return;
+
+            // Reset inicial
+            progressBar.style.width = '0%';
+            
+            // Simular progreso gradual
+            let progress = 0;
+            const progressDuration = this.simulationDuration;
+            const updateInterval = progressDuration / 100; // Actualizar cada 1% del tiempo total
+            
+            this.progressInterval = setInterval(() => {
+                progress += 1;
+                if (progressBar) {
+                    progressBar.style.width = `${progress}%`;
+                }
+                
+                if (progress >= 100) {
+                    clearInterval(this.progressInterval);
+                    this.progressInterval = null;
+                }
+            }, updateInterval);
+        }
+
+        stopProgressBar() {
+            if (this.progressInterval) {
+                clearInterval(this.progressInterval);
+                this.progressInterval = null;
+            }
+            
+            // Completar la barra al 100% al finalizar
+            const progressBar = document.querySelector('.loader-progress-bar');
+            if (progressBar) {
+                progressBar.style.width = '100%';
+                
+                // Reset después de un momento
+                setTimeout(() => {
+                    progressBar.style.width = '0%';
+                }, 500);
+            }
+        }
+
+        // Nuevo método para generar partículas animadas
+        generateParticles() {
+            const particlesContainer = document.querySelector('.loader-particles');
+            if (!particlesContainer) return;
+
+            // Limpiar partículas existentes
+            particlesContainer.innerHTML = '';
+
+            // Generar 15 partículas
+            for (let i = 0; i < 15; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'loader-particle';
+                
+                // Posición horizontal aleatoria
+                const leftPosition = Math.random() * 100;
+                particle.style.left = `${leftPosition}%`;
+                
+                // Delay aleatorio
+                const delay = Math.random() * 8;
+                particle.style.animationDelay = `-${delay}s`;
+                
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Nuevo método para limpiar resultados previos
+        clearPreviousResults() {
+            const resultsGrid = document.querySelector('.results-grid');
+            if (resultsGrid) {
+                // Agregar clase para animación de salida
+                resultsGrid.classList.add('clearing');
+                
+                // Limpiar después de la animación
+                setTimeout(() => {
+                    resultsGrid.innerHTML = '';
+                    resultsGrid.classList.remove('clearing');
+                }, 300);
+            }
+        }
+
+        // Nuevo método para mostrar simulación de análisis en el fondo
+        showAnalysisSimulation() {
+            const resultsGrid = document.querySelector('.results-grid');
+            if (!resultsGrid) return;
+
+            // Crear tarjetas de simulación con efecto de "carga"
+            const simulationCards = this.createSimulationCards();
+            
+            setTimeout(() => {
+                resultsGrid.innerHTML = simulationCards;
+                resultsGrid.classList.add('simulating');
+                
+                // Animar la aparición gradual de las tarjetas
+                this.animateSimulationCards();
+            }, 400);
+        }
+
+        // Crear tarjetas de simulación
+        createSimulationCards() {
+            const categories = [
+                { name: 'Analizando Goles...', class: 'goles', icon: '⚽' },
+                { name: 'Procesando BTTS...', class: 'btts', icon: '🎯' },
+                { name: 'Evaluando Tarjetas...', class: 'tarjetas', icon: '🟨' },
+                { name: 'Calculando Esquinas...', class: 'esquinas', icon: '🚩' },
+                { name: 'Midiendo Rendimiento...', class: 'rendimiento', icon: '📊' },
+                { name: 'Analizando Posiciones...', class: 'posicion', icon: '🏆' },
+                { name: 'Evaluando Defensas...', class: 'defensa', icon: '🛡️' },
+                { name: 'Midiendo Ataques...', class: 'ataque', icon: '⚔️' }
+            ];
+
+            // Mezclar también las categorías para más variedad
+            const shuffledCategories = [...categories];
+            for (let i = shuffledCategories.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledCategories[i], shuffledCategories[j]] = [shuffledCategories[j], shuffledCategories[i]];
+            }
+
+            let cardsHTML = '';
+            
+            shuffledCategories.forEach((category, index) => {
+                cardsHTML += `
+                    <div class="category-card simulation-card ${category.class}" style="animation-delay: ${index * 0.2}s">
+                        <div class="category-title">
+                            ${category.icon} ${category.name}
+                        </div>
+                        <div class="simulation-content">
+                            <div class="simulation-loader">
+                                <div class="simulation-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="simulation-stats">
+                                <div class="simulation-bar">
+                                    <div class="simulation-progress"></div>
+                                </div>
+                                <div class="simulation-text">Procesando datos...</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            return cardsHTML;
+        }
+
+        // Animar tarjetas de simulación
+        animateSimulationCards() {
+            const simulationCards = document.querySelectorAll('.simulation-card');
+            
+            simulationCards.forEach((card, index) => {
+                // Animar barras de progreso
+                setTimeout(() => {
+                    const progressBar = card.querySelector('.simulation-progress');
+                    if (progressBar) {
+                        const randomProgress = 20 + Math.random() * 60; // Entre 20% y 80%
+                        progressBar.style.width = `${randomProgress}%`;
+                        
+                        // Continuar animando durante la simulación
+                        this.animateProgressBar(progressBar);
+                    }
+                }, index * 300);
+            });
+        }
+
+        // Animar barra de progreso individual
+        animateProgressBar(progressBar) {
+            if (!this.isActive) return;
+            
+            const currentWidth = parseFloat(progressBar.style.width) || 0;
+            const increment = Math.random() * 5; // Incremento aleatorio
+            const newWidth = Math.min(currentWidth + increment, 90); // Máximo 90%
+            
+            progressBar.style.width = `${newWidth}%`;
+            
+            // Continuar animando
+            setTimeout(() => {
+                this.animateProgressBar(progressBar);
+            }, 800 + Math.random() * 400); // Intervalo aleatorio
+        }
+
+        // Limpiar simulación de análisis
+        clearAnalysisSimulation() {
+            const resultsGrid = document.querySelector('.results-grid');
+            if (resultsGrid) {
+                resultsGrid.classList.remove('simulating');
+                
+                // Limpiar después de un momento para permitir que se vean los resultados reales
+                setTimeout(() => {
+                    const simulationCards = resultsGrid.querySelectorAll('.simulation-card');
+                    simulationCards.forEach(card => {
+                        card.style.opacity = '0';
+                        card.style.transform = 'scale(0.8)';
+                    });
+                    
+                    setTimeout(() => {
+                        // Los resultados reales se mostrarán después
+                    }, 300);
+                }, 100);
+            }
+        }
+
+        preventScrolling() {
+            document.body.style.overflow = 'hidden';
+        }
+
+        restoreScrolling() {
+            document.body.style.overflow = 'auto';
+        }
+
+        // Método para simular proceso de análisis con duración personalizable
+        async simulateAnalysis(duration = null) {
+            const finalDuration = duration || this.simulationDuration;
+            this.show();
+            this.generateParticles(); // Generar partículas al mostrar
+            
+            console.log(`🎯 Iniciando simulación extendida de ${finalDuration}ms con mensajes aleatorios`);
+            
+            return new Promise((resolve) => {
+                setTimeout(() => {
+                    this.hide();
+                    console.log('✅ Simulación extendida completada');
+                    resolve();
+                }, finalDuration);
+            });
+        }
+
+        // Integración con el sistema existente - Versión extendida
+        async integrateWithAnalyzer(analyzerInstance) {
+            try {
+                this.show();
+                this.generateParticles(); // Generar partículas
+                
+                // Fase 1: Preparación inicial (2s)
+                console.log('🔄 Fase 1: Preparación del análisis');
+                await new Promise(resolve => setTimeout(resolve, 2000));
+                
+                // Fase 2: Análisis principal (si existe el analyzer)
+                if (analyzerInstance && typeof analyzerInstance.analyzeAllLeagues === 'function') {
+                    console.log('🔄 Fase 2: Ejecutando análisis principal');
+                    await analyzerInstance.analyzeAllLeagues();
+                    
+                    // Fase 3: Procesamiento adicional (4s)
+                    console.log('🔄 Fase 3: Procesamiento avanzado');
+                    await new Promise(resolve => setTimeout(resolve, 4000));
+                } else {
+                    console.warn('⚠️ Analyzer instance no válida, ejecutando simulación completa');
+                    await new Promise(resolve => setTimeout(resolve, 8000)); // Compensar falta de analyzer
+                }
+                
+                // Fase 4: Validación y optimización final (2s)
+                console.log('🔄 Fase 4: Validación final');
+                await new Promise(resolve => setTimeout(resolve, 2000));
+                
+                // Fase 5: Preparación de resultados (1.5s)
+                console.log('🔄 Fase 5: Preparando presentación');
+                setTimeout(() => {
+                    this.hide();
+                    console.log('✅ Análisis extendido completado exitosamente');
+                }, 1500);
+                
+            } catch (error) {
+                console.error('❌ Error durante el análisis extendido:', error);
+                // Incluso en caso de error, mantener algo de tiempo para experiencia consistente
+                setTimeout(() => {
+                    this.hide();
+                }, 2000);
+                throw error;
+            }
+        }
+
+        // Método para análisis ultra-rápido (original + 6s mínimo)
+        async quickAnalysis() {
+            console.log('🚀 Iniciando análisis rápido extendido con mensajes aleatorios');
+            await this.simulateAnalysis(8000); // Mínimo 8s incluso para "rápido"
+        }
+
+        // Método para análisis completo (original + 6s + análisis profundo)
+        async deepAnalysis() {
+            console.log('🔬 Iniciando análisis profundo con mensajes aleatorios');
+            await this.simulateAnalysis(18000); // 18s para análisis profundo
+        }
+
+        // Método para agregar mensajes personalizados
+        addCustomMessage(message) {
+            if (message && typeof message === 'string') {
+                this.messages.push(message);
+                // Si hay un ciclo activo, actualizar también los mensajes mezclados
+                if (this.isActive) {
+                    this.shuffledMessages.push(message);
+                }
+            }
+        }
+
+        // Método para cambiar duración de mensajes
+        setMessageDuration(duration) {
+            this.messageDuration = duration || 1000;
+            if (this.messageInterval) {
+                this.stopMessageCycle();
+                this.startMessageCycle();
+            }
+        }
+
+        // Método para cambiar a modo completamente aleatorio
+        setRandomMode(enabled = true) {
+            this.randomMode = enabled;
+            if (this.messageInterval) {
+                this.stopMessageCycle();
+                if (enabled) {
+                    this.startRandomMessageCycle();
+                } else {
+                    this.startMessageCycle();
+                }
+            }
+        }
+
+        // Método para establecer duración total de simulación
+        setSimulationDuration(duration) {
+            this.simulationDuration = duration || 14000; // Default ahora es 14 segundos
+        }
+
+        // Configurar duración extendida específica
+        setExtendedDuration() {
+            this.simulationDuration = 16000; // 16 segundos para casos especiales
+            this.messageDuration = 900; // Mensajes más frecuentes
+            console.log('⏱️ Configuración extendida activada: 16s con mensajes aleatorios');
+        }
+
+        // Verificar si está activo
+        isLoading() {
+            return this.isActive;
+        }
+
+        // Reset del sistema
+        reset() {
+            this.hide();
+            this.currentMessageIndex = 0;
+            this.shuffledMessages = [];
+            this.simulationDuration = 14000; // Reset a duración extendida por defecto
+        }
+
+        // Método de análisis progresivo con etapas visibles
+        async progressiveAnalysis(phases = ['initial', 'main', 'deep', 'final']) {
+            this.show();
+            
+            for (let i = 0; i < phases.length; i++) {
+                const phase = phases[i];
+                const phaseTime = Math.floor(this.simulationDuration / phases.length);
+                
+                console.log(`🎯 Ejecutando fase ${i + 1}/${phases.length}: ${phase}`);
+                
+                // Agregar mensaje específico de fase si no existe
+                const phaseMessage = `🔄 Fase ${i + 1}/${phases.length}: Procesando ${phase}...`;
+                this.addCustomMessage(phaseMessage);
+                
+                await new Promise(resolve => setTimeout(resolve, phaseTime));
+            }
+            
+            this.hide();
+            console.log('✅ Análisis progresivo completado con mensajes aleatorios');
+        }
+    }
+
+    // Crear instancia global
+    window.RadarLoaderSystem = new RadarLoaderSystem();
+
+    // Funciones globales de integración mejoradas
+    window.analyzeWithRadarLoader = async function(mode = 'standard') {
+        try {
+            switch(mode) {
+                case 'quick':
+                    await window.RadarLoaderSystem.quickAnalysis();
+                    break;
+                case 'deep':
+                    await window.RadarLoaderSystem.deepAnalysis();
+                    break;
+                case 'progressive':
+                    await window.RadarLoaderSystem.progressiveAnalysis();
+                    break;
+                default:
+                    if (window.LeagueAnalyzerInstance) {
+                        await window.RadarLoaderSystem.integrateWithAnalyzer(window.LeagueAnalyzerInstance);
+                    } else {
+                        console.warn('⚠️ LeagueAnalyzerInstance no encontrada - usando simulación extendida');
+                        await window.RadarLoaderSystem.simulateAnalysis();
+                    }
+            }
+            console.log(`✅ Análisis modo '${mode}' completado con mensajes aleatorios`);
+        } catch (error) {
+            console.error('❌ Error en análisis con radar:', error);
+            window.RadarLoaderSystem.hide();
+        }
+    };
+
+    // Override mejorado de la función original
+    const originalAnalyze = window.analyzeAllLeagues;
+    window.analyzeAllLeagues = function(mode = 'standard') {
+        if (window.RadarLoaderSystem) {
+            window.analyzeWithRadarLoader(mode);
+        } else if (originalAnalyze) {
+            originalAnalyze();
+        }
+    };
+
+    // Función específica para análisis extendido
+    window.extendedAnalysis = function() {
+        if (window.RadarLoaderSystem) {
+            window.RadarLoaderSystem.setExtendedDuration();
+            window.analyzeWithRadarLoader('deep');
+        }
+    };
+
+    // Nueva función para activar modo completamente aleatorio
+    window.setRandomMessageMode = function(enabled = true) {
+        if (window.RadarLoaderSystem) {
+            window.RadarLoaderSystem.setRandomMode(enabled);
+            console.log(`🔀 Modo de mensajes ${enabled ? 'completamente aleatorio' : 'secuencial aleatorio'} activado`);
+        }
+    };
+
+    // Auto-inicialización mejorada
+    const initialize = () => {
+        console.log('🎯 Radar Loader System inicializado - Versión Extendida (+6s) con Mensajes Aleatorios');
+        console.log(`⏱️ Duración configurada: ${window.RadarLoaderSystem.simulationDuration}ms`);
+        console.log('🔀 Sistema de mensajes aleatorios activado');
+        
+        // Verificar dependencias
+        if (!document.getElementById('radarLoader')) {
+            console.error('❌ Elemento radarLoader no encontrado en el DOM');
+        }
+        
+        if (!window.LeagueAnalyzerInstance) {
+            console.warn('⚠️ LeagueAnalyzerInstance no encontrada - funcionará en modo simulación extendida');
+        }
+
+        // Agregar listeners para diferentes tipos de análisis
+        const analyzeBtn = document.querySelector('.analyze-btn');
+        if (analyzeBtn) {
+            // Si se mantiene presionado el botón, hacer análisis profundo
+            let pressTimer = null;
+            
+            analyzeBtn.addEventListener('mousedown', () => {
+                pressTimer = setTimeout(() => {
+                    if (!window.RadarLoaderSystem.isLoading()) {
+                        console.log('🔬 Análisis profundo activado por presión prolongada');
+                        window.analyzeWithRadarLoader('deep');
+                    }
+                }, 1500); // 1.5s de presión para análisis profundo
+            });
+            
+            analyzeBtn.addEventListener('mouseup', () => {
+                if (pressTimer) {
+                    clearTimeout(pressTimer);
+                    pressTimer = null;
+                }
+            });
+        }
+    };
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initialize);
+    } else {
+        initialize();
+    }
+
+})();
+</script>
+
+    <!-- Scripts al final -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Inicialización
+        });
+    </script>
+   <script src="scripts/utilityFunctions.js"></script>
+   <script src="scripts/mainLogic.js"></script>
+   <script src="scripts/loading.js"></script>
+   <script src="scripts/CyborgMatch.js"></script>
+   <script src="scripts/BetManager.js"></script>
+   <script src="scripts/mapeo-nba.js"></script>
+   <script src="scripts/dom-nba.js"></script>
+   <script src="scripts/calculos-nba.js"></script>
+   <script src="scripts/codigos.js"></script>
+    <script src="scripts/apt.js"></script>
+   <script src="scripts/tab-navigation.js"></script>
+   <script src="scripts/comparacion-nba.js"></script>
+   <script src="scripts/radar.js"></script>
+   
+
+</body>
+</html>

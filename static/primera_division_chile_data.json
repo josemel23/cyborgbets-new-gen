@@ -1,0 +1,548 @@
+{
+    "teams": [
+        {
+            "team": "La Serena",
+            "btts": {
+                "Yes": "75%"
+            },
+            "cards": {
+                "over_3_5": "85%",
+                "over_4_5": "60%",
+                "over_5_5": "60%"
+            },
+            "corners": {
+                "8.5": "65%",
+                "9.5": "60%",
+                "10.5": "50%",
+                "11.5": "35%",
+                "12.5": "25%",
+                "13.5": "5%",
+                "average": "9.85"
+            },
+            "goals": {
+                "1.5": "64%",
+                "2.5": "60%",
+                "3.5": "56%"
+            },
+            "position": "13",
+            "matches_played": "19",
+            "wins": "5",
+            "draws": "3",
+            "losses": "11",
+            "goals_for": "23",
+            "goals_against": "35",
+            "goal_difference": "-12",
+            "points": "18"
+        },
+        {
+            "team": "Audax Italiano",
+            "btts": {
+                "Yes": "63%"
+            },
+            "cards": {
+                "over_3_5": "84%",
+                "over_4_5": "74%",
+                "over_5_5": "68%"
+            },
+            "corners": {
+                "8.5": "58%",
+                "9.5": "42%",
+                "10.5": "42%",
+                "11.5": "26%",
+                "12.5": "16%",
+                "13.5": "11%",
+                "average": "9.47"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "47%",
+                "3.5": "44%"
+            },
+            "position": "4",
+            "matches_played": "19",
+            "wins": "10",
+            "draws": "4",
+            "losses": "5",
+            "goals_for": "30",
+            "goals_against": "25",
+            "goal_difference": "+5",
+            "points": "34"
+        },
+        {
+            "team": "Cobresal",
+            "btts": {
+                "Yes": "58%"
+            },
+            "cards": {
+                "over_3_5": "89%",
+                "over_4_5": "79%",
+                "over_5_5": "63%"
+            },
+            "corners": {
+                "8.5": "79%",
+                "9.5": "74%",
+                "10.5": "58%",
+                "11.5": "53%",
+                "12.5": "42%",
+                "13.5": "21%",
+                "average": "11.16"
+            },
+            "goals": {
+                "1.5": "56%",
+                "2.5": "47%",
+                "3.5": "40%"
+            },
+            "position": "6",
+            "matches_played": "18",
+            "wins": "8",
+            "draws": "5",
+            "losses": "5",
+            "goals_for": "23",
+            "goals_against": "20",
+            "goal_difference": "+3",
+            "points": "29"
+        },
+        {
+            "team": "Deportes Limache",
+            "btts": {
+                "Yes": "58%"
+            },
+            "cards": {
+                "over_3_5": "95%",
+                "over_4_5": "74%",
+                "over_5_5": "58%"
+            },
+            "corners": {
+                "8.5": "68%",
+                "9.5": "53%",
+                "10.5": "47%",
+                "11.5": "26%",
+                "12.5": "16%",
+                "13.5": "5%",
+                "average": "10.21"
+            },
+            "goals": {
+                "1.5": "67%",
+                "2.5": "47%",
+                "3.5": "30%"
+            },
+            "position": "14",
+            "matches_played": "19",
+            "wins": "4",
+            "draws": "5",
+            "losses": "10",
+            "goals_for": "22",
+            "goals_against": "26",
+            "goal_difference": "-4",
+            "points": "17"
+        },
+        {
+            "team": "Deportes Iquique",
+            "btts": {
+                "Yes": "60%"
+            },
+            "cards": {
+                "over_3_5": "85%",
+                "over_4_5": "70%",
+                "over_5_5": "55%"
+            },
+            "corners": {
+                "8.5": "55%",
+                "9.5": "35%",
+                "10.5": "20%",
+                "11.5": "15%",
+                "12.5": "5%",
+                "13.5": "5%",
+                "average": "8.6"
+            },
+            "goals": {
+                "1.5": "78%",
+                "2.5": "70%",
+                "3.5": "64%"
+            },
+            "position": "16",
+            "matches_played": "19",
+            "wins": "2",
+            "draws": "4",
+            "losses": "13",
+            "goals_for": "19",
+            "goals_against": "40",
+            "goal_difference": "-21",
+            "points": "10"
+        },
+        {
+            "team": "Everton",
+            "btts": {
+                "Yes": "53%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "63%",
+                "over_5_5": "58%"
+            },
+            "corners": {
+                "8.5": "63%",
+                "9.5": "53%",
+                "10.5": "42%",
+                "11.5": "32%",
+                "12.5": "16%",
+                "13.5": "5%",
+                "average": "9.79"
+            },
+            "goals": {
+                "1.5": "63%",
+                "2.5": "47%",
+                "3.5": "36%"
+            },
+            "position": "12",
+            "matches_played": "19",
+            "wins": "4",
+            "draws": "7",
+            "losses": "8",
+            "goals_for": "20",
+            "goals_against": "28",
+            "goal_difference": "-8",
+            "points": "19"
+        },
+        {
+            "team": "Colo-Colo",
+            "btts": {
+                "Yes": "65%"
+            },
+            "cards": {
+                "over_3_5": "85%",
+                "over_4_5": "55%",
+                "over_5_5": "30%"
+            },
+            "corners": {
+                "8.5": "70%",
+                "9.5": "55%",
+                "10.5": "35%",
+                "11.5": "20%",
+                "12.5": "10%",
+                "13.5": "10%",
+                "average": "9.3"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "55%",
+                "3.5": "50%"
+            },
+            "position": "7",
+            "matches_played": "19",
+            "wins": "7",
+            "draws": "6",
+            "losses": "6",
+            "goals_for": "30",
+            "goals_against": "22",
+            "goal_difference": "+8",
+            "points": "27"
+        },
+        {
+            "team": "Palestino",
+            "btts": {
+                "Yes": "47%"
+            },
+            "cards": {
+                "over_3_5": "84%",
+                "over_4_5": "74%",
+                "over_5_5": "63%"
+            },
+            "corners": {
+                "8.5": "63%",
+                "9.5": "42%",
+                "10.5": "37%",
+                "11.5": "26%",
+                "12.5": "16%",
+                "13.5": "5%",
+                "average": "9.32"
+            },
+            "goals": {
+                "1.5": "40%",
+                "2.5": "37%",
+                "3.5": "33%"
+            },
+            "position": "3",
+            "matches_played": "18",
+            "wins": "10",
+            "draws": "5",
+            "losses": "3",
+            "goals_for": "26",
+            "goals_against": "15",
+            "goal_difference": "+11",
+            "points": "35"
+        },
+        {
+            "team": "Universidad Católica",
+            "btts": {
+                "Yes": "58%"
+            },
+            "cards": {
+                "over_3_5": "95%",
+                "over_4_5": "84%",
+                "over_5_5": "53%"
+            },
+            "corners": {
+                "8.5": "58%",
+                "9.5": "42%",
+                "10.5": "37%",
+                "11.5": "32%",
+                "12.5": "16%",
+                "13.5": "5%",
+                "average": "9.21"
+            },
+            "goals": {
+                "1.5": "63%",
+                "2.5": "42%",
+                "3.5": "27%"
+            },
+            "position": "8",
+            "matches_played": "18",
+            "wins": "7",
+            "draws": "6",
+            "losses": "5",
+            "goals_for": "25",
+            "goals_against": "20",
+            "goal_difference": "+5",
+            "points": "27"
+        },
+        {
+            "team": "Ñublense",
+            "btts": {
+                "Yes": "47%"
+            },
+            "cards": {
+                "over_3_5": "84%",
+                "over_4_5": "68%",
+                "over_5_5": "42%"
+            },
+            "corners": {
+                "8.5": "47%",
+                "9.5": "37%",
+                "10.5": "26%",
+                "11.5": "26%",
+                "12.5": "16%",
+                "13.5": "16%",
+                "average": "8.79"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "32%",
+                "3.5": "18%"
+            },
+            "position": "10",
+            "matches_played": "18",
+            "wins": "5",
+            "draws": "8",
+            "losses": "5",
+            "goals_for": "18",
+            "goals_against": "24",
+            "goal_difference": "-6",
+            "points": "23"
+        },
+        {
+            "team": "Universidad Chile",
+            "btts": {
+                "Yes": "47%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "58%",
+                "over_5_5": "42%"
+            },
+            "corners": {
+                "8.5": "37%",
+                "9.5": "26%",
+                "10.5": "26%",
+                "11.5": "26%",
+                "12.5": "26%",
+                "13.5": "16%",
+                "average": "8.74"
+            },
+            "goals": {
+                "1.5": "70%",
+                "2.5": "58%",
+                "3.5": "44%"
+            },
+            "position": "2",
+            "matches_played": "19",
+            "wins": "12",
+            "draws": "2",
+            "losses": "5",
+            "goals_for": "43",
+            "goals_against": "18",
+            "goal_difference": "+25",
+            "points": "38"
+        },
+        {
+            "team": "Huachipato",
+            "btts": {
+                "Yes": "53%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "63%",
+                "over_5_5": "42%"
+            },
+            "corners": {
+                "8.5": "63%",
+                "9.5": "53%",
+                "10.5": "47%",
+                "11.5": "47%",
+                "12.5": "37%",
+                "13.5": "21%",
+                "average": "9.79"
+            },
+            "goals": {
+                "1.5": "67%",
+                "2.5": "63%",
+                "3.5": "60%"
+            },
+            "position": "9",
+            "matches_played": "19",
+            "wins": "7",
+            "draws": "4",
+            "losses": "8",
+            "goals_for": "26",
+            "goals_against": "30",
+            "goal_difference": "-4",
+            "points": "25"
+        },
+        {
+            "team": "Unión La Calera",
+            "btts": {
+                "Yes": "35%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "60%",
+                "over_5_5": "50%"
+            },
+            "corners": {
+                "8.5": "55%",
+                "9.5": "50%",
+                "10.5": "45%",
+                "11.5": "40%",
+                "12.5": "30%",
+                "13.5": "15%",
+                "average": "9.55"
+            },
+            "goals": {
+                "1.5": "40%",
+                "2.5": "25%",
+                "3.5": "10%"
+            },
+            "position": "11",
+            "matches_played": "19",
+            "wins": "6",
+            "draws": "4",
+            "losses": "9",
+            "goals_for": "16",
+            "goals_against": "20",
+            "goal_difference": "-4",
+            "points": "22"
+        },
+        {
+            "team": "Unión Española",
+            "btts": {
+                "Yes": "35%"
+            },
+            "cards": {
+                "over_3_5": "85%",
+                "over_4_5": "70%",
+                "over_5_5": "55%"
+            },
+            "corners": {
+                "8.5": "80%",
+                "9.5": "60%",
+                "10.5": "55%",
+                "11.5": "50%",
+                "12.5": "40%",
+                "13.5": "15%",
+                "average": "10.8"
+            },
+            "goals": {
+                "1.5": "64%",
+                "2.5": "60%",
+                "3.5": "56%"
+            },
+            "position": "15",
+            "matches_played": "19",
+            "wins": "4",
+            "draws": "1",
+            "losses": "14",
+            "goals_for": "17",
+            "goals_against": "35",
+            "goal_difference": "-18",
+            "points": "13"
+        },
+        {
+            "team": "O'Higgins",
+            "btts": {
+                "Yes": "35%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "35%"
+            },
+            "corners": {
+                "8.5": "70%",
+                "9.5": "65%",
+                "10.5": "45%",
+                "11.5": "40%",
+                "12.5": "25%",
+                "13.5": "15%",
+                "average": "10.35"
+            },
+            "goals": {
+                "1.5": "40%",
+                "2.5": "30%",
+                "3.5": "20%"
+            },
+            "position": "5",
+            "matches_played": "19",
+            "wins": "8",
+            "draws": "7",
+            "losses": "4",
+            "goals_for": "21",
+            "goals_against": "21",
+            "goal_difference": "0",
+            "points": "31"
+        },
+        {
+            "team": "Coquimbo Unido",
+            "btts": {
+                "Yes": "37%"
+            },
+            "cards": {
+                "over_3_5": "89%",
+                "over_4_5": "84%",
+                "over_5_5": "74%"
+            },
+            "corners": {
+                "8.5": "58%",
+                "9.5": "58%",
+                "10.5": "37%",
+                "11.5": "21%",
+                "12.5": "16%",
+                "13.5": "5%",
+                "average": "9.16"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "42%",
+                "3.5": "33%"
+            },
+            "position": "1",
+            "matches_played": "19",
+            "wins": "13",
+            "draws": "5",
+            "losses": "1",
+            "goals_for": "30",
+            "goals_against": "10",
+            "goal_difference": "+20",
+            "points": "44"
+        }
+    ]
+}

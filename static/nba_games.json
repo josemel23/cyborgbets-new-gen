@@ -1,0 +1,44 @@
+[
+    {
+        "hora": "5:00 PM",
+        "emparejamiento": "NOP @ IND",
+        "resultado": "–",
+        "ubicacion": "Gainbridge Fieldhouse"
+    },
+    {
+        "hora": "6:00 PM",
+        "emparejamiento": "BOS @ WAS",
+        "resultado": "–",
+        "ubicacion": "Capital One Arena"
+    },
+    {
+        "hora": "6:00 PM",
+        "emparejamiento": "NYK @ ORL",
+        "resultado": "–",
+        "ubicacion": "Kia Center"
+    },
+    {
+        "hora": "7:00 PM",
+        "emparejamiento": "MIN @ SAS",
+        "resultado": "–",
+        "ubicacion": "Frost Bank Center"
+    },
+    {
+        "hora": "8:00 PM",
+        "emparejamiento": "POR @ PHX",
+        "resultado": "–",
+        "ubicacion": "Footprint Center"
+    },
+    {
+        "hora": "8:30 PM",
+        "emparejamiento": "DAL @ GSW",
+        "resultado": "–",
+        "ubicacion": "Chase Center"
+    },
+    {
+        "hora": "9:30 PM",
+        "emparejamiento": "MEM @ LAL",
+        "resultado": "–",
+        "ubicacion": "Crypto.com Arena"
+    }
+]

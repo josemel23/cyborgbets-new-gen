@@ -1,0 +1,726 @@
+/* ===== COMPONENTS & RESPONSIVE ===== */
+
+/* Section Headers */
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.section-description {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Prediction Section */
+.prediction-section {
+    padding: 5rem 0;
+    background: var(--bg-secondary);
+}
+
+.selection-panel {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 3rem;
+}
+
+/* ===== MEJORAS PARA EL SELECTOR DE LIGAS ===== */
+
+.league-selector h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem; /* Aumentado para mejor espaciado */
+    color: var(--text-primary);
+    text-align: center; /* Centrar el título */
+}
+
+.league-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Aumentado de 150px a 180px */
+    gap: 1rem;
+    justify-items: center; /* Centrar las tarjetas */
+}
+
+.league-card {
+    display: flex;
+    flex-direction: row; /* Cambiar a horizontal para mejor legibilidad */
+    align-items: center;
+    justify-content: flex-start; /* Alinear contenido a la izquierda */
+    gap: 0.55rem; /* Aumentar espacio entre bandera y texto */
+    padding: 1rem 1.25rem; /* Ajustar padding */
+    border: 2px solid var(--border-color);
+    border-radius: 0.75rem; /* Bordes más redondeados */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    width: 90%;
+    min-height: 60px; /* Altura mínima consistente */
+    position: relative;
+    overflow: hidden;
+}
+
+.league-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--gradient-primary);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.league-card:hover::before {
+    opacity: 0.1;
+}
+
+.league-card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-3px); /* Aumentar el efecto hover */
+    box-shadow: var(--shadow-lg); /* Sombra más pronunciada */
+}
+
+.league-card.active {
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.league-card.active::before {
+    opacity: 0;
+}
+
+.league-card img {
+    width: 32px;
+    height: 24px; /* Altura fija para mantener proporción */
+    border-radius: 3px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    flex-shrink: 0; /* Evitar que se redimensione */
+    object-fit: cover; /* Mantener proporción */
+    position: relative;
+    z-index: 2;
+}
+
+.league-card span {
+    font-weight: 500;
+    font-size: 0.95rem;
+    line-height: 1.2;
+    position: relative;
+    z-index: 2;
+    white-space: nowrap; /* Evitar salto de línea */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Puntos suspensivos si es muy largo */
+}
+
+.league-card.active span {
+    font-weight: 600;
+}
+
+/* Mejoras para imagen de bandera cuando no carga */
+.league-card img[src=""]:after,
+.league-card img:not([src]):after,
+.league-card img[src*="error"]:after {
+    content: "🏴";
+    font-size: 24px;
+    display: block;
+    width: 32px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+
+/* ===== RESPONSIVE MEJORADO PARA LIGAS ===== */
+
+@media (max-width: 768px) {
+    .league-grid {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 0.75rem;
+    }
+    
+    .league-card {
+        padding: 0.875rem 1rem;
+        min-height: 55px;
+    }
+    
+    .league-card span {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .league-grid {
+        grid-template-columns: repeat(2, 1fr); /* Exactamente 2 columnas en móvil */
+        gap: 0.5rem;
+    }
+    
+    .league-card {
+        flex-direction: column; /* Volver a vertical en móvil muy pequeño */
+        padding: 0.75rem;
+        min-height: 80px;
+        text-align: center;
+    }
+    
+    .league-card span {
+        font-size: 0.85rem;
+        white-space: normal; /* Permitir salto de línea en móvil */
+        text-overflow: initial;
+        overflow: visible;
+    }
+    
+    .league-card img {
+        width: 28px;
+        height: 21px;
+    }
+}
+
+/* ===== ESTADOS ADICIONALES PARA MEJOR UX ===== */
+
+.league-card:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.league-card:active {
+    transform: translateY(-1px);
+}
+
+/* Animación suave para el cambio de estado activo */
+.league-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Efecto de carga para las imágenes */
+.league-card img {
+    transition: opacity 0.3s ease;
+}
+
+.league-card img:not([complete]) {
+    opacity: 0.5;
+}
+
+.team-selector {
+    border-top: 1px solid var(--border-color);
+    padding-top: 2rem;
+}
+
+.team-selection-container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 2rem;
+    align-items: end;
+    margin-bottom: 2rem;
+}
+
+.team-select-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.team-select-box h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.team-select {
+    padding: 0.75rem;
+    border: 2px solid var(--border-color);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.team-select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.vs-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: var(--gradient-primary);
+    color: white;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.analyze-btn {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.125rem;
+    justify-content: center;
+}
+
+/* Results Panel */
+.results-panel {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: var(--shadow-lg);
+    animation: fadeInUp 0.5s ease;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.match-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.team-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.team-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.vs {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.predictions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.prediction-card {
+    background: var(--bg-secondary);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    width: 100%;
+    max-width: 350px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-header i {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+}
+
+.card-header h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.prediction-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.prediction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.prediction-item:last-child {
+    border-bottom: none;
+}
+
+.prediction-label {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.prediction-value {
+    font-weight: 600;
+    color: var(--text-primary);
+    padding: 0.25rem 0.75rem;
+    background: var(--bg-primary);
+    border-radius: 0.25rem;
+    border: 1px solid var(--border-color);
+}
+
+.form-comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.team-form h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+}
+
+.form-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+}
+
+.stat-item span:first-child {
+    color: var(--text-secondary);
+}
+
+.stat-item span:last-child {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Recomendación Final - Centrada */
+.recommendation-card {
+    grid-column: 1 / -1;
+    background: var(--gradient-secondary);
+    color: white;
+    border: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recommendation-card .card-header {
+    justify-content: center;
+}
+
+.recommendation-card .card-header i,
+.recommendation-card .card-header h3 {
+    color: white;
+}
+
+.recommendation-text {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.confidence-level {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.confidence-label {
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.confidence-bar {
+    flex: 1;
+    max-width: 300px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.confidence-fill {
+    height: 100%;
+    background: white;
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+
+.confidence-percentage {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .stats-grid {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 900px;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero .container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .team-selection-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .vs-divider {
+        order: 2;
+        margin: 0 auto;
+    }
+    
+    .predictions-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-comparison {
+        grid-template-columns: 1fr;
+    }
+    
+    .confidence-level {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .confidence-bar {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 600px;
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .league-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .selection-panel {
+        padding: 1rem;
+    }
+    
+    .results-panel {
+        padding: 1rem;
+    }
+    
+    .recommendation-card {
+        max-width: 100%;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 400px;
+        gap: 1rem;
+    }
+}
+/* Agregar estas reglas a tu CSS existente */
+
+.predictions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* Agregar esta línea para que todas las tarjetas tengan la misma altura */
+    align-items: stretch;
+}
+
+/* Solo aplicar altura uniforme a las tarjetas normales, NO a la de recomendación */
+.prediction-card:not(.recommendation-card) {
+    background: var(--bg-secondary);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    width: 100%;
+    max-width: 350px;
+    /* Agregar estas líneas para controlar la altura */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Solo aplicar flex a las tarjetas normales */
+.prediction-card:not(.recommendation-card) .prediction-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    /* Agregar esta línea para que el contenido se expanda */
+    flex: 1;
+}
+/* Estilos encapsulados para los logos en el selector de equipos */
+.football-selector-logo-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.362);
+    padding: 6px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(78, 76, 76, 0.1);
+}
+
+.football-selector-logo-img:hover {
+    transform: scale(1.05);
+}
+
+.football-team-selector-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    min-height: 60px;
+    width: auto;
+}
+
+/* Estilos adicionales para el contenedor del selector */
+.team-selector .football-team-selector-logo,
+.match-selector .football-team-selector-logo,
+.team-selection .football-team-selector-logo {
+    margin: 0 20px;
+}
+
+/* Para modo oscuro */
+[data-theme="dark"] .football-selector-logo-img {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+    .football-selector-logo-img {
+        width: 35px;
+        height: 35px;
+        padding: 4px;
+    }
+    
+    .football-team-selector-logo {
+        margin: 0 10px;
+        min-height: 50px;
+    }
+}
+
+/* Estilos encapsulados para los logos de las ligas de fútbol */
+.football-league-logo-img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    border-radius: 4px;
+    background: rgba(174, 163, 163, 0.1);
+    padding: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+.football-league-logo-img:hover {
+    transform: scale(1.1);
+}
+
+.football-league-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0;
+    min-height: 48px;
+    width: 100%;
+}
+
+/* Si los logos están en las tarjetas de liga específicamente */
+.league-card .football-league-logo-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.league-card .football-league-logo-container {
+    margin: 12px 0;
+}
+
+/* Para asegurar que los logos se vean bien en modo oscuro */
+.league-card[data-theme="dark"] .football-league-logo-img {
+    background: rgba(255, 255, 255, 0.349);
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+    .football-league-logo-img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .league-card .football-league-logo-img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Estilo adicional para casos donde el logo reemplaza texto VS */
+.football-league-logo-container.vs-replacement {
+    display: inline-flex;
+    vertical-align: middle;
+    min-height: auto;
+    margin: 0 8px;
+}
+@keyframes luz-latido {
+  0% {
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.25);
+  }
+  100% {
+    box-shadow: 0 0 12px rgba(0, 255, 255, 0.1);
+  }
+}
+
