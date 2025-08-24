@@ -1,84 +1,59 @@
-name: Test Basico
+name: Panel Scraper
 on:
   workflow_dispatch:
     inputs:
       accion:
+        description: 'Acción a realizar'
         required: true
         type: choice
         options:
           - scraper
           - deploy
+        default: 'scraper'
       liga:
+        description: 'Liga a procesar'
         required: false
         type: string
+        default: 'liga_mx'
 
 jobs:
-  test:
+  scraper:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout codigo
-        uses: actions/checkout@v4  # Actualizada a v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         
-      - name: Test inicial
+      - name: Debug inputs
         run: |
-          echo "Workflow funcionando"
-          echo "Accion: ${{ github.event.inputs.accion }}"
-          echo "Liga: ${{ github.event.inputs.liga }}"
+          echo "Accion seleccionada: ${{ github.event.inputs.accion }}"
+          echo "Liga seleccionada: ${{ github.event.inputs.liga }}"
           
-      - name: Verificar estructura del proyecto
+      - name: List directory structure
         run: |
           echo "=== Estructura del proyecto ==="
-          ls -la
-          echo ""
-          echo "=== Carpeta scraper ==="
-          if [ -d "scraper" ]; then
-            ls -la scraper/
-          else
-            echo "Carpeta scraper no encontrada"
-          fi
+          find . -type f -name "*.py" | head -10
           
-      - name: Buscar archivo especifico
-        run: |
-          echo "Buscando: scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py"
-          if [ -f "scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py" ]; then
-            echo "✅ Archivo encontrado"
-            ls -la "scraper/${{ github.event.inputs.liga }}/"
-          else
-            echo "❌ Archivo NO encontrado"
-            echo ""
-            echo "=== Archivos Python disponibles ==="
-            find . -name "*.py" -type f 2>/dev/null || echo "No hay archivos Python"
-            echo ""
-            echo "=== Estructura completa ==="
-            find . -type f 2>/dev/null | head -20
-          fi
-
-      - name: Configurar Python (si es scraper)
+      - name: Setup Python
         if: github.event.inputs.accion == 'scraper'
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
           
-      - name: Instalar dependencias (si es scraper)
+      - name: Install dependencies
         if: github.event.inputs.accion == 'scraper'
         run: |
-          if [ -f requirements.txt ]; then
-            echo "Instalando requirements.txt"
-            pip install -r requirements.txt
-          else
-            echo "No hay requirements.txt, instalando dependencias básicas"
-            pip install requests beautifulsoup4 selenium pandas
-          fi
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 pandas
           
-      - name: Ejecutar scraper
-        if: github.event.inputs.accion == 'scraper' && github.event.inputs.liga != ''
+      - name: Run scraper
+        if: github.event.inputs.accion == 'scraper' && github.event.inputs.liga
         run: |
           SCRIPT_PATH="scraper/${{ github.event.inputs.liga }}/${{ github.event.inputs.liga }}_standings.py"
+          echo "Buscando: $SCRIPT_PATH"
           if [ -f "$SCRIPT_PATH" ]; then
-            echo "🚀 Ejecutando scraper para ${{ github.event.inputs.liga }}"
-            cd "scraper/${{ github.event.inputs.liga }}"
-            python "${{ github.event.inputs.liga }}_standings.py"
+            echo "Ejecutando scraper..."
+            python "$SCRIPT_PATH"
           else
-            echo "❌ No se puede ejecutar: archivo no encontrado"
+            echo "ERROR: Script no encontrado"
             exit 1
           fi
