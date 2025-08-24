@@ -224,22 +224,40 @@ jobs:
           
           # Buscar archivo específico generado
           if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
-            echo "✅ Moviendo $FILE_NAME"
+            echo "✅ ENCONTRADO en scraper/${{ inputs.liga }}/public/static/$FILE_NAME"
+            echo "📋 Tamaño del archivo origen: $(ls -lh scraper/${{ inputs.liga }}/public/static/$FILE_NAME)"
             cp "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" "public/static/"
-            echo "Archivo movido a: public/static/$FILE_NAME"
+            echo "📋 Archivo copiado a: public/static/$FILE_NAME"
+            echo "📋 Tamaño del archivo destino: $(ls -lh public/static/$FILE_NAME)"
           elif [ -f "scraper/${{ inputs.liga }}/$FILE_NAME" ]; then
-            echo "✅ Moviendo $FILE_NAME desde directorio raíz del scraper"
+            echo "✅ ENCONTRADO en scraper/${{ inputs.liga }}/$FILE_NAME"
+            echo "📋 Tamaño del archivo origen: $(ls -lh scraper/${{ inputs.liga }}/$FILE_NAME)"
             cp "scraper/${{ inputs.liga }}/$FILE_NAME" "public/static/"
-            echo "Archivo movido a: public/static/$FILE_NAME"
+            echo "📋 Archivo copiado a: public/static/$FILE_NAME"
+            echo "📋 Tamaño del archivo destino: $(ls -lh public/static/$FILE_NAME)"
+          else
+            echo "❌ NO se encontró $FILE_NAME en ninguna ubicación esperada"
+            echo "🔍 Listando todo el contenido de scraper/${{ inputs.liga }}:"
+            find "scraper/${{ inputs.liga }}" -type f -name "*.json" -exec ls -lh {} \;
           fi
           
           # Buscar otros archivos JSON en la carpeta del scraper como fallback
-          echo "Buscando otros archivos JSON..."
-          find "scraper/${{ inputs.liga }}/" -name "*.json" -exec echo "JSON encontrado: {}" \;
-          find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
+          echo "🔄 Buscando otros archivos JSON como fallback..."
+          JSON_COUNT=$(find "scraper/${{ inputs.liga }}/" -name "*.json" | wc -l)
+          echo "📊 Total de archivos JSON encontrados: $JSON_COUNT"
           
-          echo "=== Archivos en public/static/ ==="
-          ls -la public/static/ || echo "Carpeta public/static/ vacía"
+          if [ $JSON_COUNT -gt 0 ]; then
+            echo "📁 Listando archivos JSON encontrados:"
+            find "scraper/${{ inputs.liga }}/" -name "*.json" -exec ls -lh {} \;
+            echo "📋 Copiando todos los JSON a public/static/..."
+            find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
+            echo "✅ Archivos JSON copiados"
+          else
+            echo "❌ NO se encontraron archivos JSON en scraper/${{ inputs.liga }}/"
+          fi
+          
+          echo "📂 CONTENIDO FINAL de public/static/ (mostrando solo JSON y timestamps):"
+          ls -lh public/static/*.json public/static/last_update_*.txt 2>/dev/null || echo "No se encontraron archivos JSON o timestamps"
       - name: Commit files
         run: |
           echo "🔧 Configurando Git..."
