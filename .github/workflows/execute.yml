@@ -90,9 +90,6 @@ jobs:
         run: |
           echo "📁 Moviendo archivos a la ubicación correcta..."
           
-          # Crear carpetas public/static si no existen
-          mkdir -p public/static
-          
           # Definir el nombre del archivo según la liga
           case "${{ inputs.liga }}" in
             "la_liga")
