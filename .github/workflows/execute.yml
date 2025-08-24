@@ -13,48 +13,47 @@ on:
         required: false
         type: choice
         default: liga_mx
-        options:
-          - liga_mx
-          - spain
-          - spain2
-          - england
-          - championship
-          - germany
-          - germany2
-          - italy
-          - italy2
-          - france
-          - france2
-          - netherlands
-          - netherlands2
-          - portugal
-          - portugal2
-          - argentina
-          - brazil
-          - brazil2
-          - bulgaria
-          - mexico
-          - saudi-arabia
-          - colombia
-          - estonia
-          - scotland
-          - j1_league
-          - china
-          - sweden
-          - belgium
-          - norway
-          - suiza
-          - turkey
-          - ecuador
-          - usa
-          - australia
-          - greece
-          - chile
-          - checa
-          - croacia
-          - libertadores
-          - sudamericana
-          - bolivia
+       options:
+  - arabia
+  - argentina
+  - australia
+  - belgica
+  - bolivia
+  - brasil
+  - brasil_b
+  - bulgaria
+  - bundesliga
+  - bundesliga_2
+  - championship
+  - checa
+  - chile
+  - china
+  - croacia
+  - ecuador
+  - eerste_divisie
+  - eredivisie
+  - escocia
+  - estonia
+  - francia
+  - francia_2
+  - grecia
+  - italia
+  - italia_2
+  - j1_league
+  - la_liga
+  - libertadores
+  - liga_betplay
+  - liga_hypermotion
+  - liga_mx
+  - mls
+  - noruega
+  - portugal
+  - portugal_2
+  - premier
+  - sudamerica
+  - suecia
+  - suiza
+  - turquia
 
 jobs:
   scraper:
