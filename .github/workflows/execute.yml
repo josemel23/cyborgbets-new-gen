@@ -9,8 +9,6 @@ on:
         options:
           - scraper
           - deploy
-          - deploy-firebase
-          - deploy-pages
       liga:
         required: false
         type: choice
@@ -64,56 +62,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-          cache: 'pip'
-          
       - name: Install Chrome
         run: |
-          sudo apt-get update -qq
+          sudo apt-get update
           wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
           echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
-          sudo apt-get update -qq
+          sudo apt-get update
           sudo apt-get install -y google-chrome-stable
-          
       - name: Setup Display
         run: |
           export DISPLAY=:99
           Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
           sleep 3
           echo "DISPLAY=:99" >> $GITHUB_ENV
-          
-      - name: Install Python dependencies
+      - name: Install Python deps
         run: |
-          pip install --upgrade pip
           pip install undetected-chromedriver selenium pandas requests beautifulsoup4
-          
       - name: Run scraper
         run: |
-          echo "🚀 Iniciando scraper para: ${{ inputs.liga }}"
           cd "scraper/${{ inputs.liga }}"
-          timeout 600 python3 "${{ inputs.liga }}_standings.py" || {
-            echo "❌ Error en el scraper o timeout alcanzado"
-            exit 1
-          }
-          echo "✅ Scraper completado"
-          
-      - name: Clean and organize files
-        run: |
-          echo "🧹 Limpiando archivos problemáticos..."
-          
-          # Eliminar archivos sin extensión que pueden causar problemas
-          find . -type f ! -name "*.*" -exec echo "🗑️ Eliminando archivo sin extensión: {}" \; -delete
-          
-          # Limpiar archivos temporales
-          find . -name "*.tmp" -delete
-          find . -name "*.log" -delete
-          
-          echo "✅ Limpieza completada"
-          
+          timeout 600 python3 "${{ inputs.liga }}_standings.py"
       - name: Move files to correct location
         run: |
           echo "📁 Moviendo archivos a la ubicación correcta..."
@@ -123,229 +95,326 @@ jobs:
           
           # Definir el nombre del archivo según la liga
           case "${{ inputs.liga }}" in
-            "la_liga") FILE_NAME="la_liga_data.json" ;;
-            "liga_hypermotion") FILE_NAME="liga_hypermotion_data.json" ;;
-            "premier") FILE_NAME="premier_league_data.json" ;;
-            "championship") FILE_NAME="championship_data.json" ;;
-            "bundesliga") FILE_NAME="bundesliga_data.json" ;;
-            "bundesliga_2") FILE_NAME="bundesliga_2_data.json" ;;
-            "italia") FILE_NAME="serie_a_data.json" ;;
-            "italia_2") FILE_NAME="serie_b_data.json" ;;
-            "francia") FILE_NAME="ligue_1_data.json" ;;
-            "francia_2") FILE_NAME="ligue_2_data.json" ;;
-            "eredivisie") FILE_NAME="eredivisie_data.json" ;;
-            "eerste_divisie") FILE_NAME="eerste_divisie_data.json" ;;
-            "portugal") FILE_NAME="primeira_liga_data.json" ;;
-            "portugal_2") FILE_NAME="liga_portugal_2_data.json" ;;
-            "argentina") FILE_NAME="primera_division_argentina_data.json" ;;
-            "brasil") FILE_NAME="serie_a_brasil_data.json" ;;
-            "brasil_b") FILE_NAME="serie_b_brasil_data.json" ;;
-            "bulgaria") FILE_NAME="bulgaria_data.json" ;;
-            "liga_mx") FILE_NAME="liga_mx_data.json" ;;
-            "arabia") FILE_NAME="saudi-arabia_data.json" ;;
-            "liga_betplay") FILE_NAME="liga_betplay_data.json" ;;
-            "estonia") FILE_NAME="meistriliiga_data.json" ;;
-            "escocia") FILE_NAME="scotland_premiership_data.json" ;;
-            "j1_league") FILE_NAME="j1_league_data.json" ;;
-            "china") FILE_NAME="super_league_china_data.json" ;;
-            "suecia") FILE_NAME="allsvenskan_data.json" ;;
-            "belgica") FILE_NAME="pro_league_belgium_data.json" ;;
-            "noruega") FILE_NAME="eliteserien_data.json" ;;
-            "suiza") FILE_NAME="super_league_suiza_data.json" ;;
-            "turquia") FILE_NAME="super_lig_turkey_data.json" ;;
-            "ecuador") FILE_NAME="serie_a_ecuador_data.json" ;;
-            "mls") FILE_NAME="mls_usa_data.json" ;;
-            "australia") FILE_NAME="a_league_australia_data.json" ;;
-            "grecia") FILE_NAME="super_league_greece_data.json" ;;
-            "chile") FILE_NAME="primera_division_chile_data.json" ;;
-            "checa") FILE_NAME="checa_data.json" ;;
-            "croacia") FILE_NAME="croacia_data.json" ;;
-            "libertadores") FILE_NAME="libertadores_data.json" ;;
-            "sudamerica") FILE_NAME="sudamericana_data.json" ;;
-            "bolivia") FILE_NAME="Lfpb.json" ;;
-            *) FILE_NAME="${{ inputs.liga }}_data.json" ;;
+            "la_liga")
+              FILE_NAME="la_liga_data.json"
+              ;;
+            "liga_hypermotion")
+              FILE_NAME="liga_hypermotion_data.json"
+              ;;
+            "premier")
+              FILE_NAME="premier_league_data.json"
+              ;;
+            "championship")
+              FILE_NAME="championship_data.json"
+              ;;
+            "bundesliga")
+              FILE_NAME="bundesliga_data.json"
+              ;;
+            "bundesliga_2")
+              FILE_NAME="bundesliga_2_data.json"
+              ;;
+            "italia")
+              FILE_NAME="serie_a_data.json"
+              ;;
+            "italia_2")
+              FILE_NAME="serie_b_data.json"
+              ;;
+            "francia")
+              FILE_NAME="ligue_1_data.json"
+              ;;
+            "francia_2")
+              FILE_NAME="ligue_2_data.json"
+              ;;
+            "eredivisie")
+              FILE_NAME="eredivisie_data.json"
+              ;;
+            "eerste_divisie")
+              FILE_NAME="eerste_divisie_data.json"
+              ;;
+            "portugal")
+              FILE_NAME="primeira_liga_data.json"
+              ;;
+            "portugal_2")
+              FILE_NAME="liga_portugal_2_data.json"
+              ;;
+            "argentina")
+              FILE_NAME="primera_division_argentina_data.json"
+              ;;
+            "brasil")
+              FILE_NAME="serie_a_brasil_data.json"
+              ;;
+            "brasil_b")
+              FILE_NAME="serie_b_brasil_data.json"
+              ;;
+            "bulgaria")
+              FILE_NAME="bulgaria_data.json"
+              ;;
+            "liga_mx")
+              FILE_NAME="liga_mx_data.json"
+              ;;
+            "arabia")
+              FILE_NAME="saudi-arabia_data.json"
+              ;;
+            "liga_betplay")
+              FILE_NAME="liga_betplay_data.json"
+              ;;
+            "estonia")
+              FILE_NAME="meistriliiga_data.json"
+              ;;
+            "escocia")
+              FILE_NAME="scotland_premiership_data.json"
+              ;;
+            "j1_league")
+              FILE_NAME="j1_league_data.json"
+              ;;
+            "china")
+              FILE_NAME="super_league_china_data.json"
+              ;;
+            "suecia")
+              FILE_NAME="allsvenskan_data.json"
+              ;;
+            "belgica")
+              FILE_NAME="pro_league_belgium_data.json"
+              ;;
+            "noruega")
+              FILE_NAME="eliteserien_data.json"
+              ;;
+            "suiza")
+              FILE_NAME="super_league_suiza_data.json"
+              ;;
+            "turquia")
+              FILE_NAME="super_lig_turkey_data.json"
+              ;;
+            "ecuador")
+              FILE_NAME="serie_a_ecuador_data.json"
+              ;;
+            "mls")
+              FILE_NAME="mls_usa_data.json"
+              ;;
+            "australia")
+              FILE_NAME="a_league_australia_data.json"
+              ;;
+            "grecia")
+              FILE_NAME="super_league_greece_data.json"
+              ;;
+            "chile")
+              FILE_NAME="primera_division_chile_data.json"
+              ;;
+            "checa")
+              FILE_NAME="checa_data.json"
+              ;;
+            "croacia")
+              FILE_NAME="croacia_data.json"
+              ;;
+            "libertadores")
+              FILE_NAME="libertadores_data.json"
+              ;;
+            "sudamerica")
+              FILE_NAME="sudamericana_data.json"
+              ;;
+            "bolivia")
+              FILE_NAME="Lfpb.json"
+              ;;
+            *)
+              FILE_NAME="${{ inputs.liga }}_data.json"
+              ;;
           esac
           
-          echo "🔍 Buscando archivo: $FILE_NAME"
+          echo "Buscando archivo: $FILE_NAME"
           
-          # Buscar y copiar archivos JSON
-          FOUND=false
-          
-          # Buscar en diferentes ubicaciones
-          for location in "scraper/${{ inputs.liga }}/public/static" "scraper/${{ inputs.liga }}" "scraper/${{ inputs.liga }}/public"; do
-            if [ -f "$location/$FILE_NAME" ]; then
-              echo "✅ Archivo encontrado en: $location/"
-              cp "$location/$FILE_NAME" "public/static/"
-              FOUND=true
-              break
-            fi
-          done
-          
-          # Si no encuentra el archivo específico, buscar cualquier JSON
-          if [ "$FOUND" = false ]; then
-            echo "⚠️ Archivo específico no encontrado, buscando cualquier JSON..."
-            find "scraper/${{ inputs.liga }}/" -name "*.json" -type f | head -1 | while read file; do
-              if [ -f "$file" ]; then
-                echo "✅ Copiando: $file"
-                cp "$file" "public/static/$FILE_NAME"
-                FOUND=true
-              fi
-            done
+          # Buscar archivo específico generado
+          if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
+            echo "✅ Moviendo $FILE_NAME"
+            cp "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" "public/static/"
+            echo "Archivo movido a: public/static/$FILE_NAME"
+          elif [ -f "scraper/${{ inputs.liga }}/$FILE_NAME" ]; then
+            echo "✅ Moviendo $FILE_NAME desde directorio raíz del scraper"
+            cp "scraper/${{ inputs.liga }}/$FILE_NAME" "public/static/"
+            echo "Archivo movido a: public/static/$FILE_NAME"
           fi
           
-          # Verificar resultado final
-          if [ -f "public/static/$FILE_NAME" ]; then
-            echo "✅ Archivo final: public/static/$FILE_NAME"
-            ls -la "public/static/$FILE_NAME"
-          else
-            echo "❌ ERROR: No se pudo generar el archivo final"
-            echo "🔍 Archivos disponibles en el scraper:"
-            find "scraper/${{ inputs.liga }}/" -type f -name "*"
-            exit 1
-          fi
+          # Buscar otros archivos JSON en la carpeta del scraper como fallback
+          echo "Buscando otros archivos JSON..."
+          find "scraper/${{ inputs.liga }}/" -name "*.json" -exec echo "JSON encontrado: {}" \;
+          find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
           
+          echo "=== Archivos en public/static/ ==="
+          ls -la public/static/ || echo "Carpeta public/static/ vacía"
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add public/static/
+          git add .
           if ! git diff --cached --quiet; then
-            git commit -m "🚀 Auto-update: ${{ inputs.liga }} - $(date '+%Y-%m-%d %H:%M')"
+            git commit -m "Auto-update: ${{ inputs.liga }}"
             git push
-            echo "✅ Cambios committeados y pusheados"
-          else
-            echo "ℹ️ No hay cambios para committear"
           fi
 
-  # Deploy a GitHub Pages
-  deploy-pages:
+  deploy:
     runs-on: ubuntu-latest
-    if: inputs.accion == 'deploy-pages' || inputs.accion == 'deploy'
-    
-    # Permisos necesarios para Pages
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-      
-    # Solo un deploy a la vez
-    concurrency:
-      group: "pages"
-      cancel-in-progress: false
-    
+    if: inputs.accion == 'deploy'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        
-      - name: Create index.html if not exists
+      - name: Create simple index.html
         run: |
-          if [ ! -f "public/index.html" ]; then
-            echo "📝 Creando index.html..."
-            cat > public/index.html << 'EOF'
+          mkdir -p public
+          cat > public/index.html << 'EOF'
           <!DOCTYPE html>
           <html lang="es">
           <head>
               <meta charset="UTF-8">
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>CyborgBets - Panel de Datos</title>
+              <title>CyborgBets - Datos de Fútbol</title>
               <style>
-                  body { font-family: Arial, sans-serif; margin: 40px; background: #1a1a1a; color: white; }
-                  .container { max-width: 800px; margin: 0 auto; }
-                  h1 { color: #00ff41; text-align: center; }
-                  .data-files { margin-top: 30px; }
-                  .file-item { background: #333; padding: 15px; margin: 10px 0; border-radius: 8px; }
-                  a { color: #00ff41; text-decoration: none; }
-                  a:hover { text-decoration: underline; }
+                  body { 
+                      font-family: 'Arial', sans-serif; 
+                      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+                      margin: 0; 
+                      padding: 20px; 
+                      color: white; 
+                      min-height: 100vh;
+                  }
+                  .container { 
+                      max-width: 1200px; 
+                      margin: 0 auto; 
+                      background: rgba(255,255,255,0.1); 
+                      padding: 30px; 
+                      border-radius: 15px; 
+                      backdrop-filter: blur(10px);
+                  }
+                  h1 { 
+                      text-align: center; 
+                      color: #00ff88; 
+                      font-size: 2.5em; 
+                      margin-bottom: 10px;
+                      text-shadow: 0 0 20px rgba(0,255,136,0.5);
+                  }
+                  .subtitle { 
+                      text-align: center; 
+                      opacity: 0.8; 
+                      margin-bottom: 40px; 
+                      font-size: 1.2em; 
+                  }
+                  .files-grid { 
+                      display: grid; 
+                      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+                      gap: 20px; 
+                      margin: 30px 0; 
+                  }
+                  .file-card { 
+                      background: rgba(255,255,255,0.15); 
+                      padding: 20px; 
+                      border-radius: 10px; 
+                      border: 1px solid rgba(255,255,255,0.2);
+                      transition: transform 0.3s ease, box-shadow 0.3s ease;
+                  }
+                  .file-card:hover { 
+                      transform: translateY(-5px); 
+                      box-shadow: 0 10px 25px rgba(0,255,136,0.2);
+                  }
+                  .file-card h3 { 
+                      color: #00ff88; 
+                      margin-top: 0; 
+                      display: flex; 
+                      align-items: center; 
+                      gap: 10px;
+                  }
+                  .file-card a { 
+                      color: #87ceeb; 
+                      text-decoration: none; 
+                      font-weight: bold;
+                      display: inline-block;
+                      margin-top: 10px;
+                      padding: 8px 16px;
+                      background: rgba(0,255,136,0.2);
+                      border-radius: 5px;
+                      transition: background 0.3s ease;
+                  }
+                  .file-card a:hover { 
+                      background: rgba(0,255,136,0.4);
+                      text-decoration: none;
+                  }
+                  .status { 
+                      text-align: center; 
+                      margin-top: 40px; 
+                      font-size: 0.9em; 
+                      opacity: 0.7; 
+                  }
+                  .emoji { font-size: 1.2em; }
               </style>
           </head>
           <body>
               <div class="container">
-                  <h1>🤖 CyborgBets - Panel de Datos</h1>
-                  <p>Datos actualizados automáticamente de diferentes ligas de fútbol.</p>
-                  <div class="data-files">
-                      <h2>📊 Archivos de Datos Disponibles:</h2>
-                      <div class="file-item">
-                          <h3>Liga MX</h3>
-                          <a href="static/liga_mx_data.json" target="_blank">📄 liga_mx_data.json</a>
-                      </div>
-                      <div class="file-item">
-                          <h3>La Liga</h3>
-                          <a href="static/la_liga_data.json" target="_blank">📄 la_liga_data.json</a>
-                      </div>
-                      <div class="file-item">
-                          <h3>Premier League</h3>
-                          <a href="static/premier_league_data.json" target="_blank">📄 premier_league_data.json</a>
-                      </div>
+                  <h1>🤖 CyborgBets</h1>
+                  <div class="subtitle">Panel de Datos de Fútbol - Actualización Automática</div>
+                  
+                  <div class="files-grid" id="filesGrid">
+                      <!-- Los archivos se cargarán dinámicamente -->
                   </div>
-                  <p><small>Última actualización: <span id="lastUpdate"></span></small></p>
-                  <script>
-                      document.getElementById('lastUpdate').textContent = new Date().toLocaleString('es-ES');
-                  </script>
+                  
+                  <div class="status">
+                      <p>📊 Sistema de scraping automático activo</p>
+                      <p>🔄 Última verificación: <span id="lastUpdate"></span></p>
+                  </div>
               </div>
+          
+              <script>
+                  // Mapeo de archivos conocidos
+                  const knownFiles = {
+                      'liga_mx_data.json': { name: '🇲🇽 Liga MX', flag: '🇲🇽' },
+                      'la_liga_data.json': { name: '🇪🇸 La Liga', flag: '🇪🇸' },
+                      'premier_league_data.json': { name: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League', flag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿' },
+                      'bundesliga_data.json': { name: '🇩🇪 Bundesliga', flag: '🇩🇪' },
+                      'serie_a_data.json': { name: '🇮🇹 Serie A', flag: '🇮🇹' },
+                      'ligue_1_data.json': { name: '🇫🇷 Ligue 1', flag: '🇫🇷' },
+                      'primeira_liga_data.json': { name: '🇵🇹 Primeira Liga', flag: '🇵🇹' },
+                      'eredivisie_data.json': { name: '🇳🇱 Eredivisie', flag: '🇳🇱' }
+                  };
+                  
+                  // Crear cards para archivos conocidos
+                  const filesGrid = document.getElementById('filesGrid');
+                  Object.entries(knownFiles).forEach(([filename, info]) => {
+                      const card = document.createElement('div');
+                      card.className = 'file-card';
+                      card.innerHTML = `
+                          <h3><span class="emoji">${info.flag}</span> ${info.name.split(' ').slice(1).join(' ')}</h3>
+                          <p>Datos actualizados de la liga</p>
+                          <a href="static/${filename}" target="_blank">📄 Ver datos JSON</a>
+                      `;
+                      filesGrid.appendChild(card);
+                  });
+                  
+                  // Actualizar timestamp
+                  document.getElementById('lastUpdate').textContent = new Date().toLocaleString('es-ES');
+              </script>
           </body>
           </html>
           EOF
-            echo "✅ index.html creado"
-          fi
           
-          # Verificar estructura
-          echo "📁 Estructura de public/:"
-          ls -la public/ || mkdir -p public
-        
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-          
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
-  # Deploy a Firebase
-  deploy-firebase:
-    runs-on: ubuntu-latest
-    if: inputs.accion == 'deploy-firebase'
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          
-      - name: Install Firebase CLI
+      - name: Simple Deploy usando git push a gh-pages
         run: |
-          npm install -g firebase-tools@latest
-          firebase --version
+          echo "🚀 Deploy simple usando git push..."
           
-      - name: Create Firebase config
-        run: |
-          # Crear firebase.json
-          cat > firebase.json << 'EOF'
-          {
-            "hosting": {
-              "public": "public",
-              "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-              "rewrites": [{"source": "**", "destination": "/index.html"}]
-            }
-          }
-          EOF
+          # Configurar git
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
           
-          # Crear .firebaserc (necesitarás cambiar el project ID)
-          cat > .firebaserc << 'EOF'
-          {
-            "projects": {
-              "default": "tu-proyecto-firebase-id"
-            }
-          }
-          EOF
+          # Crear rama gh-pages si no existe
+          git checkout -B gh-pages
           
-      - name: Deploy to Firebase
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        run: |
-          firebase deploy --token "$FIREBASE_TOKEN" --non-interactive
+          # Copiar solo archivos de public
+          git rm -rf . || true
+          cp -r public/* . || echo "No hay archivos en public/"
+          
+          # Crear .nojekyll para evitar problemas con GitHub Pages
+          touch .nojekyll
+          
+          # Commit y push
+          git add .
+          git commit -m "Deploy to GitHub Pages - $(date)" || echo "No changes to commit"
+          git push origin gh-pages --force
+          
+          echo "✅ Deploy completado!"
+          echo "🌐 Tu sitio estará disponible en: https://josemel23.github.io/cyborgbets-new-gen"
