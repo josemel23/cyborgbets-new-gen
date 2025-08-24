@@ -1,4 +1,4 @@
-name: Test Simple
+name: Panel Scraper
 
 on:
   workflow_dispatch:
@@ -12,13 +12,43 @@ on:
       liga:
         required: false
         type: string
+        default: liga_mx
 
 jobs:
-  test:
+  scraper:
     runs-on: ubuntu-latest
+    if: inputs.accion == 'scraper'
+    
     steps:
-      - name: Test
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Install Chrome
         run: |
-          echo "Funcionando desde GitHub Actions"
-          echo "Accion: ${{ inputs.accion }}"
-          echo "Liga: ${{ inputs.liga }}"
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+          
+      - name: Install Python deps
+        run: |
+          pip install requests beautifulsoup4 pandas selenium webdriver-manager
+          
+      - name: Run scraper
+        run: |
+          echo "Ejecutando scraper para ${{ inputs.liga }}"
+          cd "scraper/${{ inputs.liga }}"
+          python "${{ inputs.liga }}_standings.py"
+          
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update: ${{ inputs.liga }} data"
+            git push
+          fi
