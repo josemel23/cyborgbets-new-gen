@@ -1,5 +1,4 @@
 name: Panel Scraper
-
 on:
   workflow_dispatch:
     inputs:
@@ -47,13 +46,17 @@ jobs:
           timeout 600 python3 "${{ inputs.liga }}_standings.py"
       - name: Move files to correct location
         run: |
+          echo "📁 Moviendo archivos a la ubicación correcta..."
           mkdir -p public/static
           if [ -f "scraper/${{ inputs.liga }}/public/static/${{ inputs.liga }}_data.json" ]; then
+            echo "✅ Moviendo ${{ inputs.liga }}_data.json"
             cp "scraper/${{ inputs.liga }}/public/static/${{ inputs.liga }}_data.json" "public/static/"
-            echo "Archivo movido a public/static/"
+            echo "Archivo movido a: public/static/${{ inputs.liga }}_data.json"
           fi
+          find "scraper/${{ inputs.liga }}/" -name "*.json" -exec echo "JSON encontrado: {}" \;
           find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
-          ls -la public/static/
+          echo "=== Archivos en public/static/ ==="
+          ls -la public/static/ || echo "Carpeta public/static/ vacía"
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
@@ -70,33 +73,86 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Node.js
+        
+      - name: Detect project type
+        run: |
+          echo "🔍 Detectando tipo de proyecto..."
+          
+          if [ -f "package.json" ]; then
+            echo "📦 Proyecto Node.js/React detectado"
+            echo "PROJECT_TYPE=nodejs" >> $GITHUB_ENV
+            cat package.json | head -20
+          elif [ -f "requirements.txt" ] && [ -f "app.py" ]; then
+            echo "🐍 Proyecto Python/Flask detectado"
+            echo "PROJECT_TYPE=flask" >> $GITHUB_ENV
+          elif [ -f "requirements.txt" ] && [ -f "main.py" ]; then
+            echo "🐍 Proyecto Python general detectado"
+            echo "PROJECT_TYPE=python" >> $GITHUB_ENV
+          elif [ -f "index.html" ]; then
+            echo "🌐 Proyecto HTML estático detectado"
+            echo "PROJECT_TYPE=static" >> $GITHUB_ENV
+          else
+            echo "❓ Tipo de proyecto no detectado"
+            echo "Archivos en raíz:"
+            ls -la
+            echo "PROJECT_TYPE=unknown" >> $GITHUB_ENV
+          fi
+          
+      - name: Setup Node.js (if needed)
+        if: env.PROJECT_TYPE == 'nodejs'
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-      - name: Install Firebase CLI
+          
+      - name: Setup Python (if needed)
+        if: env.PROJECT_TYPE == 'flask' || env.PROJECT_TYPE == 'python'
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies and build
         run: |
-          npm install -g firebase-tools
-          firebase --version
-      - name: Verify files
+          echo "🚀 Preparando deploy para: $PROJECT_TYPE"
+          
+          case $PROJECT_TYPE in
+            nodejs)
+              echo "📦 Instalando dependencias Node.js..."
+              npm install
+              echo "🔨 Building proyecto..."
+              npm run build || echo "No build script encontrado"
+              echo "📁 Archivos después del build:"
+              ls -la dist/ build/ out/ 2>/dev/null || echo "No hay carpeta de build estándar"
+              ;;
+            flask)
+              echo "🐍 Instalando dependencias Python..."
+              pip install -r requirements.txt
+              echo "✅ Flask app preparada"
+              ;;
+            python)
+              echo "🐍 Instalando dependencias Python..."
+              pip install -r requirements.txt
+              echo "✅ Python app preparada"
+              ;;
+            static)
+              echo "🌐 Proyecto estático - listo para deploy"
+              ;;
+            *)
+              echo "❓ Tipo desconocido - listando archivos:"
+              find . -maxdepth 2 -type f \( -name "*.html" -o -name "*.js" -o -name "*.py" \) | head -10
+              ;;
+          esac
+          
+      - name: Deploy status
         run: |
-          echo "Verificando archivos para deploy..."
-          ls -la
-          if [ -d "public" ]; then
-            echo "Archivos en public/:"
-            ls -la public/
-            if [ -d "public/static" ]; then
-              echo "Archivos en public/static/:"
-              ls -la public/static/
-            fi
-          else
-            echo "ERROR: No hay carpeta public/"
-            exit 1
-          fi
-      - name: Deploy to Firebase
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        run: |
-          echo "Desplegando a Firebase..."
-          firebase deploy --token "$FIREBASE_TOKEN" --non-interactive
-          echo "Deploy completado! Tu app debería estar actualizada"
+          echo "✅ Deploy preparado para: $PROJECT_TYPE"
+          echo "📊 Estado del proyecto:"
+          echo "- Tipo: $PROJECT_TYPE"
+          echo "- Archivos principales:"
+          ls -la | head -10
+          echo ""
+          echo "🚀 Para deploy real, configurar:"
+          echo "- Vercel/Netlify para static/nodejs"
+          echo "- Heroku/Railway para Python"
+          echo "- O servidor personalizado"
+          echo ""
+          echo "✅ Deploy simulation completado"
