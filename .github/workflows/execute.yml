@@ -14,47 +14,46 @@ on:
         type: choice
         default: liga_mx
         options:
-          - liga_mx
-          - spain
-          - spain2
-          - england
-          - championship
-          - germany
-          - germany2
-          - italy
-          - italy2
-          - france
-          - france2
-          - netherlands
-          - netherlands2
-          - portugal
-          - portugal2
+          - arabia
           - argentina
-          - brazil
-          - brazil2
-          - bulgaria
-          - mexico
-          - saudi-arabia
-          - colombia
-          - estonia
-          - scotland
-          - japan
-          - china
-          - sweden
-          - belgium
-          - norway
-          - suiza
-          - turkey
-          - ecuador
-          - usa
           - australia
-          - greece
-          - chile
-          - checa
-          - croacia
-          - libertadores
-          - sudamericana
+          - belgica
           - bolivia
+          - brasil
+          - brasil_b
+          - bulgaria
+          - bundesliga
+          - bundesliga_2
+          - championship
+          - checa
+          - chile
+          - china
+          - croacia
+          - ecuador
+          - eerste_divisie
+          - eredivisie
+          - escocia
+          - estonia
+          - francia
+          - francia_2
+          - grecia
+          - italia
+          - italia_2
+          - j1_league
+          - la_liga
+          - libertadores
+          - liga_betplay
+          - liga_hypermotion
+          - liga_mx
+          - mls
+          - noruega
+          - portugal
+          - portugal_2
+          - premier
+          - sudamerica
+          - suecia
+          - suiza
+          - turquia
 
 jobs:
   scraper:
@@ -96,106 +95,106 @@ jobs:
           
           # Definir el nombre del archivo según la liga
           case "${{ inputs.liga }}" in
-            "spain")
+            "la_liga")
               FILE_NAME="la_liga_data.json"
               ;;
-            "spain2")
+            "liga_hypermotion")
               FILE_NAME="liga_hypermotion_data.json"
               ;;
-            "england")
+            "premier")
               FILE_NAME="premier_league_data.json"
               ;;
             "championship")
               FILE_NAME="championship_data.json"
               ;;
-            "germany")
+            "bundesliga")
               FILE_NAME="bundesliga_data.json"
               ;;
-            "germany2")
+            "bundesliga_2")
               FILE_NAME="bundesliga_2_data.json"
               ;;
-            "italy")
+            "italia")
               FILE_NAME="serie_a_data.json"
               ;;
-            "italy2")
+            "italia_2")
               FILE_NAME="serie_b_data.json"
               ;;
-            "france")
+            "francia")
               FILE_NAME="ligue_1_data.json"
               ;;
-            "france2")
+            "francia_2")
               FILE_NAME="ligue_2_data.json"
               ;;
-            "netherlands")
+            "eredivisie")
               FILE_NAME="eredivisie_data.json"
               ;;
-            "netherlands2")
+            "eerste_divisie")
               FILE_NAME="eerste_divisie_data.json"
               ;;
             "portugal")
               FILE_NAME="primeira_liga_data.json"
               ;;
-            "portugal2")
+            "portugal_2")
               FILE_NAME="liga_portugal_2_data.json"
               ;;
             "argentina")
               FILE_NAME="primera_division_argentina_data.json"
               ;;
-            "brazil")
+            "brasil")
               FILE_NAME="serie_a_brasil_data.json"
               ;;
-            "brazil2")
+            "brasil_b")
               FILE_NAME="serie_b_brasil_data.json"
               ;;
             "bulgaria")
               FILE_NAME="bulgaria_data.json"
               ;;
-            "mexico"|"liga_mx")
+            "liga_mx")
               FILE_NAME="liga_mx_data.json"
               ;;
-            "saudi-arabia")
+            "arabia")
               FILE_NAME="saudi-arabia_data.json"
               ;;
-            "colombia")
+            "liga_betplay")
               FILE_NAME="liga_betplay_data.json"
               ;;
             "estonia")
               FILE_NAME="meistriliiga_data.json"
               ;;
-            "scotland")
+            "escocia")
               FILE_NAME="scotland_premiership_data.json"
               ;;
-            "japan")
+            "j1_league")
               FILE_NAME="j1_league_data.json"
               ;;
             "china")
               FILE_NAME="super_league_china_data.json"
               ;;
-            "sweden")
+            "suecia")
               FILE_NAME="allsvenskan_data.json"
               ;;
-            "belgium")
+            "belgica")
               FILE_NAME="pro_league_belgium_data.json"
               ;;
-            "norway")
+            "noruega")
               FILE_NAME="eliteserien_data.json"
               ;;
             "suiza")
               FILE_NAME="super_league_suiza_data.json"
               ;;
-            "turkey")
+            "turquia")
               FILE_NAME="super_lig_turkey_data.json"
               ;;
             "ecuador")
               FILE_NAME="serie_a_ecuador_data.json"
               ;;
-            "usa")
+            "mls")
               FILE_NAME="mls_usa_data.json"
               ;;
             "australia")
               FILE_NAME="a_league_australia_data.json"
               ;;
-            "greece")
+            "grecia")
               FILE_NAME="super_league_greece_data.json"
               ;;
             "chile")
@@ -210,7 +209,7 @@ jobs:
             "libertadores")
               FILE_NAME="libertadores_data.json"
               ;;
-            "sudamericana")
+            "sudamerica")
               FILE_NAME="sudamericana_data.json"
               ;;
             "bolivia")
@@ -280,4 +279,10 @@ jobs:
             echo "ERROR: No hay carpeta public/"
             exit 1
           fi
-    
+      - name: Deploy to Firebase
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
+          echo "Desplegando a Firebase..."
+          firebase deploy --token "$FIREBASE_TOKEN" --non-interactive
+          echo "Deploy completado! Tu app debería estar actualizada"
