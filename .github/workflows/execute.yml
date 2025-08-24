@@ -374,9 +374,26 @@ jobs:
             echo "✅ firebase.json ya existe"
           fi
           
+          # Crear .firebaserc si no existe
+          if [ ! -f ".firebaserc" ]; then
+            echo "📝 Creando .firebaserc..."
+            cat > .firebaserc << 'EOF'
+          {
+            "projects": {
+              "default": "cyborgbets-new-gen"
+            }
+          }
+          EOF
+            echo "✅ .firebaserc creado con proyecto por defecto"
+          else
+            echo "✅ .firebaserc ya existe"
+          fi
+          
           # Mostrar configuración actual
           echo "📋 Configuración actual de Firebase:"
           cat firebase.json
+          echo "📋 Proyecto configurado:"
+          cat .firebaserc
           
       - name: Deploy to Firebase
         env:
@@ -390,13 +407,35 @@ jobs:
             exit 1
           fi
           
-          echo "🚀 Ejecutando deploy..."
-          firebase deploy --token "$FIREBASE_TOKEN" --non-interactive --debug
+          echo "✅ FIREBASE_TOKEN configurado correctamente"
           
-          if [ $? -eq 0 ]; then
-            echo "✅ Deploy completado exitosamente!"
-            echo "🌐 Tu app debería estar actualizada en Firebase Hosting"
-          else
-            echo "❌ Error durante el deploy"
+          # Verificar que Firebase CLI funciona
+          echo "🔍 Verificando Firebase CLI..."
+          firebase --version
+          
+          # Verificar archivos antes del deploy
+          echo "📁 Verificando archivos finales..."
+          ls -la public/
+          
+          # Verificar configuración de Firebase
+          echo "📋 Verificando firebase.json..."
+          cat firebase.json
+          
+          # Intentar inicializar el proyecto (opcional)
+          echo "🔧 Verificando configuración del proyecto..."
+          firebase projects:list --token "$FIREBASE_TOKEN" || {
+            echo "⚠️ No se pudo listar proyectos, pero continuando..."
+          }
+          
+          echo "🚀 Ejecutando deploy con máximo detalle..."
+          firebase deploy --token "$FIREBASE_TOKEN" --non-interactive --debug --verbose || {
+            echo "❌ Error durante el deploy. Información adicional:"
+            echo "🔍 Verificando si hay archivos .firebaserc..."
+            ls -la .firebaserc 2>/dev/null || echo "No hay archivo .firebaserc"
+            echo "🔍 Verificando configuración actual..."
+            firebase list --token "$FIREBASE_TOKEN" 2>/dev/null || echo "No se pudo ejecutar firebase list"
             exit 1
-          fi
+          }
+          
+          echo "✅ Deploy completado exitosamente!"
+          echo "🌐 Tu app debería estar actualizada en Firebase Hosting"
