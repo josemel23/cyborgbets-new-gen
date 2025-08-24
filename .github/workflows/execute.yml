@@ -90,15 +90,6 @@ jobs:
         run: |
           echo "📁 Moviendo archivos a la ubicación correcta..."
           
-          # Verificar que public/static existe (no la creamos si ya existe)
-          if [ ! -d "public/static" ]; then
-            echo "❌ ERROR: La carpeta public/static no existe"
-            exit 1
-          fi
-          
-          echo "📂 Contenido actual de public/static:"
-          ls -la public/static/ || echo "Carpeta vacía"
-          
           # Definir el nombre del archivo según la liga
           case "${{ inputs.liga }}" in
             "la_liga")
@@ -228,65 +219,32 @@ jobs:
           
           echo "Buscando archivo: $FILE_NAME"
           
-          echo "🔍 Verificando qué archivos se generaron:"
-          echo "Contenido completo de scraper/${{ inputs.liga }}/"
-          find "scraper/${{ inputs.liga }}/" -type f -name "*.json" -exec ls -la {} \;
-          
           # Buscar archivo específico generado
           if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
-            echo "✅ Encontrado en scraper/${{ inputs.liga }}/public/static/$FILE_NAME"
+            echo "✅ Moviendo $FILE_NAME"
             cp "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" "public/static/"
-            echo "📋 Archivo copiado a: public/static/$FILE_NAME"
+            echo "Archivo movido a: public/static/$FILE_NAME"
           elif [ -f "scraper/${{ inputs.liga }}/$FILE_NAME" ]; then
-            echo "✅ Encontrado en scraper/${{ inputs.liga }}/$FILE_NAME"
+            echo "✅ Moviendo $FILE_NAME desde directorio raíz del scraper"
             cp "scraper/${{ inputs.liga }}/$FILE_NAME" "public/static/"
-            echo "📋 Archivo copiado a: public/static/$FILE_NAME"
-          else
-            echo "❌ No se encontró el archivo específico: $FILE_NAME"
+            echo "Archivo movido a: public/static/$FILE_NAME"
           fi
           
           # Buscar otros archivos JSON en la carpeta del scraper como fallback
-          echo "🔄 Buscando otros archivos JSON como fallback..."
-          JSON_FILES=$(find "scraper/${{ inputs.liga }}/" -name "*.json")
-          if [ -n "$JSON_FILES" ]; then
-            echo "📁 Archivos JSON encontrados:"
-            echo "$JSON_FILES"
-            find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
-            echo "📋 Archivos JSON copiados a public/static/"
-          else
-            echo "❌ No se encontraron archivos JSON en scraper/${{ inputs.liga }}/"
-          fi
+          echo "Buscando otros archivos JSON..."
+          find "scraper/${{ inputs.liga }}/" -name "*.json" -exec echo "JSON encontrado: {}" \;
+          find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
           
-          echo "📂 Contenido final de public/static/:"
-          ls -la public/static/
+          echo "=== Archivos en public/static/ ==="
+          ls -la public/static/ || echo "Carpeta public/static/ vacía"
       - name: Commit files
         run: |
-          echo "🔄 Configurando Git..."
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          
-          echo "📋 Verificando cambios pendientes..."
-          git status
-          
-          echo "📁 Archivos modificados:"
-          git diff --name-only
-          
-          echo "📁 Archivos nuevos/eliminados:"
-          git ls-files --others --exclude-standard
-          
           git add .
-          
-          echo "📋 Estado después de git add:"
-          git status
-          
           if ! git diff --cached --quiet; then
-            echo "✅ Hay cambios para commitear"
-            git commit -m "Auto-update: ${{ inputs.liga }} - $(date)"
-            echo "🚀 Pushing cambios..."
+            git commit -m "Auto-update: ${{ inputs.liga }}"
             git push
-            echo "✅ Push completado"
-          else
-            echo "❌ No hay cambios para commitear"
           fi
 
   deploy:
