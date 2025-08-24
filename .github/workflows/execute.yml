@@ -10,8 +10,50 @@ on:
           - deploy
       liga:
         required: false
-        type: string
-        default: liga_mx
+        type: choice
+        options:
+          - spain
+          - spain2
+          - england
+          - championship
+          - germany
+          - germany2
+          - italy
+          - italy2
+          - france
+          - france2
+          - netherlands
+          - netherlands2
+          - portugal
+          - portugal2
+          - argentina
+          - brazil
+          - brazil2
+          - bulgaria
+          - mexico
+          - saudi-arabia
+          - colombia
+          - estonia
+          - scotland
+          - japan
+          - china
+          - sweden
+          - belgium
+          - norway
+          - suiza
+          - turkey
+          - ecuador
+          - usa
+          - australia
+          - greece
+          - chile
+          - republica_checa
+          - croacia
+          - libertadores
+          - sudamericana
+          - bolivia
+        default: mexico
+
 jobs:
   scraper:
     runs-on: ubuntu-latest
