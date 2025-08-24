@@ -221,6 +221,18 @@ jobs:
   deploy-pages:
     runs-on: ubuntu-latest
     if: inputs.accion == 'deploy-pages' || inputs.accion == 'deploy'
+    
+    # Permisos necesarios para Pages
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+      
+    # Solo un deploy a la vez
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -278,6 +290,10 @@ jobs:
           EOF
             echo "✅ index.html creado"
           fi
+          
+          # Verificar estructura
+          echo "📁 Estructura de public/:"
+          ls -la public/ || mkdir -p public
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
