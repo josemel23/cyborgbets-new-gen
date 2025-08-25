@@ -1,18 +1,18 @@
 {
     "teams": [
         {
-            "team": "Napoli",
+            "team": "Cesena",
             "position": "1",
             "matches_played": "1",
             "wins": "1",
             "draws": "0",
             "losses": "0",
-            "goals_for": "2",
-            "goals_against": "0",
+            "goals_for": "3",
+            "goals_against": "1",
             "goal_difference": "+2",
             "points": "3",
             "btts": {
-                "Yes": "0%"
+                "Yes": "100%"
             },
             "cards": {
                 "over_3_5": "0%",
@@ -26,17 +26,51 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "3"
+                "average": "8"
             },
             "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
+                "1.5": "100%",
+                "2.5": "100%",
                 "3.5": "0%"
             }
         },
         {
-            "team": "Roma",
+            "team": "Empoli",
             "position": "2",
+            "matches_played": "1",
+            "wins": "1",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "3",
+            "goals_against": "1",
+            "goal_difference": "+2",
+            "points": "3",
+            "btts": {
+                "Yes": "100%"
+            },
+            "cards": {
+                "over_3_5": "100%",
+                "over_4_5": "100%",
+                "over_5_5": "100%"
+            },
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "100%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "Monza",
+            "position": "3",
             "matches_played": "1",
             "wins": "1",
             "draws": "0",
@@ -49,18 +83,18 @@
                 "Yes": "0%"
             },
             "cards": {
-                "over_3_5": "0%",
-                "over_4_5": "0%",
-                "over_5_5": "0%"
+                "over_3_5": "100%",
+                "over_4_5": "100%",
+                "over_5_5": "100%"
             },
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
+                "8.5": "100%",
+                "9.5": "100%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "6"
+                "average": "10"
             },
             "goals": {
                 "1.5": "0%",
@@ -69,8 +103,8 @@
             }
         },
         {
-            "team": "Cremonese",
-            "position": "3",
+            "team": "Palermo",
+            "position": "4",
             "matches_played": "1",
             "wins": "1",
             "draws": "0",
@@ -83,18 +117,18 @@
                 "Yes": "100%"
             },
             "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
+                "over_3_5": "0%",
+                "over_4_5": "0%",
                 "over_5_5": "0%"
             },
             "corners": {
                 "8.5": "100%",
                 "9.5": "100%",
                 "10.5": "100%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "11"
+                "11.5": "100%",
+                "12.5": "100%",
+                "13.5": "100%",
+                "average": "15"
             },
             "goals": {
                 "1.5": "100%",
@@ -103,66 +137,32 @@
             }
         },
         {
-            "team": "Genoa",
-            "position": "4",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "1",
-            "btts": {
-                "Yes": "0%"
-            },
-            "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
-                "over_5_5": "0%"
-            },
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Lecce",
+            "team": "Juve Stabia",
             "position": "5",
             "matches_played": "1",
             "wins": "0",
             "draws": "1",
             "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
+            "goals_for": "1",
+            "goals_against": "1",
             "goal_difference": "0",
             "points": "1",
             "btts": {
-                "Yes": "0%"
+                "Yes": "100%"
             },
             "cards": {
                 "over_3_5": "100%",
-                "over_4_5": "100%",
+                "over_4_5": "0%",
                 "over_5_5": "0%"
             },
             "corners": {
                 "8.5": "100%",
                 "9.5": "100%",
-                "10.5": "0%",
-                "11.5": "0%",
+                "10.5": "100%",
+                "11.5": "100%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "10"
+                "average": "12"
             },
             "goals": {
                 "1.5": "0%",
@@ -171,32 +171,32 @@
             }
         },
         {
-            "team": "Atalanta",
+            "team": "Virtus Entella",
             "position": "6",
-            "matches_played": "0",
+            "matches_played": "1",
             "wins": "0",
-            "draws": "0",
+            "draws": "1",
             "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
+            "goals_for": "1",
+            "goals_against": "1",
             "goal_difference": "0",
-            "points": "0",
+            "points": "1",
             "btts": {
-                "Yes": "0%"
+                "Yes": "100%"
             },
             "cards": {
-                "over_3_5": "0%",
+                "over_3_5": "100%",
                 "over_4_5": "0%",
                 "over_5_5": "0%"
             },
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "0"
+                "average": "12"
             },
             "goals": {
                 "1.5": "0%",
@@ -205,7 +205,7 @@
             }
         },
         {
-            "team": "Cagliari",
+            "team": "Avellino",
             "position": "7",
             "matches_played": "0",
             "wins": "0",
@@ -239,7 +239,7 @@
             }
         },
         {
-            "team": "Como",
+            "team": "Bari 1908",
             "position": "8",
             "matches_played": "0",
             "wins": "0",
@@ -273,7 +273,7 @@
             }
         },
         {
-            "team": "Fiorentina",
+            "team": "Carrarese",
             "position": "9",
             "matches_played": "0",
             "wins": "0",
@@ -307,7 +307,7 @@
             }
         },
         {
-            "team": "Hellas Verona",
+            "team": "Catanzaro",
             "position": "10",
             "matches_played": "0",
             "wins": "0",
@@ -341,7 +341,7 @@
             }
         },
         {
-            "team": "Internazionale",
+            "team": "Frosinone",
             "position": "11",
             "matches_played": "0",
             "wins": "0",
@@ -375,7 +375,7 @@
             }
         },
         {
-            "team": "Juventus",
+            "team": "Modena",
             "position": "12",
             "matches_played": "0",
             "wins": "0",
@@ -409,7 +409,7 @@
             }
         },
         {
-            "team": "Lazio",
+            "team": "Sampdoria",
             "position": "13",
             "matches_played": "0",
             "wins": "0",
@@ -443,7 +443,7 @@
             }
         },
         {
-            "team": "Parma",
+            "team": "Spezia",
             "position": "14",
             "matches_played": "0",
             "wins": "0",
@@ -477,7 +477,7 @@
             }
         },
         {
-            "team": "Pisa",
+            "team": "Südtirol",
             "position": "15",
             "matches_played": "0",
             "wins": "0",
@@ -511,7 +511,7 @@
             }
         },
         {
-            "team": "Torino",
+            "team": "Venezia",
             "position": "16",
             "matches_played": "0",
             "wins": "0",
@@ -545,42 +545,8 @@
             }
         },
         {
-            "team": "Udinese",
+            "team": "Mantova",
             "position": "17",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "btts": {
-                "Yes": "0%"
-            },
-            "cards": {
-                "over_3_5": "0%",
-                "over_4_5": "0%",
-                "over_5_5": "0%"
-            },
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Bologna",
-            "position": "18",
             "matches_played": "1",
             "wins": "0",
             "draws": "0",
@@ -593,18 +559,18 @@
                 "Yes": "0%"
             },
             "cards": {
-                "over_3_5": "0%",
-                "over_4_5": "0%",
-                "over_5_5": "0%"
+                "over_3_5": "100%",
+                "over_4_5": "100%",
+                "over_5_5": "100%"
             },
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
+                "8.5": "100%",
+                "9.5": "100%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "6"
+                "average": "10"
             },
             "goals": {
                 "1.5": "0%",
@@ -613,8 +579,8 @@
             }
         },
         {
-            "team": "Milan",
-            "position": "19",
+            "team": "Reggiana",
+            "position": "18",
             "matches_played": "1",
             "wins": "0",
             "draws": "0",
@@ -627,18 +593,18 @@
                 "Yes": "100%"
             },
             "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
+                "over_3_5": "0%",
+                "over_4_5": "0%",
                 "over_5_5": "0%"
             },
             "corners": {
                 "8.5": "100%",
                 "9.5": "100%",
                 "10.5": "100%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "11"
+                "11.5": "100%",
+                "12.5": "100%",
+                "13.5": "100%",
+                "average": "15"
             },
             "goals": {
                 "1.5": "100%",
@@ -647,18 +613,52 @@
             }
         },
         {
-            "team": "Sassuolo",
+            "team": "Calcio Padova",
+            "position": "19",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "1",
+            "goals_against": "3",
+            "goal_difference": "-2",
+            "points": "0",
+            "btts": {
+                "Yes": "100%"
+            },
+            "cards": {
+                "over_3_5": "100%",
+                "over_4_5": "100%",
+                "over_5_5": "100%"
+            },
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "100%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "Pescara",
             "position": "20",
             "matches_played": "1",
             "wins": "0",
             "draws": "0",
             "losses": "1",
-            "goals_for": "0",
-            "goals_against": "2",
+            "goals_for": "1",
+            "goals_against": "3",
             "goal_difference": "-2",
             "points": "0",
             "btts": {
-                "Yes": "0%"
+                "Yes": "100%"
             },
             "cards": {
                 "over_3_5": "0%",
@@ -672,13 +672,13 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "3"
+                "average": "8"
             },
             "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
+                "1.5": "100%",
+                "2.5": "100%",
                 "3.5": "0%"
             }
         }
     ]
-,"last_updated":"2025-08-24T23:26:30Z"}
+}

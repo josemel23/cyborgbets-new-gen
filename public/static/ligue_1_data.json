@@ -1,7 +1,84 @@
 {
     "teams": [
         {
+            "team": "Lyon",
+            "position": "1",
+            "matches_played": "2",
+            "wins": "2",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "4",
+            "goals_against": "0",
+            "goal_difference": "+4",
+            "points": "6",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "50%",
+                "over_4_5": "50%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "50%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
+                "13.5": "50%",
+                "average": "13.5"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "50%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "PSG",
+            "position": "2",
+            "matches_played": "2",
+            "wins": "2",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "2",
+            "goals_against": "0",
+            "goal_difference": "+2",
+            "points": "6",
+            "btts": {
+                "Yes": "0%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "100%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10.5"
+            },
+            "goals": {
+                "1.5": "0%",
+                "2.5": "0%",
+                "3.5": "0%"
+            }
+        },
+        {
             "team": "Monaco",
+            "position": "3",
+            "matches_played": "1",
+            "wins": "1",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "3",
+            "goals_against": "1",
+            "goal_difference": "+2",
+            "points": "3",
             "btts": {
                 "Yes": "100%"
             },
@@ -26,14 +103,57 @@
             }
         },
         {
-            "team": "Lyon",
+            "team": "Olympique Marseille",
+            "position": "4",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "5",
+            "goals_against": "3",
+            "goal_difference": "+2",
+            "points": "3",
+            "btts": {
+                "Yes": "50%"
+            },
+            "cards": {
+                "over_3_5": "50%",
+                "over_4_5": "50%",
+                "over_5_5": "50%"
+            },
+            "corners": {
+                "8.5": "50%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
+                "13.5": "0%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "50%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "Rennes",
+            "position": "5",
+            "matches_played": "1",
+            "wins": "1",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "1",
+            "goals_against": "0",
+            "goal_difference": "+1",
+            "points": "3",
             "btts": {
                 "Yes": "0%"
             },
             "cards": {
                 "over_3_5": "100%",
                 "over_4_5": "100%",
-                "over_5_5": "0%"
+                "over_5_5": "100%"
             },
             "corners": {
                 "8.5": "100%",
@@ -41,33 +161,8 @@
                 "10.5": "100%",
                 "11.5": "100%",
                 "12.5": "100%",
-                "13.5": "100%",
-                "average": "20"
-            },
-            "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "PSG",
-            "btts": {
-                "Yes": "0%"
-            },
-            "cards": {
-                "over_3_5": "0%",
-                "over_4_5": "0%",
-                "over_5_5": "0%"
-            },
-            "corners": {
-                "8.5": "100%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
                 "13.5": "0%",
-                "average": "9"
+                "average": "13"
             },
             "goals": {
                 "1.5": "0%",
@@ -76,7 +171,16 @@
             }
         },
         {
-            "team": "Metz",
+            "team": "Strasbourg",
+            "position": "6",
+            "matches_played": "1",
+            "wins": "1",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "1",
+            "goals_against": "0",
+            "goal_difference": "+1",
+            "points": "3",
             "btts": {
                 "Yes": "0%"
             },
@@ -102,6 +206,15 @@
         },
         {
             "team": "Toulouse",
+            "position": "7",
+            "matches_played": "1",
+            "wins": "1",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "1",
+            "goals_against": "0",
+            "goal_difference": "+1",
+            "points": "3",
             "btts": {
                 "Yes": "0%"
             },
@@ -126,23 +239,66 @@
             }
         },
         {
-            "team": "Nantes",
+            "team": "Nice",
+            "position": "8",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "3",
+            "goals_against": "2",
+            "goal_difference": "+1",
+            "points": "3",
+            "btts": {
+                "Yes": "50%"
+            },
+            "cards": {
+                "over_3_5": "100%",
+                "over_4_5": "100%",
+                "over_5_5": "50%"
+            },
+            "corners": {
+                "8.5": "100%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
+                "13.5": "0%",
+                "average": "11"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "50%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "Angers",
+            "position": "9",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "1",
+            "goals_against": "1",
+            "goal_difference": "0",
+            "points": "3",
             "btts": {
                 "Yes": "0%"
             },
             "cards": {
-                "over_3_5": "0%",
-                "over_4_5": "0%",
+                "over_3_5": "50%",
+                "over_4_5": "50%",
                 "over_5_5": "0%"
             },
             "corners": {
                 "8.5": "100%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
+                "9.5": "100%",
+                "10.5": "50%",
+                "11.5": "50%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "9"
+                "average": "11"
             },
             "goals": {
                 "1.5": "0%",
@@ -151,7 +307,50 @@
             }
         },
         {
-            "team": "Lille",
+            "team": "Auxerre",
+            "position": "10",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "2",
+            "goals_against": "3",
+            "goal_difference": "-1",
+            "points": "3",
+            "btts": {
+                "Yes": "50%"
+            },
+            "cards": {
+                "over_3_5": "100%",
+                "over_4_5": "100%",
+                "over_5_5": "50%"
+            },
+            "corners": {
+                "8.5": "50%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "8.5"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "50%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "Brest",
+            "position": "11",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "1",
+            "losses": "0",
+            "goals_for": "3",
+            "goals_against": "3",
+            "goal_difference": "0",
+            "points": "1",
             "btts": {
                 "Yes": "100%"
             },
@@ -176,113 +375,22 @@
             }
         },
         {
-            "team": "Rennes",
+            "team": "Lille",
+            "position": "12",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "1",
+            "losses": "0",
+            "goals_for": "3",
+            "goals_against": "3",
+            "goal_difference": "0",
+            "points": "1",
             "btts": {
-                "Yes": "0%"
+                "Yes": "100%"
             },
             "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
-                "over_5_5": "100%"
-            },
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "100%",
-                "12.5": "100%",
-                "13.5": "0%",
-                "average": "13"
-            },
-            "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Olympique Marseille",
-            "btts": {
-                "Yes": "0%"
-            },
-            "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
-                "over_5_5": "100%"
-            },
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "100%",
-                "12.5": "100%",
-                "13.5": "0%",
-                "average": "13"
-            },
-            "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Angers",
-            "btts": {
-                "Yes": "0%"
-            },
-            "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
-                "over_5_5": "0%"
-            },
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Nice",
-            "btts": {
-                "Yes": "0%"
-            },
-            "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
-                "over_5_5": "0%"
-            },
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "100%",
-                "12.5": "100%",
-                "13.5": "0%",
-                "average": "13"
-            },
-            "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Lorient",
-            "btts": {
-                "Yes": "0%"
-            },
-            "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
+                "over_3_5": "0%",
+                "over_4_5": "0%",
                 "over_5_5": "0%"
             },
             "corners": {
@@ -292,16 +400,25 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "8"
+                "average": "4"
             },
             "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
+                "1.5": "100%",
+                "2.5": "100%",
                 "3.5": "0%"
             }
         },
         {
             "team": "Lens",
+            "position": "13",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "0",
+            "goals_against": "1",
+            "goal_difference": "-1",
+            "points": "0",
             "btts": {
                 "Yes": "0%"
             },
@@ -326,7 +443,16 @@
             }
         },
         {
-            "team": "Auxerre",
+            "team": "Lorient",
+            "position": "14",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "0",
+            "goals_against": "1",
+            "goal_difference": "-1",
+            "points": "0",
             "btts": {
                 "Yes": "0%"
             },
@@ -351,23 +477,32 @@
             }
         },
         {
-            "team": "Strasbourg",
+            "team": "Nantes",
+            "position": "15",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "0",
+            "goals_against": "1",
+            "goal_difference": "-1",
+            "points": "0",
             "btts": {
                 "Yes": "0%"
             },
             "cards": {
-                "over_3_5": "100%",
+                "over_3_5": "0%",
                 "over_4_5": "0%",
                 "over_5_5": "0%"
             },
             "corners": {
-                "8.5": "0%",
+                "8.5": "100%",
                 "9.5": "0%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "6"
+                "average": "9"
             },
             "goals": {
                 "1.5": "0%",
@@ -376,32 +511,16 @@
             }
         },
         {
-            "team": "Brest",
-            "btts": {
-                "Yes": "100%"
-            },
-            "cards": {
-                "over_3_5": "0%",
-                "over_4_5": "0%",
-                "over_5_5": "0%"
-            },
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "4"
-            },
-            "goals": {
-                "1.5": "100%",
-                "2.5": "100%",
-                "3.5": "0%"
-            }
-        },
-        {
             "team": "Le Havre",
+            "position": "16",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "1",
+            "goals_against": "3",
+            "goal_difference": "-2",
+            "points": "0",
             "btts": {
                 "Yes": "100%"
             },
@@ -426,29 +545,72 @@
             }
         },
         {
-            "team": "Paris",
+            "team": "Metz",
+            "position": "17",
+            "matches_played": "2",
+            "wins": "0",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "0",
+            "goals_against": "4",
+            "goal_difference": "-4",
+            "points": "0",
             "btts": {
                 "Yes": "0%"
             },
             "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
+                "over_3_5": "50%",
+                "over_4_5": "0%",
                 "over_5_5": "0%"
             },
             "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
+                "8.5": "0%",
+                "9.5": "0%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "10"
+                "average": "6.5"
             },
             "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
+                "1.5": "100%",
+                "2.5": "50%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "Paris",
+            "position": "18",
+            "matches_played": "2",
+            "wins": "0",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "2",
+            "goals_against": "6",
+            "goal_difference": "-4",
+            "points": "0",
+            "btts": {
+                "Yes": "50%"
+            },
+            "cards": {
+                "over_3_5": "50%",
+                "over_4_5": "50%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "50%",
+                "9.5": "50%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "8.5"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "50%",
                 "3.5": "0%"
             }
         }
     ]
-}
+,"last_updated":"2025-08-24T22:16:36Z"}
