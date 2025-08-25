@@ -374,10 +374,10 @@ function mostrarEscaneoSeguridad() {
     scanner.innerHTML = `
       <div style="text-align: center; margin-bottom: 30px;">
         <div style="font-size: 2rem; margin-bottom: 10px; animation: glow 2s infinite;">
-          🔍 SECURITY SCANNER v2.4.7
+          🔍 ADVANCED FIREWALL v3.1.9
         </div>
         <div style="font-size: 0.9rem; color: #88ff88; margin-bottom: 20px;">
-          Verificando integridad del sistema y detectando amenazas...
+          Inicializando defensas perimetrales y analizando vulnerabilidades...
         </div>
         <div style="
           width: 100%; 
@@ -395,7 +395,7 @@ function mostrarEscaneoSeguridad() {
           "></div>
         </div>
         <div id="statusText" style="font-size: 1rem; margin-bottom: 20px; color: #ffff00;">
-          Iniciando protocolo de seguridad...
+          Activando módulos de protección avanzada...
         </div>
       </div>
       
@@ -416,7 +416,7 @@ function mostrarEscaneoSeguridad() {
       
       <div id="finalActions" style="text-align: center; margin-top: 20px; display: none;">
         <div style="color: #00ff00; font-weight: bold; margin-bottom: 15px;">
-          ✅ VERIFICACIÓN COMPLETADA - ACCESO AUTORIZADO
+          ✅ SISTEMA BLINDADO - ACCESO ESTABLECIDO
         </div>
         <button id="continuarApp" style="
           background: linear-gradient(135deg, #00aa00, #008800);
@@ -492,103 +492,101 @@ function mostrarEscaneoSeguridad() {
     // Función para simular el escaneo
     async function ejecutarEscaneo() {
       const etapas = [
-        {
-          nombre: "Verificando integridad del sistema...",
-          progreso: 15,
-          tiempo: 800,
-          acciones: () => {
-            agregarLog("Iniciando verificación de integridad del sistema...", 'info');
-            agregarLog("Escaneando archivos críticos...", 'info');
-            agregarLog("Verificando firmas digitales...", 'info');
-            setTimeout(() => {
-              agregarLog("✅ Integridad del sistema: VERIFICADA", 'success');
-            }, 600);
-          }
-        },
-        {
-          nombre: "Analizando tráfico de red...",
-          progreso: 35,
-          tiempo: 1000,
-          acciones: () => {
-            agregarLog("Monitoreando conexiones activas...", 'info');
-            for(let i = 0; i < 3; i++) {
-              setTimeout(() => {
-                agregarLog(`Conexión detectada: ${obtenerAleatorio(DATOS_SIMULADOS.ips)} - ANALIZANDO`, 'warning');
-              }, i * 200);
-            }
-            setTimeout(() => {
-              agregarLog("✅ Todas las conexiones verificadas - SEGURAS", 'success');
-            }, 700);
-          }
-        },
-        {
-          nombre: "Identificando dispositivos autorizados...",
-          progreso: 55,
-          tiempo: 1200,
-          acciones: () => {
-            agregarLog("Escaneando dispositivos en la red...", 'info');
-            for(let i = 0; i < 4; i++) {
-              setTimeout(() => {
-                agregarLog(`Dispositivo: ${obtenerAleatorio(DATOS_SIMULADOS.dispositivos)}`, 'info');
-              }, i * 250);
-            }
-            setTimeout(() => {
-              agregarLog("✅ Todos los dispositivos autorizados", 'success');
-            }, 1000);
-          }
-        },
-        {
-          nombre: "Validando códigos de acceso...",
-          progreso: 75,
-          tiempo: 900,
-          acciones: () => {
-            agregarLog("Verificando base de datos de códigos...", 'info');
-            for(let i = 0; i < 3; i++) {
-              setTimeout(() => {
-                agregarLog(`Código verificado: ${obtenerAleatorio(DATOS_SIMULADOS.codigos)} - VÁLIDO`, 'success');
-              }, i * 200);
-            }
-            setTimeout(() => {
-              agregarLog("✅ Todos los códigos validados correctamente", 'success');
-            }, 700);
-          }
-        },
-        {
-          nombre: "Ejecutando análisis de amenazas...",
-          progreso: 90,
-          tiempo: 1100,
-          acciones: () => {
-            agregarLog("Iniciando escaneo profundo de amenazas...", 'info');
-            for(let i = 0; i < 2; i++) {
-              setTimeout(() => {
-                agregarLog(`⚠️  Amenaza detectada: ${obtenerAleatorio(DATOS_SIMULADOS.vulnerabilidades)}`, 'error');
-              }, i * 300);
-              setTimeout(() => {
-                agregarLog(`🛡️  Amenaza neutralizada automáticamente`, 'success');
-              }, (i * 300) + 200);
-            }
-            setTimeout(() => {
-              agregarLog("✅ Sistema protegido - Sin amenazas activas", 'success');
-            }, 800);
-          }
-        },
-        {
-          nombre: "Finalizando protocolo de seguridad...",
-          progreso: 100,
-          tiempo: 700,
-          acciones: () => {
-            agregarLog("Compilando reporte de seguridad...", 'info');
-            setTimeout(() => {
-              agregarLog("=== REPORTE DE SEGURIDAD COMPLETADO ===", 'success');
-              agregarLog("✅ Sistema: SEGURO", 'success');
-              agregarLog("✅ Red: PROTEGIDA", 'success');
-              agregarLog("✅ Códigos: VÁLIDOS", 'success');
-              agregarLog("✅ Amenazas: NEUTRALIZADAS", 'success');
-              agregarLog("🚀 Acceso autorizado - Listo para usar", 'success');
-            }, 300);
-          }
-        }
-      ];
+  {
+    nombre: "Inicializando módulos de defensa...",
+    progreso: 18,
+    tiempo: 600,
+    acciones: () => {
+      agregarLog("Cargando módulos de protección avanzada...", 'info');
+      agregarLog("Activando escudos perimetrales...", 'info');
+      agregarLog("Configurando filtros de contenido...", 'info');
+      setTimeout(() => {
+        agregarLog("✅ Módulos de defensa: OPERATIVOS", 'success');
+      }, 650);
+    }
+  },
+  {
+    nombre: "Auditando conexiones entrantes...",
+    progreso: 40,
+    tiempo: 800,
+    acciones: () => {
+      agregarLog("Monitoreando puertos de acceso...", 'info');
+      for(let i = 0; i < 4; i++) {
+        setTimeout(() => {
+          agregarLog(`Puerto ${27000 + Math.floor(Math.random() * 1000)}: ${obtenerAleatorio(DATOS_SIMULADOS.ips)} - AUDITANDO`, 'warning');
+        }, i * 220);
+      }
+      setTimeout(() => {
+        agregarLog("✅ Todas las conexiones auditadas - AUTORIZADAS", 'success');
+      }, 850);
+    }
+  },
+  {
+    nombre: "Validando certificados digitales...",
+    progreso: 62,
+    tiempo: 700,
+    acciones: () => {
+      agregarLog("Verificando cadena de confianza SSL/TLS...", 'info');
+      for(let i = 0; i < 3; i++) {
+        setTimeout(() => {
+          agregarLog(`Certificado #${i + 1}: SHA-256 ${obtenerAleatorio(DATOS_SIMULADOS.codigos)} - VÁLIDO`, 'info');
+        }, i * 280);
+      }
+      setTimeout(() => {
+        agregarLog("✅ Certificados verificados y confiables", 'success');
+      }, 800);
+    }
+  },
+  {
+    nombre: "Ejecutando análisis heurístico...",
+    progreso: 78,
+    tiempo: 800,
+    acciones: () => {
+      agregarLog("Procesando patrones de comportamiento...", 'info');
+      agregarLog("Analizando entropía de datos...", 'info');
+      for(let i = 0; i < 2; i++) {
+        setTimeout(() => {
+          agregarLog(`Patrón sospechoso detectado: ${obtenerAleatorio(DATOS_SIMULADOS.vulnerabilidades)}`, 'error');
+        }, i * 400);
+        setTimeout(() => {
+          agregarLog(`🔒 Patrón bloqueado por IA defensiva`, 'success');
+        }, (i * 400) + 250);
+      }
+      setTimeout(() => {
+        agregarLog("✅ Análisis heurístico completado", 'success');
+      }, 950);
+    }
+  },
+  {
+    nombre: "Sincronizando base de datos global...",
+    progreso: 94,
+    tiempo: 500,
+    acciones: () => {
+      agregarLog("Conectando con centros de inteligencia...", 'info');
+      agregarLog("Descargando definiciones actualizadas...", 'info');
+      setTimeout(() => {
+        agregarLog(`Sincronización completa: ${Math.floor(Math.random() * 50000 + 150000)} definiciones`, 'info');
+        agregarLog("✅ Base de datos actualizada", 'success');
+      }, 500);
+    }
+  },
+  {
+    nombre: "Generando reporte de seguridad...",
+    progreso: 100,
+    tiempo: 400,
+    acciones: () => {
+      agregarLog("Compilando métricas de protección...", 'info');
+      setTimeout(() => {
+        agregarLog("=== REPORTE DE SEGURIDAD GENERADO ===", 'success');
+        agregarLog("✅ Firewall: ACTIVO", 'success');
+        agregarLog("✅ Protección: MÁXIMA", 'success');
+        agregarLog("✅ Amenazas: NEUTRALIZADAS", 'success');
+        agregarLog("✅ Sistema: BLINDADO", 'success');
+        agregarLog("🚀 Acceso seguro establecido", 'success');
+      }, 250);
+    }
+  }
+];
 
       for (const etapa of etapas) {
         statusText.textContent = etapa.nombre;
@@ -634,14 +632,14 @@ function mostrarEscaneoSeguridad() {
     });
 
     // Iniciar el escaneo después de un pequeño delay
-    setTimeout(ejecutarEscaneo, 1000);
+    setTimeout(ejecutarEscaneo, 500);
 
     // Auto-continuar después de 12 segundos en la pantalla final
     setTimeout(() => {
       if (finalActions.style.display === 'block' && document.body.contains(overlay)) {
         document.getElementById('continuarApp').click();
       }
-    }, 12000);
+    }, 8000);
   });
 }
 
@@ -1235,7 +1233,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // ESCANEO OBLIGATORIO - Se ejecuta SIEMPRE
   await mostrarEscaneoSeguridad();
   
-  console.log('✅ Escaneo de seguridad completado');
+  console.log('✅ Firewall configurado correctamente');
   
   // Continuar con la inicialización normal
   limpiarSeccionesObsoletas();
