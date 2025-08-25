@@ -46,6 +46,7 @@ on:
           - liga_hypermotion
           - liga_mx
           - mls
+          - nba
           - noruega
           - portugal
           - portugal_2
@@ -84,8 +85,14 @@ jobs:
           pip install undetected-chromedriver selenium pandas requests beautifulsoup4
       - name: Run scraper
         run: |
-          cd "scraper/${{ inputs.liga }}"
-          timeout 600 python3 "${{ inputs.liga }}_standings.py"
+          if [ "${{ inputs.liga }}" = "nba" ]; then
+            echo "🏀 Ejecutando scraper NBA desde raíz..."
+            timeout 600 python3 nba.py
+          else
+            echo "⚽ Ejecutando scraper de fútbol..."
+            cd "scraper/${{ inputs.liga }}"
+            timeout 600 python3 "${{ inputs.liga }}_standings.py"
+          fi
       - name: Move files to correct location
         run: |
           echo "📁 Moviendo archivos a la ubicación correcta..."
@@ -188,6 +195,9 @@ jobs:
             "mls")
               FILE_NAME="mls_usa_data.json"
               ;;
+            "nba")
+              FILE_NAME="nba_data.json"
+              ;;
             "australia")
               FILE_NAME="a_league_australia_data.json"
               ;;
@@ -219,38 +229,54 @@ jobs:
           
           echo "Buscando archivo: $FILE_NAME"
           
-          # Buscar archivo específico generado
-          if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
-            echo "✅ ENCONTRADO en scraper/${{ inputs.liga }}/public/static/$FILE_NAME"
-            echo "📋 Tamaño del archivo origen: $(ls -lh scraper/${{ inputs.liga }}/public/static/$FILE_NAME)"
-            cp "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" "public/static/"
-            echo "📋 Archivo copiado a: public/static/$FILE_NAME"
-            echo "📋 Tamaño del archivo destino: $(ls -lh public/static/$FILE_NAME)"
-          elif [ -f "scraper/${{ inputs.liga }}/$FILE_NAME" ]; then
-            echo "✅ ENCONTRADO en scraper/${{ inputs.liga }}/$FILE_NAME"
-            echo "📋 Tamaño del archivo origen: $(ls -lh scraper/${{ inputs.liga }}/$FILE_NAME)"
-            cp "scraper/${{ inputs.liga }}/$FILE_NAME" "public/static/"
-            echo "📋 Archivo copiado a: public/static/$FILE_NAME"
-            echo "📋 Tamaño del archivo destino: $(ls -lh public/static/$FILE_NAME)"
+          # Lógica especial para NBA (archivo en raíz)
+          if [ "${{ inputs.liga }}" = "nba" ]; then
+            if [ -f "$FILE_NAME" ]; then
+              echo "✅ NBA: ENCONTRADO en raíz: $FILE_NAME"
+              cp "$FILE_NAME" "public/static/"
+              echo "📋 NBA: Archivo copiado a public/static/$FILE_NAME"
+            elif [ -f "public/static/$FILE_NAME" ]; then
+              echo "✅ NBA: Ya existe en public/static/$FILE_NAME"
+            else
+              echo "❌ NBA: NO se encontró $FILE_NAME en la raíz"
+              echo "🔍 Listando archivos JSON en raíz:"
+              ls -la *.json 2>/dev/null || echo "No hay archivos JSON en raíz"
+            fi
           else
-            echo "❌ NO se encontró $FILE_NAME en ninguna ubicación esperada"
-            echo "🔍 Listando todo el contenido de scraper/${{ inputs.liga }}:"
-            find "scraper/${{ inputs.liga }}" -type f -name "*.json" -exec ls -lh {} \;
-          fi
-          
-          # Buscar otros archivos JSON en la carpeta del scraper como fallback
-          echo "🔄 Buscando otros archivos JSON como fallback..."
-          JSON_COUNT=$(find "scraper/${{ inputs.liga }}/" -name "*.json" | wc -l)
-          echo "📊 Total de archivos JSON encontrados: $JSON_COUNT"
-          
-          if [ $JSON_COUNT -gt 0 ]; then
-            echo "📁 Listando archivos JSON encontrados:"
-            find "scraper/${{ inputs.liga }}/" -name "*.json" -exec ls -lh {} \;
-            echo "📋 Copiando todos los JSON a public/static/..."
-            find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
-            echo "✅ Archivos JSON copiados"
-          else
-            echo "❌ NO se encontraron archivos JSON en scraper/${{ inputs.liga }}/"
+            # Lógica existente para otras ligas
+            # Buscar archivo específico generado
+            if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
+              echo "✅ ENCONTRADO en scraper/${{ inputs.liga }}/public/static/$FILE_NAME"
+              echo "📋 Tamaño del archivo origen: $(ls -lh scraper/${{ inputs.liga }}/public/static/$FILE_NAME)"
+              cp "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" "public/static/"
+              echo "📋 Archivo copiado a: public/static/$FILE_NAME"
+              echo "📋 Tamaño del archivo destino: $(ls -lh public/static/$FILE_NAME)"
+            elif [ -f "scraper/${{ inputs.liga }}/$FILE_NAME" ]; then
+              echo "✅ ENCONTRADO en scraper/${{ inputs.liga }}/$FILE_NAME"
+              echo "📋 Tamaño del archivo origen: $(ls -lh scraper/${{ inputs.liga }}/$FILE_NAME)"
+              cp "scraper/${{ inputs.liga }}/$FILE_NAME" "public/static/"
+              echo "📋 Archivo copiado a: public/static/$FILE_NAME"
+              echo "📋 Tamaño del archivo destino: $(ls -lh public/static/$FILE_NAME)"
+            else
+              echo "❌ NO se encontró $FILE_NAME en ninguna ubicación esperada"
+              echo "🔍 Listando todo el contenido de scraper/${{ inputs.liga }}:"
+              find "scraper/${{ inputs.liga }}" -type f -name "*.json" -exec ls -lh {} \;
+            fi
+            
+            # Buscar otros archivos JSON en la carpeta del scraper como fallback
+            echo "🔄 Buscando otros archivos JSON como fallback..."
+            JSON_COUNT=$(find "scraper/${{ inputs.liga }}/" -name "*.json" | wc -l)
+            echo "📊 Total de archivos JSON encontrados: $JSON_COUNT"
+            
+            if [ $JSON_COUNT -gt 0 ]; then
+              echo "📁 Listando archivos JSON encontrados:"
+              find "scraper/${{ inputs.liga }}/" -name "*.json" -exec ls -lh {} \;
+              echo "📋 Copiando todos los JSON a public/static/..."
+              find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
+              echo "✅ Archivos JSON copiados"
+            else
+              echo "❌ NO se encontraron archivos JSON en scraper/${{ inputs.liga }}/"
+            fi
           fi
           
           # DESPUÉS de copiar, modificar el JSON para forzar cambios
