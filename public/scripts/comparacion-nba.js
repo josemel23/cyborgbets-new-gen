@@ -55,13 +55,13 @@ class NBAStandingsManager {
     async loadStandings() {
         // Array de posibles rutas para buscar el archivo JSON
         const possiblePaths = [
-            './public/static/nba_standings.json',
+            '/public/static/nba_standings.json',
             'public/static/nba_standings.json',
-            './static/nba_standings.json',
+            '/static/nba_standings.json',
             'static/nba_standings.json',
-            './nba_standings.json',
+            '/nba_standings.json',
             'nba_standings.json',
-            './data/nba_standings.json',
+            '/data/nba_standings.json',
             'data/nba_standings.json'
         ];
 
