@@ -312,7 +312,17 @@ jobs:
           fi
           
           # DESPUÉS de copiar, modificar el JSON para forzar cambios
-          if [ -f "public/static/$FILE_NAME" ]; then
+          if [ "${{ inputs.liga }}" = "nba" ]; then
+            # Para NBA, procesar múltiples archivos
+            echo "🔧 NBA: Agregando metadata de actualización a archivos múltiples..."
+            for nba_file in "nba_standings.json" "nba_player_stats.json" "nba_games.json"; do
+              if [ -f "public/static/$nba_file" ]; then
+                # Agregar timestamp al final del JSON (antes del último })
+                sed -i '$ s/}/,"last_updated":"'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}/' "public/static/$nba_file"
+                echo "✅ NBA: Metadata agregada a $nba_file"
+              fi
+            done
+          elif [ -f "public/static/$FILE_NAME" ]; then
             echo "🔧 Agregando metadata de actualización al JSON..."
             # Agregar timestamp al final del JSON (antes del último })
             sed -i '$ s/}/,"last_updated":"'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}/' "public/static/$FILE_NAME"
