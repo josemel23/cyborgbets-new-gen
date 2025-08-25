@@ -82,7 +82,7 @@ jobs:
           echo "DISPLAY=:99" >> $GITHUB_ENV
       - name: Install Python deps
         run: |
-          pip install undetected-chromedriver selenium pandas requests beautifulsoup4
+          pip install undetected-chromedriver selenium pandas requests beautifulsoup4 webdriver_manager
       - name: Run scraper
         run: |
           if [ "${{ inputs.liga }}" = "nba" ]; then
