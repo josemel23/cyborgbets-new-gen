@@ -87,7 +87,15 @@ jobs:
         run: |
           if [ "${{ inputs.liga }}" = "nba" ]; then
             echo "🏀 Ejecutando scraper NBA desde raíz..."
-            timeout 600 python3 nba.py
+            echo "📂 Archivos ANTES de ejecutar nba.py:"
+            ls -la *.json 2>/dev/null || echo "No hay archivos JSON antes"
+            echo "📁 Directorio actual: $(pwd)"
+            echo "🐍 Ejecutando nba.py con output completo..."
+            python3 nba.py 2>&1 || echo "❌ Error en nba.py - código: $?"
+            echo "📂 Archivos DESPUÉS de ejecutar nba.py:"
+            ls -la *.json 2>/dev/null || echo "No hay archivos JSON después"
+            echo "📁 Listando TODOS los archivos generados:"
+            find . -name "*.json" -newer nba.py 2>/dev/null || echo "No se encontraron JSONs nuevos"
           else
             echo "⚽ Ejecutando scraper de fútbol..."
             cd "scraper/${{ inputs.liga }}"
@@ -196,7 +204,7 @@ jobs:
               FILE_NAME="mls_usa_data.json"
               ;;
             "nba")
-              FILE_NAME="nba_data.json"
+              echo "🏀 NBA genera múltiples archivos - no usa FILE_NAME único"
               ;;
             "australia")
               FILE_NAME="a_league_australia_data.json"
@@ -229,19 +237,43 @@ jobs:
           
           echo "Buscando archivo: $FILE_NAME"
           
-          # Lógica especial para NBA (archivo en raíz)
+          # Lógica especial para NBA (múltiples archivos JSON)
           if [ "${{ inputs.liga }}" = "nba" ]; then
-            if [ -f "$FILE_NAME" ]; then
-              echo "✅ NBA: ENCONTRADO en raíz: $FILE_NAME"
-              cp "$FILE_NAME" "public/static/"
-              echo "📋 NBA: Archivo copiado a public/static/$FILE_NAME"
-            elif [ -f "public/static/$FILE_NAME" ]; then
-              echo "✅ NBA: Ya existe en public/static/$FILE_NAME"
-            else
-              echo "❌ NBA: NO se encontró $FILE_NAME en la raíz"
-              echo "🔍 Listando archivos JSON en raíz:"
-              ls -la *.json 2>/dev/null || echo "No hay archivos JSON en raíz"
+            echo "🏀 NBA: Verificando archivos múltiples (standings, player_stats, games)"
+            
+            # Verificar si ya están en public/static/
+            NBA_FILES_FOUND=0
+            for nba_file in "nba_standings.json" "nba_player_stats.json" "nba_games.json"; do
+              if [ -f "public/static/$nba_file" ]; then
+                echo "✅ NBA: ENCONTRADO public/static/$nba_file"
+                ls -lh "public/static/$nba_file"
+                NBA_FILES_FOUND=$((NBA_FILES_FOUND + 1))
+              else
+                echo "❌ NBA: NO encontrado public/static/$nba_file"
+              fi
+            done
+            
+            echo "📊 NBA: Total archivos encontrados en public/static/: $NBA_FILES_FOUND/3"
+            
+            # Si no están todos, buscar en raíz y copiar
+            if [ $NBA_FILES_FOUND -lt 3 ]; then
+              echo "🔄 NBA: Buscando archivos faltantes en raíz..."
+              for nba_file in "nba_standings.json" "nba_player_stats.json" "nba_games.json"; do
+                if [ -f "$nba_file" ] && [ ! -f "public/static/$nba_file" ]; then
+                  echo "📋 NBA: Copiando $nba_file desde raíz a public/static/"
+                  cp "$nba_file" "public/static/"
+                  echo "✅ NBA: Copiado $nba_file"
+                elif [ -f "$nba_file" ]; then
+                  echo "ℹ️ NBA: $nba_file ya existe en ambos lugares"
+                else
+                  echo "⚠️ NBA: $nba_file no encontrado en raíz"
+                fi
+              done
             fi
+            
+            # Verificar estado final
+            echo "📂 NBA: Estado final en public/static/:"
+            ls -la public/static/nba_*.json 2>/dev/null || echo "No hay archivos NBA en public/static/"
           else
             # Lógica existente para otras ligas
             # Buscar archivo específico generado
