@@ -374,7 +374,7 @@ function mostrarEscaneoSeguridad() {
     scanner.innerHTML = `
       <div style="text-align: center; margin-bottom: 30px;">
         <div style="font-size: 2rem; margin-bottom: 10px; animation: glow 2s infinite;">
-          🔍 ADVANCED FIREWALL v3.1.9
+          🔍 SCANNER v3.1.9
         </div>
         <div style="font-size: 0.9rem; color: #88ff88; margin-bottom: 20px;">
           Inicializando defensas perimetrales y analizando vulnerabilidades...
