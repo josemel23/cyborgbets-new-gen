@@ -374,10 +374,10 @@ function mostrarEscaneoSeguridad() {
     scanner.innerHTML = `
       <div style="text-align: center; margin-bottom: 30px;">
         <div style="font-size: 2rem; margin-bottom: 10px; animation: glow 2s infinite;">
-          🔍 SCANNER v3.1.9
+          🔍 SCANNER
         </div>
         <div style="font-size: 0.9rem; color: #88ff88; margin-bottom: 20px;">
-          Inicializando defensas perimetrales y analizando vulnerabilidades...
+         Inicializando Escaneo...
         </div>
         <div style="
           width: 100%; 
@@ -699,8 +699,6 @@ function mostrarTerminosCondiciones() {
   <strong>⚠️ AVISO IMPORTANTE:</strong> Esta aplicación está prohibida para menores de 18 años.
 </p>
 
-
-</p>
       </div>
       
       <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
