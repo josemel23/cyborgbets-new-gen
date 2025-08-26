@@ -495,7 +495,7 @@ function mostrarEscaneoSeguridad() {
   {
     nombre: "Inicializando módulos de defensa...",
     progreso: 18,
-    tiempo: 600,
+    tiempo: 300,
     acciones: () => {
       agregarLog("Cargando módulos de protección avanzada...", 'info');
       agregarLog("Activando escudos perimetrales...", 'info');
@@ -508,7 +508,7 @@ function mostrarEscaneoSeguridad() {
   {
     nombre: "Auditando conexiones entrantes...",
     progreso: 40,
-    tiempo: 800,
+    tiempo: 400,
     acciones: () => {
       agregarLog("Monitoreando puertos de acceso...", 'info');
       for(let i = 0; i < 4; i++) {
@@ -524,7 +524,7 @@ function mostrarEscaneoSeguridad() {
   {
     nombre: "Validando certificados digitales...",
     progreso: 62,
-    tiempo: 700,
+    tiempo: 350,
     acciones: () => {
       agregarLog("Verificando cadena de confianza SSL/TLS...", 'info');
       for(let i = 0; i < 3; i++) {
@@ -540,7 +540,7 @@ function mostrarEscaneoSeguridad() {
   {
     nombre: "Ejecutando análisis heurístico...",
     progreso: 78,
-    tiempo: 800,
+    tiempo: 400,
     acciones: () => {
       agregarLog("Procesando patrones de comportamiento...", 'info');
       agregarLog("Analizando entropía de datos...", 'info');
@@ -560,7 +560,7 @@ function mostrarEscaneoSeguridad() {
   {
     nombre: "Sincronizando base de datos global...",
     progreso: 94,
-    tiempo: 500,
+    tiempo: 250,
     acciones: () => {
       agregarLog("Conectando con centros de inteligencia...", 'info');
       agregarLog("Descargando definiciones actualizadas...", 'info');
@@ -573,7 +573,7 @@ function mostrarEscaneoSeguridad() {
   {
     nombre: "Generando reporte de seguridad...",
     progreso: 100,
-    tiempo: 400,
+    tiempo: 200,
     acciones: () => {
       agregarLog("Compilando métricas de protección...", 'info');
       setTimeout(() => {
@@ -639,7 +639,118 @@ function mostrarEscaneoSeguridad() {
       if (finalActions.style.display === 'block' && document.body.contains(overlay)) {
         document.getElementById('continuarApp').click();
       }
-    }, 8000);
+    }, 4000);
+  });
+}
+
+// Mostrar términos y condiciones
+function mostrarTerminosCondiciones() {
+  return new Promise((resolve) => {
+    const overlay = document.createElement('div');
+    overlay.style.cssText = `
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      backdrop-filter: blur(5px);
+      z-index: 15000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: fadeIn 0.3s ease-out;
+    `;
+
+    const modal = document.createElement('div');
+    modal.style.cssText = `
+      background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+      border-radius: 15px;
+      padding: 30px;
+      max-width: 600px;
+      width: 90%;
+      max-height: 80vh;
+      overflow-y: auto;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      position: relative;
+      animation: slideInScale 0.4s ease-out;
+      border: 2px solid #007bff;
+    `;
+
+    modal.innerHTML = `
+      <div style="text-align: center; margin-bottom: 25px;">
+        <div style="font-size: 3rem; margin-bottom: 15px;"></div>
+        <h2 style="color: #2c3e50; margin: 0; font-size: 1.8rem; font-weight: 700;">
+          Términos y Condiciones 
+        </h2>
+      </div>
+      
+      <div style="color: #495057; line-height: 1.6; font-size: 0.95rem; margin-bottom: 25px;">
+       <p><strong>Al acceder a esta aplicación, usted acepta los siguientes términos:</strong></p>
+
+<p>• <strong>Prevención de Ludopatía:</strong> Esta aplicación es solo para entretenimiento. Si sientes que tienes problemas con el juego, busca ayuda profesional.</p>
+
+<p>• <strong>Uso Responsable:</strong> Las predicciones y análisis deportivos son solo orientativos y no garantizan resultados.</p>
+
+<p>• <strong>Advertencia:</strong> El juego puede causar adicción. Juega con responsabilidad y dentro de tus posibilidades económicas.</p>
+
+<p>• <strong>Límites:</strong> Establece límites de tiempo y dinero antes de apostar. Nunca juegues dinero que no puedes permitirte perder.</p>
+
+<p style="background: #fff3cd; padding: 15px; border-radius: 8px; border-left: 4px solid #ffc107; margin: 20px 0;">
+  <strong>⚠️ AVISO IMPORTANTE:</strong> Esta aplicación está prohibida para menores de 18 años.
+</p>
+
+<p style="margin-top: 20px; font-size: 0.9rem; color: #6c757d;">
+  <em>Última actualización: ${new Date().toLocaleDateString()}</em>
+</p>
+      </div>
+      
+      <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+        <button id="aceptarTerminos" style="
+          background: linear-gradient(135deg, #28a745, #20c997);
+          color: white;
+          border: none;
+          padding: 12px 30px;
+          border-radius: 8px;
+          font-size: 1rem;
+          font-weight: 600;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+        ">Acepto los Términos</button>
+        
+        <button id="rechazarTerminos" style="
+          background: #6c757d;
+          color: white;
+          border: none;
+          padding: 12px 30px;
+          border-radius: 8px;
+          font-size: 1rem;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        ">Rechazar</button>
+      </div>
+    `;
+
+    overlay.appendChild(modal);
+    document.body.appendChild(overlay);
+
+    const cerrar = (aceptado) => {
+      overlay.style.animation = 'fadeOut 0.3s ease-out';
+      modal.style.animation = 'slideOutScale 0.3s ease-out';
+      setTimeout(() => {
+        if (document.body.contains(overlay)) {
+          document.body.removeChild(overlay);
+        }
+        resolve(aceptado);
+      }, 300);
+    };
+
+    document.getElementById('aceptarTerminos').addEventListener('click', () => cerrar(true));
+    document.getElementById('rechazarTerminos').addEventListener('click', () => {
+      alert('Debe aceptar los términos para continuar.');
+      cerrar(false);
+    });
   });
 }
 
@@ -1232,6 +1343,16 @@ document.addEventListener('DOMContentLoaded', async () => {
   
   // ESCANEO OBLIGATORIO - Se ejecuta SIEMPRE
   await mostrarEscaneoSeguridad();
+
+  // Mostrar términos y condiciones
+  const terminosAceptados = await mostrarTerminosCondiciones();
+  if (!terminosAceptados) {
+    console.log('❌ Términos no aceptados - Cerrando aplicación');
+    document.body.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100vh; font-family: Arial; color: #6c757d;">Debe aceptar los términos para usar la aplicación.</div>';
+    return;
+  }
+  
+  console.log('✅ Términos y condiciones aceptados');
   
   console.log('✅ Firewall configurado correctamente');
   
