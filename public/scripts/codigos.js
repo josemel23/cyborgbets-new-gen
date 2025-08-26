@@ -694,14 +694,12 @@ function mostrarTerminosCondiciones() {
 
 <p>• <strong>Advertencia:</strong> El juego puede causar adicción. Juega con responsabilidad y dentro de tus posibilidades económicas.</p>
 
-<p>• <strong>Límites:</strong> Establece límites de tiempo y dinero antes de apostar. Nunca juegues dinero que no puedes permitirte perder.</p>
 
 <p style="background: #fff3cd; padding: 15px; border-radius: 8px; border-left: 4px solid #ffc107; margin: 20px 0;">
   <strong>⚠️ AVISO IMPORTANTE:</strong> Esta aplicación está prohibida para menores de 18 años.
 </p>
 
-<p style="margin-top: 20px; font-size: 0.9rem; color: #6c757d;">
-  <em>Última actualización: ${new Date().toLocaleDateString()}</em>
+
 </p>
       </div>
       
