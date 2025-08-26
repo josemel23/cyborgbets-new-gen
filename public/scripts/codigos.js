@@ -692,7 +692,7 @@ function mostrarTerminosCondiciones() {
 
 <p>• <strong>Uso Responsable:</strong> Las predicciones y análisis deportivos son solo orientativos y no garantizan resultados.</p>
 
-<p>• <strong>Advertencia:</strong> El juego puede causar adicción. Juega con responsabilidad y dentro de tus posibilidades económicas.</p>
+<p>• <strong>Advertencia:</strong> El juego puede causar adicción. Juega con responsabilidad.</p>
 
 
 <p style="background: #fff3cd; padding: 15px; border-radius: 8px; border-left: 4px solid #ffc107; margin: 20px 0;">
