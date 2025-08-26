@@ -686,11 +686,11 @@ function mostrarTerminosCondiciones() {
       </div>
       
       <div style="color: #495057; line-height: 1.6; font-size: 0.95rem; margin-bottom: 25px;">
-       <p><strong>Al acceder a esta aplicación, usted acepta los siguientes términos:</strong></p>
+       <p><strong>Usted acepta los siguientes términos:</strong></p>
 
 <p>• <strong>Prevención de Ludopatía:</strong> Esta aplicación es solo para entretenimiento.</p>
 
-<p>• <strong>Uso Responsable:</strong> Las predicciones y análisis deportivos son solo orientativos y no garantizan resultados.</p>
+<p>• <strong>Uso Responsable:</strong> Las predicciones son orientativos y no garantizan resultados.</p>
 
 <p>• <strong>Advertencia:</strong> El juego puede causar adicción. Juega con responsabilidad.</p>
 
