@@ -341,42 +341,76 @@
             }
         },
         {
-            "team": "Sarpsborg 08",
+            "team": "Kristiansund",
             "position": "11",
-            "matches_played": "18",
-            "wins": "5",
-            "draws": "7",
-            "losses": "6",
-            "goals_for": "28",
-            "goals_against": "28",
-            "goal_difference": "0",
-            "points": "22",
+            "matches_played": "19",
+            "wins": "6",
+            "draws": "5",
+            "losses": "8",
+            "goals_for": "21",
+            "goals_against": "33",
+            "goal_difference": "-12",
+            "points": "23",
             "btts": {
-                "Yes": "67%"
+                "Yes": "53%"
             },
             "cards": {
-                "over_3_5": "39%",
-                "over_4_5": "33%",
-                "over_5_5": "22%"
+                "over_3_5": "63%",
+                "over_4_5": "37%",
+                "over_5_5": "16%"
             },
             "corners": {
-                "8.5": "72%",
-                "9.5": "61%",
-                "10.5": "56%",
-                "11.5": "50%",
-                "12.5": "33%",
-                "13.5": "28%",
-                "average": "11"
+                "8.5": "74%",
+                "9.5": "63%",
+                "10.5": "63%",
+                "11.5": "47%",
+                "12.5": "42%",
+                "13.5": "21%",
+                "average": "11.37"
             },
             "goals": {
-                "1.5": "63%",
-                "2.5": "61%",
-                "3.5": "60%"
+                "1.5": "60%",
+                "2.5": "53%",
+                "3.5": "44%"
+            }
+        },
+        {
+            "team": "Sarpsborg 08",
+            "position": "12",
+            "matches_played": "19",
+            "wins": "5",
+            "draws": "7",
+            "losses": "7",
+            "goals_for": "28",
+            "goals_against": "29",
+            "goal_difference": "-1",
+            "points": "22",
+            "btts": {
+                "Yes": "63%"
+            },
+            "cards": {
+                "over_3_5": "42%",
+                "over_4_5": "32%",
+                "over_5_5": "21%"
+            },
+            "corners": {
+                "8.5": "74%",
+                "9.5": "63%",
+                "10.5": "58%",
+                "11.5": "53%",
+                "12.5": "37%",
+                "13.5": "26%",
+                "average": "11.11"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "58%",
+                "3.5": "56%"
             }
         },
         {
             "team": "HamKam",
-            "position": "12",
+            "position": "13",
             "matches_played": "19",
             "wins": "5",
             "draws": "6",
@@ -410,7 +444,7 @@
         },
         {
             "team": "Bryne",
-            "position": "13",
+            "position": "14",
             "matches_played": "19",
             "wins": "5",
             "draws": "5",
@@ -439,40 +473,6 @@
             "goals": {
                 "1.5": "60%",
                 "2.5": "53%",
-                "3.5": "44%"
-            }
-        },
-        {
-            "team": "Kristiansund",
-            "position": "14",
-            "matches_played": "18",
-            "wins": "5",
-            "draws": "5",
-            "losses": "8",
-            "goals_for": "20",
-            "goals_against": "33",
-            "goal_difference": "-13",
-            "points": "20",
-            "btts": {
-                "Yes": "56%"
-            },
-            "cards": {
-                "over_3_5": "61%",
-                "over_4_5": "39%",
-                "over_5_5": "17%"
-            },
-            "corners": {
-                "8.5": "72%",
-                "9.5": "61%",
-                "10.5": "61%",
-                "11.5": "44%",
-                "12.5": "39%",
-                "13.5": "22%",
-                "average": "11.28"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "56%",
                 "3.5": "44%"
             }
         },
@@ -545,4 +545,4 @@
             }
         }
     ]
-,"last_updated":"2025-08-25T17:19:49Z"}
+,"last_updated":"2025-08-26T13:27:38Z"}
