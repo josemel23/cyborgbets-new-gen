@@ -688,7 +688,7 @@ function mostrarTerminosCondiciones() {
       <div style="color: #495057; line-height: 1.6; font-size: 0.95rem; margin-bottom: 25px;">
        <p><strong>Al acceder a esta aplicación, usted acepta los siguientes términos:</strong></p>
 
-<p>• <strong>Prevención de Ludopatía:</strong> Esta aplicación es solo para entretenimiento. Si sientes que tienes problemas con el juego, busca ayuda profesional.</p>
+<p>• <strong>Prevención de Ludopatía:</strong> Esta aplicación es solo para entretenimiento.</p>
 
 <p>• <strong>Uso Responsable:</strong> Las predicciones y análisis deportivos son solo orientativos y no garantizan resultados.</p>
 
