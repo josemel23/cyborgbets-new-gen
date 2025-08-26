@@ -29,6 +29,7 @@ on:
           - chile
           - china
           - croacia
+          - dinamarca
           - ecuador
           - eerste_divisie
           - eredivisie
@@ -39,6 +40,7 @@ on:
           - grecia
           - italia
           - italia_2
+          - israel
           - j1_league
           - la_liga
           - libertadores
@@ -128,6 +130,9 @@ jobs:
             "italia")
               FILE_NAME="serie_a_data.json"
               ;;
+               "israel")
+              FILE_NAME="israel_data.json"
+              ;;
             "italia_2")
               FILE_NAME="serie_b_data.json"
               ;;
@@ -139,6 +144,9 @@ jobs:
               ;;
             "eredivisie")
               FILE_NAME="eredivisie_data.json"
+              ;;
+               "dinamarca")
+              FILE_NAME="dinamarca_data.json"
               ;;
             "eerste_divisie")
               FILE_NAME="eerste_divisie_data.json"
