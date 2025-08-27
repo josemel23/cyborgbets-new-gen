@@ -43,7 +43,8 @@ class ImprovedLeagueComparator {
             'República Checa': 'static/checa_data.json',
             'libertadores': 'static/libertadores_data.json',
             'sudamericana': 'static/sudamericana_data.json',
-            'bolivia': 'static/Lfpb.json'
+            'bolivia': 'static/Lfpb.json',
+            'rumania': 'static/rumania_data.json'
             
         };
         

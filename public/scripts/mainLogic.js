@@ -17,7 +17,7 @@ const leagueLogos = {
     'argentina': 'https://assets.gmlinteractive.com/sites/15/2025/01/4a3776d7dac0_3138332.png',
     'dinamarca': 'https://res.cloudinary.com/dq4uxsxpv/image/upload/denmark-superliga.webp',
     'israel': 'https://static.flashscore.com/res/image/data/viYyzoTp-MZqsIdD1.png',
-    'brazil': 'https://upload.wikimedia.org/wikipedia/en/0/04/Campeonato_Brasileiro_S%C3%A9rie_A.png',
+    'brazil': 'https://static.flashscore.com/res/image/data/fNdt78BO-SEJanvAm.png',
     'brazil2': 'https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/2299.png',
     'bulgaria': 'https://static.flashscore.com/res/image/data/hnzY7wld-CbwNlnIA.png',
     'mexico': 'https://whatthelogo.com/storage/logos/liga-mx-228948.webp',
@@ -41,7 +41,8 @@ const leagueLogos = {
     'chile': 'https://www.topmercato.com/cl/app/uploads/2024/01/image4.png',
     'libertadores':'https://res.cloudinary.com/dq4uxsxpv/image/upload/v1659928407/south-america-copa-libertadores.webp',
     'sudamericana':'https://res.cloudinary.com/dq4uxsxpv/image/upload/south-america-copa-sudamericana.webp',
-    'bolivia':'https://res.cloudinary.com/dq4uxsxpv/image/upload/bolivia-lfpb.webp'
+    'bolivia':'https://res.cloudinary.com/dq4uxsxpv/image/upload/bolivia-lfpb.webp',
+    'rumania':'https://static.flashscore.com/res/image/data/r9Ek8xRp-pU6hjxh6.png'
 
 };
 
@@ -410,7 +411,8 @@ async function loadLeagueData(league) {
             'croacia': 'static/croacia_data.json',
             'libertadores': 'static/libertadores_data.json',
             'sudamericana': 'static/sudamericana_data.json',
-            'bolivia': 'static/Lfpb.json'
+            'bolivia': 'static/Lfpb.json',
+            'rumania': 'static/rumania_data.json'
 };
 
     const dataFile = leagueFiles[league];
