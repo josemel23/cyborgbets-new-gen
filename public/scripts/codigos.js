@@ -1335,6 +1335,11 @@ function ejecutarEscaneoManual() {
 
 // INICIALIZACIÓN: El escaneo SIEMPRE se ejecuta al cargar la página
 document.addEventListener('DOMContentLoaded', async () => {
+  // Iniciar audio al cargar la página
+const audio = new Audio('audio/new.wav');
+audio.volume = 0.7;
+audio.loop = true;
+audio.play().catch(() => console.log('Audio bloqueado'));
   console.log('🔒 Iniciando protocolo de seguridad...');
   
   // ESCANEO OBLIGATORIO - Se ejecuta SIEMPRE
@@ -1345,6 +1350,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (!terminosAceptados) {
     console.log('❌ Términos no aceptados - Cerrando aplicación');
     document.body.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100vh; font-family: Arial; color: #6c757d;">Debe aceptar los términos para usar la aplicación.</div>';
+    audio.pause();
     return;
   }
   
@@ -1355,6 +1361,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Continuar con la inicialización normal
   limpiarSeccionesObsoletas();
   bloquearMenu();
+  audio.pause(); // Detener audio cuando termine todo
   
   // Debug: mostrar información del sistema
   console.log('🔐 Sistema de códigos iniciado');
