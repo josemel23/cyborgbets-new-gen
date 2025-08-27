@@ -31,6 +31,7 @@ on:
           - croacia
           - dinamarca
           - ecuador
+          - rumania
           - eerste_divisie
           - eredivisie
           - escocia
@@ -126,6 +127,9 @@ jobs:
               ;;
             "bundesliga_2")
               FILE_NAME="bundesliga_2_data.json"
+              ;;
+                "rumania")
+              FILE_NAME="rumania_data.json"
               ;;
             "italia")
               FILE_NAME="serie_a_data.json"
