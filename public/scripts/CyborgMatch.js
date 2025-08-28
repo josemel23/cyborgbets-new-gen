@@ -44,6 +44,7 @@ class ImprovedLeagueComparator {
             'libertadores': 'static/libertadores_data.json',
             'sudamericana': 'static/sudamericana_data.json',
             'bolivia': 'static/Lfpb.json',
+            'austria': 'static/austria_data.json',
             'rumania': 'static/rumania_data.json'
             
         };

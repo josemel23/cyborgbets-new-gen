@@ -42,6 +42,7 @@ const leagueLogos = {
     'libertadores':'https://res.cloudinary.com/dq4uxsxpv/image/upload/v1659928407/south-america-copa-libertadores.webp',
     'sudamericana':'https://res.cloudinary.com/dq4uxsxpv/image/upload/south-america-copa-sudamericana.webp',
     'bolivia':'https://res.cloudinary.com/dq4uxsxpv/image/upload/bolivia-lfpb.webp',
+    'austria': 'https://static.flashscore.com/res/image/data/jkEi83gU-f7CHEncm.png',
     'rumania':'https://static.flashscore.com/res/image/data/r9Ek8xRp-pU6hjxh6.png'
 
 };
@@ -412,6 +413,7 @@ async function loadLeagueData(league) {
             'libertadores': 'static/libertadores_data.json',
             'sudamericana': 'static/sudamericana_data.json',
             'bolivia': 'static/Lfpb.json',
+            'austria': 'static/austria_data.json',
             'rumania': 'static/rumania_data.json'
 };
 
