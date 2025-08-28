@@ -17,6 +17,7 @@ on:
           - arabia
           - argentina
           - australia
+          - austria
           - belgica
           - bolivia
           - brasil
@@ -118,6 +119,9 @@ jobs:
               ;;
             "premier")
               FILE_NAME="premier_league_data.json"
+              ;;
+               "austria")
+              FILE_NAME="austria_data.json"
               ;;
             "championship")
               FILE_NAME="championship_data.json"
