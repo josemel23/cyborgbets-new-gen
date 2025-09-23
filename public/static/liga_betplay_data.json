@@ -1,718 +1,684 @@
 {
-    "teams": [
-        {
-            "team": "Junior",
-            "position": 1,
-            "matches_played": 9,
-            "wins": 6,
-            "draws": 2,
-            "losses": 1,
-            "goals_for": 20,
-            "goals_against": 10,
-            "goal_difference": "+10",
-            "points": 20,
-            "btts": {
-                "Yes": "52%"
-            },
-            "cards": {
-                "over_3_5": "83%",
-                "over_4_5": "68%",
-                "over_5_5": "52%"
-            },
-            "corners": {
-                "8.5": "55%",
-                "9.5": "43%",
-                "10.5": "39%",
-                "11.5": "30%",
-                "12.5": "7%",
-                "13.5": "7%",
-                "average": "9.1"
-            },
-            "goals": {
-                "1.5": "42%",
-                "2.5": "40%",
-                "3.5": "37%"
-            }
-        },
-        {
-            "team": "Independiente Medellín",
-            "position": 2,
-            "matches_played": 9,
-            "wins": 6,
-            "draws": 1,
-            "losses": 2,
-            "goals_for": 16,
-            "goals_against": 10,
-            "goal_difference": "+6",
-            "points": 19,
-            "btts": {
-                "Yes": "57%"
-            },
-            "cards": {
-                "over_3_5": "92%",
-                "over_4_5": "78%",
-                "over_5_5": "63%"
-            },
-            "corners": {
-                "8.5": "69%",
-                "9.5": "54%",
-                "10.5": "44%",
-                "11.5": "29%",
-                "12.5": "10%",
-                "13.5": "10%",
-                "average": "9.7"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "60%",
-                "3.5": "52%"
-            }
-        },
-        {
-            "team": "Deportes Tolima",
-            "position": 3,
-            "matches_played": 9,
-            "wins": 5,
-            "draws": 2,
-            "losses": 2,
-            "goals_for": 10,
-            "goals_against": 6,
-            "goal_difference": "+4",
-            "points": 17,
-            "btts": {
-                "Yes": "55%"
-            },
-            "cards": {
-                "over_3_5": "83%",
-                "over_4_5": "70%",
-                "over_5_5": "54%"
-            },
-            "corners": {
-                "8.5": "43%",
-                "9.5": "27%",
-                "10.5": "21%",
-                "11.5": "10%",
-                "12.5": "7%",
-                "13.5": "4%",
-                "average": "8.0"
-            },
-            "goals": {
-                "1.5": "46%",
-                "2.5": "43%",
-                "3.5": "40%"
-            }
-        },
-        {
-            "team": "Atlético Nacional",
-            "position": 4,
-            "matches_played": 9,
-            "wins": 4,
-            "draws": 4,
-            "losses": 1,
-            "goals_for": 15,
-            "goals_against": 8,
-            "goal_difference": "+7",
-            "points": 16,
-            "btts": {
-                "Yes": "57%"
-            },
-            "cards": {
-                "over_3_5": "93%",
-                "over_4_5": "79%",
-                "over_5_5": "64%"
-            },
-            "corners": {
-                "8.5": "69%",
-                "9.5": "54%",
-                "10.5": "44%",
-                "11.5": "29%",
-                "12.5": "10%",
-                "13.5": "10%",
-                "average": "9.7"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "60%",
-                "3.5": "52%"
-            }
-        },
-        {
-            "team": "Fortaleza CEIF",
-            "position": 5,
-            "matches_played": 9,
-            "wins": 3,
-            "draws": 6,
-            "losses": 0,
-            "goals_for": 13,
-            "goals_against": 9,
-            "goal_difference": "+4",
-            "points": 15,
-            "btts": {
-                "Yes": "43%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "65%",
-                "over_5_5": "50%"
-            },
-            "corners": {
-                "8.5": "58%",
-                "9.5": "50%",
-                "10.5": "45%",
-                "11.5": "32%",
-                "12.5": "22%",
-                "13.5": "18%",
-                "average": "10.3"
-            },
-            "goals": {
-                "1.5": "40%",
-                "2.5": "39%",
-                "3.5": "37%"
-            }
-        },
-        {
-            "team": "Llaneros",
-            "position": 6,
-            "matches_played": 9,
-            "wins": 4,
-            "draws": 2,
-            "losses": 3,
-            "goals_for": 9,
-            "goals_against": 9,
-            "goal_difference": "0",
-            "points": 14,
-            "btts": {
-                "Yes": "43%"
-            },
-            "cards": {
-                "over_3_5": "83%",
-                "over_4_5": "69%",
-                "over_5_5": "52%"
-            },
-            "corners": {
-                "8.5": "58%",
-                "9.5": "53%",
-                "10.5": "43%",
-                "11.5": "35%",
-                "12.5": "25%",
-                "13.5": "15%",
-                "average": "10.1"
-            },
-            "goals": {
-                "1.5": "59%",
-                "2.5": "50%",
-                "3.5": "40%"
-            }
-        },
-        {
-            "team": "Atlético Bucaramanga",
-            "position": 7,
-            "matches_played": 7,
-            "wins": 4,
-            "draws": 1,
-            "losses": 2,
-            "goals_for": 14,
-            "goals_against": 8,
-            "goal_difference": "+6",
-            "points": 13,
-            "btts": {
-                "Yes": "56%"
-            },
-            "cards": {
-                "over_3_5": "81%",
-                "over_4_5": "77%",
-                "over_5_5": "60%"
-            },
-            "corners": {
-                "8.5": "60%",
-                "9.5": "44%",
-                "10.5": "25%",
-                "11.5": "20%",
-                "12.5": "13%",
-                "13.5": "5%",
-                "average": "9.1"
-            },
-            "goals": {
-                "1.5": "57%",
-                "2.5": "48%",
-                "3.5": "39%"
-            }
-        },
-        {
-            "team": "Deportivo Pereira",
-            "position": 8,
-            "matches_played": 9,
-            "wins": 3,
-            "draws": 3,
-            "losses": 3,
-            "goals_for": 9,
-            "goals_against": 9,
-            "goal_difference": "0",
-            "points": 12,
-            "btts": {
-                "Yes": "43%"
-            },
-            "cards": {
-                "over_3_5": "87%",
-                "over_4_5": "72%",
-                "over_5_5": "65%"
-            },
-            "corners": {
-                "8.5": "58%",
-                "9.5": "39%",
-                "10.5": "32%",
-                "11.5": "24%",
-                "12.5": "12%",
-                "13.5": "8%",
-                "average": "9.0"
-            },
-            "goals": {
-                "1.5": "48%",
-                "2.5": "43%",
-                "3.5": "37%"
-            }
-        },
-        {
-            "team": "Independiente Santa Fe",
-            "position": 9,
-            "matches_played": 9,
-            "wins": 3,
-            "draws": 3,
-            "losses": 3,
-            "goals_for": 9,
-            "goals_against": 10,
-            "goal_difference": "-1",
-            "points": 12,
-            "btts": {
-                "Yes": "58%"
-            },
-            "cards": {
-                "over_3_5": "96%",
-                "over_4_5": "79%",
-                "over_5_5": "68%"
-            },
-            "corners": {
-                "8.5": "61%",
-                "9.5": "49%",
-                "10.5": "34%",
-                "11.5": "23%",
-                "12.5": "18%",
-                "13.5": "13%",
-                "average": "9.5"
-            },
-            "goals": {
-                "1.5": "52%",
-                "2.5": "49%",
-                "3.5": "45%"
-            }
-        },
-        {
-            "team": "Alianza Petrolera",
-            "position": 10,
-            "matches_played": 9,
-            "wins": 3,
-            "draws": 3,
-            "losses": 3,
-            "goals_for": 9,
-            "goals_against": 12,
-            "goal_difference": "-3",
-            "points": 12,
-            "btts": {
-                "Yes": "56%"
-            },
-            "cards": {
-                "over_3_5": "83%",
-                "over_4_5": "70%",
-                "over_5_5": "55%"
-            },
-            "corners": {
-                "8.5": "58%",
-                "9.5": "57%",
-                "10.5": "46%",
-                "11.5": "28%",
-                "12.5": "17%",
-                "13.5": "8%",
-                "average": "9.7"
-            },
-            "goals": {
-                "1.5": "48%",
-                "2.5": "43%",
-                "3.5": "37%"
-            }
-        },
-        {
-            "team": "Envigado",
-            "position": 11,
-            "matches_played": 9,
-            "wins": 2,
-            "draws": 4,
-            "losses": 3,
-            "goals_for": 8,
-            "goals_against": 9,
-            "goal_difference": "-1",
-            "points": 10,
-            "btts": {
-                "Yes": "48%"
-            },
-            "cards": {
-                "over_3_5": "98%",
-                "over_4_5": "87%",
-                "over_5_5": "75%"
-            },
-            "corners": {
-                "8.5": "56%",
-                "9.5": "40%",
-                "10.5": "40%",
-                "11.5": "17%",
-                "12.5": "17%",
-                "13.5": "14%",
-                "average": "9.5"
-            },
-            "goals": {
-                "1.5": "38%",
-                "2.5": "37%",
-                "3.5": "35%"
-            }
-        },
-        {
-            "team": "Boyacá Chicó",
-            "position": 12,
-            "matches_played": 9,
-            "wins": 2,
-            "draws": 4,
-            "losses": 3,
-            "goals_for": 7,
-            "goals_against": 9,
-            "goal_difference": "-2",
-            "points": 10,
-            "btts": {
-                "Yes": "44%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "67%",
-                "over_5_5": "52%"
-            },
-            "corners": {
-                "8.5": "60%",
-                "9.5": "56%",
-                "10.5": "40%",
-                "11.5": "29%",
-                "12.5": "25%",
-                "13.5": "14%",
-                "average": "10.1"
-            },
-            "goals": {
-                "1.5": "45%",
-                "2.5": "40%",
-                "3.5": "35%"
-            }
-        },
-        {
-            "team": "La Equidad",
-            "position": 13,
-            "matches_played": 9,
-            "wins": 2,
-            "draws": 4,
-            "losses": 3,
-            "goals_for": 6,
-            "goals_against": 9,
-            "goal_difference": "-3",
-            "points": 10,
-            "btts": {
-                "Yes": "48%"
-            },
-            "cards": {
-                "over_3_5": "83%",
-                "over_4_5": "75%",
-                "over_5_5": "64%"
-            },
-            "corners": {
-                "8.5": "52%",
-                "9.5": "44%",
-                "10.5": "25%",
-                "11.5": "14%",
-                "12.5": "10%",
-                "13.5": "5%",
-                "average": "8.3"
-            },
-            "goals": {
-                "1.5": "69%",
-                "2.5": "48%",
-                "3.5": "30%"
-            }
-        },
-        {
-            "team": "Deportivo Cali",
-            "position": 14,
-            "matches_played": 9,
-            "wins": 2,
-            "draws": 4,
-            "losses": 3,
-            "goals_for": 11,
-            "goals_against": 15,
-            "goal_difference": "-4",
-            "points": 10,
-            "btts": {
-                "Yes": "39%"
-            },
-            "cards": {
-                "over_3_5": "95%",
-                "over_4_5": "91%",
-                "over_5_5": "80%"
-            },
-            "corners": {
-                "8.5": "58%",
-                "9.5": "54%",
-                "10.5": "35%",
-                "11.5": "21%",
-                "12.5": "8%",
-                "13.5": "5%",
-                "average": "9.4"
-            },
-            "goals": {
-                "1.5": "31%",
-                "2.5": "28%",
-                "3.5": "25%"
-            }
-        },
-        {
-            "team": "Unión Magdalena",
-            "position": 15,
-            "matches_played": 9,
-            "wins": 2,
-            "draws": 2,
-            "losses": 5,
-            "goals_for": 8,
-            "goals_against": 15,
-            "goal_difference": "-7",
-            "points": 8,
-            "btts": {
-                "Yes": "56%"
-            },
-            "cards": {
-                "over_3_5": "87%",
-                "over_4_5": "71%",
-                "over_5_5": "68%"
-            },
-            "corners": {
-                "8.5": "40%",
-                "9.5": "33%",
-                "10.5": "33%",
-                "11.5": "21%",
-                "12.5": "5%",
-                "13.5": "2%",
-                "average": "8.1"
-            },
-            "goals": {
-                "1.5": "48%",
-                "2.5": "37%",
-                "3.5": "25%"
-            }
-        },
-        {
-            "team": "Águilas Doradas",
-            "position": 16,
-            "matches_played": 9,
-            "wins": 1,
-            "draws": 4,
-            "losses": 4,
-            "goals_for": 9,
-            "goals_against": 14,
-            "goal_difference": "-5",
-            "points": 7,
-            "btts": {
-                "Yes": "50%"
-            },
-            "cards": {
-                "over_3_5": "83%",
-                "over_4_5": "80%",
-                "over_5_5": "65%"
-            },
-            "corners": {
-                "8.5": "65%",
-                "9.5": "46%",
-                "10.5": "46%",
-                "11.5": "28%",
-                "12.5": "21%",
-                "13.5": "17%",
-                "average": "9.6"
-            },
-            "goals": {
-                "1.5": "40%",
-                "2.5": "35%",
-                "3.5": "31%"
-            }
-        },
-        {
-            "team": "Boyacá Chicó",
-            "position": 17,
-            "matches_played": 9,
-            "wins": 2,
-            "draws": 4,
-            "losses": 3,
-            "goals_for": 7,
-            "goals_against": 9,
-            "goal_difference": "-2",
-            "points": 10,
-            "btts": {
-                "Yes": "44%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "67%",
-                "over_5_5": "52%"
-            },
-            "corners": {
-                "8.5": "60%",
-                "9.5": "56%",
-                "10.5": "40%",
-                "11.5": "29%",
-                "12.5": "25%",
-                "13.5": "14%",
-                "average": "10.1"
-            },
-            "goals": {
-                "1.5": "45%",
-                "2.5": "40%",
-                "3.5": "35%"
-            }
-        },
-        {
-            "team": "Deportivo Pasto",
-            "position": 18,
-            "matches_played": 7,
-            "wins": 1,
-            "draws": 3,
-            "losses": 3,
-            "goals_for": 8,
-            "goals_against": 10,
-            "goal_difference": "-2",
-            "points": 6,
-            "btts": {
-                "Yes": "48%"
-            },
-            "cards": {
-                "over_3_5": "94%",
-                "over_4_5": "85%",
-                "over_5_5": "56%"
-            },
-            "corners": {
-                "8.5": "56%",
-                "9.5": "52%",
-                "10.5": "44%",
-                "11.5": "31%",
-                "12.5": "23%",
-                "13.5": "15%",
-                "average": "9.6"
-            },
-            "goals": {
-                "1.5": "52%",
-                "2.5": "40%",
-                "3.5": "27%"
-            }
-        },
-        {
-            "team": "Once Caldas",
-            "position": 19,
-            "matches_played": 8,
-            "wins": 1,
-            "draws": 3,
-            "losses": 4,
-            "goals_for": 8,
-            "goals_against": 12,
-            "goal_difference": "-4",
-            "points": 6,
-            "btts": {
-                "Yes": "52%"
-            },
-            "cards": {
-                "over_3_5": "83%",
-                "over_4_5": "77%",
-                "over_5_5": "63%"
-            },
-            "corners": {
-                "8.5": "68%",
-                "9.5": "60%",
-                "10.5": "49%",
-                "11.5": "36%",
-                "12.5": "21%",
-                "13.5": "15%",
-                "average": "9.8"
-            },
-            "goals": {
-                "1.5": "71%",
-                "2.5": "55%",
-                "3.5": "40%"
-            }
-        },
-        {
-            "team": "Millonarios",
-            "position": 20,
-            "matches_played": 8,
-            "wins": 2,
-            "draws": 1,
-            "losses": 5,
-            "goals_for": 10,
-            "goals_against": 12,
-            "goal_difference": "-2",
-            "points": 7,
-            "btts": {
-                "Yes": "39%"
-            },
-            "cards": {
-                "over_3_5": "85%",
-                "over_4_5": "79%",
-                "over_5_5": "72%"
-            },
-            "corners": {
-                "8.5": "39%",
-                "9.5": "39%",
-                "10.5": "32%",
-                "11.5": "25%",
-                "12.5": "19%",
-                "13.5": "12%",
-                "average": "8.7"
-            },
-            "goals": {
-                "1.5": "42%",
-                "2.5": "39%",
-                "3.5": "35%"
-            }
-        },
-        {
-            "team": "América de Cali",
-            "position": 20,
-            "matches_played": 7,
-            "wins": 1,
-            "draws": 2,
-            "losses": 4,
-            "goals_for": 5,
-            "goals_against": 8,
-            "goal_difference": "-3",
-            "points": 5,
-            "btts": {
-                "Yes": "41%"
-            },
-            "cards": {
-                "over_3_5": "89%",
-                "over_4_5": "83%",
-                "over_5_5": "67%"
-            },
-            "corners": {
-                "8.5": "67%",
-                "9.5": "50%",
-                "10.5": "34%",
-                "11.5": "21%",
-                "12.5": "17%",
-                "13.5": "12%",
-                "average": "9.8"
-            },
-            "goals": {
-                "1.5": "42%",
-                "2.5": "34%",
-                "3.5": "27%"
-            }
-        }
-    ]
+  "teams": [
+    {
+      "team": "Junior",
+      "position": 1,
+      "matches_played": 12,
+      "wins": 6,
+      "draws": 4,
+      "losses": 2,
+      "goals_for": 24,
+      "goals_against": 16,
+      "goal_difference": 8,
+      "points": 22,
+      "btts": {
+        "Yes": "52%"
+      },
+      "cards": {
+        "over_3_5": "83%",
+        "over_4_5": "68%",
+        "over_5_5": "52%"
+      },
+      "corners": {
+        "8.5": "55%",
+        "9.5": "43%",
+        "10.5": "39%",
+        "11.5": "30%",
+        "12.5": "7%",
+        "13.5": "7%",
+        "average": "9.1"
+      },
+      "goals": {
+        "1.5": "42%",
+        "2.5": "40%",
+        "3.5": "37%"
+      }
+    },
+    {
+      "team": "Independiente Medellín",
+      "position": 2,
+      "matches_played": 11,
+      "wins": 6,
+      "draws": 3,
+      "losses": 2,
+      "goals_for": 21,
+      "goals_against": 15,
+      "goal_difference": 6,
+      "points": 21,
+      "btts": {
+        "Yes": "57%"
+      },
+      "cards": {
+        "over_3_5": "92%",
+        "over_4_5": "78%",
+        "over_5_5": "63%"
+      },
+      "corners": {
+        "8.5": "69%",
+        "9.5": "54%",
+        "10.5": "44%",
+        "11.5": "29%",
+        "12.5": "10%",
+        "13.5": "10%",
+        "average": "9.7"
+      },
+      "goals": {
+        "1.5": "67%",
+        "2.5": "60%",
+        "3.5": "52%"
+      }
+    },
+    {
+      "team": "Deportes Tolima",
+      "position": 3,
+      "matches_played": 12,
+      "wins": 6,
+      "draws": 2,
+      "losses": 4,
+      "goals_for": 14,
+      "goals_against": 9,
+      "goal_difference": 5,
+      "points": 20,
+      "btts": {
+        "Yes": "55%"
+      },
+      "cards": {
+        "over_3_5": "83%",
+        "over_4_5": "70%",
+        "over_5_5": "54%"
+      },
+      "corners": {
+        "8.5": "43%",
+        "9.5": "27%",
+        "10.5": "21%",
+        "11.5": "10%",
+        "12.5": "7%",
+        "13.5": "4%",
+        "average": "8.0"
+      },
+      "goals": {
+        "1.5": "46%",
+        "2.5": "43%",
+        "3.5": "40%"
+      }
+    },
+    {
+      "team": "Atlético Nacional",
+      "position": 4,
+      "matches_played": 12,
+      "wins": 5,
+      "draws": 5,
+      "losses": 2,
+      "goals_for": 20,
+      "goals_against": 15,
+      "goal_difference": 5,
+      "points": 20,
+      "btts": {
+        "Yes": "57%"
+      },
+      "cards": {
+        "over_3_5": "93%",
+        "over_4_5": "79%",
+        "over_5_5": "64%"
+      },
+      "corners": {
+        "8.5": "69%",
+        "9.5": "54%",
+        "10.5": "44%",
+        "11.5": "29%",
+        "12.5": "10%",
+        "13.5": "10%",
+        "average": "9.7"
+      },
+      "goals": {
+        "1.5": "67%",
+        "2.5": "60%",
+        "3.5": "52%"
+      }
+    },
+    {
+      "team": "Fortaleza CEIF",
+      "position": 5,
+      "matches_played": 12,
+      "wins": 5,
+      "draws": 6,
+      "losses": 1,
+      "goals_for": 17,
+      "goals_against": 12,
+      "goal_difference": 5,
+      "points": 21,
+      "btts": {
+        "Yes": "43%"
+      },
+      "cards": {
+        "over_3_5": "76%",
+        "over_4_5": "65%",
+        "over_5_5": "50%"
+      },
+      "corners": {
+        "8.5": "58%",
+        "9.5": "50%",
+        "10.5": "45%",
+        "11.5": "32%",
+        "12.5": "22%",
+        "13.5": "18%",
+        "average": "10.3"
+      },
+      "goals": {
+        "1.5": "40%",
+        "2.5": "39%",
+        "3.5": "37%"
+      }
+    },
+    {
+      "team": "Llaneros",
+      "position": 6,
+      "matches_played": 12,
+      "wins": 5,
+      "draws": 3,
+      "losses": 4,
+      "goals_for": 10,
+      "goals_against": 10,
+      "goal_difference": 0,
+      "points": 18,
+      "btts": {
+        "Yes": "43%"
+      },
+      "cards": {
+        "over_3_5": "83%",
+        "over_4_5": "69%",
+        "over_5_5": "52%"
+      },
+      "corners": {
+        "8.5": "58%",
+        "9.5": "53%",
+        "10.5": "43%",
+        "11.5": "35%",
+        "12.5": "25%",
+        "13.5": "15%",
+        "average": "10.1"
+      },
+      "goals": {
+        "1.5": "59%",
+        "2.5": "50%",
+        "3.5": "40%"
+      }
+    },
+    {
+      "team": "Atlético Bucaramanga",
+      "position": 7,
+      "matches_played": 12,
+      "wins": 7,
+      "draws": 3,
+      "losses": 2,
+      "goals_for": 22,
+      "goals_against": 9,
+      "goal_difference": 13,
+      "points": 24,
+      "btts": {
+        "Yes": "56%"
+      },
+      "cards": {
+        "over_3_5": "81%",
+        "over_4_5": "77%",
+        "over_5_5": "60%"
+      },
+      "corners": {
+        "8.5": "60%",
+        "9.5": "44%",
+        "10.5": "25%",
+        "11.5": "20%",
+        "12.5": "13%",
+        "13.5": "5%",
+        "average": "9.1"
+      },
+      "goals": {
+        "1.5": "57%",
+        "2.5": "48%",
+        "3.5": "39%"
+      }
+    },
+    {
+      "team": "Deportivo Pereira",
+      "position": 8,
+      "matches_played": 12,
+      "wins": 3,
+      "draws": 5,
+      "losses": 4,
+      "goals_for": 10,
+      "goals_against": 11,
+      "goal_difference": -1,
+      "points": 14,
+      "btts": {
+        "Yes": "43%"
+      },
+      "cards": {
+        "over_3_5": "87%",
+        "over_4_5": "72%",
+        "over_5_5": "65%"
+      },
+      "corners": {
+        "8.5": "58%",
+        "9.5": "39%",
+        "10.5": "32%",
+        "11.5": "24%",
+        "12.5": "12%",
+        "13.5": "8%",
+        "average": "9.0"
+      },
+      "goals": {
+        "1.5": "48%",
+        "2.5": "43%",
+        "3.5": "37%"
+      }
+    },
+    {
+      "team": "Independiente Santa Fe",
+      "position": 9,
+      "matches_played": 12,
+      "wins": 4,
+      "draws": 5,
+      "losses": 3,
+      "goals_for": 12,
+      "goals_against": 11,
+      "goal_difference": 1,
+      "points": 17,
+      "btts": {
+        "Yes": "58%"
+      },
+      "cards": {
+        "over_3_5": "96%",
+        "over_4_5": "79%",
+        "over_5_5": "68%"
+      },
+      "corners": {
+        "8.5": "61%",
+        "9.5": "49%",
+        "10.5": "34%",
+        "11.5": "23%",
+        "12.5": "18%",
+        "13.5": "13%",
+        "average": "9.5"
+      },
+      "goals": {
+        "1.5": "52%",
+        "2.5": "49%",
+        "3.5": "45%"
+      }
+    },
+    {
+      "team": "Alianza Petrolera",
+      "position": 10,
+      "matches_played": 12,
+      "wins": 4,
+      "draws": 4,
+      "losses": 4,
+      "goals_for": 13,
+      "goals_against": 15,
+      "goal_difference": -2,
+      "points": 16,
+      "btts": {
+        "Yes": "56%"
+      },
+      "cards": {
+        "over_3_5": "83%",
+        "over_4_5": "70%",
+        "over_5_5": "55%"
+      },
+      "corners": {
+        "8.5": "58%",
+        "9.5": "57%",
+        "10.5": "46%",
+        "11.5": "28%",
+        "12.5": "17%",
+        "13.5": "8%",
+        "average": "9.7"
+      },
+      "goals": {
+        "1.5": "48%",
+        "2.5": "43%",
+        "3.5": "37%"
+      }
+    },
+    {
+      "team": "Envigado",
+      "position": 11,
+      "matches_played": 12,
+      "wins": 2,
+      "draws": 6,
+      "losses": 4,
+      "goals_for": 9,
+      "goals_against": 11,
+      "goal_difference": -2,
+      "points": 12,
+      "btts": {
+        "Yes": "48%"
+      },
+      "cards": {
+        "over_3_5": "98%",
+        "over_4_5": "87%",
+        "over_5_5": "75%"
+      },
+      "corners": {
+        "8.5": "56%",
+        "9.5": "40%",
+        "10.5": "40%",
+        "11.5": "17%",
+        "12.5": "17%",
+        "13.5": "14%",
+        "average": "9.5"
+      },
+      "goals": {
+        "1.5": "38%",
+        "2.5": "37%",
+        "3.5": "35%"
+      }
+    },
+    {
+      "team": "Boyacá Chicó",
+      "position": 12,
+      "matches_played": 12,
+      "wins": 2,
+      "draws": 5,
+      "losses": 5,
+      "goals_for": 8,
+      "goals_against": 16,
+      "goal_difference": -8,
+      "points": 11,
+      "btts": {
+        "Yes": "44%"
+      },
+      "cards": {
+        "over_3_5": "79%",
+        "over_4_5": "67%",
+        "over_5_5": "52%"
+      },
+      "corners": {
+        "8.5": "60%",
+        "9.5": "56%",
+        "10.5": "40%",
+        "11.5": "29%",
+        "12.5": "25%",
+        "13.5": "14%",
+        "average": "10.1"
+      },
+      "goals": {
+        "1.5": "45%",
+        "2.5": "40%",
+        "3.5": "35%"
+      }
+    },
+    {
+      "team": "La Equidad",
+      "position": 13,
+      "matches_played": 12,
+      "wins": 2,
+      "draws": 5,
+      "losses": 5,
+      "goals_for": 7,
+      "goals_against": 15,
+      "goal_difference": -8,
+      "points": 11,
+      "btts": {
+        "Yes": "48%"
+      },
+      "cards": {
+        "over_3_5": "83%",
+        "over_4_5": "75%",
+        "over_5_5": "64%"
+      },
+      "corners": {
+        "8.5": "52%",
+        "9.5": "44%",
+        "10.5": "25%",
+        "11.5": "14%",
+        "12.5": "10%",
+        "13.5": "5%",
+        "average": "8.3"
+      },
+      "goals": {
+        "1.5": "69%",
+        "2.5": "48%",
+        "3.5": "30%"
+      }
+    },
+    {
+      "team": "Deportivo Cali",
+      "position": 14,
+      "matches_played": 12,
+      "wins": 4,
+      "draws": 5,
+      "losses": 3,
+      "goals_for": 17,
+      "goals_against": 16,
+      "goal_difference": 1,
+      "points": 17,
+      "btts": {
+        "Yes": "39%"
+      },
+      "cards": {
+        "over_3_5": "95%",
+        "over_4_5": "91%",
+        "over_5_5": "80%"
+      },
+      "corners": {
+        "8.5": "58%",
+        "9.5": "54%",
+        "10.5": "35%",
+        "11.5": "21%",
+        "12.5": "8%",
+        "13.5": "5%",
+        "average": "9.4"
+      },
+      "goals": {
+        "1.5": "31%",
+        "2.5": "28%",
+        "3.5": "25%"
+      }
+    },
+    {
+      "team": "Unión Magdalena",
+      "position": 15,
+      "matches_played": 12,
+      "wins": 3,
+      "draws": 2,
+      "losses": 7,
+      "goals_for": 12,
+      "goals_against": 20,
+      "goal_difference": -8,
+      "points": 11,
+      "btts": {
+        "Yes": "56%"
+      },
+      "cards": {
+        "over_3_5": "87%",
+        "over_4_5": "71%",
+        "over_5_5": "68%"
+      },
+      "corners": {
+        "8.5": "40%",
+        "9.5": "33%",
+        "10.5": "33%",
+        "11.5": "21%",
+        "12.5": "5%",
+        "13.5": "2%",
+        "average": "8.1"
+      },
+      "goals": {
+        "1.5": "48%",
+        "2.5": "37%",
+        "3.5": "25%"
+      }
+    },
+    {
+      "team": "Águilas Doradas",
+      "position": 16,
+      "matches_played": 11,
+      "wins": 2,
+      "draws": 5,
+      "losses": 4,
+      "goals_for": 11,
+      "goals_against": 15,
+      "goal_difference": -4,
+      "points": 11,
+      "btts": {
+        "Yes": "50%"
+      },
+      "cards": {
+        "over_3_5": "83%",
+        "over_4_5": "80%",
+        "over_5_5": "65%"
+      },
+      "corners": {
+        "8.5": "65%",
+        "9.5": "46%",
+        "10.5": "46%",
+        "11.5": "28%",
+        "12.5": "21%",
+        "13.5": "17%",
+        "average": "9.6"
+      },
+      "goals": {
+        "1.5": "40%",
+        "2.5": "35%",
+        "3.5": "31%"
+      }
+    },
+    {
+      "team": "Deportivo Pasto",
+      "position": 19,
+      "matches_played": 11,
+      "wins": 2,
+      "draws": 4,
+      "losses": 5,
+      "goals_for": 12,
+      "goals_against": 14,
+      "goal_difference": -2,
+      "points": 10,
+      "btts": {
+        "Yes": "48%"
+      },
+      "cards": {
+        "over_3_5": "94%",
+        "over_4_5": "85%",
+        "over_5_5": "56%"
+      },
+      "corners": {
+        "8.5": "56%",
+        "9.5": "52%",
+        "10.5": "44%",
+        "11.5": "31%",
+        "12.5": "23%",
+        "13.5": "15%",
+        "average": "9.6"
+      },
+      "goals": {
+        "1.5": "52%",
+        "2.5": "40%",
+        "3.5": "27%"
+      }
+    },
+    {
+      "team": "Once Caldas",
+      "position": 18,
+      "matches_played": 12,
+      "wins": 3,
+      "draws": 4,
+      "losses": 5,
+      "goals_for": 11,
+      "goals_against": 14,
+      "goal_difference": -3,
+      "points": 13,
+      "btts": {
+        "Yes": "52%"
+      },
+      "cards": {
+        "over_3_5": "83%",
+        "over_4_5": "77%",
+        "over_5_5": "63%"
+      },
+      "corners": {
+        "8.5": "68%",
+        "9.5": "60%",
+        "10.5": "49%",
+        "11.5": "36%",
+        "12.5": "21%",
+        "13.5": "15%",
+        "average": "9.8"
+      },
+      "goals": {
+        "1.5": "71%",
+        "2.5": "55%",
+        "3.5": "40%"
+      }
+    },
+    {
+      "team": "Millonarios",
+      "position": 20,
+      "matches_played": 12,
+      "wins": 4,
+      "draws": 2,
+      "losses": 6,
+      "goals_for": 14,
+      "goals_against": 17,
+      "goal_difference": -3,
+      "points": 14,
+      "btts": {
+        "Yes": "39%"
+      },
+      "cards": {
+        "over_3_5": "85%",
+        "over_4_5": "79%",
+        "over_5_5": "72%"
+      },
+      "corners": {
+        "8.5": "39%",
+        "9.5": "39%",
+        "10.5": "32%",
+        "11.5": "25%",
+        "12.5": "19%",
+        "13.5": "12%",
+        "average": "8.7"
+      },
+      "goals": {
+        "1.5": "42%",
+        "2.5": "39%",
+        "3.5": "35%"
+      }
+    },
+    {
+      "team": "América de Cali",
+      "position": 20,
+      "matches_played": 11,
+      "wins": 2,
+      "draws": 4,
+      "losses": 5,
+      "goals_for": 7,
+      "goals_against": 10,
+      "goal_difference": -3,
+      "points": 10,
+      "btts": {
+        "Yes": "41%"
+      },
+      "cards": {
+        "over_3_5": "89%",
+        "over_4_5": "83%",
+        "over_5_5": "67%"
+      },
+      "corners": {
+        "8.5": "67%",
+        "9.5": "50%",
+        "10.5": "34%",
+        "11.5": "21%",
+        "12.5": "17%",
+        "13.5": "12%",
+        "average": "9.8"
+      },
+      "goals": {
+        "1.5": "42%",
+        "2.5": "34%",
+        "3.5": "27%"
+      }
+    }
+  ]
 }
