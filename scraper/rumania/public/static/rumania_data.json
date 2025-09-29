@@ -3,40 +3,142 @@
         {
             "team": "CS U Craiova",
             "position": "1",
-            "matches_played": "10",
+            "matches_played": "11",
             "wins": "7",
-            "draws": "2",
+            "draws": "3",
             "losses": "1",
-            "goals_for": "19",
-            "goals_against": "10",
+            "goals_for": "21",
+            "goals_against": "12",
             "goal_difference": "+9",
-            "points": "23",
+            "points": "24",
             "btts": {
-                "Yes": "60%"
+                "Yes": "64%"
             },
             "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "70%",
-                "over_5_5": "60%"
+                "over_3_5": "82%",
+                "over_4_5": "73%",
+                "over_5_5": "55%"
             },
             "corners": {
-                "8.5": "80%",
-                "9.5": "60%",
-                "10.5": "50%",
-                "11.5": "40%",
+                "8.5": "73%",
+                "9.5": "55%",
+                "10.5": "45%",
+                "11.5": "36%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "9.9"
+                "average": "9.73"
             },
             "goals": {
                 "1.5": "60%",
-                "2.5": "50%",
+                "2.5": "55%",
+                "3.5": "50%"
+            }
+        },
+        {
+            "team": "Rapid Bucureşti",
+            "position": "2",
+            "matches_played": "11",
+            "wins": "6",
+            "draws": "4",
+            "losses": "1",
+            "goals_for": "16",
+            "goals_against": "8",
+            "goal_difference": "+8",
+            "points": "22",
+            "btts": {
+                "Yes": "55%"
+            },
+            "cards": {
+                "over_3_5": "55%",
+                "over_4_5": "45%",
+                "over_5_5": "18%"
+            },
+            "corners": {
+                "8.5": "64%",
+                "9.5": "27%",
+                "10.5": "27%",
+                "11.5": "27%",
+                "12.5": "27%",
+                "13.5": "18%",
+                "average": "9.54"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "36%",
+                "3.5": "17%"
+            }
+        },
+        {
+            "team": "Argeș",
+            "position": "3",
+            "matches_played": "11",
+            "wins": "7",
+            "draws": "1",
+            "losses": "3",
+            "goals_for": "18",
+            "goals_against": "13",
+            "goal_difference": "+5",
+            "points": "22",
+            "btts": {
+                "Yes": "45%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "55%",
+                "over_5_5": "36%"
+            },
+            "corners": {
+                "8.5": "55%",
+                "9.5": "55%",
+                "10.5": "45%",
+                "11.5": "36%",
+                "12.5": "18%",
+                "13.5": "18%",
+                "average": "10.72"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "45%",
                 "3.5": "40%"
             }
         },
         {
-            "team": "Botoşani",
-            "position": "2",
+            "team": "Dinamo Bucuresti",
+            "position": "4",
+            "matches_played": "11",
+            "wins": "5",
+            "draws": "5",
+            "losses": "1",
+            "goals_for": "18",
+            "goals_against": "11",
+            "goal_difference": "+7",
+            "points": "20",
+            "btts": {
+                "Yes": "55%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "36%",
+                "over_5_5": "9%"
+            },
+            "corners": {
+                "8.5": "73%",
+                "9.5": "45%",
+                "10.5": "45%",
+                "11.5": "36%",
+                "12.5": "27%",
+                "13.5": "27%",
+                "average": "10.45"
+            },
+            "goals": {
+                "1.5": "67%",
+                "2.5": "45%",
+                "3.5": "20%"
+            }
+        },
+        {
+            "team": "Botosani",
+            "position": "5",
             "matches_played": "10",
             "wins": "5",
             "draws": "4",
@@ -69,178 +171,110 @@
             }
         },
         {
-            "team": "Rapid Bucureşti",
-            "position": "3",
-            "matches_played": "10",
-            "wins": "5",
-            "draws": "4",
-            "losses": "1",
-            "goals_for": "15",
-            "goals_against": "8",
-            "goal_difference": "+7",
-            "points": "19",
-            "btts": {
-                "Yes": "60%"
-            },
-            "cards": {
-                "over_3_5": "50%",
-                "over_4_5": "50%",
-                "over_5_5": "20%"
-            },
-            "corners": {
-                "8.5": "70%",
-                "9.5": "30%",
-                "10.5": "30%",
-                "11.5": "30%",
-                "12.5": "30%",
-                "13.5": "20%",
-                "average": "10.2"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "40%",
-                "3.5": "20%"
-            }
-        },
-        {
-            "team": "Argeș",
-            "position": "4",
-            "matches_played": "10",
-            "wins": "6",
-            "draws": "1",
-            "losses": "3",
-            "goals_for": "17",
-            "goals_against": "13",
-            "goal_difference": "+4",
-            "points": "19",
-            "btts": {
-                "Yes": "50%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "corners": {
-                "8.5": "60%",
-                "9.5": "60%",
-                "10.5": "50%",
-                "11.5": "40%",
-                "12.5": "20%",
-                "13.5": "20%",
-                "average": "11.3"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "50%",
-                "3.5": "40%"
-            }
-        },
-        {
-            "team": "Dinamo Bucuresti",
-            "position": "5",
-            "matches_played": "9",
-            "wins": "5",
-            "draws": "3",
-            "losses": "1",
-            "goals_for": "15",
-            "goals_against": "8",
-            "goal_difference": "+7",
-            "points": "18",
-            "btts": {
-                "Yes": "44%"
-            },
-            "cards": {
-                "over_3_5": "67%",
-                "over_4_5": "22%",
-                "over_5_5": "11%"
-            },
-            "corners": {
-                "8.5": "78%",
-                "9.5": "44%",
-                "10.5": "44%",
-                "11.5": "33%",
-                "12.5": "22%",
-                "13.5": "22%",
-                "average": "10.33"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "44%",
-                "3.5": "25%"
-            }
-        },
-        {
             "team": "Unirea Slobozia",
             "position": "6",
-            "matches_played": "10",
+            "matches_played": "11",
             "wins": "5",
-            "draws": "2",
+            "draws": "3",
             "losses": "3",
-            "goals_for": "14",
-            "goals_against": "10",
+            "goals_for": "15",
+            "goals_against": "11",
             "goal_difference": "+4",
-            "points": "17",
+            "points": "18",
             "btts": {
-                "Yes": "40%"
+                "Yes": "45%"
             },
             "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "20%",
-                "over_5_5": "20%"
+                "over_3_5": "73%",
+                "over_4_5": "27%",
+                "over_5_5": "27%"
             },
             "corners": {
-                "8.5": "20%",
-                "9.5": "20%",
-                "10.5": "20%",
-                "11.5": "10%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "7.3"
+                "8.5": "27%",
+                "9.5": "27%",
+                "10.5": "27%",
+                "11.5": "18%",
+                "12.5": "9%",
+                "13.5": "9%",
+                "average": "8"
             },
             "goals": {
                 "1.5": "40%",
-                "2.5": "40%",
-                "3.5": "40%"
+                "2.5": "36%",
+                "3.5": "33%"
             }
         },
         {
             "team": "UTA Arad",
             "position": "7",
-            "matches_played": "10",
+            "matches_played": "11",
             "wins": "3",
-            "draws": "6",
+            "draws": "7",
             "losses": "1",
             "goals_for": "15",
             "goals_against": "14",
             "goal_difference": "+1",
-            "points": "15",
+            "points": "16",
             "btts": {
-                "Yes": "80%"
+                "Yes": "73%"
             },
             "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "50%"
+                "over_3_5": "82%",
+                "over_4_5": "64%",
+                "over_5_5": "55%"
             },
             "corners": {
-                "8.5": "80%",
-                "9.5": "40%",
-                "10.5": "30%",
-                "11.5": "10%",
-                "12.5": "10%",
-                "13.5": "10%",
-                "average": "9.5"
+                "8.5": "82%",
+                "9.5": "36%",
+                "10.5": "27%",
+                "11.5": "9%",
+                "12.5": "9%",
+                "13.5": "9%",
+                "average": "9.46"
             },
             "goals": {
-                "1.5": "60%",
-                "2.5": "40%",
+                "1.5": "50%",
+                "2.5": "36%",
                 "3.5": "20%"
             }
         },
         {
-            "team": "Universitatea Cluj",
+            "team": "Farul Constanta",
             "position": "8",
+            "matches_played": "11",
+            "wins": "4",
+            "draws": "3",
+            "losses": "4",
+            "goals_for": "13",
+            "goals_against": "14",
+            "goal_difference": "-1",
+            "points": "15",
+            "btts": {
+                "Yes": "73%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "64%",
+                "over_5_5": "55%"
+            },
+            "corners": {
+                "8.5": "82%",
+                "9.5": "73%",
+                "10.5": "64%",
+                "11.5": "45%",
+                "12.5": "36%",
+                "13.5": "27%",
+                "average": "11.36"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "45%",
+                "3.5": "33%"
+            }
+        },
+        {
+            "team": "Universitatea Cluj",
+            "position": "9",
             "matches_played": "10",
             "wins": "3",
             "draws": "4",
@@ -273,110 +307,110 @@
             }
         },
         {
-            "team": "Oţelul Galaţi",
-            "position": "9",
-            "matches_played": "10",
+            "team": "Otelul Galati",
+            "position": "10",
+            "matches_played": "11",
             "wins": "3",
             "draws": "4",
-            "losses": "3",
+            "losses": "4",
             "goals_for": "11",
-            "goals_against": "10",
-            "goal_difference": "+1",
+            "goals_against": "11",
+            "goal_difference": "0",
             "points": "13",
             "btts": {
-                "Yes": "50%"
+                "Yes": "45%"
             },
             "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "40%",
-                "over_5_5": "30%"
+                "over_3_5": "64%",
+                "over_4_5": "36%",
+                "over_5_5": "27%"
             },
             "corners": {
-                "8.5": "70%",
-                "9.5": "60%",
-                "10.5": "60%",
-                "11.5": "30%",
-                "12.5": "10%",
-                "13.5": "10%",
-                "average": "10.3"
+                "8.5": "64%",
+                "9.5": "55%",
+                "10.5": "55%",
+                "11.5": "27%",
+                "12.5": "9%",
+                "13.5": "9%",
+                "average": "10.09"
             },
             "goals": {
                 "1.5": "33%",
-                "2.5": "30%",
-                "3.5": "25%"
-            }
-        },
-        {
-            "team": "Farul Constanta",
-            "position": "10",
-            "matches_played": "9",
-            "wins": "4",
-            "draws": "1",
-            "losses": "4",
-            "goals_for": "11",
-            "goals_against": "12",
-            "goal_difference": "-1",
-            "points": "13",
-            "btts": {
-                "Yes": "67%"
-            },
-            "cards": {
-                "over_3_5": "67%",
-                "over_4_5": "56%",
-                "over_5_5": "56%"
-            },
-            "corners": {
-                "8.5": "78%",
-                "9.5": "67%",
-                "10.5": "56%",
-                "11.5": "33%",
-                "12.5": "22%",
-                "13.5": "11%",
-                "average": "10.67"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "56%",
-                "3.5": "40%"
+                "2.5": "27%",
+                "3.5": "20%"
             }
         },
         {
             "team": "Hermannstadt",
             "position": "11",
-            "matches_played": "10",
+            "matches_played": "11",
             "wins": "2",
             "draws": "4",
-            "losses": "4",
+            "losses": "5",
             "goals_for": "9",
-            "goals_against": "13",
-            "goal_difference": "-4",
+            "goals_against": "14",
+            "goal_difference": "-5",
             "points": "10",
             "btts": {
-                "Yes": "50%"
+                "Yes": "45%"
             },
             "cards": {
-                "over_3_5": "40%",
-                "over_4_5": "30%",
-                "over_5_5": "20%"
+                "over_3_5": "36%",
+                "over_4_5": "27%",
+                "over_5_5": "18%"
             },
             "corners": {
-                "8.5": "70%",
-                "9.5": "60%",
-                "10.5": "50%",
-                "11.5": "40%",
-                "12.5": "20%",
-                "13.5": "20%",
-                "average": "10.5"
+                "8.5": "64%",
+                "9.5": "55%",
+                "10.5": "45%",
+                "11.5": "36%",
+                "12.5": "18%",
+                "13.5": "18%",
+                "average": "10"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "30%",
+                "1.5": "40%",
+                "2.5": "27%",
                 "3.5": "17%"
             }
         },
         {
-            "team": "CFR Cluj",
+            "team": "FCSB",
             "position": "12",
+            "matches_played": "11",
+            "wins": "2",
+            "draws": "4",
+            "losses": "5",
+            "goals_for": "13",
+            "goals_against": "18",
+            "goal_difference": "-5",
+            "points": "10",
+            "btts": {
+                "Yes": "64%"
+            },
+            "cards": {
+                "over_3_5": "64%",
+                "over_4_5": "36%",
+                "over_5_5": "27%"
+            },
+            "corners": {
+                "8.5": "64%",
+                "9.5": "64%",
+                "10.5": "55%",
+                "11.5": "45%",
+                "12.5": "45%",
+                "13.5": "36%",
+                "average": "11.72"
+            },
+            "goals": {
+                "1.5": "67%",
+                "2.5": "45%",
+                "3.5": "20%"
+            }
+        },
+        {
+            "team": "CFR Cluj",
+            "position": "13",
             "matches_played": "9",
             "wins": "1",
             "draws": "5",
@@ -409,138 +443,104 @@
             }
         },
         {
-            "team": "FCSB",
-            "position": "13",
-            "matches_played": "10",
-            "wins": "1",
-            "draws": "4",
-            "losses": "5",
-            "goals_for": "12",
-            "goals_against": "18",
-            "goal_difference": "-6",
-            "points": "7",
-            "btts": {
-                "Yes": "70%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "40%",
-                "over_5_5": "30%"
-            },
-            "corners": {
-                "8.5": "70%",
-                "9.5": "70%",
-                "10.5": "60%",
-                "11.5": "50%",
-                "12.5": "50%",
-                "13.5": "40%",
-                "average": "12.1"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "50%",
-                "3.5": "25%"
-            }
-        },
-        {
             "team": "Petrolul 52",
             "position": "14",
-            "matches_played": "10",
+            "matches_played": "11",
             "wins": "1",
             "draws": "3",
-            "losses": "6",
+            "losses": "7",
             "goals_for": "7",
-            "goals_against": "13",
-            "goal_difference": "-6",
+            "goals_against": "14",
+            "goal_difference": "-7",
             "points": "6",
             "btts": {
-                "Yes": "40%"
+                "Yes": "36%"
             },
             "cards": {
-                "over_3_5": "50%",
-                "over_4_5": "20%",
-                "over_5_5": "20%"
+                "over_3_5": "55%",
+                "over_4_5": "18%",
+                "over_5_5": "18%"
             },
             "corners": {
-                "8.5": "60%",
-                "9.5": "40%",
-                "10.5": "30%",
+                "8.5": "55%",
+                "9.5": "36%",
+                "10.5": "27%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "8.7"
+                "average": "8.18"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "40%",
+                "1.5": "40%",
+                "2.5": "36%",
                 "3.5": "33%"
             }
         },
         {
             "team": "Csikszereda",
             "position": "15",
-            "matches_played": "8",
+            "matches_played": "10",
             "wins": "0",
-            "draws": "3",
+            "draws": "5",
             "losses": "5",
-            "goals_for": "8",
-            "goals_against": "20",
+            "goals_for": "10",
+            "goals_against": "22",
             "goal_difference": "-12",
-            "points": "3",
+            "points": "5",
             "btts": {
-                "Yes": "88%"
+                "Yes": "80%"
             },
             "cards": {
-                "over_3_5": "63%",
-                "over_4_5": "38%",
-                "over_5_5": "38%"
+                "over_3_5": "70%",
+                "over_4_5": "40%",
+                "over_5_5": "40%"
             },
             "corners": {
-                "8.5": "50%",
-                "9.5": "38%",
-                "10.5": "38%",
-                "11.5": "25%",
-                "12.5": "13%",
-                "13.5": "13%",
-                "average": "8.13"
+                "8.5": "60%",
+                "9.5": "40%",
+                "10.5": "30%",
+                "11.5": "20%",
+                "12.5": "10%",
+                "13.5": "10%",
+                "average": "8.4"
             },
             "goals": {
-                "1.5": "100%",
-                "2.5": "63%",
-                "3.5": "40%"
+                "1.5": "75%",
+                "2.5": "60%",
+                "3.5": "50%"
             }
         },
         {
             "team": "Metaloglobus",
             "position": "16",
-            "matches_played": "9",
+            "matches_played": "10",
             "wins": "0",
-            "draws": "2",
+            "draws": "3",
             "losses": "7",
-            "goals_for": "8",
-            "goals_against": "19",
+            "goals_for": "10",
+            "goals_against": "21",
             "goal_difference": "-11",
-            "points": "2",
+            "points": "3",
             "btts": {
-                "Yes": "78%"
+                "Yes": "80%"
             },
             "cards": {
-                "over_3_5": "44%",
-                "over_4_5": "33%",
-                "over_5_5": "11%"
+                "over_3_5": "50%",
+                "over_4_5": "30%",
+                "over_5_5": "10%"
             },
             "corners": {
-                "8.5": "44%",
-                "9.5": "33%",
-                "10.5": "22%",
-                "11.5": "22%",
-                "12.5": "22%",
-                "13.5": "11%",
-                "average": "9.44"
+                "8.5": "50%",
+                "9.5": "40%",
+                "10.5": "20%",
+                "11.5": "20%",
+                "12.5": "20%",
+                "13.5": "10%",
+                "average": "9.5"
             },
             "goals": {
                 "1.5": "100%",
-                "2.5": "78%",
+                "2.5": "80%",
                 "3.5": "60%"
             }
         }
