@@ -3,30 +3,336 @@
         {
             "team": "Galatasaray",
             "position": "1",
-            "matches_played": "5",
-            "wins": "5",
+            "matches_played": "7",
+            "wins": "7",
             "draws": "0",
             "losses": "0",
-            "goals_for": "15",
-            "goals_against": "1",
-            "goal_difference": "+14",
+            "goals_for": "19",
+            "goals_against": "2",
+            "goal_difference": "+17",
+            "points": "21",
+            "btts": {
+                "Yes": "29%"
+            },
+            "cards": {
+                "over_3_5": "57%",
+                "over_4_5": "29%",
+                "over_5_5": "14%"
+            },
+            "corners": {
+                "8.5": "57%",
+                "9.5": "43%",
+                "10.5": "29%",
+                "11.5": "29%",
+                "12.5": "14%",
+                "13.5": "0%",
+                "average": "8.86"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "71%",
+                "3.5": "50%"
+            }
+        },
+        {
+            "team": "Fenerbahçe",
+            "position": "2",
+            "matches_played": "7",
+            "wins": "4",
+            "draws": "3",
+            "losses": "0",
+            "goals_for": "12",
+            "goals_against": "5",
+            "goal_difference": "+7",
             "points": "15",
             "btts": {
-                "Yes": "20%"
+                "Yes": "57%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "57%",
+                "over_5_5": "57%"
+            },
+            "corners": {
+                "8.5": "43%",
+                "9.5": "14%",
+                "10.5": "14%",
+                "11.5": "14%",
+                "12.5": "14%",
+                "13.5": "0%",
+                "average": "8.43"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "43%",
+                "3.5": "33%"
+            }
+        },
+        {
+            "team": "Trabzonspor",
+            "position": "3",
+            "matches_played": "7",
+            "wins": "4",
+            "draws": "2",
+            "losses": "1",
+            "goals_for": "9",
+            "goals_against": "6",
+            "goal_difference": "+3",
+            "points": "14",
+            "btts": {
+                "Yes": "43%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "57%",
+                "over_5_5": "29%"
+            },
+            "corners": {
+                "8.5": "71%",
+                "9.5": "43%",
+                "10.5": "14%",
+                "11.5": "14%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "9.43"
+            },
+            "goals": {
+                "1.5": "33%",
+                "2.5": "14%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "Göztepe",
+            "position": "4",
+            "matches_played": "7",
+            "wins": "3",
+            "draws": "4",
+            "losses": "0",
+            "goals_for": "10",
+            "goals_against": "2",
+            "goal_difference": "+8",
+            "points": "13",
+            "btts": {
+                "Yes": "29%"
+            },
+            "cards": {
+                "over_3_5": "57%",
+                "over_4_5": "29%",
+                "over_5_5": "14%"
+            },
+            "corners": {
+                "8.5": "86%",
+                "9.5": "57%",
+                "10.5": "29%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "9.71"
+            },
+            "goals": {
+                "1.5": "33%",
+                "2.5": "29%",
+                "3.5": "25%"
+            }
+        },
+        {
+            "team": "Samsunspor",
+            "position": "5",
+            "matches_played": "7",
+            "wins": "3",
+            "draws": "3",
+            "losses": "1",
+            "goals_for": "10",
+            "goals_against": "8",
+            "goal_difference": "+2",
+            "points": "12",
+            "btts": {
+                "Yes": "71%"
+            },
+            "cards": {
+                "over_3_5": "86%",
+                "over_4_5": "71%",
+                "over_5_5": "43%"
+            },
+            "corners": {
+                "8.5": "71%",
+                "9.5": "57%",
+                "10.5": "57%",
+                "11.5": "29%",
+                "12.5": "14%",
+                "13.5": "14%",
+                "average": "10.85"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "57%",
+                "3.5": "33%"
+            }
+        },
+        {
+            "team": "Gaziantep",
+            "position": "6",
+            "matches_played": "7",
+            "wins": "3",
+            "draws": "2",
+            "losses": "2",
+            "goals_for": "10",
+            "goals_against": "12",
+            "goal_difference": "-2",
+            "points": "11",
+            "btts": {
+                "Yes": "57%"
+            },
+            "cards": {
+                "over_3_5": "100%",
+                "over_4_5": "100%",
+                "over_5_5": "100%"
+            },
+            "corners": {
+                "8.5": "57%",
+                "9.5": "29%",
+                "10.5": "29%",
+                "11.5": "29%",
+                "12.5": "29%",
+                "13.5": "29%",
+                "average": "10.29"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "71%",
+                "3.5": "67%"
+            }
+        },
+        {
+            "team": "Konyaspor",
+            "position": "7",
+            "matches_played": "6",
+            "wins": "3",
+            "draws": "1",
+            "losses": "2",
+            "goals_for": "12",
+            "goals_against": "8",
+            "goal_difference": "+4",
+            "points": "10",
+            "btts": {
+                "Yes": "83%"
+            },
+            "cards": {
+                "over_3_5": "67%",
+                "over_4_5": "33%",
+                "over_5_5": "33%"
+            },
+            "corners": {
+                "8.5": "67%",
+                "9.5": "67%",
+                "10.5": "50%",
+                "11.5": "33%",
+                "12.5": "33%",
+                "13.5": "17%",
+                "average": "10.66"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "83%",
+                "3.5": "67%"
+            }
+        },
+        {
+            "team": "Antalyaspor",
+            "position": "8",
+            "matches_played": "7",
+            "wins": "3",
+            "draws": "1",
+            "losses": "3",
+            "goals_for": "7",
+            "goals_against": "8",
+            "goal_difference": "-1",
+            "points": "10",
+            "btts": {
+                "Yes": "57%"
+            },
+            "cards": {
+                "over_3_5": "57%",
+                "over_4_5": "57%",
+                "over_5_5": "43%"
+            },
+            "corners": {
+                "8.5": "57%",
+                "9.5": "57%",
+                "10.5": "43%",
+                "11.5": "14%",
+                "12.5": "14%",
+                "13.5": "14%",
+                "average": "9.71"
+            },
+            "goals": {
+                "1.5": "67%",
+                "2.5": "43%",
+                "3.5": "25%"
+            }
+        },
+        {
+            "team": "Alanyaspor",
+            "position": "9",
+            "matches_played": "7",
+            "wins": "2",
+            "draws": "3",
+            "losses": "2",
+            "goals_for": "8",
+            "goals_against": "7",
+            "goal_difference": "+1",
+            "points": "9",
+            "btts": {
+                "Yes": "57%"
+            },
+            "cards": {
+                "over_3_5": "57%",
+                "over_4_5": "43%",
+                "over_5_5": "43%"
+            },
+            "corners": {
+                "8.5": "14%",
+                "9.5": "14%",
+                "10.5": "14%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "43%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "Besiktas",
+            "position": "10",
+            "matches_played": "5",
+            "wins": "3",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "8",
+            "goals_against": "7",
+            "goal_difference": "+1",
+            "points": "9",
+            "btts": {
+                "Yes": "40%"
             },
             "cards": {
                 "over_3_5": "80%",
                 "over_4_5": "40%",
-                "over_5_5": "20%"
+                "over_5_5": "40%"
             },
             "corners": {
-                "8.5": "60%",
-                "9.5": "40%",
-                "10.5": "40%",
+                "8.5": "80%",
+                "9.5": "60%",
+                "10.5": "60%",
                 "11.5": "40%",
-                "12.5": "20%",
-                "13.5": "0%",
-                "average": "9.2"
+                "12.5": "40%",
+                "13.5": "20%",
+                "average": "11.2"
             },
             "goals": {
                 "1.5": "100%",
@@ -35,492 +341,84 @@
             }
         },
         {
-            "team": "Göztepe",
-            "position": "2",
-            "matches_played": "6",
-            "wins": "3",
-            "draws": "3",
-            "losses": "0",
-            "goals_for": "10",
-            "goals_against": "2",
-            "goal_difference": "+8",
-            "points": "12",
+            "team": "Kasimpasa",
+            "position": "11",
+            "matches_played": "7",
+            "wins": "2",
+            "draws": "2",
+            "losses": "3",
+            "goals_for": "7",
+            "goals_against": "8",
+            "goal_difference": "-1",
+            "points": "8",
             "btts": {
-                "Yes": "33%"
+                "Yes": "57%"
             },
             "cards": {
-                "over_3_5": "67%",
-                "over_4_5": "33%",
-                "over_5_5": "17%"
+                "over_3_5": "86%",
+                "over_4_5": "57%",
+                "over_5_5": "57%"
             },
             "corners": {
-                "8.5": "83%",
-                "9.5": "67%",
-                "10.5": "33%",
-                "11.5": "0%",
-                "12.5": "0%",
+                "8.5": "57%",
+                "9.5": "43%",
+                "10.5": "14%",
+                "11.5": "14%",
+                "12.5": "14%",
                 "13.5": "0%",
-                "average": "9.83"
+                "average": "8.57"
             },
             "goals": {
-                "1.5": "33%",
-                "2.5": "33%",
+                "1.5": "50%",
+                "2.5": "43%",
                 "3.5": "33%"
             }
         },
         {
-            "team": "Fenerbahçe",
-            "position": "3",
+            "team": "Basaksehir",
+            "position": "12",
             "matches_played": "6",
-            "wins": "3",
+            "wins": "1",
             "draws": "3",
-            "losses": "0",
-            "goals_for": "10",
-            "goals_against": "5",
-            "goal_difference": "+5",
-            "points": "12",
-            "btts": {
-                "Yes": "67%"
-            },
-            "cards": {
-                "over_3_5": "67%",
-                "over_4_5": "50%",
-                "over_5_5": "50%"
-            },
-            "corners": {
-                "8.5": "50%",
-                "9.5": "17%",
-                "10.5": "17%",
-                "11.5": "17%",
-                "12.5": "17%",
-                "13.5": "0%",
-                "average": "8.5"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "50%",
-                "3.5": "33%"
-            }
-        },
-        {
-            "team": "Trabzonspor",
-            "position": "4",
-            "matches_played": "6",
-            "wins": "3",
-            "draws": "2",
-            "losses": "1",
-            "goals_for": "5",
-            "goals_against": "3",
-            "goal_difference": "+2",
-            "points": "11",
-            "btts": {
-                "Yes": "33%"
-            },
-            "cards": {
-                "over_3_5": "67%",
-                "over_4_5": "50%",
-                "over_5_5": "33%"
-            },
-            "corners": {
-                "8.5": "83%",
-                "9.5": "50%",
-                "10.5": "17%",
-                "11.5": "17%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "9.67"
-            },
-            "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Samsunspor",
-            "position": "5",
-            "matches_played": "6",
-            "wins": "3",
-            "draws": "2",
-            "losses": "1",
-            "goals_for": "8",
+            "losses": "2",
+            "goals_for": "6",
             "goals_against": "6",
-            "goal_difference": "+2",
-            "points": "11",
+            "goal_difference": "0",
+            "points": "6",
             "btts": {
                 "Yes": "67%"
             },
             "cards": {
                 "over_3_5": "83%",
-                "over_4_5": "67%",
-                "over_5_5": "33%"
-            },
-            "corners": {
-                "8.5": "67%",
-                "9.5": "50%",
-                "10.5": "50%",
-                "11.5": "17%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "9.33"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "50%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Antalyaspor",
-            "position": "6",
-            "matches_played": "6",
-            "wins": "3",
-            "draws": "1",
-            "losses": "2",
-            "goals_for": "7",
-            "goals_against": "6",
-            "goal_difference": "+1",
-            "points": "10",
-            "btts": {
-                "Yes": "67%"
-            },
-            "cards": {
-                "over_3_5": "50%",
                 "over_4_5": "50%",
-                "over_5_5": "33%"
+                "over_5_5": "50%"
             },
             "corners": {
-                "8.5": "67%",
+                "8.5": "83%",
                 "9.5": "67%",
-                "10.5": "50%",
-                "11.5": "17%",
-                "12.5": "17%",
-                "13.5": "17%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "50%",
-                "3.5": "33%"
-            }
-        },
-        {
-            "team": "Gaziantep",
-            "position": "7",
-            "matches_played": "6",
-            "wins": "3",
-            "draws": "1",
-            "losses": "2",
-            "goals_for": "8",
-            "goals_against": "10",
-            "goal_difference": "-2",
-            "points": "10",
-            "btts": {
-                "Yes": "50%"
-            },
-            "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
-                "over_5_5": "100%"
-            },
-            "corners": {
-                "8.5": "50%",
-                "9.5": "17%",
-                "10.5": "17%",
-                "11.5": "17%",
-                "12.5": "17%",
-                "13.5": "17%",
-                "average": "8.66"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "67%",
-                "3.5": "67%"
-            }
-        },
-        {
-            "team": "Alanyaspor",
-            "position": "8",
-            "matches_played": "6",
-            "wins": "2",
-            "draws": "3",
-            "losses": "1",
-            "goals_for": "8",
-            "goals_against": "6",
-            "goal_difference": "+2",
-            "points": "9",
-            "btts": {
-                "Yes": "67%"
-            },
-            "cards": {
-                "over_3_5": "67%",
-                "over_4_5": "50%",
-                "over_5_5": "50%"
-            },
-            "corners": {
-                "8.5": "17%",
-                "9.5": "17%",
-                "10.5": "17%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "7.17"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "50%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Konyaspor",
-            "position": "9",
-            "matches_played": "4",
-            "wins": "2",
-            "draws": "1",
-            "losses": "1",
-            "goals_for": "9",
-            "goals_against": "4",
-            "goal_difference": "+5",
-            "points": "7",
-            "btts": {
-                "Yes": "75%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "50%",
-                "over_5_5": "50%"
-            },
-            "corners": {
-                "8.5": "50%",
-                "9.5": "50%",
-                "10.5": "50%",
-                "11.5": "25%",
-                "12.5": "25%",
-                "13.5": "25%",
-                "average": "10.25"
-            },
-            "goals": {
-                "1.5": "100%",
-                "2.5": "75%",
-                "3.5": "50%"
-            }
-        },
-        {
-            "team": "Basaksehir",
-            "position": "10",
-            "matches_played": "5",
-            "wins": "1",
-            "draws": "3",
-            "losses": "1",
-            "goals_for": "5",
-            "goals_against": "4",
-            "goal_difference": "+1",
-            "points": "6",
-            "btts": {
-                "Yes": "60%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "60%"
-            },
-            "corners": {
-                "8.5": "80%",
-                "9.5": "60%",
-                "10.5": "60%",
-                "11.5": "40%",
-                "12.5": "20%",
-                "13.5": "20%",
-                "average": "10.8"
-            },
-            "goals": {
-                "1.5": "50%",
-                "2.5": "20%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Besiktas",
-            "position": "11",
-            "matches_played": "4",
-            "wins": "2",
-            "draws": "0",
-            "losses": "2",
-            "goals_for": "4",
-            "goals_against": "7",
-            "goal_difference": "-3",
-            "points": "6",
-            "btts": {
-                "Yes": "50%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "25%",
-                "over_5_5": "25%"
-            },
-            "corners": {
-                "8.5": "75%",
-                "9.5": "75%",
-                "10.5": "75%",
+                "10.5": "67%",
                 "11.5": "50%",
-                "12.5": "50%",
-                "13.5": "25%",
-                "average": "11.75"
+                "12.5": "33%",
+                "13.5": "17%",
+                "average": "11.17"
             },
             "goals": {
-                "1.5": "100%",
-                "2.5": "75%",
-                "3.5": "50%"
-            }
-        },
-        {
-            "team": "Kasimpasa",
-            "position": "12",
-            "matches_played": "6",
-            "wins": "1",
-            "draws": "2",
-            "losses": "3",
-            "goals_for": "5",
-            "goals_against": "7",
-            "goal_difference": "-2",
-            "points": "5",
-            "btts": {
-                "Yes": "50%"
-            },
-            "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "67%",
-                "over_5_5": "67%"
-            },
-            "corners": {
-                "8.5": "67%",
-                "9.5": "50%",
-                "10.5": "17%",
-                "11.5": "17%",
-                "12.5": "17%",
-                "13.5": "0%",
-                "average": "9.17"
-            },
-            "goals": {
-                "1.5": "33%",
+                "1.5": "67%",
                 "2.5": "33%",
-                "3.5": "33%"
+                "3.5": "0%"
             }
         },
         {
             "team": "Caykur Rizespor",
             "position": "13",
-            "matches_played": "5",
+            "matches_played": "6",
             "wins": "1",
             "draws": "2",
-            "losses": "2",
-            "goals_for": "3",
-            "goals_against": "7",
-            "goal_difference": "-4",
-            "points": "5",
-            "btts": {
-                "Yes": "40%"
-            },
-            "cards": {
-                "over_3_5": "60%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "corners": {
-                "8.5": "40%",
-                "9.5": "40%",
-                "10.5": "40%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8.2"
-            },
-            "goals": {
-                "1.5": "50%",
-                "2.5": "40%",
-                "3.5": "33%"
-            }
-        },
-        {
-            "team": "Kayserispor",
-            "position": "14",
-            "matches_played": "5",
-            "wins": "0",
-            "draws": "4",
-            "losses": "1",
-            "goals_for": "4",
-            "goals_against": "8",
-            "goal_difference": "-4",
-            "points": "4",
-            "btts": {
-                "Yes": "80%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "20%"
-            },
-            "corners": {
-                "8.5": "100%",
-                "9.5": "80%",
-                "10.5": "60%",
-                "11.5": "40%",
-                "12.5": "20%",
-                "13.5": "20%",
-                "average": "11.2"
-            },
-            "goals": {
-                "1.5": "50%",
-                "2.5": "20%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Eyupspor",
-            "position": "15",
-            "matches_played": "6",
-            "wins": "1",
-            "draws": "1",
-            "losses": "4",
-            "goals_for": "4",
-            "goals_against": "10",
-            "goal_difference": "-6",
-            "points": "4",
-            "btts": {
-                "Yes": "50%"
-            },
-            "cards": {
-                "over_3_5": "83%",
-                "over_4_5": "50%",
-                "over_5_5": "33%"
-            },
-            "corners": {
-                "8.5": "67%",
-                "9.5": "50%",
-                "10.5": "50%",
-                "11.5": "50%",
-                "12.5": "33%",
-                "13.5": "17%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "50%",
-                "3.5": "33%"
-            }
-        },
-        {
-            "team": "Gençlerbirliği",
-            "position": "16",
-            "matches_played": "6",
-            "wins": "1",
-            "draws": "0",
-            "losses": "5",
+            "losses": "3",
             "goals_for": "4",
             "goals_against": "9",
             "goal_difference": "-5",
-            "points": "3",
+            "points": "5",
             "btts": {
                 "Yes": "50%"
             },
@@ -530,52 +428,154 @@
                 "over_5_5": "33%"
             },
             "corners": {
-                "8.5": "50%",
-                "9.5": "50%",
-                "10.5": "50%",
-                "11.5": "17%",
-                "12.5": "17%",
-                "13.5": "17%",
-                "average": "8.83"
+                "8.5": "33%",
+                "9.5": "33%",
+                "10.5": "33%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7.66"
             },
             "goals": {
                 "1.5": "67%",
                 "2.5": "50%",
+                "3.5": "33%"
+            }
+        },
+        {
+            "team": "Eyupspor",
+            "position": "14",
+            "matches_played": "7",
+            "wins": "1",
+            "draws": "2",
+            "losses": "4",
+            "goals_for": "4",
+            "goals_against": "10",
+            "goal_difference": "-6",
+            "points": "5",
+            "btts": {
+                "Yes": "43%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "43%",
+                "over_5_5": "29%"
+            },
+            "corners": {
+                "8.5": "71%",
+                "9.5": "43%",
+                "10.5": "43%",
+                "11.5": "43%",
+                "12.5": "29%",
+                "13.5": "14%",
+                "average": "9.86"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "43%",
+                "3.5": "33%"
+            }
+        },
+        {
+            "team": "Kayserispor",
+            "position": "15",
+            "matches_played": "7",
+            "wins": "0",
+            "draws": "5",
+            "losses": "2",
+            "goals_for": "5",
+            "goals_against": "13",
+            "goal_difference": "-8",
+            "points": "5",
+            "btts": {
+                "Yes": "71%"
+            },
+            "cards": {
+                "over_3_5": "86%",
+                "over_4_5": "71%",
+                "over_5_5": "43%"
+            },
+            "corners": {
+                "8.5": "100%",
+                "9.5": "71%",
+                "10.5": "43%",
+                "11.5": "29%",
+                "12.5": "14%",
+                "13.5": "14%",
+                "average": "10.72"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "29%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "Gençlerbirliği",
+            "position": "16",
+            "matches_played": "7",
+            "wins": "1",
+            "draws": "1",
+            "losses": "5",
+            "goals_for": "5",
+            "goals_against": "10",
+            "goal_difference": "-5",
+            "points": "4",
+            "btts": {
+                "Yes": "57%"
+            },
+            "cards": {
+                "over_3_5": "57%",
+                "over_4_5": "57%",
+                "over_5_5": "43%"
+            },
+            "corners": {
+                "8.5": "57%",
+                "9.5": "57%",
+                "10.5": "43%",
+                "11.5": "14%",
+                "12.5": "14%",
+                "13.5": "14%",
+                "average": "9"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "43%",
                 "3.5": "33%"
             }
         },
         {
             "team": "Fatih Karagumruk",
             "position": "17",
-            "matches_played": "6",
+            "matches_played": "7",
             "wins": "1",
             "draws": "0",
-            "losses": "5",
-            "goals_for": "4",
-            "goals_against": "12",
-            "goal_difference": "-8",
+            "losses": "6",
+            "goals_for": "7",
+            "goals_against": "16",
+            "goal_difference": "-9",
             "points": "3",
             "btts": {
-                "Yes": "33%"
+                "Yes": "43%"
             },
             "cards": {
-                "over_3_5": "67%",
-                "over_4_5": "0%",
+                "over_3_5": "71%",
+                "over_4_5": "14%",
                 "over_5_5": "0%"
             },
             "corners": {
-                "8.5": "83%",
-                "9.5": "83%",
-                "10.5": "50%",
-                "11.5": "17%",
-                "12.5": "17%",
+                "8.5": "71%",
+                "9.5": "71%",
+                "10.5": "43%",
+                "11.5": "14%",
+                "12.5": "14%",
                 "13.5": "0%",
-                "average": "10.34"
+                "average": "10"
             },
             "goals": {
                 "1.5": "100%",
-                "2.5": "50%",
-                "3.5": "0%"
+                "2.5": "57%",
+                "3.5": "25%"
             }
         },
         {
