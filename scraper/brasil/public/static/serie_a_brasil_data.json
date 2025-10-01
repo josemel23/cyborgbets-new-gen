@@ -207,35 +207,35 @@
         {
             "team": "São Paulo",
             "position": "7",
-            "matches_played": "24",
+            "matches_played": "25",
             "wins": "9",
             "draws": "8",
-            "losses": "7",
+            "losses": "8",
             "goals_for": "27",
-            "goals_against": "24",
-            "goal_difference": "+3",
+            "goals_against": "25",
+            "goal_difference": "+2",
             "points": "35",
             "btts": {
-                "Yes": "46%"
+                "Yes": "44%"
             },
             "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "54%",
-                "over_5_5": "42%"
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "40%"
             },
             "corners": {
-                "8.5": "63%",
-                "9.5": "54%",
-                "10.5": "38%",
-                "11.5": "25%",
-                "12.5": "21%",
-                "13.5": "17%",
-                "average": "10.13"
+                "8.5": "64%",
+                "9.5": "56%",
+                "10.5": "36%",
+                "11.5": "24%",
+                "12.5": "20%",
+                "13.5": "16%",
+                "average": "10.12"
             },
             "goals": {
                 "1.5": "42%",
-                "2.5": "38%",
-                "3.5": "33%"
+                "2.5": "36%",
+                "3.5": "31%"
             }
         },
         {
@@ -341,8 +341,42 @@
             }
         },
         {
-            "team": "Vasco da Gama",
+            "team": "Ceará",
             "position": "11",
+            "matches_played": "24",
+            "wins": "8",
+            "draws": "7",
+            "losses": "9",
+            "goals_for": "23",
+            "goals_against": "23",
+            "goal_difference": "0",
+            "points": "31",
+            "btts": {
+                "Yes": "42%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "54%",
+                "over_5_5": "33%"
+            },
+            "corners": {
+                "8.5": "54%",
+                "9.5": "46%",
+                "10.5": "33%",
+                "11.5": "29%",
+                "12.5": "25%",
+                "13.5": "13%",
+                "average": "9.46"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "29%",
+                "3.5": "8%"
+            }
+        },
+        {
+            "team": "Vasco da Gama",
+            "position": "12",
             "matches_played": "25",
             "wins": "8",
             "draws": "6",
@@ -375,8 +409,42 @@
             }
         },
         {
+            "team": "Atlético MG",
+            "position": "13",
+            "matches_played": "24",
+            "wins": "7",
+            "draws": "8",
+            "losses": "9",
+            "goals_for": "22",
+            "goals_against": "26",
+            "goal_difference": "-4",
+            "points": "29",
+            "btts": {
+                "Yes": "42%"
+            },
+            "cards": {
+                "over_3_5": "92%",
+                "over_4_5": "75%",
+                "over_5_5": "58%"
+            },
+            "corners": {
+                "8.5": "75%",
+                "9.5": "63%",
+                "10.5": "54%",
+                "11.5": "42%",
+                "12.5": "29%",
+                "13.5": "29%",
+                "average": "11.13"
+            },
+            "goals": {
+                "1.5": "36%",
+                "2.5": "33%",
+                "3.5": "31%"
+            }
+        },
+        {
             "team": "Corinthians",
-            "position": "12",
+            "position": "14",
             "matches_played": "25",
             "wins": "7",
             "draws": "8",
@@ -405,74 +473,6 @@
             "goals": {
                 "1.5": "50%",
                 "2.5": "40%",
-                "3.5": "31%"
-            }
-        },
-        {
-            "team": "Ceará",
-            "position": "13",
-            "matches_played": "23",
-            "wins": "7",
-            "draws": "7",
-            "losses": "9",
-            "goals_for": "22",
-            "goals_against": "23",
-            "goal_difference": "-1",
-            "points": "28",
-            "btts": {
-                "Yes": "43%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "52%",
-                "over_5_5": "35%"
-            },
-            "corners": {
-                "8.5": "52%",
-                "9.5": "43%",
-                "10.5": "35%",
-                "11.5": "30%",
-                "12.5": "26%",
-                "13.5": "13%",
-                "average": "9.43"
-            },
-            "goals": {
-                "1.5": "55%",
-                "2.5": "30%",
-                "3.5": "8%"
-            }
-        },
-        {
-            "team": "Atlético MG",
-            "position": "14",
-            "matches_played": "23",
-            "wins": "7",
-            "draws": "7",
-            "losses": "9",
-            "goals_for": "22",
-            "goals_against": "26",
-            "goal_difference": "-4",
-            "points": "28",
-            "btts": {
-                "Yes": "43%"
-            },
-            "cards": {
-                "over_3_5": "91%",
-                "over_4_5": "74%",
-                "over_5_5": "57%"
-            },
-            "corners": {
-                "8.5": "78%",
-                "9.5": "65%",
-                "10.5": "57%",
-                "11.5": "43%",
-                "12.5": "30%",
-                "13.5": "30%",
-                "average": "11.35"
-            },
-            "goals": {
-                "1.5": "40%",
-                "2.5": "35%",
                 "3.5": "31%"
             }
         },
@@ -545,8 +545,42 @@
             }
         },
         {
-            "team": "Vitória",
+            "team": "Juventude",
             "position": "17",
+            "matches_played": "25",
+            "wins": "6",
+            "draws": "5",
+            "losses": "14",
+            "goals_for": "20",
+            "goals_against": "46",
+            "goal_difference": "-26",
+            "points": "23",
+            "btts": {
+                "Yes": "36%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "48%",
+                "over_5_5": "36%"
+            },
+            "corners": {
+                "8.5": "48%",
+                "9.5": "36%",
+                "10.5": "28%",
+                "11.5": "16%",
+                "12.5": "8%",
+                "13.5": "4%",
+                "average": "8.76"
+            },
+            "goals": {
+                "1.5": "58%",
+                "2.5": "44%",
+                "3.5": "31%"
+            }
+        },
+        {
+            "team": "Vitória",
+            "position": "18",
             "matches_played": "25",
             "wins": "4",
             "draws": "10",
@@ -575,40 +609,6 @@
             "goals": {
                 "1.5": "50%",
                 "2.5": "40%",
-                "3.5": "31%"
-            }
-        },
-        {
-            "team": "Juventude",
-            "position": "18",
-            "matches_played": "24",
-            "wins": "6",
-            "draws": "4",
-            "losses": "14",
-            "goals_for": "20",
-            "goals_against": "46",
-            "goal_difference": "-26",
-            "points": "22",
-            "btts": {
-                "Yes": "38%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "46%",
-                "over_5_5": "33%"
-            },
-            "corners": {
-                "8.5": "50%",
-                "9.5": "38%",
-                "10.5": "29%",
-                "11.5": "17%",
-                "12.5": "8%",
-                "13.5": "4%",
-                "average": "8.87"
-            },
-            "goals": {
-                "1.5": "64%",
-                "2.5": "46%",
                 "3.5": "31%"
             }
         },
