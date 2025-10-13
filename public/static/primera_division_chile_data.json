@@ -35,8 +35,42 @@
             }
         },
         {
-            "team": "O'Higgins",
+            "team": "Universidad Católica",
             "position": "2",
+            "matches_played": "23",
+            "wins": "12",
+            "draws": "6",
+            "losses": "5",
+            "goals_for": "35",
+            "goals_against": "22",
+            "goal_difference": "+13",
+            "points": "42",
+            "btts": {
+                "Yes": "52%"
+            },
+            "cards": {
+                "over_3_5": "96%",
+                "over_4_5": "83%",
+                "over_5_5": "61%"
+            },
+            "corners": {
+                "8.5": "48%",
+                "9.5": "30%",
+                "10.5": "30%",
+                "11.5": "26%",
+                "12.5": "9%",
+                "13.5": "4%",
+                "average": "8.69"
+            },
+            "goals": {
+                "1.5": "55%",
+                "2.5": "39%",
+                "3.5": "25%"
+            }
+        },
+        {
+            "team": "O'Higgins",
+            "position": "3",
             "matches_played": "23",
             "wins": "11",
             "draws": "8",
@@ -70,7 +104,7 @@
         },
         {
             "team": "Audax Italiano",
-            "position": "3",
+            "position": "4",
             "matches_played": "23",
             "wins": "12",
             "draws": "4",
@@ -104,7 +138,7 @@
         },
         {
             "team": "Universidad Chile",
-            "position": "4",
+            "position": "5",
             "matches_played": "22",
             "wins": "12",
             "draws": "3",
@@ -134,40 +168,6 @@
                 "1.5": "73%",
                 "2.5": "55%",
                 "3.5": "36%"
-            }
-        },
-        {
-            "team": "Universidad Católica",
-            "position": "5",
-            "matches_played": "22",
-            "wins": "11",
-            "draws": "6",
-            "losses": "5",
-            "goals_for": "34",
-            "goals_against": "22",
-            "goal_difference": "+12",
-            "points": "39",
-            "btts": {
-                "Yes": "55%"
-            },
-            "cards": {
-                "over_3_5": "95%",
-                "over_4_5": "82%",
-                "over_5_5": "59%"
-            },
-            "corners": {
-                "8.5": "50%",
-                "9.5": "32%",
-                "10.5": "32%",
-                "11.5": "27%",
-                "12.5": "9%",
-                "13.5": "5%",
-                "average": "8.91"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "41%",
-                "3.5": "25%"
             }
         },
         {
@@ -275,68 +275,68 @@
         {
             "team": "Huachipato",
             "position": "9",
-            "matches_played": "23",
+            "matches_played": "24",
             "wins": "9",
             "draws": "4",
-            "losses": "10",
-            "goals_for": "34",
-            "goals_against": "34",
-            "goal_difference": "0",
+            "losses": "11",
+            "goals_for": "36",
+            "goals_against": "38",
+            "goal_difference": "-2",
             "points": "31",
             "btts": {
-                "Yes": "48%"
+                "Yes": "50%"
             },
             "cards": {
                 "over_3_5": "83%",
-                "over_4_5": "65%",
-                "over_5_5": "52%"
+                "over_4_5": "67%",
+                "over_5_5": "54%"
             },
             "corners": {
-                "8.5": "70%",
-                "9.5": "52%",
-                "10.5": "52%",
-                "11.5": "52%",
-                "12.5": "35%",
+                "8.5": "71%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "33%",
                 "13.5": "17%",
-                "average": "10.09"
+                "average": "10.04"
             },
             "goals": {
                 "1.5": "64%",
-                "2.5": "61%",
-                "3.5": "58%"
+                "2.5": "63%",
+                "3.5": "62%"
             }
         },
         {
             "team": "Ñublense",
             "position": "10",
-            "matches_played": "22",
+            "matches_played": "23",
             "wins": "7",
             "draws": "8",
-            "losses": "7",
+            "losses": "8",
             "goals_for": "23",
-            "goals_against": "28",
-            "goal_difference": "-5",
+            "goals_against": "29",
+            "goal_difference": "-6",
             "points": "29",
             "btts": {
-                "Yes": "50%"
+                "Yes": "48%"
             },
             "cards": {
-                "over_3_5": "86%",
-                "over_4_5": "73%",
-                "over_5_5": "50%"
+                "over_3_5": "87%",
+                "over_4_5": "74%",
+                "over_5_5": "52%"
             },
             "corners": {
-                "8.5": "41%",
-                "9.5": "36%",
-                "10.5": "27%",
-                "11.5": "27%",
-                "12.5": "14%",
-                "13.5": "14%",
-                "average": "8.73"
+                "8.5": "39%",
+                "9.5": "35%",
+                "10.5": "26%",
+                "11.5": "26%",
+                "12.5": "13%",
+                "13.5": "13%",
+                "average": "8.52"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "36%",
+                "1.5": "45%",
+                "2.5": "35%",
                 "3.5": "25%"
             }
         },
@@ -443,8 +443,42 @@
             }
         },
         {
-            "team": "Deportes Limache",
+            "team": "Unión Española",
             "position": "14",
+            "matches_played": "24",
+            "wins": "6",
+            "draws": "2",
+            "losses": "16",
+            "goals_for": "28",
+            "goals_against": "46",
+            "goal_difference": "-18",
+            "points": "20",
+            "btts": {
+                "Yes": "42%"
+            },
+            "cards": {
+                "over_3_5": "83%",
+                "over_4_5": "75%",
+                "over_5_5": "63%"
+            },
+            "corners": {
+                "8.5": "75%",
+                "9.5": "54%",
+                "10.5": "50%",
+                "11.5": "46%",
+                "12.5": "38%",
+                "13.5": "21%",
+                "average": "10.75"
+            },
+            "goals": {
+                "1.5": "69%",
+                "2.5": "63%",
+                "3.5": "55%"
+            }
+        },
+        {
+            "team": "Deportes Limache",
+            "position": "15",
             "matches_played": "23",
             "wins": "4",
             "draws": "6",
@@ -474,40 +508,6 @@
                 "1.5": "73%",
                 "2.5": "52%",
                 "3.5": "33%"
-            }
-        },
-        {
-            "team": "Unión Española",
-            "position": "15",
-            "matches_played": "23",
-            "wins": "5",
-            "draws": "2",
-            "losses": "16",
-            "goals_for": "24",
-            "goals_against": "44",
-            "goal_difference": "-20",
-            "points": "17",
-            "btts": {
-                "Yes": "39%"
-            },
-            "cards": {
-                "over_3_5": "83%",
-                "over_4_5": "74%",
-                "over_5_5": "61%"
-            },
-            "corners": {
-                "8.5": "74%",
-                "9.5": "57%",
-                "10.5": "52%",
-                "11.5": "48%",
-                "12.5": "39%",
-                "13.5": "22%",
-                "average": "10.82"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "61%",
-                "3.5": "55%"
             }
         },
         {
@@ -545,4 +545,4 @@
             }
         }
     ]
-,"last_updated":"2025-10-07T00:08:40Z"}
+,"last_updated":"2025-10-13T13:31:23Z"}
