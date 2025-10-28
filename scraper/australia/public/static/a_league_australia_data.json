@@ -1,23 +1,57 @@
 {
     "teams": [
         {
-            "team": "Brisbane Roar",
+            "team": "Melbourne City",
             "position": "1",
-            "matches_played": "1",
+            "matches_played": "2",
             "wins": "1",
-            "draws": "0",
+            "draws": "1",
+            "losses": "0",
+            "goals_for": "5",
+            "goals_against": "1",
+            "goal_difference": "+4",
+            "points": "4",
+            "btts": {
+                "Yes": "50%"
+            },
+            "cards": {
+                "over_3_5": "100%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "50%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "Auckland",
+            "position": "2",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "1",
             "losses": "0",
             "goals_for": "1",
             "goals_against": "0",
             "goal_difference": "+1",
-            "points": "3",
+            "points": "4",
             "btts": {
                 "Yes": "0%"
             },
             "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
-                "over_5_5": "100%"
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
             },
             "corners": {
                 "8.5": "0%",
@@ -26,7 +60,7 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "6"
+                "average": "5"
             },
             "goals": {
                 "1.5": "0%",
@@ -35,15 +69,49 @@
             }
         },
         {
-            "team": "Adelaide United",
-            "position": "2",
-            "matches_played": "1",
+            "team": "Wellington Phoenix",
+            "position": "3",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "1",
+            "losses": "0",
+            "goals_for": "4",
+            "goals_against": "3",
+            "goal_difference": "+1",
+            "points": "4",
+            "btts": {
+                "Yes": "100%"
+            },
+            "cards": {
+                "over_3_5": "50%",
+                "over_4_5": "50%",
+                "over_5_5": "50%"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "5"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "100%",
+                "3.5": "100%"
+            }
+        },
+        {
+            "team": "Newcastle Jets FC",
+            "position": "4",
+            "matches_played": "2",
             "wins": "1",
             "draws": "0",
-            "losses": "0",
-            "goals_for": "2",
-            "goals_against": "1",
-            "goal_difference": "+1",
+            "losses": "1",
+            "goals_for": "7",
+            "goals_against": "5",
+            "goal_difference": "+2",
             "points": "3",
             "btts": {
                 "Yes": "100%"
@@ -52,6 +120,74 @@
                 "over_3_5": "0%",
                 "over_4_5": "0%",
                 "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "50%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "100%",
+                "3.5": "100%"
+            }
+        },
+        {
+            "team": "Sydney",
+            "position": "5",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "3",
+            "goals_against": "2",
+            "goal_difference": "+1",
+            "points": "3",
+            "btts": {
+                "Yes": "50%"
+            },
+            "cards": {
+                "over_3_5": "0%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "50%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7.5"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "50%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "Brisbane Roar",
+            "position": "6",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "2",
+            "goals_against": "2",
+            "goal_difference": "0",
+            "points": "3",
+            "btts": {
+                "Yes": "50%"
+            },
+            "cards": {
+                "over_3_5": "50%",
+                "over_4_5": "50%",
+                "over_5_5": "50%"
             },
             "corners": {
                 "8.5": "0%",
@@ -64,23 +200,91 @@
             },
             "goals": {
                 "1.5": "100%",
-                "2.5": "100%",
+                "2.5": "50%",
                 "3.5": "0%"
             }
         },
         {
-            "team": "Central Coast Mariners",
-            "position": "3",
-            "matches_played": "1",
+            "team": "Macarthur",
+            "position": "7",
+            "matches_played": "2",
             "wins": "1",
             "draws": "0",
-            "losses": "0",
-            "goals_for": "3",
+            "losses": "1",
+            "goals_for": "2",
             "goals_against": "2",
-            "goal_difference": "+1",
+            "goal_difference": "0",
+            "points": "3",
+            "btts": {
+                "Yes": "50%"
+            },
+            "cards": {
+                "over_3_5": "100%",
+                "over_4_5": "50%",
+                "over_5_5": "50%"
+            },
+            "corners": {
+                "8.5": "50%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
+                "13.5": "0%",
+                "average": "9.5"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "50%",
+                "3.5": "0%"
+            }
+        },
+        {
+            "team": "Adelaide United",
+            "position": "8",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "3",
+            "goals_against": "3",
+            "goal_difference": "0",
             "points": "3",
             "btts": {
                 "Yes": "100%"
+            },
+            "cards": {
+                "over_3_5": "50%",
+                "over_4_5": "0%",
+                "over_5_5": "0%"
+            },
+            "corners": {
+                "8.5": "50%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
+                "13.5": "0%",
+                "average": "9.5"
+            },
+            "goals": {
+                "1.5": "100%",
+                "2.5": "100%",
+                "3.5": "100%"
+            }
+        },
+        {
+            "team": "Central Coast Mariners",
+            "position": "9",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "3",
+            "goals_against": "4",
+            "goal_difference": "-1",
+            "points": "3",
+            "btts": {
+                "Yes": "50%"
             },
             "cards": {
                 "over_3_5": "0%",
@@ -89,46 +293,46 @@
             },
             "corners": {
                 "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "100%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "12"
+                "average": "10.5"
             },
             "goals": {
                 "1.5": "100%",
-                "2.5": "100%",
+                "2.5": "50%",
                 "3.5": "0%"
             }
         },
         {
-            "team": "Auckland",
-            "position": "4",
-            "matches_played": "1",
+            "team": "Western Sydney Wanderers",
+            "position": "10",
+            "matches_played": "2",
             "wins": "0",
             "draws": "1",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
+            "losses": "1",
+            "goals_for": "1",
+            "goals_against": "2",
+            "goal_difference": "-1",
             "points": "1",
             "btts": {
-                "Yes": "0%"
+                "Yes": "50%"
             },
             "cards": {
-                "over_3_5": "0%",
+                "over_3_5": "50%",
                 "over_4_5": "0%",
                 "over_5_5": "0%"
             },
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
+                "8.5": "50%",
+                "9.5": "50%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "2"
+                "average": "9"
             },
             "goals": {
                 "1.5": "0%",
@@ -138,221 +342,17 @@
         },
         {
             "team": "Melbourne Victory FC",
-            "position": "5",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "1",
-            "btts": {
-                "Yes": "0%"
-            },
-            "cards": {
-                "over_3_5": "0%",
-                "over_4_5": "0%",
-                "over_5_5": "0%"
-            },
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "2"
-            },
-            "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Melbourne City FC",
-            "position": "6",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "1",
-            "goal_difference": "0",
-            "points": "1",
-            "btts": {
-                "Yes": "100%"
-            },
-            "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "0%",
-                "over_5_5": "0%"
-            },
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Western Sydney Wanderers",
-            "position": "7",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "1",
-            "goal_difference": "0",
-            "points": "1",
-            "btts": {
-                "Yes": "100%"
-            },
-            "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "0%",
-                "over_5_5": "0%"
-            },
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Perth Glory FC",
-            "position": "8",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "2",
-            "goals_against": "2",
-            "goal_difference": "0",
-            "points": "1",
-            "btts": {
-                "Yes": "100%"
-            },
-            "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
-                "over_5_5": "100%"
-            },
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "4"
-            },
-            "goals": {
-                "1.5": "100%",
-                "2.5": "100%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Wellington Phoenix",
-            "position": "9",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "2",
-            "goals_against": "2",
-            "goal_difference": "0",
-            "points": "1",
-            "btts": {
-                "Yes": "100%"
-            },
-            "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
-                "over_5_5": "100%"
-            },
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "4"
-            },
-            "goals": {
-                "1.5": "100%",
-                "2.5": "100%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Macarthur",
-            "position": "10",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "0",
-            "goals_against": "1",
-            "goal_difference": "-1",
-            "points": "0",
-            "btts": {
-                "Yes": "0%"
-            },
-            "cards": {
-                "over_3_5": "100%",
-                "over_4_5": "100%",
-                "over_5_5": "100%"
-            },
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "6"
-            },
-            "goals": {
-                "1.5": "0%",
-                "2.5": "0%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Sydney FC",
             "position": "11",
-            "matches_played": "1",
+            "matches_played": "2",
             "wins": "0",
-            "draws": "0",
+            "draws": "1",
             "losses": "1",
-            "goals_for": "1",
-            "goals_against": "2",
-            "goal_difference": "-1",
-            "points": "0",
+            "goals_for": "2",
+            "goals_against": "5",
+            "goal_difference": "-3",
+            "points": "1",
             "btts": {
-                "Yes": "100%"
+                "Yes": "50%"
             },
             "cards": {
                 "over_3_5": "0%",
@@ -366,46 +366,46 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "6"
+                "average": "5"
             },
             "goals": {
                 "1.5": "100%",
-                "2.5": "100%",
+                "2.5": "50%",
                 "3.5": "0%"
             }
         },
         {
-            "team": "Newcastle Jets FC",
+            "team": "Perth Glory",
             "position": "12",
-            "matches_played": "1",
+            "matches_played": "2",
             "wins": "0",
-            "draws": "0",
+            "draws": "1",
             "losses": "1",
             "goals_for": "2",
-            "goals_against": "3",
-            "goal_difference": "-1",
-            "points": "0",
+            "goals_against": "6",
+            "goal_difference": "-4",
+            "points": "1",
             "btts": {
-                "Yes": "100%"
+                "Yes": "50%"
             },
             "cards": {
-                "over_3_5": "0%",
-                "over_4_5": "0%",
-                "over_5_5": "0%"
+                "over_3_5": "100%",
+                "over_4_5": "50%",
+                "over_5_5": "50%"
             },
             "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "100%",
+                "8.5": "50%",
+                "9.5": "50%",
+                "10.5": "0%",
+                "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "12"
+                "average": "7"
             },
             "goals": {
                 "1.5": "100%",
                 "2.5": "100%",
-                "3.5": "0%"
+                "3.5": "100%"
             }
         }
     ]
