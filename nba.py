@@ -170,15 +170,6 @@ def fetch_nba_player_stats(driver):
                     # Intentar múltiples patrones de extracción
                     extracted_count = 0
                     
-                    # MODO DEBUG: Comentar estas líneas cuando funcione
-                    # print(f"\n  DEBUG - Primeras 3 filas de tabla con {len(rows)} filas:")
-                    # for debug_idx in range(1, min(4, len(rows))):
-                    #     cols = [col.text.strip() for col in rows[debug_idx].find_elements(By.TAG_NAME, "td")]
-                    #     print(f"\n  Fila {debug_idx} ({len(cols)} columnas):")
-                    #     for i, col_text in enumerate(cols):
-                    #         print(f"    [{i}] = '{col_text}'")
-                    # print("\n  COPIA ESTO Y COMPARTELO ↑↑↑\n")
-                    
                     # ESTRATEGIA 1: Buscar patrón Nombre-Equipo-Posición-Stats
                     for row_idx in range(1, min(len(rows), 51)):
                         try:
@@ -270,80 +261,80 @@ def fetch_nba_player_stats(driver):
         print(f"✗ Error: {str(e)}")
         save_json_data({"players": []}, "nba_player_stats.json")
 
+# === CLASIFICACIÓN NBA (TyC Sports) ===
 def fetch_nba_standings(driver):
-    print("\n=== Extrayendo clasificación NBA ===")
+    print("\n=== Extrayendo clasificación NBA (TyC Sports) ===")
     standings = {"Eastern Conference": [], "Western Conference": []}
-    
+
     try:
-        driver.get("https://www.espn.com.co/basquetbol/nba/posiciones")
-        time.sleep(10)
-        
-        tables = driver.find_elements(By.TAG_NAME, "table")
-        
-        if len(tables) < 2:
+        driver.get("https://www.tycsports.com/estadisticas/estados-unidos/nba/tabla-de-posiciones.html")
+        time.sleep(8)
+
+        tables = driver.find_elements(By.CSS_SELECTOR, "table")
+
+        if not tables or len(tables) < 2:
+            print("✗ No se encontraron tablas en la página de TyC Sports")
+            save_json_data(standings, "nba_standings.json")
             return
-        
-        for conf_idx, conference in enumerate(["Eastern Conference", "Western Conference"]):
-            rows = tables[conf_idx].find_elements(By.TAG_NAME, "tr")[1:]
-            
+
+        for idx, conference_name in enumerate(["Eastern Conference", "Western Conference"]):
+            rows = tables[idx].find_elements(By.CSS_SELECTOR, "tbody tr")
+            position_counter = 1
+
+            print(f"\nProcesando {conference_name} ({len(rows)} filas)")
+
             for row in rows:
                 try:
                     columns = row.find_elements(By.TAG_NAME, "td")
+                    if len(columns) < 8:
+                        continue
+
+                    # Extraer según el orden real de TyC Sports
+                    position = columns[0].text.strip()
+                    team_full_text = columns[2].text.strip()
                     
-                    if columns and len(columns) >= 13:
-                        combined_text = columns[0].text.strip()
-                        team_name = extract_team_name(combined_text)
-                        
-                        position_match = re.match(r"(\d+)", combined_text)
-                        position = position_match.group(1).zfill(2) if position_match else "00"
-                        
-                        team_abbr = get_team_abbr(team_name)
-                        
-                        win_pct = columns[3].text.strip()
-                        if win_pct and win_pct != "--":
-                            try:
-                                if win_pct.startswith("."):
-                                    win_pct = str(float(win_pct) * 100)
-                                elif win_pct == "1.000":
-                                    win_pct = "100.0"
-                            except:
-                                pass
-                        
-                        team_data = {
-                            "team": team_name,
-                            "position": position,
-                            "wins": columns[1].text.strip(),
-                            "losses": columns[2].text.strip(),
-                            "points_for": "",
-                            "points_against": "",
-                            "win_percentage": win_pct,
-                            "logo_url": NBA_TEAM_LOGOS.get(team_abbr, "")
-                        }
-                        
-                        try:
-                            decimal_values = []
-                            for i in range(len(columns)):
-                                text = columns[i].text.strip()
-                                if re.match(r"^\d{2,3}\.\d$", text):
-                                    decimal_values.append(text)
-                            
-                            if len(decimal_values) >= 2:
-                                team_data["points_for"] = decimal_values[-2]
-                                team_data["points_against"] = decimal_values[-1]
-                        except:
-                            pass
-                        
-                        standings[conference].append(team_data)
-                        
+                    # Eliminar las siglas del inicio (ej: "CHI Chicago Bulls" -> "Chicago Bulls")
+                    team_name = ' '.join(team_full_text.split()[1:]) if len(team_full_text.split()) > 1 else team_full_text
+                    
+                    wins = columns[5].text.strip()
+                    losses = columns[6].text.strip()
+                    points_for = columns[7].text.strip()
+                    points_against = columns[8].text.strip()
+                    win_pct = columns[3].text.strip() if len(columns) > 8 else ""
+
+                    # Calcular promedio de puntos por partido
+                    total_games = int(wins) + int(losses)
+                    avg_points_for = round(float(points_for) / total_games, 1) if total_games > 0 else 0
+                    avg_points_against = round(float(points_against) / total_games, 1) if total_games > 0 else 0
+
+                    abbr = get_team_abbr(team_name)
+
+                    team_data = {
+                        "team": team_name,
+                        "position": position.zfill(2),
+                        "wins": wins,
+                        "losses": losses,
+                        "points_for": str(avg_points_for),
+                        "points_against": str(avg_points_against),
+                        "win_percentage": win_pct,
+                        "logo_url": NBA_TEAM_LOGOS.get(abbr, "")
+                    }
+
+                    standings[conference_name].append(team_data)
+                    position_counter += 1
+
                 except Exception as e:
+                    print(f"Error fila {position_counter}: {e}")
                     continue
-            
-            print(f"✓ {conference}: {len(standings[conference])} equipos")
-        
+
+            print(f"✓ {conference_name}: {len(standings[conference_name])} equipos extraídos")
+
         save_json_data(standings, "nba_standings.json")
-        
+
     except Exception as e:
-        print(f"✗ Error: {str(e)}")
+        print(f"✗ Error extrayendo standings: {str(e)}")
+        save_json_data(standings, "nba_standings.json")
+
 
 def fetch_nba_games(driver):
     print("\n=== Extrayendo calendario de juegos ===")
