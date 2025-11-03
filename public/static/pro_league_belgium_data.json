@@ -3,546 +3,546 @@
         {
             "team": "Union Saint-Gilloise",
             "position": "1",
-            "matches_played": "11",
-            "wins": "8",
+            "matches_played": "13",
+            "wins": "10",
             "draws": "2",
             "losses": "1",
-            "goals_for": "22",
-            "goals_against": "6",
-            "goal_difference": "+16",
-            "points": "26",
+            "goals_for": "28",
+            "goals_against": "7",
+            "goal_difference": "21",
+            "points": "32",
             "btts": {
-                "Yes": "36%"
+                "Yes": "2"
             },
             "cards": {
-                "over_3_5": "64%",
-                "over_4_5": "64%",
-                "over_5_5": "27%"
+                "over_3_5": "10",
+                "over_4_5": "2",
+                "over_5_5": "1"
             },
             "corners": {
-                "8.5": "64%",
-                "9.5": "64%",
-                "10.5": "45%",
-                "11.5": "27%",
-                "12.5": "27%",
-                "13.5": "9%",
-                "average": "9.73"
+                "8.5": "62 %",
+                "9.5": "62 %",
+                "10.5": "46 %",
+                "11.5": "23 %",
+                "12.5": "23 %",
+                "13.5": "8 %",
+                "average": "9.62"
             },
             "goals": {
-                "1.5": "60%",
-                "2.5": "45%",
-                "3.5": "33%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Club Brugge",
             "position": "2",
-            "matches_played": "11",
-            "wins": "7",
+            "matches_played": "13",
+            "wins": "9",
             "draws": "2",
             "losses": "2",
-            "goals_for": "18",
-            "goals_against": "11",
-            "goal_difference": "+7",
-            "points": "23",
+            "goals_for": "21",
+            "goals_against": "12",
+            "goal_difference": "9",
+            "points": "29",
             "btts": {
-                "Yes": "45%"
+                "Yes": "2"
             },
             "cards": {
-                "over_3_5": "64%",
-                "over_4_5": "45%",
-                "over_5_5": "27%"
+                "over_3_5": "9",
+                "over_4_5": "2",
+                "over_5_5": "2"
             },
             "corners": {
-                "8.5": "82%",
-                "9.5": "73%",
-                "10.5": "64%",
-                "11.5": "55%",
-                "12.5": "45%",
-                "13.5": "36%",
-                "average": "11.18"
+                "8.5": "77 %",
+                "9.5": "69 %",
+                "10.5": "62 %",
+                "11.5": "46 %",
+                "12.5": "38 %",
+                "13.5": "31 %",
+                "average": "10.77"
             },
             "goals": {
-                "1.5": "40%",
-                "2.5": "36%",
-                "3.5": "33%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "RSC Anderlecht",
             "position": "3",
-            "matches_played": "11",
-            "wins": "5",
+            "matches_played": "13",
+            "wins": "6",
             "draws": "4",
-            "losses": "2",
-            "goals_for": "17",
-            "goals_against": "11",
-            "goal_difference": "+6",
-            "points": "19",
+            "losses": "3",
+            "goals_for": "20",
+            "goals_against": "13",
+            "goal_difference": "7",
+            "points": "22",
             "btts": {
-                "Yes": "45%"
+                "Yes": "4"
             },
             "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "64%",
-                "over_5_5": "55%"
+                "over_3_5": "6",
+                "over_4_5": "4",
+                "over_5_5": "3"
             },
             "corners": {
-                "8.5": "82%",
-                "9.5": "73%",
-                "10.5": "27%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "9.73"
+                "8.5": "85 %",
+                "9.5": "77 %",
+                "10.5": "38 %",
+                "11.5": "8 %",
+                "12.5": "8 %",
+                "13.5": "8 %",
+                "average": "10.15"
             },
             "goals": {
-                "1.5": "33%",
-                "2.5": "27%",
-                "3.5": "20%"
-            }
-        },
-        {
-            "team": "KV Mechelen",
-            "position": "4",
-            "matches_played": "11",
-            "wins": "5",
-            "draws": "4",
-            "losses": "2",
-            "goals_for": "16",
-            "goals_against": "12",
-            "goal_difference": "+4",
-            "points": "19",
-            "btts": {
-                "Yes": "73%"
-            },
-            "cards": {
-                "over_3_5": "64%",
-                "over_4_5": "27%",
-                "over_5_5": "9%"
-            },
-            "corners": {
-                "8.5": "73%",
-                "9.5": "73%",
-                "10.5": "64%",
-                "11.5": "64%",
-                "12.5": "64%",
-                "13.5": "45%",
-                "average": "12.36"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "45%",
-                "3.5": "33%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Sint-Truiden",
-            "position": "5",
-            "matches_played": "11",
-            "wins": "5",
+            "position": "4",
+            "matches_played": "13",
+            "wins": "6",
             "draws": "3",
-            "losses": "3",
-            "goals_for": "17",
-            "goals_against": "14",
-            "goal_difference": "+3",
-            "points": "18",
+            "losses": "4",
+            "goals_for": "18",
+            "goals_against": "16",
+            "goal_difference": "2",
+            "points": "21",
             "btts": {
-                "Yes": "64%"
+                "Yes": "3"
             },
             "cards": {
-                "over_3_5": "45%",
-                "over_4_5": "36%",
-                "over_5_5": "18%"
+                "over_3_5": "6",
+                "over_4_5": "3",
+                "over_5_5": "4"
             },
             "corners": {
-                "8.5": "73%",
-                "9.5": "55%",
-                "10.5": "45%",
-                "11.5": "18%",
-                "12.5": "18%",
-                "13.5": "9%",
-                "average": "9.73"
+                "8.5": "77 %",
+                "9.5": "62 %",
+                "10.5": "46 %",
+                "11.5": "15 %",
+                "12.5": "15 %",
+                "13.5": "8 %",
+                "average": "9.85"
             },
             "goals": {
-                "1.5": "83%",
-                "2.5": "55%",
-                "3.5": "20%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
-            "team": "Zulte-Waregem",
-            "position": "6",
-            "matches_played": "11",
+            "team": "KV Mechelen",
+            "position": "5",
+            "matches_played": "13",
             "wins": "5",
-            "draws": "2",
-            "losses": "4",
-            "goals_for": "17",
-            "goals_against": "14",
-            "goal_difference": "+3",
-            "points": "17",
+            "draws": "5",
+            "losses": "3",
+            "goals_for": "18",
+            "goals_against": "16",
+            "goal_difference": "2",
+            "points": "20",
             "btts": {
-                "Yes": "55%"
+                "Yes": "5"
             },
             "cards": {
-                "over_3_5": "55%",
-                "over_4_5": "55%",
-                "over_5_5": "27%"
+                "over_3_5": "5",
+                "over_4_5": "5",
+                "over_5_5": "3"
             },
             "corners": {
-                "8.5": "73%",
-                "9.5": "64%",
-                "10.5": "64%",
-                "11.5": "55%",
-                "12.5": "45%",
-                "13.5": "27%",
-                "average": "11.72"
+                "8.5": "69 %",
+                "9.5": "69 %",
+                "10.5": "62 %",
+                "11.5": "54 %",
+                "12.5": "54 %",
+                "13.5": "38 %",
+                "average": "11.92"
             },
             "goals": {
-                "1.5": "80%",
-                "2.5": "45%",
-                "3.5": "17%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "KAA Gent",
-            "position": "7",
-            "matches_played": "11",
-            "wins": "5",
+            "position": "6",
+            "matches_played": "13",
+            "wins": "6",
             "draws": "2",
-            "losses": "4",
-            "goals_for": "18",
-            "goals_against": "17",
-            "goal_difference": "+1",
-            "points": "17",
+            "losses": "5",
+            "goals_for": "22",
+            "goals_against": "21",
+            "goal_difference": "1",
+            "points": "20",
             "btts": {
-                "Yes": "73%"
+                "Yes": "2"
             },
             "cards": {
-                "over_3_5": "55%",
-                "over_4_5": "55%",
-                "over_5_5": "36%"
+                "over_3_5": "6",
+                "over_4_5": "2",
+                "over_5_5": "5"
             },
             "corners": {
-                "8.5": "64%",
-                "9.5": "64%",
-                "10.5": "45%",
-                "11.5": "45%",
-                "12.5": "36%",
-                "13.5": "18%",
-                "average": "10.36"
+                "8.5": "62 %",
+                "9.5": "54 %",
+                "10.5": "38 %",
+                "11.5": "38 %",
+                "12.5": "31 %",
+                "13.5": "15 %",
+                "average": "10.08"
             },
             "goals": {
-                "1.5": "67%",
-                "2.5": "64%",
-                "3.5": "60%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "KRC Genk",
-            "position": "8",
-            "matches_played": "11",
-            "wins": "4",
-            "draws": "3",
+            "position": "7",
+            "matches_played": "13",
+            "wins": "5",
+            "draws": "4",
             "losses": "4",
-            "goals_for": "16",
-            "goals_against": "16",
-            "goal_difference": "0",
-            "points": "15",
+            "goals_for": "18",
+            "goals_against": "17",
+            "goal_difference": "1",
+            "points": "19",
             "btts": {
-                "Yes": "91%"
+                "Yes": "4"
             },
             "cards": {
-                "over_3_5": "82%",
-                "over_4_5": "73%",
-                "over_5_5": "55%"
+                "over_3_5": "5",
+                "over_4_5": "4",
+                "over_5_5": "4"
             },
             "corners": {
-                "8.5": "64%",
-                "9.5": "45%",
-                "10.5": "36%",
-                "11.5": "27%",
-                "12.5": "18%",
-                "13.5": "9%",
-                "average": "9.73"
+                "8.5": "62 %",
+                "9.5": "46 %",
+                "10.5": "38 %",
+                "11.5": "31 %",
+                "12.5": "15 %",
+                "13.5": "8 %",
+                "average": "9.77"
             },
             "goals": {
-                "1.5": "83%",
-                "2.5": "73%",
-                "3.5": "60%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
-            "team": "KVC Westerlo",
-            "position": "9",
-            "matches_played": "11",
-            "wins": "4",
-            "draws": "2",
+            "team": "Zulte-Waregem",
+            "position": "8",
+            "matches_played": "13",
+            "wins": "5",
+            "draws": "3",
             "losses": "5",
-            "goals_for": "18",
-            "goals_against": "20",
-            "goal_difference": "-2",
-            "points": "14",
+            "goals_for": "19",
+            "goals_against": "19",
+            "goal_difference": "0",
+            "points": "18",
             "btts": {
-                "Yes": "36%"
+                "Yes": "3"
             },
             "cards": {
-                "over_3_5": "55%",
-                "over_4_5": "36%",
-                "over_5_5": "9%"
+                "over_3_5": "5",
+                "over_4_5": "3",
+                "over_5_5": "5"
             },
             "corners": {
-                "8.5": "73%",
-                "9.5": "55%",
-                "10.5": "55%",
-                "11.5": "27%",
-                "12.5": "9%",
-                "13.5": "0%",
-                "average": "9.82"
+                "8.5": "62 %",
+                "9.5": "54 %",
+                "10.5": "54 %",
+                "11.5": "46 %",
+                "12.5": "38 %",
+                "13.5": "23 %",
+                "average": "10.69"
             },
             "goals": {
-                "1.5": "67%",
-                "2.5": "45%",
-                "3.5": "20%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "RAAL La Louvière",
+            "position": "9",
+            "matches_played": "13",
+            "wins": "4",
+            "draws": "5",
+            "losses": "4",
+            "goals_for": "10",
+            "goals_against": "11",
+            "goal_difference": "-1",
+            "points": "17",
+            "btts": {
+                "Yes": "5"
+            },
+            "cards": {
+                "over_3_5": "4",
+                "over_4_5": "5",
+                "over_5_5": "4"
+            },
+            "corners": {
+                "8.5": "38 %",
+                "9.5": "31 %",
+                "10.5": "23 %",
+                "11.5": "15 %",
+                "12.5": "8 %",
+                "13.5": "0 %",
+                "average": "7.84"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Standard Liege",
             "position": "10",
-            "matches_played": "11",
-            "wins": "4",
+            "matches_played": "13",
+            "wins": "5",
             "draws": "2",
-            "losses": "5",
-            "goals_for": "10",
-            "goals_against": "13",
-            "goal_difference": "-3",
-            "points": "14",
+            "losses": "6",
+            "goals_for": "13",
+            "goals_against": "18",
+            "goal_difference": "-5",
+            "points": "17",
             "btts": {
-                "Yes": "36%"
+                "Yes": "2"
             },
             "cards": {
-                "over_3_5": "82%",
-                "over_4_5": "73%",
-                "over_5_5": "64%"
+                "over_3_5": "5",
+                "over_4_5": "2",
+                "over_5_5": "6"
             },
             "corners": {
-                "8.5": "45%",
-                "9.5": "36%",
-                "10.5": "27%",
-                "11.5": "27%",
-                "12.5": "27%",
-                "13.5": "18%",
-                "average": "9.82"
+                "8.5": "46 %",
+                "9.5": "31 %",
+                "10.5": "23 %",
+                "11.5": "23 %",
+                "12.5": "23 %",
+                "13.5": "15 %",
+                "average": "9.62"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "36%",
-                "3.5": "20%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
-            "team": "RAAL La Louvière",
+            "team": "KVC Westerlo",
             "position": "11",
-            "matches_played": "11",
-            "wins": "3",
-            "draws": "4",
-            "losses": "4",
-            "goals_for": "7",
-            "goals_against": "9",
-            "goal_difference": "-2",
-            "points": "13",
+            "matches_played": "13",
+            "wins": "4",
+            "draws": "3",
+            "losses": "6",
+            "goals_for": "19",
+            "goals_against": "22",
+            "goal_difference": "-3",
+            "points": "15",
             "btts": {
-                "Yes": "27%"
+                "Yes": "3"
             },
             "cards": {
-                "over_3_5": "36%",
-                "over_4_5": "27%",
-                "over_5_5": "9%"
+                "over_3_5": "4",
+                "over_4_5": "3",
+                "over_5_5": "6"
             },
             "corners": {
-                "8.5": "36%",
-                "9.5": "27%",
-                "10.5": "18%",
-                "11.5": "9%",
-                "12.5": "9%",
-                "13.5": "0%",
-                "average": "7.64"
+                "8.5": "69 %",
+                "9.5": "54 %",
+                "10.5": "54 %",
+                "11.5": "31 %",
+                "12.5": "15 %",
+                "13.5": "8 %",
+                "average": "10"
             },
             "goals": {
-                "1.5": "60%",
-                "2.5": "27%",
-                "3.5": "0%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Sporting Charleroi",
             "position": "12",
-            "matches_played": "11",
-            "wins": "3",
+            "matches_played": "13",
+            "wins": "4",
             "draws": "3",
-            "losses": "5",
-            "goals_for": "14",
-            "goals_against": "17",
-            "goal_difference": "-3",
-            "points": "12",
+            "losses": "6",
+            "goals_for": "16",
+            "goals_against": "20",
+            "goal_difference": "-4",
+            "points": "15",
             "btts": {
-                "Yes": "73%"
+                "Yes": "3"
             },
             "cards": {
-                "over_3_5": "55%",
-                "over_4_5": "36%",
-                "over_5_5": "36%"
+                "over_3_5": "4",
+                "over_4_5": "3",
+                "over_5_5": "6"
             },
             "corners": {
-                "8.5": "27%",
-                "9.5": "18%",
-                "10.5": "18%",
-                "11.5": "18%",
-                "12.5": "9%",
-                "13.5": "9%",
-                "average": "8.09"
+                "8.5": "38 %",
+                "9.5": "23 %",
+                "10.5": "23 %",
+                "11.5": "23 %",
+                "12.5": "15 %",
+                "13.5": "15 %",
+                "average": "8.62"
             },
             "goals": {
-                "1.5": "67%",
-                "2.5": "55%",
-                "3.5": "40%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Cercle Brugge",
             "position": "13",
-            "matches_played": "11",
+            "matches_played": "13",
             "wins": "2",
-            "draws": "5",
-            "losses": "4",
-            "goals_for": "15",
-            "goals_against": "16",
-            "goal_difference": "-1",
-            "points": "11",
+            "draws": "6",
+            "losses": "5",
+            "goals_for": "17",
+            "goals_against": "19",
+            "goal_difference": "-2",
+            "points": "12",
             "btts": {
-                "Yes": "55%"
+                "Yes": "6"
             },
             "cards": {
-                "over_3_5": "55%",
-                "over_4_5": "27%",
-                "over_5_5": "9%"
+                "over_3_5": "2",
+                "over_4_5": "6",
+                "over_5_5": "5"
             },
             "corners": {
-                "8.5": "55%",
-                "9.5": "55%",
-                "10.5": "55%",
-                "11.5": "36%",
-                "12.5": "18%",
-                "13.5": "18%",
-                "average": "10"
+                "8.5": "46 %",
+                "9.5": "46 %",
+                "10.5": "46 %",
+                "11.5": "31 %",
+                "12.5": "15 %",
+                "13.5": "15 %",
+                "average": "9.16"
             },
             "goals": {
-                "1.5": "67%",
-                "2.5": "45%",
-                "3.5": "20%"
-            }
-        },
-        {
-            "team": "Royal Antwerp FC",
-            "position": "14",
-            "matches_played": "11",
-            "wins": "2",
-            "draws": "5",
-            "losses": "4",
-            "goals_for": "10",
-            "goals_against": "13",
-            "goal_difference": "-3",
-            "points": "11",
-            "btts": {
-                "Yes": "64%"
-            },
-            "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "73%",
-                "over_5_5": "45%"
-            },
-            "corners": {
-                "8.5": "45%",
-                "9.5": "27%",
-                "10.5": "18%",
-                "11.5": "9%",
-                "12.5": "9%",
-                "13.5": "9%",
-                "average": "8.91"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "27%",
-                "3.5": "0%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "OH Leuven",
-            "position": "15",
-            "matches_played": "11",
-            "wins": "2",
-            "draws": "2",
+            "position": "14",
+            "matches_played": "13",
+            "wins": "3",
+            "draws": "3",
             "losses": "7",
-            "goals_for": "8",
-            "goals_against": "20",
-            "goal_difference": "-12",
-            "points": "8",
+            "goals_for": "13",
+            "goals_against": "21",
+            "goal_difference": "-8",
+            "points": "12",
             "btts": {
-                "Yes": "45%"
+                "Yes": "3"
             },
             "cards": {
-                "over_3_5": "82%",
-                "over_4_5": "55%",
-                "over_5_5": "55%"
+                "over_3_5": "3",
+                "over_4_5": "3",
+                "over_5_5": "7"
             },
             "corners": {
-                "8.5": "55%",
-                "9.5": "55%",
-                "10.5": "45%",
-                "11.5": "36%",
-                "12.5": "9%",
-                "13.5": "9%",
-                "average": "9.64"
+                "8.5": "54 %",
+                "9.5": "46 %",
+                "10.5": "38 %",
+                "11.5": "31 %",
+                "12.5": "8 %",
+                "13.5": "8 %",
+                "average": "9.46"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "45%",
-                "3.5": "40%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Royal Antwerp FC",
+            "position": "15",
+            "matches_played": "13",
+            "wins": "2",
+            "draws": "5",
+            "losses": "6",
+            "goals_for": "10",
+            "goals_against": "15",
+            "goal_difference": "-5",
+            "points": "11",
+            "btts": {
+                "Yes": "5"
+            },
+            "cards": {
+                "over_3_5": "2",
+                "over_4_5": "5",
+                "over_5_5": "6"
+            },
+            "corners": {
+                "8.5": "46 %",
+                "9.5": "31 %",
+                "10.5": "15 %",
+                "11.5": "8 %",
+                "12.5": "8 %",
+                "13.5": "8 %",
+                "average": "8.77"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "FCV Dender EH",
             "position": "16",
-            "matches_played": "11",
+            "matches_played": "13",
             "wins": "0",
-            "draws": "3",
-            "losses": "8",
-            "goals_for": "4",
-            "goals_against": "18",
-            "goal_difference": "-14",
-            "points": "3",
+            "draws": "4",
+            "losses": "9",
+            "goals_for": "6",
+            "goals_against": "21",
+            "goal_difference": "-15",
+            "points": "4",
             "btts": {
-                "Yes": "36%"
+                "Yes": "4"
             },
             "cards": {
-                "over_3_5": "45%",
-                "over_4_5": "36%",
-                "over_5_5": "27%"
+                "over_3_5": "0",
+                "over_4_5": "4",
+                "over_5_5": "9"
             },
             "corners": {
-                "8.5": "36%",
-                "9.5": "18%",
-                "10.5": "9%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "7.73"
+                "8.5": "46 %",
+                "9.5": "31 %",
+                "10.5": "23 %",
+                "11.5": "8 %",
+                "12.5": "8 %",
+                "13.5": "8 %",
+                "average": "8.46"
             },
             "goals": {
-                "1.5": "60%",
-                "2.5": "36%",
-                "3.5": "17%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         }
     ]
-,"last_updated":"2025-10-28T13:48:40Z"}
+,"last_updated":"2025-11-03T17:34:44Z"}
