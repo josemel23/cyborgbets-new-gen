@@ -3,546 +3,546 @@
         {
             "team": "Viking",
             "position": "1",
-            "matches_played": "24",
-            "wins": "16",
+            "matches_played": "27",
+            "wins": "19",
             "draws": "5",
             "losses": "3",
-            "goals_for": "58",
-            "goals_against": "32",
-            "goal_difference": "+26",
-            "points": "53",
+            "goals_for": "68",
+            "goals_against": "35",
+            "goal_difference": "33",
+            "points": "62",
             "btts": {
-                "Yes": "71%"
+                "Yes": "5"
             },
             "cards": {
-                "over_3_5": "54%",
-                "over_4_5": "29%",
-                "over_5_5": "21%"
+                "over_3_5": "19",
+                "over_4_5": "5",
+                "over_5_5": "3"
             },
             "corners": {
-                "8.5": "75%",
-                "9.5": "75%",
-                "10.5": "63%",
-                "11.5": "54%",
-                "12.5": "50%",
-                "13.5": "46%",
-                "average": "12.55"
+                "8.5": "74 %",
+                "9.5": "70 %",
+                "10.5": "59 %",
+                "11.5": "52 %",
+                "12.5": "48 %",
+                "13.5": "44 %",
+                "average": "12.37"
             },
             "goals": {
-                "1.5": "75%",
-                "2.5": "75%",
-                "3.5": "75%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Bodo/Glimt",
             "position": "2",
-            "matches_played": "23",
-            "wins": "16",
+            "matches_played": "27",
+            "wins": "19",
             "draws": "4",
-            "losses": "3",
-            "goals_for": "61",
-            "goals_against": "20",
-            "goal_difference": "+41",
-            "points": "52",
+            "losses": "4",
+            "goals_for": "73",
+            "goals_against": "27",
+            "goal_difference": "46",
+            "points": "61",
             "btts": {
-                "Yes": "52%"
+                "Yes": "4"
             },
             "cards": {
-                "over_3_5": "30%",
-                "over_4_5": "13%",
-                "over_5_5": "9%"
+                "over_3_5": "19",
+                "over_4_5": "4",
+                "over_5_5": "4"
             },
             "corners": {
-                "8.5": "70%",
-                "9.5": "65%",
-                "10.5": "57%",
-                "11.5": "39%",
-                "12.5": "22%",
-                "13.5": "22%",
-                "average": "10.83"
+                "8.5": "67 %",
+                "9.5": "63 %",
+                "10.5": "56 %",
+                "11.5": "41 %",
+                "12.5": "26 %",
+                "13.5": "26 %",
+                "average": "10.66"
             },
             "goals": {
-                "1.5": "67%",
-                "2.5": "65%",
-                "3.5": "64%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Brann",
             "position": "3",
-            "matches_played": "23",
-            "wins": "14",
+            "matches_played": "27",
+            "wins": "16",
             "draws": "4",
-            "losses": "5",
-            "goals_for": "42",
-            "goals_against": "33",
-            "goal_difference": "+9",
-            "points": "46",
+            "losses": "7",
+            "goals_for": "51",
+            "goals_against": "40",
+            "goal_difference": "11",
+            "points": "52",
             "btts": {
-                "Yes": "57%"
+                "Yes": "4"
             },
             "cards": {
-                "over_3_5": "52%",
-                "over_4_5": "35%",
-                "over_5_5": "26%"
+                "over_3_5": "16",
+                "over_4_5": "4",
+                "over_5_5": "7"
             },
             "corners": {
-                "8.5": "87%",
-                "9.5": "78%",
-                "10.5": "52%",
-                "11.5": "48%",
-                "12.5": "26%",
-                "13.5": "26%",
-                "average": "11.65"
+                "8.5": "81 %",
+                "9.5": "74 %",
+                "10.5": "52 %",
+                "11.5": "48 %",
+                "12.5": "30 %",
+                "13.5": "26 %",
+                "average": "11.34"
             },
             "goals": {
-                "1.5": "75%",
-                "2.5": "74%",
-                "3.5": "73%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Tromso",
             "position": "4",
-            "matches_played": "24",
-            "wins": "14",
+            "matches_played": "27",
+            "wins": "16",
             "draws": "3",
-            "losses": "7",
-            "goals_for": "38",
-            "goals_against": "29",
-            "goal_difference": "+9",
-            "points": "45",
+            "losses": "8",
+            "goals_for": "46",
+            "goals_against": "34",
+            "goal_difference": "12",
+            "points": "51",
             "btts": {
-                "Yes": "54%"
+                "Yes": "3"
             },
             "cards": {
-                "over_3_5": "63%",
-                "over_4_5": "38%",
-                "over_5_5": "13%"
+                "over_3_5": "16",
+                "over_4_5": "3",
+                "over_5_5": "8"
             },
             "corners": {
-                "8.5": "46%",
-                "9.5": "46%",
-                "10.5": "42%",
-                "11.5": "21%",
-                "12.5": "17%",
-                "13.5": "4%",
-                "average": "9.05"
+                "8.5": "44 %",
+                "9.5": "41 %",
+                "10.5": "37 %",
+                "11.5": "19 %",
+                "12.5": "15 %",
+                "13.5": "4 %",
+                "average": "8.81"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "50%",
-                "3.5": "50%"
-            }
-        },
-        {
-            "team": "Sandefjord",
-            "position": "5",
-            "matches_played": "23",
-            "wins": "11",
-            "draws": "1",
-            "losses": "11",
-            "goals_for": "41",
-            "goals_against": "35",
-            "goal_difference": "+6",
-            "points": "34",
-            "btts": {
-                "Yes": "57%"
-            },
-            "cards": {
-                "over_3_5": "52%",
-                "over_4_5": "35%",
-                "over_5_5": "22%"
-            },
-            "corners": {
-                "8.5": "70%",
-                "9.5": "52%",
-                "10.5": "39%",
-                "11.5": "35%",
-                "12.5": "22%",
-                "13.5": "17%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "74%",
-                "3.5": "73%"
-            }
-        },
-        {
-            "team": "Rosenborg",
-            "position": "6",
-            "matches_played": "23",
-            "wins": "9",
-            "draws": "7",
-            "losses": "7",
-            "goals_for": "31",
-            "goals_against": "31",
-            "goal_difference": "0",
-            "points": "34",
-            "btts": {
-                "Yes": "48%"
-            },
-            "cards": {
-                "over_3_5": "57%",
-                "over_4_5": "35%",
-                "over_5_5": "17%"
-            },
-            "corners": {
-                "8.5": "65%",
-                "9.5": "61%",
-                "10.5": "52%",
-                "11.5": "35%",
-                "12.5": "30%",
-                "13.5": "26%",
-                "average": "10.52"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "48%",
-                "3.5": "27%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Valerenga",
-            "position": "7",
-            "matches_played": "24",
-            "wins": "10",
+            "position": "5",
+            "matches_played": "27",
+            "wins": "12",
             "draws": "4",
-            "losses": "10",
-            "goals_for": "39",
-            "goals_against": "40",
-            "goal_difference": "-1",
-            "points": "34",
+            "losses": "11",
+            "goals_for": "45",
+            "goals_against": "44",
+            "goal_difference": "1",
+            "points": "40",
             "btts": {
-                "Yes": "63%"
+                "Yes": "4"
             },
             "cards": {
-                "over_3_5": "63%",
-                "over_4_5": "42%",
-                "over_5_5": "21%"
+                "over_3_5": "12",
+                "over_4_5": "4",
+                "over_5_5": "11"
             },
             "corners": {
-                "8.5": "71%",
-                "9.5": "71%",
-                "10.5": "58%",
-                "11.5": "38%",
-                "12.5": "21%",
-                "13.5": "21%",
-                "average": "10.62"
+                "8.5": "74 %",
+                "9.5": "74 %",
+                "10.5": "63 %",
+                "11.5": "44 %",
+                "12.5": "30 %",
+                "13.5": "30 %",
+                "average": "11.18"
             },
             "goals": {
-                "1.5": "58%",
-                "2.5": "54%",
-                "3.5": "50%"
-            }
-        },
-        {
-            "team": "KFUM",
-            "position": "8",
-            "matches_played": "24",
-            "wins": "8",
-            "draws": "9",
-            "losses": "7",
-            "goals_for": "37",
-            "goals_against": "29",
-            "goal_difference": "+8",
-            "points": "33",
-            "btts": {
-                "Yes": "54%"
-            },
-            "cards": {
-                "over_3_5": "54%",
-                "over_4_5": "25%",
-                "over_5_5": "13%"
-            },
-            "corners": {
-                "8.5": "46%",
-                "9.5": "33%",
-                "10.5": "17%",
-                "11.5": "17%",
-                "12.5": "17%",
-                "13.5": "17%",
-                "average": "8.46"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "50%",
-                "3.5": "33%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Fredrikstad",
-            "position": "9",
-            "matches_played": "24",
-            "wins": "8",
-            "draws": "8",
+            "position": "6",
+            "matches_played": "27",
+            "wins": "10",
+            "draws": "9",
             "losses": "8",
-            "goals_for": "30",
-            "goals_against": "28",
-            "goal_difference": "+2",
-            "points": "32",
+            "goals_for": "36",
+            "goals_against": "29",
+            "goal_difference": "7",
+            "points": "39",
             "btts": {
-                "Yes": "50%"
+                "Yes": "9"
             },
             "cards": {
-                "over_3_5": "29%",
-                "over_4_5": "17%",
-                "over_5_5": "0%"
+                "over_3_5": "10",
+                "over_4_5": "9",
+                "over_5_5": "8"
             },
             "corners": {
-                "8.5": "75%",
-                "9.5": "71%",
-                "10.5": "54%",
-                "11.5": "33%",
-                "12.5": "21%",
-                "13.5": "17%",
-                "average": "10.42"
+                "8.5": "70 %",
+                "9.5": "67 %",
+                "10.5": "48 %",
+                "11.5": "30 %",
+                "12.5": "19 %",
+                "13.5": "15 %",
+                "average": "10.03"
             },
             "goals": {
-                "1.5": "38%",
-                "2.5": "38%",
-                "3.5": "36%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Sandefjord",
+            "position": "7",
+            "matches_played": "27",
+            "wins": "12",
+            "draws": "3",
+            "losses": "12",
+            "goals_for": "46",
+            "goals_against": "40",
+            "goal_difference": "6",
+            "points": "39",
+            "btts": {
+                "Yes": "3"
+            },
+            "cards": {
+                "over_3_5": "12",
+                "over_4_5": "3",
+                "over_5_5": "12"
+            },
+            "corners": {
+                "8.5": "70 %",
+                "9.5": "56 %",
+                "10.5": "41 %",
+                "11.5": "37 %",
+                "12.5": "26 %",
+                "13.5": "22 %",
+                "average": "10.37"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Rosenborg",
+            "position": "8",
+            "matches_played": "27",
+            "wins": "9",
+            "draws": "9",
+            "losses": "9",
+            "goals_for": "38",
+            "goals_against": "41",
+            "goal_difference": "-3",
+            "points": "36",
+            "btts": {
+                "Yes": "9"
+            },
+            "cards": {
+                "over_3_5": "9",
+                "over_4_5": "9",
+                "over_5_5": "9"
+            },
+            "corners": {
+                "8.5": "70 %",
+                "9.5": "67 %",
+                "10.5": "56 %",
+                "11.5": "37 %",
+                "12.5": "33 %",
+                "13.5": "26 %",
+                "average": "10.78"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Sarpsborg 08",
-            "position": "10",
-            "matches_played": "24",
-            "wins": "8",
-            "draws": "8",
-            "losses": "8",
-            "goals_for": "40",
-            "goals_against": "38",
-            "goal_difference": "+2",
-            "points": "32",
-            "btts": {
-                "Yes": "71%"
-            },
-            "cards": {
-                "over_3_5": "42%",
-                "over_4_5": "29%",
-                "over_5_5": "17%"
-            },
-            "corners": {
-                "8.5": "79%",
-                "9.5": "67%",
-                "10.5": "63%",
-                "11.5": "58%",
-                "12.5": "46%",
-                "13.5": "33%",
-                "average": "11.83"
-            },
-            "goals": {
-                "1.5": "69%",
-                "2.5": "67%",
-                "3.5": "64%"
-            }
-        },
-        {
-            "team": "Molde",
-            "position": "11",
-            "matches_played": "24",
+            "position": "9",
+            "matches_played": "27",
             "wins": "9",
-            "draws": "3",
-            "losses": "12",
-            "goals_for": "34",
-            "goals_against": "32",
-            "goal_difference": "+2",
-            "points": "30",
+            "draws": "8",
+            "losses": "10",
+            "goals_for": "44",
+            "goals_against": "48",
+            "goal_difference": "-4",
+            "points": "35",
             "btts": {
-                "Yes": "46%"
+                "Yes": "8"
             },
             "cards": {
-                "over_3_5": "54%",
-                "over_4_5": "33%",
-                "over_5_5": "13%"
+                "over_3_5": "9",
+                "over_4_5": "8",
+                "over_5_5": "10"
             },
             "corners": {
-                "8.5": "67%",
-                "9.5": "54%",
-                "10.5": "50%",
-                "11.5": "33%",
-                "12.5": "17%",
-                "13.5": "13%",
-                "average": "10.34"
+                "8.5": "78 %",
+                "9.5": "63 %",
+                "10.5": "59 %",
+                "11.5": "56 %",
+                "12.5": "44 %",
+                "13.5": "33 %",
+                "average": "11.85"
             },
             "goals": {
-                "1.5": "67%",
-                "2.5": "58%",
-                "3.5": "50%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
-            "team": "Kristiansund",
-            "position": "12",
-            "matches_played": "24",
+            "team": "KFUM",
+            "position": "10",
+            "matches_played": "27",
             "wins": "8",
-            "draws": "6",
-            "losses": "10",
-            "goals_for": "28",
-            "goals_against": "45",
-            "goal_difference": "-17",
-            "points": "30",
+            "draws": "10",
+            "losses": "9",
+            "goals_for": "40",
+            "goals_against": "36",
+            "goal_difference": "4",
+            "points": "34",
             "btts": {
-                "Yes": "54%"
+                "Yes": "10"
             },
             "cards": {
-                "over_3_5": "63%",
-                "over_4_5": "38%",
-                "over_5_5": "21%"
+                "over_3_5": "8",
+                "over_4_5": "10",
+                "over_5_5": "9"
             },
             "corners": {
-                "8.5": "71%",
-                "9.5": "63%",
-                "10.5": "54%",
-                "11.5": "46%",
-                "12.5": "33%",
-                "13.5": "17%",
-                "average": "10.75"
+                "8.5": "44 %",
+                "9.5": "33 %",
+                "10.5": "19 %",
+                "11.5": "19 %",
+                "12.5": "19 %",
+                "13.5": "19 %",
+                "average": "8.66"
             },
             "goals": {
-                "1.5": "58%",
-                "2.5": "54%",
-                "3.5": "50%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "HamKam",
-            "position": "13",
-            "matches_played": "24",
-            "wins": "6",
+            "position": "11",
+            "matches_played": "27",
+            "wins": "9",
             "draws": "7",
             "losses": "11",
-            "goals_for": "28",
-            "goals_against": "38",
-            "goal_difference": "-10",
-            "points": "25",
+            "goals_for": "36",
+            "goals_against": "41",
+            "goal_difference": "-5",
+            "points": "34",
             "btts": {
-                "Yes": "54%"
+                "Yes": "7"
             },
             "cards": {
-                "over_3_5": "25%",
-                "over_4_5": "17%",
-                "over_5_5": "4%"
+                "over_3_5": "9",
+                "over_4_5": "7",
+                "over_5_5": "11"
             },
             "corners": {
-                "8.5": "63%",
-                "9.5": "54%",
-                "10.5": "46%",
-                "11.5": "46%",
-                "12.5": "38%",
-                "13.5": "25%",
-                "average": "10.41"
+                "8.5": "67 %",
+                "9.5": "59 %",
+                "10.5": "52 %",
+                "11.5": "52 %",
+                "12.5": "41 %",
+                "13.5": "30 %",
+                "average": "10.89"
             },
             "goals": {
-                "1.5": "67%",
-                "2.5": "54%",
-                "3.5": "42%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Molde",
+            "position": "12",
+            "matches_played": "27",
+            "wins": "10",
+            "draws": "3",
+            "losses": "14",
+            "goals_for": "40",
+            "goals_against": "41",
+            "goal_difference": "-1",
+            "points": "33",
+            "btts": {
+                "Yes": "3"
+            },
+            "cards": {
+                "over_3_5": "10",
+                "over_4_5": "3",
+                "over_5_5": "14"
+            },
+            "corners": {
+                "8.5": "67 %",
+                "9.5": "56 %",
+                "10.5": "52 %",
+                "11.5": "33 %",
+                "12.5": "19 %",
+                "13.5": "15 %",
+                "average": "10.22"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Kristiansund",
+            "position": "13",
+            "matches_played": "27",
+            "wins": "8",
+            "draws": "7",
+            "losses": "12",
+            "goals_for": "31",
+            "goals_against": "52",
+            "goal_difference": "-21",
+            "points": "31",
+            "btts": {
+                "Yes": "7"
+            },
+            "cards": {
+                "over_3_5": "8",
+                "over_4_5": "7",
+                "over_5_5": "12"
+            },
+            "corners": {
+                "8.5": "67 %",
+                "9.5": "59 %",
+                "10.5": "52 %",
+                "11.5": "44 %",
+                "12.5": "30 %",
+                "13.5": "15 %",
+                "average": "10.34"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Bryne",
             "position": "14",
-            "matches_played": "24",
-            "wins": "6",
-            "draws": "6",
-            "losses": "12",
-            "goals_for": "28",
-            "goals_against": "39",
-            "goal_difference": "-11",
-            "points": "24",
+            "matches_played": "27",
+            "wins": "7",
+            "draws": "7",
+            "losses": "13",
+            "goals_for": "33",
+            "goals_against": "47",
+            "goal_difference": "-14",
+            "points": "28",
             "btts": {
-                "Yes": "54%"
+                "Yes": "7"
             },
             "cards": {
-                "over_3_5": "38%",
-                "over_4_5": "21%",
-                "over_5_5": "8%"
+                "over_3_5": "7",
+                "over_4_5": "7",
+                "over_5_5": "13"
             },
             "corners": {
-                "8.5": "50%",
-                "9.5": "42%",
-                "10.5": "33%",
-                "11.5": "25%",
-                "12.5": "17%",
-                "13.5": "17%",
-                "average": "9.79"
+                "8.5": "52 %",
+                "9.5": "41 %",
+                "10.5": "33 %",
+                "11.5": "26 %",
+                "12.5": "19 %",
+                "13.5": "15 %",
+                "average": "9.78"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "46%",
-                "3.5": "42%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Stromsgodset",
             "position": "15",
-            "matches_played": "24",
+            "matches_played": "27",
             "wins": "6",
             "draws": "2",
-            "losses": "16",
-            "goals_for": "32",
-            "goals_against": "51",
-            "goal_difference": "-19",
+            "losses": "19",
+            "goals_for": "34",
+            "goals_against": "58",
+            "goal_difference": "-24",
             "points": "20",
             "btts": {
-                "Yes": "63%"
+                "Yes": "2"
             },
             "cards": {
-                "over_3_5": "29%",
-                "over_4_5": "17%",
-                "over_5_5": "8%"
+                "over_3_5": "6",
+                "over_4_5": "2",
+                "over_5_5": "19"
             },
             "corners": {
-                "8.5": "75%",
-                "9.5": "63%",
-                "10.5": "54%",
-                "11.5": "46%",
-                "12.5": "46%",
-                "13.5": "38%",
-                "average": "12.46"
+                "8.5": "78 %",
+                "9.5": "67 %",
+                "10.5": "56 %",
+                "11.5": "48 %",
+                "12.5": "48 %",
+                "13.5": "41 %",
+                "average": "12.89"
             },
             "goals": {
-                "1.5": "83%",
-                "2.5": "75%",
-                "3.5": "67%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Haugesund",
             "position": "16",
-            "matches_played": "24",
-            "wins": "1",
+            "matches_played": "27",
+            "wins": "2",
             "draws": "3",
-            "losses": "20",
-            "goals_for": "14",
-            "goals_against": "61",
-            "goal_difference": "-47",
-            "points": "6",
+            "losses": "22",
+            "goals_for": "21",
+            "goals_against": "69",
+            "goal_difference": "-48",
+            "points": "9",
             "btts": {
-                "Yes": "38%"
+                "Yes": "3"
             },
             "cards": {
-                "over_3_5": "38%",
-                "over_4_5": "17%",
-                "over_5_5": "8%"
+                "over_3_5": "2",
+                "over_4_5": "3",
+                "over_5_5": "22"
             },
             "corners": {
-                "8.5": "71%",
-                "9.5": "58%",
-                "10.5": "50%",
-                "11.5": "42%",
-                "12.5": "33%",
-                "13.5": "25%",
-                "average": "10.8"
+                "8.5": "70 %",
+                "9.5": "59 %",
+                "10.5": "52 %",
+                "11.5": "44 %",
+                "12.5": "37 %",
+                "13.5": "26 %",
+                "average": "11"
             },
             "goals": {
-                "1.5": "67%",
-                "2.5": "63%",
-                "3.5": "58%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         }
     ]
-,"last_updated":"2025-10-20T20:24:41Z"}
+,"last_updated":"2025-11-03T19:50:39Z"}
