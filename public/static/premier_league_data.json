@@ -3,682 +3,682 @@
         {
             "team": "Arsenal",
             "position": "1",
-            "matches_played": "8",
-            "wins": "6",
+            "matches_played": "10",
+            "wins": "8",
             "draws": "1",
             "losses": "1",
-            "goals_for": "15",
+            "goals_for": "18",
             "goals_against": "3",
-            "goal_difference": "+12",
-            "points": "19",
+            "goal_difference": "15",
+            "points": "25",
             "btts": {
-                "Yes": "25%"
+                "Yes": "1"
             },
             "cards": {
-                "over_3_5": "25%",
-                "over_4_5": "13%",
-                "over_5_5": "0%"
+                "over_3_5": "8",
+                "over_4_5": "1",
+                "over_5_5": "1"
             },
             "corners": {
-                "8.5": "75%",
-                "9.5": "75%",
-                "10.5": "75%",
-                "11.5": "38%",
-                "12.5": "25%",
-                "13.5": "25%",
-                "average": "11.38"
+                "8.5": "60 %",
+                "9.5": "60 %",
+                "10.5": "60 %",
+                "11.5": "30 %",
+                "12.5": "20 %",
+                "13.5": "20 %",
+                "average": "10.5"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "38%",
-                "3.5": "25%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Manchester City",
             "position": "2",
-            "matches_played": "8",
-            "wins": "5",
+            "matches_played": "10",
+            "wins": "6",
             "draws": "1",
-            "losses": "2",
-            "goals_for": "17",
-            "goals_against": "6",
-            "goal_difference": "+11",
-            "points": "16",
+            "losses": "3",
+            "goals_for": "20",
+            "goals_against": "8",
+            "goal_difference": "12",
+            "points": "19",
             "btts": {
-                "Yes": "38%"
+                "Yes": "1"
             },
             "cards": {
-                "over_3_5": "50%",
-                "over_4_5": "25%",
-                "over_5_5": "0%"
+                "over_3_5": "6",
+                "over_4_5": "1",
+                "over_5_5": "3"
             },
             "corners": {
-                "8.5": "63%",
-                "9.5": "38%",
-                "10.5": "38%",
-                "11.5": "38%",
-                "12.5": "13%",
-                "13.5": "13%",
-                "average": "9"
+                "8.5": "70 %",
+                "9.5": "50 %",
+                "10.5": "50 %",
+                "11.5": "40 %",
+                "12.5": "20 %",
+                "13.5": "10 %",
+                "average": "9.6"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "50%",
-                "3.5": "50%"
-            }
-        },
-        {
-            "team": "Bournemouth",
-            "position": "3",
-            "matches_played": "8",
-            "wins": "4",
-            "draws": "3",
-            "losses": "1",
-            "goals_for": "14",
-            "goals_against": "11",
-            "goal_difference": "+3",
-            "points": "15",
-            "btts": {
-                "Yes": "63%"
-            },
-            "cards": {
-                "over_3_5": "63%",
-                "over_4_5": "50%",
-                "over_5_5": "25%"
-            },
-            "corners": {
-                "8.5": "50%",
-                "9.5": "50%",
-                "10.5": "50%",
-                "11.5": "13%",
-                "12.5": "13%",
-                "13.5": "0%",
-                "average": "9.51"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "63%",
-                "3.5": "50%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Liverpool",
-            "position": "4",
-            "matches_played": "8",
-            "wins": "5",
+            "position": "3",
+            "matches_played": "10",
+            "wins": "6",
             "draws": "0",
-            "losses": "3",
-            "goals_for": "14",
-            "goals_against": "11",
-            "goal_difference": "+3",
-            "points": "15",
+            "losses": "4",
+            "goals_for": "18",
+            "goals_against": "14",
+            "goal_difference": "4",
+            "points": "18",
             "btts": {
-                "Yes": "75%"
+                "Yes": "0"
             },
             "cards": {
-                "over_3_5": "63%",
-                "over_4_5": "25%",
-                "over_5_5": "13%"
+                "over_3_5": "6",
+                "over_4_5": "0",
+                "over_5_5": "4"
             },
             "corners": {
-                "8.5": "75%",
-                "9.5": "50%",
-                "10.5": "50%",
-                "11.5": "38%",
-                "12.5": "38%",
-                "13.5": "13%",
-                "average": "10.63"
+                "8.5": "70 %",
+                "9.5": "40 %",
+                "10.5": "40 %",
+                "11.5": "30 %",
+                "12.5": "30 %",
+                "13.5": "10 %",
+                "average": "9.9"
             },
             "goals": {
-                "1.5": "75%",
-                "2.5": "75%",
-                "3.5": "75%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Bournemouth",
+            "position": "4",
+            "matches_played": "10",
+            "wins": "5",
+            "draws": "3",
+            "losses": "2",
+            "goals_for": "17",
+            "goals_against": "14",
+            "goal_difference": "3",
+            "points": "18",
+            "btts": {
+                "Yes": "3"
+            },
+            "cards": {
+                "over_3_5": "5",
+                "over_4_5": "3",
+                "over_5_5": "2"
+            },
+            "corners": {
+                "8.5": "60 %",
+                "9.5": "60 %",
+                "10.5": "50 %",
+                "11.5": "20 %",
+                "12.5": "20 %",
+                "13.5": "0 %",
+                "average": "9.9"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Tottenham",
             "position": "5",
-            "matches_played": "8",
-            "wins": "4",
+            "matches_played": "10",
+            "wins": "5",
             "draws": "2",
-            "losses": "2",
-            "goals_for": "14",
-            "goals_against": "7",
-            "goal_difference": "+7",
-            "points": "14",
+            "losses": "3",
+            "goals_for": "17",
+            "goals_against": "8",
+            "goal_difference": "9",
+            "points": "17",
             "btts": {
-                "Yes": "50%"
+                "Yes": "2"
             },
             "cards": {
-                "over_3_5": "50%",
-                "over_4_5": "50%",
-                "over_5_5": "13%"
+                "over_3_5": "5",
+                "over_4_5": "2",
+                "over_5_5": "3"
             },
             "corners": {
-                "8.5": "75%",
-                "9.5": "63%",
-                "10.5": "63%",
-                "11.5": "50%",
-                "12.5": "25%",
-                "13.5": "25%",
-                "average": "11.38"
+                "8.5": "80 %",
+                "9.5": "70 %",
+                "10.5": "70 %",
+                "11.5": "50 %",
+                "12.5": "30 %",
+                "13.5": "30 %",
+                "average": "11.9"
             },
             "goals": {
-                "1.5": "75%",
-                "2.5": "63%",
-                "3.5": "50%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Chelsea",
             "position": "6",
-            "matches_played": "8",
-            "wins": "4",
+            "matches_played": "10",
+            "wins": "5",
             "draws": "2",
-            "losses": "2",
-            "goals_for": "16",
-            "goals_against": "9",
-            "goal_difference": "+7",
-            "points": "14",
+            "losses": "3",
+            "goals_for": "18",
+            "goals_against": "11",
+            "goal_difference": "7",
+            "points": "17",
             "btts": {
-                "Yes": "63%"
+                "Yes": "2"
             },
             "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "63%",
-                "over_5_5": "38%"
+                "over_3_5": "5",
+                "over_4_5": "2",
+                "over_5_5": "3"
             },
             "corners": {
-                "8.5": "88%",
-                "9.5": "75%",
-                "10.5": "50%",
-                "11.5": "38%",
-                "12.5": "13%",
-                "13.5": "0%",
-                "average": "10.51"
+                "8.5": "90 %",
+                "9.5": "80 %",
+                "10.5": "50 %",
+                "11.5": "30 %",
+                "12.5": "10 %",
+                "13.5": "0 %",
+                "average": "10.5"
             },
             "goals": {
-                "1.5": "100%",
-                "2.5": "75%",
-                "3.5": "50%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Sunderland",
             "position": "7",
-            "matches_played": "8",
-            "wins": "4",
+            "matches_played": "9",
+            "wins": "5",
             "draws": "2",
             "losses": "2",
-            "goals_for": "9",
-            "goals_against": "6",
-            "goal_difference": "+3",
-            "points": "14",
+            "goals_for": "11",
+            "goals_against": "7",
+            "goal_difference": "4",
+            "points": "17",
             "btts": {
-                "Yes": "25%"
+                "Yes": "2"
             },
             "cards": {
-                "over_3_5": "50%",
-                "over_4_5": "50%",
-                "over_5_5": "13%"
+                "over_3_5": "5",
+                "over_4_5": "2",
+                "over_5_5": "2"
             },
             "corners": {
-                "8.5": "38%",
-                "9.5": "38%",
-                "10.5": "38%",
-                "11.5": "13%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8.13"
+                "8.5": "44 %",
+                "9.5": "44 %",
+                "10.5": "33 %",
+                "11.5": "11 %",
+                "12.5": "0 %",
+                "13.5": "0 %",
+                "average": "8.33"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "25%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Crystal Palace",
-            "position": "8",
-            "matches_played": "8",
-            "wins": "3",
-            "draws": "4",
-            "losses": "1",
-            "goals_for": "12",
-            "goals_against": "8",
-            "goal_difference": "+4",
-            "points": "13",
-            "btts": {
-                "Yes": "63%"
-            },
-            "cards": {
-                "over_3_5": "88%",
-                "over_4_5": "75%",
-                "over_5_5": "25%"
-            },
-            "corners": {
-                "8.5": "50%",
-                "9.5": "50%",
-                "10.5": "50%",
-                "11.5": "25%",
-                "12.5": "25%",
-                "13.5": "13%",
-                "average": "9.63"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "63%",
-                "3.5": "50%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Manchester United",
-            "position": "9",
-            "matches_played": "8",
-            "wins": "4",
-            "draws": "1",
+            "position": "8",
+            "matches_played": "10",
+            "wins": "5",
+            "draws": "2",
             "losses": "3",
-            "goals_for": "11",
-            "goals_against": "12",
-            "goal_difference": "-1",
-            "points": "13",
+            "goals_for": "17",
+            "goals_against": "16",
+            "goal_difference": "1",
+            "points": "17",
             "btts": {
-                "Yes": "63%"
+                "Yes": "2"
             },
             "cards": {
-                "over_3_5": "63%",
-                "over_4_5": "50%",
-                "over_5_5": "25%"
+                "over_3_5": "5",
+                "over_4_5": "2",
+                "over_5_5": "3"
             },
             "corners": {
-                "8.5": "38%",
-                "9.5": "38%",
-                "10.5": "25%",
-                "11.5": "25%",
-                "12.5": "25%",
-                "13.5": "13%",
-                "average": "8.76"
+                "8.5": "40 %",
+                "9.5": "40 %",
+                "10.5": "30 %",
+                "11.5": "30 %",
+                "12.5": "30 %",
+                "13.5": "10 %",
+                "average": "9"
             },
             "goals": {
-                "1.5": "75%",
-                "2.5": "63%",
-                "3.5": "50%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Crystal Palace",
+            "position": "9",
+            "matches_played": "10",
+            "wins": "4",
+            "draws": "4",
+            "losses": "2",
+            "goals_for": "14",
+            "goals_against": "9",
+            "goal_difference": "5",
+            "points": "16",
+            "btts": {
+                "Yes": "4"
+            },
+            "cards": {
+                "over_3_5": "4",
+                "over_4_5": "4",
+                "over_5_5": "2"
+            },
+            "corners": {
+                "8.5": "50 %",
+                "9.5": "50 %",
+                "10.5": "50 %",
+                "11.5": "20 %",
+                "12.5": "20 %",
+                "13.5": "10 %",
+                "average": "9.5"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Brighton",
             "position": "10",
-            "matches_played": "8",
-            "wins": "3",
+            "matches_played": "10",
+            "wins": "4",
             "draws": "3",
-            "losses": "2",
-            "goals_for": "12",
-            "goals_against": "11",
-            "goal_difference": "+1",
-            "points": "12",
+            "losses": "3",
+            "goals_for": "17",
+            "goals_against": "15",
+            "goal_difference": "2",
+            "points": "15",
             "btts": {
-                "Yes": "88%"
+                "Yes": "3"
             },
             "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "63%",
-                "over_5_5": "63%"
+                "over_3_5": "4",
+                "over_4_5": "3",
+                "over_5_5": "3"
             },
             "corners": {
-                "8.5": "50%",
-                "9.5": "50%",
-                "10.5": "38%",
-                "11.5": "38%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8.75"
+                "8.5": "50 %",
+                "9.5": "50 %",
+                "10.5": "40 %",
+                "11.5": "30 %",
+                "12.5": "0 %",
+                "13.5": "0 %",
+                "average": "8.8"
             },
             "goals": {
-                "1.5": "75%",
-                "2.5": "63%",
-                "3.5": "50%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Aston Villa",
             "position": "11",
-            "matches_played": "8",
-            "wins": "3",
+            "matches_played": "10",
+            "wins": "4",
             "draws": "3",
-            "losses": "2",
-            "goals_for": "8",
-            "goals_against": "8",
-            "goal_difference": "0",
-            "points": "12",
-            "btts": {
-                "Yes": "50%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "50%",
-                "over_5_5": "13%"
-            },
-            "corners": {
-                "8.5": "100%",
-                "9.5": "88%",
-                "10.5": "63%",
-                "11.5": "25%",
-                "12.5": "13%",
-                "13.5": "0%",
-                "average": "10.88"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "50%",
-                "3.5": "25%"
-            }
-        },
-        {
-            "team": "Everton",
-            "position": "12",
-            "matches_played": "8",
-            "wins": "3",
-            "draws": "2",
             "losses": "3",
             "goals_for": "9",
-            "goals_against": "9",
-            "goal_difference": "0",
-            "points": "11",
+            "goals_against": "10",
+            "goal_difference": "-1",
+            "points": "15",
             "btts": {
-                "Yes": "50%"
+                "Yes": "3"
             },
             "cards": {
-                "over_3_5": "63%",
-                "over_4_5": "63%",
-                "over_5_5": "38%"
+                "over_3_5": "4",
+                "over_4_5": "3",
+                "over_5_5": "3"
             },
             "corners": {
-                "8.5": "50%",
-                "9.5": "25%",
-                "10.5": "25%",
-                "11.5": "25%",
-                "12.5": "25%",
-                "13.5": "13%",
-                "average": "8.38"
+                "8.5": "90 %",
+                "9.5": "80 %",
+                "10.5": "60 %",
+                "11.5": "20 %",
+                "12.5": "10 %",
+                "13.5": "0 %",
+                "average": "10.3"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "38%",
-                "3.5": "25%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Brentford",
-            "position": "13",
-            "matches_played": "8",
-            "wins": "3",
+            "position": "12",
+            "matches_played": "10",
+            "wins": "4",
             "draws": "1",
-            "losses": "4",
-            "goals_for": "11",
-            "goals_against": "12",
-            "goal_difference": "-1",
-            "points": "10",
+            "losses": "5",
+            "goals_for": "14",
+            "goals_against": "16",
+            "goal_difference": "-2",
+            "points": "13",
             "btts": {
-                "Yes": "63%"
+                "Yes": "1"
             },
             "cards": {
-                "over_3_5": "63%",
-                "over_4_5": "50%",
-                "over_5_5": "0%"
+                "over_3_5": "4",
+                "over_4_5": "1",
+                "over_5_5": "5"
             },
             "corners": {
-                "8.5": "63%",
-                "9.5": "63%",
-                "10.5": "50%",
-                "11.5": "25%",
-                "12.5": "13%",
-                "13.5": "13%",
-                "average": "9.76"
+                "8.5": "70 %",
+                "9.5": "60 %",
+                "10.5": "50 %",
+                "11.5": "20 %",
+                "12.5": "10 %",
+                "13.5": "10 %",
+                "average": "9.8"
             },
             "goals": {
-                "1.5": "75%",
-                "2.5": "63%",
-                "3.5": "50%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Newcastle",
-            "position": "14",
-            "matches_played": "8",
-            "wins": "2",
+            "position": "13",
+            "matches_played": "10",
+            "wins": "3",
             "draws": "3",
-            "losses": "3",
-            "goals_for": "7",
-            "goals_against": "7",
-            "goal_difference": "0",
-            "points": "9",
+            "losses": "4",
+            "goals_for": "10",
+            "goals_against": "11",
+            "goal_difference": "-1",
+            "points": "12",
             "btts": {
-                "Yes": "38%"
+                "Yes": "3"
             },
             "cards": {
-                "over_3_5": "50%",
-                "over_4_5": "25%",
-                "over_5_5": "13%"
+                "over_3_5": "3",
+                "over_4_5": "3",
+                "over_5_5": "4"
             },
             "corners": {
-                "8.5": "75%",
-                "9.5": "50%",
-                "10.5": "38%",
-                "11.5": "38%",
-                "12.5": "25%",
-                "13.5": "13%",
-                "average": "10.88"
+                "8.5": "70 %",
+                "9.5": "50 %",
+                "10.5": "40 %",
+                "11.5": "40 %",
+                "12.5": "30 %",
+                "13.5": "10 %",
+                "average": "10.7"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "38%",
-                "3.5": "25%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Fulham",
-            "position": "15",
-            "matches_played": "8",
-            "wins": "2",
+            "position": "14",
+            "matches_played": "10",
+            "wins": "3",
             "draws": "2",
-            "losses": "4",
-            "goals_for": "8",
-            "goals_against": "12",
-            "goal_difference": "-4",
-            "points": "8",
+            "losses": "5",
+            "goals_for": "12",
+            "goals_against": "14",
+            "goal_difference": "-2",
+            "points": "11",
             "btts": {
-                "Yes": "63%"
+                "Yes": "2"
             },
             "cards": {
-                "over_3_5": "50%",
-                "over_4_5": "38%",
-                "over_5_5": "13%"
+                "over_3_5": "3",
+                "over_4_5": "2",
+                "over_5_5": "5"
             },
             "corners": {
-                "8.5": "63%",
-                "9.5": "63%",
-                "10.5": "38%",
-                "11.5": "38%",
-                "12.5": "25%",
-                "13.5": "25%",
-                "average": "10.38"
+                "8.5": "60 %",
+                "9.5": "60 %",
+                "10.5": "40 %",
+                "11.5": "30 %",
+                "12.5": "20 %",
+                "13.5": "20 %",
+                "average": "10.1"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "38%",
-                "3.5": "25%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Everton",
+            "position": "15",
+            "matches_played": "9",
+            "wins": "3",
+            "draws": "2",
+            "losses": "4",
+            "goals_for": "9",
+            "goals_against": "12",
+            "goal_difference": "-3",
+            "points": "11",
+            "btts": {
+                "Yes": "2"
+            },
+            "cards": {
+                "over_3_5": "3",
+                "over_4_5": "2",
+                "over_5_5": "4"
+            },
+            "corners": {
+                "8.5": "56 %",
+                "9.5": "33 %",
+                "10.5": "33 %",
+                "11.5": "33 %",
+                "12.5": "33 %",
+                "13.5": "22 %",
+                "average": "9.33"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Leeds",
             "position": "16",
-            "matches_played": "8",
-            "wins": "2",
+            "matches_played": "10",
+            "wins": "3",
             "draws": "2",
-            "losses": "4",
-            "goals_for": "7",
-            "goals_against": "13",
-            "goal_difference": "-6",
-            "points": "8",
+            "losses": "5",
+            "goals_for": "9",
+            "goals_against": "17",
+            "goal_difference": "-8",
+            "points": "11",
             "btts": {
-                "Yes": "38%"
+                "Yes": "2"
             },
             "cards": {
-                "over_3_5": "25%",
-                "over_4_5": "13%",
-                "over_5_5": "0%"
+                "over_3_5": "3",
+                "over_4_5": "2",
+                "over_5_5": "5"
             },
             "corners": {
-                "8.5": "38%",
-                "9.5": "25%",
-                "10.5": "13%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "6.88"
+                "8.5": "40 %",
+                "9.5": "30 %",
+                "10.5": "20 %",
+                "11.5": "0 %",
+                "12.5": "0 %",
+                "13.5": "0 %",
+                "average": "7.3"
             },
             "goals": {
-                "1.5": "50%",
-                "2.5": "50%",
-                "3.5": "50%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Burnley",
             "position": "17",
-            "matches_played": "8",
-            "wins": "2",
+            "matches_played": "10",
+            "wins": "3",
             "draws": "1",
-            "losses": "5",
-            "goals_for": "9",
-            "goals_against": "15",
-            "goal_difference": "-6",
-            "points": "7",
+            "losses": "6",
+            "goals_for": "12",
+            "goals_against": "19",
+            "goal_difference": "-7",
+            "points": "10",
             "btts": {
-                "Yes": "50%"
+                "Yes": "1"
             },
             "cards": {
-                "over_3_5": "50%",
-                "over_4_5": "13%",
-                "over_5_5": "13%"
+                "over_3_5": "3",
+                "over_4_5": "1",
+                "over_5_5": "6"
             },
             "corners": {
-                "8.5": "63%",
-                "9.5": "50%",
-                "10.5": "38%",
-                "11.5": "25%",
-                "12.5": "13%",
-                "13.5": "13%",
-                "average": "9.63"
+                "8.5": "50 %",
+                "9.5": "40 %",
+                "10.5": "30 %",
+                "11.5": "20 %",
+                "12.5": "10 %",
+                "13.5": "10 %",
+                "average": "9.1"
             },
             "goals": {
-                "1.5": "100%",
-                "2.5": "50%",
-                "3.5": "0%"
-            }
-        },
-        {
-            "team": "Nottingham Forest",
-            "position": "18",
-            "matches_played": "8",
-            "wins": "1",
-            "draws": "2",
-            "losses": "5",
-            "goals_for": "5",
-            "goals_against": "15",
-            "goal_difference": "-10",
-            "points": "5",
-            "btts": {
-                "Yes": "38%"
-            },
-            "cards": {
-                "over_3_5": "50%",
-                "over_4_5": "38%",
-                "over_5_5": "38%"
-            },
-            "corners": {
-                "8.5": "75%",
-                "9.5": "50%",
-                "10.5": "38%",
-                "11.5": "13%",
-                "12.5": "13%",
-                "13.5": "13%",
-                "average": "9.63"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "50%",
-                "3.5": "25%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "West Ham",
-            "position": "19",
-            "matches_played": "8",
-            "wins": "1",
+            "position": "18",
+            "matches_played": "10",
+            "wins": "2",
             "draws": "1",
-            "losses": "6",
-            "goals_for": "6",
-            "goals_against": "18",
-            "goal_difference": "-12",
-            "points": "4",
+            "losses": "7",
+            "goals_for": "10",
+            "goals_against": "21",
+            "goal_difference": "-11",
+            "points": "7",
             "btts": {
-                "Yes": "38%"
+                "Yes": "1"
             },
             "cards": {
-                "over_3_5": "25%",
-                "over_4_5": "25%",
-                "over_5_5": "25%"
+                "over_3_5": "2",
+                "over_4_5": "1",
+                "over_5_5": "7"
             },
             "corners": {
-                "8.5": "88%",
-                "9.5": "88%",
-                "10.5": "88%",
-                "11.5": "75%",
-                "12.5": "50%",
-                "13.5": "50%",
-                "average": "13.26"
+                "8.5": "80 %",
+                "9.5": "80 %",
+                "10.5": "80 %",
+                "11.5": "70 %",
+                "12.5": "50 %",
+                "13.5": "40 %",
+                "average": "12.6"
             },
             "goals": {
-                "1.5": "75%",
-                "2.5": "63%",
-                "3.5": "50%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Nottingham Forest",
+            "position": "19",
+            "matches_played": "10",
+            "wins": "1",
+            "draws": "3",
+            "losses": "6",
+            "goals_for": "7",
+            "goals_against": "19",
+            "goal_difference": "-12",
+            "points": "6",
+            "btts": {
+                "Yes": "3"
+            },
+            "cards": {
+                "over_3_5": "1",
+                "over_4_5": "3",
+                "over_5_5": "6"
+            },
+            "corners": {
+                "8.5": "80 %",
+                "9.5": "60 %",
+                "10.5": "40 %",
+                "11.5": "20 %",
+                "12.5": "20 %",
+                "13.5": "10 %",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         },
         {
             "team": "Wolverhampton",
             "position": "20",
-            "matches_played": "8",
+            "matches_played": "10",
             "wins": "0",
             "draws": "2",
-            "losses": "6",
-            "goals_for": "5",
-            "goals_against": "16",
-            "goal_difference": "-11",
+            "losses": "8",
+            "goals_for": "7",
+            "goals_against": "22",
+            "goal_difference": "-15",
             "points": "2",
             "btts": {
-                "Yes": "50%"
+                "Yes": "2"
             },
             "cards": {
-                "over_3_5": "50%",
-                "over_4_5": "50%",
-                "over_5_5": "13%"
+                "over_3_5": "0",
+                "over_4_5": "2",
+                "over_5_5": "8"
             },
             "corners": {
-                "8.5": "63%",
-                "9.5": "50%",
-                "10.5": "38%",
-                "11.5": "25%",
-                "12.5": "25%",
-                "13.5": "13%",
-                "average": "9.25"
+                "8.5": "60 %",
+                "9.5": "50 %",
+                "10.5": "40 %",
+                "11.5": "20 %",
+                "12.5": "20 %",
+                "13.5": "10 %",
+                "average": "9.2"
             },
             "goals": {
-                "1.5": "75%",
-                "2.5": "38%",
-                "3.5": "0%"
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
             }
         }
     ]
-,"last_updated":"2025-10-28T23:30:00Z"}
+,"last_updated":"2025-11-03T20:02:32Z"}
