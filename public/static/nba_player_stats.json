@@ -1,3 +1,504 @@
 {
-    "players": []
-,"last_updated":"2025-11-03T19:47:01Z"}
+    "players": [
+        {
+            "nombre": "Luka Dončić",
+            "equipo": "LAL",
+            "posicion": "",
+            "partidos": "4",
+            "puntos": "41.3",
+            "rebotes": "11.5",
+            "asistencias": "8.3",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Giannis Antetokounmpo",
+            "equipo": "MIL",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "34.0",
+            "rebotes": "13.3",
+            "asistencias": "6.8",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Tyrese Maxey",
+            "equipo": "PHI",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "33.7",
+            "rebotes": "4.8",
+            "asistencias": "9.0",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Shai Gilgeous-Alexander",
+            "equipo": "OKC",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "33.6",
+            "rebotes": "5.1",
+            "asistencias": "5.9",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Austin Reaves",
+            "equipo": "LAL",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "31.1",
+            "rebotes": "5.1",
+            "asistencias": "9.3",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Lauri Markkanen",
+            "equipo": "UTA",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "31.1",
+            "rebotes": "7.0",
+            "asistencias": "2.3",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Bennedict Mathurin",
+            "equipo": "IND",
+            "posicion": "",
+            "partidos": "2",
+            "puntos": "31.0",
+            "rebotes": "7.0",
+            "asistencias": "2.5",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Devin Booker",
+            "equipo": "PHX",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "30.0",
+            "rebotes": "4.0",
+            "asistencias": "7.4",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612756/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Donovan Mitchell",
+            "equipo": "CLE",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "29.5",
+            "rebotes": "2.3",
+            "asistencias": "4.5",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Jalen Brunson",
+            "equipo": "NYK",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "29.0",
+            "rebotes": "3.4",
+            "asistencias": "5.6",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Zach LaVine",
+            "equipo": "SAC",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "27.4",
+            "rebotes": "3.4",
+            "asistencias": "2.0",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Jaylen Brown",
+            "equipo": "BOS",
+            "posicion": "",
+            "partidos": "8",
+            "puntos": "26.8",
+            "rebotes": "4.4",
+            "asistencias": "4.3",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Victor Wembanyama",
+            "equipo": "SAS",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "26.7",
+            "rebotes": "13.7",
+            "asistencias": "3.2",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Stephen Curry",
+            "equipo": "GSW",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "26.6",
+            "rebotes": "3.6",
+            "asistencias": "4.4",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Julius Randle",
+            "equipo": "MIN",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "26.0",
+            "rebotes": "7.1",
+            "asistencias": "5.9",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Pascal Siakam",
+            "equipo": "IND",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "26.0",
+            "rebotes": "8.4",
+            "asistencias": "5.3",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Anthony Edwards",
+            "equipo": "MIN",
+            "posicion": "",
+            "partidos": "3",
+            "puntos": "25.7",
+            "rebotes": "4.0",
+            "asistencias": "2.0",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Kevin Durant",
+            "equipo": "HOU",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "25.2",
+            "rebotes": "5.5",
+            "asistencias": "2.2",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Cam Thomas",
+            "equipo": "BKN",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "24.4",
+            "rebotes": "1.6",
+            "asistencias": "2.9",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Kawhi Leonard",
+            "equipo": "LAC",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "24.3",
+            "rebotes": "5.7",
+            "asistencias": "3.5",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Jamal Murray",
+            "equipo": "DEN",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "24.2",
+            "rebotes": "5.0",
+            "asistencias": "5.7",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Deni Avdija",
+            "equipo": "POR",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "24.1",
+            "rebotes": "6.0",
+            "asistencias": "3.9",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Cade Cunningham",
+            "equipo": "DET",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "23.6",
+            "rebotes": "5.6",
+            "asistencias": "9.6",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg"
+        },
+        {
+            "nombre": "LaMelo Ball",
+            "equipo": "CHA",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "23.3",
+            "rebotes": "7.8",
+            "asistencias": "9.8",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Paolo Banchero",
+            "equipo": "ORL",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "23.3",
+            "rebotes": "9.3",
+            "asistencias": "4.0",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Norman Powell",
+            "equipo": "MIA",
+            "posicion": "",
+            "partidos": "4",
+            "puntos": "23.3",
+            "rebotes": "6.0",
+            "asistencias": "2.8",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Keyonte George",
+            "equipo": "UTA",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "23.1",
+            "rebotes": "3.7",
+            "asistencias": "8.1",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Chet Holmgren",
+            "equipo": "OKC",
+            "posicion": "",
+            "partidos": "4",
+            "puntos": "23.0",
+            "rebotes": "10.3",
+            "asistencias": "1.8",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg"
+        },
+        {
+            "nombre": "James Harden",
+            "equipo": "LAC",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "23.0",
+            "rebotes": "5.2",
+            "asistencias": "9.0",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Zion Williamson",
+            "equipo": "NOP",
+            "posicion": "",
+            "partidos": "5",
+            "puntos": "22.8",
+            "rebotes": "6.8",
+            "asistencias": "4.6",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Nikola Jokić",
+            "equipo": "DEN",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "22.7",
+            "rebotes": "13.2",
+            "asistencias": "11.3",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Franz Wagner",
+            "equipo": "ORL",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "22.6",
+            "rebotes": "5.6",
+            "asistencias": "3.4",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612753/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Bam Adebayo",
+            "equipo": "MIA",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "22.4",
+            "rebotes": "9.1",
+            "asistencias": "3.3",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612748/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Brandon Ingram",
+            "equipo": "TOR",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "22.3",
+            "rebotes": "5.9",
+            "asistencias": "3.9",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Josh Giddey",
+            "equipo": "CHI",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "22.2",
+            "rebotes": "9.2",
+            "asistencias": "8.7",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Alperen Sengun",
+            "equipo": "HOU",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "21.7",
+            "rebotes": "8.5",
+            "asistencias": "7.3",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Jimmy Butler III",
+            "equipo": "GSW",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "21.4",
+            "rebotes": "5.6",
+            "asistencias": "4.9",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Miles Bridges",
+            "equipo": "CHA",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "21.4",
+            "rebotes": "6.4",
+            "asistencias": "3.6",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612766/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Jalen Johnson",
+            "equipo": "ATL",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "21.2",
+            "rebotes": "9.0",
+            "asistencias": "5.0",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Michael Porter Jr.",
+            "equipo": "BKN",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "20.8",
+            "rebotes": "8.0",
+            "asistencias": "3.0",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Anthony Davis",
+            "equipo": "DAL",
+            "posicion": "",
+            "partidos": "5",
+            "puntos": "20.8",
+            "rebotes": "10.2",
+            "asistencias": "2.2",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Scottie Barnes",
+            "equipo": "TOR",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "20.6",
+            "rebotes": "7.4",
+            "asistencias": "5.0",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg"
+        },
+        {
+            "nombre": "DeMar DeRozan",
+            "equipo": "SAC",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "20.4",
+            "rebotes": "4.1",
+            "asistencias": "4.1",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Ja Morant",
+            "equipo": "MEM",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "20.4",
+            "rebotes": "3.6",
+            "asistencias": "7.1",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Karl-Anthony Towns",
+            "equipo": "NYK",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "20.4",
+            "rebotes": "13.1",
+            "asistencias": "3.1",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg"
+        },
+        {
+            "nombre": "RJ Barrett",
+            "equipo": "TOR",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "20.4",
+            "rebotes": "4.4",
+            "asistencias": "3.4",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg"
+        },
+        {
+            "nombre": "VJ Edgecombe",
+            "equipo": "PHI",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "20.3",
+            "rebotes": "5.0",
+            "asistencias": "5.0",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Jerami Grant",
+            "equipo": "POR",
+            "posicion": "",
+            "partidos": "7",
+            "puntos": "20.3",
+            "rebotes": "3.0",
+            "asistencias": "1.6",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612757/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Stephon Castle",
+            "equipo": "SAS",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "20.0",
+            "rebotes": "6.2",
+            "asistencias": "5.3",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg"
+        },
+        {
+            "nombre": "Aaron Gordon",
+            "equipo": "DEN",
+            "posicion": "",
+            "partidos": "6",
+            "puntos": "19.8",
+            "rebotes": "5.7",
+            "asistencias": "1.8",
+            "team_logo": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg"
+        }
+    ]
+}
