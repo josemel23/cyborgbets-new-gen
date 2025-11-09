@@ -1,13 +1,49 @@
 [
     {
         "hora": "",
-        "emparejamiento": "WARRIORS vs NUGGETS NOV 07 HIGHLIGHTS",
+        "emparejamiento": "EMB @ TO ",
+        "resultado": "60 - 76",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "SUNS vs CLIPPERS NOV 08 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "THUNDER vs KINGS NOV 07 HIGHLIGHTS",
+        "emparejamiento": "PACERS vs NUGGETS NOV 08 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "BULLS vs CAVALIERS NOV 08 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "TRAIL BLAZERS vs HEAT NOV 08 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "PELICANS vs SPURS NOV 08 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "MAVERICKS vs WIZARDS NOV 08 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "RAPTORS vs 76ERS NOV 08 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
@@ -19,55 +55,7 @@
     },
     {
         "hora": "",
-        "emparejamiento": "RAPTORS vs HAWKS NOV 07 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "CELTICS vs MAGIC NOV 07 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "CAVALIERS vs WIZARDS NOV 07 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "ROCKETS vs SPURS NOV 07 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "JAZZ vs TIMBERWOLVES NOV 07 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "BULLS vs BUCKS NOV 07 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "HORNETS vs HEAT NOV 07 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "PISTONS vs NETS NOV 07 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "MAVERICKS vs GRIZZLIES NOV 07 HIGHLIGHTS",
+        "emparejamiento": "LAKERS vs HAWKS NOV 08 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     }
