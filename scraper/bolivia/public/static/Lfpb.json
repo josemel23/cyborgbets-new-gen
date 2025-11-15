@@ -3,35 +3,35 @@
         {
             "team": "Club Always Ready",
             "position": "1",
-            "matches_played": "23",
-            "wins": "17",
+            "matches_played": "24",
+            "wins": "18",
             "draws": "4",
             "losses": "2",
-            "goals_for": "66",
+            "goals_for": "67",
             "goals_against": "23",
-            "goal_difference": "43",
-            "points": "55",
-            "btts": {
-                "Yes": "4"
-            },
-            "cards": {
-                "over_3_5": "17",
-                "over_4_5": "4",
-                "over_5_5": "2"
-            },
+            "goal_difference": "44",
+            "points": "58",
             "corners": {
-                "8.5": "61 %",
-                "9.5": "57 %",
-                "10.5": "39 %",
-                "11.5": "30 %",
-                "12.5": "22 %",
+                "8.5": "63 %",
+                "9.5": "54 %",
+                "10.5": "38 %",
+                "11.5": "29 %",
+                "12.5": "21 %",
                 "13.5": "13 %",
-                "average": "9.83"
+                "average": "9.79"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "84%",
+                "2.5": "61%",
+                "3.5": "33%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "57%"
             }
         },
         {
@@ -45,14 +45,6 @@
             "goals_against": "39",
             "goal_difference": "25",
             "points": "55",
-            "btts": {
-                "Yes": "1"
-            },
-            "cards": {
-                "over_3_5": "18",
-                "over_4_5": "1",
-                "over_5_5": "5"
-            },
             "corners": {
                 "8.5": "79 %",
                 "9.5": "58 %",
@@ -63,150 +55,192 @@
                 "average": "10.33"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "90%",
+                "2.5": "69%",
+                "3.5": "40%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "67%"
             }
         },
         {
             "team": "Bolívar",
             "position": "3",
-            "matches_played": "22",
-            "wins": "14",
+            "matches_played": "24",
+            "wins": "16",
             "draws": "4",
             "losses": "4",
-            "goals_for": "54",
-            "goals_against": "24",
-            "goal_difference": "30",
-            "points": "46",
-            "btts": {
-                "Yes": "4"
-            },
-            "cards": {
-                "over_3_5": "14",
-                "over_4_5": "4",
-                "over_5_5": "4"
-            },
+            "goals_for": "63",
+            "goals_against": "25",
+            "goal_difference": "38",
+            "points": "52",
             "corners": {
-                "8.5": "68 %",
-                "9.5": "64 %",
-                "10.5": "55 %",
-                "11.5": "41 %",
-                "12.5": "36 %",
-                "13.5": "27 %",
-                "average": "11.18"
+                "8.5": "63 %",
+                "9.5": "58 %",
+                "10.5": "50 %",
+                "11.5": "38 %",
+                "12.5": "33 %",
+                "13.5": "25 %",
+                "average": "10.84"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "84%",
+                "2.5": "60%",
+                "3.5": "32%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "53%"
             }
         },
         {
             "team": "Blooming",
             "position": "4",
-            "matches_played": "23",
+            "matches_played": "24",
             "wins": "11",
             "draws": "4",
-            "losses": "8",
+            "losses": "9",
             "goals_for": "41",
-            "goals_against": "38",
-            "goal_difference": "3",
+            "goals_against": "41",
+            "goal_difference": "0",
             "points": "37",
-            "btts": {
-                "Yes": "4"
-            },
-            "cards": {
-                "over_3_5": "11",
-                "over_4_5": "4",
-                "over_5_5": "8"
-            },
             "corners": {
-                "8.5": "65 %",
-                "9.5": "48 %",
-                "10.5": "35 %",
-                "11.5": "35 %",
-                "12.5": "26 %",
+                "8.5": "63 %",
+                "9.5": "46 %",
+                "10.5": "33 %",
+                "11.5": "33 %",
+                "12.5": "25 %",
                 "13.5": "17 %",
-                "average": "10.13"
+                "average": "9.92"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "81%",
+                "2.5": "56%",
+                "3.5": "29%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "52%"
             }
         },
         {
             "team": "Guabirá",
             "position": "5",
-            "matches_played": "23",
+            "matches_played": "24",
             "wins": "10",
             "draws": "4",
-            "losses": "9",
+            "losses": "10",
             "goals_for": "47",
-            "goals_against": "44",
-            "goal_difference": "3",
+            "goals_against": "48",
+            "goal_difference": "-1",
             "points": "34",
-            "btts": {
-                "Yes": "4"
-            },
-            "cards": {
-                "over_3_5": "10",
-                "over_4_5": "4",
-                "over_5_5": "9"
-            },
             "corners": {
-                "8.5": "57 %",
-                "9.5": "48 %",
-                "10.5": "39 %",
-                "11.5": "30 %",
-                "12.5": "22 %",
+                "8.5": "58 %",
+                "9.5": "46 %",
+                "10.5": "38 %",
+                "11.5": "29 %",
+                "12.5": "21 %",
                 "13.5": "17 %",
-                "average": "9.43"
+                "average": "9.42"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "87%",
+                "2.5": "64%",
+                "3.5": "36%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Independiente Petrolero",
+            "position": "6",
+            "matches_played": "24",
+            "wins": "9",
+            "draws": "6",
+            "losses": "9",
+            "goals_for": "41",
+            "goals_against": "48",
+            "goal_difference": "-7",
+            "points": "33",
+            "corners": {
+                "8.5": "58 %",
+                "9.5": "42 %",
+                "10.5": "25 %",
+                "11.5": "21 %",
+                "12.5": "13 %",
+                "13.5": "8 %",
+                "average": "8.92"
+            },
+            "goals": {
+                "1.5": "84%",
+                "2.5": "61%",
+                "3.5": "32%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "60%"
             }
         },
         {
             "team": "San Antonio Bulo Bulo",
-            "position": "6",
-            "matches_played": "23",
+            "position": "7",
+            "matches_played": "24",
             "wins": "8",
             "draws": "7",
-            "losses": "8",
+            "losses": "9",
             "goals_for": "43",
-            "goals_against": "39",
-            "goal_difference": "4",
+            "goals_against": "40",
+            "goal_difference": "3",
             "points": "31",
-            "btts": {
-                "Yes": "7"
-            },
-            "cards": {
-                "over_3_5": "8",
-                "over_4_5": "7",
-                "over_5_5": "8"
-            },
             "corners": {
-                "8.5": "57 %",
-                "9.5": "43 %",
-                "10.5": "30 %",
-                "11.5": "26 %",
+                "8.5": "58 %",
+                "9.5": "42 %",
+                "10.5": "29 %",
+                "11.5": "25 %",
                 "12.5": "13 %",
                 "13.5": "0 %",
-                "average": "8.87"
+                "average": "8.88"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "82%",
+                "2.5": "57%",
+                "3.5": "29%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "50%"
             }
         },
         {
             "team": "GV San Jose",
-            "position": "7",
+            "position": "8",
             "matches_played": "24",
             "wins": "9",
             "draws": "4",
@@ -215,14 +249,6 @@
             "goals_against": "40",
             "goal_difference": "-9",
             "points": "31",
-            "btts": {
-                "Yes": "4"
-            },
-            "cards": {
-                "over_3_5": "9",
-                "over_4_5": "4",
-                "over_5_5": "11"
-            },
             "corners": {
                 "8.5": "67 %",
                 "9.5": "58 %",
@@ -233,48 +259,90 @@
                 "average": "9.83"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "77%",
+                "2.5": "49%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "45%"
             }
         },
         {
-            "team": "Independiente Petrolero",
-            "position": "8",
-            "matches_played": "23",
+            "team": "Nacional Potosí",
+            "position": "9",
+            "matches_played": "24",
             "wins": "8",
             "draws": "6",
-            "losses": "9",
-            "goals_for": "38",
-            "goals_against": "46",
-            "goal_difference": "-8",
+            "losses": "10",
+            "goals_for": "40",
+            "goals_against": "32",
+            "goal_difference": "8",
             "points": "30",
-            "btts": {
-                "Yes": "6"
-            },
-            "cards": {
-                "over_3_5": "8",
-                "over_4_5": "6",
-                "over_5_5": "9"
-            },
             "corners": {
-                "8.5": "61 %",
-                "9.5": "43 %",
-                "10.5": "26 %",
-                "11.5": "22 %",
-                "12.5": "13 %",
-                "13.5": "9 %",
-                "average": "9.09"
+                "8.5": "63 %",
+                "9.5": "46 %",
+                "10.5": "33 %",
+                "11.5": "25 %",
+                "12.5": "17 %",
+                "13.5": "17 %",
+                "average": "9.59"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Oriente Petrolero",
+            "position": "10",
+            "matches_played": "24",
+            "wins": "8",
+            "draws": "6",
+            "losses": "10",
+            "goals_for": "38",
+            "goals_against": "43",
+            "goal_difference": "-5",
+            "points": "30",
+            "corners": {
+                "8.5": "75 %",
+                "9.5": "71 %",
+                "10.5": "63 %",
+                "11.5": "58 %",
+                "12.5": "50 %",
+                "13.5": "25 %",
+                "average": "11.21"
+            },
+            "goals": {
+                "1.5": "81%",
+                "2.5": "56%",
+                "3.5": "28%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "59%"
             }
         },
         {
             "team": "Real Tomayapo",
-            "position": "9",
+            "position": "11",
             "matches_played": "24",
             "wins": "7",
             "draws": "8",
@@ -283,14 +351,6 @@
             "goals_against": "40",
             "goal_difference": "-8",
             "points": "29",
-            "btts": {
-                "Yes": "8"
-            },
-            "cards": {
-                "over_3_5": "7",
-                "over_4_5": "8",
-                "over_5_5": "9"
-            },
             "corners": {
                 "8.5": "75 %",
                 "9.5": "63 %",
@@ -301,111 +361,51 @@
                 "average": "10.5"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "52%"
             }
         },
         {
             "team": "Aurora",
-            "position": "10",
-            "matches_played": "22",
+            "position": "12",
+            "matches_played": "24",
             "wins": "8",
             "draws": "4",
-            "losses": "10",
-            "goals_for": "39",
-            "goals_against": "41",
-            "goal_difference": "-2",
+            "losses": "12",
+            "goals_for": "42",
+            "goals_against": "50",
+            "goal_difference": "-8",
             "points": "28",
-            "btts": {
-                "Yes": "4"
-            },
-            "cards": {
-                "over_3_5": "8",
-                "over_4_5": "4",
-                "over_5_5": "10"
-            },
             "corners": {
-                "8.5": "59 %",
-                "9.5": "55 %",
-                "10.5": "50 %",
-                "11.5": "50 %",
-                "12.5": "27 %",
-                "13.5": "23 %",
-                "average": "10.32"
+                "8.5": "54 %",
+                "9.5": "50 %",
+                "10.5": "46 %",
+                "11.5": "46 %",
+                "12.5": "25 %",
+                "13.5": "21 %",
+                "average": "9.92"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Nacional Potosí",
-            "position": "11",
-            "matches_played": "23",
-            "wins": "7",
-            "draws": "6",
-            "losses": "10",
-            "goals_for": "37",
-            "goals_against": "32",
-            "goal_difference": "5",
-            "points": "27",
-            "btts": {
-                "Yes": "6"
+                "1.5": "85%",
+                "2.5": "62%",
+                "3.5": "34%"
             },
             "cards": {
-                "over_3_5": "7",
-                "over_4_5": "6",
-                "over_5_5": "10"
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
             },
-            "corners": {
-                "8.5": "65 %",
-                "9.5": "48 %",
-                "10.5": "35 %",
-                "11.5": "26 %",
-                "12.5": "17 %",
-                "13.5": "17 %",
-                "average": "9.78"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Oriente Petrolero",
-            "position": "12",
-            "matches_played": "23",
-            "wins": "7",
-            "draws": "6",
-            "losses": "10",
-            "goals_for": "34",
-            "goals_against": "43",
-            "goal_difference": "-9",
-            "points": "27",
             "btts": {
-                "Yes": "6"
-            },
-            "cards": {
-                "over_3_5": "7",
-                "over_4_5": "6",
-                "over_5_5": "10"
-            },
-            "corners": {
-                "8.5": "74 %",
-                "9.5": "74 %",
-                "10.5": "65 %",
-                "11.5": "61 %",
-                "12.5": "52 %",
-                "13.5": "26 %",
-                "average": "11.3"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "Yes": "52%"
             }
         },
         {
@@ -419,14 +419,6 @@
             "goals_against": "51",
             "goal_difference": "-12",
             "points": "25",
-            "btts": {
-                "Yes": "7"
-            },
-            "cards": {
-                "over_3_5": "6",
-                "over_4_5": "7",
-                "over_5_5": "11"
-            },
             "corners": {
                 "8.5": "58 %",
                 "9.5": "50 %",
@@ -437,43 +429,51 @@
                 "average": "8.63"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "84%",
+                "2.5": "61%",
+                "3.5": "33%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "56%"
             }
         },
         {
             "team": "Universitario de Vinto",
             "position": "14",
-            "matches_played": "23",
+            "matches_played": "24",
             "wins": "6",
             "draws": "7",
-            "losses": "10",
+            "losses": "11",
             "goals_for": "28",
-            "goals_against": "42",
-            "goal_difference": "-14",
+            "goals_against": "45",
+            "goal_difference": "-17",
             "points": "25",
-            "btts": {
-                "Yes": "7"
-            },
-            "cards": {
-                "over_3_5": "6",
-                "over_4_5": "7",
-                "over_5_5": "10"
-            },
             "corners": {
-                "8.5": "61 %",
-                "9.5": "52 %",
-                "10.5": "48 %",
-                "11.5": "26 %",
+                "8.5": "58 %",
+                "9.5": "50 %",
+                "10.5": "46 %",
+                "11.5": "25 %",
                 "12.5": "13 %",
                 "13.5": "0 %",
-                "average": "9.21"
+                "average": "9.17"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "77%",
+                "2.5": "51%",
+                "3.5": "23%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "53%"
             }
         },
         {
@@ -487,14 +487,6 @@
             "goals_against": "42",
             "goal_difference": "-16",
             "points": "23",
-            "btts": {
-                "Yes": "8"
-            },
-            "cards": {
-                "over_3_5": "5",
-                "over_4_5": "8",
-                "over_5_5": "11"
-            },
             "corners": {
                 "8.5": "58 %",
                 "9.5": "33 %",
@@ -505,9 +497,17 @@
                 "average": "8.84"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "75%",
+                "2.5": "47%",
+                "3.5": "20%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "50%"
             }
         },
         {
@@ -521,14 +521,6 @@
             "goals_against": "54",
             "goal_difference": "-35",
             "points": "12",
-            "btts": {
-                "Yes": "6"
-            },
-            "cards": {
-                "over_3_5": "2",
-                "over_4_5": "6",
-                "over_5_5": "16"
-            },
             "corners": {
                 "8.5": "58 %",
                 "9.5": "42 %",
@@ -539,9 +531,17 @@
                 "average": "9.25"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "77%",
+                "2.5": "51%",
+                "3.5": "23%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "51%"
             }
         }
     ]
