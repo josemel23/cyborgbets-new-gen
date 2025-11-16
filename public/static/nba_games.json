@@ -1,49 +1,55 @@
 [
     {
         "hora": "",
-        "emparejamiento": "GIA @ WIT",
-        "resultado": "25 - 18",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
         "emparejamiento": "ONY @ WIT",
         "resultado": "32 - 8",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "Highlights of Karl-Anthony Towns vs Norman Powell",
+        "emparejamiento": "KINGS vs SPURS NOV 16 PREVIEW",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "NUGGETS vs TIMBERWOLVES NOV 15 PREVIEW",
+        "emparejamiento": "TRAIL BLAZERS vs MAVERICKS NOV 16 PREVIEW",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "GRIZZLIES vs CAVALIERS NOV 15 PREVIEW",
+        "emparejamiento": "HAWKS vs SUNS NOV 16 PREVIEW",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "THUNDER vs HORNETS NOV 15 PREVIEW",
+        "emparejamiento": "WARRIORS vs PELICANS NOV 16 PREVIEW",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "LAKERS vs BUCKS NOV 15 PREVIEW",
+        "emparejamiento": "BULLS vs JAZZ NOV 16 PREVIEW",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "RAPTORS vs PACERS NOV 15 PREVIEW",
+        "emparejamiento": "MAGIC vs ROCKETS NOV 16 PREVIEW",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "NETS vs WIZARDS NOV 16 PREVIEW",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "CLIPPERS vs CELTICS NOV 16 PREVIEW",
         "resultado": "–",
         "ubicacion": ""
     },
@@ -51,6 +57,12 @@
         "hora": "",
         "emparejamiento": "S R @ OF ",
         "resultado": "3 - 2025",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "BKN @ OKC",
+        "resultado": "33 - 13",
         "ubicacion": ""
     }
 ]
