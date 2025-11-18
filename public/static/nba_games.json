@@ -1,13 +1,19 @@
 [
     {
         "hora": "",
+        "emparejamiento": "THUNDER vs PELICANS NOV 17 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
         "emparejamiento": "KNICKS vs HEAT NOV 17 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "CLIPPERS vs 76ERS NOV 17 HIGHLIGHTS",
+        "emparejamiento": "MAVERICKS vs TIMBERWOLVES NOV 17 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
@@ -19,13 +25,25 @@
     },
     {
         "hora": "",
-        "emparejamiento": "BUCKS vs CAVALIERS NOV 17 HIGHLIGHTS",
+        "emparejamiento": "HORNETS vs RAPTORS NOV 17 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "HORNETS vs RAPTORS NOV 17 HIGHLIGHTS",
+        "emparejamiento": "BULLS vs NUGGETS NOV 17 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "CLIPPERS vs 76ERS NOV 17 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "BUCKS vs CAVALIERS NOV 17 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
@@ -43,38 +61,8 @@
     },
     {
         "hora": "",
-        "emparejamiento": "THUNDER vs PELICANS NOV 17 PREVIEW",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "BULLS vs NUGGETS NOV 17 PREVIEW",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "MAVERICKS vs TIMBERWOLVES NOV 17 PREVIEW",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "00:19",
-        "emparejamiento": "SWI @ OFF",
-        "resultado": "3 - 1",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
         "emparejamiento": "ONE @ MAT",
         "resultado": "5 - 30",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "S R @ OF ",
-        "resultado": "3 - 2025",
         "ubicacion": ""
     }
 ]
