@@ -3,613 +3,613 @@
         {
             "team": "Al Nassr",
             "position": "1",
-            "matches_played": "7",
-            "wins": "7",
+            "matches_played": "9",
+            "wins": "9",
             "draws": "0",
             "losses": "0",
-            "goals_for": "23",
-            "goals_against": "3",
-            "goal_difference": "20",
-            "points": "21",
-            "btts": {
-                "Yes": "0"
-            },
-            "cards": {
-                "over_3_5": "7",
-                "over_4_5": "0",
-                "over_5_5": "0"
-            },
+            "goals_for": "30",
+            "goals_against": "5",
+            "goal_difference": "25",
+            "points": "27",
             "corners": {
-                "8.5": "71 %",
-                "9.5": "57 %",
-                "10.5": "57 %",
-                "11.5": "29 %",
-                "12.5": "29 %",
-                "13.5": "29 %",
-                "average": "11.71"
+                "8.5": "56 %",
+                "9.5": "44 %",
+                "10.5": "44 %",
+                "11.5": "22 %",
+                "12.5": "22 %",
+                "13.5": "22 %",
+                "average": "10.56"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Al Taawoun",
-            "position": "2",
-            "matches_played": "7",
-            "wins": "6",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "18",
-            "goals_against": "10",
-            "goal_difference": "8",
-            "points": "18",
-            "btts": {
-                "Yes": "0"
+                "1.5": "86%",
+                "2.5": "63%",
+                "3.5": "35%"
             },
             "cards": {
-                "over_3_5": "6",
-                "over_4_5": "0",
-                "over_5_5": "1"
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
             },
-            "corners": {
-                "8.5": "57 %",
-                "9.5": "29 %",
-                "10.5": "14 %",
-                "11.5": "14 %",
-                "12.5": "0 %",
-                "13.5": "0 %",
-                "average": "8.72"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+            "btts": {
+                "Yes": "56%"
             }
         },
         {
             "team": "Al Hilal",
-            "position": "3",
-            "matches_played": "7",
-            "wins": "5",
+            "position": "2",
+            "matches_played": "9",
+            "wins": "7",
             "draws": "2",
             "losses": "0",
-            "goals_for": "18",
-            "goals_against": "6",
-            "goal_difference": "12",
-            "points": "17",
-            "btts": {
-                "Yes": "2"
-            },
-            "cards": {
-                "over_3_5": "5",
-                "over_4_5": "2",
-                "over_5_5": "0"
-            },
+            "goals_for": "24",
+            "goals_against": "9",
+            "goal_difference": "15",
+            "points": "23",
             "corners": {
-                "8.5": "71 %",
-                "9.5": "57 %",
-                "10.5": "43 %",
-                "11.5": "29 %",
-                "12.5": "29 %",
-                "13.5": "0 %",
-                "average": "9.42"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Al Quadisiya",
-            "position": "4",
-            "matches_played": "7",
-            "wins": "4",
-            "draws": "2",
-            "losses": "1",
-            "goals_for": "11",
-            "goals_against": "7",
-            "goal_difference": "4",
-            "points": "14",
-            "btts": {
-                "Yes": "2"
-            },
-            "cards": {
-                "over_3_5": "4",
-                "over_4_5": "2",
-                "over_5_5": "1"
-            },
-            "corners": {
-                "8.5": "71 %",
-                "9.5": "57 %",
-                "10.5": "43 %",
-                "11.5": "29 %",
-                "12.5": "0 %",
-                "13.5": "0 %",
-                "average": "9.85"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Al Ahli",
-            "position": "5",
-            "matches_played": "7",
-            "wins": "3",
-            "draws": "4",
-            "losses": "0",
-            "goals_for": "9",
-            "goals_against": "5",
-            "goal_difference": "4",
-            "points": "13",
-            "btts": {
-                "Yes": "4"
-            },
-            "cards": {
-                "over_3_5": "3",
-                "over_4_5": "4",
-                "over_5_5": "0"
-            },
-            "corners": {
-                "8.5": "57 %",
-                "9.5": "57 %",
-                "10.5": "57 %",
-                "11.5": "57 %",
-                "12.5": "43 %",
-                "13.5": "0 %",
-                "average": "9.71"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Neom SC",
-            "position": "6",
-            "matches_played": "7",
-            "wins": "4",
-            "draws": "1",
-            "losses": "2",
-            "goals_for": "11",
-            "goals_against": "10",
-            "goal_difference": "1",
-            "points": "13",
-            "btts": {
-                "Yes": "1"
-            },
-            "cards": {
-                "over_3_5": "4",
-                "over_4_5": "1",
-                "over_5_5": "2"
-            },
-            "corners": {
-                "8.5": "57 %",
-                "9.5": "29 %",
-                "10.5": "29 %",
-                "11.5": "14 %",
-                "12.5": "14 %",
-                "13.5": "14 %",
-                "average": "8.86"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Al Khaleej",
-            "position": "7",
-            "matches_played": "7",
-            "wins": "3",
-            "draws": "2",
-            "losses": "2",
-            "goals_for": "17",
-            "goals_against": "10",
-            "goal_difference": "7",
-            "points": "11",
-            "btts": {
-                "Yes": "2"
-            },
-            "cards": {
-                "over_3_5": "3",
-                "over_4_5": "2",
-                "over_5_5": "2"
-            },
-            "corners": {
-                "8.5": "71 %",
-                "9.5": "43 %",
-                "10.5": "29 %",
-                "11.5": "29 %",
-                "12.5": "14 %",
-                "13.5": "14 %",
-                "average": "10.28"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Al Ittihad",
-            "position": "8",
-            "matches_played": "7",
-            "wins": "3",
-            "draws": "2",
-            "losses": "2",
-            "goals_for": "15",
-            "goals_against": "13",
-            "goal_difference": "2",
-            "points": "11",
-            "btts": {
-                "Yes": "2"
-            },
-            "cards": {
-                "over_3_5": "3",
-                "over_4_5": "2",
-                "over_5_5": "2"
-            },
-            "corners": {
-                "8.5": "86 %",
-                "9.5": "71 %",
-                "10.5": "57 %",
-                "11.5": "0 %",
-                "12.5": "0 %",
+                "8.5": "78 %",
+                "9.5": "67 %",
+                "10.5": "56 %",
+                "11.5": "33 %",
+                "12.5": "33 %",
                 "13.5": "0 %",
                 "average": "10"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "84%",
+                "2.5": "60%",
+                "3.5": "32%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "53%"
             }
         },
         {
-            "team": "Al Kholood",
-            "position": "9",
-            "matches_played": "7",
-            "wins": "3",
-            "draws": "0",
-            "losses": "4",
-            "goals_for": "12",
-            "goals_against": "11",
-            "goal_difference": "1",
-            "points": "9",
-            "btts": {
-                "Yes": "0"
+            "team": "Al Taawoun",
+            "position": "3",
+            "matches_played": "9",
+            "wins": "7",
+            "draws": "1",
+            "losses": "1",
+            "goals_for": "24",
+            "goals_against": "13",
+            "goal_difference": "11",
+            "points": "22",
+            "corners": {
+                "8.5": "67 %",
+                "9.5": "33 %",
+                "10.5": "22 %",
+                "11.5": "22 %",
+                "12.5": "11 %",
+                "13.5": "11 %",
+                "average": "9.33"
+            },
+            "goals": {
+                "1.5": "88%",
+                "2.5": "67%",
+                "3.5": "37%"
             },
             "cards": {
-                "over_3_5": "3",
-                "over_4_5": "0",
-                "over_5_5": "4"
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
             },
+            "btts": {
+                "Yes": "66%"
+            }
+        },
+        {
+            "team": "Al Ahli",
+            "position": "4",
+            "matches_played": "9",
+            "wins": "5",
+            "draws": "4",
+            "losses": "0",
+            "goals_for": "12",
+            "goals_against": "6",
+            "goal_difference": "6",
+            "points": "19",
             "corners": {
-                "8.5": "57 %",
-                "9.5": "43 %",
-                "10.5": "43 %",
+                "8.5": "67 %",
+                "9.5": "56 %",
+                "10.5": "44 %",
+                "11.5": "44 %",
+                "12.5": "33 %",
+                "13.5": "0 %",
+                "average": "9.66"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Al Quadisiya",
+            "position": "5",
+            "matches_played": "9",
+            "wins": "5",
+            "draws": "2",
+            "losses": "2",
+            "goals_for": "16",
+            "goals_against": "9",
+            "goal_difference": "7",
+            "points": "17",
+            "corners": {
+                "8.5": "78 %",
+                "9.5": "67 %",
+                "10.5": "44 %",
+                "11.5": "33 %",
+                "12.5": "0 %",
+                "13.5": "0 %",
+                "average": "10.11"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "46%",
+                "3.5": "19%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Al Khaleej",
+            "position": "6",
+            "matches_played": "9",
+            "wins": "4",
+            "draws": "2",
+            "losses": "3",
+            "goals_for": "22",
+            "goals_against": "15",
+            "goal_difference": "7",
+            "points": "14",
+            "corners": {
+                "8.5": "67 %",
+                "9.5": "33 %",
+                "10.5": "22 %",
+                "11.5": "22 %",
+                "12.5": "11 %",
+                "13.5": "11 %",
+                "average": "9.67"
+            },
+            "goals": {
+                "1.5": "88%",
+                "2.5": "67%",
+                "3.5": "37%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "69%"
+            }
+        },
+        {
+            "team": "Al Ittihad",
+            "position": "7",
+            "matches_played": "9",
+            "wins": "4",
+            "draws": "2",
+            "losses": "3",
+            "goals_for": "17",
+            "goals_against": "15",
+            "goal_difference": "2",
+            "points": "14",
+            "corners": {
+                "8.5": "89 %",
+                "9.5": "56 %",
+                "10.5": "44 %",
                 "11.5": "0 %",
                 "12.5": "0 %",
                 "13.5": "0 %",
-                "average": "8.58"
+                "average": "9.78"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "83%",
+                "2.5": "58%",
+                "3.5": "31%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "56%"
+            }
+        },
+        {
+            "team": "Neom SC",
+            "position": "8",
+            "matches_played": "9",
+            "wins": "4",
+            "draws": "2",
+            "losses": "3",
+            "goals_for": "13",
+            "goals_against": "14",
+            "goal_difference": "-1",
+            "points": "14",
+            "corners": {
+                "8.5": "56 %",
+                "9.5": "22 %",
+                "10.5": "22 %",
+                "11.5": "11 %",
+                "12.5": "11 %",
+                "13.5": "11 %",
+                "average": "8.67"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "59%"
+            }
+        },
+        {
+            "team": "Al Ittifaq",
+            "position": "9",
+            "matches_played": "9",
+            "wins": "3",
+            "draws": "3",
+            "losses": "3",
+            "goals_for": "13",
+            "goals_against": "18",
+            "goal_difference": "-5",
+            "points": "12",
+            "corners": {
+                "8.5": "78 %",
+                "9.5": "33 %",
+                "10.5": "33 %",
+                "11.5": "33 %",
+                "12.5": "22 %",
+                "13.5": "11 %",
+                "average": "9.66"
+            },
+            "goals": {
+                "1.5": "81%",
+                "2.5": "57%",
+                "3.5": "29%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "53%"
             }
         },
         {
             "team": "Al Feiha",
             "position": "10",
-            "matches_played": "7",
-            "wins": "2",
+            "matches_played": "9",
+            "wins": "3",
             "draws": "2",
-            "losses": "3",
-            "goals_for": "7",
-            "goals_against": "10",
-            "goal_difference": "-3",
-            "points": "8",
-            "btts": {
-                "Yes": "2"
-            },
-            "cards": {
-                "over_3_5": "2",
-                "over_4_5": "2",
-                "over_5_5": "3"
-            },
-            "corners": {
-                "8.5": "71 %",
-                "9.5": "57 %",
-                "10.5": "43 %",
-                "11.5": "29 %",
-                "12.5": "29 %",
-                "13.5": "14 %",
-                "average": "10.71"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Al Ittifaq",
-            "position": "11",
-            "matches_played": "7",
-            "wins": "2",
-            "draws": "2",
-            "losses": "3",
-            "goals_for": "9",
-            "goals_against": "15",
-            "goal_difference": "-6",
-            "points": "8",
-            "btts": {
-                "Yes": "2"
-            },
-            "cards": {
-                "over_3_5": "2",
-                "over_4_5": "2",
-                "over_5_5": "3"
-            },
-            "corners": {
-                "8.5": "86 %",
-                "9.5": "29 %",
-                "10.5": "29 %",
-                "11.5": "29 %",
-                "12.5": "29 %",
-                "13.5": "14 %",
-                "average": "9.57"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Al-Riyadh",
-            "position": "12",
-            "matches_played": "7",
-            "wins": "2",
-            "draws": "1",
             "losses": "4",
-            "goals_for": "8",
-            "goals_against": "16",
-            "goal_difference": "-8",
-            "points": "7",
-            "btts": {
-                "Yes": "1"
-            },
-            "cards": {
-                "over_3_5": "2",
-                "over_4_5": "1",
-                "over_5_5": "4"
-            },
+            "goals_for": "11",
+            "goals_against": "13",
+            "goal_difference": "-2",
+            "points": "11",
             "corners": {
-                "8.5": "71 %",
-                "9.5": "71 %",
-                "10.5": "71 %",
-                "11.5": "57 %",
-                "12.5": "57 %",
-                "13.5": "43 %",
-                "average": "12.72"
+                "8.5": "56 %",
+                "9.5": "44 %",
+                "10.5": "33 %",
+                "11.5": "22 %",
+                "12.5": "22 %",
+                "13.5": "11 %",
+                "average": "9.89"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "72%",
+                "2.5": "43%",
+                "3.5": "17%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "47%"
+            }
+        },
+        {
+            "team": "Al Kholood",
+            "position": "11",
+            "matches_played": "9",
+            "wins": "3",
+            "draws": "0",
+            "losses": "6",
+            "goals_for": "13",
+            "goals_against": "17",
+            "goal_difference": "-4",
+            "points": "9",
+            "corners": {
+                "8.5": "67 %",
+                "9.5": "44 %",
+                "10.5": "44 %",
+                "11.5": "11 %",
+                "12.5": "0 %",
+                "13.5": "0 %",
+                "average": "9"
+            },
+            "goals": {
+                "1.5": "80%",
+                "2.5": "55%",
+                "3.5": "28%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "52%"
             }
         },
         {
             "team": "Al Hazm",
-            "position": "13",
-            "matches_played": "7",
-            "wins": "1",
+            "position": "12",
+            "matches_played": "9",
+            "wins": "2",
             "draws": "3",
-            "losses": "3",
-            "goals_for": "5",
-            "goals_against": "9",
-            "goal_difference": "-4",
-            "points": "6",
-            "btts": {
-                "Yes": "3"
-            },
-            "cards": {
-                "over_3_5": "1",
-                "over_4_5": "3",
-                "over_5_5": "3"
-            },
+            "losses": "4",
+            "goals_for": "8",
+            "goals_against": "14",
+            "goal_difference": "-6",
+            "points": "9",
             "corners": {
-                "8.5": "43 %",
-                "9.5": "29 %",
-                "10.5": "29 %",
-                "11.5": "14 %",
+                "8.5": "56 %",
+                "9.5": "22 %",
+                "10.5": "22 %",
+                "11.5": "11 %",
                 "12.5": "0 %",
                 "13.5": "0 %",
-                "average": "8.43"
+                "average": "8.55"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "68%",
+                "2.5": "39%",
+                "3.5": "15%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "45%"
             }
         },
         {
             "team": "Al Shabab",
-            "position": "14",
-            "matches_played": "7",
+            "position": "13",
+            "matches_played": "9",
             "wins": "1",
-            "draws": "3",
+            "draws": "5",
             "losses": "3",
-            "goals_for": "5",
-            "goals_against": "9",
+            "goals_for": "7",
+            "goals_against": "11",
             "goal_difference": "-4",
-            "points": "6",
-            "btts": {
-                "Yes": "3"
-            },
-            "cards": {
-                "over_3_5": "1",
-                "over_4_5": "3",
-                "over_5_5": "3"
-            },
+            "points": "8",
             "corners": {
-                "8.5": "71 %",
-                "9.5": "71 %",
-                "10.5": "43 %",
-                "11.5": "29 %",
+                "8.5": "67 %",
+                "9.5": "67 %",
+                "10.5": "44 %",
+                "11.5": "33 %",
                 "12.5": "0 %",
                 "13.5": "0 %",
-                "average": "9.15"
+                "average": "9.33"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "45%"
             }
         },
         {
-            "team": "Al Fateh",
-            "position": "15",
-            "matches_played": "7",
-            "wins": "1",
+            "team": "Al-Riyadh",
+            "position": "14",
+            "matches_played": "9",
+            "wins": "2",
             "draws": "2",
-            "losses": "4",
-            "goals_for": "7",
-            "goals_against": "14",
-            "goal_difference": "-7",
-            "points": "5",
-            "btts": {
-                "Yes": "2"
-            },
-            "cards": {
-                "over_3_5": "1",
-                "over_4_5": "2",
-                "over_5_5": "4"
-            },
+            "losses": "5",
+            "goals_for": "10",
+            "goals_against": "19",
+            "goal_difference": "-9",
+            "points": "8",
             "corners": {
-                "8.5": "29 %",
-                "9.5": "29 %",
-                "10.5": "29 %",
-                "11.5": "14 %",
-                "12.5": "14 %",
-                "13.5": "14 %",
-                "average": "9.29"
+                "8.5": "67 %",
+                "9.5": "56 %",
+                "10.5": "56 %",
+                "11.5": "44 %",
+                "12.5": "44 %",
+                "13.5": "33 %",
+                "average": "11.78"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "79%",
+                "2.5": "53%",
+                "3.5": "26%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "52%"
+            }
+        },
+        {
+            "team": "Dhamk",
+            "position": "15",
+            "matches_played": "9",
+            "wins": "0",
+            "draws": "5",
+            "losses": "4",
+            "goals_for": "8",
+            "goals_against": "17",
+            "goal_difference": "-9",
+            "points": "5",
+            "corners": {
+                "8.5": "44 %",
+                "9.5": "11 %",
+                "10.5": "11 %",
+                "11.5": "11 %",
+                "12.5": "11 %",
+                "13.5": "11 %",
+                "average": "9.11"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "46%",
+                "3.5": "19%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "49%"
             }
         },
         {
             "team": "Al Akhdoud",
             "position": "16",
-            "matches_played": "7",
+            "matches_played": "9",
             "wins": "1",
-            "draws": "1",
-            "losses": "5",
-            "goals_for": "8",
-            "goals_against": "15",
-            "goal_difference": "-7",
-            "points": "4",
-            "btts": {
-                "Yes": "1"
-            },
-            "cards": {
-                "over_3_5": "1",
-                "over_4_5": "1",
-                "over_5_5": "5"
-            },
+            "draws": "2",
+            "losses": "6",
+            "goals_for": "9",
+            "goals_against": "18",
+            "goal_difference": "-9",
+            "points": "5",
             "corners": {
-                "8.5": "86 %",
-                "9.5": "71 %",
-                "10.5": "43 %",
-                "11.5": "29 %",
-                "12.5": "29 %",
-                "13.5": "14 %",
-                "average": "11.14"
+                "8.5": "67 %",
+                "9.5": "56 %",
+                "10.5": "33 %",
+                "11.5": "22 %",
+                "12.5": "22 %",
+                "13.5": "11 %",
+                "average": "10.22"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "56%"
             }
         },
         {
-            "team": "Dhamk",
+            "team": "Al Fateh",
             "position": "17",
-            "matches_played": "7",
-            "wins": "0",
-            "draws": "3",
-            "losses": "4",
-            "goals_for": "7",
-            "goals_against": "16",
-            "goal_difference": "-9",
-            "points": "3",
-            "btts": {
-                "Yes": "3"
-            },
-            "cards": {
-                "over_3_5": "0",
-                "over_4_5": "3",
-                "over_5_5": "4"
-            },
+            "matches_played": "9",
+            "wins": "1",
+            "draws": "2",
+            "losses": "6",
+            "goals_for": "10",
+            "goals_against": "21",
+            "goal_difference": "-11",
+            "points": "5",
             "corners": {
-                "8.5": "43 %",
-                "9.5": "0 %",
-                "10.5": "0 %",
-                "11.5": "0 %",
-                "12.5": "0 %",
-                "13.5": "0 %",
-                "average": "7.85"
+                "8.5": "44 %",
+                "9.5": "44 %",
+                "10.5": "44 %",
+                "11.5": "33 %",
+                "12.5": "33 %",
+                "13.5": "22 %",
+                "average": "10.22"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "81%",
+                "2.5": "57%",
+                "3.5": "29%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "56%"
             }
         },
         {
             "team": "Al Najma",
             "position": "18",
-            "matches_played": "7",
+            "matches_played": "9",
             "wins": "0",
-            "draws": "0",
-            "losses": "7",
-            "goals_for": "5",
-            "goals_against": "16",
-            "goal_difference": "-11",
-            "points": "0",
-            "btts": {
-                "Yes": "0"
-            },
-            "cards": {
-                "over_3_5": "0",
-                "over_4_5": "0",
-                "over_5_5": "7"
-            },
+            "draws": "1",
+            "losses": "8",
+            "goals_for": "7",
+            "goals_against": "20",
+            "goal_difference": "-13",
+            "points": "1",
             "corners": {
-                "8.5": "71 %",
-                "9.5": "57 %",
-                "10.5": "57 %",
-                "11.5": "29 %",
-                "12.5": "29 %",
-                "13.5": "14 %",
-                "average": "10.57"
+                "8.5": "78 %",
+                "9.5": "67 %",
+                "10.5": "67 %",
+                "11.5": "33 %",
+                "12.5": "33 %",
+                "13.5": "22 %",
+                "average": "11.56"
             },
             "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "50%"
             }
         }
     ]
