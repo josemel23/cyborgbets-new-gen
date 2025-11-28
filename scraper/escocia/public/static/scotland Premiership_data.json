@@ -3,27 +3,129 @@
         {
             "team": "Hearts",
             "position": "1",
-            "matches_played": "12",
+            "matches_played": "13",
             "wins": "9",
             "draws": "3",
-            "losses": "0",
+            "losses": "1",
             "goals_for": "29",
-            "goals_against": "10",
-            "goal_difference": "19",
+            "goals_against": "11",
+            "goal_difference": "18",
             "points": "30",
             "corners": {
-                "8.5": "67 %",
-                "9.5": "58 %",
-                "10.5": "58 %",
-                "11.5": "42 %",
-                "12.5": "33 %",
-                "13.5": "25 %",
-                "average": "10.42"
+                "8.5": "69 %",
+                "9.5": "54 %",
+                "10.5": "54 %",
+                "11.5": "38 %",
+                "12.5": "31 %",
+                "13.5": "23 %",
+                "average": "10.31"
             },
             "goals": {
-                "1.5": "80%",
-                "2.5": "54%",
-                "3.5": "26%"
+                "1.5": "78%",
+                "2.5": "51%",
+                "3.5": "24%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "51%"
+            }
+        },
+        {
+            "team": "Celtic",
+            "position": "2",
+            "matches_played": "12",
+            "wins": "8",
+            "draws": "2",
+            "losses": "2",
+            "goals_for": "21",
+            "goals_against": "8",
+            "goal_difference": "13",
+            "points": "26",
+            "corners": {
+                "8.5": "83 %",
+                "9.5": "58 %",
+                "10.5": "50 %",
+                "11.5": "50 %",
+                "12.5": "50 %",
+                "13.5": "33 %",
+                "average": "11.09"
+            },
+            "goals": {
+                "1.5": "68%",
+                "2.5": "38%",
+                "3.5": "14%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "Motherwell",
+            "position": "3",
+            "matches_played": "13",
+            "wins": "5",
+            "draws": "6",
+            "losses": "2",
+            "goals_for": "22",
+            "goals_against": "15",
+            "goal_difference": "7",
+            "points": "21",
+            "corners": {
+                "8.5": "54 %",
+                "9.5": "46 %",
+                "10.5": "23 %",
+                "11.5": "15 %",
+                "12.5": "8 %",
+                "13.5": "0 %",
+                "average": "8.23"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "47%",
+                "3.5": "20%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Hibernian",
+            "position": "4",
+            "matches_played": "14",
+            "wins": "5",
+            "draws": "6",
+            "losses": "3",
+            "goals_for": "23",
+            "goals_against": "16",
+            "goal_difference": "7",
+            "points": "21",
+            "corners": {
+                "8.5": "79 %",
+                "9.5": "57 %",
+                "10.5": "43 %",
+                "11.5": "21 %",
+                "12.5": "21 %",
+                "13.5": "21 %",
+                "average": "10.21"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "46%",
+                "3.5": "19%"
             },
             "cards": {
                 "over_3_5": "79%",
@@ -31,28 +133,232 @@
                 "over_5_5": "39%"
             },
             "btts": {
-                "Yes": "58%"
+                "Yes": "45%"
             }
         },
         {
-            "team": "Celtic",
-            "position": "2",
-            "matches_played": "11",
-            "wins": "7",
-            "draws": "2",
-            "losses": "2",
-            "goals_for": "20",
-            "goals_against": "8",
-            "goal_difference": "12",
-            "points": "23",
+            "team": "Rangers",
+            "position": "5",
+            "matches_played": "12",
+            "wins": "5",
+            "draws": "6",
+            "losses": "1",
+            "goals_for": "17",
+            "goals_against": "11",
+            "goal_difference": "6",
+            "points": "21",
             "corners": {
-                "8.5": "91 %",
-                "9.5": "64 %",
-                "10.5": "55 %",
-                "11.5": "55 %",
-                "12.5": "55 %",
-                "13.5": "36 %",
-                "average": "11.55"
+                "8.5": "92 %",
+                "9.5": "67 %",
+                "10.5": "50 %",
+                "11.5": "33 %",
+                "12.5": "17 %",
+                "13.5": "0 %",
+                "average": "10.17"
+            },
+            "goals": {
+                "1.5": "66%",
+                "2.5": "37%",
+                "3.5": "14%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "49%"
+            }
+        },
+        {
+            "team": "Falkirk",
+            "position": "6",
+            "matches_played": "13",
+            "wins": "5",
+            "draws": "4",
+            "losses": "4",
+            "goals_for": "19",
+            "goals_against": "21",
+            "goal_difference": "-2",
+            "points": "19",
+            "corners": {
+                "8.5": "62 %",
+                "9.5": "46 %",
+                "10.5": "23 %",
+                "11.5": "15 %",
+                "12.5": "15 %",
+                "13.5": "8 %",
+                "average": "9.31"
+            },
+            "goals": {
+                "1.5": "78%",
+                "2.5": "51%",
+                "3.5": "24%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "53%"
+            }
+        },
+        {
+            "team": "Dundee United",
+            "position": "7",
+            "matches_played": "12",
+            "wins": "3",
+            "draws": "5",
+            "losses": "4",
+            "goals_for": "18",
+            "goals_against": "20",
+            "goal_difference": "-2",
+            "points": "14",
+            "corners": {
+                "8.5": "67 %",
+                "9.5": "50 %",
+                "10.5": "33 %",
+                "11.5": "25 %",
+                "12.5": "25 %",
+                "13.5": "25 %",
+                "average": "9.83"
+            },
+            "goals": {
+                "1.5": "79%",
+                "2.5": "52%",
+                "3.5": "25%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "59%"
+            }
+        },
+        {
+            "team": "Aberdeen",
+            "position": "8",
+            "matches_played": "12",
+            "wins": "4",
+            "draws": "2",
+            "losses": "6",
+            "goals_for": "9",
+            "goals_against": "12",
+            "goal_difference": "-3",
+            "points": "14",
+            "corners": {
+                "8.5": "67 %",
+                "9.5": "42 %",
+                "10.5": "33 %",
+                "11.5": "25 %",
+                "12.5": "17 %",
+                "13.5": "8 %",
+                "average": "9.59"
+            },
+            "goals": {
+                "1.5": "52%",
+                "2.5": "26%",
+                "3.5": "10%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "47%"
+            }
+        },
+        {
+            "team": "St. Mirren",
+            "position": "9",
+            "matches_played": "12",
+            "wins": "2",
+            "draws": "4",
+            "losses": "6",
+            "goals_for": "8",
+            "goals_against": "16",
+            "goal_difference": "-8",
+            "points": "10",
+            "corners": {
+                "8.5": "75 %",
+                "9.5": "75 %",
+                "10.5": "67 %",
+                "11.5": "50 %",
+                "12.5": "42 %",
+                "13.5": "17 %",
+                "average": "11.34"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "47%"
+            }
+        },
+        {
+            "team": "Kilmarnock",
+            "position": "10",
+            "matches_played": "13",
+            "wins": "2",
+            "draws": "4",
+            "losses": "7",
+            "goals_for": "14",
+            "goals_against": "25",
+            "goal_difference": "-11",
+            "points": "10",
+            "corners": {
+                "8.5": "77 %",
+                "9.5": "54 %",
+                "10.5": "38 %",
+                "11.5": "31 %",
+                "12.5": "31 %",
+                "13.5": "15 %",
+                "average": "10.46"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "59%"
+            }
+        },
+        {
+            "team": "Dundee",
+            "position": "11",
+            "matches_played": "13",
+            "wins": "2",
+            "draws": "3",
+            "losses": "8",
+            "goals_for": "9",
+            "goals_against": "24",
+            "goal_difference": "-15",
+            "points": "9",
+            "corners": {
+                "8.5": "69 %",
+                "9.5": "69 %",
+                "10.5": "46 %",
+                "11.5": "23 %",
+                "12.5": "23 %",
+                "13.5": "15 %",
+                "average": "10.23"
             },
             "goals": {
                 "1.5": "70%",
@@ -69,63 +375,29 @@
             }
         },
         {
-            "team": "Hibernian",
-            "position": "3",
-            "matches_played": "12",
-            "wins": "4",
-            "draws": "6",
-            "losses": "2",
-            "goals_for": "21",
-            "goals_against": "14",
-            "goal_difference": "7",
-            "points": "18",
-            "corners": {
-                "8.5": "83 %",
-                "9.5": "58 %",
-                "10.5": "42 %",
-                "11.5": "25 %",
-                "12.5": "25 %",
-                "13.5": "25 %",
-                "average": "10.84"
-            },
-            "goals": {
-                "1.5": "76%",
-                "2.5": "48%",
-                "3.5": "21%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Rangers",
-            "position": "4",
-            "matches_played": "11",
-            "wins": "4",
-            "draws": "6",
-            "losses": "1",
+            "team": "Livingston",
+            "position": "12",
+            "matches_played": "13",
+            "wins": "1",
+            "draws": "5",
+            "losses": "7",
             "goals_for": "15",
-            "goals_against": "10",
-            "goal_difference": "5",
-            "points": "18",
+            "goals_against": "25",
+            "goal_difference": "-10",
+            "points": "8",
             "corners": {
-                "8.5": "100 %",
-                "9.5": "73 %",
-                "10.5": "55 %",
-                "11.5": "36 %",
-                "12.5": "18 %",
-                "13.5": "0 %",
-                "average": "10.81"
+                "8.5": "62 %",
+                "9.5": "46 %",
+                "10.5": "46 %",
+                "11.5": "38 %",
+                "12.5": "23 %",
+                "13.5": "23 %",
+                "average": "9.69"
             },
             "goals": {
-                "1.5": "65%",
-                "2.5": "35%",
-                "3.5": "14%"
+                "1.5": "78%",
+                "2.5": "51%",
+                "3.5": "24%"
             },
             "cards": {
                 "over_3_5": "79%",
@@ -133,279 +405,7 @@
                 "over_5_5": "39%"
             },
             "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
-            "team": "Falkirk",
-            "position": "5",
-            "matches_played": "12",
-            "wins": "4",
-            "draws": "4",
-            "losses": "4",
-            "goals_for": "16",
-            "goals_against": "21",
-            "goal_difference": "-5",
-            "points": "16",
-            "corners": {
-                "8.5": "58 %",
-                "9.5": "42 %",
-                "10.5": "25 %",
-                "11.5": "17 %",
-                "12.5": "17 %",
-                "13.5": "8 %",
-                "average": "9.25"
-            },
-            "goals": {
-                "1.5": "78%",
-                "2.5": "51%",
-                "3.5": "24%"
-            },
-            "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
-            },
-            "btts": {
-                "Yes": "59%"
-            }
-        },
-        {
-            "team": "Motherwell",
-            "position": "6",
-            "matches_played": "11",
-            "wins": "3",
-            "draws": "6",
-            "losses": "2",
-            "goals_for": "17",
-            "goals_against": "14",
-            "goal_difference": "3",
-            "points": "15",
-            "corners": {
-                "8.5": "64 %",
-                "9.5": "55 %",
-                "10.5": "27 %",
-                "11.5": "18 %",
-                "12.5": "9 %",
-                "13.5": "0 %",
-                "average": "9"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "46%",
-                "3.5": "20%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
-            "team": "Dundee United",
-            "position": "7",
-            "matches_played": "11",
-            "wins": "3",
-            "draws": "5",
-            "losses": "3",
-            "goals_for": "18",
-            "goals_against": "17",
-            "goal_difference": "1",
-            "points": "14",
-            "corners": {
-                "8.5": "64 %",
-                "9.5": "45 %",
-                "10.5": "36 %",
-                "11.5": "27 %",
-                "12.5": "27 %",
-                "13.5": "27 %",
-                "average": "9.82"
-            },
-            "goals": {
-                "1.5": "79%",
-                "2.5": "53%",
-                "3.5": "25%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "55%"
-            }
-        },
-        {
-            "team": "Aberdeen",
-            "position": "8",
-            "matches_played": "11",
-            "wins": "3",
-            "draws": "2",
-            "losses": "6",
-            "goals_for": "8",
-            "goals_against": "12",
-            "goal_difference": "-4",
-            "points": "11",
-            "corners": {
-                "8.5": "64 %",
-                "9.5": "45 %",
-                "10.5": "36 %",
-                "11.5": "27 %",
-                "12.5": "18 %",
-                "13.5": "9 %",
-                "average": "9.63"
-            },
-            "goals": {
-                "1.5": "55%",
-                "2.5": "27%",
-                "3.5": "11%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "St. Mirren",
-            "position": "9",
-            "matches_played": "11",
-            "wins": "2",
-            "draws": "4",
-            "losses": "5",
-            "goals_for": "8",
-            "goals_against": "15",
-            "goal_difference": "-7",
-            "points": "10",
-            "corners": {
-                "8.5": "82 %",
-                "9.5": "82 %",
-                "10.5": "73 %",
-                "11.5": "55 %",
-                "12.5": "45 %",
-                "13.5": "18 %",
-                "average": "11.82"
-            },
-            "goals": {
-                "1.5": "62%",
-                "2.5": "32%",
-                "3.5": "13%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Kilmarnock",
-            "position": "10",
-            "matches_played": "12",
-            "wins": "2",
-            "draws": "4",
-            "losses": "6",
-            "goals_for": "13",
-            "goals_against": "22",
-            "goal_difference": "-9",
-            "points": "10",
-            "corners": {
-                "8.5": "83 %",
-                "9.5": "58 %",
-                "10.5": "42 %",
-                "11.5": "33 %",
-                "12.5": "33 %",
-                "13.5": "17 %",
-                "average": "10.84"
-            },
-            "goals": {
-                "1.5": "76%",
-                "2.5": "48%",
-                "3.5": "21%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Dundee",
-            "position": "11",
-            "matches_played": "12",
-            "wins": "2",
-            "draws": "3",
-            "losses": "7",
-            "goals_for": "9",
-            "goals_against": "22",
-            "goal_difference": "-13",
-            "points": "9",
-            "corners": {
-                "8.5": "67 %",
-                "9.5": "67 %",
-                "10.5": "42 %",
-                "11.5": "25 %",
-                "12.5": "25 %",
-                "13.5": "17 %",
-                "average": "10.17"
-            },
-            "goals": {
-                "1.5": "71%",
-                "2.5": "42%",
-                "3.5": "16%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Livingston",
-            "position": "12",
-            "matches_played": "12",
-            "wins": "1",
-            "draws": "5",
-            "losses": "6",
-            "goals_for": "14",
-            "goals_against": "23",
-            "goal_difference": "-9",
-            "points": "8",
-            "corners": {
-                "8.5": "67 %",
-                "9.5": "50 %",
-                "10.5": "50 %",
-                "11.5": "42 %",
-                "12.5": "25 %",
-                "13.5": "25 %",
-                "average": "10.25"
-            },
-            "goals": {
-                "1.5": "78%",
-                "2.5": "51%",
-                "3.5": "24%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "51%"
+                "Yes": "52%"
             }
         }
     ]
