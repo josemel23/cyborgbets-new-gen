@@ -1,26 +1,56 @@
 [
     {
         "hora": "",
-        "emparejamiento": "THE @ TEA",
-        "resultado": "12 - 6",
+        "emparejamiento": "PISTONS vs HEAT NOV 29 PREVIEW",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "MAVERICKS vs CLIPPERS NOV 29 PREVIEW",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "CELTICS vs TIMBERWOLVES NOV 29 PREVIEW",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "PELICANS vs WARRIORS NOV 29 PREVIEW",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "NETS vs BUCKS NOV 29 PREVIEW",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "RAPTORS vs HORNETS NOV 29 PREVIEW",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "NUGGETS vs SUNS NOV 29 PREVIEW",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "BULLS vs PACERS NOV 29 PREVIEW",
+        "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
         "emparejamiento": "S J @ PIC",
         "resultado": "60 - 2026",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "THE @ TEA",
-        "resultado": "12 - 6",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "SGA @ AS ",
-        "resultado": "40 - 10",
         "ubicacion": ""
     }
 ]
