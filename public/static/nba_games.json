@@ -1,6 +1,30 @@
 [
     {
         "hora": "",
+        "emparejamiento": "NUGGETS vs KINGS DEC 11 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "CLIPPERS vs ROCKETS DEC 11 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "TRAIL BLAZERS vs PELICANS DEC 11 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "CELTICS vs BUCKS DEC 11 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
         "emparejamiento": "CAR @ WIN",
         "resultado": "1 - 1",
         "ubicacion": ""
@@ -15,12 +39,6 @@
         "hora": "",
         "emparejamiento": "PIC @ DRA",
         "resultado": "2008 - 14",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "S J @ PIC",
-        "resultado": "60 - 2026",
         "ubicacion": ""
     }
 ]
