@@ -1,14 +1,98 @@
 [
     {
         "hora": "",
-        "emparejamiento": "GRIZZLIES vs TIMBERWOLVES DEC 17 HIGHLIGHTS",
+        "emparejamiento": "WEE @ FEA",
+        "resultado": "9 - 40",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "KINGS vs TRAIL BLAZERS DEC 18 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "CAVALIERS vs BULLS DEC 17 HIGHLIGHTS",
+        "emparejamiento": "LAKERS vs JAZZ DEC 18 HIGHLIGHTS",
         "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "ROCKETS vs PELICANS DEC 18 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "PISTONS vs MAVERICKS DEC 18 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "WARRIORS vs SUNS DEC 18 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "MAGIC vs NUGGETS DEC 18 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "CLIPPERS vs THUNDER DEC 18 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "WIZARDS vs SPURS DEC 18 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "RAPTORS vs BUCKS DEC 18 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "HEAT vs NETS DEC 18 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "KNICKS vs PACERS DEC 18 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "HAWKS vs HORNETS DEC 18 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "Highlights of Keyonte George vs Luka Dončić",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "Highlights of Deni Avdija vs DeMar DeRozan",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "GAR @ OF ",
+        "resultado": "12 - 21",
         "ubicacion": ""
     },
     {
@@ -21,18 +105,6 @@
         "hora": "",
         "emparejamiento": "WEE @ FEA",
         "resultado": "9 - 40",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "S J @ PIC",
-        "resultado": "60 - 2026",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "BES @ TEA",
-        "resultado": "30 - 9",
         "ubicacion": ""
     }
 ]
