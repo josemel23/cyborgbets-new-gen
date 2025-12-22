@@ -1,38 +1,80 @@
 [
     {
         "hora": "",
-        "emparejamiento": "ROCKETS vs KINGS DEC 21 PREVIEW",
+        "emparejamiento": "BES @ TEA",
+        "resultado": "30 - 10",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "JAZZ vs NUGGETS DEC 22 PREVIEW",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "RAPTORS vs NETS DEC 21 PREVIEW",
+        "emparejamiento": "MAVERICKS vs PELICANS DEC 22 PREVIEW",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "SPURS vs WIZARDS DEC 21 PREVIEW",
+        "emparejamiento": "PISTONS vs TRAIL BLAZERS DEC 22 PREVIEW",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "HEAT vs KNICKS DEC 21 PREVIEW",
+        "emparejamiento": "PACERS vs CELTICS DEC 22 PREVIEW",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "BULLS vs HAWKS DEC 21 PREVIEW",
+        "emparejamiento": "MAGIC vs WARRIORS DEC 22 PREVIEW",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "BUCKS vs TIMBERWOLVES DEC 21 PREVIEW",
+        "emparejamiento": "GRIZZLIES vs THUNDER DEC 22 PREVIEW",
         "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "HORNETS vs CAVALIERS DEC 22 PREVIEW",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "00:31",
+        "emparejamiento": "BES @ TEA",
+        "resultado": "30 - 10",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "S W @ TEA",
+        "resultado": "30 - 10",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "BES @ TEA",
+        "resultado": "30 - 10",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "SEE @ GAM",
+        "resultado": "50 - 10",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "EVA @ OR",
+        "resultado": "4 - 5",
         "ubicacion": ""
     },
     {
@@ -43,14 +85,14 @@
     },
     {
         "hora": "",
-        "emparejamiento": "BES @ TEA",
-        "resultado": "30 - 9",
+        "emparejamiento": "S J @ PIC",
+        "resultado": "60 - 2026",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "WEE @ FEA",
-        "resultado": "9 - 40",
+        "emparejamiento": "BES @ TEA",
+        "resultado": "30 - 10",
         "ubicacion": ""
     }
 ]
