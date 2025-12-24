@@ -1,56 +1,98 @@
 [
     {
         "hora": "",
+        "emparejamiento": "THUNDER vs SPURS DEC 23 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "NUGGETS vs MAVERICKS DEC 23 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "KNICKS vs TIMBERWOLVES DEC 23 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "Highlights of Karl-Anthony Towns vs Anthony Edwards",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "PISTONS vs KINGS DEC 23 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "ROCKETS vs CLIPPERS DEC 23 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "MAGIC vs TRAIL BLAZERS DEC 23 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "NETS vs 76ERS DEC 23 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "WIZARDS vs HORNETS DEC 23 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "BULLS vs HAWKS DEC 23 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "PELICANS vs CAVALIERS DEC 23 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "RAPTORS vs HEAT DEC 23 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "BUCKS vs PACERS DEC 23 HIGHLIGHTS",
+        "resultado": "–",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
         "emparejamiento": "BES @ TEA",
         "resultado": "30 - 10",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "JAZZ vs NUGGETS DEC 22 PREVIEW",
+        "emparejamiento": "GRIZZLIES vs JAZZ DEC 23 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "MAVERICKS vs PELICANS DEC 22 PREVIEW",
+        "emparejamiento": "LAKERS vs SUNS DEC 23 HIGHLIGHTS",
         "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "PISTONS vs TRAIL BLAZERS DEC 22 PREVIEW",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "PACERS vs CELTICS DEC 22 PREVIEW",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "MAGIC vs WARRIORS DEC 22 PREVIEW",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "GRIZZLIES vs THUNDER DEC 22 PREVIEW",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "HORNETS vs CAVALIERS DEC 22 PREVIEW",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "00:31",
-        "emparejamiento": "BES @ TEA",
-        "resultado": "30 - 10",
         "ubicacion": ""
     },
     {
@@ -69,30 +111,6 @@
         "hora": "",
         "emparejamiento": "SEE @ GAM",
         "resultado": "50 - 10",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "EVA @ OR",
-        "resultado": "4 - 5",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "GAR @ OF ",
-        "resultado": "12 - 21",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "S J @ PIC",
-        "resultado": "60 - 2026",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "BES @ TEA",
-        "resultado": "30 - 10",
         "ubicacion": ""
     }
 ]
