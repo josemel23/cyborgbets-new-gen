@@ -1,79 +1,37 @@
 [
     {
         "hora": "",
-        "emparejamiento": "THUNDER vs SPURS DEC 23 HIGHLIGHTS",
+        "emparejamiento": "TIMBERWOLVES vs NUGGETS DEC 25 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "NUGGETS vs MAVERICKS DEC 23 HIGHLIGHTS",
+        "emparejamiento": "SPURS vs THUNDER DEC 25 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "KNICKS vs TIMBERWOLVES DEC 23 HIGHLIGHTS",
+        "emparejamiento": "MAVERICKS vs WARRIORS DEC 25 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "Highlights of Karl-Anthony Towns vs Anthony Edwards",
+        "emparejamiento": "CAVALIERS vs KNICKS DEC 25 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "PISTONS vs KINGS DEC 23 HIGHLIGHTS",
+        "emparejamiento": "ROCKETS vs LAKERS DEC 25 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "ROCKETS vs CLIPPERS DEC 23 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "MAGIC vs TRAIL BLAZERS DEC 23 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "NETS vs 76ERS DEC 23 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "WIZARDS vs HORNETS DEC 23 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "BULLS vs HAWKS DEC 23 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "PELICANS vs CAVALIERS DEC 23 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "RAPTORS vs HEAT DEC 23 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "BUCKS vs PACERS DEC 23 HIGHLIGHTS",
+        "emparejamiento": "Highlights of Nikola Jokić vs Anthony Edwards",
         "resultado": "–",
         "ubicacion": ""
     },
@@ -81,18 +39,6 @@
         "hora": "",
         "emparejamiento": "BES @ TEA",
         "resultado": "30 - 10",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "GRIZZLIES vs JAZZ DEC 23 HIGHLIGHTS",
-        "resultado": "–",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "LAKERS vs SUNS DEC 23 HIGHLIGHTS",
-        "resultado": "–",
         "ubicacion": ""
     },
     {
@@ -111,6 +57,12 @@
         "hora": "",
         "emparejamiento": "SEE @ GAM",
         "resultado": "50 - 10",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "S J @ PIC",
+        "resultado": "60 - 2026",
         "ubicacion": ""
     }
 ]
