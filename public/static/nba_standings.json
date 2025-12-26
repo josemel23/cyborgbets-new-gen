@@ -156,60 +156,60 @@
             "team": "Oklahoma City Thunder",
             "position": "01",
             "wins": "25",
-            "losses": "5",
-            "points_for": "120.3",
-            "points_against": "108.7",
-            "win_percentage": "0.833",
+            "losses": "6",
+            "points_for": "119.7",
+            "points_against": "108.9",
+            "win_percentage": "0.806",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg"
         },
         {
             "team": "San Antonio Spurs",
             "position": "02",
-            "wins": "22",
+            "wins": "23",
             "losses": "7",
-            "points_for": "120.4",
-            "points_against": "113.6",
-            "win_percentage": "0.759",
+            "points_for": "120.3",
+            "points_against": "113.2",
+            "win_percentage": "0.767",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg"
         },
         {
             "team": "Denver Nuggets",
             "position": "03",
-            "wins": "21",
+            "wins": "22",
             "losses": "8",
-            "points_for": "125.2",
-            "points_against": "116.5",
-            "win_percentage": "0.724",
+            "points_for": "125.8",
+            "points_against": "117.2",
+            "win_percentage": "0.733",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg"
         },
         {
             "team": "Los Angeles Lakers",
             "position": "04",
             "wins": "19",
-            "losses": "9",
-            "points_for": "117.7",
+            "losses": "10",
+            "points_for": "116.9",
             "points_against": "117.4",
-            "win_percentage": "0.679",
+            "win_percentage": "0.655",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612747/primary/L/logo.svg"
         },
         {
             "team": "Minnesota Timberwolves",
             "position": "05",
             "wins": "20",
-            "losses": "10",
-            "points_for": "118.5",
-            "points_against": "113.5",
-            "win_percentage": "0.667",
+            "losses": "11",
+            "points_for": "119.1",
+            "points_against": "114.4",
+            "win_percentage": "0.645",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612750/primary/L/logo.svg"
         },
         {
             "team": "Houston Rockets",
             "position": "06",
-            "wins": "17",
+            "wins": "18",
             "losses": "10",
             "points_for": "120.5",
-            "points_against": "112.7",
-            "win_percentage": "0.63",
+            "points_against": "112.1",
+            "win_percentage": "0.643",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg"
         },
         {
@@ -225,11 +225,11 @@
         {
             "team": "Golden State Warriors",
             "position": "08",
-            "wins": "15",
+            "wins": "16",
             "losses": "15",
-            "points_for": "114.2",
-            "points_against": "112.3",
-            "win_percentage": "0.5",
+            "points_for": "114.5",
+            "points_against": "112.4",
+            "win_percentage": "0.516",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg"
         },
         {
@@ -256,10 +256,10 @@
             "team": "Dallas Mavericks",
             "position": "11",
             "wins": "12",
-            "losses": "19",
-            "points_for": "113.6",
-            "points_against": "117.4",
-            "win_percentage": "0.387",
+            "losses": "20",
+            "points_for": "113.7",
+            "points_against": "117.6",
+            "win_percentage": "0.375",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612742/primary/L/logo.svg"
         },
         {
@@ -303,4 +303,4 @@
             "logo_url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
         }
     ]
-,"last_updated":"2025-12-26T09:19:39Z"}
+,"last_updated":"2025-12-26T22:24:13Z"}
