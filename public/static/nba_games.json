@@ -1,80 +1,68 @@
 [
     {
         "hora": "",
-        "emparejamiento": "MAVERICKS vs KINGS JAN 06 HIGHLIGHTS",
+        "emparejamiento": "BES @ FOR",
+        "resultado": "13 - 30",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "BES @ FOR",
+        "resultado": "13 - 30",
+        "ubicacion": ""
+    },
+    {
+        "hora": "",
+        "emparejamiento": "HORNETS vs CLIPPERS JAN 12 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "LAKERS vs PELICANS JAN 06 HIGHLIGHTS",
+        "emparejamiento": "LAKERS vs KINGS JAN 12 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "HEAT vs TIMBERWOLVES JAN 06 HIGHLIGHTS",
+        "emparejamiento": "JAZZ vs CAVALIERS JAN 12 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "SPURS vs GRIZZLIES JAN 06 HIGHLIGHTS",
+        "emparejamiento": "CELTICS vs PACERS JAN 12 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "MAGIC vs WIZARDS JAN 06 HIGHLIGHTS",
+        "emparejamiento": "76ERS vs RAPTORS JAN 12 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "CAVALIERS vs PACERS JAN 06 HIGHLIGHTS",
+        "emparejamiento": "NETS vs MAVERICKS JAN 12 HIGHLIGHTS",
         "resultado": "–",
         "ubicacion": ""
     },
     {
         "hora": "",
         "emparejamiento": "BES @ TEA",
-        "resultado": "30 - 12",
+        "resultado": "30 - 13",
         "ubicacion": ""
     },
     {
         "hora": "",
-        "emparejamiento": "TOP @ DUN",
-        "resultado": "10 - 2025",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "KAW @ IN ",
-        "resultado": "45 - 6",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "TOP @ PLA",
-        "resultado": "10 - 2025",
-        "ubicacion": ""
-    },
-    {
-        "hora": "",
-        "emparejamiento": "TOP @ VER",
-        "resultado": "10 - 2025",
-        "ubicacion": ""
-    },
-    {
-        "hora": "02:23",
-        "emparejamiento": "BES @ TEA",
-        "resultado": "30 - 12",
+        "emparejamiento": "TOP @ HOL",
+        "resultado": "10 - 2026",
         "ubicacion": ""
     },
     {
         "hora": "",
         "emparejamiento": "BES @ TEA",
-        "resultado": "30 - 12",
+        "resultado": "30 - 13",
         "ubicacion": ""
     }
 ]
