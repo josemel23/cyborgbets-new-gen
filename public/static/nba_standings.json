@@ -113,11 +113,11 @@
         {
             "team": "Charlotte Hornets",
             "position": "12",
-            "wins": "17",
+            "wins": "18",
             "losses": "28",
-            "points_for": "115.9",
+            "points_for": "116.0",
             "points_against": "115.5",
-            "win_percentage": "0.378",
+            "win_percentage": "0.391",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg"
         },
         {
@@ -144,10 +144,10 @@
             "team": "Washington Wizards",
             "position": "15",
             "wins": "10",
-            "losses": "33",
+            "losses": "34",
             "points_for": "112.2",
-            "points_against": "123.2",
-            "win_percentage": "0.233",
+            "points_against": "123.1",
+            "win_percentage": "0.227",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg"
         }
     ],
@@ -303,4 +303,4 @@
             "logo_url": "https://cdn.nba.com/logos/nba/1610612740/primary/L/logo.svg"
         }
     ]
-,"last_updated":"2026-01-24T14:20:53Z"}
+,"last_updated":"2026-01-25T13:59:14Z"}
