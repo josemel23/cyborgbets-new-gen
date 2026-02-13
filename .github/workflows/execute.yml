@@ -80,18 +80,17 @@ jobs:
           sudo apt-get remove -y google-chrome-stable || true
           sudo apt-get autoremove -y
           
-          # Instalar última versión de Chrome
+          # Agregar repositorio oficial de Google Chrome
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          
+          # Actualizar e instalar última versión
           sudo apt-get update
-          wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo dpkg -i google-chrome-stable_current_amd64.deb || true
-          sudo apt-get install -f -y
+          sudo apt-get install -y --only-upgrade google-chrome-stable || sudo apt-get install -y google-chrome-stable
           
           # Verificar versión instalada
           CHROME_VERSION=$(google-chrome --version)
           echo "✅ Chrome instalado: $CHROME_VERSION"
-          
-          # undetected-chromedriver se actualizará automáticamente
-          echo "✅ ChromeDriver se instalará con undetected-chromedriver"
           
       - name: Setup Display
         run: |
