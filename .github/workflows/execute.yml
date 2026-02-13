@@ -74,7 +74,7 @@ jobs:
         with:
           python-version: '3.11'
           
-      - name: Install Chrome and Dependencies
+      - name: Install Chrome
         run: |
           # Instalar Chrome estable
           wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -82,14 +82,12 @@ jobs:
           rm -f google-chrome-stable_current_amd64.deb
           
           # Verificar versión de Chrome instalada
-          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+' || google-chrome --version)
+          CHROME_VERSION=$(google-chrome --version)
           echo "✅ Chrome instalado: $CHROME_VERSION"
           
-          # Instalar solo las dependencias esenciales que SÍ existen en Ubuntu 24.04
+          # Instalar Xvfb para display virtual
           sudo apt-get update -qq
           sudo apt-get install -y xvfb
-          
-          echo "✅ Dependencias del sistema instaladas"
           
       - name: Setup Display
         run: |
@@ -98,13 +96,36 @@ jobs:
           sleep 3
           echo "DISPLAY=:99" >> $GITHUB_ENV
           
-      - name: Install Python dependencies
+      - name: Clean ALL ChromeDriver Cache
+        run: |
+          # Limpiar COMPLETAMENTE el caché de ChromeDriver
+          echo "🧹 Limpiando caché de ChromeDriver..."
+          rm -rf ~/.local/share/undetected_chromedriver/ 2>/dev/null || true
+          rm -rf /home/runner/.local/share/undetected_chromedriver/ 2>/dev/null || true
+          rm -rf /home/runner/.wdm/ 2>/dev/null || true
+          rm -rf ~/.wdm/ 2>/dev/null || true
+          rm -rf /tmp/.com.google.Chrome.* 2>/dev/null || true
+          rm -rf /tmp/chrome* 2>/dev/null || true
+          echo "✅ Caché limpiado completamente"
+          
+      - name: Install Python dependencies with forced reinstall
         run: |
           pip install --upgrade pip
-          pip install undetected-chromedriver==3.5.5
-          pip install selenium==4.15.2
-          pip install pandas requests beautifulsoup4 webdriver-manager
-          echo "✅ Dependencias Python instaladas"
+          # FORZAR reinstalación completa de undetected-chromedriver
+          pip uninstall -y undetected-chromedriver selenium webdriver-manager 2>/dev/null || true
+          pip install --no-cache-dir undetected-chromedriver==3.5.5
+          pip install --no-cache-dir selenium==4.15.2
+          pip install pandas requests beautifulsoup4
+          echo "✅ Dependencias Python instaladas (frescas, sin caché)"
+          
+      - name: Verify versions
+        run: |
+          echo "=== VERIFICACIÓN DE VERSIONES ==="
+          echo "Python: $(python3 --version)"
+          echo "Chrome: $(google-chrome --version)"
+          echo "Selenium: $(pip show selenium | grep Version)"
+          echo "Undetected-chromedriver: $(pip show undetected-chromedriver | grep Version)"
+          echo "===================================="
           
       - name: Run scraper
         run: |
