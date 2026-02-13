@@ -85,9 +85,9 @@ jobs:
           CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+')
           echo "✅ Chrome instalado: $CHROME_VERSION"
           
-          # Instalar dependencias adicionales para Chrome
+          # Instalar dependencias necesarias (sin libgconf-2-4 que ya no existe en Ubuntu 24.04)
           sudo apt-get update
-          sudo apt-get install -y xvfb libxi6 libgconf-2-4
+          sudo apt-get install -y xvfb libxi6 libglib2.0-0 libnss3 libgdk-pixbuf2.0-0 libgtk-3-0 libxss1 libasound2
           
       - name: Setup Display
         run: |
@@ -101,7 +101,7 @@ jobs:
           pip install --upgrade pip
           # Instalar versión específica de undetected-chromedriver que auto-maneja versiones
           pip install undetected-chromedriver==3.5.5
-          pip install selenium pandas requests beautifulsoup4 webdriver-manager
+          pip install selenium==4.15.2 pandas requests beautifulsoup4 webdriver-manager
           echo "✅ Dependencias instaladas"
           
       - name: Run scraper
