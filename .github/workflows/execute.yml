@@ -82,12 +82,63 @@ jobs:
           rm -f google-chrome-stable_current_amd64.deb
           
           # Verificar versión de Chrome instalada
-          CHROME_VERSION=$(google-chrome --version)
+          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+')
           echo "✅ Chrome instalado: $CHROME_VERSION"
+          echo "CHROME_VERSION=$CHROME_VERSION" >> $GITHUB_ENV
           
-          # Instalar Xvfb para display virtual
+          # Instalar dependencias
           sudo apt-get update -qq
-          sudo apt-get install -y xvfb
+          sudo apt-get install -y xvfb unzip curl jq
+          
+      - name: Download Matching ChromeDriver
+        run: |
+          echo "📥 Descargando ChromeDriver para Chrome $CHROME_VERSION..."
+          
+          # Intentar descargar ChromeDriver de la versión exacta
+          CHROMEDRIVER_URL="https://storage.googleapis.com/chrome-for-testing-public/$CHROME_VERSION/linux64/chromedriver-linux64.zip"
+          
+          echo "Intentando: $CHROMEDRIVER_URL"
+          if wget -q --spider "$CHROMEDRIVER_URL"; then
+            echo "✅ Encontrada versión exacta"
+            wget -q "$CHROMEDRIVER_URL" -O chromedriver.zip
+          else
+            echo "⚠️  Versión exacta no disponible, buscando versión compatible..."
+            
+            # Extraer solo versión principal (ej: 145)
+            CHROME_MAJOR=$(echo $CHROME_VERSION | cut -d. -f1)
+            echo "Versión principal: $CHROME_MAJOR"
+            
+            # Buscar última versión disponible de Chrome for Testing
+            LATEST_VERSIONS_URL="https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions.json"
+            STABLE_VERSION=$(curl -s "$LATEST_VERSIONS_URL" | jq -r '.channels.Stable.version')
+            
+            echo "Versión estable disponible: $STABLE_VERSION"
+            CHROMEDRIVER_URL="https://storage.googleapis.com/chrome-for-testing-public/$STABLE_VERSION/linux64/chromedriver-linux64.zip"
+            
+            echo "Descargando: $CHROMEDRIVER_URL"
+            wget -q "$CHROMEDRIVER_URL" -O chromedriver.zip
+          fi
+          
+          # Extraer y colocar ChromeDriver
+          unzip -q chromedriver.zip
+          
+          # Crear directorio de caché de undetected-chromedriver
+          mkdir -p ~/.local/share/undetected_chromedriver/
+          
+          # Copiar chromedriver al lugar donde undetected-chromedriver lo busca
+          cp chromedriver-linux64/chromedriver ~/.local/share/undetected_chromedriver/undetected_chromedriver
+          chmod +x ~/.local/share/undetected_chromedriver/undetected_chromedriver
+          
+          # También en PATH
+          sudo mv chromedriver-linux64/chromedriver /usr/local/bin/
+          sudo chmod +x /usr/local/bin/chromedriver
+          
+          # Limpiar
+          rm -rf chromedriver.zip chromedriver-linux64/
+          
+          # Verificar
+          DRIVER_VERSION=$(chromedriver --version)
+          echo "✅ ChromeDriver instalado: $DRIVER_VERSION"
           
       - name: Setup Display
         run: |
@@ -96,50 +147,19 @@ jobs:
           sleep 3
           echo "DISPLAY=:99" >> $GITHUB_ENV
           
-      - name: Clean ALL ChromeDriver Cache
-        run: |
-          # Limpiar COMPLETAMENTE el caché de ChromeDriver
-          echo "🧹 Limpiando caché de ChromeDriver..."
-          rm -rf ~/.local/share/undetected_chromedriver/ 2>/dev/null || true
-          rm -rf /home/runner/.local/share/undetected_chromedriver/ 2>/dev/null || true
-          rm -rf /home/runner/.wdm/ 2>/dev/null || true
-          rm -rf ~/.wdm/ 2>/dev/null || true
-          rm -rf /tmp/.com.google.Chrome.* 2>/dev/null || true
-          rm -rf /tmp/chrome* 2>/dev/null || true
-          echo "✅ Caché limpiado completamente"
-          
-      - name: Install Python dependencies with forced reinstall
+      - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          # FORZAR reinstalación completa de undetected-chromedriver
-          pip uninstall -y undetected-chromedriver selenium webdriver-manager 2>/dev/null || true
           pip install --no-cache-dir undetected-chromedriver==3.5.5
           pip install --no-cache-dir selenium==4.15.2
           pip install pandas requests beautifulsoup4
-          echo "✅ Dependencias Python instaladas (frescas, sin caché)"
-          
-      - name: Verify versions
-        run: |
-          echo "=== VERIFICACIÓN DE VERSIONES ==="
-          echo "Python: $(python3 --version)"
-          echo "Chrome: $(google-chrome --version)"
-          echo "Selenium: $(pip show selenium | grep Version)"
-          echo "Undetected-chromedriver: $(pip show undetected-chromedriver | grep Version)"
-          echo "===================================="
+          echo "✅ Dependencias Python instaladas"
           
       - name: Run scraper
         run: |
           if [ "${{ inputs.liga }}" = "nba" ]; then
             echo "🏀 Ejecutando scraper NBA desde raíz..."
-            echo "📂 Archivos ANTES de ejecutar nba.py:"
-            ls -la *.json 2>/dev/null || echo "No hay archivos JSON antes"
-            echo "📁 Directorio actual: $(pwd)"
-            echo "🐍 Ejecutando nba.py con output completo..."
             python3 nba.py 2>&1 || echo "❌ Error en nba.py - código: $?"
-            echo "📂 Archivos DESPUÉS de ejecutar nba.py:"
-            ls -la *.json 2>/dev/null || echo "No hay archivos JSON después"
-            echo "📁 Listando TODOS los archivos generados:"
-            find . -name "*.json" -newer nba.py 2>/dev/null || echo "No se encontraron JSONs nuevos"
           else
             echo "⚽ Ejecutando scraper de fútbol..."
             cd "scraper/${{ inputs.liga }}"
@@ -150,7 +170,6 @@ jobs:
         run: |
           echo "📁 Moviendo archivos a la ubicación correcta..."
           
-          # Definir el nombre del archivo según la liga
           case "${{ inputs.liga }}" in
             "la_liga") FILE_NAME="la_liga_data.json" ;;
             "liga_hypermotion") FILE_NAME="liga_hypermotion_data.json" ;;
@@ -188,7 +207,7 @@ jobs:
             "turquia") FILE_NAME="super_lig_turkey_data.json" ;;
             "ecuador") FILE_NAME="serie_a_ecuador_data.json" ;;
             "mls") FILE_NAME="mls_usa_data.json" ;;
-            "nba") echo "🏀 NBA genera múltiples archivos - no usa FILE_NAME único" ;;
+            "nba") FILE_NAME="nba_*.json" ;;
             "australia") FILE_NAME="a_league_australia_data.json" ;;
             "grecia") FILE_NAME="super_league_greece_data.json" ;;
             "chile") FILE_NAME="primera_division_chile_data.json" ;;
@@ -200,63 +219,25 @@ jobs:
             *) FILE_NAME="${{ inputs.liga }}_data.json" ;;
           esac
           
-          echo "Buscando archivo: $FILE_NAME"
-          
-          # Lógica especial para NBA
           if [ "${{ inputs.liga }}" = "nba" ]; then
-            echo "🏀 NBA: Verificando archivos múltiples"
-            NBA_FILES_FOUND=0
-            for nba_file in "nba_standings.json" "nba_player_stats.json" "nba_games.json"; do
-              if [ -f "public/static/$nba_file" ]; then
-                echo "✅ NBA: ENCONTRADO public/static/$nba_file"
-                ls -lh "public/static/$nba_file"
-                NBA_FILES_FOUND=$((NBA_FILES_FOUND + 1))
-              else
-                echo "❌ NBA: NO encontrado public/static/$nba_file"
-              fi
+            for nba_file in nba_standings.json nba_player_stats.json nba_games.json; do
+              [ -f "$nba_file" ] && cp "$nba_file" "public/static/"
+              [ -f "public/static/$nba_file" ] && echo "✅ $nba_file copiado"
             done
-            
-            if [ $NBA_FILES_FOUND -lt 3 ]; then
-              echo "🔄 NBA: Buscando archivos faltantes en raíz..."
-              for nba_file in "nba_standings.json" "nba_player_stats.json" "nba_games.json"; do
-                if [ -f "$nba_file" ] && [ ! -f "public/static/$nba_file" ]; then
-                  cp "$nba_file" "public/static/"
-                  echo "✅ NBA: Copiado $nba_file"
-                fi
-              done
-            fi
           else
-            # Lógica para otras ligas
             if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
-              echo "✅ ENCONTRADO en scraper/${{ inputs.liga }}/public/static/$FILE_NAME"
               cp "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" "public/static/"
+              echo "✅ Archivo copiado"
             elif [ -f "scraper/${{ inputs.liga }}/$FILE_NAME" ]; then
-              echo "✅ ENCONTRADO en scraper/${{ inputs.liga }}/$FILE_NAME"
               cp "scraper/${{ inputs.liga }}/$FILE_NAME" "public/static/"
+              echo "✅ Archivo copiado"
             else
-              echo "❌ NO se encontró $FILE_NAME"
-              JSON_COUNT=$(find "scraper/${{ inputs.liga }}/" -name "*.json" 2>/dev/null | wc -l)
-              if [ $JSON_COUNT -gt 0 ]; then
-                find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
-                echo "✅ Copiados $JSON_COUNT archivos JSON"
-              fi
+              find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
             fi
           fi
           
-          # Agregar timestamp
-          if [ "${{ inputs.liga }}" = "nba" ]; then
-            for nba_file in "nba_standings.json" "nba_player_stats.json" "nba_games.json"; do
-              if [ -f "public/static/$nba_file" ]; then
-                sed -i '$ s/}/,"last_updated":"'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}/' "public/static/$nba_file"
-              fi
-            done
-          elif [ -f "public/static/$FILE_NAME" ]; then
-            sed -i '$ s/}/,"last_updated":"'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}/' "public/static/$FILE_NAME"
-          fi
-      
       - name: Commit files
         run: |
-          # Asegurar que no se suba el .deb de Chrome
           echo "google-chrome-stable_current_amd64.deb" >> .gitignore
           
           git config --local user.email "action@github.com"
@@ -265,15 +246,12 @@ jobs:
           git add .
           
           if ! git diff --cached --quiet; then
-            echo "✅ HAY CAMBIOS - Creando commit..."
             git commit -m "Auto-update: ${{ inputs.liga }} $(date '+%Y-%m-%d %H:%M:%S')"
-            echo "🔄 Sincronizando con remote..."
-            git pull --rebase origin main || echo "⚠️ Pull con conflictos, continuando..."
-            echo "🚀 Haciendo push..."
+            git pull --rebase origin main || true
             git push origin main
             echo "✅ Push completado"
           else
-            echo "❌ NO HAY CAMBIOS para commitear"
+            echo "⚠️  NO HAY CAMBIOS"
           fi
 
   deploy:
@@ -302,33 +280,11 @@ jobs:
       - name: Verify files before deploy
         run: |
           echo "📋 Verificando archivos para deploy..."
-          if [ -d "public" ]; then
-            echo "✅ Carpeta public/ encontrada"
-            if [ -d "public/static" ]; then
-              echo "✅ Carpeta public/static/ encontrada"
-              ls -la public/static/*.json 2>/dev/null | head -10
-            else
-              echo "❌ ERROR: No hay carpeta public/static/"
-              exit 1
-            fi
-          else
-            echo "❌ ERROR: No hay carpeta public/"
-            exit 1
-          fi
+          [ -d "public/static" ] && ls -la public/static/*.json 2>/dev/null | head -10
       
       - name: Deploy to Firebase Hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: |
-          echo "🚀 Desplegando a Firebase Hosting..."
           firebase deploy --only hosting --token "$FIREBASE_TOKEN" --non-interactive
           echo "✅ Deploy completado!"
-      
-      - name: Post-deploy summary
-        run: |
-          echo "📊 RESUMEN DEL DEPLOY"
-          if [ "${{ inputs.accion }}" = "scraper_and_deploy" ]; then
-            echo "Liga scrapeada: ${{ inputs.liga }}"
-          fi
-          echo "Fecha: $(date '+%Y-%m-%d %H:%M:%S UTC')"
-          echo "Estado: ✅ EXITOSO"
