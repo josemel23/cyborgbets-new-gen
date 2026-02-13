@@ -9,6 +9,7 @@ on:
         options:
           - scraper
           - deploy
+          - scraper_and_deploy  # NUEVA OPCIÓN: Scraper + Deploy automático
       liga:
         required: false
         type: choice
@@ -63,7 +64,7 @@ on:
 jobs:
   scraper:
     runs-on: ubuntu-latest
-    if: inputs.accion == 'scraper'
+    if: inputs.accion == 'scraper' || inputs.accion == 'scraper_and_deploy'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -120,7 +121,7 @@ jobs:
             "premier")
               FILE_NAME="premier_league_data.json"
               ;;
-               "austria")
+            "austria")
               FILE_NAME="austria_data.json"
               ;;
             "championship")
@@ -132,13 +133,13 @@ jobs:
             "bundesliga_2")
               FILE_NAME="bundesliga_2_data.json"
               ;;
-                "rumania")
+            "rumania")
               FILE_NAME="rumania_data.json"
               ;;
             "italia")
               FILE_NAME="serie_a_data.json"
               ;;
-               "israel")
+            "israel")
               FILE_NAME="israel_data.json"
               ;;
             "italia_2")
@@ -153,7 +154,7 @@ jobs:
             "eredivisie")
               FILE_NAME="eredivisie_data.json"
               ;;
-               "dinamarca")
+            "dinamarca")
               FILE_NAME="dinamarca_data.json"
               ;;
             "eerste_divisie")
@@ -292,7 +293,6 @@ jobs:
             ls -la public/static/nba_*.json 2>/dev/null || echo "No hay archivos NBA en public/static/"
           else
             # Lógica existente para otras ligas
-            # Buscar archivo específico generado
             if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
               echo "✅ ENCONTRADO en scraper/${{ inputs.liga }}/public/static/$FILE_NAME"
               echo "📋 Tamaño del archivo origen: $(ls -lh scraper/${{ inputs.liga }}/public/static/$FILE_NAME)"
@@ -349,6 +349,7 @@ jobs:
           
           echo "📂 CONTENIDO FINAL de public/static/ (mostrando solo JSON y timestamps):"
           ls -lh public/static/*.json public/static/last_update_*.txt 2>/dev/null || echo "No se encontraron archivos JSON o timestamps"
+      
       - name: Commit files
         run: |
           echo "🔧 Configurando Git..."
@@ -385,39 +386,78 @@ jobs:
             git log --oneline -n 3
           fi
 
+  # ========================================
+  # DEPLOY A FIREBASE (mejorado)
+  # ========================================
   deploy:
     runs-on: ubuntu-latest
-    if: inputs.accion == 'deploy'
+    # Se ejecuta si:
+    # 1. La acción es 'deploy' O
+    # 2. La acción es 'scraper_and_deploy' Y el scraper terminó exitosamente
+    if: |
+      inputs.accion == 'deploy' || 
+      (inputs.accion == 'scraper_and_deploy' && needs.scraper.result == 'success')
+    needs: [scraper]
+    # Allow deploy to run even if we skip scraper (for manual deploy)
+    # but wait for scraper if it ran
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main  # Asegura que tenga los últimos cambios del scraper
+      
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+      
       - name: Install Firebase CLI
         run: |
           npm install -g firebase-tools
           firebase --version
-      - name: Verify files
+      
+      - name: Verify files before deploy
         run: |
-          echo "Verificando archivos para deploy..."
+          echo "📋 Verificando archivos para deploy..."
           ls -la
           if [ -d "public" ]; then
-            echo "Archivos en public/:"
-            ls -la public/
+            echo "✅ Carpeta public/ encontrada"
+            echo "📁 Archivos en public/:"
+            ls -la public/ | head -10
             if [ -d "public/static" ]; then
-              echo "Archivos en public/static/:"
-              ls -la public/static/
+              echo "✅ Carpeta public/static/ encontrada"
+              echo "📁 Archivos JSON en public/static/:"
+              ls -la public/static/*.json 2>/dev/null | head -10 || echo "⚠️ No se encontraron archivos JSON"
+            else
+              echo "❌ ERROR: No hay carpeta public/static/"
+              exit 1
             fi
           else
-            echo "ERROR: No hay carpeta public/"
+            echo "❌ ERROR: No hay carpeta public/"
             exit 1
           fi
-      - name: Deploy to Firebase
+      
+      - name: Deploy to Firebase Hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: |
-          echo "Desplegando a Firebase..."
-          firebase deploy --token "$FIREBASE_TOKEN" --non-interactive
-          echo "Deploy completado! Tu app debería estar actualizada"
+          echo "🚀 Desplegando a Firebase Hosting..."
+          firebase deploy --only hosting --token "$FIREBASE_TOKEN" --non-interactive
+          echo "✅ Deploy completado!"
+          echo ""
+          echo "🌐 Tu sitio está disponible en:"
+          echo "   https://TU-PROJECT-ID.web.app"
+          echo "   https://TU-PROJECT-ID.firebaseapp.com"
+      
+      - name: Post-deploy summary
+        run: |
+          echo "📊 RESUMEN DEL DEPLOY"
+          echo "===================="
+          if [ "${{ inputs.accion }}" = "scraper_and_deploy" ]; then
+            echo "Liga scrapeada: ${{ inputs.liga }}"
+          fi
+          echo "Fecha: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "Estado: ✅ EXITOSO"
+          echo ""
+          echo "🎉 Tu aplicación está actualizada y en vivo!"
