@@ -84,7 +84,7 @@ jobs:
                 workflow_id: 'execute.yml',
                 ref: 'main',
                 inputs: {
-                 accion: 'scraper_and_deploy',
+                  accion: 'scraper',
                   liga: '${{ matrix.liga }}'
                 }
               });
@@ -135,7 +135,7 @@ jobs:
                 workflow_id: 'execute.yml',
                 ref: 'main',
                 inputs: {
-                 accion: 'scraper_and_deploy',
+                  accion: 'scraper',
                   liga: '${{ matrix.liga }}'
                 }
               });
@@ -192,7 +192,7 @@ jobs:
                 workflow_id: 'execute.yml',
                 ref: 'main',
                 inputs: {
-                 accion: 'scraper_and_deploy',
+                  accion: 'scraper',
                   liga: '${{ matrix.liga }}'
                 }
               });
@@ -225,7 +225,7 @@ jobs:
                 workflow_id: 'execute.yml',
                 ref: 'main',
                 inputs: {
-                accion: 'scraper_and_deploy',
+                  accion: 'scraper',
                   liga: 'nba'
                 }
               });
