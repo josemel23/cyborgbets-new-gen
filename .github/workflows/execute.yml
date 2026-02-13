@@ -9,7 +9,7 @@ on:
         options:
           - scraper
           - deploy
-          - scraper_and_deploy  # NUEVA OPCIÓN: Scraper + Deploy automático
+          - scraper_and_deploy
       liga:
         required: false
         type: choice
@@ -377,6 +377,8 @@ jobs:
           if ! git diff --cached --quiet; then
             echo "✅ HAY CAMBIOS - Creando commit..."
             git commit -m "Auto-update: ${{ inputs.liga }} $(date '+%Y-%m-%d %H:%M:%S')"
+            echo "🔄 Sincronizando con remote..."
+            git pull --rebase origin main || echo "⚠️ Pull con conflictos, continuando..."
             echo "🚀 Haciendo push..."
             git push origin main
             echo "✅ Push completado exitosamente"
@@ -386,26 +388,18 @@ jobs:
             git log --oneline -n 3
           fi
 
-  # ========================================
-  # DEPLOY A FIREBASE (mejorado)
-  # ========================================
   deploy:
     runs-on: ubuntu-latest
-    # Se ejecuta si:
-    # 1. La acción es 'deploy' O
-    # 2. La acción es 'scraper_and_deploy' Y el scraper terminó exitosamente
     if: |
       inputs.accion == 'deploy' || 
       (inputs.accion == 'scraper_and_deploy' && needs.scraper.result == 'success')
     needs: [scraper]
-    # Allow deploy to run even if we skip scraper (for manual deploy)
-    # but wait for scraper if it ran
     
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: main  # Asegura que tenga los últimos cambios del scraper
+          ref: main
       
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -445,10 +439,6 @@ jobs:
           echo "🚀 Desplegando a Firebase Hosting..."
           firebase deploy --only hosting --token "$FIREBASE_TOKEN" --non-interactive
           echo "✅ Deploy completado!"
-          echo ""
-          echo "🌐 Tu sitio está disponible en:"
-          echo "   https://TU-PROJECT-ID.web.app"
-          echo "   https://TU-PROJECT-ID.firebaseapp.com"
       
       - name: Post-deploy summary
         run: |
@@ -459,5 +449,3 @@ jobs:
           fi
           echo "Fecha: $(date '+%Y-%m-%d %H:%M:%S UTC')"
           echo "Estado: ✅ EXITOSO"
-          echo ""
-          echo "🎉 Tu aplicación está actualizada y en vivo!"
