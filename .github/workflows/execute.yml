@@ -76,13 +76,14 @@ jobs:
           
       - name: Install Chrome and ChromeDriver
         run: |
-          # Agregar repositorio oficial de Google Chrome
-          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          # Descargar última versión de Chrome directamente
+          wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
           
-          # Actualizar lista de paquetes e instalar Chrome
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
+          # Instalar
+          sudo dpkg -i google-chrome-stable_current_amd64.deb || sudo apt-get install -f -y
+          
+          # Eliminar el .deb descargado para no subirlo a git
+          rm -f google-chrome-stable_current_amd64.deb
           
           # Verificar versión instalada
           CHROME_VERSION=$(google-chrome --version)
@@ -230,6 +231,9 @@ jobs:
       
       - name: Commit files
         run: |
+          # Asegurar que no se suba el .deb de Chrome
+          echo "google-chrome-stable_current_amd64.deb" >> .gitignore
+          
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add public/static/*.json
