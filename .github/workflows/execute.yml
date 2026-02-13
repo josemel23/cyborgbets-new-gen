@@ -76,18 +76,18 @@ jobs:
           
       - name: Install Chrome and ChromeDriver
         run: |
-          # Descargar última versión de Chrome directamente
+          # Instalar Chrome estable
           wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          
-          # Instalar
           sudo dpkg -i google-chrome-stable_current_amd64.deb || sudo apt-get install -f -y
-          
-          # Eliminar el .deb descargado para no subirlo a git
           rm -f google-chrome-stable_current_amd64.deb
           
-          # Verificar versión instalada
-          CHROME_VERSION=$(google-chrome --version)
+          # Verificar versión de Chrome instalada
+          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+')
           echo "✅ Chrome instalado: $CHROME_VERSION"
+          
+          # Instalar dependencias adicionales para Chrome
+          sudo apt-get update
+          sudo apt-get install -y xvfb libxi6 libgconf-2-4
           
       - name: Setup Display
         run: |
@@ -99,7 +99,9 @@ jobs:
       - name: Install Python deps
         run: |
           pip install --upgrade pip
-          pip install undetected-chromedriver selenium pandas requests beautifulsoup4 webdriver_manager
+          # Instalar versión específica de undetected-chromedriver que auto-maneja versiones
+          pip install undetected-chromedriver==3.5.5
+          pip install selenium pandas requests beautifulsoup4 webdriver-manager
           echo "✅ Dependencias instaladas"
           
       - name: Run scraper
