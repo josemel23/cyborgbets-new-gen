@@ -74,7 +74,7 @@ jobs:
         with:
           python-version: '3.11'
           
-      - name: Install Chrome and ChromeDriver
+      - name: Install Chrome and Dependencies
         run: |
           # Instalar Chrome estable
           wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -82,12 +82,14 @@ jobs:
           rm -f google-chrome-stable_current_amd64.deb
           
           # Verificar versión de Chrome instalada
-          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+')
+          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+' || google-chrome --version)
           echo "✅ Chrome instalado: $CHROME_VERSION"
           
-          # Instalar dependencias necesarias (sin libgconf-2-4 que ya no existe en Ubuntu 24.04)
-          sudo apt-get update
-          sudo apt-get install -y xvfb libxi6 libglib2.0-0 libnss3 libgdk-pixbuf2.0-0 libgtk-3-0 libxss1 libasound2
+          # Instalar solo las dependencias esenciales que SÍ existen en Ubuntu 24.04
+          sudo apt-get update -qq
+          sudo apt-get install -y xvfb
+          
+          echo "✅ Dependencias del sistema instaladas"
           
       - name: Setup Display
         run: |
@@ -96,13 +98,13 @@ jobs:
           sleep 3
           echo "DISPLAY=:99" >> $GITHUB_ENV
           
-      - name: Install Python deps
+      - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          # Instalar versión específica de undetected-chromedriver que auto-maneja versiones
           pip install undetected-chromedriver==3.5.5
-          pip install selenium==4.15.2 pandas requests beautifulsoup4 webdriver-manager
-          echo "✅ Dependencias instaladas"
+          pip install selenium==4.15.2
+          pip install pandas requests beautifulsoup4 webdriver-manager
+          echo "✅ Dependencias Python instaladas"
           
       - name: Run scraper
         run: |
