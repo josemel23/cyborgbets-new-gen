@@ -2,31 +2,27 @@ name: Smart Auto Update - All Leagues
 
 on:
   schedule:
-    # Ligas TOP Europeas - Lunes, Miércoles, Viernes a las 10am Colombia (3pm UTC)
+    # HORARIO 1: 10:00 AM Colombia - Ligas TOP Europeas
     - cron: '0 15 * * 1,3,5'
     
-    # Ligas TOP Europeas - Lunes, Miércoles, Viernes a las 2pm Colombia (7pm UTC)
+    # HORARIO 2: 11:00 AM Colombia - Segundas Divisiones Europeas
+    - cron: '0 16 * * 1,3,5'
+    
+    # HORARIO 3: 12:00 PM Colombia - Ligas Americanas
+    - cron: '0 17 * * 1,3,5'
+    
+    # HORARIO 4: 1:00 PM Colombia - Ligas Secundarias + Asiáticas
+    - cron: '0 18 * * 1,3,5'
+    
+    # HORARIO 5: 2:00 PM Colombia - Segunda ronda Top Europeas
     - cron: '0 19 * * 1,3,5'
     
-    # Ligas Americanas - Lunes, Miércoles, Viernes a las 10am Colombia (3pm UTC)
-    - cron: '0 15 * * 1,3,5'
+    # HORARIO 6: 3:00 PM Colombia - Segunda ronda Segundas Divisiones
+    - cron: '0 20 * * 1,3,5'
     
-    # Ligas Americanas - Lunes, Miércoles, Viernes a las 2pm Colombia (7pm UTC)
-    - cron: '0 19 * * 1,3,5'
-    
-    # Ligas Secundarias - Lunes, Miércoles, Viernes a las 10am Colombia (3pm UTC)
-    - cron: '0 15 * * 1,3,5'
-    
-    # Ligas Secundarias - Lunes, Miércoles, Viernes a las 2pm Colombia (7pm UTC)
-    - cron: '0 19 * * 1,3,5'
-    
-    # NBA - TODOS LOS DÍAS a las 10am Colombia (3pm UTC)
-    - cron: '0 15 * * *'
-    
-    # NBA - TODOS LOS DÍAS a las 2pm Colombia (7pm UTC)
-    - cron: '0 19 * * *'
+    # NBA - TODOS LOS DÍAS a las 4:00 PM Colombia
+    - cron: '0 21 * * *'
   
-  # Botón manual para ejecutar todo
   workflow_dispatch:
     inputs:
       grupo:
@@ -37,34 +33,78 @@ on:
         options:
           - todas
           - top_europeas
+          - segundas_divisiones
           - americanas
           - secundarias
+          - asiaticas
           - nba
 
 jobs:
   # ============================================
-  # GRUPO 1: LIGAS TOP EUROPEAS
+  # GRUPO 1: LIGAS TOP EUROPEAS (10am y 2pm)
   # ============================================
   top-european-leagues:
     runs-on: ubuntu-latest
     if: |
-      contains(fromJSON('["0 15 * * 1,3,5", "0 19 * * 1,3,5"]'), github.event.schedule) || 
+      github.event.schedule == '0 15 * * 1,3,5' ||
+      github.event.schedule == '0 19 * * 1,3,5' ||
       (github.event_name == 'workflow_dispatch' && 
-      (github.event.inputs.grupo == 'todas' || github.event.inputs.grupo == 'top_europeas'))
+       (github.event.inputs.grupo == 'todas' || github.event.inputs.grupo == 'top_europeas'))
     strategy:
-      max-parallel: 2
+      max-parallel: 1
       fail-fast: false
       matrix:
         liga:
           - la_liga              # España - La Liga
-          - liga_hypermotion     # España - Segunda
           - premier              # Inglaterra - Premier
-          - championship         # Inglaterra - Championship
           - bundesliga           # Alemania - Bundesliga
-          - bundesliga_2         # Alemania - Segunda
           - italia               # Italia - Serie A
-          - italia_2             # Italia - Serie B
           - francia              # Francia - Ligue 1
+    
+    steps:
+      - name: Trigger scraper for ${{ matrix.liga }}
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            try {
+              await github.rest.actions.createWorkflowDispatch({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: 'execute.yml',
+                ref: 'main',
+                inputs: {
+                  accion: 'scraper',
+                  liga: '${{ matrix.liga }}'
+                }
+              });
+              console.log('✅ Scraper iniciado para ${{ matrix.liga }}');
+              
+              // Esperar 3 minutos entre ligas
+              await new Promise(resolve => setTimeout(resolve, 180000));
+            } catch (error) {
+              console.error('❌ Error al iniciar ${{ matrix.liga }}:', error);
+            }
+
+  # ============================================
+  # GRUPO 2: SEGUNDAS DIVISIONES EUROPEAS (11am y 3pm)
+  # ============================================
+  european-second-divisions:
+    runs-on: ubuntu-latest
+    if: |
+      github.event.schedule == '0 16 * * 1,3,5' ||
+      github.event.schedule == '0 20 * * 1,3,5' ||
+      (github.event_name == 'workflow_dispatch' && 
+       (github.event.inputs.grupo == 'todas' || github.event.inputs.grupo == 'segundas_divisiones'))
+    strategy:
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        liga:
+          - liga_hypermotion     # España - Segunda
+          - championship         # Inglaterra - Championship
+          - bundesliga_2         # Alemania - Segunda
+          - italia_2             # Italia - Serie B
           - francia_2            # Francia - Ligue 2
           - eredivisie           # Países Bajos - Eredivisie
           - eerste_divisie       # Países Bajos - Segunda
@@ -89,35 +129,33 @@ jobs:
                 }
               });
               console.log('✅ Scraper iniciado para ${{ matrix.liga }}');
-              
-              // Esperar 2 minutos entre ligas
-              await new Promise(resolve => setTimeout(resolve, 120000));
+              await new Promise(resolve => setTimeout(resolve, 180000));
             } catch (error) {
               console.error('❌ Error al iniciar ${{ matrix.liga }}:', error);
             }
 
   # ============================================
-  # GRUPO 2: LIGAS AMERICANAS
+  # GRUPO 3: LIGAS AMERICANAS (12pm)
   # ============================================
   american-leagues:
     runs-on: ubuntu-latest
     if: |
-      contains(fromJSON('["0 15 * * 1,3,5", "0 19 * * 1,3,5"]'), github.event.schedule) || 
+      github.event.schedule == '0 17 * * 1,3,5' ||
       (github.event_name == 'workflow_dispatch' && 
-      (github.event.inputs.grupo == 'todas' || github.event.inputs.grupo == 'americanas'))
+       (github.event.inputs.grupo == 'todas' || github.event.inputs.grupo == 'americanas'))
     strategy:
-      max-parallel: 2
+      max-parallel: 1
       fail-fast: false
       matrix:
         liga:
-          - argentina            # Argentina - Primera División
+          - argentina            # Argentina
           - brasil               # Brasil - Serie A
           - brasil_b             # Brasil - Serie B
           - liga_mx              # México - Liga MX
           - liga_betplay         # Colombia - Liga BetPlay
-          - chile                # Chile - Primera División
-          - ecuador              # Ecuador - Serie A
-          - bolivia              # Bolivia - LFPB
+          - chile                # Chile
+          - ecuador              # Ecuador
+          - bolivia              # Bolivia
           - mls                  # USA - MLS
           - libertadores         # Copa Libertadores
           - sudamerica           # Copa Sudamericana
@@ -140,44 +178,40 @@ jobs:
                 }
               });
               console.log('✅ Scraper iniciado para ${{ matrix.liga }}');
-              await new Promise(resolve => setTimeout(resolve, 120000));
+              await new Promise(resolve => setTimeout(resolve, 180000));
             } catch (error) {
               console.error('❌ Error al iniciar ${{ matrix.liga }}:', error);
             }
 
   # ============================================
-  # GRUPO 3: LIGAS SECUNDARIAS
+  # GRUPO 4: LIGAS EUROPEAS SECUNDARIAS (1pm)
   # ============================================
-  secondary-leagues:
+  european-secondary-leagues:
     runs-on: ubuntu-latest
     if: |
-      contains(fromJSON('["0 15 * * 1,3,5", "0 19 * * 1,3,5"]'), github.event.schedule) || 
+      github.event.schedule == '0 18 * * 1,3,5' ||
       (github.event_name == 'workflow_dispatch' && 
-      (github.event.inputs.grupo == 'todas' || github.event.inputs.grupo == 'secundarias'))
+       (github.event.inputs.grupo == 'todas' || github.event.inputs.grupo == 'secundarias'))
     strategy:
-      max-parallel: 2
+      max-parallel: 1
       fail-fast: false
       matrix:
         liga:
-          - belgica              # Bélgica - Pro League
-          - suiza                # Suiza - Super League
-          - escocia              # Escocia - Premiership
-          - turquia              # Turquía - Süper Lig
-          - grecia               # Grecia - Super League
-          - dinamarca            # Dinamarca - Superliga
-          - noruega              # Noruega - Eliteserien
-          - suecia               # Suecia - Allsvenskan
-          - austria              # Austria - Bundesliga
-          - croacia              # Croacia - HNL
-          - checa                # República Checa - Chance Liga
-          - rumania              # Rumanía - Liga I
-          - bulgaria             # Bulgaria - First League
-          - israel               # Israel - Ligat ha'Al
-          - arabia               # Arabia Saudita - Pro League
-          - china                # China - Super League
-          - j1_league            # Japón - J1 League
-          - australia            # Australia - A-League
-          - estonia              # Estonia - Meistriliiga
+          - belgica              # Bélgica
+          - suiza                # Suiza
+          - escocia              # Escocia
+          - turquia              # Turquía
+          - grecia               # Grecia
+          - dinamarca            # Dinamarca
+          - noruega              # Noruega
+          - suecia               # Suecia
+          - austria              # Austria
+          - croacia              # Croacia
+          - checa                # República Checa
+          - rumania              # Rumanía
+          - bulgaria             # Bulgaria
+          - israel               # Israel
+          - estonia              # Estonia
     
     steps:
       - name: Trigger scraper for ${{ matrix.liga }}
@@ -197,20 +231,62 @@ jobs:
                 }
               });
               console.log('✅ Scraper iniciado para ${{ matrix.liga }}');
-              await new Promise(resolve => setTimeout(resolve, 120000));
+              await new Promise(resolve => setTimeout(resolve, 180000));
             } catch (error) {
               console.error('❌ Error al iniciar ${{ matrix.liga }}:', error);
             }
 
   # ============================================
-  # GRUPO 4: NBA (TODOS LOS DÍAS)
+  # GRUPO 5: LIGAS ASIÁTICAS Y OTRAS (1pm)
+  # ============================================
+  asian-and-other-leagues:
+    runs-on: ubuntu-latest
+    if: |
+      github.event.schedule == '0 18 * * 1,3,5' ||
+      (github.event_name == 'workflow_dispatch' && 
+       (github.event.inputs.grupo == 'todas' || github.event.inputs.grupo == 'asiaticas'))
+    strategy:
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        liga:
+          - arabia               # Arabia Saudita
+          - china                # China
+          - j1_league            # Japón
+          - australia            # Australia
+    
+    steps:
+      - name: Trigger scraper for ${{ matrix.liga }}
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            try {
+              await github.rest.actions.createWorkflowDispatch({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: 'execute.yml',
+                ref: 'main',
+                inputs: {
+                  accion: 'scraper',
+                  liga: '${{ matrix.liga }}'
+                }
+              });
+              console.log('✅ Scraper iniciado para ${{ matrix.liga }}');
+              await new Promise(resolve => setTimeout(resolve, 180000));
+            } catch (error) {
+              console.error('❌ Error al iniciar ${{ matrix.liga }}:', error);
+            }
+
+  # ============================================
+  # GRUPO 6: NBA (4pm TODOS LOS DÍAS)
   # ============================================
   nba-updates:
     runs-on: ubuntu-latest
     if: |
-      contains(fromJSON('["0 15 * * *", "0 19 * * *"]'), github.event.schedule) || 
+      github.event.schedule == '0 21 * * *' ||
       (github.event_name == 'workflow_dispatch' && 
-      (github.event.inputs.grupo == 'todas' || github.event.inputs.grupo == 'nba'))
+       (github.event.inputs.grupo == 'todas' || github.event.inputs.grupo == 'nba'))
     
     steps:
       - name: Trigger NBA scraper
@@ -235,23 +311,25 @@ jobs:
             }
 
   # ============================================
-  # REPORTE FINAL (opcional)
+  # REPORTE FINAL
   # ============================================
   report-status:
     runs-on: ubuntu-latest
-    needs: [top-european-leagues, american-leagues, secondary-leagues, nba-updates]
+    needs: [top-european-leagues, european-second-divisions, american-leagues, european-secondary-leagues, asian-and-other-leagues, nba-updates]
     if: always()
     
     steps:
       - name: Generate report
         run: |
           echo "📊 REPORTE DE ACTUALIZACIÓN AUTOMÁTICA"
-          echo "======================================="
-          echo "🕐 Fecha: $(date)"
+          echo "=============================================="
+          echo "🕐 Fecha: $(date '+%Y-%m-%d %H:%M:%S')"
           echo ""
-          echo "✅ Top Europeas: ${{ needs.top-european-leagues.result }}"
-          echo "✅ Americanas: ${{ needs.american-leagues.result }}"
-          echo "✅ Secundarias: ${{ needs.secondary-leagues.result }}"
-          echo "✅ NBA: ${{ needs.nba-updates.result }}"
+          echo "Top Europeas: ${{ needs.top-european-leagues.result }}"
+          echo "Segundas Divisiones: ${{ needs.european-second-divisions.result }}"
+          echo "Americanas: ${{ needs.american-leagues.result }}"
+          echo "Secundarias Europeas: ${{ needs.european-secondary-leagues.result }}"
+          echo "Asiáticas: ${{ needs.asian-and-other-leagues.result }}"
+          echo "NBA: ${{ needs.nba-updates.result }}"
           echo ""
-          echo "🎉 Proceso completado"
+          echo "✅ Scrapers completados - Deploy desde app móvil"
