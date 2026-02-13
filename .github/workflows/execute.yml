@@ -9,7 +9,6 @@ on:
         options:
           - scraper
           - deploy
-          - scraper_and_deploy
       liga:
         required: false
         type: choice
@@ -64,227 +63,361 @@ on:
 jobs:
   scraper:
     runs-on: ubuntu-latest
-    if: inputs.accion == 'scraper' || inputs.accion == 'scraper_and_deploy'
+    if: inputs.accion == 'scraper'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-          
       - name: Install Chrome
         run: |
-          # Instalar Chrome estable
-          wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-          sudo dpkg -i google-chrome-stable_current_amd64.deb || sudo apt-get install -f -y
-          rm -f google-chrome-stable_current_amd64.deb
-          
-          # Verificar versión de Chrome instalada
-          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+')
-          echo "✅ Chrome instalado: $CHROME_VERSION"
-          echo "CHROME_VERSION=$CHROME_VERSION" >> $GITHUB_ENV
-          
-          # Instalar dependencias
-          sudo apt-get update -qq
-          sudo apt-get install -y xvfb unzip curl jq
-          
-      - name: Download Matching ChromeDriver
-        run: |
-          echo "📥 Descargando ChromeDriver para Chrome $CHROME_VERSION..."
-          
-          # Intentar descargar ChromeDriver de la versión exacta
-          CHROMEDRIVER_URL="https://storage.googleapis.com/chrome-for-testing-public/$CHROME_VERSION/linux64/chromedriver-linux64.zip"
-          
-          echo "Intentando: $CHROMEDRIVER_URL"
-          if wget -q --spider "$CHROMEDRIVER_URL"; then
-            echo "✅ Encontrada versión exacta"
-            wget -q "$CHROMEDRIVER_URL" -O chromedriver.zip
-          else
-            echo "⚠️  Versión exacta no disponible, buscando versión compatible..."
-            
-            # Extraer solo versión principal (ej: 145)
-            CHROME_MAJOR=$(echo $CHROME_VERSION | cut -d. -f1)
-            echo "Versión principal: $CHROME_MAJOR"
-            
-            # Buscar última versión disponible de Chrome for Testing
-            LATEST_VERSIONS_URL="https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions.json"
-            STABLE_VERSION=$(curl -s "$LATEST_VERSIONS_URL" | jq -r '.channels.Stable.version')
-            
-            echo "Versión estable disponible: $STABLE_VERSION"
-            CHROMEDRIVER_URL="https://storage.googleapis.com/chrome-for-testing-public/$STABLE_VERSION/linux64/chromedriver-linux64.zip"
-            
-            echo "Descargando: $CHROMEDRIVER_URL"
-            wget -q "$CHROMEDRIVER_URL" -O chromedriver.zip
-          fi
-          
-          # Extraer y colocar ChromeDriver
-          unzip -q chromedriver.zip
-          
-          # Crear directorio de caché de undetected-chromedriver
-          mkdir -p ~/.local/share/undetected_chromedriver/
-          
-          # Copiar chromedriver al lugar donde undetected-chromedriver lo busca
-          cp chromedriver-linux64/chromedriver ~/.local/share/undetected_chromedriver/undetected_chromedriver
-          chmod +x ~/.local/share/undetected_chromedriver/undetected_chromedriver
-          
-          # También en PATH
-          sudo mv chromedriver-linux64/chromedriver /usr/local/bin/
-          sudo chmod +x /usr/local/bin/chromedriver
-          
-          # Limpiar
-          rm -rf chromedriver.zip chromedriver-linux64/
-          
-          # Verificar
-          DRIVER_VERSION=$(chromedriver --version)
-          echo "✅ ChromeDriver instalado: $DRIVER_VERSION"
-          
+          sudo apt-get update
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
       - name: Setup Display
         run: |
           export DISPLAY=:99
           Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
           sleep 3
           echo "DISPLAY=:99" >> $GITHUB_ENV
-          
-      - name: Install Python dependencies
+      - name: Install Python deps
         run: |
-          pip install --upgrade pip
-          pip install --no-cache-dir undetected-chromedriver==3.5.5
-          pip install --no-cache-dir selenium==4.15.2
-          pip install pandas requests beautifulsoup4
-          echo "✅ Dependencias Python instaladas"
-          
+          pip install undetected-chromedriver selenium pandas requests beautifulsoup4 webdriver_manager
       - name: Run scraper
         run: |
           if [ "${{ inputs.liga }}" = "nba" ]; then
             echo "🏀 Ejecutando scraper NBA desde raíz..."
+            echo "📂 Archivos ANTES de ejecutar nba.py:"
+            ls -la *.json 2>/dev/null || echo "No hay archivos JSON antes"
+            echo "📁 Directorio actual: $(pwd)"
+            echo "🐍 Ejecutando nba.py con output completo..."
             python3 nba.py 2>&1 || echo "❌ Error en nba.py - código: $?"
+            echo "📂 Archivos DESPUÉS de ejecutar nba.py:"
+            ls -la *.json 2>/dev/null || echo "No hay archivos JSON después"
+            echo "📁 Listando TODOS los archivos generados:"
+            find . -name "*.json" -newer nba.py 2>/dev/null || echo "No se encontraron JSONs nuevos"
           else
             echo "⚽ Ejecutando scraper de fútbol..."
             cd "scraper/${{ inputs.liga }}"
             timeout 600 python3 "${{ inputs.liga }}_standings.py"
           fi
-          
       - name: Move files to correct location
         run: |
           echo "📁 Moviendo archivos a la ubicación correcta..."
           
+          # Definir el nombre del archivo según la liga
           case "${{ inputs.liga }}" in
-            "la_liga") FILE_NAME="la_liga_data.json" ;;
-            "liga_hypermotion") FILE_NAME="liga_hypermotion_data.json" ;;
-            "premier") FILE_NAME="premier_league_data.json" ;;
-            "austria") FILE_NAME="austria_data.json" ;;
-            "championship") FILE_NAME="championship_data.json" ;;
-            "bundesliga") FILE_NAME="bundesliga_data.json" ;;
-            "bundesliga_2") FILE_NAME="bundesliga_2_data.json" ;;
-            "rumania") FILE_NAME="rumania_data.json" ;;
-            "italia") FILE_NAME="serie_a_data.json" ;;
-            "israel") FILE_NAME="israel_data.json" ;;
-            "italia_2") FILE_NAME="serie_b_data.json" ;;
-            "francia") FILE_NAME="ligue_1_data.json" ;;
-            "francia_2") FILE_NAME="ligue_2_data.json" ;;
-            "eredivisie") FILE_NAME="eredivisie_data.json" ;;
-            "dinamarca") FILE_NAME="dinamarca_data.json" ;;
-            "eerste_divisie") FILE_NAME="eerste_divisie_data.json" ;;
-            "portugal") FILE_NAME="primeira_liga_data.json" ;;
-            "portugal_2") FILE_NAME="liga_portugal_2_data.json" ;;
-            "argentina") FILE_NAME="primera_division_argentina_data.json" ;;
-            "brasil") FILE_NAME="serie_a_brasil_data.json" ;;
-            "brasil_b") FILE_NAME="serie_b_brasil_data.json" ;;
-            "bulgaria") FILE_NAME="bulgaria_data.json" ;;
-            "liga_mx") FILE_NAME="liga_mx_data.json" ;;
-            "arabia") FILE_NAME="saudi-arabia_data.json" ;;
-            "liga_betplay") FILE_NAME="liga_betplay_data.json" ;;
-            "estonia") FILE_NAME="meistriliiga_data.json" ;;
-            "escocia") FILE_NAME="scotland_premiership_data.json" ;;
-            "j1_league") FILE_NAME="j1_league_data.json" ;;
-            "china") FILE_NAME="super_league_china_data.json" ;;
-            "suecia") FILE_NAME="allsvenskan_data.json" ;;
-            "belgica") FILE_NAME="pro_league_belgium_data.json" ;;
-            "noruega") FILE_NAME="eliteserien_data.json" ;;
-            "suiza") FILE_NAME="super_league_suiza_data.json" ;;
-            "turquia") FILE_NAME="super_lig_turkey_data.json" ;;
-            "ecuador") FILE_NAME="serie_a_ecuador_data.json" ;;
-            "mls") FILE_NAME="mls_usa_data.json" ;;
-            "nba") FILE_NAME="nba_*.json" ;;
-            "australia") FILE_NAME="a_league_australia_data.json" ;;
-            "grecia") FILE_NAME="super_league_greece_data.json" ;;
-            "chile") FILE_NAME="primera_division_chile_data.json" ;;
-            "checa") FILE_NAME="checa_data.json" ;;
-            "croacia") FILE_NAME="croacia_data.json" ;;
-            "libertadores") FILE_NAME="libertadores_data.json" ;;
-            "sudamerica") FILE_NAME="sudamericana_data.json" ;;
-            "bolivia") FILE_NAME="Lfpb.json" ;;
-            *) FILE_NAME="${{ inputs.liga }}_data.json" ;;
+            "la_liga")
+              FILE_NAME="la_liga_data.json"
+              ;;
+            "liga_hypermotion")
+              FILE_NAME="liga_hypermotion_data.json"
+              ;;
+            "premier")
+              FILE_NAME="premier_league_data.json"
+              ;;
+               "austria")
+              FILE_NAME="austria_data.json"
+              ;;
+            "championship")
+              FILE_NAME="championship_data.json"
+              ;;
+            "bundesliga")
+              FILE_NAME="bundesliga_data.json"
+              ;;
+            "bundesliga_2")
+              FILE_NAME="bundesliga_2_data.json"
+              ;;
+                "rumania")
+              FILE_NAME="rumania_data.json"
+              ;;
+            "italia")
+              FILE_NAME="serie_a_data.json"
+              ;;
+               "israel")
+              FILE_NAME="israel_data.json"
+              ;;
+            "italia_2")
+              FILE_NAME="serie_b_data.json"
+              ;;
+            "francia")
+              FILE_NAME="ligue_1_data.json"
+              ;;
+            "francia_2")
+              FILE_NAME="ligue_2_data.json"
+              ;;
+            "eredivisie")
+              FILE_NAME="eredivisie_data.json"
+              ;;
+               "dinamarca")
+              FILE_NAME="dinamarca_data.json"
+              ;;
+            "eerste_divisie")
+              FILE_NAME="eerste_divisie_data.json"
+              ;;
+            "portugal")
+              FILE_NAME="primeira_liga_data.json"
+              ;;
+            "portugal_2")
+              FILE_NAME="liga_portugal_2_data.json"
+              ;;
+            "argentina")
+              FILE_NAME="primera_division_argentina_data.json"
+              ;;
+            "brasil")
+              FILE_NAME="serie_a_brasil_data.json"
+              ;;
+            "brasil_b")
+              FILE_NAME="serie_b_brasil_data.json"
+              ;;
+            "bulgaria")
+              FILE_NAME="bulgaria_data.json"
+              ;;
+            "liga_mx")
+              FILE_NAME="liga_mx_data.json"
+              ;;
+            "arabia")
+              FILE_NAME="saudi-arabia_data.json"
+              ;;
+            "liga_betplay")
+              FILE_NAME="liga_betplay_data.json"
+              ;;
+            "estonia")
+              FILE_NAME="meistriliiga_data.json"
+              ;;
+            "escocia")
+              FILE_NAME="scotland_premiership_data.json"
+              ;;
+            "j1_league")
+              FILE_NAME="j1_league_data.json"
+              ;;
+            "china")
+              FILE_NAME="super_league_china_data.json"
+              ;;
+            "suecia")
+              FILE_NAME="allsvenskan_data.json"
+              ;;
+            "belgica")
+              FILE_NAME="pro_league_belgium_data.json"
+              ;;
+            "noruega")
+              FILE_NAME="eliteserien_data.json"
+              ;;
+            "suiza")
+              FILE_NAME="super_league_suiza_data.json"
+              ;;
+            "turquia")
+              FILE_NAME="super_lig_turkey_data.json"
+              ;;
+            "ecuador")
+              FILE_NAME="serie_a_ecuador_data.json"
+              ;;
+            "mls")
+              FILE_NAME="mls_usa_data.json"
+              ;;
+            "nba")
+              echo "🏀 NBA genera múltiples archivos - no usa FILE_NAME único"
+              ;;
+            "australia")
+              FILE_NAME="a_league_australia_data.json"
+              ;;
+            "grecia")
+              FILE_NAME="super_league_greece_data.json"
+              ;;
+            "chile")
+              FILE_NAME="primera_division_chile_data.json"
+              ;;
+            "checa")
+              FILE_NAME="checa_data.json"
+              ;;
+            "croacia")
+              FILE_NAME="croacia_data.json"
+              ;;
+            "libertadores")
+              FILE_NAME="libertadores_data.json"
+              ;;
+            "sudamerica")
+              FILE_NAME="sudamericana_data.json"
+              ;;
+            "bolivia")
+              FILE_NAME="Lfpb.json"
+              ;;
+            *)
+              FILE_NAME="${{ inputs.liga }}_data.json"
+              ;;
           esac
           
+          echo "Buscando archivo: $FILE_NAME"
+          
+          # Lógica especial para NBA (múltiples archivos JSON)
           if [ "${{ inputs.liga }}" = "nba" ]; then
-            for nba_file in nba_standings.json nba_player_stats.json nba_games.json; do
-              [ -f "$nba_file" ] && cp "$nba_file" "public/static/"
-              [ -f "public/static/$nba_file" ] && echo "✅ $nba_file copiado"
+            echo "🏀 NBA: Verificando archivos múltiples (standings, player_stats, games)"
+            
+            # Verificar si ya están en public/static/
+            NBA_FILES_FOUND=0
+            for nba_file in "nba_standings.json" "nba_player_stats.json" "nba_games.json"; do
+              if [ -f "public/static/$nba_file" ]; then
+                echo "✅ NBA: ENCONTRADO public/static/$nba_file"
+                ls -lh "public/static/$nba_file"
+                NBA_FILES_FOUND=$((NBA_FILES_FOUND + 1))
+              else
+                echo "❌ NBA: NO encontrado public/static/$nba_file"
+              fi
             done
+            
+            echo "📊 NBA: Total archivos encontrados en public/static/: $NBA_FILES_FOUND/3"
+            
+            # Si no están todos, buscar en raíz y copiar
+            if [ $NBA_FILES_FOUND -lt 3 ]; then
+              echo "🔄 NBA: Buscando archivos faltantes en raíz..."
+              for nba_file in "nba_standings.json" "nba_player_stats.json" "nba_games.json"; do
+                if [ -f "$nba_file" ] && [ ! -f "public/static/$nba_file" ]; then
+                  echo "📋 NBA: Copiando $nba_file desde raíz a public/static/"
+                  cp "$nba_file" "public/static/"
+                  echo "✅ NBA: Copiado $nba_file"
+                elif [ -f "$nba_file" ]; then
+                  echo "ℹ️ NBA: $nba_file ya existe en ambos lugares"
+                else
+                  echo "⚠️ NBA: $nba_file no encontrado en raíz"
+                fi
+              done
+            fi
+            
+            # Verificar estado final
+            echo "📂 NBA: Estado final en public/static/:"
+            ls -la public/static/nba_*.json 2>/dev/null || echo "No hay archivos NBA en public/static/"
           else
+            # Lógica existente para otras ligas
+            # Buscar archivo específico generado
             if [ -f "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" ]; then
+              echo "✅ ENCONTRADO en scraper/${{ inputs.liga }}/public/static/$FILE_NAME"
+              echo "📋 Tamaño del archivo origen: $(ls -lh scraper/${{ inputs.liga }}/public/static/$FILE_NAME)"
               cp "scraper/${{ inputs.liga }}/public/static/$FILE_NAME" "public/static/"
-              echo "✅ Archivo copiado"
+              echo "📋 Archivo copiado a: public/static/$FILE_NAME"
+              echo "📋 Tamaño del archivo destino: $(ls -lh public/static/$FILE_NAME)"
             elif [ -f "scraper/${{ inputs.liga }}/$FILE_NAME" ]; then
+              echo "✅ ENCONTRADO en scraper/${{ inputs.liga }}/$FILE_NAME"
+              echo "📋 Tamaño del archivo origen: $(ls -lh scraper/${{ inputs.liga }}/$FILE_NAME)"
               cp "scraper/${{ inputs.liga }}/$FILE_NAME" "public/static/"
-              echo "✅ Archivo copiado"
+              echo "📋 Archivo copiado a: public/static/$FILE_NAME"
+              echo "📋 Tamaño del archivo destino: $(ls -lh public/static/$FILE_NAME)"
             else
+              echo "❌ NO se encontró $FILE_NAME en ninguna ubicación esperada"
+              echo "🔍 Listando todo el contenido de scraper/${{ inputs.liga }}:"
+              find "scraper/${{ inputs.liga }}" -type f -name "*.json" -exec ls -lh {} \;
+            fi
+            
+            # Buscar otros archivos JSON en la carpeta del scraper como fallback
+            echo "🔄 Buscando otros archivos JSON como fallback..."
+            JSON_COUNT=$(find "scraper/${{ inputs.liga }}/" -name "*.json" | wc -l)
+            echo "📊 Total de archivos JSON encontrados: $JSON_COUNT"
+            
+            if [ $JSON_COUNT -gt 0 ]; then
+              echo "📁 Listando archivos JSON encontrados:"
+              find "scraper/${{ inputs.liga }}/" -name "*.json" -exec ls -lh {} \;
+              echo "📋 Copiando todos los JSON a public/static/..."
               find "scraper/${{ inputs.liga }}/" -name "*.json" -exec cp {} "public/static/" \;
+              echo "✅ Archivos JSON copiados"
+            else
+              echo "❌ NO se encontraron archivos JSON en scraper/${{ inputs.liga }}/"
             fi
           fi
           
+          # DESPUÉS de copiar, modificar el JSON para forzar cambios
+          if [ "${{ inputs.liga }}" = "nba" ]; then
+            # Para NBA, procesar múltiples archivos
+            echo "🔧 NBA: Agregando metadata de actualización a archivos múltiples..."
+            for nba_file in "nba_standings.json" "nba_player_stats.json" "nba_games.json"; do
+              if [ -f "public/static/$nba_file" ]; then
+                # Agregar timestamp al final del JSON (antes del último })
+                sed -i '$ s/}/,"last_updated":"'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}/' "public/static/$nba_file"
+                echo "✅ NBA: Metadata agregada a $nba_file"
+              fi
+            done
+          elif [ -f "public/static/$FILE_NAME" ]; then
+            echo "🔧 Agregando metadata de actualización al JSON..."
+            # Agregar timestamp al final del JSON (antes del último })
+            sed -i '$ s/}/,"last_updated":"'$(date -u +"%Y-%m-%dT%H:%M:%SZ")'"}/' "public/static/$FILE_NAME"
+            echo "✅ Metadata agregada al JSON: $FILE_NAME"
+            echo "📋 Verificando contenido final:"
+            ls -lh "public/static/$FILE_NAME"
+          fi
+          
+          echo "📂 CONTENIDO FINAL de public/static/ (mostrando solo JSON y timestamps):"
+          ls -lh public/static/*.json public/static/last_update_*.txt 2>/dev/null || echo "No se encontraron archivos JSON o timestamps"
       - name: Commit files
         run: |
-          echo "google-chrome-stable_current_amd64.deb" >> .gitignore
-          
+          echo "🔧 Configurando Git..."
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          
+          echo "📊 Estado actual de Git:"
+          git status
+          
+          echo "📁 Verificando public/static/:"
+          ls -la public/static/ | head -5
+          
+          echo "🔍 Agregando archivos..."
           git add public/static/*.json
           git add .
           
+          echo "📊 Estado después de git add:"
+          git status
+          
+          echo "🔍 Verificando diferencias en cache:"
+          git diff --cached --name-only
+          echo "📋 Archivos específicos en public/static/ que cambiaron:"
+          git diff --cached --name-only | grep "public/static" || echo "❌ Ningún archivo de public/static/ en el commit"
+          
           if ! git diff --cached --quiet; then
+            echo "✅ HAY CAMBIOS - Creando commit..."
             git commit -m "Auto-update: ${{ inputs.liga }} $(date '+%Y-%m-%d %H:%M:%S')"
-            git pull --rebase origin main || true
+            echo "🚀 Haciendo push..."
             git push origin main
-            echo "✅ Push completado"
+            echo "✅ Push completado exitosamente"
           else
-            echo "⚠️  NO HAY CAMBIOS"
+            echo "❌ NO HAY CAMBIOS para commitear"
+            echo "🔍 Mostrando últimos commits:"
+            git log --oneline -n 3
           fi
 
   deploy:
     runs-on: ubuntu-latest
-    if: |
-      inputs.accion == 'deploy' || 
-      (inputs.accion == 'scraper_and_deploy' && needs.scraper.result == 'success')
-    needs: [scraper]
-    
+    if: inputs.accion == 'deploy'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: main
-      
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-      
       - name: Install Firebase CLI
         run: |
           npm install -g firebase-tools
           firebase --version
-      
-      - name: Verify files before deploy
+      - name: Verify files
         run: |
-          echo "📋 Verificando archivos para deploy..."
-          [ -d "public/static" ] && ls -la public/static/*.json 2>/dev/null | head -10
-      
-      - name: Deploy to Firebase Hosting
+          echo "Verificando archivos para deploy..."
+          ls -la
+          if [ -d "public" ]; then
+            echo "Archivos en public/:"
+            ls -la public/
+            if [ -d "public/static" ]; then
+              echo "Archivos en public/static/:"
+              ls -la public/static/
+            fi
+          else
+            echo "ERROR: No hay carpeta public/"
+            exit 1
+          fi
+      - name: Deploy to Firebase
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: |
-          firebase deploy --only hosting --token "$FIREBASE_TOKEN" --non-interactive
-          echo "✅ Deploy completado!"
+          echo "Desplegando a Firebase..."
+          firebase deploy --token "$FIREBASE_TOKEN" --non-interactive
+          echo "Deploy completado! Tu app debería estar actualizada"
