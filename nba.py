@@ -111,73 +111,112 @@ def get_team_abbr(team_name):
             return abbr
     return team_name[:3].upper()
 
-def fetch_nba_player_stats(driver):
-    print("\n=== Extrayendo estadisticas de jugadores NBA ===")
+def fetch_nba_player_stats(driver=None):
+    print("\n=== Extrayendo estadisticas de jugadores NBA (API) ===")
     player_stats = {"players": []}
     
     try:
-        # Usar Basketball Reference (muy confiable, estructura simple)
-        driver.get("https://www.basketball-reference.com/leagues/NBA_2025_per_game.html")
-        time.sleep(10)
+        import requests
         
-        # Buscar tabla de stats
-        table = driver.find_element(By.ID, "per_game_stats")
-        tbody = table.find_element(By.TAG_NAME, "tbody")
-        rows = tbody.find_elements(By.TAG_NAME, "tr")
+        url = "https://stats.nba.com/stats/leagueLeaders"
         
-        print(f"Procesando {len(rows)} jugadores...")
+        params = {
+            'LeagueID': '00',
+            'PerMode': 'PerGame',
+            'Scope': 'S',
+            'Season': '2024-25',
+            'SeasonType': 'Regular Season',
+            'StatCategory': 'PTS'
+        }
         
-        for row in rows[:50]:  # Top 50
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'application/json, text/plain, */*',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Referer': 'https://www.nba.com/',
+            'Origin': 'https://www.nba.com',
+            'Connection': 'keep-alive',
+            'x-nba-stats-origin': 'stats',
+            'x-nba-stats-token': 'true'
+        }
+        
+        print("[INFO] Solicitando datos de NBA Stats API...")
+        response = requests.get(url, params=params, headers=headers, timeout=30)
+        
+        if response.status_code != 200:
+            print(f"[ERROR] Status code: {response.status_code}")
+            raise Exception(f"API retornó status {response.status_code}")
+        
+        data = response.json()
+        headers_list = data['resultSet']['headers']
+        rows = data['resultSet']['rowSet']
+        
+        print(f"[INFO] API retornó {len(rows)} jugadores")
+        print(f"[DEBUG] Headers disponibles: {headers_list}")
+        
+        # Buscar índices de forma segura
+        def get_index(header_name, alternatives=[]):
+            """Busca un header por nombre o alternativas"""
+            if header_name in headers_list:
+                return headers_list.index(header_name)
+            for alt in alternatives:
+                if alt in headers_list:
+                    return headers_list.index(alt)
+            return None
+        
+        idx_player = get_index('PLAYER', ['PLAYER_NAME'])
+        idx_team = get_index('TEAM_ABBREVIATION', ['TEAM', 'TEAM_ABBR'])
+        idx_gp = get_index('GP', ['GAMES_PLAYED'])
+        idx_pts = get_index('PTS', ['POINTS'])
+        idx_reb = get_index('REB', ['REBOUNDS', 'TOTAL_REBOUNDS'])
+        idx_ast = get_index('AST', ['ASSISTS'])
+        
+        # Verificar que tenemos los índices necesarios
+        if idx_player is None or idx_pts is None:
+            print(f"[ERROR] No se encontraron columnas necesarias")
+            print(f"[ERROR] Headers: {headers_list}")
+            raise Exception("Columnas requeridas no encontradas")
+        
+        for row in rows[:50]:
             try:
-                # Saltar filas de header repetidos
-                if "thead" in row.get_attribute("class") or not row.find_elements(By.TAG_NAME, "td"):
-                    continue
+                nombre = row[idx_player] if idx_player is not None else "Unknown"
+                equipo = row[idx_team] if idx_team is not None else "N/A"
+                partidos = str(int(row[idx_gp])) if idx_gp is not None else "0"
+                puntos = str(round(row[idx_pts], 1)) if idx_pts is not None else "0.0"
+                rebotes = str(round(row[idx_reb], 1)) if idx_reb is not None else "0.0"
+                asistencias = str(round(row[idx_ast], 1)) if idx_ast is not None else "0.0"
                 
-                cols = row.find_elements(By.TAG_NAME, "td")
+                player_data = {
+                    "nombre": nombre,
+                    "equipo": equipo,
+                    "posicion": "N/A",
+                    "partidos": partidos,
+                    "puntos": puntos,
+                    "rebotes": rebotes,
+                    "asistencias": asistencias,
+                    "team_logo": NBA_TEAM_LOGOS.get(equipo, "")
+                }
                 
-                if len(cols) < 10:
-                    continue
-                
-                # Basketball Reference estructura:
-                # [0]=Rank, [1]=Player, [2]=Pos, [3]=Age, [4]=Tm, [5]=G, [6-28]=Stats
-                # PTS está en índice 28, TRB en 22, AST en 23
-                
-                nombre = cols[0].text.strip()  # Player name
-                equipo = cols[3].text.strip()  # Team
-                posicion = cols[1].text.strip()  # Position
-                partidos = cols[4].text.strip()  # Games
-                
-                # Stats principales
-                puntos = cols[27].text.strip() if len(cols) > 27 else ""  # PTS
-                rebotes = cols[21].text.strip() if len(cols) > 21 else ""  # TRB
-                asistencias = cols[22].text.strip() if len(cols) > 22 else ""  # AST
-                
-                if nombre and puntos:
-                    player_data = {
-                        "nombre": nombre,
-                        "equipo": equipo if len(equipo) == 3 else get_team_abbr(equipo),
-                        "posicion": posicion,
-                        "partidos": partidos,
-                        "puntos": puntos,
-                        "rebotes": rebotes,
-                        "asistencias": asistencias,
-                        "team_logo": NBA_TEAM_LOGOS.get(equipo, "")
-                    }
-                    player_stats["players"].append(player_data)
-            
+                player_stats["players"].append(player_data)
             except Exception as e:
+                print(f"[WARN] Error procesando jugador: {e}")
                 continue
         
         if player_stats["players"]:
-            print(f"[OK] {len(player_stats['players'])} jugadores extraidos")
+            print(f"[OK] {len(player_stats['players'])} jugadores extraidos correctamente")
+            print(f"[DEBUG] Primer jugador: {player_stats['players'][0]['nombre']} - {player_stats['players'][0]['equipo']} - {player_stats['players'][0]['puntos']} PTS")
         else:
-            print("[ERROR] No se pudieron extraer jugadores")
+            print("[ERROR] Lista de jugadores vacía")
         
         save_json_data(player_stats, "nba_player_stats.json")
+        return True
         
     except Exception as e:
         print(f"[ERROR] Error: {str(e)}")
+        import traceback
+        traceback.print_exc()
         save_json_data({"players": []}, "nba_player_stats.json")
+        return False
 
 def fetch_nba_standings(driver):
     print("\n=== Extrayendo clasificacion NBA (TyC Sports) ===")
