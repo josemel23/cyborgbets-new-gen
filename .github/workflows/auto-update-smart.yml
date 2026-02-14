@@ -20,9 +20,11 @@ on:
     # HORARIO 6: 3:00 PM Colombia - Segunda ronda Segundas Divisiones (Lun, Mie, Vie)
     - cron: '0 20 * * 1,3,5'
     
-    # NBA - TODOS LOS DÍAS a las 4:00 PM Colombia
-    - cron: '0 19 * * *'
+    # NBA - TODOS LOS DÍAS a las 10:00 AM Colombia
+    - cron: '0 15 * * *'
+    # NBA - TODOS LOS DÍAS a las 2:00 PM Colombia
   
+    - cron: '0 19 * * *'
   workflow_dispatch:
     inputs:
       grupo:
