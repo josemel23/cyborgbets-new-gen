@@ -3,14 +3,8 @@ name: Panel Scraper
 on:
   workflow_dispatch:
     inputs:
-      accion:
-        required: true
-        type: choice
-        options:
-          - scraper
-          - deploy
       liga:
-        required: false
+        required: true
         type: choice
         default: liga_mx
         options:
@@ -63,14 +57,15 @@ on:
 jobs:
   scraper:
     runs-on: ubuntu-latest
-    if: inputs.accion == 'scraper'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
+      
       - name: Install Chrome
         run: |
           sudo apt-get update
@@ -78,15 +73,18 @@ jobs:
           echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
+      
       - name: Setup Display
         run: |
           export DISPLAY=:99
           Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 &
           sleep 3
           echo "DISPLAY=:99" >> $GITHUB_ENV
+      
       - name: Install Python deps
         run: |
           pip install undetected-chromedriver selenium pandas requests beautifulsoup4 webdriver_manager
+      
       - name: Run scraper
         run: |
           if [ "${{ inputs.liga }}" = "nba" ]; then
@@ -105,6 +103,7 @@ jobs:
             cd "scraper/${{ inputs.liga }}"
             timeout 600 python3 "${{ inputs.liga }}_standings.py"
           fi
+      
       - name: Move files to correct location
         run: |
           echo "📁 Moviendo archivos a la ubicación correcta..."
@@ -120,7 +119,7 @@ jobs:
             "premier")
               FILE_NAME="premier_league_data.json"
               ;;
-               "austria")
+            "austria")
               FILE_NAME="austria_data.json"
               ;;
             "championship")
@@ -132,13 +131,13 @@ jobs:
             "bundesliga_2")
               FILE_NAME="bundesliga_2_data.json"
               ;;
-                "rumania")
+            "rumania")
               FILE_NAME="rumania_data.json"
               ;;
             "italia")
               FILE_NAME="serie_a_data.json"
               ;;
-               "israel")
+            "israel")
               FILE_NAME="israel_data.json"
               ;;
             "italia_2")
@@ -153,7 +152,7 @@ jobs:
             "eredivisie")
               FILE_NAME="eredivisie_data.json"
               ;;
-               "dinamarca")
+            "dinamarca")
               FILE_NAME="dinamarca_data.json"
               ;;
             "eerste_divisie")
@@ -349,6 +348,7 @@ jobs:
           
           echo "📂 CONTENIDO FINAL de public/static/ (mostrando solo JSON y timestamps):"
           ls -lh public/static/*.json public/static/last_update_*.txt 2>/dev/null || echo "No se encontraron archivos JSON o timestamps"
+      
       - name: Commit files
         run: |
           echo "🔧 Configurando Git..."
@@ -384,40 +384,3 @@ jobs:
             echo "🔍 Mostrando últimos commits:"
             git log --oneline -n 3
           fi
-
-  deploy:
-    runs-on: ubuntu-latest
-    if: inputs.accion == 'deploy'
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-      - name: Install Firebase CLI
-        run: |
-          npm install -g firebase-tools
-          firebase --version
-      - name: Verify files
-        run: |
-          echo "Verificando archivos para deploy..."
-          ls -la
-          if [ -d "public" ]; then
-            echo "Archivos en public/:"
-            ls -la public/
-            if [ -d "public/static" ]; then
-              echo "Archivos en public/static/:"
-              ls -la public/static/
-            fi
-          else
-            echo "ERROR: No hay carpeta public/"
-            exit 1
-          fi
-      - name: Deploy to Firebase
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-        run: |
-          echo "Desplegando a Firebase..."
-          firebase deploy --token "$FIREBASE_TOKEN" --non-interactive
-          echo "Deploy completado! Tu app debería estar actualizada"
