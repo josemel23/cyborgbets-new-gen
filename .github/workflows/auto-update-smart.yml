@@ -283,10 +283,11 @@ jobs:
   # ============================================
   # GRUPO 6: NBA (4pm TODOS LOS DÍAS - ÚNICO JOB A LAS 4PM)
   # ============================================
-  nba-updates:
+nba-updates:
     runs-on: ubuntu-latest
     if: |
-      github.event.schedule == '0 21 * * *' ||
+      github.event.schedule == '0 15 * * *' ||
+      github.event.schedule == '0 19 * * *' ||
       (github.event_name == 'workflow_dispatch' && 
        (github.event.inputs.grupo == 'nba' || github.event.inputs.grupo == 'todas'))
     
