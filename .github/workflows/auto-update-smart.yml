@@ -276,7 +276,7 @@ jobs:
               console.error('❌ Error al iniciar ${{ matrix.liga }}:', error);
             }
 
-  # ============================================
+# ============================================
   # GRUPO 6: NBA (TODOS LOS DÍAS - 10AM y 2PM)
   # ============================================
   nba-updates:
@@ -284,8 +284,7 @@ jobs:
     if: |
       github.event.schedule == '0 15 * * *' ||
       github.event.schedule == '0 19 * * *' ||
-      (github.event_name == 'workflow_dispatch' && 
-       (github.event.inputs.grupo == 'nba' || github.event.inputs.grupo == 'todas'))
+      (github.event_name == 'workflow_dispatch' && (github.event.inputs.grupo == 'nba' || github.event.inputs.grupo == 'todas'))
     
     steps:
       - name: Trigger NBA scraper
