@@ -1,3 +1,495 @@
 {
-    "players": []
-,"last_updated":"2026-02-13T21:42:57Z"}
+    "players": [
+        {
+            "nombre": "Shai Gilgeous-Alexander",
+            "equipo": "PG",
+            "posicion": "26",
+            "partidos": "76",
+            "puntos": "2.2",
+            "rebotes": "4.1",
+            "asistencias": "5.0",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Giannis Antetokounmpo",
+            "equipo": "PF",
+            "posicion": "30",
+            "partidos": "67",
+            "puntos": "2.3",
+            "rebotes": "9.7",
+            "asistencias": "11.9",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Nikola Jokić",
+            "equipo": "C",
+            "posicion": "29",
+            "partidos": "70",
+            "puntos": "2.3",
+            "rebotes": "9.9",
+            "asistencias": "12.7",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Luka Dončić",
+            "equipo": "PG",
+            "posicion": "25",
+            "partidos": "50",
+            "puntos": "2.5",
+            "rebotes": "7.4",
+            "asistencias": "8.2",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Luka Dončić",
+            "equipo": "PG",
+            "posicion": "25",
+            "partidos": "22",
+            "puntos": "2.6",
+            "rebotes": "7.6",
+            "asistencias": "8.3",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Luka Dončić",
+            "equipo": "PG",
+            "posicion": "25",
+            "partidos": "28",
+            "puntos": "2.4",
+            "rebotes": "7.2",
+            "asistencias": "8.1",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Anthony Edwards",
+            "equipo": "SG",
+            "posicion": "23",
+            "partidos": "79",
+            "puntos": "1.9",
+            "rebotes": "4.9",
+            "asistencias": "5.7",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Jayson Tatum",
+            "equipo": "PF",
+            "posicion": "26",
+            "partidos": "72",
+            "puntos": "2.2",
+            "rebotes": "8.0",
+            "asistencias": "8.7",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Kevin Durant",
+            "equipo": "PF",
+            "posicion": "36",
+            "partidos": "62",
+            "puntos": "1.7",
+            "rebotes": "5.7",
+            "asistencias": "6.0",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Tyrese Maxey",
+            "equipo": "PG",
+            "posicion": "24",
+            "partidos": "52",
+            "puntos": "2.2",
+            "rebotes": "3.1",
+            "asistencias": "3.3",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Cade Cunningham",
+            "equipo": "PG",
+            "posicion": "23",
+            "partidos": "70",
+            "puntos": "2.8",
+            "rebotes": "5.3",
+            "asistencias": "6.1",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Jalen Brunson",
+            "equipo": "PG",
+            "posicion": "28",
+            "partidos": "65",
+            "puntos": "2.1",
+            "rebotes": "2.5",
+            "asistencias": "2.9",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Paolo Banchero",
+            "equipo": "PF",
+            "posicion": "22",
+            "partidos": "46",
+            "puntos": "2.1",
+            "rebotes": "6.4",
+            "asistencias": "7.5",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Devin Booker",
+            "equipo": "SG",
+            "posicion": "28",
+            "partidos": "75",
+            "puntos": "2.6",
+            "rebotes": "3.1",
+            "asistencias": "4.1",
+            "team_logo": ""
+        },
+        {
+            "nombre": "LaMelo Ball",
+            "equipo": "PG",
+            "posicion": "23",
+            "partidos": "47",
+            "puntos": "3.3",
+            "rebotes": "3.9",
+            "asistencias": "4.9",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Damian Lillard",
+            "equipo": "PG",
+            "posicion": "34",
+            "partidos": "58",
+            "puntos": "1.7",
+            "rebotes": "4.2",
+            "asistencias": "4.7",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Anthony Davis",
+            "equipo": "C",
+            "posicion": "31",
+            "partidos": "51",
+            "puntos": "1.9",
+            "rebotes": "8.9",
+            "asistencias": "11.6",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Anthony Davis",
+            "equipo": "C",
+            "posicion": "31",
+            "partidos": "42",
+            "puntos": "2.0",
+            "rebotes": "9.0",
+            "asistencias": "11.9",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Anthony Davis",
+            "equipo": "PF",
+            "posicion": "31",
+            "partidos": "9",
+            "puntos": "1.8",
+            "rebotes": "8.4",
+            "asistencias": "10.1",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Kyrie Irving",
+            "equipo": "SG",
+            "posicion": "32",
+            "partidos": "50",
+            "puntos": "2.0",
+            "rebotes": "3.6",
+            "asistencias": "4.8",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Zion Williamson",
+            "equipo": "PF",
+            "posicion": "24",
+            "partidos": "30",
+            "puntos": "2.7",
+            "rebotes": "4.7",
+            "asistencias": "7.2",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Stephen Curry",
+            "equipo": "PG",
+            "posicion": "36",
+            "partidos": "70",
+            "puntos": "1.4",
+            "rebotes": "3.9",
+            "asistencias": "4.4",
+            "team_logo": ""
+        },
+        {
+            "nombre": "LeBron James",
+            "equipo": "SF",
+            "posicion": "40",
+            "partidos": "70",
+            "puntos": "1.4",
+            "rebotes": "6.8",
+            "asistencias": "7.8",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Karl-Anthony Towns",
+            "equipo": "C",
+            "posicion": "29",
+            "partidos": "72",
+            "puntos": "3.5",
+            "rebotes": "9.8",
+            "asistencias": "12.8",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Victor Wembanyama",
+            "equipo": "C",
+            "posicion": "21",
+            "partidos": "46",
+            "puntos": "2.3",
+            "rebotes": "9.2",
+            "asistencias": "11.0",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Franz Wagner",
+            "equipo": "SF",
+            "posicion": "23",
+            "partidos": "60",
+            "puntos": "2.5",
+            "rebotes": "4.8",
+            "asistencias": "5.7",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Trae Young",
+            "equipo": "PG",
+            "posicion": "26",
+            "partidos": "76",
+            "puntos": "1.9",
+            "rebotes": "2.6",
+            "asistencias": "3.1",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Donovan Mitchell",
+            "equipo": "SG",
+            "posicion": "28",
+            "partidos": "71",
+            "puntos": "2.0",
+            "rebotes": "3.7",
+            "asistencias": "4.5",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Cam Thomas",
+            "equipo": "SG",
+            "posicion": "23",
+            "partidos": "25",
+            "puntos": "1.8",
+            "rebotes": "2.7",
+            "asistencias": "3.3",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Tyler Herro",
+            "equipo": "SG",
+            "posicion": "25",
+            "partidos": "77",
+            "puntos": "1.1",
+            "rebotes": "4.7",
+            "asistencias": "5.2",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Joel Embiid",
+            "equipo": "C",
+            "posicion": "30",
+            "partidos": "19",
+            "puntos": "2.2",
+            "rebotes": "6.3",
+            "asistencias": "8.2",
+            "team_logo": ""
+        },
+        {
+            "nombre": "De'Aaron Fox",
+            "equipo": "PG",
+            "posicion": "27",
+            "partidos": "62",
+            "puntos": "2.6",
+            "rebotes": "3.9",
+            "asistencias": "4.8",
+            "team_logo": ""
+        },
+        {
+            "nombre": "De'Aaron Fox",
+            "equipo": "PG",
+            "posicion": "27",
+            "partidos": "45",
+            "puntos": "2.6",
+            "rebotes": "4.0",
+            "asistencias": "5.0",
+            "team_logo": ""
+        },
+        {
+            "nombre": "De'Aaron Fox",
+            "equipo": "PG",
+            "posicion": "27",
+            "partidos": "17",
+            "puntos": "2.7",
+            "rebotes": "3.8",
+            "asistencias": "4.3",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Zach LaVine",
+            "equipo": "SG",
+            "posicion": "29",
+            "partidos": "74",
+            "puntos": "1.6",
+            "rebotes": "4.0",
+            "asistencias": "4.3",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Zach LaVine",
+            "equipo": "SF",
+            "posicion": "29",
+            "partidos": "42",
+            "puntos": "1.5",
+            "rebotes": "4.5",
+            "asistencias": "4.8",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Zach LaVine",
+            "equipo": "SG",
+            "posicion": "29",
+            "partidos": "32",
+            "puntos": "1.8",
+            "rebotes": "3.2",
+            "asistencias": "3.5",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Ja Morant",
+            "equipo": "PG",
+            "posicion": "25",
+            "partidos": "50",
+            "puntos": "2.3",
+            "rebotes": "3.4",
+            "asistencias": "4.1",
+            "team_logo": ""
+        },
+        {
+            "nombre": "James Harden",
+            "equipo": "PG",
+            "posicion": "35",
+            "partidos": "79",
+            "puntos": "2.1",
+            "rebotes": "5.1",
+            "asistencias": "5.8",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Jaylen Brown",
+            "equipo": "SF",
+            "posicion": "28",
+            "partidos": "63",
+            "puntos": "2.4",
+            "rebotes": "4.5",
+            "asistencias": "5.8",
+            "team_logo": ""
+        },
+        {
+            "nombre": "DeMar DeRozan",
+            "equipo": "SF",
+            "posicion": "35",
+            "partidos": "77",
+            "puntos": "1.9",
+            "rebotes": "3.2",
+            "asistencias": "3.9",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Brandon Ingram",
+            "equipo": "SF",
+            "posicion": "27",
+            "partidos": "18",
+            "puntos": "2.5",
+            "rebotes": "4.6",
+            "asistencias": "5.6",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Jaren Jackson Jr.",
+            "equipo": "C",
+            "posicion": "25",
+            "partidos": "74",
+            "puntos": "3.5",
+            "rebotes": "4.4",
+            "asistencias": "5.6",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Norman Powell",
+            "equipo": "SG",
+            "posicion": "31",
+            "partidos": "60",
+            "puntos": "1.9",
+            "rebotes": "2.8",
+            "asistencias": "3.2",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Jalen Williams",
+            "equipo": "SG",
+            "posicion": "23",
+            "partidos": "69",
+            "puntos": "2.3",
+            "rebotes": "4.5",
+            "asistencias": "5.3",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Kawhi Leonard",
+            "equipo": "SF",
+            "posicion": "33",
+            "partidos": "37",
+            "puntos": "1.5",
+            "rebotes": "5.0",
+            "asistencias": "5.9",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Jamal Murray",
+            "equipo": "PG",
+            "posicion": "27",
+            "partidos": "67",
+            "puntos": "1.9",
+            "rebotes": "3.2",
+            "asistencias": "3.9",
+            "team_logo": ""
+        },
+        {
+            "nombre": "Trey Murphy III",
+            "equipo": "SF",
+            "posicion": "24",
+            "partidos": "53",
+            "puntos": "2.1",
+            "rebotes": "4.2",
+            "asistencias": "5.1",
+            "team_logo": ""
+        },
+        {
+            "nombre": "RJ Barrett",
+            "equipo": "SF",
+            "posicion": "24",
+            "partidos": "58",
+            "puntos": "2.4",
+            "rebotes": "5.3",
+            "asistencias": "6.3",
+            "team_logo": ""
+        }
+    ],
+    "last_updated": "2026-02-14T16:14:33Z"
+,"last_updated":"2026-02-14T16:14:52Z"}

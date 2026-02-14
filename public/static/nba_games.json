@@ -1,20 +1,92 @@
 [
     {
-        "hora": "",
-        "emparejamiento": "RISING STARS: TEAM VINCE vs TEAM T-MAC FEB 13 PREVIEW",
-        "resultado": "–",
+        "hora": "15.02. 22:00",
+        "emparejamiento": "TEA @ TEA",
+        "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "",
-        "emparejamiento": "RISING STARS: TEAM AUSTIN vs TEAM MELO FEB 13 PREVIEW",
-        "resultado": "–",
+        "hora": "20.02. 00:00",
+        "emparejamiento": "BKN @ HOU",
+        "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "",
-        "emparejamiento": "EXP @ PLA",
-        "resultado": "27 - 75",
+        "hora": "20.02. 00:00",
+        "emparejamiento": "CLE @ BKN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "20.02. 00:00",
+        "emparejamiento": "PHI @ ATL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "20.02. 00:00",
+        "emparejamiento": "WAS @ IND",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "20.02. 00:30",
+        "emparejamiento": "NYK @ DET",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "20.02. 01:00",
+        "emparejamiento": "CHI @ TOR",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "20.02. 01:30",
+        "emparejamiento": "SAS @ PHX",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "20.02. 03:00",
+        "emparejamiento": "GSW @ BOS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "20.02. 03:00",
+        "emparejamiento": "SAC @ ORL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "20.02. 03:30",
+        "emparejamiento": "LAC @ DEN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "21.02. 00:00",
+        "emparejamiento": "BKN @ CLE",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "21.02. 00:00",
+        "emparejamiento": "MEM @ UTA",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "21.02. 00:00",
+        "emparejamiento": "WAS @ IND",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "21.02. 00:30",
+        "emparejamiento": "ATL @ MIA",
+        "resultado": "vs",
         "ubicacion": ""
     }
 ]
