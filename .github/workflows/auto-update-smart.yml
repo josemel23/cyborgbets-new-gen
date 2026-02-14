@@ -291,27 +291,26 @@ nba-updates:
       (github.event_name == 'workflow_dispatch' && 
        (github.event.inputs.grupo == 'nba' || github.event.inputs.grupo == 'todas'))
     
-    steps:
-      - name: Trigger NBA scraper
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            try {
-              await github.rest.actions.createWorkflowDispatch({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                workflow_id: 'execute.yml',
-                ref: 'main',
-                inputs: {
-                  accion: 'scraper',
-                  liga: 'nba'
-                }
-              });
-              console.log('✅ NBA scraper iniciado');
-            } catch (error) {
-              console.error('❌ Error al iniciar NBA:', error);
+   steps:
+  - name: Trigger NBA scraper
+    uses: actions/github-script@v7
+    with:
+      github-token: ${{ secrets.GITHUB_TOKEN }}
+      script: |
+        try {
+          await github.rest.actions.createWorkflowDispatch({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            workflow_id: 'execute.yml',
+            ref: 'main',
+            inputs: {
+              liga: 'nba'
             }
+          });
+          console.log('✅ NBA scraper iniciado');
+        } catch (error) {
+          console.error('❌ Error al iniciar NBA:', error);
+        }
 
   # ============================================
   # REPORTE FINAL
