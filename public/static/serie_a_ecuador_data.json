@@ -1,199 +1,29 @@
 {
     "teams": [
         {
-            "team": "CSD Independiente del Valle",
-            "position": "1",
-            "matches_played": "30",
-            "wins": "18",
-            "draws": "10",
-            "losses": "2",
-            "goals_for": "55",
-            "goals_against": "23",
-            "goal_difference": "32",
-            "points": "64",
-            "corners": {
-                "8.5": "59%",
-                "9.5": "44%",
-                "10.5": "31%",
-                "11.5": "18%",
-                "12.5": "15%",
-                "13.5": "13%",
-                "average": "9.46"
-            },
-            "goals": {
-                "1.5": "71%",
-                "2.5": "42%",
-                "3.5": "16%"
-            },
-            "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
             "team": "Barcelona",
-            "position": "2",
-            "matches_played": "30",
-            "wins": "16",
-            "draws": "6",
-            "losses": "8",
-            "goals_for": "46",
-            "goals_against": "33",
-            "goal_difference": "13",
-            "points": "54",
+            "position": "1",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "56%",
-                "9.5": "44%",
-                "10.5": "38%",
-                "11.5": "28%",
-                "12.5": "23%",
-                "13.5": "18%",
-                "average": "9.64"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "72%",
-                "2.5": "43%",
-                "3.5": "17%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
-            "team": "LDU Quito",
-            "position": "3",
-            "matches_played": "30",
-            "wins": "14",
-            "draws": "9",
-            "losses": "7",
-            "goals_for": "48",
-            "goals_against": "31",
-            "goal_difference": "17",
-            "points": "51",
-            "corners": {
-                "8.5": "72%",
-                "9.5": "56%",
-                "10.5": "49%",
-                "11.5": "33%",
-                "12.5": "23%",
-                "13.5": "15%",
-                "average": "10.43"
-            },
-            "goals": {
-                "1.5": "72%",
-                "2.5": "43%",
-                "3.5": "17%"
-            },
-            "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "CD Universidad Católica",
-            "position": "4",
-            "matches_played": "30",
-            "wins": "13",
-            "draws": "10",
-            "losses": "7",
-            "goals_for": "58",
-            "goals_against": "39",
-            "goal_difference": "19",
-            "points": "49",
-            "corners": {
-                "8.5": "59%",
-                "9.5": "51%",
-                "10.5": "36%",
-                "11.5": "28%",
-                "12.5": "18%",
-                "13.5": "13%",
-                "average": "9.49"
-            },
-            "goals": {
-                "1.5": "79%",
-                "2.5": "54%",
-                "3.5": "26%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "54%"
-            }
-        },
-        {
-            "team": "Orense SC",
-            "position": "5",
-            "matches_played": "30",
-            "wins": "13",
-            "draws": "8",
-            "losses": "9",
-            "goals_for": "34",
-            "goals_against": "32",
-            "goal_difference": "2",
-            "points": "47",
-            "corners": {
-                "8.5": "67%",
-                "9.5": "44%",
-                "10.5": "31%",
-                "11.5": "15%",
-                "12.5": "10%",
-                "13.5": "3%",
-                "average": "9.31"
-            },
-            "goals": {
-                "1.5": "64%",
-                "2.5": "34%",
-                "3.5": "13%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Deportivo Cuenca",
-            "position": "6",
-            "matches_played": "30",
-            "wins": "13",
-            "draws": "7",
-            "losses": "10",
-            "goals_for": "35",
-            "goals_against": "29",
-            "goal_difference": "6",
-            "points": "46",
-            "corners": {
-                "8.5": "46%",
-                "9.5": "38%",
-                "10.5": "28%",
-                "11.5": "21%",
-                "12.5": "15%",
-                "13.5": "10%",
-                "average": "8.69"
-            },
-            "goals": {
-                "1.5": "62%",
-                "2.5": "33%",
-                "3.5": "13%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
                 "over_3_5": "78%",
@@ -205,199 +35,63 @@
             }
         },
         {
-            "team": "Libertad",
-            "position": "7",
-            "matches_played": "30",
-            "wins": "12",
-            "draws": "10",
-            "losses": "8",
-            "goals_for": "42",
-            "goals_against": "36",
-            "goal_difference": "6",
-            "points": "46",
+            "team": "Universidad Católica",
+            "position": "2",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "74%",
-                "9.5": "62%",
-                "10.5": "46%",
-                "11.5": "33%",
-                "12.5": "21%",
-                "13.5": "13%",
-                "average": "10.46"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "71%",
-                "2.5": "42%",
-                "3.5": "16%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "49%"
+                "Yes": "50%"
             }
         },
         {
             "team": "CS Emelec",
-            "position": "8",
-            "matches_played": "30",
-            "wins": "11",
-            "draws": "9",
-            "losses": "10",
-            "goals_for": "30",
-            "goals_against": "34",
-            "goal_difference": "-4",
-            "points": "42",
+            "position": "3",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "51%",
-                "9.5": "41%",
-                "10.5": "38%",
-                "11.5": "26%",
-                "12.5": "15%",
-                "13.5": "8%",
-                "average": "9.46"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "62%",
-                "2.5": "33%",
-                "3.5": "13%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "SD Aucas",
-            "position": "9",
-            "matches_played": "30",
-            "wins": "11",
-            "draws": "8",
-            "losses": "11",
-            "goals_for": "38",
-            "goals_against": "41",
-            "goal_difference": "-3",
-            "points": "41",
-            "corners": {
-                "8.5": "54%",
-                "9.5": "44%",
-                "10.5": "31%",
-                "11.5": "21%",
-                "12.5": "13%",
-                "13.5": "8%",
-                "average": "9.18"
-            },
-            "goals": {
-                "1.5": "72%",
-                "2.5": "43%",
-                "3.5": "17%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Macará",
-            "position": "10",
-            "matches_played": "30",
-            "wins": "9",
-            "draws": "11",
-            "losses": "10",
-            "goals_for": "32",
-            "goals_against": "30",
-            "goal_difference": "2",
-            "points": "38",
-            "corners": {
-                "8.5": "62%",
-                "9.5": "56%",
-                "10.5": "49%",
-                "11.5": "36%",
-                "12.5": "23%",
-                "13.5": "13%",
-                "average": "10.18"
-            },
-            "goals": {
-                "1.5": "61%",
-                "2.5": "31%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "CD El Nacional",
-            "position": "11",
-            "matches_played": "30",
-            "wins": "9",
-            "draws": "7",
-            "losses": "14",
-            "goals_for": "32",
-            "goals_against": "46",
-            "goal_difference": "-14",
-            "points": "34",
-            "corners": {
-                "8.5": "67%",
-                "9.5": "62%",
-                "10.5": "44%",
-                "11.5": "36%",
-                "12.5": "28%",
-                "13.5": "15%",
-                "average": "10.23"
-            },
-            "goals": {
-                "1.5": "71%",
-                "2.5": "42%",
-                "3.5": "16%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Delfin SC",
-            "position": "12",
-            "matches_played": "30",
-            "wins": "6",
-            "draws": "13",
-            "losses": "11",
-            "goals_for": "26",
-            "goals_against": "42",
-            "goal_difference": "-16",
-            "points": "31",
-            "corners": {
-                "8.5": "49%",
-                "9.5": "46%",
-                "10.5": "36%",
-                "11.5": "26%",
-                "12.5": "13%",
-                "13.5": "8%",
-                "average": "9"
-            },
-            "goals": {
-                "1.5": "65%",
-                "2.5": "35%",
-                "3.5": "14%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
                 "over_3_5": "76%",
@@ -409,29 +103,29 @@
             }
         },
         {
-            "team": "Técnico Universitario",
-            "position": "13",
-            "matches_played": "30",
-            "wins": "7",
-            "draws": "7",
-            "losses": "16",
-            "goals_for": "26",
-            "goals_against": "46",
-            "goal_difference": "-20",
-            "points": "28",
+            "team": "Independiente del Valle",
+            "position": "4",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "47%",
-                "9.5": "36%",
-                "10.5": "25%",
-                "11.5": "22%",
-                "12.5": "19%",
-                "13.5": "6%",
-                "average": "8.86"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "68%",
-                "2.5": "38%",
-                "3.5": "14%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
                 "over_3_5": "78%",
@@ -439,72 +133,242 @@
                 "over_5_5": "38%"
             },
             "btts": {
-                "Yes": "50%"
+                "Yes": "49%"
             }
         },
         {
-            "team": "Vinotinto",
-            "position": "14",
-            "matches_played": "30",
-            "wins": "7",
-            "draws": "6",
-            "losses": "17",
-            "goals_for": "34",
-            "goals_against": "43",
-            "goal_difference": "-9",
-            "points": "27",
+            "team": "Delfin SC",
+            "position": "5",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "67%",
-                "9.5": "56%",
-                "10.5": "50%",
-                "11.5": "36%",
-                "12.5": "22%",
-                "13.5": "14%",
-                "average": "10.14"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "71%",
-                "2.5": "41%",
-                "3.5": "16%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "47%"
+            }
+        },
+        {
+            "team": "Deportivo Cuenca",
+            "position": "6",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
             },
             "btts": {
                 "Yes": "45%"
             }
         },
         {
-            "team": "Mushuc Runa SC",
-            "position": "15",
-            "matches_played": "30",
-            "wins": "7",
-            "draws": "6",
-            "losses": "17",
-            "goals_for": "38",
-            "goals_against": "50",
-            "goal_difference": "-12",
-            "points": "27",
+            "team": "Guayaquil City FC",
+            "position": "7",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "61%",
-                "9.5": "47%",
-                "10.5": "42%",
-                "11.5": "31%",
-                "12.5": "14%",
-                "13.5": "8%",
-                "average": "9.47"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "76%",
-                "2.5": "49%",
-                "3.5": "21%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "LDU Quito",
+            "position": "8",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "Leones del Norte",
+            "position": "9",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Libertad de Loja",
+            "position": "10",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "Macará",
+            "position": "11",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
             },
             "btts": {
                 "Yes": "45%"
@@ -512,37 +376,173 @@
         },
         {
             "team": "Manta FC",
-            "position": "16",
-            "matches_played": "30",
-            "wins": "5",
-            "draws": "11",
-            "losses": "14",
-            "goals_for": "34",
-            "goals_against": "53",
-            "goal_difference": "-19",
-            "points": "26",
+            "position": "12",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "56%",
-                "9.5": "47%",
-                "10.5": "39%",
-                "11.5": "19%",
-                "12.5": "14%",
-                "13.5": "8%",
-                "average": "9.47"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "76%",
-                "2.5": "48%",
-                "3.5": "21%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "47%"
+            }
+        },
+        {
+            "team": "Mushuc Runa SC",
+            "position": "13",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "49%"
+            }
+        },
+        {
+            "team": "Orense",
+            "position": "14",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "SD Aucas",
+            "position": "15",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "Técnico Universitario",
+            "position": "16",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
             },
             "btts": {
                 "Yes": "45%"
             }
         }
     ]
-,"last_updated":"2026-02-13T19:43:18Z"}
+,"last_updated":"2026-02-16T17:52:44Z"}
