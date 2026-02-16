@@ -3,163 +3,27 @@
         {
             "team": "Slavia Praha",
             "position": "1",
-            "matches_played": "19",
-            "wins": "13",
-            "draws": "6",
+            "matches_played": "22",
+            "wins": "15",
+            "draws": "7",
             "losses": "0",
-            "goals_for": "41",
-            "goals_against": "16",
-            "goal_difference": "25",
-            "points": "45",
+            "goals_for": "49",
+            "goals_against": "18",
+            "goal_difference": "31",
+            "points": "52",
             "corners": {
-                "8.5": "89%",
-                "9.5": "74%",
-                "10.5": "47%",
-                "11.5": "42%",
-                "12.5": "42%",
-                "13.5": "42%",
-                "average": "12.16"
+                "8.5": "86%",
+                "9.5": "73%",
+                "10.5": "45%",
+                "11.5": "41%",
+                "12.5": "41%",
+                "13.5": "36%",
+                "average": "11.73"
             },
             "goals": {
                 "1.5": "77%",
-                "2.5": "50%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "59%"
-            }
-        },
-        {
-            "team": "Sparta Prague",
-            "position": "2",
-            "matches_played": "19",
-            "wins": "11",
-            "draws": "5",
-            "losses": "3",
-            "goals_for": "35",
-            "goals_against": "23",
-            "goal_difference": "12",
-            "points": "38",
-            "corners": {
-                "8.5": "68%",
-                "9.5": "58%",
-                "10.5": "47%",
-                "11.5": "16%",
-                "12.5": "11%",
-                "13.5": "0%",
-                "average": "9.47"
-            },
-            "goals": {
-                "1.5": "78%",
                 "2.5": "51%",
                 "3.5": "23%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "52%"
-            }
-        },
-        {
-            "team": "Jablonec",
-            "position": "3",
-            "matches_played": "19",
-            "wins": "10",
-            "draws": "5",
-            "losses": "4",
-            "goals_for": "27",
-            "goals_against": "20",
-            "goal_difference": "7",
-            "points": "35",
-            "corners": {
-                "8.5": "53%",
-                "9.5": "47%",
-                "10.5": "37%",
-                "11.5": "21%",
-                "12.5": "16%",
-                "13.5": "5%",
-                "average": "9.42"
-            },
-            "goals": {
-                "1.5": "69%",
-                "2.5": "39%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "46%"
-            }
-        },
-        {
-            "team": "Viktoria Plzen",
-            "position": "4",
-            "matches_played": "19",
-            "wins": "9",
-            "draws": "5",
-            "losses": "5",
-            "goals_for": "35",
-            "goals_against": "26",
-            "goal_difference": "9",
-            "points": "32",
-            "corners": {
-                "8.5": "53%",
-                "9.5": "42%",
-                "10.5": "32%",
-                "11.5": "26%",
-                "12.5": "26%",
-                "13.5": "11%",
-                "average": "9.21"
-            },
-            "goals": {
-                "1.5": "79%",
-                "2.5": "53%",
-                "3.5": "26%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "51%"
-            }
-        },
-        {
-            "team": "Karviná",
-            "position": "5",
-            "matches_played": "19",
-            "wins": "10",
-            "draws": "2",
-            "losses": "7",
-            "goals_for": "34",
-            "goals_against": "30",
-            "goal_difference": "4",
-            "points": "32",
-            "corners": {
-                "8.5": "79%",
-                "9.5": "58%",
-                "10.5": "58%",
-                "11.5": "21%",
-                "12.5": "11%",
-                "13.5": "11%",
-                "average": "10.16"
-            },
-            "goals": {
-                "1.5": "81%",
-                "2.5": "56%",
-                "3.5": "28%"
             },
             "cards": {
                 "over_3_5": "76%",
@@ -167,33 +31,33 @@
                 "over_5_5": "36%"
             },
             "btts": {
-                "Yes": "52%"
+                "Yes": "60%"
             }
         },
         {
-            "team": "Slovan Liberec",
-            "position": "6",
-            "matches_played": "19",
-            "wins": "8",
-            "draws": "7",
-            "losses": "4",
-            "goals_for": "33",
-            "goals_against": "19",
-            "goal_difference": "14",
-            "points": "31",
+            "team": "Sparta Prague",
+            "position": "2",
+            "matches_played": "22",
+            "wins": "14",
+            "draws": "5",
+            "losses": "3",
+            "goals_for": "43",
+            "goals_against": "23",
+            "goal_difference": "20",
+            "points": "47",
             "corners": {
-                "8.5": "63%",
-                "9.5": "42%",
-                "10.5": "32%",
-                "11.5": "16%",
-                "12.5": "16%",
-                "13.5": "16%",
-                "average": "9.63"
+                "8.5": "59%",
+                "9.5": "50%",
+                "10.5": "41%",
+                "11.5": "14%",
+                "12.5": "9%",
+                "13.5": "0%",
+                "average": "9.04"
             },
             "goals": {
-                "1.5": "74%",
-                "2.5": "45%",
-                "3.5": "19%"
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
             },
             "cards": {
                 "over_3_5": "78%",
@@ -201,33 +65,169 @@
                 "over_5_5": "38%"
             },
             "btts": {
+                "Yes": "55%"
+            }
+        },
+        {
+            "team": "Jablonec",
+            "position": "3",
+            "matches_played": "22",
+            "wins": "12",
+            "draws": "6",
+            "losses": "4",
+            "goals_for": "30",
+            "goals_against": "20",
+            "goal_difference": "10",
+            "points": "42",
+            "corners": {
+                "8.5": "55%",
+                "9.5": "50%",
+                "10.5": "41%",
+                "11.5": "27%",
+                "12.5": "23%",
+                "13.5": "9%",
+                "average": "9.55"
+            },
+            "goals": {
+                "1.5": "65%",
+                "2.5": "35%",
+                "3.5": "14%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
                 "Yes": "45%"
+            }
+        },
+        {
+            "team": "Viktoria Plzen",
+            "position": "4",
+            "matches_played": "22",
+            "wins": "12",
+            "draws": "5",
+            "losses": "5",
+            "goals_for": "42",
+            "goals_against": "28",
+            "goal_difference": "14",
+            "points": "41",
+            "corners": {
+                "8.5": "55%",
+                "9.5": "41%",
+                "10.5": "32%",
+                "11.5": "23%",
+                "12.5": "23%",
+                "13.5": "9%",
+                "average": "9.18"
+            },
+            "goals": {
+                "1.5": "79%",
+                "2.5": "53%",
+                "3.5": "25%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "56%"
+            }
+        },
+        {
+            "team": "Slovan Liberec",
+            "position": "5",
+            "matches_played": "22",
+            "wins": "10",
+            "draws": "7",
+            "losses": "5",
+            "goals_for": "37",
+            "goals_against": "22",
+            "goal_difference": "15",
+            "points": "37",
+            "corners": {
+                "8.5": "59%",
+                "9.5": "36%",
+                "10.5": "27%",
+                "11.5": "14%",
+                "12.5": "14%",
+                "13.5": "14%",
+                "average": "9.45"
+            },
+            "goals": {
+                "1.5": "73%",
+                "2.5": "44%",
+                "3.5": "18%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "Karviná",
+            "position": "6",
+            "matches_played": "22",
+            "wins": "10",
+            "draws": "2",
+            "losses": "10",
+            "goals_for": "35",
+            "goals_against": "37",
+            "goal_difference": "-2",
+            "points": "32",
+            "corners": {
+                "8.5": "73%",
+                "9.5": "55%",
+                "10.5": "55%",
+                "11.5": "23%",
+                "12.5": "14%",
+                "13.5": "9%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "80%",
+                "2.5": "54%",
+                "3.5": "27%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "51%"
             }
         },
         {
             "team": "Hradec Králové",
             "position": "7",
-            "matches_played": "19",
-            "wins": "7",
+            "matches_played": "22",
+            "wins": "8",
             "draws": "6",
-            "losses": "6",
-            "goals_for": "30",
-            "goals_against": "26",
+            "losses": "8",
+            "goals_for": "33",
+            "goals_against": "29",
             "goal_difference": "4",
-            "points": "27",
+            "points": "30",
             "corners": {
-                "8.5": "68%",
-                "9.5": "47%",
-                "10.5": "21%",
-                "11.5": "16%",
-                "12.5": "16%",
-                "13.5": "11%",
-                "average": "9.37"
+                "8.5": "64%",
+                "9.5": "45%",
+                "10.5": "18%",
+                "11.5": "14%",
+                "12.5": "14%",
+                "13.5": "9%",
+                "average": "9.18"
             },
             "goals": {
-                "1.5": "76%",
-                "2.5": "49%",
-                "3.5": "22%"
+                "1.5": "75%",
+                "2.5": "46%",
+                "3.5": "20%"
             },
             "cards": {
                 "over_3_5": "72%",
@@ -241,95 +241,163 @@
         {
             "team": "Sigma Olomouc",
             "position": "8",
-            "matches_played": "19",
-            "wins": "7",
+            "matches_played": "22",
+            "wins": "8",
             "draws": "6",
-            "losses": "6",
-            "goals_for": "18",
-            "goals_against": "17",
-            "goal_difference": "1",
-            "points": "27",
+            "losses": "8",
+            "goals_for": "20",
+            "goals_against": "21",
+            "goal_difference": "-1",
+            "points": "30",
             "corners": {
-                "8.5": "47%",
-                "9.5": "42%",
-                "10.5": "37%",
-                "11.5": "16%",
-                "12.5": "11%",
-                "13.5": "11%",
-                "average": "9.31"
+                "8.5": "55%",
+                "9.5": "50%",
+                "10.5": "36%",
+                "11.5": "14%",
+                "12.5": "9%",
+                "13.5": "9%",
+                "average": "9.46"
             },
             "goals": {
-                "1.5": "55%",
+                "1.5": "56%",
                 "2.5": "28%",
                 "3.5": "11%"
             },
             "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Zlín",
+            "position": "9",
+            "matches_played": "22",
+            "wins": "7",
+            "draws": "6",
+            "losses": "9",
+            "goals_for": "26",
+            "goals_against": "29",
+            "goal_difference": "-3",
+            "points": "27",
+            "corners": {
+                "8.5": "64%",
+                "9.5": "55%",
+                "10.5": "32%",
+                "11.5": "32%",
+                "12.5": "23%",
+                "13.5": "14%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "69%",
+                "2.5": "40%",
+                "3.5": "15%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Teplice",
+            "position": "10",
+            "matches_played": "22",
+            "wins": "6",
+            "draws": "7",
+            "losses": "9",
+            "goals_for": "22",
+            "goals_against": "26",
+            "goal_difference": "-4",
+            "points": "25",
+            "corners": {
+                "8.5": "41%",
+                "9.5": "27%",
+                "10.5": "18%",
+                "11.5": "9%",
+                "12.5": "9%",
+                "13.5": "5%",
+                "average": "8.28"
+            },
+            "goals": {
+                "1.5": "63%",
+                "2.5": "34%",
+                "3.5": "13%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
             },
             "btts": {
                 "Yes": "50%"
             }
         },
         {
-            "team": "Zlín",
-            "position": "9",
-            "matches_played": "19",
-            "wins": "7",
-            "draws": "5",
-            "losses": "7",
-            "goals_for": "26",
-            "goals_against": "24",
-            "goal_difference": "2",
-            "points": "26",
+            "team": "Pardubice",
+            "position": "11",
+            "matches_played": "22",
+            "wins": "6",
+            "draws": "7",
+            "losses": "9",
+            "goals_for": "28",
+            "goals_against": "38",
+            "goal_difference": "-10",
+            "points": "25",
             "corners": {
-                "8.5": "68%",
-                "9.5": "58%",
-                "10.5": "37%",
-                "11.5": "37%",
-                "12.5": "26%",
-                "13.5": "16%",
-                "average": "10.27"
+                "8.5": "73%",
+                "9.5": "55%",
+                "10.5": "32%",
+                "11.5": "23%",
+                "12.5": "18%",
+                "13.5": "9%",
+                "average": "9.91"
             },
             "goals": {
-                "1.5": "72%",
-                "2.5": "43%",
-                "3.5": "17%"
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
             },
             "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
             },
             "btts": {
-                "Yes": "49%"
+                "Yes": "59%"
             }
         },
         {
-            "team": "Teplice",
-            "position": "10",
-            "matches_played": "19",
-            "wins": "5",
-            "draws": "6",
-            "losses": "8",
-            "goals_for": "20",
-            "goals_against": "25",
-            "goal_difference": "-5",
-            "points": "21",
+            "team": "Bohemians 1905",
+            "position": "12",
+            "matches_played": "22",
+            "wins": "6",
+            "draws": "5",
+            "losses": "11",
+            "goals_for": "19",
+            "goals_against": "29",
+            "goal_difference": "-10",
+            "points": "23",
             "corners": {
-                "8.5": "47%",
-                "9.5": "32%",
-                "10.5": "21%",
-                "11.5": "11%",
-                "12.5": "11%",
-                "13.5": "5%",
-                "average": "8.73"
+                "8.5": "50%",
+                "9.5": "45%",
+                "10.5": "41%",
+                "11.5": "27%",
+                "12.5": "23%",
+                "13.5": "14%",
+                "average": "9.27"
             },
             "goals": {
-                "1.5": "67%",
-                "2.5": "37%",
-                "3.5": "14%"
+                "1.5": "63%",
+                "2.5": "34%",
+                "3.5": "13%"
             },
             "cards": {
                 "over_3_5": "80%",
@@ -337,33 +405,33 @@
                 "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "48%"
+                "Yes": "46%"
             }
         },
         {
-            "team": "Pardubice",
-            "position": "11",
-            "matches_played": "19",
-            "wins": "5",
-            "draws": "6",
-            "losses": "8",
-            "goals_for": "25",
-            "goals_against": "34",
-            "goal_difference": "-9",
-            "points": "21",
+            "team": "Mladá Boleslav",
+            "position": "13",
+            "matches_played": "22",
+            "wins": "4",
+            "draws": "7",
+            "losses": "11",
+            "goals_for": "29",
+            "goals_against": "47",
+            "goal_difference": "-18",
+            "points": "19",
             "corners": {
                 "8.5": "68%",
-                "9.5": "47%",
-                "10.5": "26%",
-                "11.5": "16%",
-                "12.5": "16%",
-                "13.5": "5%",
-                "average": "9.47"
+                "9.5": "55%",
+                "10.5": "45%",
+                "11.5": "36%",
+                "12.5": "36%",
+                "13.5": "32%",
+                "average": "10.77"
             },
             "goals": {
-                "1.5": "78%",
-                "2.5": "52%",
-                "3.5": "24%"
+                "1.5": "82%",
+                "2.5": "57%",
+                "3.5": "29%"
             },
             "cards": {
                 "over_3_5": "79%",
@@ -375,24 +443,24 @@
             }
         },
         {
-            "team": "Bohemians 1905",
-            "position": "12",
-            "matches_played": "19",
-            "wins": "5",
-            "draws": "4",
-            "losses": "10",
-            "goals_for": "14",
-            "goals_against": "24",
-            "goal_difference": "-10",
-            "points": "19",
+            "team": "Baník Ostrava",
+            "position": "14",
+            "matches_played": "22",
+            "wins": "4",
+            "draws": "6",
+            "losses": "12",
+            "goals_for": "16",
+            "goals_against": "28",
+            "goal_difference": "-12",
+            "points": "18",
             "corners": {
-                "8.5": "42%",
-                "9.5": "37%",
-                "10.5": "32%",
-                "11.5": "16%",
-                "12.5": "16%",
-                "13.5": "16%",
-                "average": "8.73"
+                "8.5": "64%",
+                "9.5": "55%",
+                "10.5": "36%",
+                "11.5": "18%",
+                "12.5": "14%",
+                "13.5": "14%",
+                "average": "9.86"
             },
             "goals": {
                 "1.5": "60%",
@@ -400,111 +468,9 @@
                 "3.5": "12%"
             },
             "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "46%"
-            }
-        },
-        {
-            "team": "Mladá Boleslav",
-            "position": "13",
-            "matches_played": "19",
-            "wins": "4",
-            "draws": "5",
-            "losses": "10",
-            "goals_for": "27",
-            "goals_against": "41",
-            "goal_difference": "-14",
-            "points": "17",
-            "corners": {
-                "8.5": "74%",
-                "9.5": "58%",
-                "10.5": "47%",
-                "11.5": "37%",
-                "12.5": "37%",
-                "13.5": "37%",
-                "average": "11.21"
-            },
-            "goals": {
-                "1.5": "83%",
-                "2.5": "59%",
-                "3.5": "31%"
-            },
-            "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
-            },
-            "btts": {
-                "Yes": "58%"
-            }
-        },
-        {
-            "team": "Baník Ostrava",
-            "position": "14",
-            "matches_played": "19",
-            "wins": "3",
-            "draws": "5",
-            "losses": "11",
-            "goals_for": "12",
-            "goals_against": "25",
-            "goal_difference": "-13",
-            "points": "14",
-            "corners": {
-                "8.5": "63%",
-                "9.5": "53%",
-                "10.5": "37%",
-                "11.5": "16%",
-                "12.5": "16%",
-                "13.5": "16%",
-                "average": "9.84"
-            },
-            "goals": {
-                "1.5": "58%",
-                "2.5": "29%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Dukla Praha",
-            "position": "15",
-            "matches_played": "19",
-            "wins": "2",
-            "draws": "8",
-            "losses": "9",
-            "goals_for": "14",
-            "goals_against": "27",
-            "goal_difference": "-13",
-            "points": "14",
-            "corners": {
-                "8.5": "68%",
-                "9.5": "53%",
-                "10.5": "42%",
-                "11.5": "21%",
-                "12.5": "11%",
-                "13.5": "5%",
-                "average": "9.52"
-            },
-            "goals": {
-                "1.5": "63%",
-                "2.5": "33%",
-                "3.5": "13%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
             },
             "btts": {
                 "Yes": "45%"
@@ -512,37 +478,71 @@
         },
         {
             "team": "Slovácko",
-            "position": "16",
-            "matches_played": "19",
+            "position": "15",
+            "matches_played": "22",
             "wins": "3",
-            "draws": "5",
-            "losses": "11",
-            "goals_for": "11",
-            "goals_against": "25",
-            "goal_difference": "-14",
-            "points": "14",
+            "draws": "7",
+            "losses": "12",
+            "goals_for": "14",
+            "goals_against": "29",
+            "goal_difference": "-15",
+            "points": "16",
             "corners": {
-                "8.5": "79%",
-                "9.5": "74%",
-                "10.5": "47%",
-                "11.5": "42%",
-                "12.5": "37%",
-                "13.5": "26%",
-                "average": "11.37"
+                "8.5": "82%",
+                "9.5": "77%",
+                "10.5": "55%",
+                "11.5": "50%",
+                "12.5": "41%",
+                "13.5": "23%",
+                "average": "11.54"
             },
             "goals": {
-                "1.5": "57%",
-                "2.5": "28%",
-                "3.5": "11%"
+                "1.5": "59%",
+                "2.5": "29%",
+                "3.5": "12%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
             },
             "btts": {
-                "Yes": "49%"
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Dukla Praha",
+            "position": "16",
+            "matches_played": "22",
+            "wins": "2",
+            "draws": "9",
+            "losses": "11",
+            "goals_for": "14",
+            "goals_against": "33",
+            "goal_difference": "-19",
+            "points": "15",
+            "corners": {
+                "8.5": "64%",
+                "9.5": "50%",
+                "10.5": "36%",
+                "11.5": "18%",
+                "12.5": "9%",
+                "13.5": "5%",
+                "average": "9.14"
+            },
+            "goals": {
+                "1.5": "63%",
+                "2.5": "33%",
+                "3.5": "13%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "48%"
             }
         }
     ]
-,"last_updated":"2026-02-03T13:09:26Z"}
+,"last_updated":"2026-02-16T19:08:42Z"}
