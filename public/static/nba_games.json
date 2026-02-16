@@ -1,11 +1,5 @@
 [
     {
-        "hora": "15.02. 22:00",
-        "emparejamiento": "TEA @ TEA",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "20.02. 00:00",
         "emparejamiento": "BKN @ HOU",
         "resultado": "vs",
@@ -86,6 +80,12 @@
     {
         "hora": "21.02. 00:30",
         "emparejamiento": "ATL @ MIA",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "21.02. 00:30",
+        "emparejamiento": "MIN @ DAL",
         "resultado": "vs",
         "ubicacion": ""
     }
