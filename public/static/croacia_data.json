@@ -3,197 +3,27 @@
         {
             "team": "Dinamo Zagreb",
             "position": "1",
-            "matches_played": "18",
-            "wins": "12",
-            "draws": "2",
+            "matches_played": "22",
+            "wins": "15",
+            "draws": "3",
             "losses": "4",
-            "goals_for": "38",
-            "goals_against": "16",
-            "goal_difference": "22",
-            "points": "38",
+            "goals_for": "48",
+            "goals_against": "17",
+            "goal_difference": "31",
+            "points": "48",
             "corners": {
-                "8.5": "56%",
-                "9.5": "44%",
-                "10.5": "33%",
-                "11.5": "17%",
-                "12.5": "11%",
-                "13.5": "11%",
-                "average": "10"
+                "8.5": "59%",
+                "9.5": "45%",
+                "10.5": "36%",
+                "11.5": "18%",
+                "12.5": "9%",
+                "13.5": "9%",
+                "average": "9.91"
             },
             "goals": {
                 "1.5": "77%",
-                "2.5": "50%",
+                "2.5": "49%",
                 "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "54%"
-            }
-        },
-        {
-            "team": "Hajduk Split",
-            "position": "2",
-            "matches_played": "18",
-            "wins": "11",
-            "draws": "4",
-            "losses": "3",
-            "goals_for": "29",
-            "goals_against": "17",
-            "goal_difference": "12",
-            "points": "37",
-            "corners": {
-                "8.5": "50%",
-                "9.5": "44%",
-                "10.5": "28%",
-                "11.5": "11%",
-                "12.5": "11%",
-                "13.5": "11%",
-                "average": "9.11"
-            },
-            "goals": {
-                "1.5": "70%",
-                "2.5": "41%",
-                "3.5": "16%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Rijeka",
-            "position": "3",
-            "matches_played": "19",
-            "wins": "7",
-            "draws": "7",
-            "losses": "5",
-            "goals_for": "31",
-            "goals_against": "22",
-            "goal_difference": "9",
-            "points": "28",
-            "corners": {
-                "8.5": "68%",
-                "9.5": "63%",
-                "10.5": "58%",
-                "11.5": "32%",
-                "12.5": "16%",
-                "13.5": "16%",
-                "average": "10.58"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "46%",
-                "3.5": "19%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Slaven Belupo",
-            "position": "4",
-            "matches_played": "19",
-            "wins": "7",
-            "draws": "6",
-            "losses": "6",
-            "goals_for": "28",
-            "goals_against": "30",
-            "goal_difference": "-2",
-            "points": "27",
-            "corners": {
-                "8.5": "32%",
-                "9.5": "16%",
-                "10.5": "5%",
-                "11.5": "5%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "7.1"
-            },
-            "goals": {
-                "1.5": "78%",
-                "2.5": "51%",
-                "3.5": "23%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "57%"
-            }
-        },
-        {
-            "team": "Istra 1961",
-            "position": "5",
-            "matches_played": "18",
-            "wins": "7",
-            "draws": "5",
-            "losses": "6",
-            "goals_for": "24",
-            "goals_against": "23",
-            "goal_difference": "1",
-            "points": "26",
-            "corners": {
-                "8.5": "56%",
-                "9.5": "39%",
-                "10.5": "28%",
-                "11.5": "28%",
-                "12.5": "17%",
-                "13.5": "17%",
-                "average": "9.72"
-            },
-            "goals": {
-                "1.5": "71%",
-                "2.5": "42%",
-                "3.5": "17%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Varaždin",
-            "position": "6",
-            "matches_played": "18",
-            "wins": "6",
-            "draws": "5",
-            "losses": "7",
-            "goals_for": "22",
-            "goals_against": "25",
-            "goal_difference": "-3",
-            "points": "23",
-            "corners": {
-                "8.5": "67%",
-                "9.5": "44%",
-                "10.5": "39%",
-                "11.5": "22%",
-                "12.5": "11%",
-                "13.5": "11%",
-                "average": "9.45"
-            },
-            "goals": {
-                "1.5": "71%",
-                "2.5": "42%",
-                "3.5": "17%"
             },
             "cards": {
                 "over_3_5": "70%",
@@ -205,29 +35,29 @@
             }
         },
         {
-            "team": "Lokomotiva Zagreb",
-            "position": "7",
-            "matches_played": "19",
-            "wins": "5",
-            "draws": "7",
-            "losses": "7",
-            "goals_for": "22",
-            "goals_against": "31",
-            "goal_difference": "-9",
-            "points": "22",
+            "team": "Hajduk Split",
+            "position": "2",
+            "matches_played": "22",
+            "wins": "13",
+            "draws": "4",
+            "losses": "5",
+            "goals_for": "34",
+            "goals_against": "20",
+            "goal_difference": "14",
+            "points": "43",
             "corners": {
-                "8.5": "58%",
-                "9.5": "42%",
-                "10.5": "26%",
-                "11.5": "16%",
-                "12.5": "11%",
-                "13.5": "11%",
-                "average": "8.95"
+                "8.5": "55%",
+                "9.5": "50%",
+                "10.5": "32%",
+                "11.5": "18%",
+                "12.5": "14%",
+                "13.5": "9%",
+                "average": "9.19"
             },
             "goals": {
-                "1.5": "75%",
-                "2.5": "46%",
-                "3.5": "19%"
+                "1.5": "69%",
+                "2.5": "39%",
+                "3.5": "15%"
             },
             "cards": {
                 "over_3_5": "71%",
@@ -239,24 +69,24 @@
             }
         },
         {
-            "team": "Gorica",
-            "position": "8",
-            "matches_played": "18",
-            "wins": "5",
-            "draws": "4",
-            "losses": "9",
-            "goals_for": "21",
-            "goals_against": "27",
-            "goal_difference": "-6",
-            "points": "19",
+            "team": "Rijeka",
+            "position": "3",
+            "matches_played": "22",
+            "wins": "8",
+            "draws": "8",
+            "losses": "6",
+            "goals_for": "34",
+            "goals_against": "24",
+            "goal_difference": "10",
+            "points": "32",
             "corners": {
-                "8.5": "50%",
-                "9.5": "39%",
-                "10.5": "28%",
-                "11.5": "17%",
-                "12.5": "11%",
-                "13.5": "11%",
-                "average": "8.67"
+                "8.5": "73%",
+                "9.5": "68%",
+                "10.5": "59%",
+                "11.5": "32%",
+                "12.5": "18%",
+                "13.5": "14%",
+                "average": "10.68"
             },
             "goals": {
                 "1.5": "72%",
@@ -264,43 +94,213 @@
                 "3.5": "17%"
             },
             "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "47%"
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Varaždin",
+            "position": "4",
+            "matches_played": "22",
+            "wins": "9",
+            "draws": "5",
+            "losses": "8",
+            "goals_for": "29",
+            "goals_against": "30",
+            "goal_difference": "-1",
+            "points": "32",
+            "corners": {
+                "8.5": "68%",
+                "9.5": "50%",
+                "10.5": "41%",
+                "11.5": "27%",
+                "12.5": "18%",
+                "13.5": "14%",
+                "average": "9.87"
+            },
+            "goals": {
+                "1.5": "73%",
+                "2.5": "44%",
+                "3.5": "18%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Istra 1961",
+            "position": "5",
+            "matches_played": "22",
+            "wins": "8",
+            "draws": "6",
+            "losses": "8",
+            "goals_for": "29",
+            "goals_against": "32",
+            "goal_difference": "-3",
+            "points": "30",
+            "corners": {
+                "8.5": "64%",
+                "9.5": "50%",
+                "10.5": "36%",
+                "11.5": "36%",
+                "12.5": "14%",
+                "13.5": "14%",
+                "average": "10.05"
+            },
+            "goals": {
+                "1.5": "74%",
+                "2.5": "45%",
+                "3.5": "19%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Slaven Belupo",
+            "position": "6",
+            "matches_played": "22",
+            "wins": "8",
+            "draws": "6",
+            "losses": "8",
+            "goals_for": "30",
+            "goals_against": "34",
+            "goal_difference": "-4",
+            "points": "30",
+            "corners": {
+                "8.5": "32%",
+                "9.5": "18%",
+                "10.5": "9%",
+                "11.5": "9%",
+                "12.5": "5%",
+                "13.5": "5%",
+                "average": "7.18"
+            },
+            "goals": {
+                "1.5": "76%",
+                "2.5": "48%",
+                "3.5": "21%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "Lokomotiva Zagreb",
+            "position": "7",
+            "matches_played": "22",
+            "wins": "6",
+            "draws": "8",
+            "losses": "8",
+            "goals_for": "26",
+            "goals_against": "34",
+            "goal_difference": "-8",
+            "points": "26",
+            "corners": {
+                "8.5": "59%",
+                "9.5": "45%",
+                "10.5": "27%",
+                "11.5": "14%",
+                "12.5": "9%",
+                "13.5": "9%",
+                "average": "8.87"
+            },
+            "goals": {
+                "1.5": "74%",
+                "2.5": "45%",
+                "3.5": "18%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Gorica",
+            "position": "8",
+            "matches_played": "22",
+            "wins": "6",
+            "draws": "5",
+            "losses": "11",
+            "goals_for": "23",
+            "goals_against": "32",
+            "goal_difference": "-9",
+            "points": "23",
+            "corners": {
+                "8.5": "55%",
+                "9.5": "45%",
+                "10.5": "27%",
+                "11.5": "14%",
+                "12.5": "9%",
+                "13.5": "9%",
+                "average": "8.77"
+            },
+            "goals": {
+                "1.5": "69%",
+                "2.5": "40%",
+                "3.5": "15%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "50%"
             }
         },
         {
             "team": "HNK Vukovar 1991",
             "position": "9",
-            "matches_played": "19",
-            "wins": "3",
-            "draws": "6",
-            "losses": "10",
-            "goals_for": "20",
-            "goals_against": "34",
-            "goal_difference": "-14",
-            "points": "15",
+            "matches_played": "22",
+            "wins": "4",
+            "draws": "7",
+            "losses": "11",
+            "goals_for": "24",
+            "goals_against": "39",
+            "goal_difference": "-15",
+            "points": "19",
             "corners": {
-                "8.5": "58%",
-                "9.5": "47%",
-                "10.5": "26%",
-                "11.5": "26%",
-                "12.5": "21%",
-                "13.5": "21%",
-                "average": "10.21"
+                "8.5": "59%",
+                "9.5": "45%",
+                "10.5": "27%",
+                "11.5": "27%",
+                "12.5": "18%",
+                "13.5": "18%",
+                "average": "10.05"
             },
             "goals": {
-                "1.5": "75%",
+                "1.5": "76%",
                 "2.5": "47%",
                 "3.5": "20%"
             },
             "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
             },
             "btts": {
                 "Yes": "45%"
@@ -309,36 +309,36 @@
         {
             "team": "Osijek",
             "position": "10",
-            "matches_played": "18",
-            "wins": "2",
+            "matches_played": "22",
+            "wins": "3",
             "draws": "8",
-            "losses": "8",
-            "goals_for": "16",
-            "goals_against": "26",
-            "goal_difference": "-10",
-            "points": "14",
+            "losses": "11",
+            "goals_for": "18",
+            "goals_against": "33",
+            "goal_difference": "-15",
+            "points": "17",
             "corners": {
-                "8.5": "72%",
-                "9.5": "44%",
-                "10.5": "22%",
-                "11.5": "22%",
-                "12.5": "22%",
-                "13.5": "22%",
-                "average": "10.17"
+                "8.5": "68%",
+                "9.5": "45%",
+                "10.5": "23%",
+                "11.5": "23%",
+                "12.5": "23%",
+                "13.5": "18%",
+                "average": "10"
             },
             "goals": {
                 "1.5": "66%",
-                "2.5": "37%",
+                "2.5": "36%",
                 "3.5": "14%"
             },
             "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
             },
             "btts": {
                 "Yes": "45%"
             }
         }
     ]
-,"last_updated":"2026-02-18T19:14:39Z"}
+,"last_updated":"2026-02-20T19:08:29Z"}
