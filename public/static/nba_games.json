@@ -1,11 +1,5 @@
 [
     {
-        "hora": "22.02. 18:00",
-        "emparejamiento": "OKC @ CLE",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "22.02. 20:30",
         "emparejamiento": "ATL @ BKN",
         "resultado": "vs",
@@ -86,6 +80,12 @@
     {
         "hora": "25.02. 00:00",
         "emparejamiento": "IND @ PHI",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "25.02. 00:30",
+        "emparejamiento": "ATL @ WAS",
         "resultado": "vs",
         "ubicacion": ""
     }
