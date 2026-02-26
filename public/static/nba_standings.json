@@ -3,21 +3,21 @@
         {
             "team": "Detroit Pistons",
             "position": "01",
-            "wins": "42",
+            "wins": "43",
             "losses": "14",
-            "points_for": "117.3",
-            "points_against": "109.4",
-            "win_percentage": "0.75",
+            "points_for": "117.4",
+            "points_against": "109.5",
+            "win_percentage": "0.754",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612765/primary/L/logo.svg"
         },
         {
             "team": "Boston Celtics",
             "position": "02",
             "wins": "38",
-            "losses": "19",
-            "points_for": "115.0",
-            "points_against": "107.6",
-            "win_percentage": "0.667",
+            "losses": "20",
+            "points_for": "114.4",
+            "points_against": "107.5",
+            "win_percentage": "0.655",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612738/primary/L/logo.svg"
         },
         {
@@ -34,20 +34,20 @@
             "team": "Cleveland Cavaliers",
             "position": "04",
             "wins": "37",
-            "losses": "22",
+            "losses": "23",
             "points_for": "119.5",
-            "points_against": "115.0",
-            "win_percentage": "0.627",
+            "points_against": "115.1",
+            "win_percentage": "0.617",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg"
         },
         {
             "team": "Toronto Raptors",
             "position": "05",
             "wins": "34",
-            "losses": "24",
-            "points_for": "113.7",
+            "losses": "25",
+            "points_for": "113.6",
             "points_against": "111.8",
-            "win_percentage": "0.586",
+            "win_percentage": "0.576",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612761/primary/L/logo.svg"
         },
         {
@@ -103,11 +103,11 @@
         {
             "team": "Milwaukee Bucks",
             "position": "11",
-            "wins": "25",
+            "wins": "26",
             "losses": "31",
-            "points_for": "112.2",
+            "points_for": "112.4",
             "points_against": "115.4",
-            "win_percentage": "0.446",
+            "win_percentage": "0.456",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612749/primary/L/logo.svg"
         },
         {
@@ -156,40 +156,40 @@
             "team": "Oklahoma City Thunder",
             "position": "01",
             "wins": "44",
-            "losses": "15",
+            "losses": "16",
             "points_for": "118.5",
-            "points_against": "108.4",
-            "win_percentage": "0.746",
+            "points_against": "108.6",
+            "win_percentage": "0.733",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg"
         },
         {
             "team": "San Antonio Spurs",
             "position": "02",
-            "wins": "41",
+            "wins": "42",
             "losses": "16",
-            "points_for": "118.5",
-            "points_against": "111.9",
-            "win_percentage": "0.719",
+            "points_for": "118.3",
+            "points_against": "111.8",
+            "win_percentage": "0.724",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg"
         },
         {
             "team": "Houston Rockets",
             "position": "03",
-            "wins": "35",
+            "wins": "36",
             "losses": "21",
-            "points_for": "114.5",
-            "points_against": "109.4",
-            "win_percentage": "0.625",
+            "points_for": "114.7",
+            "points_against": "109.1",
+            "win_percentage": "0.632",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg"
         },
         {
             "team": "Denver Nuggets",
             "position": "04",
-            "wins": "36",
+            "wins": "37",
             "losses": "22",
-            "points_for": "120.6",
-            "points_against": "116.2",
-            "win_percentage": "0.621",
+            "points_for": "120.3",
+            "points_against": "115.7",
+            "win_percentage": "0.627",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg"
         },
         {
@@ -225,11 +225,11 @@
         {
             "team": "Golden State Warriors",
             "position": "08",
-            "wins": "30",
+            "wins": "31",
             "losses": "28",
-            "points_for": "115.5",
-            "points_against": "113.9",
-            "win_percentage": "0.517",
+            "points_for": "115.8",
+            "points_against": "113.8",
+            "win_percentage": "0.525",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg"
         },
         {
@@ -256,10 +256,10 @@
             "team": "Memphis Grizzlies",
             "position": "11",
             "wins": "21",
-            "losses": "35",
-            "points_for": "115.5",
-            "points_against": "117.8",
-            "win_percentage": "0.375",
+            "losses": "36",
+            "points_for": "115.4",
+            "points_against": "118.1",
+            "win_percentage": "0.368",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg"
         },
         {
@@ -296,12 +296,12 @@
             "team": "Sacramento Kings",
             "position": "15",
             "wins": "13",
-            "losses": "46",
-            "points_for": "110.3",
-            "points_against": "121.0",
-            "win_percentage": "0.22",
+            "losses": "47",
+            "points_for": "110.1",
+            "points_against": "121.1",
+            "win_percentage": "0.217",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
         }
     ],
-    "last_updated": "2026-02-25T16:12:07Z"
-,"last_updated":"2026-02-25T16:12:27Z"}
+    "last_updated": "2026-02-26T15:59:55Z"
+,"last_updated":"2026-02-26T16:00:16Z"}
