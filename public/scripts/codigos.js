@@ -1,8 +1,9 @@
 // Nombre clave para almacenamiento en localStorage
 const STORAGE_KEY = 'seccionesDesbloqueadas';
 
-// CÓDIGOS INTEGRADOS - Agrega más códigos aquí manualmente
+// CÓDIGOS INTEGRADOS - Formato en columna
 const CODIGOS_SECCIONES = {
+
 "ligas": [
 "ygJbnHl2l",
 "yj3OpRgg2",
@@ -45,7 +46,8 @@ const CODIGOS_SECCIONES = {
 "cA2o8vmWH",
 "bkHDQNevz",
 "acHZZUIDE"
-  ],
+],
+
 "CyborgMatch": [
 "x4QMFlkyx",
 "vb8Cme7Y9",
@@ -86,8 +88,9 @@ const CODIGOS_SECCIONES = {
 "5AT42j6Jx",
 "3hw3oApQo",
 "2PyZAuoVf"
-  ],
- "radar": [
+],
+
+"radar": [
 "vpuJBVupx",
 "vRTjeQuLg",
 "ssRG1Wj22",
@@ -127,7 +130,8 @@ const CODIGOS_SECCIONES = {
 "5GxxSPNRe",
 "2Qc95pFEm",
 "2EWkSuqdk"
-  ],
+],
+
 "estadisticas": [
 "zbIp9gH2f",
 "xupKFHrsf",
@@ -168,8 +172,9 @@ const CODIGOS_SECCIONES = {
 "4nBTsPv9J",
 "45wmVCIwu",
 "1HvuJTs24"
-  ],
-  "nba": [
+],
+
+"nba": [
 "zs3Qil154",
 "ydclvhmVk",
 "szDrPxGuw",
@@ -211,8 +216,9 @@ const CODIGOS_SECCIONES = {
 "2I6kWXJ5O",
 "22Uy1orCc",
 "1bd0jnL4Z"
-  ],
-  "SmartLine": [
+],
+
+"SmartLine": [
 "AL9pM2qR1",
 "BF3vN8xW2",
 "CY6bP4sK3",
