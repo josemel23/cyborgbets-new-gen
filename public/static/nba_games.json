@@ -1,11 +1,5 @@
 [
     {
-        "hora": "01.03. 18:00",
-        "emparejamiento": "NYK @ SAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "01.03. 20:30",
         "emparejamiento": "BKN @ CLE",
         "resultado": "vs",
@@ -86,6 +80,12 @@
     {
         "hora": "03.03. 03:00",
         "emparejamiento": "GSW @ LAC",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "04.03. 00:00",
+        "emparejamiento": "BKN @ DAL",
         "resultado": "vs",
         "ubicacion": ""
     }
