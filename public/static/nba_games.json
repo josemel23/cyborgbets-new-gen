@@ -1,47 +1,5 @@
 [
     {
-        "hora": "07.03. 00:00",
-        "emparejamiento": "BOS @ DAL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "07.03. 00:00",
-        "emparejamiento": "BKN @ MIA",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "07.03. 01:00",
-        "emparejamiento": "HOU @ POR",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "07.03. 02:00",
-        "emparejamiento": "DEN @ NYK",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "07.03. 02:00",
-        "emparejamiento": "PHX @ NOP",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "07.03. 02:30",
-        "emparejamiento": "SAS @ LAC",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "07.03. 03:30",
-        "emparejamiento": "LAL @ IND",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "07.03. 20:00",
         "emparejamiento": "MIN @ ORL",
         "resultado": "vs",
@@ -86,6 +44,48 @@
     {
         "hora": "08.03. 19:30",
         "emparejamiento": "LAL @ NYK",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "08.03. 22:00",
+        "emparejamiento": "MIA @ DET",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "08.03. 22:00",
+        "emparejamiento": "TOR @ DAL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "08.03. 23:00",
+        "emparejamiento": "NOP @ WAS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "09.03. 00:00",
+        "emparejamiento": "MIL @ ORL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "09.03. 00:00",
+        "emparejamiento": "SAS @ HOU",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "09.03. 01:00",
+        "emparejamiento": "POR @ IND",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "09.03. 01:00",
+        "emparejamiento": "SAC @ CHI",
         "resultado": "vs",
         "ubicacion": ""
     }
