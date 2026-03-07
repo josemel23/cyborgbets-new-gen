@@ -234,172 +234,353 @@ function parsePercentage(value) {
 }
 
 // Generar predicciones basadas en los datos
+// ============================================================
+// REEMPLAZA COMPLETAMENTE EN mainLogic.js DESDE:
+//   function generatePredictions(homeData, awayData)
+// HASTA EL FINAL DE:
+//   function analyzeCornersIntelligent(predictions)
+// ============================================================
+
 function generatePredictions(homeData, awayData) {
     const predictions = {};
 
-    // Predicciones de goles
-    const homeOver15 = parsePercentage(homeData.goals?.over_1_5);
-    const awayOver15 = parsePercentage(awayData.goals?.over_1_5);
-    const homeOver25 = parsePercentage(homeData.goals?.over_2_5);
-    const awayOver25 = parsePercentage(awayData.goals?.over_2_5);
+    // ── GOLES ──────────────────────────────────────────────
+    predictions.over15 = avg(
+        parsePercentage(homeData.goals?.over_1_5),
+        parsePercentage(awayData.goals?.over_1_5)
+    );
+    predictions.over25 = avg(
+        parsePercentage(homeData.goals?.over_2_5),
+        parsePercentage(awayData.goals?.over_2_5)
+    );
+    predictions.over35 = avg(
+        parsePercentage(homeData.goals?.over_3_5),
+        parsePercentage(awayData.goals?.over_3_5)
+    );
+
+    // ── BTTS ───────────────────────────────────────────────
     const homeBts = parsePercentage(homeData.goals?.bts);
     const awayBts = parsePercentage(awayData.goals?.bts);
+    predictions.bts = Math.round((homeBts * 0.5 + awayBts * 0.5) * 0.95);
 
-    predictions.over15 = Math.round((homeOver15 + awayOver15) / 2);
-    predictions.over25 = Math.round((homeOver25 + awayOver25) / 2);
-    predictions.bts = Math.round((homeBts + awayBts) / 2);
+    // ── TARJETAS ───────────────────────────────────────────
+    predictions.cards35 = avg(
+        parsePercentage(homeData.cards?.over_3_5),
+        parsePercentage(awayData.cards?.over_3_5)
+    );
+    predictions.cards45 = avg(
+        parsePercentage(homeData.cards?.over_4_5),
+        parsePercentage(awayData.cards?.over_4_5)
+    );
+    predictions.cards55 = avg(
+        parsePercentage(homeData.cards?.over_5_5),
+        parsePercentage(awayData.cards?.over_5_5)
+    );
 
-    // Predicciones de tarjetas (agregando 5.5)
-    const homeCards35 = parsePercentage(homeData.cards?.over_3_5);
-    const awayCards35 = parsePercentage(awayData.cards?.over_3_5);
-    const homeCards45 = parsePercentage(homeData.cards?.over_4_5);
-    const awayCards45 = parsePercentage(awayData.cards?.over_4_5);
-    const homeCards55 = parsePercentage(homeData.cards?.over_5_5);
-    const awayCards55 = parsePercentage(awayData.cards?.over_5_5);
+    // ── CÓRNERS ────────────────────────────────────────────
+    const homeAvg = parseFloat(homeData.corners?.local?.corners_favor) || 9;
+    const awayAvg = parseFloat(awayData.corners?.visitante?.corners_favor) || 9;
+    predictions.totalCorners = Math.round(((homeAvg + awayAvg) / 2) * 10) / 10;
 
-    predictions.cards35 = Math.round((homeCards35 + awayCards35) / 2);
-    predictions.cards45 = Math.round((homeCards45 + awayCards45) / 2);
-    predictions.cards55 = Math.round((homeCards55 + awayCards55) / 2);
+    predictions.corners85  = avg(homeData.corners?.local?.corners_8_5,  awayData.corners?.visitante?.corners_8_5);
+    predictions.corners95  = avg(homeData.corners?.local?.corners_9_5,  awayData.corners?.visitante?.corners_9_5);
+    predictions.corners105 = avg(homeData.corners?.local?.corners_10_5, awayData.corners?.visitante?.corners_10_5);
 
-    // Predicciones de córners
-    const homeCorners = homeData.corners?.local?.corners_favor || 5;
-    const awayCorners = awayData.corners?.visitante?.corners_favor || 4;
+    // ── POSICIÓN / FORMA ───────────────────────────────────
+    predictions.homePosition  = homeData.position?.posicion  || '-';
+    predictions.awayPosition  = awayData.position?.posicion  || '-';
+    predictions.homePoints    = homeData.position?.puntos    || 0;
+    predictions.awayPoints    = awayData.position?.puntos    || 0;
+    predictions.homeGoalsFor  = homeData.position?.goles_favor  || '-';
+    predictions.awayGoalsFor  = awayData.position?.goles_favor  || '-';
+    predictions.homeMatches   = homeData.position?.partidos  || 1;
+    predictions.awayMatches   = awayData.position?.partidos  || 1;
 
-    predictions.homeCorners = Math.round(homeCorners * 10) / 10;
-    predictions.awayCorners = Math.round(awayCorners * 10) / 10;
-    predictions.totalCorners = Math.round((homeCorners + awayCorners) * 10) / 10;
-
-    // Predicciones específicas de córners
-    predictions.corners85 = calculateCornerPrediction(homeData, awayData, 8.5);
-    predictions.corners95 = calculateCornerPrediction(homeData, awayData, 9.5);
-    predictions.corners105 = calculateCornerPrediction(homeData, awayData, 10.5);
-
-    // Datos de posición
-    predictions.homePosition = homeData.position?.posicion || '-';
-    predictions.awayPosition = awayData.position?.posicion || '-';
-    predictions.homePoints = homeData.position?.puntos || '-';
-    predictions.awayPoints = awayData.position?.puntos || '-';
-    predictions.homeGoalsFor = homeData.position?.goles_favor || '-';
-    predictions.awayGoalsFor = awayData.position?.goles_favor || '-';
-
-    // Recomendación final
+    // ── RECOMENDACIÓN Y CONFIANZA ──────────────────────────
     predictions.recommendation = generateRecommendation(homeData, awayData, predictions);
-    predictions.confidence = calculateConfidence(homeData, awayData);
+    predictions.confidence     = calculateConfidence(homeData, awayData, predictions);
 
     return predictions;
 }
 
-function calculateCornerPrediction(homeData, awayData, threshold) {
-    let homeCornerPercentage, awayCornerPercentage;
-
-    // Obtener los porcentajes de córners específicos para el threshold dado
-    switch (threshold) {
-        case 8.5:
-            homeCornerPercentage = homeData.corners?.local?.corners_8_5 || 0;
-            awayCornerPercentage = awayData.corners?.visitante?.corners_8_5 || 0;
-            break;
-        case 9.5:
-            homeCornerPercentage = homeData.corners?.local?.corners_9_5 || 0;
-            awayCornerPercentage = awayData.corners?.visitante?.corners_9_5 || 0;
-            break;
-        case 10.5:
-            homeCornerPercentage = homeData.corners?.local?.corners_10_5 || 0;
-            awayCornerPercentage = awayData.corners?.visitante?.corners_10_5 || 0;
-            break;
-        default:
-            homeCornerPercentage = 0;
-            awayCornerPercentage = 0;
-    }
-
-    // Calcular el promedio de los porcentajes de los dos equipos
-    const averagePercentage = (homeCornerPercentage + awayCornerPercentage) / 2;
-
-    return Math.round(averagePercentage);
+// ── HELPER: promedio de dos valores ───────────────────────
+function avg(a, b) {
+    const va = typeof a === 'number' ? a : parsePercentage(a);
+    const vb = typeof b === 'number' ? b : parsePercentage(b);
+    return Math.round((va + vb) / 2);
 }
 
+// ══════════════════════════════════════════════════════════
+// RECOMENDACIÓN INTELIGENTE Y ROBUSTA
+// ══════════════════════════════════════════════════════════
 function generateRecommendation(homeData, awayData, predictions) {
-    const homeTeamName = Object.keys(currentLeagueData).find(team => currentLeagueData[team] === homeData);
-    const awayTeamName = Object.keys(currentLeagueData).find(team => currentLeagueData[team] === awayData);
+    const homeName = Object.keys(currentLeagueData).find(t => currentLeagueData[t] === homeData) || 'Local';
+    const awayName = Object.keys(currentLeagueData).find(t => currentLeagueData[t] === awayData) || 'Visitante';
 
-    // Verificar si es Copa Libertadores o Sudamericana
-    const isCopaLibertadores = homeData.tournament === 'Copa Libertadores' || awayData.tournament === 'Copa Libertadores';
-    const isCopaSudamericana = homeData.tournament === 'Copa Sudamericana' || awayData.tournament === 'Copa Sudamericana';
+    const homePos     = parseInt(homeData.position?.posicion) || 10;
+    const awayPos     = parseInt(awayData.position?.posicion) || 10;
+    const homePoints  = parseInt(predictions.homePoints)  || 0;
+    const awayPoints  = parseInt(predictions.awayPoints)  || 0;
+    const homeGF      = parseInt(homeData.position?.goles_favor)  || 0;
+    const awayGF      = parseInt(awayData.position?.goles_favor)  || 0;
+    const homeGA      = parseInt(homeData.position?.goles_contra) || 0;
+    const awayGA      = parseInt(awayData.position?.goles_contra) || 0;
+    const homeMatches = parseInt(predictions.homeMatches) || 1;
+    const awayMatches = parseInt(predictions.awayMatches) || 1;
+
+    // Promedios por partido
+    const homeGFpm = homeGF / homeMatches;
+    const awayGFpm = awayGF / awayMatches;
+    const homeGApm = homeGA / homeMatches;
+    const awayGApm = awayGA / awayMatches;
 
     let recommendation = '';
-    const strongBets = []; // Para almacenar apuestas fuertes
+    const strongBets = [];
 
-    // === ANÁLISIS DE FAVORITO ===
-    if (!isCopaLibertadores && !isCopaSudamericana) {
-        const homePos = homeData.position?.posicion || 10;
-        const awayPos = awayData.position?.posicion || 10;
-        const homePoints = homeData.position?.puntos || 30;
-        const awayPoints = awayData.position?.puntos || 30;
+    // ══════════════════════════════════════════════════════
+    // BLOQUE 1 — FAVORITO (lógica relativa robusta)
+    // ══════════════════════════════════════════════════════
+    const pointsDiff = homePoints - awayPoints;
+    const posDiff    = awayPos - homePos; // positivo = local mejor en tabla
 
-        if (homePos < awayPos && homePoints > awayPoints) {
-            recommendation = `🏠 ${homeTeamName} es favorito (${homePos}° vs ${awayPos}° lugar, ${homePoints} vs ${awayPoints} pts). `;
-        } else if (awayPos < homePos && awayPoints > homePoints) {
-            recommendation = `✈️ ${awayTeamName} es favorito (${awayPos}° vs ${homePos}° lugar, ${awayPoints} vs ${homePoints} pts). `;
+    // Total de equipos en la liga actual
+    const totalTeams = Object.keys(currentLeagueData).filter(k => k !== '_metadata').length || 20;
+
+    // Distancia relativa de posición (0 a 1)
+    // Ej: 1° vs 4° en liga de 20 = 3/20 = 0.15 → pequeña
+    // Ej: 1° vs 12° en liga de 20 = 11/20 = 0.55 → grande
+    const relativePosDiff = Math.abs(posDiff) / totalTeams;
+
+    // Diferencia de puntos por partido jugado (normalizada)
+    const avgMatches     = (homeMatches + awayMatches) / 2;
+    const pointsPerGame  = avgMatches > 0 ? Math.abs(pointsDiff) / avgMatches : 0;
+
+    // Diferencia de ataque por partido
+    const attackDiff = homeGFpm - awayGFpm;
+
+    // Score compuesto (positivo = local mejor)
+    const rawScore   = (relativePosDiff * 60) + (pointsPerGame * 25) + (Math.abs(attackDiff) * 10);
+    const signedScore = (posDiff >= 0 ? 1 : -1) * rawScore;
+
+    // Protección: si están muy cerca NO puede ser favorito claro
+    // ≤4 pts de diferencia Y ≤3 posiciones = siempre parejo
+    const tooClose = Math.abs(pointsDiff) <= 4 && Math.abs(posDiff) <= 3;
+
+    // Umbrales calibrados por distancia real
+    // CLARO: posición relativa > 30% del total Y puntos por partido > 0.25
+    //        Ej: 1° vs 8° en liga de 20 → 35% + buenos puntos
+    // LEVE:  posición relativa > 15% O puntos por partido > 0.15
+    //        Ej: 1° vs 5° en liga de 20 → 20%
+    const isHomeClearFavorite  = !tooClose && signedScore >= 18 && relativePosDiff >= 0.25;
+    const isHomeSlightFavorite = !isHomeClearFavorite && !tooClose && signedScore >= 8;
+    const isAwayClearFavorite  = !tooClose && signedScore <= -18 && relativePosDiff >= 0.25;
+    const isAwaySlightFavorite = !isAwayClearFavorite && !tooClose && signedScore <= -8;
+    const isBalanced           = !isHomeClearFavorite && !isHomeSlightFavorite &&
+                                 !isAwayClearFavorite && !isAwaySlightFavorite;
+
+    if (isHomeClearFavorite) {
+        recommendation += `🏠 ${homeName} es FAVORITO CLARO — diferencia importante en tabla (${homePos}° vs ${awayPos}°, ${homePoints} vs ${awayPoints} pts). `;
+    } else if (isHomeSlightFavorite) {
+        recommendation += `🏠 ${homeName} parte favorito (${homePos}° vs ${awayPos}°, ${homePoints} vs ${awayPoints} pts). `;
+    } else if (isAwayClearFavorite) {
+        recommendation += `✈️ ${awayName} es FAVORITO CLARO pese a jugar fuera (${awayPos}° vs ${homePos}°, ${awayPoints} vs ${homePoints} pts). `;
+    } else if (isAwaySlightFavorite) {
+        recommendation += `✈️ ${awayName} llega en mejor momento (${awayPos}° vs ${homePos}°, ${awayPoints} vs ${homePoints} pts). `;
+    } else if (tooClose) {
+        recommendation += `⚖️ Partido muy parejo — ${homeName} y ${awayName} están casi iguales (${homePos}° vs ${awayPos}°, ${homePoints} vs ${awayPoints} pts). `;
+    } else {
+        const slight = signedScore >= 0 ? homeName : awayName;
+        recommendation += `⚖️ Leve ventaja para ${slight}, el partido está abierto (${homePos}° vs ${awayPos}°, ${homePoints} vs ${awayPoints} pts). `;
+    }
+
+    // ══════════════════════════════════════════════════════
+    // BLOQUE 2 — GOLES
+    // ══════════════════════════════════════════════════════
+    if (predictions.over25 >= 68) {
+        recommendation += `🥅 Partido con goles — Over 2.5 muy probable (${predictions.over25}%). `;
+        if (predictions.over25 >= 75) strongBets.push(`Over 2.5 goles (${predictions.over25}%)`);
+    } else if (predictions.over25 >= 55) {
+        recommendation += `🥅 Over 2.5 goles en juego (${predictions.over25}%). `;
+    } else if (predictions.over25 <= 35) {
+        const under25 = 100 - predictions.over25;
+        recommendation += `🥅 Partido cerrado — Under 2.5 probable (${under25}%). `;
+        if (under25 >= 68) strongBets.push(`Under 2.5 goles (${under25}%)`);
+    } else {
+        recommendation += `🥅 Goles inciertos — Over 2.5 al ${predictions.over25}%. `;
+    }
+
+    // ══════════════════════════════════════════════════════
+    // BLOQUE 3 — BTTS
+    // Penalizar si hay favorito claro con buena defensa
+    // ══════════════════════════════════════════════════════
+    let btsAdjusted = predictions.bts;
+    if ((isHomeClearFavorite && homeGApm < 0.8) || (isAwayClearFavorite && awayGApm < 0.8)) {
+        btsAdjusted = Math.round(Math.max(predictions.bts - 8, predictions.bts * 0.88));
+    }
+
+    if (btsAdjusted >= 65) {
+        recommendation += `⚽ Ambos equipos marcarán (${btsAdjusted}%). `;
+        if (btsAdjusted >= 70) strongBets.push(`Ambos marcan (${btsAdjusted}%)`);
+    } else if (btsAdjusted >= 52) {
+        recommendation += `⚽ Ambos marcan posible (${btsAdjusted}%). `;
+    } else if (btsAdjusted >= 38) {
+        recommendation += `⚽ Ambos marcan poco probable (${btsAdjusted}%). `;
+    } else {
+        const dominant = isHomeClearFavorite ? homeName : isAwayClearFavorite ? awayName : null;
+        if (dominant) {
+            recommendation += `⚽ Probable que solo marque ${dominant} (No BTTS: ${100 - btsAdjusted}%). `;
         } else {
-            recommendation = `⚖️ Partido equilibrado entre ${homeTeamName} y ${awayTeamName}. `;
-        }
-    } else {
-        recommendation = `🏆 Partido de Copa entre ${homeTeamName} y ${awayTeamName} - mayor incertidumbre. `;
-    }
-
-    // === ANÁLISIS DE GOLES (MEJORADO) ===
-    if (predictions.over25 > 70) {
-        recommendation += `🥅 FUERTE: +2.5 goles (${predictions.over25}%). `;
-        strongBets.push(`Over 2.5 goles (${predictions.over25}%)`);
-    } else if (predictions.over25 > 60) {
-        recommendation += `🥅 +2.5 goles probable (${predictions.over25}%). `;
-    } else if (predictions.over25 < 40) {
-        recommendation += `🥅 Partido con pocos goles esperados (Under 2.5: ${100 - predictions.over25}%). `;
-        if ((100 - predictions.over25) > 65) {
-            strongBets.push(`Under 2.5 goles (${100 - predictions.over25}%)`);
+            recommendation += `⚽ Posible que solo marque un equipo (No BTTS: ${100 - btsAdjusted}%). `;
         }
     }
 
-    // === ANÁLISIS DETALLADO DE TARJETAS ===
-    let cardRecommendation = '';
-    if (predictions.cards55 > 65) {
-        cardRecommendation = `🔴 MUY FUERTE: +5.5 tarjetas (${predictions.cards55}%) - Partido muy caliente. `;
-        strongBets.push(`Over 5.5 tarjetas (${predictions.cards55}%)`);
-    } else if (predictions.cards45 > 70) {
-        cardRecommendation = `🟡 FUERTE: +4.5 tarjetas (${predictions.cards45}%). `;
-        strongBets.push(`Over 4.5 tarjetas (${predictions.cards45}%)`);
-    } else if (predictions.cards35 > 75) {
-        cardRecommendation = `🟡 FUERTE: +3.5 tarjetas (${predictions.cards35}%). `;
-        strongBets.push(`Over 3.5 tarjetas (${predictions.cards35}%)`);
-    } else if (predictions.cards35 > 60) {
-        cardRecommendation = `🟡 +3.5 tarjetas probable (${predictions.cards35}%). `;
-    } else {
-        cardRecommendation = `🟢 Partido disciplinado esperado. `;
-    }
-    recommendation += cardRecommendation;
+    // ══════════════════════════════════════════════════════
+    // BLOQUE 4 — TARJETAS (umbral inteligente)
+    // El 3.5 casi siempre es alto — buscar valor real en 4.5 o 5.5
+    // Solo recomendar 3.5 si supera 80% (realmente dominante)
+    // ══════════════════════════════════════════════════════
+    let cardText = '';
+    let cardBet  = null;
 
-    // === ANÁLISIS INTELIGENTE DE CÓRNERS ===
+    if (predictions.cards55 >= 55) {
+        cardText = `🔴 Partido muy intenso — Over 5.5 tarjetas (${predictions.cards55}%). `;
+        cardBet  = `Over 5.5 tarjetas (${predictions.cards55}%)`;
+    } else if (predictions.cards45 >= 60) {
+        cardText = `🟡 Over 4.5 tarjetas probable (${predictions.cards45}%). `;
+        if (predictions.cards45 >= 67) cardBet = `Over 4.5 tarjetas (${predictions.cards45}%)`;
+    } else if (predictions.cards35 >= 80) {
+        cardText = `🟡 Over 3.5 tarjetas muy dominante (${predictions.cards35}%). `;
+        cardBet  = `Over 3.5 tarjetas (${predictions.cards35}%)`;
+    } else if (predictions.cards45 >= 50) {
+        cardText = `🟡 Tarjetas moderadas — 4.5+ al ${predictions.cards45}%, 3.5+ al ${predictions.cards35}%. `;
+    } else {
+        cardText = `🟢 Partido disciplinado esperado (3.5+: ${predictions.cards35}%). `;
+    }
+
+    recommendation += cardText;
+    if (cardBet) strongBets.push(cardBet);
+
+    // ══════════════════════════════════════════════════════
+    // BLOQUE 5 — CÓRNERS
+    // ══════════════════════════════════════════════════════
     const cornerAnalysis = analyzeCornersIntelligent(predictions);
     recommendation += cornerAnalysis.text;
-    if (cornerAnalysis.strongBet) {
-        strongBets.push(cornerAnalysis.strongBet);
-    }
+    if (cornerAnalysis.strongBet) strongBets.push(cornerAnalysis.strongBet);
 
-    // === AMBOS EQUIPOS MARCAN ===
-    if (predictions.bts > 65) {
-        recommendation += `⚽ Ambos marcan muy probable (${predictions.bts}%). `;
-        if (predictions.bts > 70) {
-            strongBets.push(`Ambos marcan (${predictions.bts}%)`);
-        }
-    } else if (predictions.bts < 35) {
-        recommendation += `⚽ Posible que solo marque uno (No BTS: ${100 - predictions.bts}%). `;
-    }
+    // ══════════════════════════════════════════════════════
+    // BLOQUE 6 — RESULTADO SUGERIDO
+    // ══════════════════════════════════════════════════════
+    const resultHint = suggestResult(
+        predictions, homeName, awayName,
+        isHomeClearFavorite, isHomeSlightFavorite,
+        isAwayClearFavorite, isAwaySlightFavorite,
+        isBalanced, homeGApm, awayGApm
+    );
+    if (resultHint) recommendation += resultHint;
 
-    // === RESUMEN DE APUESTAS FUERTES ===
+    // ══════════════════════════════════════════════════════
+    // APUESTAS DESTACADAS
+    // ══════════════════════════════════════════════════════
     if (strongBets.length > 0) {
-        recommendation += `\n\n🎯 APUESTAS DESTACADAS: ${strongBets.join(', ')}.`;
+        recommendation += `\n\n🎯 APUESTAS DESTACADAS: ${strongBets.join(' · ')}.`;
     }
 
     return recommendation;
+}
+
+// ══════════════════════════════════════════════════════════
+// RESULTADO SUGERIDO — Multi-escenario
+// ══════════════════════════════════════════════════════════
+function suggestResult(
+    predictions, homeName, awayName,
+    isHomeClearFav, isHomeSlightFav,
+    isAwayClearFav, isAwaySlightFav,
+    isBalanced, homeGApm, awayGApm
+) {
+    // Favorito claro local
+    if (isHomeClearFav && predictions.over25 < 45 && predictions.bts < 40) {
+        return `\n📌 Resultado sugerido: ${homeName} gana por la mínima (1-0 o 2-0). `;
+    }
+    if (isHomeClearFav && predictions.bts >= 55) {
+        return `\n📌 Resultado sugerido: ${homeName} gana con goles de ambos (2-1 o 3-1). `;
+    }
+    if (isHomeClearFav && predictions.over25 >= 55) {
+        return `\n📌 Resultado sugerido: ${homeName} gana con comodidad (2-0 o 3-0). `;
+    }
+    if (isHomeClearFav) {
+        return `\n📌 Resultado sugerido: ${homeName} gana (1X2 → 1). `;
+    }
+
+    // Favorito leve local
+    if (isHomeSlightFav && predictions.over15 >= 65) {
+        return `\n📌 Resultado sugerido: ${homeName} o empate con goles (1X). `;
+    }
+    if (isHomeSlightFav) {
+        return `\n📌 Resultado sugerido: ${homeName} gana o empate (1X). `;
+    }
+
+    // Favorito claro visitante
+    if (isAwayClearFav && predictions.over25 < 45 && predictions.bts < 40) {
+        return `\n📌 Resultado sugerido: ${awayName} gana por la mínima fuera de casa. `;
+    }
+    if (isAwayClearFav && predictions.bts >= 55) {
+        return `\n📌 Resultado sugerido: ${awayName} gana con goles de ambos (1-2 o 1-3). `;
+    }
+    if (isAwayClearFav) {
+        return `\n📌 Resultado sugerido: ${awayName} gana (1X2 → 2). `;
+    }
+
+    // Favorito leve visitante
+    if (isAwaySlightFav) {
+        return `\n📌 Resultado sugerido: ${awayName} gana o empate (X2). `;
+    }
+
+    // Equilibrado
+    if (isBalanced && predictions.bts >= 55 && predictions.over25 >= 55) {
+        return `\n📌 Resultado sugerido: Empate con goles (1-1 o 2-2). `;
+    }
+    if (isBalanced && predictions.over25 < 40) {
+        return `\n📌 Resultado sugerido: Empate a pocos goles (0-0 o 1-1). `;
+    }
+    if (isBalanced) {
+        return `\n📌 Resultado sugerido: Empate posible, cualquier resultado abierto (X). `;
+    }
+
+    return '';
+}
+
+// ══════════════════════════════════════════════════════════
+// CÓRNERS — Evalúa Over antes que Under
+// ══════════════════════════════════════════════════════════
+function analyzeCornersIntelligent(predictions) {
+    let text      = '';
+    let strongBet = null;
+
+    const over85   = predictions.corners85  || 0;
+    const over95   = predictions.corners95  || 0;
+    const over105  = predictions.corners105 || 0;
+    const under105 = 100 - over105;
+    const total    = predictions.totalCorners || 9;
+
+    if (over85 >= 75) {
+        text = `🚩 Partido con muchos córners — Over 8.5 probable (${over85}%). `;
+        if (over85 >= 80) strongBet = `Over 8.5 córners (${over85}%)`;
+    } else if (over95 >= 65) {
+        text = `🚩 Over 9.5 córners probable (${over95}%). `;
+        if (over95 >= 72) strongBet = `Over 9.5 córners (${over95}%)`;
+    } else if (over105 >= 58) {
+        text = `🚩 Over 10.5 córners en juego (${over105}%). `;
+        if (over105 >= 65) strongBet = `Over 10.5 córners (${over105}%)`;
+    } else if (under105 >= 72) {
+        text = `🚩 Pocos córners esperados — Under 10.5 probable (${under105}%). `;
+        if (under105 >= 78) strongBet = `Under 10.5 córners (${under105}%)`;
+    } else if (over85 >= 60) {
+        text = `🚩 Over 8.5 córners posible (${over85}%) — Total estimado: ${total}. `;
+    } else {
+        text = `🚩 Córners sin tendencia clara — Total estimado: ${total}. `;
+    }
+
+    return { text, strongBet };
 }
 
 // Función auxiliar para análisis inteligente de córners
