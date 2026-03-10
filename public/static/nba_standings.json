@@ -24,20 +24,20 @@
             "team": "New York Knicks",
             "position": "03",
             "wins": "41",
-            "losses": "24",
+            "losses": "25",
             "points_for": "116.9",
-            "points_against": "110.6",
-            "win_percentage": "0.631",
+            "points_against": "110.8",
+            "win_percentage": "0.621",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg"
         },
         {
             "team": "Cleveland Cavaliers",
             "position": "04",
-            "wins": "39",
+            "wins": "40",
             "losses": "25",
-            "points_for": "118.8",
-            "points_against": "114.8",
-            "win_percentage": "0.609",
+            "points_for": "118.7",
+            "points_against": "114.6",
+            "win_percentage": "0.615",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg"
         },
         {
@@ -74,10 +74,10 @@
             "team": "Philadelphia 76ers",
             "position": "08",
             "wins": "34",
-            "losses": "29",
-            "points_for": "115.8",
+            "losses": "30",
+            "points_for": "115.6",
             "points_against": "116.1",
-            "win_percentage": "0.54",
+            "win_percentage": "0.531",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg"
         },
         {
@@ -121,24 +121,24 @@
             "logo_url": "https://cdn.nba.com/logos/nba/1610612741/primary/L/logo.svg"
         },
         {
-            "team": "Washington Wizards",
+            "team": "Brooklyn Nets",
             "position": "13",
+            "wins": "17",
+            "losses": "47",
+            "points_for": "107.2",
+            "points_against": "115.6",
+            "win_percentage": "0.266",
+            "logo_url": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg"
+        },
+        {
+            "team": "Washington Wizards",
+            "position": "14",
             "wins": "16",
             "losses": "47",
             "points_for": "112.3",
             "points_against": "123.3",
             "win_percentage": "0.254",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612764/primary/L/logo.svg"
-        },
-        {
-            "team": "Brooklyn Nets",
-            "position": "14",
-            "wins": "16",
-            "losses": "47",
-            "points_for": "106.9",
-            "points_against": "115.6",
-            "win_percentage": "0.254",
-            "logo_url": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg"
         },
         {
             "team": "Indiana Pacers",
@@ -155,11 +155,11 @@
         {
             "team": "Oklahoma City Thunder",
             "position": "01",
-            "wins": "49",
+            "wins": "50",
             "losses": "16",
-            "points_for": "117.8",
-            "points_against": "108.2",
-            "win_percentage": "0.754",
+            "points_for": "118.0",
+            "points_against": "108.4",
+            "win_percentage": "0.758",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg"
         },
         {
@@ -206,10 +206,10 @@
             "team": "Denver Nuggets",
             "position": "06",
             "wins": "39",
-            "losses": "25",
-            "points_for": "120.0",
-            "points_against": "116.4",
-            "win_percentage": "0.609",
+            "losses": "26",
+            "points_for": "120.1",
+            "points_against": "116.6",
+            "win_percentage": "0.6",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg"
         },
         {
@@ -226,20 +226,20 @@
             "team": "Golden State Warriors",
             "position": "08",
             "wins": "32",
-            "losses": "31",
-            "points_for": "115.0",
-            "points_against": "113.9",
-            "win_percentage": "0.508",
+            "losses": "32",
+            "points_for": "115.1",
+            "points_against": "114.0",
+            "win_percentage": "0.5",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612744/primary/L/logo.svg"
         },
         {
             "team": "Los Angeles Clippers",
             "position": "09",
-            "wins": "31",
+            "wins": "32",
             "losses": "32",
-            "points_for": "112.6",
-            "points_against": "112.2",
-            "win_percentage": "0.492",
+            "points_for": "112.8",
+            "points_against": "112.3",
+            "win_percentage": "0.5",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612746/primary/L/logo.svg"
         },
         {
@@ -256,10 +256,10 @@
             "team": "Memphis Grizzlies",
             "position": "11",
             "wins": "23",
-            "losses": "39",
+            "losses": "40",
             "points_for": "115.7",
-            "points_against": "117.8",
-            "win_percentage": "0.371",
+            "points_against": "118.0",
+            "win_percentage": "0.365",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612763/primary/L/logo.svg"
         },
         {
@@ -285,11 +285,11 @@
         {
             "team": "Utah Jazz",
             "position": "14",
-            "wins": "19",
+            "wins": "20",
             "losses": "45",
             "points_for": "117.4",
-            "points_against": "125.0",
-            "win_percentage": "0.297",
+            "points_against": "124.9",
+            "win_percentage": "0.308",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612762/primary/L/logo.svg"
         },
         {
@@ -303,5 +303,5 @@
             "logo_url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
         }
     ],
-    "last_updated": "2026-03-10T16:06:10Z"
-,"last_updated":"2026-03-10T16:06:30Z"}
+    "last_updated": "2026-03-10T19:42:18Z"
+,"last_updated":"2026-03-10T19:42:38Z"}
