@@ -1,15 +1,83 @@
 {
     "teams": [
         {
-            "team": "Carabobo",
+            "team": "Juventud de Las Piedras",
             "position": "1",
-            "matches_played": "2",
+            "matches_played": "5",
+            "wins": "2",
+            "draws": "2",
+            "losses": "1",
+            "goals_for": "7",
+            "goals_against": "6",
+            "goal_difference": "1",
+            "points": "8",
+            "btts": {
+                "Yes": "2"
+            },
+            "cards": {
+                "over_3_5": "2",
+                "over_4_5": "2",
+                "over_5_5": "1"
+            },
+            "corners": {
+                "8.5": "40%",
+                "9.5": "40%",
+                "10.5": "40%",
+                "11.5": "20%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "8"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Barcelona-SC",
+            "position": "2",
+            "matches_played": "4",
+            "wins": "2",
+            "draws": "1",
+            "losses": "1",
+            "goals_for": "3",
+            "goals_against": "2",
+            "goal_difference": "1",
+            "points": "7",
+            "btts": {
+                "Yes": "1"
+            },
+            "cards": {
+                "over_3_5": "2",
+                "over_4_5": "1",
+                "over_5_5": "1"
+            },
+            "corners": {
+                "8.5": "25%",
+                "9.5": "25%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "6.75"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Carabobo",
+            "position": "3",
+            "matches_played": "3",
             "wins": "2",
             "draws": "0",
-            "losses": "0",
+            "losses": "1",
             "goals_for": "3",
-            "goals_against": "1",
-            "goal_difference": "2",
+            "goals_against": "2",
+            "goal_difference": "1",
             "points": "6",
             "btts": {
                 "Yes": "0"
@@ -17,16 +85,50 @@
             "cards": {
                 "over_3_5": "2",
                 "over_4_5": "0",
-                "over_5_5": "0"
+                "over_5_5": "1"
             },
             "corners": {
                 "8.5": "100%",
-                "9.5": "50%",
-                "10.5": "50%",
+                "9.5": "67%",
+                "10.5": "67%",
+                "11.5": "33%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10.66"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "O'Higgins",
+            "position": "4",
+            "matches_played": "3",
+            "wins": "2",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "3",
+            "goals_against": "2",
+            "goal_difference": "1",
+            "points": "6",
+            "btts": {
+                "Yes": "0"
+            },
+            "cards": {
+                "over_3_5": "2",
+                "over_4_5": "0",
+                "over_5_5": "1"
+            },
+            "corners": {
+                "8.5": "33%",
+                "9.5": "33%",
+                "10.5": "33%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "10"
+                "average": "8.34"
             },
             "goals": {
                 "1.5": "N/A",
@@ -36,7 +138,7 @@
         },
         {
             "team": "2 de Mayo",
-            "position": "2",
+            "position": "5",
             "matches_played": "4",
             "wins": "1",
             "draws": "3",
@@ -69,32 +171,32 @@
             }
         },
         {
-            "team": "Independiente Medellín",
-            "position": "3",
-            "matches_played": "2",
-            "wins": "1",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "2",
-            "goals_against": "1",
-            "goal_difference": "1",
-            "points": "4",
+            "team": "Deportivo Táchira",
+            "position": "6",
+            "matches_played": "4",
+            "wins": "2",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "3",
+            "goals_against": "3",
+            "goal_difference": "0",
+            "points": "6",
             "btts": {
-                "Yes": "1"
+                "Yes": "0"
             },
             "cards": {
-                "over_3_5": "1",
-                "over_4_5": "1",
-                "over_5_5": "0"
+                "over_3_5": "2",
+                "over_4_5": "0",
+                "over_5_5": "2"
             },
             "corners": {
                 "8.5": "50%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
+                "9.5": "50%",
+                "10.5": "25%",
+                "11.5": "25%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "8"
+                "average": "8.5"
             },
             "goals": {
                 "1.5": "N/A",
@@ -103,23 +205,57 @@
             }
         },
         {
-            "team": "Juventud de Las Piedras",
-            "position": "4",
+            "team": "Independiente Medellín",
+            "position": "7",
             "matches_played": "3",
             "wins": "1",
-            "draws": "1",
-            "losses": "1",
-            "goals_for": "4",
-            "goals_against": "4",
-            "goal_difference": "0",
-            "points": "4",
+            "draws": "2",
+            "losses": "0",
+            "goals_for": "3",
+            "goals_against": "2",
+            "goal_difference": "1",
+            "points": "5",
             "btts": {
-                "Yes": "1"
+                "Yes": "2"
             },
             "cards": {
                 "over_3_5": "1",
-                "over_4_5": "1",
-                "over_5_5": "1"
+                "over_4_5": "2",
+                "over_5_5": "0"
+            },
+            "corners": {
+                "8.5": "67%",
+                "9.5": "33%",
+                "10.5": "33%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "9"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Sporting Cristal",
+            "position": "8",
+            "matches_played": "3",
+            "wins": "1",
+            "draws": "2",
+            "losses": "0",
+            "goals_for": "3",
+            "goals_against": "2",
+            "goal_difference": "1",
+            "points": "5",
+            "btts": {
+                "Yes": "2"
+            },
+            "cards": {
+                "over_3_5": "1",
+                "over_4_5": "2",
+                "over_5_5": "0"
             },
             "corners": {
                 "8.5": "33%",
@@ -128,7 +264,41 @@
                 "11.5": "33%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "7.67"
+                "average": "9"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Botafogo",
+            "position": "9",
+            "matches_played": "4",
+            "wins": "1",
+            "draws": "1",
+            "losses": "2",
+            "goals_for": "3",
+            "goals_against": "3",
+            "goal_difference": "0",
+            "points": "4",
+            "btts": {
+                "Yes": "1"
+            },
+            "cards": {
+                "over_3_5": "1",
+                "over_4_5": "1",
+                "over_5_5": "2"
+            },
+            "corners": {
+                "8.5": "25%",
+                "9.5": "25%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7"
             },
             "goals": {
                 "1.5": "N/A",
@@ -138,14 +308,14 @@
         },
         {
             "team": "Argentinos Juniors",
-            "position": "5",
-            "matches_played": "1",
+            "position": "10",
+            "matches_played": "2",
             "wins": "1",
             "draws": "0",
-            "losses": "0",
+            "losses": "1",
             "goals_for": "1",
-            "goals_against": "0",
-            "goal_difference": "1",
+            "goals_against": "1",
+            "goal_difference": "0",
             "points": "3",
             "btts": {
                 "Yes": "0"
@@ -153,7 +323,7 @@
             "cards": {
                 "over_3_5": "1",
                 "over_4_5": "0",
-                "over_5_5": "0"
+                "over_5_5": "1"
             },
             "corners": {
                 "8.5": "0%",
@@ -162,7 +332,7 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "5"
+                "average": "4.5"
             },
             "goals": {
                 "1.5": "N/A",
@@ -171,15 +341,15 @@
             }
         },
         {
-            "team": "Deportes Tolima",
-            "position": "6",
-            "matches_played": "1",
+            "team": "Bahia",
+            "position": "11",
+            "matches_played": "2",
             "wins": "1",
             "draws": "0",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "0",
-            "goal_difference": "1",
+            "losses": "1",
+            "goals_for": "2",
+            "goals_against": "2",
+            "goal_difference": "0",
             "points": "3",
             "btts": {
                 "Yes": "0"
@@ -187,7 +357,7 @@
             "cards": {
                 "over_3_5": "1",
                 "over_4_5": "0",
-                "over_5_5": "0"
+                "over_5_5": "1"
             },
             "corners": {
                 "8.5": "0%",
@@ -196,75 +366,7 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "6"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Nacional Potosí",
-            "position": "7",
-            "matches_played": "1",
-            "wins": "1",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "0",
-            "goal_difference": "1",
-            "points": "3",
-            "btts": {
-                "Yes": "0"
-            },
-            "cards": {
-                "over_3_5": "1",
-                "over_4_5": "0",
-                "over_5_5": "0"
-            },
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "5"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "O'Higgins",
-            "position": "8",
-            "matches_played": "1",
-            "wins": "1",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "0",
-            "goal_difference": "1",
-            "points": "3",
-            "btts": {
-                "Yes": "0"
-            },
-            "cards": {
-                "over_3_5": "1",
-                "over_4_5": "0",
-                "over_5_5": "0"
-            },
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8"
+                "average": "7"
             },
             "goals": {
                 "1.5": "N/A",
@@ -274,7 +376,7 @@
         },
         {
             "team": "The Strongest",
-            "position": "9",
+            "position": "12",
             "matches_played": "2",
             "wins": "1",
             "draws": "0",
@@ -308,7 +410,7 @@
         },
         {
             "team": "Universidad Católica",
-            "position": "10",
+            "position": "13",
             "matches_played": "2",
             "wins": "1",
             "draws": "0",
@@ -341,14 +443,14 @@
             }
         },
         {
-            "team": "Deportivo Táchira",
-            "position": "11",
+            "team": "Deportes Tolima",
+            "position": "14",
             "matches_played": "3",
             "wins": "1",
             "draws": "0",
             "losses": "2",
-            "goals_for": "2",
-            "goals_against": "3",
+            "goals_for": "1",
+            "goals_against": "2",
             "goal_difference": "-1",
             "points": "3",
             "btts": {
@@ -360,47 +462,13 @@
                 "over_5_5": "2"
             },
             "corners": {
-                "8.5": "67%",
-                "9.5": "67%",
+                "8.5": "33%",
+                "9.5": "33%",
                 "10.5": "33%",
-                "11.5": "33%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "9.33"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Sporting Cristal",
-            "position": "12",
-            "matches_played": "2",
-            "wins": "0",
-            "draws": "2",
-            "losses": "0",
-            "goals_for": "2",
-            "goals_against": "2",
-            "goal_difference": "0",
-            "points": "2",
-            "btts": {
-                "Yes": "2"
-            },
-            "cards": {
-                "over_3_5": "0",
-                "over_4_5": "2",
-                "over_5_5": "0"
-            },
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "7.5"
+                "average": "7.67"
             },
             "goals": {
                 "1.5": "N/A",
@@ -409,23 +477,23 @@
             }
         },
         {
-            "team": "Guaraní",
-            "position": "13",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "1",
+            "team": "Nacional Potosí",
+            "position": "15",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "1",
+            "goals_against": "2",
+            "goal_difference": "-1",
+            "points": "3",
             "btts": {
-                "Yes": "1"
+                "Yes": "0"
             },
             "cards": {
-                "over_3_5": "0",
-                "over_4_5": "1",
-                "over_5_5": "0"
+                "over_3_5": "1",
+                "over_4_5": "0",
+                "over_5_5": "1"
             },
             "corners": {
                 "8.5": "0%",
@@ -444,7 +512,7 @@
         },
         {
             "team": "Alianza Lima",
-            "position": "14",
+            "position": "16",
             "matches_played": "2",
             "wins": "0",
             "draws": "1",
@@ -477,8 +545,42 @@
             }
         },
         {
-            "team": "Liverpool Montevideo",
-            "position": "15",
+            "team": "Guaraní",
+            "position": "17",
+            "matches_played": "2",
+            "wins": "0",
+            "draws": "1",
+            "losses": "1",
+            "goals_for": "1",
+            "goals_against": "2",
+            "goal_difference": "-1",
+            "points": "1",
+            "btts": {
+                "Yes": "1"
+            },
+            "cards": {
+                "over_3_5": "0",
+                "over_4_5": "1",
+                "over_5_5": "1"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "5.5"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Liverpool de Montevideo",
+            "position": "18",
             "matches_played": "2",
             "wins": "0",
             "draws": "1",
@@ -503,108 +605,6 @@
                 "12.5": "0%",
                 "13.5": "0%",
                 "average": "8"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Bahia",
-            "position": "16",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "0",
-            "goals_against": "1",
-            "goal_difference": "-1",
-            "points": "0",
-            "btts": {
-                "Yes": "0"
-            },
-            "cards": {
-                "over_3_5": "0",
-                "over_4_5": "0",
-                "over_5_5": "1"
-            },
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Barcelona",
-            "position": "17",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "0",
-            "goals_against": "1",
-            "goal_difference": "-1",
-            "points": "0",
-            "btts": {
-                "Yes": "0"
-            },
-            "cards": {
-                "over_3_5": "0",
-                "over_4_5": "0",
-                "over_5_5": "1"
-            },
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "5"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Botafogo",
-            "position": "18",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "0",
-            "goals_against": "1",
-            "goal_difference": "-1",
-            "points": "0",
-            "btts": {
-                "Yes": "0"
-            },
-            "cards": {
-                "over_3_5": "0",
-                "over_4_5": "0",
-                "over_5_5": "1"
-            },
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "5"
             },
             "goals": {
                 "1.5": "N/A",
@@ -647,4 +647,4 @@
             }
         }
     ]
-,"last_updated":"2026-03-09T18:11:14Z"}
+,"last_updated":"2026-03-11T18:13:13Z"}
