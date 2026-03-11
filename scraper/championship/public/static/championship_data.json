@@ -3,124 +3,22 @@
         {
             "team": "Coventry City",
             "position": "1",
-            "matches_played": "33",
-            "wins": "19",
+            "matches_played": "36",
+            "wins": "22",
             "draws": "8",
             "losses": "6",
-            "goals_for": "68",
-            "goals_against": "36",
-            "goal_difference": "32",
-            "points": "65",
+            "goals_for": "74",
+            "goals_against": "38",
+            "goal_difference": "36",
+            "points": "74",
             "corners": {
-                "8.5": "73%",
-                "9.5": "48%",
+                "8.5": "72%",
+                "9.5": "50%",
                 "10.5": "39%",
-                "11.5": "21%",
-                "12.5": "15%",
-                "13.5": "6%",
-                "average": "9.97"
-            },
-            "goals": {
-                "1.5": "79%",
-                "2.5": "52%",
-                "3.5": "25%"
-            },
-            "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
-            },
-            "btts": {
-                "Yes": "51%"
-            }
-        },
-        {
-            "team": "Middlesbrough",
-            "position": "2",
-            "matches_played": "34",
-            "wins": "18",
-            "draws": "9",
-            "losses": "7",
-            "goals_for": "51",
-            "goals_against": "34",
-            "goal_difference": "17",
-            "points": "63",
-            "corners": {
-                "8.5": "68%",
-                "9.5": "53%",
-                "10.5": "47%",
-                "11.5": "38%",
-                "12.5": "35%",
-                "13.5": "21%",
-                "average": "10.59"
-            },
-            "goals": {
-                "1.5": "69%",
-                "2.5": "40%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "Ipswich Town",
-            "position": "3",
-            "matches_played": "32",
-            "wins": "16",
-            "draws": "9",
-            "losses": "7",
-            "goals_for": "56",
-            "goals_against": "34",
-            "goal_difference": "22",
-            "points": "57",
-            "corners": {
-                "8.5": "66%",
-                "9.5": "31%",
-                "10.5": "28%",
-                "11.5": "19%",
-                "12.5": "13%",
-                "13.5": "9%",
-                "average": "9.44"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "46%",
-                "3.5": "20%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Hull City",
-            "position": "4",
-            "matches_played": "33",
-            "wins": "17",
-            "draws": "6",
-            "losses": "10",
-            "goals_for": "55",
-            "goals_against": "48",
-            "goal_difference": "7",
-            "points": "57",
-            "corners": {
-                "8.5": "70%",
-                "9.5": "67%",
-                "10.5": "48%",
-                "11.5": "39%",
-                "12.5": "21%",
-                "13.5": "12%",
-                "average": "10.31"
+                "11.5": "22%",
+                "12.5": "17%",
+                "13.5": "8%",
+                "average": "10.03"
             },
             "goals": {
                 "1.5": "78%",
@@ -128,169 +26,33 @@
                 "3.5": "24%"
             },
             "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "56%"
+                "Yes": "52%"
             }
         },
         {
-            "team": "Millwall",
-            "position": "5",
-            "matches_played": "33",
-            "wins": "16",
-            "draws": "8",
-            "losses": "9",
-            "goals_for": "42",
-            "goals_against": "40",
-            "goal_difference": "2",
-            "points": "56",
+            "team": "Middlesbrough",
+            "position": "2",
+            "matches_played": "36",
+            "wins": "20",
+            "draws": "9",
+            "losses": "7",
+            "goals_for": "58",
+            "goals_against": "35",
+            "goal_difference": "23",
+            "points": "69",
             "corners": {
-                "8.5": "70%",
-                "9.5": "52%",
-                "10.5": "45%",
+                "8.5": "67%",
+                "9.5": "53%",
+                "10.5": "47%",
                 "11.5": "36%",
                 "12.5": "33%",
-                "13.5": "30%",
-                "average": "10.48"
-            },
-            "goals": {
-                "1.5": "69%",
-                "2.5": "40%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Wrexham",
-            "position": "6",
-            "matches_played": "34",
-            "wins": "14",
-            "draws": "12",
-            "losses": "8",
-            "goals_for": "53",
-            "goals_against": "45",
-            "goal_difference": "8",
-            "points": "54",
-            "corners": {
-                "8.5": "62%",
-                "9.5": "53%",
-                "10.5": "32%",
-                "11.5": "29%",
-                "12.5": "18%",
-                "13.5": "15%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "76%",
-                "2.5": "48%",
-                "3.5": "21%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Southampton",
-            "position": "7",
-            "matches_played": "34",
-            "wins": "13",
-            "draws": "11",
-            "losses": "10",
-            "goals_for": "54",
-            "goals_against": "45",
-            "goal_difference": "9",
-            "points": "50",
-            "corners": {
-                "8.5": "76%",
-                "9.5": "56%",
-                "10.5": "41%",
-                "11.5": "32%",
-                "12.5": "18%",
-                "13.5": "12%",
-                "average": "10.24"
-            },
-            "goals": {
-                "1.5": "76%",
-                "2.5": "48%",
-                "3.5": "21%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Bristol City",
-            "position": "8",
-            "matches_played": "34",
-            "wins": "14",
-            "draws": "8",
-            "losses": "12",
-            "goals_for": "47",
-            "goals_against": "42",
-            "goal_difference": "5",
-            "points": "50",
-            "corners": {
-                "8.5": "68%",
-                "9.5": "47%",
-                "10.5": "35%",
-                "11.5": "26%",
-                "12.5": "24%",
-                "13.5": "12%",
-                "average": "9.53"
-            },
-            "goals": {
-                "1.5": "72%",
-                "2.5": "42%",
-                "3.5": "17%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Birmingham City",
-            "position": "9",
-            "matches_played": "33",
-            "wins": "13",
-            "draws": "10",
-            "losses": "10",
-            "goals_for": "45",
-            "goals_against": "40",
-            "goal_difference": "5",
-            "points": "49",
-            "corners": {
-                "8.5": "58%",
-                "9.5": "52%",
-                "10.5": "45%",
-                "11.5": "33%",
-                "12.5": "24%",
-                "13.5": "18%",
-                "average": "9.94"
+                "13.5": "19%",
+                "average": "10.53"
             },
             "goals": {
                 "1.5": "71%",
@@ -303,100 +65,32 @@
                 "over_5_5": "33%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "50%"
             }
         },
         {
-            "team": "Preston North End",
-            "position": "10",
-            "matches_played": "34",
-            "wins": "12",
-            "draws": "13",
+            "team": "Millwall",
+            "position": "3",
+            "matches_played": "37",
+            "wins": "20",
+            "draws": "8",
             "losses": "9",
-            "goals_for": "41",
-            "goals_against": "38",
-            "goal_difference": "3",
-            "points": "49",
-            "corners": {
-                "8.5": "71%",
-                "9.5": "62%",
-                "10.5": "44%",
-                "11.5": "38%",
-                "12.5": "18%",
-                "13.5": "18%",
-                "average": "10.64"
-            },
-            "goals": {
-                "1.5": "66%",
-                "2.5": "36%",
-                "3.5": "14%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Derby County",
-            "position": "11",
-            "matches_played": "34",
-            "wins": "13",
-            "draws": "9",
-            "losses": "12",
-            "goals_for": "49",
-            "goals_against": "45",
-            "goal_difference": "4",
-            "points": "48",
-            "corners": {
-                "8.5": "62%",
-                "9.5": "53%",
-                "10.5": "41%",
-                "11.5": "32%",
-                "12.5": "29%",
-                "13.5": "21%",
-                "average": "10.24"
-            },
-            "goals": {
-                "1.5": "74%",
-                "2.5": "45%",
-                "3.5": "19%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Watford",
-            "position": "12",
-            "matches_played": "34",
-            "wins": "12",
-            "draws": "12",
-            "losses": "10",
-            "goals_for": "43",
-            "goals_against": "40",
-            "goal_difference": "3",
-            "points": "48",
+            "goals_for": "51",
+            "goals_against": "41",
+            "goal_difference": "10",
+            "points": "68",
             "corners": {
                 "8.5": "65%",
-                "9.5": "59%",
-                "10.5": "53%",
-                "11.5": "32%",
-                "12.5": "12%",
-                "13.5": "9%",
-                "average": "10.02"
+                "9.5": "49%",
+                "10.5": "43%",
+                "11.5": "35%",
+                "12.5": "30%",
+                "13.5": "27%",
+                "average": "10.3"
             },
             "goals": {
-                "1.5": "68%",
-                "2.5": "39%",
+                "1.5": "69%",
+                "2.5": "40%",
                 "3.5": "15%"
             },
             "cards": {
@@ -409,29 +103,63 @@
             }
         },
         {
-            "team": "Queens Park Rangers",
-            "position": "13",
-            "matches_played": "34",
-            "wins": "13",
-            "draws": "8",
-            "losses": "13",
-            "goals_for": "46",
-            "goals_against": "52",
-            "goal_difference": "-6",
-            "points": "47",
+            "team": "Ipswich Town",
+            "position": "4",
+            "matches_played": "36",
+            "wins": "18",
+            "draws": "11",
+            "losses": "7",
+            "goals_for": "64",
+            "goals_against": "38",
+            "goal_difference": "26",
+            "points": "65",
             "corners": {
-                "8.5": "68%",
-                "9.5": "50%",
-                "10.5": "35%",
-                "11.5": "32%",
-                "12.5": "24%",
-                "13.5": "12%",
-                "average": "10.03"
+                "8.5": "67%",
+                "9.5": "36%",
+                "10.5": "31%",
+                "11.5": "22%",
+                "12.5": "14%",
+                "13.5": "11%",
+                "average": "9.5"
             },
             "goals": {
-                "1.5": "76%",
-                "2.5": "48%",
-                "3.5": "21%"
+                "1.5": "75%",
+                "2.5": "47%",
+                "3.5": "20%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Hull City",
+            "position": "5",
+            "matches_played": "37",
+            "wins": "19",
+            "draws": "6",
+            "losses": "12",
+            "goals_for": "59",
+            "goals_against": "53",
+            "goal_difference": "6",
+            "points": "63",
+            "corners": {
+                "8.5": "70%",
+                "9.5": "68%",
+                "10.5": "49%",
+                "11.5": "41%",
+                "12.5": "22%",
+                "13.5": "11%",
+                "average": "10.32"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "23%"
             },
             "cards": {
                 "over_3_5": "75%",
@@ -439,101 +167,33 @@
                 "over_5_5": "35%"
             },
             "btts": {
-                "Yes": "50%"
+                "Yes": "59%"
             }
         },
         {
-            "team": "Swansea City",
-            "position": "14",
-            "matches_played": "34",
-            "wins": "13",
-            "draws": "7",
-            "losses": "14",
-            "goals_for": "40",
-            "goals_against": "40",
-            "goal_difference": "0",
-            "points": "46",
+            "team": "Wrexham",
+            "position": "6",
+            "matches_played": "36",
+            "wins": "15",
+            "draws": "12",
+            "losses": "9",
+            "goals_for": "55",
+            "goals_against": "47",
+            "goal_difference": "8",
+            "points": "57",
             "corners": {
-                "8.5": "71%",
-                "9.5": "50%",
-                "10.5": "35%",
-                "11.5": "24%",
-                "12.5": "12%",
-                "13.5": "3%",
-                "average": "9.67"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "37%",
-                "3.5": "14%"
-            },
-            "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Sheffield United",
-            "position": "15",
-            "matches_played": "33",
-            "wins": "14",
-            "draws": "3",
-            "losses": "16",
-            "goals_for": "47",
-            "goals_against": "46",
-            "goal_difference": "1",
-            "points": "45",
-            "corners": {
-                "8.5": "79%",
-                "9.5": "70%",
-                "10.5": "61%",
-                "11.5": "55%",
-                "12.5": "42%",
-                "13.5": "27%",
-                "average": "11.88"
+                "8.5": "61%",
+                "9.5": "53%",
+                "10.5": "33%",
+                "11.5": "31%",
+                "12.5": "17%",
+                "13.5": "14%",
+                "average": "9.94"
             },
             "goals": {
                 "1.5": "75%",
-                "2.5": "46%",
+                "2.5": "47%",
                 "3.5": "20%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Stoke City",
-            "position": "16",
-            "matches_played": "33",
-            "wins": "12",
-            "draws": "8",
-            "losses": "13",
-            "goals_for": "36",
-            "goals_against": "31",
-            "goal_difference": "5",
-            "points": "44",
-            "corners": {
-                "8.5": "73%",
-                "9.5": "61%",
-                "10.5": "45%",
-                "11.5": "39%",
-                "12.5": "27%",
-                "13.5": "12%",
-                "average": "10.37"
-            },
-            "goals": {
-                "1.5": "61%",
-                "2.5": "31%",
-                "3.5": "12%"
             },
             "cards": {
                 "over_3_5": "71%",
@@ -545,63 +205,97 @@
             }
         },
         {
-            "team": "Charlton Athletic",
-            "position": "17",
-            "matches_played": "34",
-            "wins": "10",
-            "draws": "11",
+            "team": "Derby County",
+            "position": "7",
+            "matches_played": "37",
+            "wins": "15",
+            "draws": "9",
             "losses": "13",
-            "goals_for": "33",
-            "goals_against": "43",
-            "goal_difference": "-10",
-            "points": "41",
+            "goals_for": "54",
+            "goals_against": "48",
+            "goal_difference": "6",
+            "points": "54",
             "corners": {
-                "8.5": "50%",
-                "9.5": "44%",
-                "10.5": "32%",
-                "11.5": "21%",
-                "12.5": "15%",
-                "13.5": "12%",
-                "average": "9.21"
+                "8.5": "57%",
+                "9.5": "49%",
+                "10.5": "38%",
+                "11.5": "30%",
+                "12.5": "27%",
+                "13.5": "19%",
+                "average": "9.98"
             },
             "goals": {
-                "1.5": "64%",
-                "2.5": "35%",
-                "3.5": "13%"
+                "1.5": "74%",
+                "2.5": "45%",
+                "3.5": "19%"
             },
             "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
             },
             "btts": {
-                "Yes": "47%"
+                "Yes": "45%"
             }
         },
         {
-            "team": "Leicester",
-            "position": "18",
-            "matches_played": "34",
-            "wins": "10",
-            "draws": "10",
-            "losses": "14",
-            "goals_for": "47",
-            "goals_against": "54",
-            "goal_difference": "-7",
-            "points": "40",
+            "team": "Southampton",
+            "position": "8",
+            "matches_played": "35",
+            "wins": "14",
+            "draws": "11",
+            "losses": "10",
+            "goals_for": "57",
+            "goals_against": "46",
+            "goal_difference": "11",
+            "points": "53",
             "corners": {
-                "8.5": "65%",
-                "9.5": "56%",
-                "10.5": "44%",
-                "11.5": "32%",
-                "12.5": "29%",
-                "13.5": "18%",
-                "average": "10.44"
+                "8.5": "77%",
+                "9.5": "57%",
+                "10.5": "43%",
+                "11.5": "34%",
+                "12.5": "20%",
+                "13.5": "11%",
+                "average": "10.32"
             },
             "goals": {
-                "1.5": "77%",
+                "1.5": "76%",
                 "2.5": "49%",
                 "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "Watford",
+            "position": "9",
+            "matches_played": "36",
+            "wins": "13",
+            "draws": "13",
+            "losses": "10",
+            "goals_for": "46",
+            "goals_against": "42",
+            "goal_difference": "4",
+            "points": "52",
+            "corners": {
+                "8.5": "64%",
+                "9.5": "58%",
+                "10.5": "50%",
+                "11.5": "31%",
+                "12.5": "11%",
+                "13.5": "8%",
+                "average": "9.91"
+            },
+            "goals": {
+                "1.5": "68%",
+                "2.5": "39%",
+                "3.5": "15%"
             },
             "cards": {
                 "over_3_5": "73%",
@@ -613,34 +307,340 @@
             }
         },
         {
-            "team": "Norwich City",
-            "position": "19",
-            "matches_played": "33",
-            "wins": "11",
-            "draws": "6",
-            "losses": "16",
-            "goals_for": "43",
+            "team": "Swansea City",
+            "position": "10",
+            "matches_played": "37",
+            "wins": "15",
+            "draws": "7",
+            "losses": "15",
+            "goals_for": "44",
             "goals_against": "44",
-            "goal_difference": "-1",
-            "points": "39",
+            "goal_difference": "0",
+            "points": "52",
             "corners": {
-                "8.5": "70%",
-                "9.5": "61%",
-                "10.5": "55%",
-                "11.5": "30%",
-                "12.5": "18%",
-                "13.5": "9%",
-                "average": "10.27"
+                "8.5": "68%",
+                "9.5": "49%",
+                "10.5": "35%",
+                "11.5": "24%",
+                "12.5": "14%",
+                "13.5": "5%",
+                "average": "9.62"
             },
             "goals": {
-                "1.5": "72%",
-                "2.5": "43%",
-                "3.5": "17%"
+                "1.5": "67%",
+                "2.5": "38%",
+                "3.5": "14%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Bristol City",
+            "position": "11",
+            "matches_played": "37",
+            "wins": "14",
+            "draws": "8",
+            "losses": "15",
+            "goals_for": "48",
+            "goals_against": "48",
+            "goal_difference": "0",
+            "points": "50",
+            "corners": {
+                "8.5": "68%",
+                "9.5": "49%",
+                "10.5": "38%",
+                "11.5": "30%",
+                "12.5": "27%",
+                "13.5": "16%",
+                "average": "9.68"
+            },
+            "goals": {
+                "1.5": "71%",
+                "2.5": "42%",
+                "3.5": "16%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "49%"
+            }
+        },
+        {
+            "team": "Sheffield United",
+            "position": "12",
+            "matches_played": "36",
+            "wins": "15",
+            "draws": "4",
+            "losses": "17",
+            "goals_for": "51",
+            "goals_against": "49",
+            "goal_difference": "2",
+            "points": "49",
+            "corners": {
+                "8.5": "81%",
+                "9.5": "72%",
+                "10.5": "61%",
+                "11.5": "53%",
+                "12.5": "39%",
+                "13.5": "25%",
+                "average": "11.81"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "46%",
+                "3.5": "19%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Preston North End",
+            "position": "13",
+            "matches_played": "36",
+            "wins": "12",
+            "draws": "13",
+            "losses": "11",
+            "goals_for": "42",
+            "goals_against": "43",
+            "goal_difference": "-1",
+            "points": "49",
+            "corners": {
+                "8.5": "69%",
+                "9.5": "61%",
+                "10.5": "44%",
+                "11.5": "39%",
+                "12.5": "19%",
+                "13.5": "19%",
+                "average": "10.66"
+            },
+            "goals": {
+                "1.5": "67%",
+                "2.5": "37%",
+                "3.5": "14%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Birmingham City",
+            "position": "14",
+            "matches_played": "36",
+            "wins": "13",
+            "draws": "10",
+            "losses": "13",
+            "goals_for": "46",
+            "goals_against": "47",
+            "goal_difference": "-1",
+            "points": "49",
+            "corners": {
+                "8.5": "56%",
+                "9.5": "50%",
+                "10.5": "44%",
+                "11.5": "33%",
+                "12.5": "22%",
+                "13.5": "17%",
+                "average": "9.83"
+            },
+            "goals": {
+                "1.5": "71%",
+                "2.5": "42%",
+                "3.5": "16%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Stoke City",
+            "position": "15",
+            "matches_played": "37",
+            "wins": "13",
+            "draws": "9",
+            "losses": "15",
+            "goals_for": "42",
+            "goals_against": "39",
+            "goal_difference": "3",
+            "points": "48",
+            "corners": {
+                "8.5": "73%",
+                "9.5": "62%",
+                "10.5": "49%",
+                "11.5": "43%",
+                "12.5": "32%",
+                "13.5": "19%",
+                "average": "10.71"
+            },
+            "goals": {
+                "1.5": "64%",
+                "2.5": "34%",
+                "3.5": "13%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Queens Park Rangers",
+            "position": "16",
+            "matches_played": "36",
+            "wins": "13",
+            "draws": "8",
+            "losses": "15",
+            "goals_for": "46",
+            "goals_against": "58",
+            "goal_difference": "-12",
+            "points": "47",
+            "corners": {
+                "8.5": "69%",
+                "9.5": "53%",
+                "10.5": "39%",
+                "11.5": "31%",
+                "12.5": "22%",
+                "13.5": "11%",
+                "average": "10.09"
+            },
+            "goals": {
+                "1.5": "76%",
+                "2.5": "48%",
+                "3.5": "21%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "47%"
+            }
+        },
+        {
+            "team": "Norwich City",
+            "position": "17",
+            "matches_played": "35",
+            "wins": "13",
+            "draws": "6",
+            "losses": "16",
+            "goals_for": "47",
+            "goals_against": "44",
+            "goal_difference": "3",
+            "points": "45",
+            "corners": {
+                "8.5": "69%",
+                "9.5": "60%",
+                "10.5": "54%",
+                "11.5": "31%",
+                "12.5": "17%",
+                "13.5": "9%",
+                "average": "10.23"
+            },
+            "goals": {
+                "1.5": "71%",
+                "2.5": "42%",
+                "3.5": "16%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Leicester",
+            "position": "18",
+            "matches_played": "37",
+            "wins": "11",
+            "draws": "11",
+            "losses": "15",
+            "goals_for": "50",
+            "goals_against": "57",
+            "goal_difference": "-7",
+            "points": "44",
+            "corners": {
+                "8.5": "68%",
+                "9.5": "59%",
+                "10.5": "49%",
+                "11.5": "38%",
+                "12.5": "30%",
+                "13.5": "19%",
+                "average": "10.62"
+            },
+            "goals": {
+                "1.5": "76%",
+                "2.5": "48%",
+                "3.5": "21%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "47%"
+            }
+        },
+        {
+            "team": "Charlton Athletic",
+            "position": "19",
+            "matches_played": "36",
+            "wins": "11",
+            "draws": "11",
+            "losses": "14",
+            "goals_for": "34",
+            "goals_against": "44",
+            "goal_difference": "-10",
+            "points": "44",
+            "corners": {
+                "8.5": "47%",
+                "9.5": "42%",
+                "10.5": "31%",
+                "11.5": "19%",
+                "12.5": "14%",
+                "13.5": "11%",
+                "average": "9.03"
+            },
+            "goals": {
+                "1.5": "63%",
+                "2.5": "33%",
+                "3.5": "13%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
             },
             "btts": {
                 "Yes": "45%"
@@ -649,32 +649,32 @@
         {
             "team": "Portsmouth",
             "position": "20",
-            "matches_played": "33",
+            "matches_played": "36",
             "wins": "10",
-            "draws": "9",
-            "losses": "14",
-            "goals_for": "34",
-            "goals_against": "43",
-            "goal_difference": "-9",
-            "points": "39",
+            "draws": "10",
+            "losses": "16",
+            "goals_for": "36",
+            "goals_against": "47",
+            "goal_difference": "-11",
+            "points": "40",
             "corners": {
-                "8.5": "73%",
-                "9.5": "64%",
-                "10.5": "48%",
+                "8.5": "72%",
+                "9.5": "61%",
+                "10.5": "47%",
                 "11.5": "42%",
                 "12.5": "33%",
-                "13.5": "24%",
-                "average": "10.76"
+                "13.5": "22%",
+                "average": "10.64"
             },
             "goals": {
                 "1.5": "66%",
-                "2.5": "37%",
+                "2.5": "36%",
                 "3.5": "14%"
             },
             "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
             },
             "btts": {
                 "Yes": "45%"
@@ -683,27 +683,27 @@
         {
             "team": "Blackburn Rovers",
             "position": "21",
-            "matches_played": "34",
+            "matches_played": "36",
             "wins": "10",
-            "draws": "8",
-            "losses": "16",
-            "goals_for": "32",
-            "goals_against": "43",
-            "goal_difference": "-11",
-            "points": "38",
+            "draws": "9",
+            "losses": "17",
+            "goals_for": "34",
+            "goals_against": "47",
+            "goal_difference": "-13",
+            "points": "39",
             "corners": {
-                "8.5": "79%",
-                "9.5": "62%",
-                "10.5": "38%",
-                "11.5": "35%",
-                "12.5": "18%",
-                "13.5": "9%",
-                "average": "10.24"
+                "8.5": "78%",
+                "9.5": "58%",
+                "10.5": "36%",
+                "11.5": "33%",
+                "12.5": "17%",
+                "13.5": "8%",
+                "average": "10.06"
             },
             "goals": {
-                "1.5": "64%",
-                "2.5": "34%",
-                "3.5": "13%"
+                "1.5": "65%",
+                "2.5": "35%",
+                "3.5": "14%"
             },
             "cards": {
                 "over_3_5": "74%",
@@ -717,22 +717,22 @@
         {
             "team": "West Bromwich",
             "position": "22",
-            "matches_played": "34",
+            "matches_played": "36",
             "wins": "9",
-            "draws": "8",
-            "losses": "17",
-            "goals_for": "33",
-            "goals_against": "50",
-            "goal_difference": "-17",
-            "points": "35",
+            "draws": "9",
+            "losses": "18",
+            "goals_for": "35",
+            "goals_against": "53",
+            "goal_difference": "-18",
+            "points": "36",
             "corners": {
-                "8.5": "53%",
-                "9.5": "41%",
-                "10.5": "32%",
-                "11.5": "21%",
-                "12.5": "12%",
+                "8.5": "56%",
+                "9.5": "44%",
+                "10.5": "36%",
+                "11.5": "22%",
+                "12.5": "11%",
                 "13.5": "6%",
-                "average": "8.92"
+                "average": "9.06"
             },
             "goals": {
                 "1.5": "68%",
@@ -740,80 +740,80 @@
                 "3.5": "15%"
             },
             "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
             },
             "btts": {
-                "Yes": "48%"
+                "Yes": "46%"
             }
         },
         {
             "team": "Oxford United",
             "position": "23",
-            "matches_played": "33",
-            "wins": "6",
+            "matches_played": "36",
+            "wins": "8",
             "draws": "11",
-            "losses": "16",
-            "goals_for": "28",
-            "goals_against": "44",
-            "goal_difference": "-16",
-            "points": "29",
+            "losses": "17",
+            "goals_for": "34",
+            "goals_against": "48",
+            "goal_difference": "-14",
+            "points": "35",
             "corners": {
-                "8.5": "76%",
-                "9.5": "67%",
-                "10.5": "61%",
-                "11.5": "48%",
-                "12.5": "27%",
-                "13.5": "21%",
-                "average": "11.09"
+                "8.5": "78%",
+                "9.5": "69%",
+                "10.5": "64%",
+                "11.5": "50%",
+                "12.5": "31%",
+                "13.5": "25%",
+                "average": "11.28"
             },
             "goals": {
-                "1.5": "63%",
-                "2.5": "34%",
-                "3.5": "13%"
+                "1.5": "65%",
+                "2.5": "36%",
+                "3.5": "14%"
             },
             "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "46%"
             }
         },
         {
             "team": "Sheffield Wednesday",
             "position": "24",
-            "matches_played": "33",
+            "matches_played": "37",
             "wins": "1",
-            "draws": "8",
-            "losses": "24",
-            "goals_for": "20",
-            "goals_against": "66",
-            "goal_difference": "-46",
-            "points": "11",
+            "draws": "9",
+            "losses": "27",
+            "goals_for": "23",
+            "goals_against": "74",
+            "goal_difference": "-51",
+            "points": "12",
             "corners": {
-                "8.5": "76%",
-                "9.5": "64%",
-                "10.5": "58%",
-                "11.5": "36%",
-                "12.5": "33%",
-                "13.5": "24%",
-                "average": "11"
+                "8.5": "73%",
+                "9.5": "62%",
+                "10.5": "54%",
+                "11.5": "35%",
+                "12.5": "32%",
+                "13.5": "22%",
+                "average": "10.83"
             },
             "goals": {
-                "1.5": "71%",
+                "1.5": "72%",
                 "2.5": "42%",
                 "3.5": "17%"
             },
             "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
-                "Yes": "49%"
+                "Yes": "47%"
             }
         }
     ]
