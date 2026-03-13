@@ -3,27 +3,61 @@
         {
             "team": "Tallinna FC Flora",
             "position": "1",
-            "matches_played": "0",
-            "wins": "0",
+            "matches_played": "1",
+            "wins": "1",
             "draws": "0",
             "losses": "0",
-            "goals_for": "0",
+            "goals_for": "3",
             "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
+            "goal_difference": "3",
+            "points": "3",
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "0"
+                "average": "12"
             },
             "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "52%"
+            }
+        },
+        {
+            "team": "Tallinna FC Levadia",
+            "position": "2",
+            "matches_played": "1",
+            "wins": "1",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "2",
+            "goals_against": "0",
+            "goal_difference": "2",
+            "points": "3",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "12"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
             },
             "cards": {
                 "over_3_5": "79%",
@@ -35,272 +69,34 @@
             }
         },
         {
-            "team": "Tallinna FC Levadia",
-            "position": "2",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
             "team": "Nõmme Kalju",
             "position": "3",
-            "matches_played": "0",
-            "wins": "0",
+            "matches_played": "1",
+            "wins": "1",
             "draws": "0",
             "losses": "0",
-            "goals_for": "0",
+            "goals_for": "1",
             "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
+            "goal_difference": "1",
+            "points": "3",
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "100%",
+                "13.5": "100%",
+                "average": "14"
             },
             "goals": {
                 "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
+                "2.5": "15%",
+                "3.5": "6%"
             },
             "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Paide",
-            "position": "4",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Tammeka",
-            "position": "5",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
-            },
-            "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
-            "team": "Trans",
-            "position": "6",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Vaprus",
-            "position": "7",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "46%"
-            }
-        },
-        {
-            "team": "Kuressaare",
-            "position": "8",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "46%"
-            }
-        },
-        {
-            "team": "Nõmme United",
-            "position": "9",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
             },
             "btts": {
                 "Yes": "45%"
@@ -308,37 +104,241 @@
         },
         {
             "team": "Harju Jalgpallikool",
-            "position": "10",
-            "matches_played": "0",
-            "wins": "0",
+            "position": "4",
+            "matches_played": "1",
+            "wins": "1",
             "draws": "0",
             "losses": "0",
+            "goals_for": "2",
+            "goals_against": "1",
+            "goal_difference": "1",
+            "points": "3",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "100%",
+                "13.5": "0%",
+                "average": "13"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "58%"
+            }
+        },
+        {
+            "team": "Vaprus",
+            "position": "5",
+            "matches_played": "1",
+            "wins": "1",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "3",
+            "goals_against": "2",
+            "goal_difference": "1",
+            "points": "3",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "100%",
+                "13.5": "0%",
+                "average": "13"
+            },
+            "goals": {
+                "1.5": "95%",
+                "2.5": "80%",
+                "3.5": "48%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "88%"
+            }
+        },
+        {
+            "team": "Tammeka",
+            "position": "6",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
             "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
+            "goals_against": "1",
+            "goal_difference": "-1",
             "points": "0",
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "100%",
+                "13.5": "100%",
+                "average": "14"
             },
             "goals": {
                 "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
+                "2.5": "15%",
+                "3.5": "6%"
             },
             "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
             },
             "btts": {
-                "Yes": "48%"
+                "Yes": "47%"
+            }
+        },
+        {
+            "team": "Trans",
+            "position": "7",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "1",
+            "goals_against": "2",
+            "goal_difference": "-1",
+            "points": "0",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "100%",
+                "13.5": "0%",
+                "average": "13"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "57%"
+            }
+        },
+        {
+            "team": "Paide",
+            "position": "8",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "2",
+            "goals_against": "3",
+            "goal_difference": "-1",
+            "points": "0",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "100%",
+                "13.5": "0%",
+                "average": "13"
+            },
+            "goals": {
+                "1.5": "95%",
+                "2.5": "80%",
+                "3.5": "48%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "88%"
+            }
+        },
+        {
+            "team": "Kuressaare",
+            "position": "9",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "0",
+            "goals_against": "2",
+            "goal_difference": "-2",
+            "points": "0",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "12"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Nõmme United",
+            "position": "10",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "0",
+            "goals_against": "3",
+            "goal_difference": "-3",
+            "points": "0",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "12"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "54%"
             }
         }
     ]
-,"last_updated":"2026-03-11T19:32:29Z"}
+,"last_updated":"2026-03-13T19:19:26Z"}
