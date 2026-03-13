@@ -1,29 +1,165 @@
 {
     "teams": [
         {
-            "team": "Belgrano",
+            "team": "Vélez Sarsfield",
             "position": "1",
-            "matches_played": "7",
-            "wins": "4",
-            "draws": "3",
+            "matches_played": "9",
+            "wins": "5",
+            "draws": "4",
             "losses": "0",
-            "goals_for": "9",
-            "goals_against": "4",
+            "goals_for": "10",
+            "goals_against": "5",
             "goal_difference": "5",
-            "points": "15",
+            "points": "19",
             "corners": {
-                "8.5": "29%",
-                "9.5": "29%",
-                "10.5": "29%",
-                "11.5": "29%",
-                "12.5": "14%",
+                "8.5": "56%",
+                "9.5": "33%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "22%",
                 "13.5": "0%",
-                "average": "8.43"
+                "average": "9.11"
             },
             "goals": {
-                "1.5": "56%",
-                "2.5": "28%",
-                "3.5": "11%"
+                "1.5": "50%",
+                "2.5": "25%",
+                "3.5": "10%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Belgrano",
+            "position": "2",
+            "matches_played": "9",
+            "wins": "5",
+            "draws": "3",
+            "losses": "1",
+            "goals_for": "11",
+            "goals_against": "7",
+            "goal_difference": "4",
+            "points": "18",
+            "corners": {
+                "8.5": "33%",
+                "9.5": "33%",
+                "10.5": "22%",
+                "11.5": "22%",
+                "12.5": "11%",
+                "13.5": "0%",
+                "average": "8.33"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Independiente Rivadavia",
+            "position": "3",
+            "matches_played": "9",
+            "wins": "5",
+            "draws": "2",
+            "losses": "2",
+            "goals_for": "13",
+            "goals_against": "10",
+            "goal_difference": "3",
+            "points": "17",
+            "corners": {
+                "8.5": "33%",
+                "9.5": "22%",
+                "10.5": "22%",
+                "11.5": "22%",
+                "12.5": "11%",
+                "13.5": "0%",
+                "average": "7.56"
+            },
+            "goals": {
+                "1.5": "70%",
+                "2.5": "41%",
+                "3.5": "16%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Tigre",
+            "position": "4",
+            "matches_played": "9",
+            "wins": "4",
+            "draws": "4",
+            "losses": "1",
+            "goals_for": "15",
+            "goals_against": "8",
+            "goal_difference": "7",
+            "points": "16",
+            "corners": {
+                "8.5": "67%",
+                "9.5": "44%",
+                "10.5": "33%",
+                "11.5": "11%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "8.77"
+            },
+            "goals": {
+                "1.5": "70%",
+                "2.5": "41%",
+                "3.5": "16%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Union Santa Fe",
+            "position": "5",
+            "matches_played": "9",
+            "wins": "4",
+            "draws": "3",
+            "losses": "2",
+            "goals_for": "15",
+            "goals_against": "9",
+            "goal_difference": "6",
+            "points": "15",
+            "corners": {
+                "8.5": "33%",
+                "9.5": "22%",
+                "10.5": "11%",
+                "11.5": "11%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7.33"
+            },
+            "goals": {
+                "1.5": "72%",
+                "2.5": "43%",
+                "3.5": "17%"
             },
             "cards": {
                 "over_3_5": "72%",
@@ -35,24 +171,738 @@
             }
         },
         {
-            "team": "Independiente Rivadavia",
-            "position": "2",
-            "matches_played": "6",
-            "wins": "5",
-            "draws": "0",
+            "team": "Estudiantes de La Plata",
+            "position": "6",
+            "matches_played": "8",
+            "wins": "4",
+            "draws": "3",
             "losses": "1",
+            "goals_for": "7",
+            "goals_against": "3",
+            "goal_difference": "4",
+            "points": "15",
+            "corners": {
+                "8.5": "63%",
+                "9.5": "50%",
+                "10.5": "38%",
+                "11.5": "38%",
+                "12.5": "25%",
+                "13.5": "13%",
+                "average": "9.38"
+            },
+            "goals": {
+                "1.5": "38%",
+                "2.5": "19%",
+                "3.5": "8%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Rosario Central",
+            "position": "7",
+            "matches_played": "9",
+            "wins": "4",
+            "draws": "3",
+            "losses": "2",
             "goals_for": "10",
             "goals_against": "6",
             "goal_difference": "4",
             "points": "15",
             "corners": {
+                "8.5": "67%",
+                "9.5": "33%",
+                "10.5": "22%",
+                "11.5": "11%",
+                "12.5": "11%",
+                "13.5": "11%",
+                "average": "8.33"
+            },
+            "goals": {
+                "1.5": "53%",
+                "2.5": "27%",
+                "3.5": "11%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Independiente",
+            "position": "8",
+            "matches_played": "9",
+            "wins": "3",
+            "draws": "5",
+            "losses": "1",
+            "goals_for": "15",
+            "goals_against": "11",
+            "goal_difference": "4",
+            "points": "14",
+            "corners": {
+                "8.5": "78%",
+                "9.5": "44%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "22%",
+                "13.5": "11%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "76%",
+                "2.5": "48%",
+                "3.5": "21%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "Platense",
+            "position": "9",
+            "matches_played": "9",
+            "wins": "3",
+            "draws": "5",
+            "losses": "1",
+            "goals_for": "6",
+            "goals_against": "4",
+            "goal_difference": "2",
+            "points": "14",
+            "corners": {
+                "8.5": "22%",
+                "9.5": "22%",
+                "10.5": "11%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "6.89"
+            },
+            "goals": {
+                "1.5": "33%",
+                "2.5": "17%",
+                "3.5": "7%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "River Plate",
+            "position": "10",
+            "matches_played": "9",
+            "wins": "4",
+            "draws": "2",
+            "losses": "3",
+            "goals_for": "10",
+            "goals_against": "9",
+            "goal_difference": "1",
+            "points": "14",
+            "corners": {
+                "8.5": "67%",
+                "9.5": "33%",
+                "10.5": "22%",
+                "11.5": "22%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "8.34"
+            },
+            "goals": {
+                "1.5": "62%",
+                "2.5": "32%",
+                "3.5": "13%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "Talleres de Cordoba",
+            "position": "11",
+            "matches_played": "9",
+            "wins": "4",
+            "draws": "2",
+            "losses": "3",
+            "goals_for": "10",
+            "goals_against": "9",
+            "goal_difference": "1",
+            "points": "14",
+            "corners": {
+                "8.5": "56%",
+                "9.5": "44%",
+                "10.5": "44%",
+                "11.5": "44%",
+                "12.5": "44%",
+                "13.5": "33%",
+                "average": "9.89"
+            },
+            "goals": {
+                "1.5": "62%",
+                "2.5": "32%",
+                "3.5": "13%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "Gimnasia La Plata",
+            "position": "12",
+            "matches_played": "9",
+            "wins": "4",
+            "draws": "2",
+            "losses": "3",
+            "goals_for": "11",
+            "goals_against": "11",
+            "goal_difference": "0",
+            "points": "14",
+            "corners": {
+                "8.5": "89%",
+                "9.5": "56%",
+                "10.5": "33%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "9.33"
+            },
+            "goals": {
+                "1.5": "68%",
+                "2.5": "39%",
+                "3.5": "15%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "47%"
+            }
+        },
+        {
+            "team": "Boca Juniors",
+            "position": "13",
+            "matches_played": "9",
+            "wins": "3",
+            "draws": "4",
+            "losses": "2",
+            "goals_for": "10",
+            "goals_against": "6",
+            "goal_difference": "4",
+            "points": "13",
+            "corners": {
+                "8.5": "67%",
+                "9.5": "44%",
+                "10.5": "44%",
+                "11.5": "33%",
+                "12.5": "11%",
+                "13.5": "0%",
+                "average": "8.33"
+            },
+            "goals": {
+                "1.5": "53%",
+                "2.5": "27%",
+                "3.5": "11%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "Defensa y Justicia",
+            "position": "14",
+            "matches_played": "9",
+            "wins": "2",
+            "draws": "7",
+            "losses": "0",
+            "goals_for": "8",
+            "goals_against": "6",
+            "goal_difference": "2",
+            "points": "13",
+            "corners": {
+                "8.5": "11%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7.11"
+            },
+            "goals": {
+                "1.5": "47%",
+                "2.5": "23%",
+                "3.5": "9%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "San Lorenzo",
+            "position": "15",
+            "matches_played": "9",
+            "wins": "3",
+            "draws": "4",
+            "losses": "2",
+            "goals_for": "8",
+            "goals_against": "6",
+            "goal_difference": "2",
+            "points": "13",
+            "corners": {
+                "8.5": "44%",
+                "9.5": "33%",
+                "10.5": "33%",
+                "11.5": "22%",
+                "12.5": "22%",
+                "13.5": "22%",
+                "average": "8.77"
+            },
+            "goals": {
+                "1.5": "47%",
+                "2.5": "23%",
+                "3.5": "9%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Racing Club",
+            "position": "16",
+            "matches_played": "9",
+            "wins": "3",
+            "draws": "3",
+            "losses": "3",
+            "goals_for": "11",
+            "goals_against": "9",
+            "goal_difference": "2",
+            "points": "12",
+            "corners": {
+                "8.5": "78%",
+                "9.5": "56%",
+                "10.5": "56%",
+                "11.5": "22%",
+                "12.5": "11%",
+                "13.5": "0%",
+                "average": "9.55"
+            },
+            "goals": {
+                "1.5": "64%",
+                "2.5": "34%",
+                "3.5": "13%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Barracas Central",
+            "position": "17",
+            "matches_played": "9",
+            "wins": "3",
+            "draws": "3",
+            "losses": "3",
+            "goals_for": "8",
+            "goals_against": "8",
+            "goal_difference": "0",
+            "points": "12",
+            "corners": {
+                "8.5": "22%",
+                "9.5": "11%",
+                "10.5": "11%",
+                "11.5": "11%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "5.77"
+            },
+            "goals": {
+                "1.5": "53%",
+                "2.5": "27%",
+                "3.5": "11%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Huracán",
+            "position": "18",
+            "matches_played": "9",
+            "wins": "3",
+            "draws": "3",
+            "losses": "3",
+            "goals_for": "9",
+            "goals_against": "9",
+            "goal_difference": "0",
+            "points": "12",
+            "corners": {
                 "8.5": "33%",
                 "9.5": "33%",
                 "10.5": "33%",
-                "11.5": "33%",
-                "12.5": "17%",
+                "11.5": "0%",
+                "12.5": "0%",
                 "13.5": "0%",
-                "average": "8"
+                "average": "7.88"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Argentinos Juniors",
+            "position": "19",
+            "matches_played": "7",
+            "wins": "2",
+            "draws": "4",
+            "losses": "1",
+            "goals_for": "4",
+            "goals_against": "3",
+            "goal_difference": "1",
+            "points": "10",
+            "corners": {
+                "8.5": "43%",
+                "9.5": "43%",
+                "10.5": "29%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7.85"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "15%",
+                "3.5": "6%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Banfield",
+            "position": "20",
+            "matches_played": "9",
+            "wins": "3",
+            "draws": "1",
+            "losses": "5",
+            "goals_for": "10",
+            "goals_against": "11",
+            "goal_difference": "-1",
+            "points": "10",
+            "corners": {
+                "8.5": "67%",
+                "9.5": "44%",
+                "10.5": "44%",
+                "11.5": "11%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "9"
+            },
+            "goals": {
+                "1.5": "66%",
+                "2.5": "37%",
+                "3.5": "14%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Sarmiento",
+            "position": "21",
+            "matches_played": "9",
+            "wins": "3",
+            "draws": "1",
+            "losses": "5",
+            "goals_for": "6",
+            "goals_against": "9",
+            "goal_difference": "-3",
+            "points": "10",
+            "corners": {
+                "8.5": "44%",
+                "9.5": "33%",
+                "10.5": "33%",
+                "11.5": "11%",
+                "12.5": "11%",
+                "13.5": "11%",
+                "average": "8.89"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "25%",
+                "3.5": "10%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Central Cordoba",
+            "position": "22",
+            "matches_played": "9",
+            "wins": "2",
+            "draws": "3",
+            "losses": "4",
+            "goals_for": "4",
+            "goals_against": "7",
+            "goal_difference": "-3",
+            "points": "9",
+            "corners": {
+                "8.5": "44%",
+                "9.5": "44%",
+                "10.5": "33%",
+                "11.5": "22%",
+                "12.5": "22%",
+                "13.5": "11%",
+                "average": "8.89"
+            },
+            "goals": {
+                "1.5": "37%",
+                "2.5": "18%",
+                "3.5": "7%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "Lanús",
+            "position": "23",
+            "matches_played": "7",
+            "wins": "2",
+            "draws": "3",
+            "losses": "2",
+            "goals_for": "9",
+            "goals_against": "12",
+            "goal_difference": "-3",
+            "points": "9",
+            "corners": {
+                "8.5": "57%",
+                "9.5": "29%",
+                "10.5": "29%",
+                "11.5": "29%",
+                "12.5": "14%",
+                "13.5": "14%",
+                "average": "8.72"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "57%"
+            }
+        },
+        {
+            "team": "Gimnasia y Esgrima",
+            "position": "24",
+            "matches_played": "9",
+            "wins": "2",
+            "draws": "3",
+            "losses": "4",
+            "goals_for": "5",
+            "goals_against": "10",
+            "goal_difference": "-5",
+            "points": "9",
+            "corners": {
+                "8.5": "67%",
+                "9.5": "44%",
+                "10.5": "44%",
+                "11.5": "22%",
+                "12.5": "11%",
+                "13.5": "11%",
+                "average": "9.55"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "25%",
+                "3.5": "10%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Instituto",
+            "position": "25",
+            "matches_played": "9",
+            "wins": "2",
+            "draws": "2",
+            "losses": "5",
+            "goals_for": "9",
+            "goals_against": "12",
+            "goal_difference": "-3",
+            "points": "8",
+            "corners": {
+                "8.5": "22%",
+                "9.5": "11%",
+                "10.5": "11%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7.11"
+            },
+            "goals": {
+                "1.5": "66%",
+                "2.5": "37%",
+                "3.5": "14%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Deportivo Riestra",
+            "position": "26",
+            "matches_played": "9",
+            "wins": "0",
+            "draws": "6",
+            "losses": "3",
+            "goals_for": "2",
+            "goals_against": "5",
+            "goal_difference": "-3",
+            "points": "6",
+            "corners": {
+                "8.5": "56%",
+                "9.5": "33%",
+                "10.5": "22%",
+                "11.5": "11%",
+                "12.5": "11%",
+                "13.5": "0%",
+                "average": "8.44"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "12%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "49%"
+            }
+        },
+        {
+            "team": "Atlético Tucumán",
+            "position": "27",
+            "matches_played": "9",
+            "wins": "1",
+            "draws": "3",
+            "losses": "5",
+            "goals_for": "10",
+            "goals_against": "14",
+            "goal_difference": "-4",
+            "points": "6",
+            "corners": {
+                "8.5": "44%",
+                "9.5": "33%",
+                "10.5": "33%",
+                "11.5": "22%",
+                "12.5": "22%",
+                "13.5": "11%",
+                "average": "8.67"
             },
             "goals": {
                 "1.5": "72%",
@@ -69,431 +919,23 @@
             }
         },
         {
-            "team": "Tigre",
-            "position": "3",
-            "matches_played": "6",
-            "wins": "4",
-            "draws": "2",
-            "losses": "0",
-            "goals_for": "11",
-            "goals_against": "3",
-            "goal_difference": "8",
-            "points": "14",
-            "corners": {
-                "8.5": "83%",
-                "9.5": "50%",
-                "10.5": "33%",
-                "11.5": "17%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "9.83"
-            },
-            "goals": {
-                "1.5": "66%",
-                "2.5": "37%",
-                "3.5": "14%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Vélez Sarsfield",
-            "position": "4",
-            "matches_played": "6",
-            "wins": "4",
-            "draws": "2",
-            "losses": "0",
-            "goals_for": "8",
-            "goals_against": "4",
-            "goal_difference": "4",
-            "points": "14",
-            "corners": {
-                "8.5": "67%",
-                "9.5": "33%",
-                "10.5": "33%",
-                "11.5": "33%",
-                "12.5": "17%",
-                "13.5": "0%",
-                "average": "9.17"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "46%"
-            }
-        },
-        {
-            "team": "Estudiantes de La Plata",
-            "position": "5",
-            "matches_played": "6",
-            "wins": "3",
-            "draws": "3",
-            "losses": "0",
-            "goals_for": "5",
-            "goals_against": "2",
-            "goal_difference": "3",
-            "points": "12",
-            "corners": {
-                "8.5": "67%",
-                "9.5": "50%",
-                "10.5": "33%",
-                "11.5": "33%",
-                "12.5": "17%",
-                "13.5": "17%",
-                "average": "9.5"
-            },
-            "goals": {
-                "1.5": "35%",
-                "2.5": "18%",
-                "3.5": "7%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Platense",
-            "position": "6",
-            "matches_played": "7",
-            "wins": "3",
-            "draws": "3",
-            "losses": "1",
-            "goals_for": "5",
-            "goals_against": "3",
-            "goal_difference": "2",
-            "points": "12",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "5.86"
-            },
-            "goals": {
-                "1.5": "34%",
-                "2.5": "17%",
-                "3.5": "7%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
-            "team": "Defensa y Justicia",
-            "position": "7",
-            "matches_played": "7",
-            "wins": "2",
-            "draws": "5",
-            "losses": "0",
-            "goals_for": "6",
-            "goals_against": "4",
-            "goal_difference": "2",
-            "points": "11",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "6.86"
-            },
-            "goals": {
-                "1.5": "43%",
-                "2.5": "21%",
-                "3.5": "9%"
-            },
-            "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
-            "team": "San Lorenzo",
-            "position": "8",
-            "matches_played": "7",
-            "wins": "3",
-            "draws": "2",
-            "losses": "2",
-            "goals_for": "7",
-            "goals_against": "5",
-            "goal_difference": "2",
-            "points": "11",
-            "corners": {
-                "8.5": "43%",
-                "9.5": "29%",
-                "10.5": "29%",
-                "11.5": "14%",
-                "12.5": "14%",
-                "13.5": "14%",
-                "average": "8.29"
-            },
-            "goals": {
-                "1.5": "51%",
-                "2.5": "26%",
-                "3.5": "10%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Independiente",
-            "position": "9",
-            "matches_played": "7",
-            "wins": "2",
+            "team": "Aldosivi",
+            "position": "28",
+            "matches_played": "8",
+            "wins": "0",
             "draws": "4",
-            "losses": "1",
-            "goals_for": "9",
-            "goals_against": "7",
-            "goal_difference": "2",
-            "points": "10",
-            "corners": {
-                "8.5": "71%",
-                "9.5": "29%",
-                "10.5": "29%",
-                "11.5": "29%",
-                "12.5": "14%",
-                "13.5": "14%",
-                "average": "9.58"
-            },
-            "goals": {
-                "1.5": "65%",
-                "2.5": "36%",
-                "3.5": "14%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Gimnasia La Plata",
-            "position": "10",
-            "matches_played": "6",
-            "wins": "3",
-            "draws": "1",
-            "losses": "2",
-            "goals_for": "6",
-            "goals_against": "6",
-            "goal_difference": "0",
-            "points": "10",
-            "corners": {
-                "8.5": "83%",
-                "9.5": "50%",
-                "10.5": "17%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8.83"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Talleres de Cordoba",
-            "position": "11",
-            "matches_played": "7",
-            "wins": "3",
-            "draws": "1",
-            "losses": "3",
-            "goals_for": "8",
-            "goals_against": "9",
-            "goal_difference": "-1",
-            "points": "10",
-            "corners": {
-                "8.5": "43%",
-                "9.5": "43%",
-                "10.5": "43%",
-                "11.5": "43%",
-                "12.5": "43%",
-                "13.5": "29%",
-                "average": "8.86"
-            },
-            "goals": {
-                "1.5": "68%",
-                "2.5": "39%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Huracán",
-            "position": "12",
-            "matches_played": "6",
-            "wins": "2",
-            "draws": "3",
-            "losses": "1",
-            "goals_for": "5",
-            "goals_against": "4",
-            "goal_difference": "1",
-            "points": "9",
-            "corners": {
-                "8.5": "33%",
-                "9.5": "33%",
-                "10.5": "33%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "7.67"
-            },
-            "goals": {
-                "1.5": "45%",
-                "2.5": "22%",
-                "3.5": "9%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
-            "team": "Union Santa Fe",
-            "position": "13",
-            "matches_played": "6",
-            "wins": "2",
-            "draws": "2",
-            "losses": "2",
-            "goals_for": "6",
-            "goals_against": "3",
-            "goal_difference": "3",
-            "points": "8",
-            "corners": {
-                "8.5": "17%",
-                "9.5": "17%",
-                "10.5": "17%",
-                "11.5": "17%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "6.67"
-            },
-            "goals": {
-                "1.5": "45%",
-                "2.5": "22%",
-                "3.5": "9%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
-            "team": "Argentinos Juniors",
-            "position": "14",
-            "matches_played": "5",
-            "wins": "2",
-            "draws": "2",
-            "losses": "1",
+            "losses": "4",
             "goals_for": "3",
-            "goals_against": "2",
-            "goal_difference": "1",
-            "points": "8",
+            "goals_against": "9",
+            "goal_difference": "-6",
+            "points": "4",
             "corners": {
-                "8.5": "40%",
-                "9.5": "40%",
-                "10.5": "40%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "7.4"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "15%",
-                "3.5": "6%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Boca Juniors",
-            "position": "15",
-            "matches_played": "6",
-            "wins": "2",
-            "draws": "2",
-            "losses": "2",
-            "goals_for": "5",
-            "goals_against": "4",
-            "goal_difference": "1",
-            "points": "8",
-            "corners": {
-                "8.5": "67%",
-                "9.5": "50%",
-                "10.5": "50%",
-                "11.5": "33%",
-                "12.5": "17%",
-                "13.5": "0%",
+                "8.5": "50%",
+                "9.5": "38%",
+                "10.5": "38%",
+                "11.5": "13%",
+                "12.5": "13%",
+                "13.5": "13%",
                 "average": "8.5"
             },
             "goals": {
@@ -502,451 +944,43 @@
                 "3.5": "9%"
             },
             "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Rosario Central",
-            "position": "16",
-            "matches_played": "6",
-            "wins": "2",
-            "draws": "2",
-            "losses": "2",
-            "goals_for": "6",
-            "goals_against": "5",
-            "goal_difference": "1",
-            "points": "8",
-            "corners": {
-                "8.5": "50%",
-                "9.5": "33%",
-                "10.5": "33%",
-                "11.5": "17%",
-                "12.5": "17%",
-                "13.5": "17%",
-                "average": "7.84"
-            },
-            "goals": {
-                "1.5": "55%",
-                "2.5": "28%",
-                "3.5": "11%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "Instituto",
-            "position": "17",
-            "matches_played": "7",
-            "wins": "2",
-            "draws": "2",
-            "losses": "3",
-            "goals_for": "8",
-            "goals_against": "8",
-            "goal_difference": "0",
-            "points": "8",
-            "corners": {
-                "8.5": "14%",
-                "9.5": "14%",
-                "10.5": "14%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "6.85"
-            },
-            "goals": {
-                "1.5": "65%",
-                "2.5": "36%",
-                "3.5": "14%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "Lanús",
-            "position": "18",
-            "matches_played": "5",
-            "wins": "2",
-            "draws": "2",
-            "losses": "1",
-            "goals_for": "8",
-            "goals_against": "8",
-            "goal_difference": "0",
-            "points": "8",
-            "corners": {
-                "8.5": "40%",
-                "9.5": "40%",
-                "10.5": "40%",
-                "11.5": "40%",
-                "12.5": "20%",
-                "13.5": "20%",
-                "average": "8.6"
-            },
-            "goals": {
-                "1.5": "79%",
-                "2.5": "53%",
-                "3.5": "26%"
-            },
-            "cards": {
                 "over_3_5": "71%",
                 "over_4_5": "51%",
                 "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "54%"
+                "Yes": "45%"
             }
         },
         {
-            "team": "Central Cordoba",
-            "position": "19",
-            "matches_played": "7",
-            "wins": "2",
-            "draws": "2",
-            "losses": "3",
+            "team": "Estudiantes de Río Cuarto",
+            "position": "29",
+            "matches_played": "9",
+            "wins": "1",
+            "draws": "1",
+            "losses": "7",
             "goals_for": "3",
-            "goals_against": "4",
-            "goal_difference": "-1",
-            "points": "8",
+            "goals_against": "13",
+            "goal_difference": "-10",
+            "points": "4",
             "corners": {
-                "8.5": "43%",
-                "9.5": "43%",
-                "10.5": "29%",
-                "11.5": "14%",
-                "12.5": "14%",
-                "13.5": "14%",
-                "average": "8.57"
+                "8.5": "67%",
+                "9.5": "33%",
+                "10.5": "22%",
+                "11.5": "11%",
+                "12.5": "11%",
+                "13.5": "11%",
+                "average": "9.11"
             },
             "goals": {
-                "1.5": "30%",
-                "2.5": "15%",
-                "3.5": "6%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Banfield",
-            "position": "20",
-            "matches_played": "6",
-            "wins": "2",
-            "draws": "1",
-            "losses": "3",
-            "goals_for": "6",
-            "goals_against": "6",
-            "goal_difference": "0",
-            "points": "7",
-            "corners": {
-                "8.5": "50%",
-                "9.5": "50%",
-                "10.5": "50%",
-                "11.5": "17%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8.66"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Racing Club",
-            "position": "21",
-            "matches_played": "6",
-            "wins": "2",
-            "draws": "1",
-            "losses": "3",
-            "goals_for": "7",
-            "goals_against": "8",
-            "goal_difference": "-1",
-            "points": "7",
-            "corners": {
-                "8.5": "83%",
-                "9.5": "67%",
-                "10.5": "67%",
-                "11.5": "17%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "9.5"
-            },
-            "goals": {
-                "1.5": "69%",
-                "2.5": "40%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "River Plate",
-            "position": "22",
-            "matches_played": "6",
-            "wins": "2",
-            "draws": "1",
-            "losses": "3",
-            "goals_for": "4",
-            "goals_against": "6",
-            "goal_difference": "-2",
-            "points": "7",
-            "corners": {
-                "8.5": "83%",
-                "9.5": "50%",
-                "10.5": "33%",
-                "11.5": "33%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "9"
-            },
-            "goals": {
-                "1.5": "50%",
-                "2.5": "25%",
-                "3.5": "10%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Gimnasia Mendoza",
-            "position": "23",
-            "matches_played": "7",
-            "wins": "2",
-            "draws": "1",
-            "losses": "4",
-            "goals_for": "4",
-            "goals_against": "9",
-            "goal_difference": "-5",
-            "points": "7",
-            "corners": {
-                "8.5": "57%",
-                "9.5": "43%",
-                "10.5": "43%",
-                "11.5": "14%",
-                "12.5": "14%",
-                "13.5": "14%",
-                "average": "9.28"
-            },
-            "goals": {
-                "1.5": "56%",
-                "2.5": "28%",
+                "1.5": "53%",
+                "2.5": "27%",
                 "3.5": "11%"
             },
             "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "46%"
-            }
-        },
-        {
-            "team": "Sarmiento",
-            "position": "24",
-            "matches_played": "6",
-            "wins": "2",
-            "draws": "0",
-            "losses": "4",
-            "goals_for": "4",
-            "goals_against": "6",
-            "goal_difference": "-2",
-            "points": "6",
-            "corners": {
-                "8.5": "33%",
-                "9.5": "33%",
-                "10.5": "33%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8.33"
-            },
-            "goals": {
-                "1.5": "50%",
-                "2.5": "25%",
-                "3.5": "10%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Atlético Tucumán",
-            "position": "25",
-            "matches_played": "7",
-            "wins": "1",
-            "draws": "2",
-            "losses": "4",
-            "goals_for": "9",
-            "goals_against": "10",
-            "goal_difference": "-1",
-            "points": "5",
-            "corners": {
-                "8.5": "29%",
-                "9.5": "14%",
-                "10.5": "14%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "7"
-            },
-            "goals": {
-                "1.5": "73%",
-                "2.5": "44%",
-                "3.5": "18%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Barracas Central",
-            "position": "26",
-            "matches_played": "6",
-            "wins": "1",
-            "draws": "2",
-            "losses": "3",
-            "goals_for": "3",
-            "goals_against": "5",
-            "goal_difference": "-2",
-            "points": "5",
-            "corners": {
-                "8.5": "33%",
-                "9.5": "17%",
-                "10.5": "17%",
-                "11.5": "17%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "5.84"
-            },
-            "goals": {
-                "1.5": "40%",
-                "2.5": "20%",
-                "3.5": "8%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "Deportivo Riestra",
-            "position": "27",
-            "matches_played": "6",
-            "wins": "0",
-            "draws": "3",
-            "losses": "3",
-            "goals_for": "2",
-            "goals_against": "5",
-            "goal_difference": "-3",
-            "points": "3",
-            "corners": {
-                "8.5": "50%",
-                "9.5": "33%",
-                "10.5": "33%",
-                "11.5": "17%",
-                "12.5": "17%",
-                "13.5": "0%",
-                "average": "8.33"
-            },
-            "goals": {
-                "1.5": "35%",
-                "2.5": "18%",
-                "3.5": "7%"
-            },
-            "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
-            },
-            "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "Aldosivi",
-            "position": "28",
-            "matches_played": "6",
-            "wins": "0",
-            "draws": "3",
-            "losses": "3",
-            "goals_for": "2",
-            "goals_against": "6",
-            "goal_difference": "-4",
-            "points": "3",
-            "corners": {
-                "8.5": "33%",
-                "9.5": "33%",
-                "10.5": "33%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "7.17"
-            },
-            "goals": {
-                "1.5": "40%",
-                "2.5": "20%",
-                "3.5": "8%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
             },
             "btts": {
                 "Yes": "45%"
@@ -954,71 +988,37 @@
         },
         {
             "team": "Newells Old Boys",
-            "position": "29",
-            "matches_played": "6",
-            "wins": "0",
-            "draws": "2",
-            "losses": "4",
-            "goals_for": "5",
-            "goals_against": "12",
-            "goal_difference": "-7",
-            "points": "2",
-            "corners": {
-                "8.5": "33%",
-                "9.5": "17%",
-                "10.5": "17%",
-                "11.5": "17%",
-                "12.5": "17%",
-                "13.5": "17%",
-                "average": "8.17"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "47%",
-                "3.5": "20%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
-            "team": "Estudiantes de Río Cuarto",
             "position": "30",
-            "matches_played": "6",
+            "matches_played": "9",
             "wins": "0",
-            "draws": "1",
-            "losses": "5",
-            "goals_for": "1",
-            "goals_against": "11",
-            "goal_difference": "-10",
-            "points": "1",
+            "draws": "3",
+            "losses": "6",
+            "goals_for": "6",
+            "goals_against": "17",
+            "goal_difference": "-11",
+            "points": "3",
             "corners": {
-                "8.5": "50%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "7.83"
+                "8.5": "44%",
+                "9.5": "22%",
+                "10.5": "22%",
+                "11.5": "11%",
+                "12.5": "11%",
+                "13.5": "11%",
+                "average": "8.23"
             },
             "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
+                "1.5": "70%",
+                "2.5": "41%",
+                "3.5": "16%"
             },
             "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
             },
             "btts": {
                 "Yes": "45%"
             }
         }
     ]
-,"last_updated":"2026-03-11T17:44:20Z"}
+,"last_updated":"2026-03-13T17:29:59Z"}
