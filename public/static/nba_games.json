@@ -1,53 +1,5 @@
 [
     {
-        "hora": "17.03. 23:00",
-        "emparejamiento": "BKN @ MIA",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "17.03. 23:00",
-        "emparejamiento": "ORL @ OKC",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "17.03. 23:00",
-        "emparejamiento": "WAS @ DET",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "17.03. 23:30",
-        "emparejamiento": "NYK @ IND",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "18.03. 00:00",
-        "emparejamiento": "MIL @ CLE",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "18.03. 00:00",
-        "emparejamiento": "MIN @ PHX",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "18.03. 02:00",
-        "emparejamiento": "DEN @ PHI",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "18.03. 02:00",
-        "emparejamiento": "SAC @ SAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "18.03. 23:00",
         "emparejamiento": "BOS @ GSW",
         "resultado": "vs",
@@ -86,6 +38,54 @@
     {
         "hora": "19.03. 00:30",
         "emparejamiento": "DAL @ ATL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "19.03. 00:30",
+        "emparejamiento": "MEM @ DEN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "19.03. 01:30",
+        "emparejamiento": "HOU @ LAL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "19.03. 23:00",
+        "emparejamiento": "BKN @ ORL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "19.03. 23:00",
+        "emparejamiento": "WAS @ DET",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "20.03. 00:00",
+        "emparejamiento": "CHI @ CLE",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "20.03. 00:00",
+        "emparejamiento": "MIA @ LAL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "20.03. 00:00",
+        "emparejamiento": "NOP @ LAC",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "20.03. 00:00",
+        "emparejamiento": "SAS @ PHX",
         "resultado": "vs",
         "ubicacion": ""
     }
