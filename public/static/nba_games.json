@@ -1,65 +1,5 @@
 [
     {
-        "hora": "23.03. 23:00",
-        "emparejamiento": "DET @ LAL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "23.03. 23:00",
-        "emparejamiento": "MIA @ SAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "23.03. 23:00",
-        "emparejamiento": "ORL @ IND",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "23.03. 23:00",
-        "emparejamiento": "PHI @ OKC",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "23.03. 23:30",
-        "emparejamiento": "ATL @ MEM",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "24.03. 00:00",
-        "emparejamiento": "CHI @ HOU",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "24.03. 01:00",
-        "emparejamiento": "UTA @ TOR",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "24.03. 01:30",
-        "emparejamiento": "DAL @ GSW",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "24.03. 02:00",
-        "emparejamiento": "POR @ BKN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "24.03. 02:30",
-        "emparejamiento": "LAC @ MIL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "24.03. 23:00",
         "emparejamiento": "BKN @ SAC",
         "resultado": "vs",
@@ -86,6 +26,66 @@
     {
         "hora": "25.03. 23:00",
         "emparejamiento": "DET @ ATL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "25.03. 23:00",
+        "emparejamiento": "IND @ LAL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "25.03. 23:00",
+        "emparejamiento": "PHI @ CHI",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "25.03. 23:30",
+        "emparejamiento": "BOS @ OKC",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "25.03. 23:30",
+        "emparejamiento": "CLE @ MIA",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "26.03. 00:00",
+        "emparejamiento": "MEM @ SAS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "26.03. 01:00",
+        "emparejamiento": "UTA @ WAS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "26.03. 01:30",
+        "emparejamiento": "MIN @ HOU",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "26.03. 02:00",
+        "emparejamiento": "DEN @ DAL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "26.03. 02:00",
+        "emparejamiento": "GSW @ BKN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "26.03. 02:00",
+        "emparejamiento": "POR @ MIL",
         "resultado": "vs",
         "ubicacion": ""
     }
