@@ -1,53 +1,5 @@
 [
     {
-        "hora": "30.03. 23:00",
-        "emparejamiento": "MIA @ PHI",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "30.03. 23:30",
-        "emparejamiento": "ATL @ BOS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "31.03. 00:00",
-        "emparejamiento": "MEM @ PHX",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "31.03. 00:00",
-        "emparejamiento": "SAS @ CHI",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "31.03. 00:30",
-        "emparejamiento": "DAL @ MIN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "31.03. 01:00",
-        "emparejamiento": "UTA @ CLE",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "31.03. 01:30",
-        "emparejamiento": "OKC @ DET",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "31.03. 02:00",
-        "emparejamiento": "LAL @ WAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "31.03. 23:00",
         "emparejamiento": "ORL @ PHX",
         "resultado": "vs",
@@ -86,6 +38,54 @@
     {
         "hora": "01.04. 03:00",
         "emparejamiento": "LAC @ POR",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "01.04. 23:00",
+        "emparejamiento": "ORL @ ATL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "01.04. 23:00",
+        "emparejamiento": "WAS @ PHI",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "01.04. 23:30",
+        "emparejamiento": "MIA @ BOS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "02.04. 00:00",
+        "emparejamiento": "CHI @ IND",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "02.04. 00:00",
+        "emparejamiento": "HOU @ MIL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "02.04. 00:00",
+        "emparejamiento": "MEM @ NYK",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "02.04. 00:00",
+        "emparejamiento": "TOR @ SAC",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "02.04. 01:00",
+        "emparejamiento": "UTA @ DEN",
         "resultado": "vs",
         "ubicacion": ""
     }
