@@ -1,47 +1,5 @@
 [
     {
-        "hora": "31.03. 23:00",
-        "emparejamiento": "ORL @ PHX",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "31.03. 23:30",
-        "emparejamiento": "BKN @ BKN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "01.04. 00:00",
-        "emparejamiento": "DET @ TOR",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "01.04. 00:00",
-        "emparejamiento": "HOU @ NYK",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "01.04. 00:00",
-        "emparejamiento": "MIL @ DAL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "01.04. 02:30",
-        "emparejamiento": "LAL @ CLE",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "01.04. 03:00",
-        "emparejamiento": "LAC @ POR",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "01.04. 23:00",
         "emparejamiento": "ORL @ ATL",
         "resultado": "vs",
@@ -86,6 +44,48 @@
     {
         "hora": "02.04. 01:00",
         "emparejamiento": "UTA @ DEN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "02.04. 02:00",
+        "emparejamiento": "GSW @ SAS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "02.04. 23:00",
+        "emparejamiento": "BKN @ PHX",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "02.04. 23:00",
+        "emparejamiento": "DET @ MIN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "03.04. 01:30",
+        "emparejamiento": "OKC @ LAL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "03.04. 02:00",
+        "emparejamiento": "GSW @ CLE",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "03.04. 02:00",
+        "emparejamiento": "POR @ NOP",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "03.04. 02:30",
+        "emparejamiento": "LAC @ SAS",
         "resultado": "vs",
         "ubicacion": ""
     }
