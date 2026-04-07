@@ -1,35 +1,5 @@
 [
     {
-        "hora": "06.04. 23:00",
-        "emparejamiento": "ATL @ NYK",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "06.04. 23:00",
-        "emparejamiento": "ORL @ DET",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "07.04. 00:00",
-        "emparejamiento": "MEM @ CLE",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "07.04. 00:00",
-        "emparejamiento": "SAS @ PHI",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "07.04. 01:00",
-        "emparejamiento": "DEN @ POR",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "07.04. 23:00",
         "emparejamiento": "IND @ MIN",
         "resultado": "vs",
@@ -86,6 +56,36 @@
     {
         "hora": "08.04. 03:00",
         "emparejamiento": "PHX @ HOU",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "08.04. 23:00",
+        "emparejamiento": "CLE @ ATL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "08.04. 23:00",
+        "emparejamiento": "DET @ MIL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "08.04. 23:00",
+        "emparejamiento": "ORL @ MIN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "09.04. 01:00",
+        "emparejamiento": "DEN @ MEM",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "09.04. 01:30",
+        "emparejamiento": "SAS @ POR",
         "resultado": "vs",
         "ubicacion": ""
     }
