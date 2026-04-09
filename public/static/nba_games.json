@@ -1,47 +1,5 @@
 [
     {
-        "hora": "08.04. 23:00",
-        "emparejamiento": "CLE @ ATL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "08.04. 23:00",
-        "emparejamiento": "DET @ MIL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "08.04. 23:00",
-        "emparejamiento": "ORL @ MIN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "09.04. 01:00",
-        "emparejamiento": "DEN @ MEM",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "09.04. 01:30",
-        "emparejamiento": "SAS @ POR",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "09.04. 02:00",
-        "emparejamiento": "LAC @ OKC",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "09.04. 02:00",
-        "emparejamiento": "PHX @ DAL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "09.04. 23:00",
         "emparejamiento": "TOR @ MIA",
         "resultado": "vs",
@@ -86,6 +44,48 @@
     {
         "hora": "10.04. 23:00",
         "emparejamiento": "BKN @ DET",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "10.04. 23:00",
+        "emparejamiento": "WAS @ MIA",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "10.04. 23:30",
+        "emparejamiento": "BOS @ NOP",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "10.04. 23:30",
+        "emparejamiento": "IND @ PHI",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "10.04. 23:30",
+        "emparejamiento": "NYK @ TOR",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.04. 00:00",
+        "emparejamiento": "CHI @ ORL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.04. 00:00",
+        "emparejamiento": "MIL @ BKN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.04. 00:00",
+        "emparejamiento": "SAS @ DAL",
         "resultado": "vs",
         "ubicacion": ""
     }
