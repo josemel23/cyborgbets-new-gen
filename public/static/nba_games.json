@@ -1,41 +1,5 @@
 [
     {
-        "hora": "09.04. 23:00",
-        "emparejamiento": "TOR @ MIA",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "09.04. 23:00",
-        "emparejamiento": "WAS @ CHI",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "09.04. 23:30",
-        "emparejamiento": "BKN @ IND",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "09.04. 23:30",
-        "emparejamiento": "NYK @ BOS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "10.04. 00:00",
-        "emparejamiento": "HOU @ PHI",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "10.04. 02:00",
-        "emparejamiento": "GSW @ LAL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "10.04. 23:00",
         "emparejamiento": "ATL @ CLE",
         "resultado": "vs",
@@ -86,6 +50,42 @@
     {
         "hora": "11.04. 00:00",
         "emparejamiento": "SAS @ DAL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.04. 01:00",
+        "emparejamiento": "DEN @ OKC",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.04. 01:30",
+        "emparejamiento": "HOU @ MIN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.04. 01:30",
+        "emparejamiento": "UTA @ MEM",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.04. 02:00",
+        "emparejamiento": "POR @ LAC",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.04. 02:00",
+        "emparejamiento": "SAC @ GSW",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.04. 02:30",
+        "emparejamiento": "LAL @ PHX",
         "resultado": "vs",
         "ubicacion": ""
     }
