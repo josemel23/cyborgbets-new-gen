@@ -3,22 +3,22 @@
         {
             "team": "Bayern München",
             "position": "1",
-            "matches_played": "27",
-            "wins": "22",
+            "matches_played": "28",
+            "wins": "23",
             "draws": "4",
             "losses": "1",
-            "goals_for": "97",
-            "goals_against": "25",
-            "goal_difference": "72",
-            "points": "70",
+            "goals_for": "100",
+            "goals_against": "27",
+            "goal_difference": "73",
+            "points": "73",
             "corners": {
-                "8.5": "56%",
-                "9.5": "52%",
-                "10.5": "37%",
-                "11.5": "30%",
-                "12.5": "15%",
+                "8.5": "57%",
+                "9.5": "54%",
+                "10.5": "39%",
+                "11.5": "32%",
+                "12.5": "18%",
                 "13.5": "7%",
-                "average": "9.52"
+                "average": "9.65"
             },
             "goals": {
                 "1.5": "92%",
@@ -26,72 +26,38 @@
                 "3.5": "42%"
             },
             "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "69%"
+                "Yes": "66%"
             }
         },
         {
             "team": "Borussia Dortmund",
             "position": "2",
-            "matches_played": "27",
-            "wins": "18",
+            "matches_played": "28",
+            "wins": "19",
             "draws": "7",
             "losses": "2",
-            "goals_for": "58",
+            "goals_for": "60",
             "goals_against": "28",
-            "goal_difference": "30",
-            "points": "61",
+            "goal_difference": "32",
+            "points": "64",
             "corners": {
-                "8.5": "63%",
-                "9.5": "52%",
-                "10.5": "41%",
-                "11.5": "41%",
-                "12.5": "26%",
-                "13.5": "19%",
-                "average": "10.22"
+                "8.5": "61%",
+                "9.5": "50%",
+                "10.5": "39%",
+                "11.5": "39%",
+                "12.5": "25%",
+                "13.5": "18%",
+                "average": "10.11"
             },
             "goals": {
-                "1.5": "79%",
-                "2.5": "53%",
+                "1.5": "78%",
+                "2.5": "52%",
                 "3.5": "25%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "52%"
-            }
-        },
-        {
-            "team": "Stuttgart",
-            "position": "3",
-            "matches_played": "27",
-            "wins": "16",
-            "draws": "5",
-            "losses": "6",
-            "goals_for": "56",
-            "goals_against": "36",
-            "goal_difference": "20",
-            "points": "53",
-            "corners": {
-                "8.5": "56%",
-                "9.5": "56%",
-                "10.5": "37%",
-                "11.5": "22%",
-                "12.5": "11%",
-                "13.5": "11%",
-                "average": "9.52"
-            },
-            "goals": {
-                "1.5": "81%",
-                "2.5": "56%",
-                "3.5": "29%"
             },
             "cards": {
                 "over_3_5": "72%",
@@ -99,28 +65,28 @@
                 "over_5_5": "32%"
             },
             "btts": {
-                "Yes": "55%"
+                "Yes": "59%"
             }
         },
         {
             "team": "RB Leipzig",
-            "position": "4",
-            "matches_played": "27",
-            "wins": "15",
+            "position": "3",
+            "matches_played": "28",
+            "wins": "16",
             "draws": "5",
             "losses": "7",
-            "goals_for": "53",
-            "goals_against": "35",
-            "goal_difference": "18",
-            "points": "50",
+            "goals_for": "55",
+            "goals_against": "36",
+            "goal_difference": "19",
+            "points": "53",
             "corners": {
-                "8.5": "59%",
-                "9.5": "52%",
-                "10.5": "33%",
-                "11.5": "26%",
-                "12.5": "26%",
-                "13.5": "22%",
-                "average": "9.85"
+                "8.5": "57%",
+                "9.5": "50%",
+                "10.5": "32%",
+                "11.5": "25%",
+                "12.5": "25%",
+                "13.5": "21%",
+                "average": "9.54"
             },
             "goals": {
                 "1.5": "80%",
@@ -128,36 +94,104 @@
                 "3.5": "26%"
             },
             "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "60%"
+                "Yes": "52%"
+            }
+        },
+        {
+            "team": "Stuttgart",
+            "position": "4",
+            "matches_played": "28",
+            "wins": "16",
+            "draws": "5",
+            "losses": "7",
+            "goals_for": "56",
+            "goals_against": "38",
+            "goal_difference": "18",
+            "points": "53",
+            "corners": {
+                "8.5": "54%",
+                "9.5": "54%",
+                "10.5": "36%",
+                "11.5": "21%",
+                "12.5": "11%",
+                "13.5": "11%",
+                "average": "9.43"
+            },
+            "goals": {
+                "1.5": "81%",
+                "2.5": "55%",
+                "3.5": "28%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "55%"
             }
         },
         {
             "team": "Hoffenheim",
             "position": "5",
-            "matches_played": "27",
+            "matches_played": "28",
             "wins": "15",
             "draws": "5",
-            "losses": "7",
-            "goals_for": "54",
-            "goals_against": "39",
-            "goal_difference": "15",
+            "losses": "8",
+            "goals_for": "55",
+            "goals_against": "41",
+            "goal_difference": "14",
             "points": "50",
             "corners": {
-                "8.5": "74%",
-                "9.5": "67%",
-                "10.5": "56%",
-                "11.5": "44%",
-                "12.5": "30%",
-                "13.5": "15%",
-                "average": "10.78"
+                "8.5": "75%",
+                "9.5": "68%",
+                "10.5": "54%",
+                "11.5": "43%",
+                "12.5": "29%",
+                "13.5": "14%",
+                "average": "10.75"
             },
             "goals": {
                 "1.5": "81%",
+                "2.5": "56%",
+                "3.5": "29%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "51%"
+            }
+        },
+        {
+            "team": "Bayer Leverkusen",
+            "position": "6",
+            "matches_played": "28",
+            "wins": "14",
+            "draws": "7",
+            "losses": "7",
+            "goals_for": "58",
+            "goals_against": "39",
+            "goal_difference": "19",
+            "points": "49",
+            "corners": {
+                "8.5": "61%",
+                "9.5": "54%",
+                "10.5": "36%",
+                "11.5": "25%",
+                "12.5": "14%",
+                "13.5": "11%",
+                "average": "9.43"
+            },
+            "goals": {
+                "1.5": "82%",
                 "2.5": "57%",
                 "3.5": "29%"
             },
@@ -167,62 +201,28 @@
                 "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "56%"
-            }
-        },
-        {
-            "team": "Bayer Leverkusen",
-            "position": "6",
-            "matches_played": "27",
-            "wins": "13",
-            "draws": "7",
-            "losses": "7",
-            "goals_for": "52",
-            "goals_against": "36",
-            "goal_difference": "16",
-            "points": "46",
-            "corners": {
-                "8.5": "59%",
-                "9.5": "52%",
-                "10.5": "33%",
-                "11.5": "22%",
-                "12.5": "11%",
-                "13.5": "7%",
-                "average": "9.26"
-            },
-            "goals": {
-                "1.5": "80%",
-                "2.5": "54%",
-                "3.5": "26%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "54%"
+                "Yes": "60%"
             }
         },
         {
             "team": "Eintracht Frankfurt",
             "position": "7",
-            "matches_played": "27",
+            "matches_played": "28",
             "wins": "10",
-            "draws": "8",
+            "draws": "9",
             "losses": "9",
-            "goals_for": "50",
-            "goals_against": "51",
+            "goals_for": "52",
+            "goals_against": "53",
             "goal_difference": "-1",
-            "points": "38",
+            "points": "39",
             "corners": {
-                "8.5": "52%",
-                "9.5": "44%",
-                "10.5": "26%",
-                "11.5": "15%",
+                "8.5": "50%",
+                "9.5": "43%",
+                "10.5": "25%",
+                "11.5": "14%",
                 "12.5": "4%",
                 "13.5": "4%",
-                "average": "8.63"
+                "average": "8.61"
             },
             "goals": {
                 "1.5": "84%",
@@ -230,106 +230,72 @@
                 "3.5": "33%"
             },
             "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
             },
             "btts": {
-                "Yes": "60%"
+                "Yes": "59%"
             }
         },
         {
             "team": "Freiburg",
             "position": "8",
-            "matches_played": "27",
+            "matches_played": "28",
             "wins": "10",
             "draws": "7",
-            "losses": "10",
-            "goals_for": "39",
-            "goals_against": "44",
-            "goal_difference": "-5",
+            "losses": "11",
+            "goals_for": "41",
+            "goals_against": "47",
+            "goal_difference": "-6",
             "points": "37",
             "corners": {
-                "8.5": "41%",
-                "9.5": "37%",
-                "10.5": "26%",
-                "11.5": "22%",
-                "12.5": "11%",
+                "8.5": "43%",
+                "9.5": "39%",
+                "10.5": "29%",
+                "11.5": "25%",
+                "12.5": "14%",
                 "13.5": "11%",
-                "average": "8.44"
+                "average": "8.6"
             },
             "goals": {
                 "1.5": "78%",
-                "2.5": "51%",
-                "3.5": "24%"
+                "2.5": "52%",
+                "3.5": "25%"
             },
             "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
-                "Yes": "50%"
+                "Yes": "53%"
             }
         },
         {
-            "team": "Union Berlin",
+            "team": "Mainz 05",
             "position": "9",
-            "matches_played": "27",
+            "matches_played": "28",
             "wins": "8",
-            "draws": "7",
-            "losses": "12",
-            "goals_for": "31",
-            "goals_against": "46",
-            "goal_difference": "-15",
-            "points": "31",
+            "draws": "9",
+            "losses": "11",
+            "goals_for": "35",
+            "goals_against": "43",
+            "goal_difference": "-8",
+            "points": "33",
             "corners": {
-                "8.5": "67%",
-                "9.5": "52%",
-                "10.5": "33%",
-                "11.5": "15%",
-                "12.5": "11%",
-                "13.5": "4%",
-                "average": "9.37"
+                "8.5": "61%",
+                "9.5": "50%",
+                "10.5": "43%",
+                "11.5": "32%",
+                "12.5": "21%",
+                "13.5": "14%",
+                "average": "9.5"
             },
             "goals": {
-                "1.5": "76%",
-                "2.5": "47%",
-                "3.5": "20%"
-            },
-            "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
-            "team": "Augsburg",
-            "position": "10",
-            "matches_played": "27",
-            "wins": "9",
-            "draws": "4",
-            "losses": "14",
-            "goals_for": "33",
-            "goals_against": "50",
-            "goal_difference": "-17",
-            "points": "31",
-            "corners": {
-                "8.5": "59%",
-                "9.5": "52%",
-                "10.5": "41%",
-                "11.5": "41%",
-                "12.5": "26%",
-                "13.5": "26%",
-                "average": "9.92"
-            },
-            "goals": {
-                "1.5": "78%",
-                "2.5": "51%",
-                "3.5": "24%"
+                "1.5": "75%",
+                "2.5": "46%",
+                "3.5": "19%"
             },
             "cards": {
                 "over_3_5": "71%",
@@ -337,67 +303,169 @@
                 "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "60%"
+                "Yes": "45%"
             }
         },
         {
-            "team": "Hamburger SV",
-            "position": "11",
-            "matches_played": "27",
-            "wins": "7",
-            "draws": "9",
-            "losses": "11",
-            "goals_for": "31",
-            "goals_against": "40",
-            "goal_difference": "-9",
-            "points": "30",
+            "team": "Union Berlin",
+            "position": "10",
+            "matches_played": "28",
+            "wins": "8",
+            "draws": "8",
+            "losses": "12",
+            "goals_for": "32",
+            "goals_against": "47",
+            "goal_difference": "-15",
+            "points": "32",
             "corners": {
-                "8.5": "56%",
-                "9.5": "37%",
-                "10.5": "26%",
-                "11.5": "26%",
-                "12.5": "19%",
-                "13.5": "7%",
-                "average": "9.26"
+                "8.5": "68%",
+                "9.5": "50%",
+                "10.5": "32%",
+                "11.5": "14%",
+                "12.5": "11%",
+                "13.5": "4%",
+                "average": "9.36"
             },
             "goals": {
-                "1.5": "72%",
-                "2.5": "43%",
-                "3.5": "17%"
+                "1.5": "75%",
+                "2.5": "46%",
+                "3.5": "20%"
             },
             "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
             },
             "btts": {
                 "Yes": "50%"
             }
         },
         {
-            "team": "Mainz 05",
-            "position": "12",
-            "matches_played": "27",
-            "wins": "7",
-            "draws": "9",
-            "losses": "11",
-            "goals_for": "33",
-            "goals_against": "42",
-            "goal_difference": "-9",
-            "points": "30",
+            "team": "Augsburg",
+            "position": "11",
+            "matches_played": "28",
+            "wins": "9",
+            "draws": "5",
+            "losses": "14",
+            "goals_for": "34",
+            "goals_against": "51",
+            "goal_difference": "-17",
+            "points": "32",
             "corners": {
-                "8.5": "59%",
-                "9.5": "48%",
-                "10.5": "44%",
-                "11.5": "33%",
-                "12.5": "22%",
-                "13.5": "15%",
-                "average": "9.48"
+                "8.5": "61%",
+                "9.5": "54%",
+                "10.5": "43%",
+                "11.5": "39%",
+                "12.5": "25%",
+                "13.5": "25%",
+                "average": "9.96"
             },
             "goals": {
-                "1.5": "75%",
-                "2.5": "46%",
-                "3.5": "19%"
+                "1.5": "77%",
+                "2.5": "51%",
+                "3.5": "23%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "53%"
+            }
+        },
+        {
+            "team": "Hamburger SV",
+            "position": "12",
+            "matches_played": "28",
+            "wins": "7",
+            "draws": "10",
+            "losses": "11",
+            "goals_for": "32",
+            "goals_against": "41",
+            "goal_difference": "-9",
+            "points": "31",
+            "corners": {
+                "8.5": "57%",
+                "9.5": "39%",
+                "10.5": "29%",
+                "11.5": "25%",
+                "12.5": "18%",
+                "13.5": "7%",
+                "average": "9.32"
+            },
+            "goals": {
+                "1.5": "71%",
+                "2.5": "42%",
+                "3.5": "17%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Borussia M'gladbach",
+            "position": "13",
+            "matches_played": "28",
+            "wins": "7",
+            "draws": "9",
+            "losses": "12",
+            "goals_for": "35",
+            "goals_against": "48",
+            "goal_difference": "-13",
+            "points": "30",
+            "corners": {
+                "8.5": "50%",
+                "9.5": "36%",
+                "10.5": "21%",
+                "11.5": "18%",
+                "12.5": "14%",
+                "13.5": "7%",
+                "average": "8.64"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "49%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Werder Bremen",
+            "position": "14",
+            "matches_played": "28",
+            "wins": "7",
+            "draws": "7",
+            "losses": "14",
+            "goals_for": "31",
+            "goals_against": "49",
+            "goal_difference": "-18",
+            "points": "28",
+            "corners": {
+                "8.5": "54%",
+                "9.5": "54%",
+                "10.5": "39%",
+                "11.5": "36%",
+                "12.5": "29%",
+                "13.5": "14%",
+                "average": "9.11"
+            },
+            "goals": {
+                "1.5": "76%",
+                "2.5": "47%",
+                "3.5": "20%"
             },
             "cards": {
                 "over_3_5": "79%",
@@ -409,29 +477,29 @@
             }
         },
         {
-            "team": "Borussia M'gladbach",
-            "position": "13",
-            "matches_played": "27",
-            "wins": "7",
-            "draws": "8",
-            "losses": "12",
-            "goals_for": "33",
-            "goals_against": "46",
-            "goal_difference": "-13",
-            "points": "29",
+            "team": "Köln",
+            "position": "15",
+            "matches_played": "28",
+            "wins": "6",
+            "draws": "9",
+            "losses": "13",
+            "goals_for": "40",
+            "goals_against": "49",
+            "goal_difference": "-9",
+            "points": "27",
             "corners": {
-                "8.5": "52%",
-                "9.5": "37%",
-                "10.5": "22%",
-                "11.5": "19%",
-                "12.5": "15%",
-                "13.5": "7%",
-                "average": "8.78"
+                "8.5": "61%",
+                "9.5": "46%",
+                "10.5": "39%",
+                "11.5": "29%",
+                "12.5": "29%",
+                "13.5": "21%",
+                "average": "10.18"
             },
             "goals": {
-                "1.5": "76%",
-                "2.5": "49%",
-                "3.5": "21%"
+                "1.5": "79%",
+                "2.5": "53%",
+                "3.5": "25%"
             },
             "cards": {
                 "over_3_5": "73%",
@@ -439,33 +507,101 @@
                 "over_5_5": "33%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "60%"
             }
         },
         {
-            "team": "Werder Bremen",
-            "position": "14",
-            "matches_played": "27",
-            "wins": "7",
+            "team": "St. Pauli",
+            "position": "16",
+            "matches_played": "28",
+            "wins": "6",
             "draws": "7",
-            "losses": "13",
-            "goals_for": "30",
-            "goals_against": "47",
-            "goal_difference": "-17",
-            "points": "28",
+            "losses": "15",
+            "goals_for": "25",
+            "goals_against": "45",
+            "goal_difference": "-20",
+            "points": "25",
             "corners": {
-                "8.5": "56%",
-                "9.5": "56%",
-                "10.5": "41%",
-                "11.5": "37%",
-                "12.5": "30%",
-                "13.5": "15%",
-                "average": "9.41"
+                "8.5": "68%",
+                "9.5": "54%",
+                "10.5": "39%",
+                "11.5": "29%",
+                "12.5": "18%",
+                "13.5": "14%",
+                "average": "9.47"
             },
             "goals": {
-                "1.5": "76%",
-                "2.5": "47%",
-                "3.5": "20%"
+                "1.5": "69%",
+                "2.5": "40%",
+                "3.5": "15%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "49%"
+            }
+        },
+        {
+            "team": "Wolfsburg",
+            "position": "17",
+            "matches_played": "28",
+            "wins": "5",
+            "draws": "6",
+            "losses": "17",
+            "goals_for": "38",
+            "goals_against": "63",
+            "goal_difference": "-25",
+            "points": "21",
+            "corners": {
+                "8.5": "79%",
+                "9.5": "75%",
+                "10.5": "64%",
+                "11.5": "50%",
+                "12.5": "36%",
+                "13.5": "32%",
+                "average": "11.72"
+            },
+            "goals": {
+                "1.5": "83%",
+                "2.5": "59%",
+                "3.5": "31%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "59%"
+            }
+        },
+        {
+            "team": "Heidenheim",
+            "position": "18",
+            "matches_played": "28",
+            "wins": "3",
+            "draws": "7",
+            "losses": "18",
+            "goals_for": "29",
+            "goals_against": "63",
+            "goal_difference": "-34",
+            "points": "16",
+            "corners": {
+                "8.5": "57%",
+                "9.5": "39%",
+                "10.5": "32%",
+                "11.5": "32%",
+                "12.5": "25%",
+                "13.5": "21%",
+                "average": "9.29"
+            },
+            "goals": {
+                "1.5": "80%",
+                "2.5": "54%",
+                "3.5": "27%"
             },
             "cards": {
                 "over_3_5": "70%",
@@ -473,144 +609,8 @@
                 "over_5_5": "30%"
             },
             "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Köln",
-            "position": "15",
-            "matches_played": "27",
-            "wins": "6",
-            "draws": "8",
-            "losses": "13",
-            "goals_for": "38",
-            "goals_against": "47",
-            "goal_difference": "-9",
-            "points": "26",
-            "corners": {
-                "8.5": "63%",
-                "9.5": "48%",
-                "10.5": "41%",
-                "11.5": "30%",
-                "12.5": "30%",
-                "13.5": "22%",
-                "average": "10.26"
-            },
-            "goals": {
-                "1.5": "78%",
-                "2.5": "52%",
-                "3.5": "25%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
-            "team": "St. Pauli",
-            "position": "16",
-            "matches_played": "27",
-            "wins": "6",
-            "draws": "6",
-            "losses": "15",
-            "goals_for": "24",
-            "goals_against": "44",
-            "goal_difference": "-20",
-            "points": "24",
-            "corners": {
-                "8.5": "67%",
-                "9.5": "56%",
-                "10.5": "41%",
-                "11.5": "30%",
-                "12.5": "19%",
-                "13.5": "15%",
-                "average": "9.48"
-            },
-            "goals": {
-                "1.5": "70%",
-                "2.5": "40%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Wolfsburg",
-            "position": "17",
-            "matches_played": "27",
-            "wins": "5",
-            "draws": "6",
-            "losses": "16",
-            "goals_for": "35",
-            "goals_against": "57",
-            "goal_difference": "-22",
-            "points": "21",
-            "corners": {
-                "8.5": "78%",
-                "9.5": "74%",
-                "10.5": "63%",
-                "11.5": "48%",
-                "12.5": "33%",
-                "13.5": "30%",
-                "average": "11.63"
-            },
-            "goals": {
-                "1.5": "81%",
-                "2.5": "56%",
-                "3.5": "29%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
                 "Yes": "51%"
-            }
-        },
-        {
-            "team": "Heidenheim",
-            "position": "18",
-            "matches_played": "27",
-            "wins": "3",
-            "draws": "6",
-            "losses": "18",
-            "goals_for": "27",
-            "goals_against": "61",
-            "goal_difference": "-34",
-            "points": "15",
-            "corners": {
-                "8.5": "59%",
-                "9.5": "41%",
-                "10.5": "33%",
-                "11.5": "33%",
-                "12.5": "26%",
-                "13.5": "22%",
-                "average": "9.45"
-            },
-            "goals": {
-                "1.5": "80%",
-                "2.5": "54%",
-                "3.5": "26%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "50%"
             }
         }
     ]
-,"last_updated":"2026-04-10T15:47:43Z"}
+,"last_updated":"2026-04-10T19:52:47Z"}
