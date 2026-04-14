@@ -1,91 +1,49 @@
 [
     {
-        "hora": "12.04. 22:00",
-        "emparejamiento": "BOS @ ORL",
+        "hora": "14.04. 23:30",
+        "emparejamiento": "BKN @ MIA",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "12.04. 22:00",
-        "emparejamiento": "CLE @ WAS",
+        "hora": "15.04. 02:00",
+        "emparejamiento": "PHX @ POR",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "12.04. 22:00",
-        "emparejamiento": "IND @ DET",
+        "hora": "15.04. 23:30",
+        "emparejamiento": "PHI @ ORL",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "12.04. 22:00",
-        "emparejamiento": "MIA @ ATL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "12.04. 22:00",
-        "emparejamiento": "NYK @ BKN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "12.04. 22:00",
-        "emparejamiento": "PHI @ MIL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "12.04. 22:00",
-        "emparejamiento": "TOR @ BKN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "13.04. 00:30",
-        "emparejamiento": "DAL @ CHI",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "13.04. 00:30",
-        "emparejamiento": "HOU @ MEM",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "13.04. 00:30",
+        "hora": "16.04. 02:00",
         "emparejamiento": "LAC @ GSW",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "13.04. 00:30",
-        "emparejamiento": "LAL @ UTA",
+        "hora": "18.04. 17:00",
+        "emparejamiento": "CLE @ TOR",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "13.04. 00:30",
-        "emparejamiento": "MIN @ NOP",
+        "hora": "18.04. 19:30",
+        "emparejamiento": "DEN @ MIN",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "13.04. 00:30",
-        "emparejamiento": "OKC @ PHX",
+        "hora": "18.04. 22:00",
+        "emparejamiento": "NYK @ ATL",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "13.04. 00:30",
-        "emparejamiento": "POR @ SAC",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "13.04. 00:30",
-        "emparejamiento": "SAS @ DEN",
+        "hora": "19.04. 00:30",
+        "emparejamiento": "LAL @ HOU",
         "resultado": "vs",
         "ubicacion": ""
     }
