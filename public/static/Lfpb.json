@@ -1,50 +1,84 @@
 {
     "teams": [
         {
-            "team": "Blooming",
+            "team": "Bolívar",
             "position": "1",
-            "matches_played": "1",
-            "wins": "1",
+            "matches_played": "2",
+            "wins": "2",
             "draws": "0",
             "losses": "0",
-            "goals_for": "5",
-            "goals_against": "0",
+            "goals_for": "7",
+            "goals_against": "2",
             "goal_difference": "5",
-            "points": "3",
+            "points": "6",
             "corners": {
                 "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "0%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
+                "13.5": "50%",
+                "average": "11.5"
+            },
+            "goals": {
+                "1.5": "92%",
+                "2.5": "72%",
+                "3.5": "42%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "68%"
+            }
+        },
+        {
+            "team": "Nacional Potosí",
+            "position": "2",
+            "matches_played": "2",
+            "wins": "2",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "4",
+            "goals_against": "0",
+            "goal_difference": "4",
+            "points": "6",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "50%",
+                "10.5": "50%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
                 "average": "10"
             },
             "goals": {
-                "1.5": "95%",
-                "2.5": "80%",
-                "3.5": "48%"
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
             },
             "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "85%"
+                "Yes": "49%"
             }
         },
         {
-            "team": "Always Ready",
-            "position": "2",
-            "matches_played": "1",
-            "wins": "1",
+            "team": "The Strongest",
+            "position": "3",
+            "matches_played": "2",
+            "wins": "2",
             "draws": "0",
             "losses": "0",
-            "goals_for": "4",
-            "goals_against": "0",
-            "goal_difference": "4",
-            "points": "3",
+            "goals_for": "5",
+            "goals_against": "3",
+            "goal_difference": "2",
+            "points": "6",
             "corners": {
                 "8.5": "100%",
                 "9.5": "100%",
@@ -60,33 +94,67 @@
                 "3.5": "36%"
             },
             "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
             },
             "btts": {
                 "Yes": "70%"
             }
         },
         {
-            "team": "Nacional Potosí",
-            "position": "3",
-            "matches_played": "1",
+            "team": "Blooming",
+            "position": "4",
+            "matches_played": "2",
             "wins": "1",
-            "draws": "0",
+            "draws": "1",
             "losses": "0",
-            "goals_for": "3",
-            "goals_against": "0",
-            "goal_difference": "3",
-            "points": "3",
+            "goals_for": "7",
+            "goals_against": "2",
+            "goal_difference": "5",
+            "points": "4",
             "corners": {
                 "8.5": "100%",
-                "9.5": "0%",
+                "9.5": "100%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "9"
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "92%",
+                "2.5": "72%",
+                "3.5": "42%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "67%"
+            }
+        },
+        {
+            "team": "Always Ready",
+            "position": "5",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "1",
+            "losses": "0",
+            "goals_for": "5",
+            "goals_against": "1",
+            "goal_difference": "4",
+            "points": "4",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
+                "13.5": "50%",
+                "average": "12.5"
             },
             "goals": {
                 "1.5": "77%",
@@ -94,58 +162,24 @@
                 "3.5": "22%"
             },
             "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
             },
             "btts": {
                 "Yes": "58%"
             }
         },
         {
-            "team": "Bolívar",
-            "position": "4",
-            "matches_played": "1",
-            "wins": "1",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "5",
-            "goals_against": "2",
-            "goal_difference": "3",
-            "points": "3",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "9"
-            },
-            "goals": {
-                "1.5": "95%",
-                "2.5": "85%",
-                "3.5": "65%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "82%"
-            }
-        },
-        {
             "team": "San Antonio Bulo Bulo",
-            "position": "5",
-            "matches_played": "1",
+            "position": "6",
+            "matches_played": "2",
             "wins": "1",
             "draws": "0",
-            "losses": "0",
-            "goals_for": "2",
-            "goals_against": "0",
-            "goal_difference": "2",
+            "losses": "1",
+            "goals_for": "4",
+            "goals_against": "3",
+            "goal_difference": "1",
             "points": "3",
             "corners": {
                 "8.5": "100%",
@@ -157,9 +191,9 @@
                 "average": "10"
             },
             "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
+                "1.5": "82%",
+                "2.5": "58%",
+                "3.5": "30%"
             },
             "cards": {
                 "over_3_5": "71%",
@@ -172,109 +206,109 @@
         },
         {
             "team": "ABB",
-            "position": "6",
-            "matches_played": "1",
-            "wins": "1",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "2",
-            "goals_against": "1",
-            "goal_difference": "1",
-            "points": "3",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "6"
-            },
-            "goals": {
-                "1.5": "77%",
-                "2.5": "50%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "55%"
-            }
-        },
-        {
-            "team": "The Strongest",
             "position": "7",
-            "matches_played": "1",
+            "matches_played": "2",
             "wins": "1",
             "draws": "0",
-            "losses": "0",
+            "losses": "1",
             "goals_for": "2",
-            "goals_against": "1",
-            "goal_difference": "1",
+            "goals_against": "3",
+            "goal_difference": "-1",
             "points": "3",
             "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
+                "8.5": "50%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
+                "13.5": "50%",
                 "average": "10"
             },
             "goals": {
-                "1.5": "77%",
-                "2.5": "50%",
-                "3.5": "22%"
+                "1.5": "69%",
+                "2.5": "40%",
+                "3.5": "15%"
             },
             "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "59%"
-            }
-        },
-        {
-            "team": "Aurora",
-            "position": "8",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "1",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
             },
             "btts": {
                 "Yes": "48%"
             }
         },
         {
-            "team": "Real Potosí",
+            "team": "Oriente Petrolero",
+            "position": "8",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "2",
+            "goals_against": "3",
+            "goal_difference": "-1",
+            "points": "3",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "69%",
+                "2.5": "40%",
+                "3.5": "15%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Aurora",
             "position": "9",
+            "matches_played": "2",
+            "wins": "0",
+            "draws": "2",
+            "losses": "0",
+            "goals_for": "1",
+            "goals_against": "1",
+            "goal_difference": "0",
+            "points": "2",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
+                "13.5": "50%",
+                "average": "12.5"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "15%",
+                "3.5": "6%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Real Potosí",
+            "position": "10",
             "matches_played": "1",
             "wins": "0",
             "draws": "1",
@@ -298,111 +332,9 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "GV San Jose",
-            "position": "10",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "1",
-            "goals_against": "2",
-            "goal_difference": "-1",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "6"
-            },
-            "goals": {
-                "1.5": "77%",
-                "2.5": "50%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
-            },
-            "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
-            "team": "Universitario de Vinto",
-            "position": "11",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "1",
-            "goals_against": "2",
-            "goal_difference": "-1",
-            "points": "0",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "77%",
-                "2.5": "50%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "56%"
-            }
-        },
-        {
-            "team": "Oriente Petrolero",
-            "position": "12",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "0",
-            "goals_against": "2",
-            "goal_difference": "-2",
-            "points": "0",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
             },
             "btts": {
                 "Yes": "45%"
@@ -410,15 +342,15 @@
         },
         {
             "team": "Independiente Petrolero",
-            "position": "13",
-            "matches_played": "1",
+            "position": "11",
+            "matches_played": "2",
             "wins": "0",
-            "draws": "0",
+            "draws": "1",
             "losses": "1",
-            "goals_for": "0",
-            "goals_against": "3",
+            "goals_for": "2",
+            "goals_against": "5",
             "goal_difference": "-3",
-            "points": "0",
+            "points": "1",
             "corners": {
                 "8.5": "100%",
                 "9.5": "0%",
@@ -429,14 +361,14 @@
                 "average": "9"
             },
             "goals": {
-                "1.5": "77%",
-                "2.5": "50%",
-                "3.5": "22%"
+                "1.5": "82%",
+                "2.5": "58%",
+                "3.5": "30%"
             },
             "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
             },
             "btts": {
                 "Yes": "51%"
@@ -444,15 +376,15 @@
         },
         {
             "team": "Real Oruro",
-            "position": "14",
-            "matches_played": "1",
+            "position": "12",
+            "matches_played": "2",
             "wins": "0",
-            "draws": "0",
+            "draws": "1",
             "losses": "1",
-            "goals_for": "2",
-            "goals_against": "5",
+            "goals_for": "4",
+            "goals_against": "7",
             "goal_difference": "-3",
-            "points": "0",
+            "points": "1",
             "corners": {
                 "8.5": "100%",
                 "9.5": "0%",
@@ -465,20 +397,122 @@
             "goals": {
                 "1.5": "95%",
                 "2.5": "85%",
-                "3.5": "65%"
+                "3.5": "54%"
             },
             "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
             },
             "btts": {
                 "Yes": "83%"
             }
         },
         {
-            "team": "Real Tomayapo",
+            "team": "Guabirá",
+            "position": "13",
+            "matches_played": "2",
+            "wins": "0",
+            "draws": "1",
+            "losses": "1",
+            "goals_for": "2",
+            "goals_against": "7",
+            "goal_difference": "-5",
+            "points": "1",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "50%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "9.5"
+            },
+            "goals": {
+                "1.5": "92%",
+                "2.5": "72%",
+                "3.5": "42%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "68%"
+            }
+        },
+        {
+            "team": "Universitario de Vinto",
+            "position": "14",
+            "matches_played": "2",
+            "wins": "0",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "1",
+            "goals_against": "3",
+            "goal_difference": "-2",
+            "points": "0",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "50%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10.5"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "GV San Jose",
             "position": "15",
+            "matches_played": "2",
+            "wins": "0",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "2",
+            "goals_against": "4",
+            "goal_difference": "-2",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "6"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "54%"
+            }
+        },
+        {
+            "team": "Real Tomayapo",
+            "position": "16",
             "matches_played": "1",
             "wins": "0",
             "draws": "0",
@@ -502,47 +536,13 @@
                 "3.5": "36%"
             },
             "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
             },
             "btts": {
-                "Yes": "67%"
-            }
-        },
-        {
-            "team": "Guabirá",
-            "position": "16",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "0",
-            "goals_against": "5",
-            "goal_difference": "-5",
-            "points": "0",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "95%",
-                "2.5": "80%",
-                "3.5": "48%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "81%"
+                "Yes": "70%"
             }
         }
     ]
-,"last_updated":"2026-04-13T18:17:30Z"}
+,"last_updated":"2026-04-15T18:24:06Z"}
