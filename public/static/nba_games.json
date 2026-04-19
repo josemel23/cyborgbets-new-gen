@@ -1,17 +1,5 @@
 [
     {
-        "hora": "19.04. 17:00",
-        "emparejamiento": "BOS @ PHI",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "19.04. 19:30",
-        "emparejamiento": "OKC @ PHX",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "19.04. 22:30",
         "emparejamiento": "DET @ ORL",
         "resultado": "vs",
@@ -86,6 +74,18 @@
     {
         "hora": "24.04. 01:30",
         "emparejamiento": "MIN @ DEN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "24.04. 23:00",
+        "emparejamiento": "PHI @ BOS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "25.04. 00:00",
+        "emparejamiento": "HOU @ LAL",
         "resultado": "vs",
         "ubicacion": ""
     }
