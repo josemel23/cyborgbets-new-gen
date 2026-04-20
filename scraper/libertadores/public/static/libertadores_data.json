@@ -1,32 +1,32 @@
 {
     "teams": [
         {
-            "team": "Estudiantes de La Plata",
+            "team": "Flamengo",
             "position": "1",
             "matches_played": "2",
-            "wins": "1",
-            "draws": "1",
+            "wins": "2",
+            "draws": "0",
             "losses": "0",
-            "goals_for": "3",
-            "goals_against": "2",
-            "goal_difference": "1",
-            "points": "4",
+            "goals_for": "6",
+            "goals_against": "1",
+            "goal_difference": "5",
+            "points": "6",
             "btts": {
-                "Yes": "1"
+                "Yes": "0"
             },
             "cards": {
-                "over_3_5": "1",
-                "over_4_5": "1",
+                "over_3_5": "2",
+                "over_4_5": "0",
                 "over_5_5": "0"
             },
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
+                "8.5": "50%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "6"
+                "average": "9"
             },
             "goals": {
                 "1.5": "N/A",
@@ -171,32 +171,32 @@
             }
         },
         {
-            "team": "Sporting Cristal",
+            "team": "Palmeiras",
             "position": "1",
-            "matches_played": "1",
+            "matches_played": "2",
             "wins": "1",
-            "draws": "0",
+            "draws": "1",
             "losses": "0",
-            "goals_for": "1",
-            "goals_against": "0",
+            "goals_for": "3",
+            "goals_against": "2",
             "goal_difference": "1",
-            "points": "3",
+            "points": "4",
             "btts": {
-                "Yes": "0"
+                "Yes": "1"
             },
             "cards": {
                 "over_3_5": "1",
-                "over_4_5": "0",
+                "over_4_5": "1",
                 "over_5_5": "0"
             },
             "corners": {
-                "8.5": "50%",
-                "9.5": "50%",
-                "10.5": "33%",
-                "11.5": "17%",
-                "12.5": "0%",
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "50%",
+                "12.5": "50%",
                 "13.5": "0%",
-                "average": "9"
+                "average": "12"
             },
             "goals": {
                 "1.5": "N/A",
@@ -273,32 +273,32 @@
             }
         },
         {
-            "team": "Flamengo",
+            "team": "Estudiantes de La Plata",
             "position": "2",
-            "matches_played": "1",
+            "matches_played": "2",
             "wins": "1",
-            "draws": "0",
+            "draws": "1",
             "losses": "0",
-            "goals_for": "2",
-            "goals_against": "0",
-            "goal_difference": "2",
-            "points": "3",
+            "goals_for": "3",
+            "goals_against": "2",
+            "goal_difference": "1",
+            "points": "4",
             "btts": {
-                "Yes": "0"
+                "Yes": "1"
             },
             "cards": {
                 "over_3_5": "1",
-                "over_4_5": "0",
+                "over_4_5": "1",
                 "over_5_5": "0"
             },
             "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "100%",
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "12"
+                "average": "6"
             },
             "goals": {
                 "1.5": "N/A",
@@ -409,23 +409,23 @@
             }
         },
         {
-            "team": "Peñarol",
+            "team": "Platense",
             "position": "2",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "1",
-            "goal_difference": "0",
-            "points": "1",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "2",
+            "goals_against": "3",
+            "goal_difference": "-1",
+            "points": "3",
             "btts": {
-                "Yes": "1"
+                "Yes": "0"
             },
             "cards": {
-                "over_3_5": "0",
-                "over_4_5": "1",
-                "over_5_5": "0"
+                "over_3_5": "1",
+                "over_4_5": "0",
+                "over_5_5": "1"
             },
             "corners": {
                 "8.5": "0%",
@@ -434,7 +434,7 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "8"
+                "average": "3.5"
             },
             "goals": {
                 "1.5": "N/A",
@@ -477,15 +477,15 @@
             }
         },
         {
-            "team": "Mirassol",
+            "team": "Lanús",
             "position": "2",
             "matches_played": "2",
             "wins": "1",
             "draws": "0",
             "losses": "1",
             "goals_for": "1",
-            "goals_against": "2",
-            "goal_difference": "-1",
+            "goals_against": "1",
+            "goal_difference": "0",
             "points": "3",
             "btts": {
                 "Yes": "0"
@@ -496,13 +496,13 @@
                 "over_5_5": "1"
             },
             "corners": {
-                "8.5": "50%",
-                "9.5": "50%",
-                "10.5": "50%",
-                "11.5": "50%",
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
                 "12.5": "50%",
                 "13.5": "0%",
-                "average": "9.5"
+                "average": "12.5"
             },
             "goals": {
                 "1.5": "N/A",
@@ -547,13 +547,13 @@
         {
             "team": "Independiente Medellín",
             "position": "3",
-            "matches_played": "1",
+            "matches_played": "2",
             "wins": "0",
             "draws": "1",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "1",
-            "goal_difference": "0",
+            "losses": "1",
+            "goals_for": "2",
+            "goals_against": "5",
+            "goal_difference": "-3",
             "points": "1",
             "btts": {
                 "Yes": "1"
@@ -561,16 +561,16 @@
             "cards": {
                 "over_3_5": "0",
                 "over_4_5": "1",
-                "over_5_5": "0"
+                "over_5_5": "1"
             },
             "corners": {
-                "8.5": "40%",
-                "9.5": "20%",
-                "10.5": "20%",
+                "8.5": "33%",
+                "9.5": "17%",
+                "10.5": "17%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "8.6"
+                "average": "8.17"
             },
             "goals": {
                 "1.5": "N/A",
@@ -681,15 +681,15 @@
             }
         },
         {
-            "team": "Santa Fe",
+            "team": "Peñarol",
             "position": "3",
             "matches_played": "2",
             "wins": "0",
             "draws": "1",
             "losses": "1",
-            "goals_for": "1",
+            "goals_for": "2",
             "goals_against": "3",
-            "goal_difference": "-2",
+            "goal_difference": "-1",
             "points": "1",
             "btts": {
                 "Yes": "1"
@@ -697,6 +697,74 @@
             "cards": {
                 "over_3_5": "0",
                 "over_4_5": "1",
+                "over_5_5": "1"
+            },
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "4.5"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Sporting Cristal",
+            "position": "3",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "2",
+            "goals_against": "2",
+            "goal_difference": "0",
+            "points": "3",
+            "btts": {
+                "Yes": "0"
+            },
+            "cards": {
+                "over_3_5": "1",
+                "over_4_5": "0",
+                "over_5_5": "1"
+            },
+            "corners": {
+                "8.5": "50%",
+                "9.5": "50%",
+                "10.5": "33%",
+                "11.5": "17%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "9"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Mirassol",
+            "position": "3",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "1",
+            "goals_against": "2",
+            "goal_difference": "-1",
+            "points": "3",
+            "btts": {
+                "Yes": "0"
+            },
+            "cards": {
+                "over_3_5": "1",
+                "over_4_5": "0",
                 "over_5_5": "1"
             },
             "corners": {
@@ -706,75 +774,7 @@
                 "11.5": "50%",
                 "12.5": "50%",
                 "13.5": "0%",
-                "average": "10.5"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Palmeiras",
-            "position": "3",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "1",
-            "goal_difference": "0",
-            "points": "1",
-            "btts": {
-                "Yes": "1"
-            },
-            "cards": {
-                "over_3_5": "0",
-                "over_4_5": "1",
-                "over_5_5": "0"
-            },
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "50%",
-                "12.5": "50%",
-                "13.5": "0%",
-                "average": "12"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Always Ready",
-            "position": "3",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "0",
-            "goals_against": "1",
-            "goal_difference": "-1",
-            "points": "0",
-            "btts": {
-                "Yes": "0"
-            },
-            "cards": {
-                "over_3_5": "0",
-                "over_4_5": "0",
-                "over_5_5": "1"
-            },
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "100%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "12"
+                "average": "9.5"
             },
             "goals": {
                 "1.5": "N/A",
@@ -953,32 +953,32 @@
             }
         },
         {
-            "team": "Platense",
+            "team": "Santa Fe",
             "position": "4",
-            "matches_played": "1",
+            "matches_played": "2",
             "wins": "0",
-            "draws": "0",
+            "draws": "1",
             "losses": "1",
-            "goals_for": "0",
-            "goals_against": "2",
+            "goals_for": "1",
+            "goals_against": "3",
             "goal_difference": "-2",
-            "points": "0",
+            "points": "1",
             "btts": {
-                "Yes": "0"
+                "Yes": "1"
             },
             "cards": {
                 "over_3_5": "0",
-                "over_4_5": "0",
+                "over_4_5": "1",
                 "over_5_5": "1"
             },
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
+                "8.5": "50%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
                 "13.5": "0%",
-                "average": "6"
+                "average": "10.5"
             },
             "goals": {
                 "1.5": "N/A",
@@ -1021,15 +1021,15 @@
             }
         },
         {
-            "team": "Lanús",
+            "team": "Always Ready",
             "position": "4",
-            "matches_played": "1",
+            "matches_played": "2",
             "wins": "0",
             "draws": "0",
-            "losses": "1",
+            "losses": "2",
             "goals_for": "0",
-            "goals_against": "1",
-            "goal_difference": "-1",
+            "goals_against": "2",
+            "goal_difference": "-2",
             "points": "0",
             "btts": {
                 "Yes": "0"
@@ -1037,16 +1037,16 @@
             "cards": {
                 "over_3_5": "0",
                 "over_4_5": "0",
-                "over_5_5": "1"
+                "over_5_5": "2"
             },
             "corners": {
                 "8.5": "100%",
                 "9.5": "100%",
                 "10.5": "100%",
                 "11.5": "100%",
-                "12.5": "50%",
+                "12.5": "0%",
                 "13.5": "0%",
-                "average": "12.5"
+                "average": "12"
             },
             "goals": {
                 "1.5": "N/A",
@@ -1185,10 +1185,10 @@
             }
         },
         {
-            "team": "Bahia",
+            "team": "Botafogo",
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
+                "8.5": "25%",
+                "9.5": "25%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
@@ -1197,10 +1197,10 @@
             }
         },
         {
-            "team": "Botafogo",
+            "team": "Bahia",
             "corners": {
-                "8.5": "25%",
-                "9.5": "25%",
+                "8.5": "0%",
+                "9.5": "0%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
