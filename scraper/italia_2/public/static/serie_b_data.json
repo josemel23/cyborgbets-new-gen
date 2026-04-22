@@ -3,14 +3,14 @@
         {
             "team": "Venezia",
             "position": "1",
-            "matches_played": "34",
-            "wins": "21",
+            "matches_played": "35",
+            "wins": "22",
             "draws": "9",
             "losses": "4",
-            "goals_for": "68",
+            "goals_for": "71",
             "goals_against": "29",
-            "goal_difference": "39",
-            "points": "72",
+            "goal_difference": "42",
+            "points": "75",
             "corners": {
                 "8.5": "60%",
                 "9.5": "43%",
@@ -26,17 +26,51 @@
                 "3.5": "20%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "48%"
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Frosinone",
+            "position": "2",
+            "matches_played": "35",
+            "wins": "20",
+            "draws": "12",
+            "losses": "3",
+            "goals_for": "67",
+            "goals_against": "34",
+            "goal_difference": "33",
+            "points": "72",
+            "corners": {
+                "8.5": "69%",
+                "9.5": "57%",
+                "10.5": "43%",
+                "11.5": "37%",
+                "12.5": "23%",
+                "13.5": "3%",
+                "average": "9.91"
+            },
+            "goals": {
+                "1.5": "76%",
+                "2.5": "48%",
+                "3.5": "21%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "45%"
             }
         },
         {
             "team": "Monza",
-            "position": "2",
+            "position": "3",
             "matches_played": "35",
             "wins": "21",
             "draws": "9",
@@ -60,59 +94,25 @@
                 "3.5": "14%"
             },
             "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Frosinone",
-            "position": "3",
-            "matches_played": "34",
-            "wins": "19",
-            "draws": "12",
-            "losses": "3",
-            "goals_for": "65",
-            "goals_against": "33",
-            "goal_difference": "32",
-            "points": "69",
-            "corners": {
-                "8.5": "69%",
-                "9.5": "57%",
-                "10.5": "43%",
-                "11.5": "37%",
-                "12.5": "23%",
-                "13.5": "3%",
-                "average": "9.91"
-            },
-            "goals": {
-                "1.5": "76%",
-                "2.5": "48%",
-                "3.5": "21%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "45%"
+                "Yes": "48%"
             }
         },
         {
             "team": "Palermo",
             "position": "4",
-            "matches_played": "34",
-            "wins": "18",
+            "matches_played": "35",
+            "wins": "19",
             "draws": "11",
             "losses": "5",
-            "goals_for": "55",
+            "goals_for": "57",
             "goals_against": "28",
-            "goal_difference": "27",
-            "points": "65",
+            "goal_difference": "29",
+            "points": "68",
             "corners": {
                 "8.5": "66%",
                 "9.5": "57%",
@@ -128,25 +128,25 @@
                 "3.5": "15%"
             },
             "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "48%"
+                "Yes": "45%"
             }
         },
         {
             "team": "Catanzaro",
             "position": "5",
-            "matches_played": "34",
+            "matches_played": "35",
             "wins": "14",
-            "draws": "13",
+            "draws": "14",
             "losses": "7",
-            "goals_for": "53",
-            "goals_against": "42",
+            "goals_for": "54",
+            "goals_against": "43",
             "goal_difference": "11",
-            "points": "55",
+            "points": "56",
             "corners": {
                 "8.5": "46%",
                 "9.5": "43%",
@@ -157,29 +157,29 @@
                 "average": "8.74"
             },
             "goals": {
-                "1.5": "75%",
-                "2.5": "46%",
+                "1.5": "74%",
+                "2.5": "45%",
                 "3.5": "19%"
             },
             "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "46%"
+                "Yes": "48%"
             }
         },
         {
             "team": "Modena",
             "position": "6",
-            "matches_played": "34",
+            "matches_played": "35",
             "wins": "14",
             "draws": "10",
-            "losses": "10",
-            "goals_for": "46",
-            "goals_against": "31",
-            "goal_difference": "15",
+            "losses": "11",
+            "goals_for": "47",
+            "goals_against": "33",
+            "goal_difference": "14",
             "points": "52",
             "corners": {
                 "8.5": "57%",
@@ -192,13 +192,13 @@
             },
             "goals": {
                 "1.5": "65%",
-                "2.5": "35%",
+                "2.5": "36%",
                 "3.5": "14%"
             },
             "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
             },
             "btts": {
                 "Yes": "45%"
@@ -207,14 +207,14 @@
         {
             "team": "Juve Stabia",
             "position": "7",
-            "matches_played": "34",
+            "matches_played": "35",
             "wins": "11",
-            "draws": "15",
+            "draws": "16",
             "losses": "8",
-            "goals_for": "41",
-            "goals_against": "41",
+            "goals_for": "42",
+            "goals_against": "42",
             "goal_difference": "0",
-            "points": "48",
+            "points": "49",
             "corners": {
                 "8.5": "46%",
                 "9.5": "29%",
@@ -230,9 +230,9 @@
                 "3.5": "14%"
             },
             "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
             },
             "btts": {
                 "Yes": "45%"
@@ -241,13 +241,13 @@
         {
             "team": "Cesena",
             "position": "8",
-            "matches_played": "34",
+            "matches_played": "35",
             "wins": "12",
             "draws": "8",
-            "losses": "14",
+            "losses": "15",
             "goals_for": "42",
-            "goals_against": "50",
-            "goal_difference": "-8",
+            "goals_against": "52",
+            "goal_difference": "-10",
             "points": "44",
             "corners": {
                 "8.5": "57%",
@@ -264,25 +264,25 @@
                 "3.5": "18%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "49%"
+                "Yes": "45%"
             }
         },
         {
             "team": "Carrarese",
             "position": "9",
-            "matches_played": "34",
+            "matches_played": "35",
             "wins": "10",
-            "draws": "12",
+            "draws": "13",
             "losses": "12",
-            "goals_for": "44",
-            "goals_against": "45",
+            "goals_for": "46",
+            "goals_against": "47",
             "goal_difference": "-1",
-            "points": "42",
+            "points": "43",
             "corners": {
                 "8.5": "71%",
                 "9.5": "66%",
@@ -294,8 +294,42 @@
             },
             "goals": {
                 "1.5": "72%",
-                "2.5": "42%",
+                "2.5": "43%",
                 "3.5": "17%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Avellino",
+            "position": "10",
+            "matches_played": "35",
+            "wins": "11",
+            "draws": "10",
+            "losses": "14",
+            "goals_for": "40",
+            "goals_against": "54",
+            "goal_difference": "-14",
+            "points": "43",
+            "corners": {
+                "8.5": "63%",
+                "9.5": "51%",
+                "10.5": "40%",
+                "11.5": "31%",
+                "12.5": "11%",
+                "13.5": "6%",
+                "average": "9.31"
+            },
+            "goals": {
+                "1.5": "73%",
+                "2.5": "44%",
+                "3.5": "18%"
             },
             "cards": {
                 "over_3_5": "78%",
@@ -308,14 +342,14 @@
         },
         {
             "team": "Südtirol",
-            "position": "10",
-            "matches_played": "34",
+            "position": "11",
+            "matches_played": "35",
             "wins": "8",
             "draws": "16",
-            "losses": "10",
-            "goals_for": "36",
-            "goals_against": "37",
-            "goal_difference": "-1",
+            "losses": "11",
+            "goals_for": "37",
+            "goals_against": "43",
+            "goal_difference": "-6",
             "points": "40",
             "corners": {
                 "8.5": "37%",
@@ -327,14 +361,48 @@
                 "average": "8.34"
             },
             "goals": {
-                "1.5": "63%",
-                "2.5": "33%",
-                "3.5": "13%"
+                "1.5": "65%",
+                "2.5": "36%",
+                "3.5": "14%"
             },
             "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "47%"
+            }
+        },
+        {
+            "team": "Calcio Padova",
+            "position": "12",
+            "matches_played": "35",
+            "wins": "10",
+            "draws": "10",
+            "losses": "15",
+            "goals_for": "34",
+            "goals_against": "45",
+            "goal_difference": "-11",
+            "points": "40",
+            "corners": {
+                "8.5": "60%",
+                "9.5": "54%",
+                "10.5": "43%",
+                "11.5": "34%",
+                "12.5": "17%",
+                "13.5": "11%",
+                "average": "9.77"
+            },
+            "goals": {
+                "1.5": "65%",
+                "2.5": "35%",
+                "3.5": "14%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
             },
             "btts": {
                 "Yes": "45%"
@@ -342,14 +410,14 @@
         },
         {
             "team": "Mantova",
-            "position": "11",
-            "matches_played": "34",
+            "position": "13",
+            "matches_played": "35",
             "wins": "11",
             "draws": "7",
-            "losses": "16",
+            "losses": "17",
             "goals_for": "39",
-            "goals_against": "48",
-            "goal_difference": "-9",
+            "goals_against": "50",
+            "goal_difference": "-11",
             "points": "40",
             "corners": {
                 "8.5": "63%",
@@ -366,9 +434,9 @@
                 "3.5": "16%"
             },
             "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
             },
             "btts": {
                 "Yes": "45%"
@@ -376,7 +444,7 @@
         },
         {
             "team": "Sampdoria",
-            "position": "12",
+            "position": "14",
             "matches_played": "35",
             "wins": "10",
             "draws": "10",
@@ -405,88 +473,20 @@
                 "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "Avellino",
-            "position": "13",
-            "matches_played": "34",
-            "wins": "10",
-            "draws": "10",
-            "losses": "14",
-            "goals_for": "38",
-            "goals_against": "54",
-            "goal_difference": "-16",
-            "points": "40",
-            "corners": {
-                "8.5": "63%",
-                "9.5": "51%",
-                "10.5": "40%",
-                "11.5": "31%",
-                "12.5": "11%",
-                "13.5": "6%",
-                "average": "9.31"
-            },
-            "goals": {
-                "1.5": "73%",
-                "2.5": "44%",
-                "3.5": "18%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Calcio Padova",
-            "position": "14",
-            "matches_played": "34",
-            "wins": "9",
-            "draws": "10",
-            "losses": "15",
-            "goals_for": "33",
-            "goals_against": "45",
-            "goal_difference": "-12",
-            "points": "37",
-            "corners": {
-                "8.5": "60%",
-                "9.5": "54%",
-                "10.5": "43%",
-                "11.5": "34%",
-                "12.5": "17%",
-                "13.5": "11%",
-                "average": "9.77"
-            },
-            "goals": {
-                "1.5": "66%",
-                "2.5": "36%",
-                "3.5": "14%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
                 "Yes": "45%"
             }
         },
         {
             "team": "Empoli",
             "position": "15",
-            "matches_played": "34",
+            "matches_played": "35",
             "wins": "8",
-            "draws": "12",
+            "draws": "13",
             "losses": "14",
-            "goals_for": "43",
-            "goals_against": "49",
+            "goals_for": "44",
+            "goals_against": "50",
             "goal_difference": "-6",
-            "points": "36",
+            "points": "37",
             "corners": {
                 "8.5": "74%",
                 "9.5": "54%",
@@ -502,9 +502,9 @@
                 "3.5": "18%"
             },
             "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
             },
             "btts": {
                 "Yes": "45%"
@@ -513,14 +513,14 @@
         {
             "team": "Virtus Entella",
             "position": "16",
-            "matches_played": "34",
+            "matches_played": "35",
             "wins": "8",
-            "draws": "11",
+            "draws": "12",
             "losses": "15",
-            "goals_for": "32",
-            "goals_against": "47",
+            "goals_for": "33",
+            "goals_against": "48",
             "goal_difference": "-15",
-            "points": "35",
+            "points": "36",
             "corners": {
                 "8.5": "69%",
                 "9.5": "66%",
@@ -536,9 +536,9 @@
                 "3.5": "14%"
             },
             "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
             },
             "btts": {
                 "Yes": "45%"
@@ -547,13 +547,13 @@
         {
             "team": "Bari",
             "position": "17",
-            "matches_played": "34",
+            "matches_played": "35",
             "wins": "8",
             "draws": "10",
-            "losses": "16",
+            "losses": "17",
             "goals_for": "33",
-            "goals_against": "53",
-            "goal_difference": "-20",
+            "goals_against": "56",
+            "goal_difference": "-23",
             "points": "34",
             "corners": {
                 "8.5": "57%",
@@ -567,7 +567,7 @@
             "goals": {
                 "1.5": "70%",
                 "2.5": "41%",
-                "3.5": "15%"
+                "3.5": "16%"
             },
             "cards": {
                 "over_3_5": "72%",
@@ -575,38 +575,38 @@
                 "over_5_5": "32%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "47%"
             }
         },
         {
-            "team": "Reggiana",
+            "team": "Spezia",
             "position": "18",
-            "matches_played": "34",
+            "matches_played": "35",
             "wins": "8",
             "draws": "9",
-            "losses": "17",
-            "goals_for": "33",
+            "losses": "18",
+            "goals_for": "38",
             "goals_against": "52",
-            "goal_difference": "-19",
+            "goal_difference": "-14",
             "points": "33",
             "corners": {
                 "8.5": "63%",
-                "9.5": "43%",
-                "10.5": "31%",
-                "11.5": "26%",
-                "12.5": "17%",
-                "13.5": "9%",
-                "average": "9.46"
+                "9.5": "51%",
+                "10.5": "40%",
+                "11.5": "34%",
+                "12.5": "23%",
+                "13.5": "17%",
+                "average": "10.03"
             },
             "goals": {
-                "1.5": "69%",
-                "2.5": "40%",
-                "3.5": "15%"
+                "1.5": "71%",
+                "2.5": "41%",
+                "3.5": "16%"
             },
             "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
             },
             "btts": {
                 "Yes": "45%"
@@ -615,14 +615,14 @@
         {
             "team": "Pescara",
             "position": "19",
-            "matches_played": "34",
+            "matches_played": "35",
             "wins": "7",
-            "draws": "11",
+            "draws": "12",
             "losses": "16",
-            "goals_for": "47",
-            "goals_against": "61",
+            "goals_for": "49",
+            "goals_against": "63",
             "goal_difference": "-14",
-            "points": "32",
+            "points": "33",
             "corners": {
                 "8.5": "77%",
                 "9.5": "69%",
@@ -635,49 +635,49 @@
             "goals": {
                 "1.5": "79%",
                 "2.5": "53%",
-                "3.5": "25%"
+                "3.5": "26%"
             },
             "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "51%"
+                "Yes": "50%"
             }
         },
         {
-            "team": "Spezia",
+            "team": "Reggiana",
             "position": "20",
-            "matches_played": "34",
-            "wins": "7",
+            "matches_played": "35",
+            "wins": "8",
             "draws": "9",
             "losses": "18",
-            "goals_for": "32",
-            "goals_against": "51",
-            "goal_difference": "-19",
-            "points": "30",
+            "goals_for": "33",
+            "goals_against": "53",
+            "goal_difference": "-20",
+            "points": "33",
             "corners": {
                 "8.5": "63%",
-                "9.5": "51%",
-                "10.5": "40%",
-                "11.5": "34%",
-                "12.5": "23%",
-                "13.5": "17%",
-                "average": "10.03"
+                "9.5": "43%",
+                "10.5": "31%",
+                "11.5": "26%",
+                "12.5": "17%",
+                "13.5": "9%",
+                "average": "9.46"
             },
             "goals": {
-                "1.5": "68%",
+                "1.5": "69%",
                 "2.5": "39%",
                 "3.5": "15%"
             },
             "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "49%"
             }
         },
         {
@@ -697,12 +697,12 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "48%"
             }
         },
         {
@@ -722,9 +722,9 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
             },
             "btts": {
                 "Yes": "45%"
