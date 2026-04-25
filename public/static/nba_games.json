@@ -1,17 +1,5 @@
 [
     {
-        "hora": "25.04. 17:00",
-        "emparejamiento": "ORL @ DET",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "25.04. 19:30",
-        "emparejamiento": "PHX @ OKC",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "25.04. 22:00",
         "emparejamiento": "ATL @ NYK",
         "resultado": "vs",
@@ -86,6 +74,12 @@
     {
         "hora": "29.04. 20:00",
         "emparejamiento": "CLE @ TOR",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "29.04. 20:00",
+        "emparejamiento": "DET @ ORL",
         "resultado": "vs",
         "ubicacion": ""
     }
