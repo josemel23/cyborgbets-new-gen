@@ -1,23 +1,5 @@
 [
     {
-        "hora": "26.04. 19:30",
-        "emparejamiento": "POR @ SAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "26.04. 23:00",
-        "emparejamiento": "PHI @ BOS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "27.04. 01:30",
-        "emparejamiento": "HOU @ LAL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "28.04. 00:00",
         "emparejamiento": "ORL @ DET",
         "resultado": "vs",
@@ -54,20 +36,32 @@
         "ubicacion": ""
     },
     {
-        "hora": "29.04. 20:00",
+        "hora": "29.04. 23:00",
+        "emparejamiento": "DET @ ORL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "29.04. 23:30",
         "emparejamiento": "CLE @ TOR",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "29.04. 20:00",
-        "emparejamiento": "DET @ ORL",
+        "hora": "30.04. 02:00",
+        "emparejamiento": "LAL @ HOU",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
         "hora": "30.04. 20:00",
         "emparejamiento": "ATL @ NYK",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "01.05. 20:00",
+        "emparejamiento": "TOR @ CLE",
         "resultado": "vs",
         "ubicacion": ""
     }
