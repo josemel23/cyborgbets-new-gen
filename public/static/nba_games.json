@@ -1,11 +1,5 @@
 [
     {
-        "hora": "03.05. 23:30",
-        "emparejamiento": "CLE @ TOR",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "05.05. 00:00",
         "emparejamiento": "NYK @ PHI",
         "resultado": "vs",
@@ -14,6 +8,12 @@
     {
         "hora": "05.05. 01:30",
         "emparejamiento": "SAS @ MIN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "05.05. 23:00",
+        "emparejamiento": "DET @ CLE",
         "resultado": "vs",
         "ubicacion": ""
     },
@@ -36,6 +36,12 @@
         "ubicacion": ""
     },
     {
+        "hora": "07.05. 23:00",
+        "emparejamiento": "DET @ CLE",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
         "hora": "08.05. 01:30",
         "emparejamiento": "OKC @ LAL",
         "resultado": "vs",
@@ -50,6 +56,12 @@
     {
         "hora": "09.05. 01:30",
         "emparejamiento": "MIN @ SAS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "09.05. 19:00",
+        "emparejamiento": "CLE @ DET",
         "resultado": "vs",
         "ubicacion": ""
     },
@@ -72,8 +84,8 @@
         "ubicacion": ""
     },
     {
-        "hora": "12.05. 02:30",
-        "emparejamiento": "LAL @ OKC",
+        "hora": "12.05. 00:00",
+        "emparejamiento": "CLE @ DET",
         "resultado": "vs",
         "ubicacion": ""
     }
