@@ -1,11 +1,5 @@
 [
     {
-        "hora": "10.05. 00:30",
-        "emparejamiento": "LAL @ OKC",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "10.05. 19:30",
         "emparejamiento": "PHI @ NYK",
         "resultado": "vs",
@@ -32,6 +26,12 @@
     {
         "hora": "12.05. 20:00",
         "emparejamiento": "SAS @ MIN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "13.05. 23:00",
+        "emparejamiento": "DET @ CLE",
         "resultado": "vs",
         "ubicacion": ""
     }
