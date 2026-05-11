@@ -1,11 +1,5 @@
 [
     {
-        "hora": "10.05. 23:30",
-        "emparejamiento": "MIN @ SAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "12.05. 00:00",
         "emparejamiento": "CLE @ DET",
         "resultado": "vs",
@@ -18,7 +12,7 @@
         "ubicacion": ""
     },
     {
-        "hora": "12.05. 20:00",
+        "hora": "13.05. 00:00",
         "emparejamiento": "SAS @ MIN",
         "resultado": "vs",
         "ubicacion": ""
@@ -26,6 +20,12 @@
     {
         "hora": "13.05. 23:00",
         "emparejamiento": "DET @ CLE",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "15.05. 20:00",
+        "emparejamiento": "MIN @ SAS",
         "resultado": "vs",
         "ubicacion": ""
     }
