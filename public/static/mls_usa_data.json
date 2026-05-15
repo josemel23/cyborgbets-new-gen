@@ -3,13 +3,47 @@
         {
             "team": "San Jose Earthquakes",
             "position": "1",
+            "matches_played": "13",
+            "wins": "9",
+            "draws": "2",
+            "losses": "2",
+            "goals_for": "29",
+            "goals_against": "11",
+            "goal_difference": "18",
+            "points": "29",
+            "btts": {
+                "Yes": "2"
+            },
+            "cards": {
+                "over_3_5": "9",
+                "over_4_5": "2",
+                "over_5_5": "2"
+            },
+            "corners": {
+                "8.5": "69%",
+                "9.5": "69%",
+                "10.5": "69%",
+                "11.5": "62%",
+                "12.5": "46%",
+                "13.5": "38%",
+                "average": "12.08"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Vancouver Whitecaps",
+            "position": "2",
             "matches_played": "12",
             "wins": "9",
             "draws": "2",
             "losses": "1",
-            "goals_for": "27",
-            "goals_against": "8",
-            "goal_difference": "19",
+            "goals_for": "30",
+            "goals_against": "9",
+            "goal_difference": "21",
             "points": "29",
             "btts": {
                 "Yes": "2"
@@ -21,46 +55,12 @@
             },
             "corners": {
                 "8.5": "67%",
-                "9.5": "67%",
-                "10.5": "67%",
-                "11.5": "58%",
-                "12.5": "42%",
-                "13.5": "33%",
-                "average": "11.84"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Vancouver Whitecaps",
-            "position": "2",
-            "matches_played": "11",
-            "wins": "8",
-            "draws": "2",
-            "losses": "1",
-            "goals_for": "27",
-            "goals_against": "7",
-            "goal_difference": "20",
-            "points": "26",
-            "btts": {
-                "Yes": "2"
-            },
-            "cards": {
-                "over_3_5": "8",
-                "over_4_5": "2",
-                "over_5_5": "1"
-            },
-            "corners": {
-                "8.5": "64%",
-                "9.5": "45%",
-                "10.5": "27%",
-                "11.5": "18%",
-                "12.5": "9%",
-                "13.5": "9%",
-                "average": "9.18"
+                "9.5": "50%",
+                "10.5": "33%",
+                "11.5": "25%",
+                "12.5": "8%",
+                "13.5": "8%",
+                "average": "9.41"
             },
             "goals": {
                 "1.5": "N/A",
@@ -71,13 +71,81 @@
         {
             "team": "Nashville",
             "position": "3",
+            "matches_played": "12",
+            "wins": "8",
+            "draws": "3",
+            "losses": "1",
+            "goals_for": "26",
+            "goals_against": "8",
+            "goal_difference": "18",
+            "points": "27",
+            "btts": {
+                "Yes": "3"
+            },
+            "cards": {
+                "over_3_5": "8",
+                "over_4_5": "3",
+                "over_5_5": "1"
+            },
+            "corners": {
+                "8.5": "50%",
+                "9.5": "42%",
+                "10.5": "25%",
+                "11.5": "25%",
+                "12.5": "17%",
+                "13.5": "8%",
+                "average": "8.75"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Inter Miami",
+            "position": "4",
+            "matches_played": "13",
+            "wins": "7",
+            "draws": "4",
+            "losses": "2",
+            "goals_for": "31",
+            "goals_against": "24",
+            "goal_difference": "7",
+            "points": "25",
+            "btts": {
+                "Yes": "4"
+            },
+            "cards": {
+                "over_3_5": "7",
+                "over_4_5": "4",
+                "over_5_5": "2"
+            },
+            "corners": {
+                "8.5": "54%",
+                "9.5": "38%",
+                "10.5": "23%",
+                "11.5": "23%",
+                "12.5": "15%",
+                "13.5": "15%",
+                "average": "9.31"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Seattle Sounders",
+            "position": "5",
             "matches_played": "11",
             "wins": "7",
             "draws": "3",
             "losses": "1",
-            "goals_for": "23",
+            "goals_for": "17",
             "goals_against": "8",
-            "goal_difference": "15",
+            "goal_difference": "9",
             "points": "24",
             "btts": {
                 "Yes": "3"
@@ -88,13 +156,13 @@
                 "over_5_5": "1"
             },
             "corners": {
-                "8.5": "45%",
-                "9.5": "36%",
-                "10.5": "18%",
-                "11.5": "18%",
-                "12.5": "9%",
-                "13.5": "9%",
-                "average": "8.36"
+                "8.5": "100%",
+                "9.5": "91%",
+                "10.5": "82%",
+                "11.5": "64%",
+                "12.5": "45%",
+                "13.5": "27%",
+                "average": "12.55"
             },
             "goals": {
                 "1.5": "N/A",
@@ -104,14 +172,14 @@
         },
         {
             "team": "New England Revolution",
-            "position": "4",
-            "matches_played": "11",
+            "position": "6",
+            "matches_played": "12",
             "wins": "7",
             "draws": "1",
-            "losses": "3",
+            "losses": "4",
             "goals_for": "20",
-            "goals_against": "13",
-            "goal_difference": "7",
+            "goals_against": "16",
+            "goal_difference": "4",
             "points": "22",
             "btts": {
                 "Yes": "1"
@@ -119,50 +187,16 @@
             "cards": {
                 "over_3_5": "7",
                 "over_4_5": "1",
-                "over_5_5": "3"
-            },
-            "corners": {
-                "8.5": "45%",
-                "9.5": "36%",
-                "10.5": "27%",
-                "11.5": "18%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8.18"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Inter Miami",
-            "position": "5",
-            "matches_played": "12",
-            "wins": "6",
-            "draws": "4",
-            "losses": "2",
-            "goals_for": "26",
-            "goals_against": "21",
-            "goal_difference": "5",
-            "points": "22",
-            "btts": {
-                "Yes": "4"
-            },
-            "cards": {
-                "over_3_5": "6",
-                "over_4_5": "4",
-                "over_5_5": "2"
+                "over_5_5": "4"
             },
             "corners": {
                 "8.5": "50%",
                 "9.5": "42%",
-                "10.5": "25%",
+                "10.5": "33%",
                 "11.5": "25%",
-                "12.5": "17%",
-                "13.5": "17%",
-                "average": "9.33"
+                "12.5": "8%",
+                "13.5": "0%",
+                "average": "8.58"
             },
             "goals": {
                 "1.5": "N/A",
@@ -171,32 +205,32 @@
             }
         },
         {
-            "team": "Seattle Sounders",
-            "position": "6",
-            "matches_played": "10",
-            "wins": "6",
-            "draws": "3",
-            "losses": "1",
-            "goals_for": "14",
-            "goals_against": "6",
-            "goal_difference": "8",
-            "points": "21",
+            "team": "Real Salt Lake",
+            "position": "7",
+            "matches_played": "12",
+            "wins": "7",
+            "draws": "1",
+            "losses": "4",
+            "goals_for": "23",
+            "goals_against": "17",
+            "goal_difference": "6",
+            "points": "22",
             "btts": {
-                "Yes": "3"
+                "Yes": "1"
             },
             "cards": {
-                "over_3_5": "6",
-                "over_4_5": "3",
-                "over_5_5": "1"
+                "over_3_5": "7",
+                "over_4_5": "1",
+                "over_5_5": "4"
             },
             "corners": {
-                "8.5": "100%",
-                "9.5": "90%",
-                "10.5": "80%",
-                "11.5": "60%",
-                "12.5": "40%",
-                "13.5": "20%",
-                "average": "12.3"
+                "8.5": "50%",
+                "9.5": "42%",
+                "10.5": "42%",
+                "11.5": "25%",
+                "12.5": "17%",
+                "13.5": "17%",
+                "average": "9.42"
             },
             "goals": {
                 "1.5": "N/A",
@@ -206,14 +240,14 @@
         },
         {
             "team": "Los Angeles",
-            "position": "7",
-            "matches_played": "12",
+            "position": "8",
+            "matches_played": "13",
             "wins": "6",
             "draws": "3",
-            "losses": "3",
-            "goals_for": "20",
-            "goals_against": "12",
-            "goal_difference": "8",
+            "losses": "4",
+            "goals_for": "21",
+            "goals_against": "14",
+            "goal_difference": "7",
             "points": "21",
             "btts": {
                 "Yes": "3"
@@ -221,15 +255,15 @@
             "cards": {
                 "over_3_5": "6",
                 "over_4_5": "3",
-                "over_5_5": "3"
+                "over_5_5": "4"
             },
             "corners": {
-                "8.5": "58%",
-                "9.5": "50%",
-                "10.5": "50%",
-                "11.5": "42%",
-                "12.5": "33%",
-                "13.5": "17%",
+                "8.5": "62%",
+                "9.5": "54%",
+                "10.5": "46%",
+                "11.5": "38%",
+                "12.5": "31%",
+                "13.5": "15%",
                 "average": "10.16"
             },
             "goals": {
@@ -240,14 +274,14 @@
         },
         {
             "team": "Minnesota United",
-            "position": "8",
-            "matches_played": "12",
+            "position": "9",
+            "matches_played": "13",
             "wins": "6",
             "draws": "3",
-            "losses": "3",
+            "losses": "4",
             "goals_for": "16",
-            "goals_against": "18",
-            "goal_difference": "-2",
+            "goals_against": "19",
+            "goal_difference": "-3",
             "points": "21",
             "btts": {
                 "Yes": "3"
@@ -255,118 +289,16 @@
             "cards": {
                 "over_3_5": "6",
                 "over_4_5": "3",
-                "over_5_5": "3"
-            },
-            "corners": {
-                "8.5": "67%",
-                "9.5": "50%",
-                "10.5": "33%",
-                "11.5": "25%",
-                "12.5": "25%",
-                "13.5": "17%",
-                "average": "10.17"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Real Salt Lake",
-            "position": "9",
-            "matches_played": "11",
-            "wins": "6",
-            "draws": "1",
-            "losses": "4",
-            "goals_for": "20",
-            "goals_against": "17",
-            "goal_difference": "3",
-            "points": "19",
-            "btts": {
-                "Yes": "1"
-            },
-            "cards": {
-                "over_3_5": "6",
-                "over_4_5": "1",
                 "over_5_5": "4"
             },
             "corners": {
-                "8.5": "55%",
-                "9.5": "45%",
-                "10.5": "45%",
-                "11.5": "27%",
-                "12.5": "18%",
-                "13.5": "18%",
-                "average": "9.82"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Dallas",
-            "position": "10",
-            "matches_played": "12",
-            "wins": "5",
-            "draws": "4",
-            "losses": "3",
-            "goals_for": "23",
-            "goals_against": "16",
-            "goal_difference": "7",
-            "points": "19",
-            "btts": {
-                "Yes": "4"
-            },
-            "cards": {
-                "over_3_5": "5",
-                "over_4_5": "4",
-                "over_5_5": "3"
-            },
-            "corners": {
-                "8.5": "67%",
-                "9.5": "58%",
-                "10.5": "50%",
-                "11.5": "25%",
-                "12.5": "17%",
-                "13.5": "17%",
-                "average": "9.75"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Houston Dynamo",
-            "position": "11",
-            "matches_played": "11",
-            "wins": "6",
-            "draws": "0",
-            "losses": "5",
-            "goals_for": "17",
-            "goals_against": "19",
-            "goal_difference": "-2",
-            "points": "18",
-            "btts": {
-                "Yes": "0"
-            },
-            "cards": {
-                "over_3_5": "6",
-                "over_4_5": "0",
-                "over_5_5": "5"
-            },
-            "corners": {
-                "8.5": "55%",
-                "9.5": "55%",
-                "10.5": "55%",
-                "11.5": "45%",
-                "12.5": "27%",
-                "13.5": "18%",
-                "average": "10.09"
+                "8.5": "69%",
+                "9.5": "54%",
+                "10.5": "31%",
+                "11.5": "23%",
+                "12.5": "23%",
+                "13.5": "15%",
+                "average": "10.15"
             },
             "goals": {
                 "1.5": "N/A",
@@ -376,31 +308,31 @@
         },
         {
             "team": "Chicago Fire",
-            "position": "12",
-            "matches_played": "11",
-            "wins": "5",
+            "position": "10",
+            "matches_played": "12",
+            "wins": "6",
             "draws": "2",
             "losses": "4",
-            "goals_for": "20",
-            "goals_against": "14",
-            "goal_difference": "6",
-            "points": "17",
+            "goals_for": "23",
+            "goals_against": "15",
+            "goal_difference": "8",
+            "points": "20",
             "btts": {
                 "Yes": "2"
             },
             "cards": {
-                "over_3_5": "5",
+                "over_3_5": "6",
                 "over_4_5": "2",
                 "over_5_5": "4"
             },
             "corners": {
-                "8.5": "64%",
-                "9.5": "45%",
-                "10.5": "27%",
-                "11.5": "18%",
-                "12.5": "9%",
-                "13.5": "9%",
-                "average": "9.46"
+                "8.5": "67%",
+                "9.5": "50%",
+                "10.5": "33%",
+                "11.5": "25%",
+                "12.5": "17%",
+                "13.5": "17%",
+                "average": "9.92"
             },
             "goals": {
                 "1.5": "N/A",
@@ -409,134 +341,66 @@
             }
         },
         {
-            "team": "LA Galaxy",
-            "position": "13",
-            "matches_played": "12",
-            "wins": "4",
+            "team": "Dallas",
+            "position": "11",
+            "matches_played": "13",
+            "wins": "5",
             "draws": "4",
             "losses": "4",
-            "goals_for": "18",
-            "goals_against": "18",
-            "goal_difference": "0",
-            "points": "16",
+            "goals_for": "25",
+            "goals_against": "19",
+            "goal_difference": "6",
+            "points": "19",
             "btts": {
                 "Yes": "4"
             },
             "cards": {
-                "over_3_5": "4",
+                "over_3_5": "5",
                 "over_4_5": "4",
                 "over_5_5": "4"
+            },
+            "corners": {
+                "8.5": "69%",
+                "9.5": "62%",
+                "10.5": "54%",
+                "11.5": "31%",
+                "12.5": "15%",
+                "13.5": "15%",
+                "average": "9.93"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Houston Dynamo",
+            "position": "12",
+            "matches_played": "12",
+            "wins": "6",
+            "draws": "0",
+            "losses": "6",
+            "goals_for": "17",
+            "goals_against": "22",
+            "goal_difference": "-5",
+            "points": "18",
+            "btts": {
+                "Yes": "0"
+            },
+            "cards": {
+                "over_3_5": "6",
+                "over_4_5": "0",
+                "over_5_5": "6"
             },
             "corners": {
                 "8.5": "50%",
-                "9.5": "33%",
-                "10.5": "33%",
-                "11.5": "8%",
-                "12.5": "8%",
-                "13.5": "0%",
-                "average": "8"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "DC United",
-            "position": "14",
-            "matches_played": "12",
-            "wins": "4",
-            "draws": "4",
-            "losses": "4",
-            "goals_for": "15",
-            "goals_against": "17",
-            "goal_difference": "-2",
-            "points": "16",
-            "btts": {
-                "Yes": "4"
-            },
-            "cards": {
-                "over_3_5": "4",
-                "over_4_5": "4",
-                "over_5_5": "4"
-            },
-            "corners": {
-                "8.5": "67%",
-                "9.5": "33%",
-                "10.5": "33%",
-                "11.5": "33%",
-                "12.5": "33%",
-                "13.5": "33%",
-                "average": "9.83"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "FC Cincinnati",
-            "position": "15",
-            "matches_played": "12",
-            "wins": "4",
-            "draws": "4",
-            "losses": "4",
-            "goals_for": "24",
-            "goals_against": "27",
-            "goal_difference": "-3",
-            "points": "16",
-            "btts": {
-                "Yes": "4"
-            },
-            "cards": {
-                "over_3_5": "4",
-                "over_4_5": "4",
-                "over_5_5": "4"
-            },
-            "corners": {
-                "8.5": "58%",
-                "9.5": "58%",
+                "9.5": "50%",
                 "10.5": "50%",
-                "11.5": "17%",
-                "12.5": "17%",
+                "11.5": "42%",
+                "12.5": "25%",
                 "13.5": "17%",
-                "average": "9.59"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "New York City FC",
-            "position": "16",
-            "matches_played": "12",
-            "wins": "4",
-            "draws": "3",
-            "losses": "5",
-            "goals_for": "22",
-            "goals_against": "18",
-            "goal_difference": "4",
-            "points": "15",
-            "btts": {
-                "Yes": "3"
-            },
-            "cards": {
-                "over_3_5": "4",
-                "over_4_5": "3",
-                "over_5_5": "5"
-            },
-            "corners": {
-                "8.5": "42%",
-                "9.5": "25%",
-                "10.5": "25%",
-                "11.5": "17%",
-                "12.5": "17%",
-                "13.5": "17%",
-                "average": "8.42"
+                "average": "9.67"
             },
             "goals": {
                 "1.5": "N/A",
@@ -546,31 +410,235 @@
         },
         {
             "team": "New York Red Bulls",
-            "position": "17",
-            "matches_played": "12",
-            "wins": "4",
+            "position": "13",
+            "matches_played": "13",
+            "wins": "5",
             "draws": "3",
             "losses": "5",
-            "goals_for": "19",
-            "goals_against": "28",
-            "goal_difference": "-9",
-            "points": "15",
+            "goals_for": "22",
+            "goals_against": "30",
+            "goal_difference": "-8",
+            "points": "18",
             "btts": {
                 "Yes": "3"
             },
             "cards": {
-                "over_3_5": "4",
+                "over_3_5": "5",
                 "over_4_5": "3",
                 "over_5_5": "5"
             },
             "corners": {
-                "8.5": "83%",
-                "9.5": "67%",
-                "10.5": "58%",
-                "11.5": "50%",
-                "12.5": "33%",
-                "13.5": "33%",
-                "average": "11.42"
+                "8.5": "77%",
+                "9.5": "62%",
+                "10.5": "54%",
+                "11.5": "46%",
+                "12.5": "31%",
+                "13.5": "31%",
+                "average": "10.92"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "New York City FC",
+            "position": "14",
+            "matches_played": "13",
+            "wins": "5",
+            "draws": "3",
+            "losses": "5",
+            "goals_for": "23",
+            "goals_against": "18",
+            "goal_difference": "5",
+            "points": "18",
+            "btts": {
+                "Yes": "3"
+            },
+            "cards": {
+                "over_3_5": "5",
+                "over_4_5": "3",
+                "over_5_5": "5"
+            },
+            "corners": {
+                "8.5": "46%",
+                "9.5": "31%",
+                "10.5": "23%",
+                "11.5": "15%",
+                "12.5": "15%",
+                "13.5": "15%",
+                "average": "8.54"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Colorado Rapids",
+            "position": "15",
+            "matches_played": "13",
+            "wins": "5",
+            "draws": "1",
+            "losses": "7",
+            "goals_for": "23",
+            "goals_against": "20",
+            "goal_difference": "3",
+            "points": "16",
+            "btts": {
+                "Yes": "1"
+            },
+            "cards": {
+                "over_3_5": "5",
+                "over_4_5": "1",
+                "over_5_5": "7"
+            },
+            "corners": {
+                "8.5": "62%",
+                "9.5": "62%",
+                "10.5": "46%",
+                "11.5": "23%",
+                "12.5": "8%",
+                "13.5": "8%",
+                "average": "9.85"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "San Diego",
+            "position": "16",
+            "matches_played": "13",
+            "wins": "4",
+            "draws": "4",
+            "losses": "5",
+            "goals_for": "25",
+            "goals_against": "20",
+            "goal_difference": "5",
+            "points": "16",
+            "btts": {
+                "Yes": "4"
+            },
+            "cards": {
+                "over_3_5": "4",
+                "over_4_5": "4",
+                "over_5_5": "5"
+            },
+            "corners": {
+                "8.5": "62%",
+                "9.5": "38%",
+                "10.5": "23%",
+                "11.5": "23%",
+                "12.5": "8%",
+                "13.5": "8%",
+                "average": "8.69"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "DC United",
+            "position": "17",
+            "matches_played": "13",
+            "wins": "4",
+            "draws": "4",
+            "losses": "5",
+            "goals_for": "16",
+            "goals_against": "20",
+            "goal_difference": "-4",
+            "points": "16",
+            "btts": {
+                "Yes": "4"
+            },
+            "cards": {
+                "over_3_5": "4",
+                "over_4_5": "4",
+                "over_5_5": "5"
+            },
+            "corners": {
+                "8.5": "69%",
+                "9.5": "38%",
+                "10.5": "38%",
+                "11.5": "38%",
+                "12.5": "38%",
+                "13.5": "38%",
+                "average": "10.23"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "FC Cincinnati",
+            "position": "18",
+            "matches_played": "13",
+            "wins": "4",
+            "draws": "4",
+            "losses": "5",
+            "goals_for": "27",
+            "goals_against": "32",
+            "goal_difference": "-5",
+            "points": "16",
+            "btts": {
+                "Yes": "4"
+            },
+            "cards": {
+                "over_3_5": "4",
+                "over_4_5": "4",
+                "over_5_5": "5"
+            },
+            "corners": {
+                "8.5": "62%",
+                "9.5": "54%",
+                "10.5": "46%",
+                "11.5": "15%",
+                "12.5": "15%",
+                "13.5": "15%",
+                "average": "9.54"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "LA Galaxy",
+            "position": "19",
+            "matches_played": "13",
+            "wins": "4",
+            "draws": "4",
+            "losses": "5",
+            "goals_for": "19",
+            "goals_against": "21",
+            "goal_difference": "-2",
+            "points": "16",
+            "btts": {
+                "Yes": "4"
+            },
+            "cards": {
+                "over_3_5": "4",
+                "over_4_5": "4",
+                "over_5_5": "5"
+            },
+            "corners": {
+                "8.5": "54%",
+                "9.5": "38%",
+                "10.5": "38%",
+                "11.5": "15%",
+                "12.5": "8%",
+                "13.5": "0%",
+                "average": "8.31"
             },
             "goals": {
                 "1.5": "N/A",
@@ -580,14 +648,14 @@
         },
         {
             "team": "Charlotte",
-            "position": "18",
-            "matches_played": "12",
+            "position": "20",
+            "matches_played": "13",
             "wins": "4",
             "draws": "3",
-            "losses": "5",
+            "losses": "6",
             "goals_for": "20",
-            "goals_against": "21",
-            "goal_difference": "-1",
+            "goals_against": "22",
+            "goal_difference": "-2",
             "points": "15",
             "btts": {
                 "Yes": "3"
@@ -595,16 +663,16 @@
             "cards": {
                 "over_3_5": "4",
                 "over_4_5": "3",
-                "over_5_5": "5"
+                "over_5_5": "6"
             },
             "corners": {
-                "8.5": "50%",
-                "9.5": "42%",
-                "10.5": "25%",
-                "11.5": "17%",
-                "12.5": "17%",
+                "8.5": "54%",
+                "9.5": "46%",
+                "10.5": "23%",
+                "11.5": "15%",
+                "12.5": "15%",
                 "13.5": "8%",
-                "average": "9.16"
+                "average": "9.24"
             },
             "goals": {
                 "1.5": "N/A",
@@ -614,7 +682,7 @@
         },
         {
             "team": "Toronto",
-            "position": "19",
+            "position": "21",
             "matches_played": "12",
             "wins": "3",
             "draws": "5",
@@ -648,14 +716,14 @@
         },
         {
             "team": "Austin",
-            "position": "20",
-            "matches_played": "12",
+            "position": "22",
+            "matches_played": "13",
             "wins": "3",
             "draws": "5",
-            "losses": "4",
+            "losses": "5",
             "goals_for": "18",
-            "goals_against": "21",
-            "goal_difference": "-3",
+            "goals_against": "26",
+            "goal_difference": "-8",
             "points": "14",
             "btts": {
                 "Yes": "5"
@@ -663,84 +731,16 @@
             "cards": {
                 "over_3_5": "3",
                 "over_4_5": "5",
-                "over_5_5": "4"
-            },
-            "corners": {
-                "8.5": "83%",
-                "9.5": "75%",
-                "10.5": "58%",
-                "11.5": "33%",
-                "12.5": "33%",
-                "13.5": "33%",
-                "average": "11.25"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "San Diego",
-            "position": "21",
-            "matches_played": "12",
-            "wins": "3",
-            "draws": "4",
-            "losses": "5",
-            "goals_for": "20",
-            "goals_against": "20",
-            "goal_difference": "0",
-            "points": "13",
-            "btts": {
-                "Yes": "4"
-            },
-            "cards": {
-                "over_3_5": "3",
-                "over_4_5": "4",
                 "over_5_5": "5"
             },
             "corners": {
-                "8.5": "58%",
-                "9.5": "33%",
-                "10.5": "25%",
-                "11.5": "25%",
-                "12.5": "8%",
-                "13.5": "8%",
-                "average": "8.58"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Colorado Rapids",
-            "position": "22",
-            "matches_played": "12",
-            "wins": "4",
-            "draws": "1",
-            "losses": "7",
-            "goals_for": "22",
-            "goals_against": "20",
-            "goal_difference": "2",
-            "points": "13",
-            "btts": {
-                "Yes": "1"
-            },
-            "cards": {
-                "over_3_5": "4",
-                "over_4_5": "1",
-                "over_5_5": "7"
-            },
-            "corners": {
-                "8.5": "58%",
-                "9.5": "58%",
-                "10.5": "50%",
-                "11.5": "25%",
-                "12.5": "8%",
-                "13.5": "8%",
-                "average": "9.83"
+                "8.5": "85%",
+                "9.5": "77%",
+                "10.5": "54%",
+                "11.5": "31%",
+                "12.5": "31%",
+                "13.5": "31%",
+                "average": "11.16"
             },
             "goals": {
                 "1.5": "N/A",
@@ -751,30 +751,30 @@
         {
             "team": "Portland Timbers",
             "position": "23",
-            "matches_played": "11",
+            "matches_played": "12",
             "wins": "4",
-            "draws": "1",
+            "draws": "2",
             "losses": "6",
-            "goals_for": "19",
-            "goals_against": "21",
+            "goals_for": "21",
+            "goals_against": "23",
             "goal_difference": "-2",
-            "points": "13",
+            "points": "14",
             "btts": {
-                "Yes": "1"
+                "Yes": "2"
             },
             "cards": {
                 "over_3_5": "4",
-                "over_4_5": "1",
+                "over_4_5": "2",
                 "over_5_5": "6"
             },
             "corners": {
-                "8.5": "64%",
-                "9.5": "55%",
-                "10.5": "45%",
-                "11.5": "36%",
-                "12.5": "27%",
-                "13.5": "27%",
-                "average": "11"
+                "8.5": "67%",
+                "9.5": "58%",
+                "10.5": "50%",
+                "11.5": "42%",
+                "12.5": "33%",
+                "13.5": "33%",
+                "average": "11.33"
             },
             "goals": {
                 "1.5": "N/A",
@@ -785,30 +785,30 @@
         {
             "team": "CF Montréal",
             "position": "24",
-            "matches_played": "11",
+            "matches_played": "12",
             "wins": "4",
-            "draws": "0",
+            "draws": "1",
             "losses": "7",
-            "goals_for": "16",
-            "goals_against": "23",
+            "goals_for": "18",
+            "goals_against": "25",
             "goal_difference": "-7",
-            "points": "12",
+            "points": "13",
             "btts": {
-                "Yes": "0"
+                "Yes": "1"
             },
             "cards": {
                 "over_3_5": "4",
-                "over_4_5": "0",
+                "over_4_5": "1",
                 "over_5_5": "7"
             },
             "corners": {
-                "8.5": "45%",
-                "9.5": "36%",
-                "10.5": "36%",
-                "11.5": "36%",
-                "12.5": "27%",
-                "13.5": "27%",
-                "average": "8.73"
+                "8.5": "50%",
+                "9.5": "42%",
+                "10.5": "42%",
+                "11.5": "42%",
+                "12.5": "33%",
+                "13.5": "33%",
+                "average": "9.25"
             },
             "goals": {
                 "1.5": "N/A",
@@ -817,15 +817,49 @@
             }
         },
         {
-            "team": "Columbus Crew",
+            "team": "Orlando City",
             "position": "25",
+            "matches_played": "13",
+            "wins": "4",
+            "draws": "1",
+            "losses": "8",
+            "goals_for": "20",
+            "goals_against": "37",
+            "goal_difference": "-17",
+            "points": "13",
+            "btts": {
+                "Yes": "1"
+            },
+            "cards": {
+                "over_3_5": "4",
+                "over_4_5": "1",
+                "over_5_5": "8"
+            },
+            "corners": {
+                "8.5": "77%",
+                "9.5": "69%",
+                "10.5": "54%",
+                "11.5": "54%",
+                "12.5": "38%",
+                "13.5": "38%",
+                "average": "11.16"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "St. Louis City",
+            "position": "26",
             "matches_played": "12",
             "wins": "3",
             "draws": "3",
             "losses": "6",
-            "goals_for": "16",
+            "goals_for": "12",
             "goals_against": "19",
-            "goal_difference": "-3",
+            "goal_difference": "-7",
             "points": "12",
             "btts": {
                 "Yes": "3"
@@ -836,13 +870,47 @@
                 "over_5_5": "6"
             },
             "corners": {
-                "8.5": "75%",
+                "8.5": "83%",
                 "9.5": "58%",
-                "10.5": "33%",
-                "11.5": "25%",
-                "12.5": "17%",
+                "10.5": "42%",
+                "11.5": "42%",
+                "12.5": "33%",
                 "13.5": "17%",
-                "average": "10.08"
+                "average": "10.58"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Columbus Crew",
+            "position": "27",
+            "matches_played": "13",
+            "wins": "3",
+            "draws": "3",
+            "losses": "7",
+            "goals_for": "18",
+            "goals_against": "22",
+            "goal_difference": "-4",
+            "points": "12",
+            "btts": {
+                "Yes": "3"
+            },
+            "cards": {
+                "over_3_5": "3",
+                "over_4_5": "3",
+                "over_5_5": "7"
+            },
+            "corners": {
+                "8.5": "69%",
+                "9.5": "54%",
+                "10.5": "31%",
+                "11.5": "23%",
+                "12.5": "15%",
+                "13.5": "15%",
+                "average": "9.69"
             },
             "goals": {
                 "1.5": "N/A",
@@ -852,7 +920,7 @@
         },
         {
             "team": "Atlanta United FC",
-            "position": "26",
+            "position": "28",
             "matches_played": "12",
             "wins": "3",
             "draws": "1",
@@ -885,66 +953,32 @@
             }
         },
         {
-            "team": "Orlando City",
-            "position": "27",
+            "team": "Sporting KC",
+            "position": "29",
             "matches_played": "12",
-            "wins": "3",
-            "draws": "1",
-            "losses": "8",
-            "goals_for": "16",
-            "goals_against": "34",
-            "goal_difference": "-18",
-            "points": "10",
-            "btts": {
-                "Yes": "1"
-            },
-            "cards": {
-                "over_3_5": "3",
-                "over_4_5": "1",
-                "over_5_5": "8"
-            },
-            "corners": {
-                "8.5": "75%",
-                "9.5": "67%",
-                "10.5": "50%",
-                "11.5": "50%",
-                "12.5": "42%",
-                "13.5": "42%",
-                "average": "11.08"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "St. Louis City",
-            "position": "28",
-            "matches_played": "11",
             "wins": "2",
-            "draws": "3",
-            "losses": "6",
-            "goals_for": "10",
-            "goals_against": "18",
-            "goal_difference": "-8",
-            "points": "9",
+            "draws": "2",
+            "losses": "8",
+            "goals_for": "11",
+            "goals_against": "33",
+            "goal_difference": "-22",
+            "points": "8",
             "btts": {
-                "Yes": "3"
+                "Yes": "2"
             },
             "cards": {
                 "over_3_5": "2",
-                "over_4_5": "3",
-                "over_5_5": "6"
+                "over_4_5": "2",
+                "over_5_5": "8"
             },
             "corners": {
-                "8.5": "82%",
-                "9.5": "55%",
-                "10.5": "45%",
-                "11.5": "45%",
-                "12.5": "36%",
-                "13.5": "18%",
-                "average": "10.63"
+                "8.5": "50%",
+                "9.5": "42%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "25%",
+                "13.5": "8%",
+                "average": "9.92"
             },
             "goals": {
                 "1.5": "N/A",
@@ -954,14 +988,14 @@
         },
         {
             "team": "Philadelphia Union",
-            "position": "29",
-            "matches_played": "12",
+            "position": "30",
+            "matches_played": "13",
             "wins": "1",
             "draws": "3",
-            "losses": "8",
-            "goals_for": "10",
-            "goals_against": "19",
-            "goal_difference": "-9",
+            "losses": "9",
+            "goals_for": "13",
+            "goals_against": "23",
+            "goal_difference": "-10",
             "points": "6",
             "btts": {
                 "Yes": "3"
@@ -969,50 +1003,16 @@
             "cards": {
                 "over_3_5": "1",
                 "over_4_5": "3",
-                "over_5_5": "8"
+                "over_5_5": "9"
             },
             "corners": {
-                "8.5": "50%",
-                "9.5": "42%",
-                "10.5": "33%",
-                "11.5": "33%",
-                "12.5": "17%",
+                "8.5": "54%",
+                "9.5": "46%",
+                "10.5": "38%",
+                "11.5": "38%",
+                "12.5": "15%",
                 "13.5": "8%",
-                "average": "8.92"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Sporting KC",
-            "position": "30",
-            "matches_played": "11",
-            "wins": "1",
-            "draws": "2",
-            "losses": "8",
-            "goals_for": "8",
-            "goals_against": "32",
-            "goal_difference": "-24",
-            "points": "5",
-            "btts": {
-                "Yes": "2"
-            },
-            "cards": {
-                "over_3_5": "1",
-                "over_4_5": "2",
-                "over_5_5": "8"
-            },
-            "corners": {
-                "8.5": "45%",
-                "9.5": "36%",
-                "10.5": "27%",
-                "11.5": "27%",
-                "12.5": "27%",
-                "13.5": "9%",
-                "average": "9.73"
+                "average": "9.15"
             },
             "goals": {
                 "1.5": "N/A",
@@ -1021,4 +1021,4 @@
             }
         }
     ]
-,"last_updated":"2026-05-13T19:19:17Z"}
+,"last_updated":"2026-05-15T18:45:05Z"}
