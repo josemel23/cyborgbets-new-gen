@@ -1,17 +1,5 @@
 [
     {
-        "hora": "20.05. 00:00",
-        "emparejamiento": "NYK @ CLE",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "21.05. 00:30",
-        "emparejamiento": "OKC @ SAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "22.05. 00:00",
         "emparejamiento": "NYK @ CLE",
         "resultado": "vs",
@@ -38,6 +26,12 @@
     {
         "hora": "26.05. 00:00",
         "emparejamiento": "CLE @ NYK",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "27.05. 00:30",
+        "emparejamiento": "OKC @ SAS",
         "resultado": "vs",
         "ubicacion": ""
     }
