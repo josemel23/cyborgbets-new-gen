@@ -1,7 +1,25 @@
 [
     {
-        "hora": "31.05. 00:00",
-        "emparejamiento": "OKC @ SAS",
+        "hora": "04.06. 00:30",
+        "emparejamiento": "SAS @ NYK",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "06.06. 00:30",
+        "emparejamiento": "SAS @ NYK",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "09.06. 00:30",
+        "emparejamiento": "NYK @ SAS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.06. 00:30",
+        "emparejamiento": "NYK @ SAS",
         "resultado": "vs",
         "ubicacion": ""
     }
