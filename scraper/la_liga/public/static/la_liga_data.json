@@ -3,61 +3,197 @@
         {
             "team": "Barcelona",
             "position": "1",
-            "matches_played": "37",
+            "matches_played": "38",
             "wins": "31",
             "draws": "1",
-            "losses": "5",
-            "goals_for": "94",
-            "goals_against": "33",
-            "goal_difference": "61",
+            "losses": "6",
+            "goals_for": "95",
+            "goals_against": "36",
+            "goal_difference": "59",
             "points": "94",
             "corners": {
                 "8.5": "84%",
                 "9.5": "68%",
-                "10.5": "51%",
-                "11.5": "46%",
-                "12.5": "35%",
-                "13.5": "27%",
-                "average": "11.21"
+                "10.5": "53%",
+                "11.5": "47%",
+                "12.5": "37%",
+                "13.5": "29%",
+                "average": "11.31"
             },
             "goals": {
                 "1.5": "81%",
-                "2.5": "56%",
+                "2.5": "57%",
                 "3.5": "29%"
             },
             "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
             },
             "btts": {
-                "Yes": "60%"
+                "Yes": "52%"
             }
         },
         {
             "team": "Real Madrid",
             "position": "2",
-            "matches_played": "37",
-            "wins": "26",
+            "matches_played": "38",
+            "wins": "27",
             "draws": "5",
             "losses": "6",
-            "goals_for": "73",
-            "goals_against": "33",
-            "goal_difference": "40",
-            "points": "83",
+            "goals_for": "77",
+            "goals_against": "35",
+            "goal_difference": "42",
+            "points": "86",
             "corners": {
-                "8.5": "70%",
-                "9.5": "57%",
-                "10.5": "43%",
-                "11.5": "35%",
-                "12.5": "22%",
+                "8.5": "68%",
+                "9.5": "55%",
+                "10.5": "42%",
+                "11.5": "34%",
+                "12.5": "21%",
                 "13.5": "8%",
-                "average": "10.14"
+                "average": "9.95"
             },
             "goals": {
                 "1.5": "76%",
-                "2.5": "47%",
+                "2.5": "49%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Villarreal",
+            "position": "3",
+            "matches_played": "38",
+            "wins": "22",
+            "draws": "6",
+            "losses": "10",
+            "goals_for": "72",
+            "goals_against": "46",
+            "goal_difference": "26",
+            "points": "72",
+            "corners": {
+                "8.5": "55%",
+                "9.5": "45%",
+                "10.5": "32%",
+                "11.5": "18%",
+                "12.5": "11%",
+                "13.5": "8%",
+                "average": "9.07"
+            },
+            "goals": {
+                "1.5": "78%",
+                "2.5": "52%",
+                "3.5": "24%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "56%"
+            }
+        },
+        {
+            "team": "Atlético Madrid",
+            "position": "4",
+            "matches_played": "38",
+            "wins": "21",
+            "draws": "6",
+            "losses": "11",
+            "goals_for": "62",
+            "goals_against": "44",
+            "goal_difference": "18",
+            "points": "69",
+            "corners": {
+                "8.5": "76%",
+                "9.5": "61%",
+                "10.5": "53%",
+                "11.5": "42%",
+                "12.5": "24%",
+                "13.5": "13%",
+                "average": "10.76"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "46%",
+                "3.5": "19%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Betis",
+            "position": "5",
+            "matches_played": "38",
+            "wins": "15",
+            "draws": "15",
+            "losses": "8",
+            "goals_for": "59",
+            "goals_against": "48",
+            "goal_difference": "11",
+            "points": "60",
+            "corners": {
+                "8.5": "63%",
+                "9.5": "50%",
+                "10.5": "34%",
+                "11.5": "24%",
+                "12.5": "18%",
+                "13.5": "13%",
+                "average": "9.63"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "46%",
                 "3.5": "20%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "Celta de Vigo",
+            "position": "6",
+            "matches_played": "38",
+            "wins": "14",
+            "draws": "12",
+            "losses": "12",
+            "goals_for": "53",
+            "goals_against": "48",
+            "goal_difference": "5",
+            "points": "54",
+            "corners": {
+                "8.5": "39%",
+                "9.5": "29%",
+                "10.5": "24%",
+                "11.5": "18%",
+                "12.5": "8%",
+                "13.5": "5%",
+                "average": "8.37"
+            },
+            "goals": {
+                "1.5": "72%",
+                "2.5": "43%",
+                "3.5": "17%"
             },
             "cards": {
                 "over_3_5": "71%",
@@ -69,131 +205,97 @@
             }
         },
         {
-            "team": "Atlético Madrid",
-            "position": "3",
-            "matches_played": "37",
-            "wins": "21",
+            "team": "Getafe",
+            "position": "7",
+            "matches_played": "38",
+            "wins": "15",
             "draws": "6",
-            "losses": "10",
-            "goals_for": "61",
-            "goals_against": "39",
-            "goal_difference": "22",
-            "points": "69",
-            "corners": {
-                "8.5": "76%",
-                "9.5": "59%",
-                "10.5": "51%",
-                "11.5": "41%",
-                "12.5": "22%",
-                "13.5": "11%",
-                "average": "10.68"
-            },
-            "goals": {
-                "1.5": "73%",
-                "2.5": "44%",
-                "3.5": "18%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "Villarreal",
-            "position": "4",
-            "matches_played": "37",
-            "wins": "21",
-            "draws": "6",
-            "losses": "10",
-            "goals_for": "67",
-            "goals_against": "45",
-            "goal_difference": "22",
-            "points": "69",
-            "corners": {
-                "8.5": "54%",
-                "9.5": "43%",
-                "10.5": "30%",
-                "11.5": "16%",
-                "12.5": "8%",
-                "13.5": "5%",
-                "average": "8.94"
-            },
-            "goals": {
-                "1.5": "77%",
-                "2.5": "50%",
-                "3.5": "23%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "52%"
-            }
-        },
-        {
-            "team": "Betis",
-            "position": "5",
-            "matches_played": "37",
-            "wins": "14",
-            "draws": "15",
-            "losses": "8",
-            "goals_for": "57",
-            "goals_against": "47",
-            "goal_difference": "10",
-            "points": "57",
-            "corners": {
-                "8.5": "62%",
-                "9.5": "49%",
-                "10.5": "32%",
-                "11.5": "22%",
-                "12.5": "19%",
-                "13.5": "14%",
-                "average": "9.56"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "46%",
-                "3.5": "20%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
-            "team": "Celta de Vigo",
-            "position": "6",
-            "matches_played": "37",
-            "wins": "13",
-            "draws": "12",
-            "losses": "12",
-            "goals_for": "52",
-            "goals_against": "48",
-            "goal_difference": "4",
+            "losses": "17",
+            "goals_for": "32",
+            "goals_against": "38",
+            "goal_difference": "-6",
             "points": "51",
             "corners": {
-                "8.5": "41%",
-                "9.5": "30%",
-                "10.5": "24%",
-                "11.5": "19%",
-                "12.5": "8%",
-                "13.5": "5%",
-                "average": "8.4"
+                "8.5": "47%",
+                "9.5": "37%",
+                "10.5": "29%",
+                "11.5": "24%",
+                "12.5": "13%",
+                "13.5": "8%",
+                "average": "8.92"
             },
             "goals": {
-                "1.5": "73%",
-                "2.5": "44%",
-                "3.5": "18%"
+                "1.5": "55%",
+                "2.5": "28%",
+                "3.5": "11%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Rayo Vallecano",
+            "position": "8",
+            "matches_played": "38",
+            "wins": "12",
+            "draws": "14",
+            "losses": "12",
+            "goals_for": "41",
+            "goals_against": "44",
+            "goal_difference": "-3",
+            "points": "50",
+            "corners": {
+                "8.5": "76%",
+                "9.5": "66%",
+                "10.5": "61%",
+                "11.5": "47%",
+                "12.5": "34%",
+                "13.5": "21%",
+                "average": "10.92"
+            },
+            "goals": {
+                "1.5": "64%",
+                "2.5": "35%",
+                "3.5": "13%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Valencia",
+            "position": "9",
+            "matches_played": "38",
+            "wins": "13",
+            "draws": "10",
+            "losses": "15",
+            "goals_for": "46",
+            "goals_against": "55",
+            "goal_difference": "-9",
+            "points": "49",
+            "corners": {
+                "8.5": "61%",
+                "9.5": "45%",
+                "10.5": "45%",
+                "11.5": "34%",
+                "12.5": "24%",
+                "13.5": "21%",
+                "average": "9.87"
+            },
+            "goals": {
+                "1.5": "72%",
+                "2.5": "43%",
+                "3.5": "17%"
             },
             "cards": {
                 "over_3_5": "75%",
@@ -205,29 +307,301 @@
             }
         },
         {
-            "team": "Getafe",
-            "position": "7",
-            "matches_played": "37",
-            "wins": "14",
-            "draws": "6",
-            "losses": "17",
-            "goals_for": "31",
-            "goals_against": "38",
-            "goal_difference": "-7",
-            "points": "48",
+            "team": "Real Sociedad",
+            "position": "10",
+            "matches_played": "38",
+            "wins": "11",
+            "draws": "13",
+            "losses": "14",
+            "goals_for": "59",
+            "goals_against": "61",
+            "goal_difference": "-2",
+            "points": "46",
             "corners": {
-                "8.5": "49%",
-                "9.5": "38%",
-                "10.5": "30%",
-                "11.5": "24%",
-                "12.5": "14%",
-                "13.5": "8%",
-                "average": "9"
+                "8.5": "66%",
+                "9.5": "53%",
+                "10.5": "39%",
+                "11.5": "32%",
+                "12.5": "26%",
+                "13.5": "16%",
+                "average": "10.05"
             },
             "goals": {
-                "1.5": "56%",
-                "2.5": "28%",
-                "3.5": "11%"
+                "1.5": "79%",
+                "2.5": "52%",
+                "3.5": "25%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "60%"
+            }
+        },
+        {
+            "team": "Espanyol",
+            "position": "11",
+            "matches_played": "38",
+            "wins": "12",
+            "draws": "10",
+            "losses": "16",
+            "goals_for": "43",
+            "goals_against": "55",
+            "goal_difference": "-12",
+            "points": "46",
+            "corners": {
+                "8.5": "50%",
+                "9.5": "45%",
+                "10.5": "39%",
+                "11.5": "26%",
+                "12.5": "13%",
+                "13.5": "11%",
+                "average": "9.52"
+            },
+            "goals": {
+                "1.5": "71%",
+                "2.5": "42%",
+                "3.5": "16%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "Athletic",
+            "position": "12",
+            "matches_played": "38",
+            "wins": "13",
+            "draws": "6",
+            "losses": "19",
+            "goals_for": "43",
+            "goals_against": "58",
+            "goal_difference": "-15",
+            "points": "45",
+            "corners": {
+                "8.5": "66%",
+                "9.5": "50%",
+                "10.5": "42%",
+                "11.5": "21%",
+                "12.5": "11%",
+                "13.5": "11%",
+                "average": "9.6"
+            },
+            "goals": {
+                "1.5": "72%",
+                "2.5": "43%",
+                "3.5": "17%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Elche CF",
+            "position": "13",
+            "matches_played": "38",
+            "wins": "10",
+            "draws": "13",
+            "losses": "15",
+            "goals_for": "49",
+            "goals_against": "57",
+            "goal_difference": "-8",
+            "points": "43",
+            "corners": {
+                "8.5": "47%",
+                "9.5": "34%",
+                "10.5": "21%",
+                "11.5": "21%",
+                "12.5": "18%",
+                "13.5": "13%",
+                "average": "8.29"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "46%",
+                "3.5": "19%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Deportivo Alavés",
+            "position": "14",
+            "matches_played": "38",
+            "wins": "11",
+            "draws": "10",
+            "losses": "17",
+            "goals_for": "44",
+            "goals_against": "56",
+            "goal_difference": "-12",
+            "points": "43",
+            "corners": {
+                "8.5": "63%",
+                "9.5": "53%",
+                "10.5": "45%",
+                "11.5": "39%",
+                "12.5": "24%",
+                "13.5": "13%",
+                "average": "10.05"
+            },
+            "goals": {
+                "1.5": "72%",
+                "2.5": "43%",
+                "3.5": "17%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Sevilla",
+            "position": "15",
+            "matches_played": "38",
+            "wins": "12",
+            "draws": "7",
+            "losses": "19",
+            "goals_for": "46",
+            "goals_against": "60",
+            "goal_difference": "-14",
+            "points": "43",
+            "corners": {
+                "8.5": "53%",
+                "9.5": "50%",
+                "10.5": "37%",
+                "11.5": "26%",
+                "12.5": "18%",
+                "13.5": "13%",
+                "average": "9.34"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "46%",
+                "3.5": "19%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "Osasuna",
+            "position": "16",
+            "matches_played": "38",
+            "wins": "11",
+            "draws": "9",
+            "losses": "18",
+            "goals_for": "44",
+            "goals_against": "50",
+            "goal_difference": "-6",
+            "points": "42",
+            "corners": {
+                "8.5": "47%",
+                "9.5": "32%",
+                "10.5": "16%",
+                "11.5": "11%",
+                "12.5": "8%",
+                "13.5": "5%",
+                "average": "8.56"
+            },
+            "goals": {
+                "1.5": "69%",
+                "2.5": "39%",
+                "3.5": "15%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Mallorca",
+            "position": "17",
+            "matches_played": "38",
+            "wins": "11",
+            "draws": "9",
+            "losses": "18",
+            "goals_for": "47",
+            "goals_against": "57",
+            "goal_difference": "-10",
+            "points": "42",
+            "corners": {
+                "8.5": "82%",
+                "9.5": "58%",
+                "10.5": "39%",
+                "11.5": "29%",
+                "12.5": "21%",
+                "13.5": "8%",
+                "average": "9.97"
+            },
+            "goals": {
+                "1.5": "74%",
+                "2.5": "45%",
+                "3.5": "19%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Levante",
+            "position": "18",
+            "matches_played": "38",
+            "wins": "11",
+            "draws": "9",
+            "losses": "18",
+            "goals_for": "47",
+            "goals_against": "61",
+            "goal_difference": "-14",
+            "points": "42",
+            "corners": {
+                "8.5": "55%",
+                "9.5": "47%",
+                "10.5": "37%",
+                "11.5": "26%",
+                "12.5": "21%",
+                "13.5": "21%",
+                "average": "10.18"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "47%",
+                "3.5": "20%"
             },
             "cards": {
                 "over_3_5": "78%",
@@ -239,266 +613,28 @@
             }
         },
         {
-            "team": "Rayo Vallecano",
-            "position": "8",
-            "matches_played": "37",
-            "wins": "11",
+            "team": "Girona",
+            "position": "19",
+            "matches_played": "38",
+            "wins": "9",
             "draws": "14",
-            "losses": "12",
-            "goals_for": "39",
-            "goals_against": "43",
-            "goal_difference": "-4",
-            "points": "47",
-            "corners": {
-                "8.5": "76%",
-                "9.5": "65%",
-                "10.5": "59%",
-                "11.5": "46%",
-                "12.5": "32%",
-                "13.5": "19%",
-                "average": "10.81"
-            },
-            "goals": {
-                "1.5": "64%",
-                "2.5": "34%",
-                "3.5": "13%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
-            "team": "Valencia",
-            "position": "9",
-            "matches_played": "37",
-            "wins": "12",
-            "draws": "10",
             "losses": "15",
-            "goals_for": "43",
-            "goals_against": "54",
-            "goal_difference": "-11",
-            "points": "46",
+            "goals_for": "39",
+            "goals_against": "55",
+            "goal_difference": "-16",
+            "points": "41",
             "corners": {
-                "8.5": "59%",
-                "9.5": "43%",
-                "10.5": "43%",
-                "11.5": "32%",
-                "12.5": "22%",
-                "13.5": "19%",
-                "average": "9.73"
-            },
-            "goals": {
-                "1.5": "72%",
-                "2.5": "42%",
-                "3.5": "17%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Real Sociedad",
-            "position": "10",
-            "matches_played": "37",
-            "wins": "11",
-            "draws": "12",
-            "losses": "14",
-            "goals_for": "58",
-            "goals_against": "60",
-            "goal_difference": "-2",
-            "points": "45",
-            "corners": {
-                "8.5": "68%",
-                "9.5": "54%",
-                "10.5": "41%",
-                "11.5": "32%",
-                "12.5": "27%",
+                "8.5": "55%",
+                "9.5": "39%",
+                "10.5": "37%",
+                "11.5": "26%",
+                "12.5": "21%",
                 "13.5": "16%",
-                "average": "10.11"
+                "average": "9.36"
             },
             "goals": {
-                "1.5": "79%",
-                "2.5": "53%",
-                "3.5": "25%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "57%"
-            }
-        },
-        {
-            "team": "Espanyol",
-            "position": "11",
-            "matches_played": "37",
-            "wins": "12",
-            "draws": "9",
-            "losses": "16",
-            "goals_for": "42",
-            "goals_against": "54",
-            "goal_difference": "-12",
-            "points": "45",
-            "corners": {
-                "8.5": "51%",
-                "9.5": "46%",
-                "10.5": "41%",
-                "11.5": "27%",
-                "12.5": "14%",
-                "13.5": "11%",
-                "average": "9.57"
-            },
-            "goals": {
-                "1.5": "71%",
-                "2.5": "42%",
-                "3.5": "16%"
-            },
-            "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Athletic",
-            "position": "12",
-            "matches_played": "37",
-            "wins": "13",
-            "draws": "6",
-            "losses": "18",
-            "goals_for": "41",
-            "goals_against": "54",
-            "goal_difference": "-13",
-            "points": "45",
-            "corners": {
-                "8.5": "68%",
-                "9.5": "51%",
-                "10.5": "43%",
-                "11.5": "22%",
-                "12.5": "11%",
-                "13.5": "11%",
-                "average": "9.78"
-            },
-            "goals": {
-                "1.5": "71%",
-                "2.5": "41%",
-                "3.5": "16%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
-            "team": "Deportivo Alavés",
-            "position": "13",
-            "matches_played": "37",
-            "wins": "11",
-            "draws": "10",
-            "losses": "16",
-            "goals_for": "43",
-            "goals_against": "54",
-            "goal_difference": "-11",
-            "points": "43",
-            "corners": {
-                "8.5": "62%",
-                "9.5": "51%",
-                "10.5": "43%",
-                "11.5": "38%",
-                "12.5": "22%",
-                "13.5": "11%",
-                "average": "9.92"
-            },
-            "goals": {
-                "1.5": "72%",
-                "2.5": "42%",
-                "3.5": "17%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Sevilla",
-            "position": "14",
-            "matches_played": "37",
-            "wins": "12",
-            "draws": "7",
-            "losses": "18",
-            "goals_for": "46",
-            "goals_against": "59",
-            "goal_difference": "-13",
-            "points": "43",
-            "corners": {
-                "8.5": "54%",
-                "9.5": "51%",
-                "10.5": "38%",
-                "11.5": "27%",
-                "12.5": "19%",
-                "13.5": "14%",
-                "average": "9.41"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "47%",
-                "3.5": "20%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Osasuna",
-            "position": "15",
-            "matches_played": "37",
-            "wins": "11",
-            "draws": "9",
-            "losses": "17",
-            "goals_for": "44",
-            "goals_against": "49",
-            "goal_difference": "-5",
-            "points": "42",
-            "corners": {
-                "8.5": "49%",
-                "9.5": "32%",
-                "10.5": "16%",
-                "11.5": "11%",
-                "12.5": "8%",
-                "13.5": "5%",
-                "average": "8.62"
-            },
-            "goals": {
-                "1.5": "70%",
-                "2.5": "40%",
+                "1.5": "69%",
+                "2.5": "39%",
                 "3.5": "15%"
             },
             "cards": {
@@ -507,174 +643,38 @@
                 "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Elche CF",
-            "position": "16",
-            "matches_played": "37",
-            "wins": "10",
-            "draws": "12",
-            "losses": "15",
-            "goals_for": "48",
-            "goals_against": "56",
-            "goal_difference": "-8",
-            "points": "42",
-            "corners": {
-                "8.5": "49%",
-                "9.5": "35%",
-                "10.5": "22%",
-                "11.5": "22%",
-                "12.5": "19%",
-                "13.5": "14%",
-                "average": "8.43"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "46%",
-                "3.5": "20%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Levante",
-            "position": "17",
-            "matches_played": "37",
-            "wins": "11",
-            "draws": "9",
-            "losses": "17",
-            "goals_for": "46",
-            "goals_against": "59",
-            "goal_difference": "-13",
-            "points": "42",
-            "corners": {
-                "8.5": "54%",
-                "9.5": "46%",
-                "10.5": "35%",
-                "11.5": "24%",
-                "12.5": "22%",
-                "13.5": "22%",
-                "average": "10.13"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "47%",
-                "3.5": "20%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Girona",
-            "position": "18",
-            "matches_played": "37",
-            "wins": "9",
-            "draws": "13",
-            "losses": "15",
-            "goals_for": "38",
-            "goals_against": "54",
-            "goal_difference": "-16",
-            "points": "40",
-            "corners": {
-                "8.5": "57%",
-                "9.5": "41%",
-                "10.5": "38%",
-                "11.5": "27%",
-                "12.5": "22%",
-                "13.5": "16%",
-                "average": "9.54"
-            },
-            "goals": {
-                "1.5": "69%",
-                "2.5": "40%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Mallorca",
-            "position": "19",
-            "matches_played": "37",
-            "wins": "10",
-            "draws": "9",
-            "losses": "18",
-            "goals_for": "44",
-            "goals_against": "57",
-            "goal_difference": "-13",
-            "points": "39",
-            "corners": {
-                "8.5": "81%",
-                "9.5": "57%",
-                "10.5": "41%",
-                "11.5": "30%",
-                "12.5": "22%",
-                "13.5": "8%",
-                "average": "9.97"
-            },
-            "goals": {
-                "1.5": "74%",
-                "2.5": "45%",
-                "3.5": "18%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "45%"
+                "Yes": "46%"
             }
         },
         {
             "team": "Real Oviedo",
             "position": "20",
-            "matches_played": "37",
+            "matches_played": "38",
             "wins": "6",
             "draws": "11",
-            "losses": "20",
+            "losses": "21",
             "goals_for": "26",
-            "goals_against": "57",
-            "goal_difference": "-31",
+            "goals_against": "60",
+            "goal_difference": "-34",
             "points": "29",
             "corners": {
-                "8.5": "59%",
-                "9.5": "46%",
-                "10.5": "41%",
-                "11.5": "22%",
-                "12.5": "19%",
+                "8.5": "61%",
+                "9.5": "47%",
+                "10.5": "39%",
+                "11.5": "21%",
+                "12.5": "18%",
                 "13.5": "11%",
-                "average": "9.49"
+                "average": "9.5"
             },
             "goals": {
                 "1.5": "65%",
                 "2.5": "35%",
-                "3.5": "13%"
+                "3.5": "14%"
             },
             "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
                 "Yes": "45%"
