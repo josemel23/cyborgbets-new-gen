@@ -1149,7 +1149,7 @@
             }
         },
         {
-            "team": "San Antonio Bulo Bulo",
+            "team": "Melgar",
             "corners": {
                 "8.5": "100%",
                 "9.5": "0%",
@@ -1161,7 +1161,7 @@
             }
         },
         {
-            "team": "Melgar",
+            "team": "San Antonio Bulo Bulo",
             "corners": {
                 "8.5": "100%",
                 "9.5": "0%",
@@ -1209,7 +1209,7 @@
             }
         },
         {
-            "team": "Racing de Montevideo",
+            "team": "Deportivo Garcilaso",
             "corners": {
                 "8.5": "0%",
                 "9.5": "0%",
@@ -1221,7 +1221,7 @@
             }
         },
         {
-            "team": "Deportivo Garcilaso",
+            "team": "Racing de Montevideo",
             "corners": {
                 "8.5": "0%",
                 "9.5": "0%",
@@ -1279,6 +1279,30 @@
                 "13.5": "0%",
                 "average": "2"
             }
+        },
+        {
+            "team": "Independiente Medellín",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            }
+        },
+        {
+            "team": "Bolívar",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            }
         }
     ]
-,"last_updated":"2026-06-08T19:49:32Z"}
+,"last_updated":"2026-06-10T20:02:16Z"}
