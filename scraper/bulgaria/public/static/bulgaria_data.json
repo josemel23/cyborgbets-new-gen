@@ -1,335 +1,29 @@
 {
     "teams": [
         {
-            "team": "Levski Sofia",
-            "position": "1",
-            "matches_played": "30",
-            "wins": "22",
-            "draws": "4",
-            "losses": "4",
-            "goals_for": "64",
-            "goals_against": "22",
-            "goal_difference": "42",
-            "points": "70",
-            "corners": {
-                "8.5": "56%",
-                "9.5": "44%",
-                "10.5": "25%",
-                "11.5": "17%",
-                "12.5": "8%",
-                "13.5": "6%",
-                "average": "8.75"
-            },
-            "goals": {
-                "1.5": "76%",
-                "2.5": "47%",
-                "3.5": "20%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
             "team": "Ludogorets",
-            "position": "2",
-            "matches_played": "30",
-            "wins": "17",
-            "draws": "9",
-            "losses": "4",
-            "goals_for": "57",
-            "goals_against": "20",
-            "goal_difference": "37",
-            "points": "60",
+            "position": "1",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "65%",
-                "9.5": "46%",
-                "10.5": "35%",
-                "11.5": "30%",
-                "12.5": "22%",
-                "13.5": "11%",
-                "average": "9.76"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "71%",
-                "2.5": "41%",
-                "3.5": "16%"
-            },
-            "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "CSKA 1948 Sofia",
-            "position": "3",
-            "matches_played": "30",
-            "wins": "18",
-            "draws": "5",
-            "losses": "7",
-            "goals_for": "50",
-            "goals_against": "31",
-            "goal_difference": "19",
-            "points": "59",
-            "corners": {
-                "8.5": "67%",
-                "9.5": "50%",
-                "10.5": "36%",
-                "11.5": "25%",
-                "12.5": "17%",
-                "13.5": "11%",
-                "average": "9.5"
-            },
-            "goals": {
-                "1.5": "73%",
-                "2.5": "44%",
-                "3.5": "18%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "CSKA Sofia",
-            "position": "4",
-            "matches_played": "30",
-            "wins": "16",
-            "draws": "8",
-            "losses": "6",
-            "goals_for": "43",
-            "goals_against": "23",
-            "goal_difference": "20",
-            "points": "56",
-            "corners": {
-                "8.5": "61%",
-                "9.5": "53%",
-                "10.5": "44%",
-                "11.5": "25%",
-                "12.5": "14%",
-                "13.5": "11%",
-                "average": "9.14"
-            },
-            "goals": {
-                "1.5": "64%",
-                "2.5": "34%",
-                "3.5": "13%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Lokomotiv Plovdiv",
-            "position": "5",
-            "matches_played": "30",
-            "wins": "11",
-            "draws": "13",
-            "losses": "6",
-            "goals_for": "30",
-            "goals_against": "33",
-            "goal_difference": "-3",
-            "points": "46",
-            "corners": {
-                "8.5": "54%",
-                "9.5": "35%",
-                "10.5": "16%",
-                "11.5": "8%",
-                "12.5": "5%",
-                "13.5": "3%",
-                "average": "8.21"
-            },
-            "goals": {
-                "1.5": "62%",
-                "2.5": "32%",
-                "3.5": "13%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Cherno More",
-            "position": "6",
-            "matches_played": "30",
-            "wins": "11",
-            "draws": "11",
-            "losses": "8",
-            "goals_for": "33",
-            "goals_against": "26",
-            "goal_difference": "7",
-            "points": "44",
-            "corners": {
-                "8.5": "50%",
-                "9.5": "39%",
-                "10.5": "31%",
-                "11.5": "28%",
-                "12.5": "19%",
-                "13.5": "8%",
-                "average": "8.97"
-            },
-            "goals": {
-                "1.5": "59%",
-                "2.5": "30%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "Arda",
-            "position": "7",
-            "matches_played": "30",
-            "wins": "12",
-            "draws": "8",
-            "losses": "10",
-            "goals_for": "33",
-            "goals_against": "27",
-            "goal_difference": "6",
-            "points": "44",
-            "corners": {
-                "8.5": "44%",
-                "9.5": "31%",
-                "10.5": "19%",
-                "11.5": "17%",
-                "12.5": "17%",
-                "13.5": "11%",
-                "average": "8.28"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Botev Plovdiv",
-            "position": "8",
-            "matches_played": "30",
-            "wins": "11",
-            "draws": "7",
-            "losses": "12",
-            "goals_for": "40",
-            "goals_against": "37",
-            "goal_difference": "3",
-            "points": "40",
-            "corners": {
-                "8.5": "58%",
-                "9.5": "47%",
-                "10.5": "42%",
-                "11.5": "36%",
-                "12.5": "31%",
-                "13.5": "19%",
-                "average": "9.48"
-            },
-            "goals": {
-                "1.5": "71%",
-                "2.5": "41%",
-                "3.5": "16%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Slavia Sofia",
-            "position": "9",
-            "matches_played": "30",
-            "wins": "10",
-            "draws": "9",
-            "losses": "11",
-            "goals_for": "36",
-            "goals_against": "33",
-            "goal_difference": "3",
-            "points": "39",
-            "corners": {
-                "8.5": "81%",
-                "9.5": "73%",
-                "10.5": "68%",
-                "11.5": "57%",
-                "12.5": "38%",
-                "13.5": "24%",
-                "average": "11.45"
-            },
-            "goals": {
-                "1.5": "66%",
-                "2.5": "36%",
-                "3.5": "14%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Botev Vratsa",
-            "position": "10",
-            "matches_played": "30",
-            "wins": "9",
-            "draws": "11",
-            "losses": "10",
-            "goals_for": "24",
-            "goals_against": "26",
-            "goal_difference": "-2",
-            "points": "38",
-            "corners": {
-                "8.5": "57%",
-                "9.5": "41%",
-                "10.5": "32%",
-                "11.5": "22%",
-                "12.5": "16%",
-                "13.5": "8%",
-                "average": "8.92"
-            },
-            "goals": {
-                "1.5": "50%",
-                "2.5": "25%",
-                "3.5": "10%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
                 "over_3_5": "80%",
@@ -337,101 +31,33 @@
                 "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "47%"
             }
         },
         {
-            "team": "Lokomotiv Sofia 1929",
-            "position": "11",
-            "matches_played": "30",
-            "wins": "9",
-            "draws": "10",
-            "losses": "11",
-            "goals_for": "40",
-            "goals_against": "39",
-            "goal_difference": "1",
-            "points": "37",
+            "team": "Botev Plovdiv",
+            "position": "2",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "68%",
-                "9.5": "46%",
-                "10.5": "38%",
-                "11.5": "32%",
-                "12.5": "27%",
-                "13.5": "14%",
-                "average": "9.78"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "72%",
-                "2.5": "43%",
-                "3.5": "17%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Spartak Varna",
-            "position": "12",
-            "matches_played": "30",
-            "wins": "5",
-            "draws": "12",
-            "losses": "13",
-            "goals_for": "25",
-            "goals_against": "50",
-            "goal_difference": "-25",
-            "points": "27",
-            "corners": {
-                "8.5": "70%",
-                "9.5": "54%",
-                "10.5": "51%",
-                "11.5": "46%",
-                "12.5": "27%",
-                "13.5": "16%",
-                "average": "10.29"
-            },
-            "goals": {
-                "1.5": "69%",
-                "2.5": "40%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Dobrudzha 1919",
-            "position": "13",
-            "matches_played": "30",
-            "wins": "7",
-            "draws": "5",
-            "losses": "18",
-            "goals_for": "23",
-            "goals_against": "43",
-            "goal_difference": "-20",
-            "points": "26",
-            "corners": {
-                "8.5": "59%",
-                "9.5": "41%",
-                "10.5": "38%",
-                "11.5": "30%",
-                "12.5": "22%",
-                "13.5": "16%",
-                "average": "9.54"
-            },
-            "goals": {
-                "1.5": "64%",
-                "2.5": "34%",
-                "3.5": "13%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
                 "over_3_5": "71%",
@@ -439,121 +65,62 @@
                 "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "47%"
+                "Yes": "45%"
             }
         },
         {
             "team": "Septemvri Sofia",
-            "position": "14",
-            "matches_played": "30",
-            "wins": "7",
-            "draws": "5",
-            "losses": "18",
-            "goals_for": "25",
-            "goals_against": "58",
-            "goal_difference": "-33",
-            "points": "26",
+            "position": "3",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "39%",
-                "9.5": "32%",
-                "10.5": "32%",
-                "11.5": "18%",
-                "12.5": "8%",
-                "13.5": "8%",
-                "average": "8.32"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "74%",
-                "2.5": "45%",
-                "3.5": "19%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
-            "team": "Beroe",
-            "position": "15",
-            "matches_played": "30",
-            "wins": "4",
-            "draws": "11",
-            "losses": "15",
-            "goals_for": "19",
-            "goals_against": "44",
-            "goal_difference": "-25",
-            "points": "23",
-            "corners": {
-                "8.5": "81%",
-                "9.5": "65%",
-                "10.5": "57%",
-                "11.5": "41%",
-                "12.5": "27%",
-                "13.5": "19%",
-                "average": "10.78"
-            },
-            "goals": {
-                "1.5": "62%",
-                "2.5": "32%",
-                "3.5": "13%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
                 "Yes": "45%"
             }
         },
         {
-            "team": "Montana",
-            "position": "16",
-            "matches_played": "30",
-            "wins": "3",
-            "draws": "8",
-            "losses": "19",
-            "goals_for": "15",
-            "goals_against": "45",
-            "goal_difference": "-30",
-            "points": "17",
+            "team": "Slavia Sofia",
+            "position": "4",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "68%",
-                "9.5": "49%",
-                "10.5": "43%",
-                "11.5": "32%",
-                "12.5": "8%",
-                "13.5": "5%",
-                "average": "9.44"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Yantra 2019",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "11"
+                "average": "0"
             },
             "goals": {
                 "1.5": "30%",
@@ -566,7 +133,347 @@
                 "over_5_5": "33%"
             },
             "btts": {
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "CSKA Sofia",
+            "position": "5",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
                 "Yes": "45%"
+            }
+        },
+        {
+            "team": "Levski Sofia",
+            "position": "6",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Lokomotiv Plovdiv",
+            "position": "7",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "Dunav 2010",
+            "position": "8",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "Cherno More",
+            "position": "9",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Botev Vratsa",
+            "position": "10",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Lokomotiv Sofia 1929",
+            "position": "11",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Spartak Varna",
+            "position": "12",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Arda",
+            "position": "13",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "CSKA 1948 Sofia",
+            "position": "14",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "49%"
             }
         }
     ]
