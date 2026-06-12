@@ -26,12 +26,12 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
-                "Yes": "48%"
+                "Yes": "50%"
             }
         },
         {
@@ -94,17 +94,51 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
             },
             "btts": {
-                "Yes": "46%"
+                "Yes": "47%"
             }
         },
         {
             "team": "Rudes",
             "position": "4",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "47%"
+            }
+        },
+        {
+            "team": "Lokomotiva Zagreb",
+            "position": "5",
             "matches_played": "0",
             "wins": "0",
             "draws": "0",
@@ -137,8 +171,8 @@
             }
         },
         {
-            "team": "Lokomotiva Zagreb",
-            "position": "5",
+            "team": "Slaven Belupo",
+            "position": "6",
             "matches_played": "0",
             "wins": "0",
             "draws": "0",
@@ -171,8 +205,8 @@
             }
         },
         {
-            "team": "Slaven Belupo",
-            "position": "6",
+            "team": "Hajduk Split",
+            "position": "7",
             "matches_played": "0",
             "wins": "0",
             "draws": "0",
@@ -196,17 +230,17 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "49%"
             }
         },
         {
-            "team": "Hajduk Split",
-            "position": "7",
+            "team": "Osijek",
+            "position": "8",
             "matches_played": "0",
             "wins": "0",
             "draws": "0",
@@ -239,40 +273,6 @@
             }
         },
         {
-            "team": "Osijek",
-            "position": "8",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
             "team": "Gorica",
             "position": "9",
             "matches_played": "0",
@@ -298,12 +298,12 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "46%"
             }
         },
         {
@@ -332,12 +332,12 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
             },
             "btts": {
-                "Yes": "49%"
+                "Yes": "45%"
             }
         }
     ]
