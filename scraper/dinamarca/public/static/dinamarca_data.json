@@ -1,7 +1,7 @@
 {
     "teams": [
         {
-            "team": "Copenhagen",
+            "team": "AGF",
             "position": "1",
             "matches_played": "0",
             "wins": "0",
@@ -26,17 +26,51 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
                 "Yes": "45%"
             }
         },
         {
-            "team": "Midtjylland",
+            "team": "Brondby",
             "position": "2",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Horsens",
+            "position": "3",
             "matches_played": "0",
             "wins": "0",
             "draws": "0",
@@ -65,45 +99,11 @@
                 "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "47%"
             }
         },
         {
-            "team": "Nordsjaelland",
-            "position": "3",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "AGF",
+            "team": "Copenhagen",
             "position": "4",
             "matches_played": "0",
             "wins": "0",
@@ -133,11 +133,11 @@
                 "over_5_5": "39%"
             },
             "btts": {
-                "Yes": "49%"
+                "Yes": "46%"
             }
         },
         {
-            "team": "Brondby",
+            "team": "Lyngby",
             "position": "5",
             "matches_played": "0",
             "wins": "0",
@@ -162,16 +162,16 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
             },
             "btts": {
-                "Yes": "49%"
+                "Yes": "45%"
             }
         },
         {
-            "team": "Sonderjyske",
+            "team": "Midtjylland",
             "position": "6",
             "matches_played": "0",
             "wins": "0",
@@ -205,7 +205,7 @@
             }
         },
         {
-            "team": "Horsens",
+            "team": "Nordsjaelland",
             "position": "7",
             "matches_played": "0",
             "wins": "0",
@@ -230,16 +230,16 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "50%"
             }
         },
         {
-            "team": "Randers",
+            "team": "OB",
             "position": "8",
             "matches_played": "0",
             "wins": "0",
@@ -264,16 +264,16 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
                 "Yes": "46%"
             }
         },
         {
-            "team": "Silkeborg",
+            "team": "Randers",
             "position": "9",
             "matches_played": "0",
             "wins": "0",
@@ -307,7 +307,7 @@
             }
         },
         {
-            "team": "OB",
+            "team": "Silkeborg",
             "position": "10",
             "matches_played": "0",
             "wins": "0",
@@ -332,16 +332,16 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "48%"
             }
         },
         {
-            "team": "Lyngby",
+            "team": "Sonderjyske",
             "position": "11",
             "matches_played": "0",
             "wins": "0",
@@ -366,12 +366,12 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "48%"
             }
         },
         {
@@ -400,12 +400,12 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
             },
             "btts": {
-                "Yes": "48%"
+                "Yes": "47%"
             }
         }
     ]
