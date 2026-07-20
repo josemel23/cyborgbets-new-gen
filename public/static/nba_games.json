@@ -1,13 +1,25 @@
 [
     {
-        "hora": "",
-        "emparejamiento": "NYK @ SAS",
+        "hora": "11:00 PM",
+        "emparejamiento": "MEM @ ATL",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "",
-        "emparejamiento": "NYK @ SAS",
+        "hora": "11:00 PM",
+        "emparejamiento": "MEM @ ATL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "12:00 AM",
+        "emparejamiento": "NOP @ OKC",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "2:00 AM",
+        "emparejamiento": "LOS @ GSW",
         "resultado": "vs",
         "ubicacion": ""
     }
