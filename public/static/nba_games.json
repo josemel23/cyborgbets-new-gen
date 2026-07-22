@@ -1,37 +1,91 @@
 [
     {
-        "hora": "TBD",
-        "emparejamiento": "LOS @ SAC",
+        "hora": "05.10. 23:00",
+        "emparejamiento": "ATL @ MEM",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "11:00 PM",
-        "emparejamiento": "MEM @ ATL",
+        "hora": "07.10. 02:00",
+        "emparejamiento": "GSW @ LAL",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "TBD",
-        "emparejamiento": "LOS @ SAC",
+        "hora": "08.10. 23:00",
+        "emparejamiento": "CLE @ BOS",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "11:00 PM",
-        "emparejamiento": "MEM @ ATL",
+        "hora": "08.10. 23:30",
+        "emparejamiento": "MIA @ NOP",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "12:00 AM",
-        "emparejamiento": "NOP @ OKC",
+        "hora": "09.10. 00:00",
+        "emparejamiento": "SAS @ ATL",
         "resultado": "vs",
         "ubicacion": ""
     },
     {
-        "hora": "2:00 AM",
-        "emparejamiento": "LOS @ GSW",
+        "hora": "09.10. 12:00",
+        "emparejamiento": "DAL @ HOU",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "10.10. 23:00",
+        "emparejamiento": "IND @ ATL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.10. 00:00",
+        "emparejamiento": "BOS @ PHI",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.10. 00:00",
+        "emparejamiento": "MIA @ MIN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.10. 00:30",
+        "emparejamiento": "GSW @ SAC",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "11.10. 10:00",
+        "emparejamiento": "HOU @ DAL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "12.10. 23:00",
+        "emparejamiento": "ATL @ OKC",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "14.10. 23:30",
+        "emparejamiento": "BOS @ BKN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "14.10. 23:30",
+        "emparejamiento": "MIA @ BKN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "16.10. 23:00",
+        "emparejamiento": "PHI @ BOS",
         "resultado": "vs",
         "ubicacion": ""
     }
