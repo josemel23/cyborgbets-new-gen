@@ -1,63 +1,29 @@
 {
     "teams": [
         {
-            "team": "Porto",
+            "team": "Benfica",
             "position": "1",
-            "matches_played": "34",
-            "wins": "28",
-            "draws": "4",
-            "losses": "2",
-            "goals_for": "66",
-            "goals_against": "18",
-            "goal_difference": "48",
-            "points": "88",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "4",
-                "9.5": "2",
-                "10.5": "66",
-                "11.5": "18",
-                "12.5": "48",
-                "13.5": "88",
-                "average": "2.59"
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
             },
             "goals": {
-                "1.5": "69%",
-                "2.5": "39%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Sporting",
-            "position": "2",
-            "matches_played": "34",
-            "wins": "25",
-            "draws": "7",
-            "losses": "2",
-            "goals_for": "89",
-            "goals_against": "24",
-            "goal_difference": "65",
-            "points": "82",
-            "corners": {
-                "8.5": "7",
-                "9.5": "2",
-                "10.5": "89",
-                "11.5": "24",
-                "12.5": "65",
-                "13.5": "82",
-                "average": "2.41"
-            },
-            "goals": {
-                "1.5": "80%",
-                "2.5": "55%",
-                "3.5": "27%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
                 "over_3_5": "77%",
@@ -65,441 +31,101 @@
                 "over_5_5": "37%"
             },
             "btts": {
-                "Yes": "50%"
+                "Yes": "45%"
             }
         },
         {
-            "team": "Benfica",
-            "position": "3",
-            "matches_played": "34",
-            "wins": "23",
-            "draws": "11",
+            "team": "Porto",
+            "position": "2",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
             "losses": "0",
-            "goals_for": "74",
-            "goals_against": "25",
-            "goal_difference": "49",
-            "points": "80",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "11",
+                "8.5": "0",
                 "9.5": "0",
-                "10.5": "74",
-                "11.5": "25",
-                "12.5": "49",
-                "13.5": "80",
-                "average": "2.35"
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
             },
             "goals": {
-                "1.5": "76%",
-                "2.5": "48%",
-                "3.5": "21%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
                 "Yes": "49%"
             }
         },
         {
-            "team": "Sporting Braga",
-            "position": "4",
-            "matches_played": "34",
-            "wins": "16",
-            "draws": "11",
-            "losses": "7",
-            "goals_for": "64",
-            "goals_against": "36",
-            "goal_difference": "28",
-            "points": "59",
+            "team": "Sporting",
+            "position": "3",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "11",
-                "9.5": "7",
-                "10.5": "64",
-                "11.5": "36",
-                "12.5": "28",
-                "13.5": "59",
-                "average": "1.74"
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
             },
             "goals": {
-                "1.5": "76%",
-                "2.5": "49%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
-            "team": "Famalicão",
-            "position": "5",
-            "matches_played": "34",
-            "wins": "15",
-            "draws": "11",
-            "losses": "8",
-            "goals_for": "42",
-            "goals_against": "29",
-            "goal_difference": "13",
-            "points": "56",
-            "corners": {
-                "8.5": "11",
-                "9.5": "8",
-                "10.5": "42",
-                "11.5": "29",
-                "12.5": "13",
-                "13.5": "56",
-                "average": "1.65"
-            },
-            "goals": {
-                "1.5": "62%",
-                "2.5": "32%",
-                "3.5": "13%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
                 "over_3_5": "72%",
                 "over_4_5": "52%",
                 "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Gil Vicente",
-            "position": "6",
-            "matches_played": "34",
-            "wins": "13",
-            "draws": "11",
-            "losses": "10",
-            "goals_for": "47",
-            "goals_against": "38",
-            "goal_difference": "9",
-            "points": "50",
-            "corners": {
-                "8.5": "11",
-                "9.5": "10",
-                "10.5": "47",
-                "11.5": "38",
-                "12.5": "9",
-                "13.5": "50",
-                "average": "1.47"
-            },
-            "goals": {
-                "1.5": "69%",
-                "2.5": "40%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Moreirense FC",
-            "position": "7",
-            "matches_played": "34",
-            "wins": "12",
-            "draws": "7",
-            "losses": "15",
-            "goals_for": "37",
-            "goals_against": "49",
-            "goal_difference": "-12",
-            "points": "43",
-            "corners": {
-                "8.5": "7",
-                "9.5": "15",
-                "10.5": "37",
-                "11.5": "49",
-                "12.5": "-12",
-                "13.5": "43",
-                "average": "1.26"
-            },
-            "goals": {
-                "1.5": "70%",
-                "2.5": "41%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Vitória Guimarães",
-            "position": "8",
-            "matches_played": "34",
-            "wins": "12",
-            "draws": "6",
-            "losses": "16",
-            "goals_for": "39",
-            "goals_against": "51",
-            "goal_difference": "-12",
-            "points": "42",
-            "corners": {
-                "8.5": "6",
-                "9.5": "16",
-                "10.5": "39",
-                "11.5": "51",
-                "12.5": "-12",
-                "13.5": "42",
-                "average": "1.24"
-            },
-            "goals": {
-                "1.5": "72%",
-                "2.5": "43%",
-                "3.5": "17%"
-            },
-            "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
             },
             "btts": {
                 "Yes": "47%"
             }
         },
         {
-            "team": "FC Arouca",
-            "position": "9",
-            "matches_played": "34",
-            "wins": "12",
-            "draws": "6",
-            "losses": "16",
-            "goals_for": "47",
-            "goals_against": "64",
-            "goal_difference": "-17",
-            "points": "42",
-            "corners": {
-                "8.5": "6",
-                "9.5": "16",
-                "10.5": "47",
-                "11.5": "64",
-                "12.5": "-17",
-                "13.5": "42",
-                "average": "1.24"
-            },
-            "goals": {
-                "1.5": "80%",
-                "2.5": "54%",
-                "3.5": "26%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "56%"
-            }
-        },
-        {
-            "team": "GD Estoril Praia",
-            "position": "10",
-            "matches_played": "34",
-            "wins": "10",
-            "draws": "9",
-            "losses": "15",
-            "goals_for": "54",
-            "goals_against": "57",
-            "goal_difference": "-3",
-            "points": "39",
-            "corners": {
-                "8.5": "9",
-                "9.5": "15",
-                "10.5": "54",
-                "11.5": "57",
-                "12.5": "-3",
-                "13.5": "39",
-                "average": "1.15"
-            },
-            "goals": {
-                "1.5": "80%",
-                "2.5": "54%",
-                "3.5": "26%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "52%"
-            }
-        },
-        {
-            "team": "Alverca",
-            "position": "11",
-            "matches_played": "34",
-            "wins": "10",
-            "draws": "9",
-            "losses": "15",
-            "goals_for": "35",
-            "goals_against": "52",
-            "goal_difference": "-17",
-            "points": "39",
-            "corners": {
-                "8.5": "9",
-                "9.5": "15",
-                "10.5": "35",
-                "11.5": "52",
-                "12.5": "-17",
-                "13.5": "39",
-                "average": "1.15"
-            },
-            "goals": {
-                "1.5": "70%",
-                "2.5": "41%",
-                "3.5": "16%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Santa Clara",
-            "position": "12",
-            "matches_played": "34",
-            "wins": "9",
-            "draws": "9",
-            "losses": "16",
-            "goals_for": "32",
-            "goals_against": "41",
-            "goal_difference": "-9",
-            "points": "36",
-            "corners": {
-                "8.5": "9",
-                "9.5": "16",
-                "10.5": "32",
-                "11.5": "41",
-                "12.5": "-9",
-                "13.5": "36",
-                "average": "1.06"
-            },
-            "goals": {
-                "1.5": "63%",
-                "2.5": "33%",
-                "3.5": "13%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Rio Ave FC",
-            "position": "13",
-            "matches_played": "34",
-            "wins": "8",
-            "draws": "12",
-            "losses": "14",
-            "goals_for": "35",
-            "goals_against": "57",
-            "goal_difference": "-22",
-            "points": "36",
-            "corners": {
-                "8.5": "12",
-                "9.5": "14",
-                "10.5": "35",
-                "11.5": "57",
-                "12.5": "-22",
-                "13.5": "36",
-                "average": "1.06"
-            },
-            "goals": {
-                "1.5": "73%",
-                "2.5": "44%",
-                "3.5": "18%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
             "team": "Nacional da Madeira",
-            "position": "14",
-            "matches_played": "34",
-            "wins": "9",
-            "draws": "7",
-            "losses": "18",
-            "goals_for": "37",
-            "goals_against": "45",
-            "goal_difference": "-8",
-            "points": "34",
+            "position": "4",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "7",
-                "9.5": "18",
-                "10.5": "37",
-                "11.5": "45",
-                "12.5": "-8",
-                "13.5": "34",
-                "average": "1.00"
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
             },
             "goals": {
-                "1.5": "68%",
-                "2.5": "38%",
-                "3.5": "14%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "Estrela Amadora",
-            "position": "15",
-            "matches_played": "34",
-            "wins": "6",
-            "draws": "12",
-            "losses": "16",
-            "goals_for": "38",
-            "goals_against": "56",
-            "goal_difference": "-18",
-            "points": "30",
-            "corners": {
-                "8.5": "12",
-                "9.5": "16",
-                "10.5": "38",
-                "11.5": "56",
-                "12.5": "-18",
-                "13.5": "30",
-                "average": "0.88"
-            },
-            "goals": {
-                "1.5": "74%",
-                "2.5": "45%",
-                "3.5": "19%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
                 "over_3_5": "78%",
@@ -511,97 +137,29 @@
             }
         },
         {
-            "team": "Casa Pia",
-            "position": "16",
-            "matches_played": "34",
-            "wins": "6",
-            "draws": "12",
-            "losses": "16",
-            "goals_for": "31",
-            "goals_against": "57",
-            "goal_difference": "-26",
-            "points": "30",
+            "team": "GD Estoril Praia",
+            "position": "5",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "12",
-                "9.5": "16",
-                "10.5": "31",
-                "11.5": "57",
-                "12.5": "-26",
-                "13.5": "30",
-                "average": "0.88"
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
             },
             "goals": {
-                "1.5": "71%",
-                "2.5": "42%",
-                "3.5": "16%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
-            "team": "Tondela",
-            "position": "17",
-            "matches_played": "34",
-            "wins": "6",
-            "draws": "10",
-            "losses": "18",
-            "goals_for": "27",
-            "goals_against": "55",
-            "goal_difference": "-28",
-            "points": "28",
-            "corners": {
-                "8.5": "10",
-                "9.5": "18",
-                "10.5": "27",
-                "11.5": "55",
-                "12.5": "-28",
-                "13.5": "28",
-                "average": "0.82"
-            },
-            "goals": {
-                "1.5": "68%",
-                "2.5": "38%",
-                "3.5": "14%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "46%"
-            }
-        },
-        {
-            "team": "AVS",
-            "position": "18",
-            "matches_played": "34",
-            "wins": "3",
-            "draws": "12",
-            "losses": "19",
-            "goals_for": "27",
-            "goals_against": "67",
-            "goal_difference": "-40",
-            "points": "21",
-            "corners": {
-                "8.5": "12",
-                "9.5": "19",
-                "10.5": "27",
-                "11.5": "67",
-                "12.5": "-40",
-                "13.5": "21",
-                "average": "0.62"
-            },
-            "goals": {
-                "1.5": "74%",
-                "2.5": "45%",
-                "3.5": "19%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
                 "over_3_5": "70%",
@@ -611,6 +169,448 @@
             "btts": {
                 "Yes": "45%"
             }
+        },
+        {
+            "team": "FC Arouca",
+            "position": "6",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Rio Ave FC",
+            "position": "7",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Sporting Braga",
+            "position": "8",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Moreirense FC",
+            "position": "9",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Vitória Guimarães",
+            "position": "10",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "CS Marítimo",
+            "position": "11",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Gil Vicente",
+            "position": "12",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Santa Clara",
+            "position": "13",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Academico Viseu",
+            "position": "14",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Famalicão",
+            "position": "15",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Casa Pia",
+            "position": "16",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Alverca",
+            "position": "17",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Estrela Amadora",
+            "position": "18",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0",
+                "9.5": "0",
+                "10.5": "0",
+                "11.5": "0",
+                "12.5": "0",
+                "13.5": "0",
+                "average": "0.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
         }
     ]
-,"last_updated":"2026-07-29T17:33:30Z"}
+,"last_updated":"2026-07-29T21:21:29Z"}
