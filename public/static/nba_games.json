@@ -1,5 +1,11 @@
 [
     {
+        "hora": "03.10. 23:00",
+        "emparejamiento": "TOR @ MIA",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
         "hora": "05.10. 23:00",
         "emparejamiento": "ATL @ MEM",
         "resultado": "vs",
@@ -32,6 +38,12 @@
     {
         "hora": "09.10. 12:00",
         "emparejamiento": "DAL @ HOU",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "10.10. 22:30",
+        "emparejamiento": "TOR @ LAC",
         "resultado": "vs",
         "ubicacion": ""
     },
@@ -74,18 +86,6 @@
     {
         "hora": "14.10. 23:30",
         "emparejamiento": "BOS @ BKN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "14.10. 23:30",
-        "emparejamiento": "MIA @ BKN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "16.10. 23:00",
-        "emparejamiento": "PHI @ BOS",
         "resultado": "vs",
         "ubicacion": ""
     }
