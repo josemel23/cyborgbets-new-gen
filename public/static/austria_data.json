@@ -1,152 +1,16 @@
 {
     "teams": [
         {
-            "team": "Austria Lustenau",
-            "position": "1",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Austria Wien",
-            "position": "2",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
-            "team": "GAK",
-            "position": "3",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "Hartberg",
-            "position": "4",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
             "team": "LASK",
-            "position": "5",
-            "matches_played": "0",
-            "wins": "0",
+            "position": "1",
+            "matches_played": "1",
+            "wins": "1",
             "draws": "0",
             "losses": "0",
-            "goals_for": "0",
+            "goals_for": "3",
             "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
+            "goal_difference": "3",
+            "points": "3",
             "corners": {
                 "8.5": "0%",
                 "9.5": "0%",
@@ -154,148 +18,12 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "0"
+                "average": "8"
             },
             "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
-            "team": "Rapid de Viena",
-            "position": "6",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "46%"
-            }
-        },
-        {
-            "team": "Rheindorf Altach",
-            "position": "7",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "Ried",
-            "position": "8",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
-            "team": "Salzburg",
-            "position": "9",
-            "matches_played": "0",
-            "wins": "0",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "0"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
             },
             "cards": {
                 "over_3_5": "72%",
@@ -303,20 +31,20 @@
                 "over_5_5": "32%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "57%"
             }
         },
         {
-            "team": "Sturm Graz",
-            "position": "10",
-            "matches_played": "0",
-            "wins": "0",
+            "team": "Wolfsberger AC",
+            "position": "2",
+            "matches_played": "1",
+            "wins": "1",
             "draws": "0",
             "losses": "0",
-            "goals_for": "0",
+            "goals_for": "3",
             "goals_against": "0",
-            "goal_difference": "0",
-            "points": "0",
+            "goal_difference": "3",
+            "points": "3",
             "corners": {
                 "8.5": "0%",
                 "9.5": "0%",
@@ -324,12 +52,114 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "0"
+                "average": "8"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "56%"
+            }
+        },
+        {
+            "team": "Rapid de Viena",
+            "position": "3",
+            "matches_played": "1",
+            "wins": "1",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "1",
+            "goals_against": "0",
+            "goal_difference": "1",
+            "points": "3",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "11"
             },
             "goals": {
                 "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
+                "2.5": "15%",
+                "3.5": "6%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "Salzburg",
+            "position": "4",
+            "matches_played": "1",
+            "wins": "1",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "1",
+            "goals_against": "0",
+            "goal_difference": "1",
+            "points": "3",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "100%",
+                "13.5": "100%",
+                "average": "21"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "15%",
+                "3.5": "6%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Austria Lustenau",
+            "position": "5",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "1",
+            "losses": "0",
+            "goals_for": "1",
+            "goals_against": "1",
+            "goal_difference": "0",
+            "points": "1",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "100%",
+                "13.5": "0%",
+                "average": "13"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
             },
             "cards": {
                 "over_3_5": "75%",
@@ -337,20 +167,54 @@
                 "over_5_5": "35%"
             },
             "btts": {
-                "Yes": "47%"
+                "Yes": "45%"
             }
         },
         {
-            "team": "Wattens",
-            "position": "11",
-            "matches_played": "0",
+            "team": "Ried",
+            "position": "6",
+            "matches_played": "1",
             "wins": "0",
-            "draws": "0",
+            "draws": "1",
             "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
+            "goals_for": "1",
+            "goals_against": "1",
             "goal_difference": "0",
-            "points": "0",
+            "points": "1",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "100%",
+                "13.5": "0%",
+                "average": "13"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "Sturm Graz",
+            "position": "7",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "1",
+            "losses": "0",
+            "goals_for": "1",
+            "goals_against": "1",
+            "goal_difference": "0",
+            "points": "1",
             "corners": {
                 "8.5": "0%",
                 "9.5": "0%",
@@ -358,33 +222,33 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "0"
+                "average": "7"
             },
             "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
             },
             "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
             },
             "btts": {
                 "Yes": "45%"
             }
         },
         {
-            "team": "Wolfsberger AC",
-            "position": "12",
-            "matches_played": "0",
+            "team": "Wattens",
+            "position": "8",
+            "matches_played": "1",
             "wins": "0",
-            "draws": "0",
+            "draws": "1",
             "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
+            "goals_for": "1",
+            "goals_against": "1",
             "goal_difference": "0",
-            "points": "0",
+            "points": "1",
             "corners": {
                 "8.5": "0%",
                 "9.5": "0%",
@@ -392,12 +256,80 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "0"
+                "average": "7"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Hartberg",
+            "position": "9",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "0",
+            "goals_against": "1",
+            "goal_difference": "-1",
+            "points": "0",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "100%",
+                "12.5": "100%",
+                "13.5": "100%",
+                "average": "21"
             },
             "goals": {
                 "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
+                "2.5": "15%",
+                "3.5": "6%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "Rheindorf Altach",
+            "position": "10",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "0",
+            "goals_against": "1",
+            "goal_difference": "-1",
+            "points": "0",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "11"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "15%",
+                "3.5": "6%"
             },
             "cards": {
                 "over_3_5": "71%",
@@ -405,8 +337,76 @@
                 "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "Austria Wien",
+            "position": "11",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "0",
+            "goals_against": "3",
+            "goal_difference": "-3",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "8"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "53%"
+            }
+        },
+        {
+            "team": "GAK",
+            "position": "12",
+            "matches_played": "1",
+            "wins": "0",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "0",
+            "goals_against": "3",
+            "goal_difference": "-3",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "8"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "60%"
             }
         }
     ]
-,"last_updated":"2026-07-31T19:47:52Z"}
+,"last_updated":"2026-08-03T19:49:17Z"}
