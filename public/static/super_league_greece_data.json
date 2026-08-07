@@ -1,29 +1,29 @@
 {
     "teams": [
         {
-            "team": "AEK Athens",
+            "team": "PAOK",
             "position": "1",
-            "matches_played": "26",
-            "wins": "18",
-            "draws": "6",
-            "losses": "2",
-            "goals_for": "49",
-            "goals_against": "17",
-            "goal_difference": "32",
-            "points": "60",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "47%",
-                "9.5": "31%",
-                "10.5": "16%",
-                "11.5": "13%",
-                "12.5": "9%",
-                "13.5": "3%",
-                "average": "8.57"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "70%",
-                "2.5": "41%",
-                "3.5": "16%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
                 "over_3_5": "75%",
@@ -37,27 +37,163 @@
         {
             "team": "Olympiakos Piraeus",
             "position": "2",
-            "matches_played": "26",
-            "wins": "17",
-            "draws": "7",
-            "losses": "2",
-            "goals_for": "45",
-            "goals_against": "11",
-            "goal_difference": "34",
-            "points": "58",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "44%",
-                "9.5": "44%",
-                "10.5": "38%",
-                "11.5": "28%",
-                "12.5": "16%",
-                "13.5": "13%",
-                "average": "9.01"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "63%",
-                "2.5": "33%",
-                "3.5": "13%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Panathinaikos",
+            "position": "3",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "AEK Athens",
+            "position": "4",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Panaitolikos",
+            "position": "5",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Asteras Tripolis",
+            "position": "6",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
                 "over_3_5": "75%",
@@ -69,63 +205,165 @@
             }
         },
         {
-            "team": "PAOK",
-            "position": "3",
-            "matches_played": "26",
-            "wins": "17",
-            "draws": "6",
-            "losses": "3",
-            "goals_for": "52",
-            "goals_against": "17",
-            "goal_difference": "35",
-            "points": "57",
+            "team": "Levadiakos",
+            "position": "7",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "50%",
-                "9.5": "38%",
-                "10.5": "34%",
-                "11.5": "28%",
-                "12.5": "16%",
-                "13.5": "3%",
-                "average": "9"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "72%",
-                "2.5": "43%",
-                "3.5": "17%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
                 "Yes": "45%"
             }
         },
         {
-            "team": "Panathinaikos",
-            "position": "4",
-            "matches_played": "26",
-            "wins": "14",
-            "draws": "7",
-            "losses": "5",
-            "goals_for": "44",
-            "goals_against": "26",
-            "goal_difference": "18",
-            "points": "49",
+            "team": "Atromitos",
+            "position": "8",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "41%",
-                "9.5": "22%",
-                "10.5": "16%",
-                "11.5": "3%",
-                "12.5": "3%",
-                "13.5": "3%",
-                "average": "7.63"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "73%",
-                "2.5": "44%",
-                "3.5": "18%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "49%"
+            }
+        },
+        {
+            "team": "OFI",
+            "position": "9",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Aris",
+            "position": "10",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Kifisia",
+            "position": "11",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
                 "over_3_5": "75%",
@@ -137,344 +375,106 @@
             }
         },
         {
-            "team": "Levadiakos",
-            "position": "5",
-            "matches_played": "26",
-            "wins": "12",
-            "draws": "6",
-            "losses": "8",
-            "goals_for": "51",
-            "goals_against": "37",
-            "goal_difference": "14",
-            "points": "42",
+            "team": "Kalamata",
+            "position": "12",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "56%",
-                "9.5": "47%",
-                "10.5": "28%",
-                "11.5": "16%",
-                "12.5": "13%",
-                "13.5": "3%",
-                "average": "8.78"
-            },
-            "goals": {
-                "1.5": "81%",
-                "2.5": "56%",
-                "3.5": "28%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "58%"
-            }
-        },
-        {
-            "team": "OFI",
-            "position": "6",
-            "matches_played": "26",
-            "wins": "10",
-            "draws": "2",
-            "losses": "14",
-            "goals_for": "34",
-            "goals_against": "45",
-            "goal_difference": "-11",
-            "points": "32",
-            "corners": {
-                "8.5": "53%",
-                "9.5": "34%",
-                "10.5": "19%",
-                "11.5": "9%",
-                "12.5": "6%",
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
                 "13.5": "0%",
-                "average": "8.35"
+                "average": "0"
             },
             "goals": {
-                "1.5": "77%",
-                "2.5": "51%",
-                "3.5": "23%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
             },
             "btts": {
-                "Yes": "54%"
+                "Yes": "45%"
             }
         },
         {
             "team": "Volos NFC",
-            "position": "7",
-            "matches_played": "26",
-            "wins": "9",
-            "draws": "4",
-            "losses": "13",
-            "goals_for": "26",
-            "goals_against": "38",
-            "goal_difference": "-12",
-            "points": "31",
-            "corners": {
-                "8.5": "50%",
-                "9.5": "38%",
-                "10.5": "34%",
-                "11.5": "25%",
-                "12.5": "19%",
-                "13.5": "9%",
-                "average": "8.85"
-            },
-            "goals": {
-                "1.5": "69%",
-                "2.5": "39%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "46%"
-            }
-        },
-        {
-            "team": "Aris",
-            "position": "8",
-            "matches_played": "26",
-            "wins": "6",
-            "draws": "12",
-            "losses": "8",
-            "goals_for": "20",
-            "goals_against": "27",
-            "goal_difference": "-7",
-            "points": "30",
-            "corners": {
-                "8.5": "66%",
-                "9.5": "53%",
-                "10.5": "31%",
-                "11.5": "19%",
-                "12.5": "6%",
-                "13.5": "0%",
-                "average": "9.19"
-            },
-            "goals": {
-                "1.5": "54%",
-                "2.5": "27%",
-                "3.5": "11%"
-            },
-            "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Atromitos",
-            "position": "9",
-            "matches_played": "26",
-            "wins": "7",
-            "draws": "8",
-            "losses": "11",
-            "goals_for": "26",
-            "goals_against": "30",
-            "goal_difference": "-4",
-            "points": "29",
-            "corners": {
-                "8.5": "39%",
-                "9.5": "36%",
-                "10.5": "28%",
-                "11.5": "25%",
-                "12.5": "14%",
-                "13.5": "6%",
-                "average": "8.53"
-            },
-            "goals": {
-                "1.5": "63%",
-                "2.5": "33%",
-                "3.5": "13%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Kifisia",
-            "position": "10",
-            "matches_played": "26",
-            "wins": "6",
-            "draws": "9",
-            "losses": "11",
-            "goals_for": "32",
-            "goals_against": "42",
-            "goal_difference": "-10",
-            "points": "27",
-            "corners": {
-                "8.5": "53%",
-                "9.5": "39%",
-                "10.5": "28%",
-                "11.5": "22%",
-                "12.5": "11%",
-                "13.5": "8%",
-                "average": "9.22"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "47%",
-                "3.5": "20%"
-            },
-            "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Panaitolikos",
-            "position": "11",
-            "matches_played": "26",
-            "wins": "7",
-            "draws": "5",
-            "losses": "14",
-            "goals_for": "24",
-            "goals_against": "38",
-            "goal_difference": "-14",
-            "points": "26",
-            "corners": {
-                "8.5": "47%",
-                "9.5": "42%",
-                "10.5": "33%",
-                "11.5": "22%",
-                "12.5": "14%",
-                "13.5": "3%",
-                "average": "8.42"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "38%",
-                "3.5": "14%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Larissa",
-            "position": "12",
-            "matches_played": "26",
-            "wins": "4",
-            "draws": "11",
-            "losses": "11",
-            "goals_for": "22",
-            "goals_against": "39",
-            "goal_difference": "-17",
-            "points": "23",
-            "corners": {
-                "8.5": "53%",
-                "9.5": "42%",
-                "10.5": "28%",
-                "11.5": "14%",
-                "12.5": "3%",
-                "13.5": "3%",
-                "average": "8.66"
-            },
-            "goals": {
-                "1.5": "66%",
-                "2.5": "37%",
-                "3.5": "14%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Asteras Tripolis",
             "position": "13",
-            "matches_played": "26",
-            "wins": "3",
-            "draws": "8",
-            "losses": "15",
-            "goals_for": "22",
-            "goals_against": "41",
-            "goal_difference": "-19",
-            "points": "17",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "56%",
-                "9.5": "53%",
-                "10.5": "39%",
-                "11.5": "28%",
-                "12.5": "19%",
-                "13.5": "11%",
-                "average": "9.75"
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "0"
             },
             "goals": {
-                "1.5": "68%",
-                "2.5": "38%",
-                "3.5": "15%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
             },
             "btts": {
-                "Yes": "48%"
+                "Yes": "45%"
             }
         },
         {
-            "team": "Panserraikos",
+            "team": "Iraklis 1908 U19",
             "position": "14",
-            "matches_played": "26",
-            "wins": "4",
-            "draws": "5",
-            "losses": "17",
-            "goals_for": "16",
-            "goals_against": "55",
-            "goal_difference": "-39",
-            "points": "17",
+            "matches_played": "0",
+            "wins": "0",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "0",
+            "goals_against": "0",
+            "goal_difference": "0",
+            "points": "0",
             "corners": {
-                "8.5": "53%",
-                "9.5": "44%",
-                "10.5": "25%",
-                "11.5": "14%",
-                "12.5": "11%",
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
                 "13.5": "0%",
-                "average": "8.5"
+                "average": "0"
             },
             "goals": {
-                "1.5": "74%",
-                "2.5": "45%",
-                "3.5": "18%"
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
             },
             "btts": {
-                "Yes": "48%"
+                "Yes": "45%"
             }
         }
     ]
-,"last_updated":"2026-08-05T19:34:51Z"}
+,"last_updated":"2026-08-07T18:59:43Z"}
