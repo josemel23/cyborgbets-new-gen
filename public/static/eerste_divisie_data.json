@@ -1,50 +1,84 @@
 {
     "teams": [
         {
-            "team": "Eindhoven",
+            "team": "Heracles",
             "position": "1",
-            "matches_played": "1",
-            "wins": "1",
+            "matches_played": "3",
+            "wins": "3",
             "draws": "0",
             "losses": "0",
-            "goals_for": "1",
-            "goals_against": "0",
-            "goal_difference": "1",
-            "points": "3",
+            "goals_for": "13",
+            "goals_against": "6",
+            "goal_difference": "7",
+            "points": "9",
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8"
+                "8.5": "100%",
+                "9.5": "67%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "33%",
+                "13.5": "33%",
+                "average": "12"
             },
             "goals": {
-                "1.5": "30%",
-                "2.5": "15%",
-                "3.5": "6%"
+                "1.5": "95%",
+                "2.5": "85%",
+                "3.5": "64%"
             },
             "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
-                "Yes": "48%"
+                "Yes": "81%"
             }
         },
         {
             "team": "Emmen",
             "position": "2",
-            "matches_played": "1",
-            "wins": "1",
+            "matches_played": "3",
+            "wins": "3",
             "draws": "0",
             "losses": "0",
-            "goals_for": "1",
-            "goals_against": "0",
-            "goal_difference": "1",
-            "points": "3",
+            "goals_for": "10",
+            "goals_against": "5",
+            "goal_difference": "5",
+            "points": "9",
+            "corners": {
+                "8.5": "33%",
+                "9.5": "33%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7"
+            },
+            "goals": {
+                "1.5": "95%",
+                "2.5": "80%",
+                "3.5": "48%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "82%"
+            }
+        },
+        {
+            "team": "MVV",
+            "position": "3",
+            "matches_played": "3",
+            "wins": "3",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "6",
+            "goals_against": "3",
+            "goal_difference": "3",
+            "points": "9",
             "corners": {
                 "8.5": "0%",
                 "9.5": "0%",
@@ -52,41 +86,7 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "2"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "15%",
-                "3.5": "6%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "46%"
-            }
-        },
-        {
-            "team": "Dordrecht",
-            "position": "3",
-            "matches_played": "1",
-            "wins": "1",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "2",
-            "goals_against": "1",
-            "goal_difference": "1",
-            "points": "3",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "11"
+                "average": "7.66"
             },
             "goals": {
                 "1.5": "77%",
@@ -99,23 +99,261 @@
                 "over_5_5": "36%"
             },
             "btts": {
-                "Yes": "53%"
+                "Yes": "54%"
             }
         },
         {
-            "team": "MVV",
+            "team": "Almere City",
             "position": "4",
-            "matches_played": "1",
-            "wins": "1",
-            "draws": "0",
+            "matches_played": "3",
+            "wins": "2",
+            "draws": "1",
             "losses": "0",
-            "goals_for": "2",
-            "goals_against": "1",
-            "goal_difference": "1",
-            "points": "3",
+            "goals_for": "7",
+            "goals_against": "2",
+            "goal_difference": "5",
+            "points": "7",
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10.67"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "50%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "60%"
+            }
+        },
+        {
+            "team": "VVV",
+            "position": "5",
+            "matches_played": "3",
+            "wins": "2",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "7",
+            "goals_against": "5",
+            "goal_difference": "2",
+            "points": "6",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "67%",
+                "10.5": "33%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "87%",
+                "2.5": "65%",
+                "3.5": "36%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "65%"
+            }
+        },
+        {
+            "team": "Roda JC",
+            "position": "6",
+            "matches_played": "3",
+            "wins": "2",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "3",
+            "goals_against": "2",
+            "goal_difference": "1",
+            "points": "6",
+            "corners": {
+                "8.5": "67%",
+                "9.5": "33%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7"
+            },
+            "goals": {
+                "1.5": "50%",
+                "2.5": "25%",
+                "3.5": "10%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "NAC Breda",
+            "position": "7",
+            "matches_played": "3",
+            "wins": "2",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "5",
+            "goals_against": "5",
+            "goal_difference": "0",
+            "points": "6",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "67%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10.67"
+            },
+            "goals": {
+                "1.5": "80%",
+                "2.5": "55%",
+                "3.5": "28%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "59%"
+            }
+        },
+        {
+            "team": "PSV II",
+            "position": "8",
+            "matches_played": "3",
+            "wins": "2",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "5",
+            "goals_against": "5",
+            "goal_difference": "0",
+            "points": "6",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "67%",
+                "10.5": "33%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "80%",
+                "2.5": "55%",
+                "3.5": "28%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "60%"
+            }
+        },
+        {
+            "team": "Den Bosch",
+            "position": "9",
+            "matches_played": "3",
+            "wins": "1",
+            "draws": "1",
+            "losses": "1",
+            "goals_for": "8",
+            "goals_against": "6",
+            "goal_difference": "2",
+            "points": "4",
+            "corners": {
+                "8.5": "67%",
+                "9.5": "67%",
+                "10.5": "67%",
+                "11.5": "67%",
+                "12.5": "33%",
+                "13.5": "33%",
+                "average": "12"
+            },
+            "goals": {
+                "1.5": "94%",
+                "2.5": "75%",
+                "3.5": "44%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "72%"
+            }
+        },
+        {
+            "team": "Dordrecht",
+            "position": "10",
+            "matches_played": "3",
+            "wins": "1",
+            "draws": "1",
+            "losses": "1",
+            "goals_for": "4",
+            "goals_against": "4",
+            "goal_difference": "0",
+            "points": "4",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "67%",
+                "10.5": "33%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "10"
+            },
+            "goals": {
+                "1.5": "72%",
+                "2.5": "43%",
+                "3.5": "17%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "46%"
+            }
+        },
+        {
+            "team": "Vitesse",
+            "position": "11",
+            "matches_played": "3",
+            "wins": "1",
+            "draws": "1",
+            "losses": "1",
+            "goals_for": "4",
+            "goals_against": "5",
+            "goal_difference": "-1",
+            "points": "4",
+            "corners": {
+                "8.5": "33%",
+                "9.5": "33%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
@@ -133,27 +371,27 @@
                 "over_5_5": "35%"
             },
             "btts": {
-                "Yes": "50%"
+                "Yes": "57%"
             }
         },
         {
-            "team": "NAC Breda",
-            "position": "5",
-            "matches_played": "1",
+            "team": "Volendam",
+            "position": "12",
+            "matches_played": "3",
             "wins": "1",
             "draws": "0",
-            "losses": "0",
-            "goals_for": "2",
-            "goals_against": "1",
+            "losses": "2",
+            "goals_for": "5",
+            "goals_against": "4",
             "goal_difference": "1",
             "points": "3",
             "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
+                "8.5": "67%",
+                "9.5": "33%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "33%",
+                "13.5": "33%",
                 "average": "11"
             },
             "goals": {
@@ -162,140 +400,38 @@
                 "3.5": "22%"
             },
             "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
             },
             "btts": {
-                "Yes": "59%"
+                "Yes": "53%"
             }
         },
         {
-            "team": "PSV II",
-            "position": "6",
-            "matches_played": "1",
-            "wins": "1",
-            "draws": "0",
+            "team": "RKC Waalwijk",
+            "position": "13",
+            "matches_played": "3",
+            "wins": "0",
+            "draws": "3",
             "losses": "0",
-            "goals_for": "3",
-            "goals_against": "2",
-            "goal_difference": "1",
+            "goals_for": "4",
+            "goals_against": "4",
+            "goal_difference": "0",
             "points": "3",
             "corners": {
-                "8.5": "100%",
+                "8.5": "33%",
                 "9.5": "0%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "9"
+                "average": "8"
             },
             "goals": {
-                "1.5": "95%",
-                "2.5": "80%",
-                "3.5": "48%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "80%"
-            }
-        },
-        {
-            "team": "Heracles",
-            "position": "7",
-            "matches_played": "1",
-            "wins": "1",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "4",
-            "goals_against": "3",
-            "goal_difference": "1",
-            "points": "3",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "95%",
-                "2.5": "85%",
-                "3.5": "65%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "88%"
-            }
-        },
-        {
-            "team": "Almere City",
-            "position": "8",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "1",
-            "goal_difference": "0",
-            "points": "1",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "100%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "12"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
-            "team": "De Graafschap",
-            "position": "9",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "1",
-            "goal_difference": "0",
-            "points": "1",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
+                "1.5": "72%",
+                "2.5": "43%",
+                "3.5": "17%"
             },
             "cards": {
                 "over_3_5": "78%",
@@ -307,63 +443,29 @@
             }
         },
         {
-            "team": "Den Bosch",
-            "position": "10",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "1",
+            "team": "AZ II",
+            "position": "14",
+            "matches_played": "3",
+            "wins": "1",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "6",
+            "goals_against": "6",
             "goal_difference": "0",
-            "points": "1",
+            "points": "3",
             "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "100%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "12"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Helmond Sport",
-            "position": "11",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "1",
-            "goal_difference": "0",
-            "points": "1",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
+                "8.5": "0%",
+                "9.5": "0%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "10"
+                "average": "7.67"
             },
             "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
+                "1.5": "87%",
+                "2.5": "65%",
+                "3.5": "36%"
             },
             "cards": {
                 "over_3_5": "77%",
@@ -371,88 +473,20 @@
                 "over_5_5": "37%"
             },
             "btts": {
-                "Yes": "50%"
+                "Yes": "69%"
             }
         },
         {
-            "team": "RKC Waalwijk",
-            "position": "12",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "1",
-            "goal_difference": "0",
-            "points": "1",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Vitesse",
-            "position": "13",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "1",
-            "goals_against": "1",
-            "goal_difference": "0",
-            "points": "1",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8"
-            },
-            "goals": {
-                "1.5": "60%",
-                "2.5": "30%",
-                "3.5": "12%"
-            },
-            "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "AZ II",
-            "position": "14",
-            "matches_played": "1",
-            "wins": "0",
+            "team": "Eindhoven",
+            "position": "15",
+            "matches_played": "3",
+            "wins": "1",
             "draws": "0",
-            "losses": "1",
-            "goals_for": "0",
-            "goals_against": "1",
-            "goal_difference": "-1",
-            "points": "0",
+            "losses": "2",
+            "goals_for": "5",
+            "goals_against": "8",
+            "goal_difference": "-3",
+            "points": "3",
             "corners": {
                 "8.5": "0%",
                 "9.5": "0%",
@@ -460,12 +494,12 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "8"
+                "average": "7.66"
             },
             "goals": {
-                "1.5": "30%",
-                "2.5": "15%",
-                "3.5": "6%"
+                "1.5": "90%",
+                "2.5": "70%",
+                "3.5": "40%"
             },
             "cards": {
                 "over_3_5": "80%",
@@ -473,33 +507,135 @@
                 "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "49%"
+                "Yes": "69%"
             }
         },
         {
-            "team": "Roda JC",
-            "position": "15",
-            "matches_played": "1",
+            "team": "Helmond Sport",
+            "position": "16",
+            "matches_played": "3",
             "wins": "0",
-            "draws": "0",
+            "draws": "2",
             "losses": "1",
-            "goals_for": "0",
-            "goals_against": "1",
+            "goals_for": "3",
+            "goals_against": "4",
             "goal_difference": "-1",
-            "points": "0",
+            "points": "2",
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
+                "8.5": "67%",
+                "9.5": "33%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "2"
+                "average": "8.67"
             },
             "goals": {
-                "1.5": "30%",
-                "2.5": "15%",
-                "3.5": "6%"
+                "1.5": "66%",
+                "2.5": "37%",
+                "3.5": "14%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "49%"
+            }
+        },
+        {
+            "team": "De Graafschap",
+            "position": "17",
+            "matches_played": "3",
+            "wins": "0",
+            "draws": "1",
+            "losses": "2",
+            "goals_for": "4",
+            "goals_against": "8",
+            "goal_difference": "-4",
+            "points": "1",
+            "corners": {
+                "8.5": "67%",
+                "9.5": "33%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "9"
+            },
+            "goals": {
+                "1.5": "87%",
+                "2.5": "65%",
+                "3.5": "36%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "68%"
+            }
+        },
+        {
+            "team": "Ajax II",
+            "position": "18",
+            "matches_played": "3",
+            "wins": "0",
+            "draws": "0",
+            "losses": "3",
+            "goals_for": "7",
+            "goals_against": "11",
+            "goal_difference": "-4",
+            "points": "0",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "67%",
+                "11.5": "33%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "11"
+            },
+            "goals": {
+                "1.5": "95%",
+                "2.5": "85%",
+                "3.5": "60%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "88%"
+            }
+        },
+        {
+            "team": "Oss",
+            "position": "19",
+            "matches_played": "3",
+            "wins": "0",
+            "draws": "0",
+            "losses": "3",
+            "goals_for": "1",
+            "goals_against": "6",
+            "goal_difference": "-5",
+            "points": "0",
+            "corners": {
+                "8.5": "100%",
+                "9.5": "100%",
+                "10.5": "100%",
+                "11.5": "33%",
+                "12.5": "33%",
+                "13.5": "33%",
+                "average": "13"
+            },
+            "goals": {
+                "1.5": "66%",
+                "2.5": "37%",
+                "3.5": "14%"
             },
             "cards": {
                 "over_3_5": "73%",
@@ -511,174 +647,38 @@
             }
         },
         {
-            "team": "Ajax II",
-            "position": "16",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "1",
-            "goals_against": "2",
-            "goal_difference": "-1",
-            "points": "0",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "11"
-            },
-            "goals": {
-                "1.5": "77%",
-                "2.5": "50%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
-            },
-            "btts": {
-                "Yes": "51%"
-            }
-        },
-        {
-            "team": "Oss",
-            "position": "17",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "1",
-            "goals_against": "2",
-            "goal_difference": "-1",
-            "points": "0",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "11"
-            },
-            "goals": {
-                "1.5": "77%",
-                "2.5": "50%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "52%"
-            }
-        },
-        {
             "team": "Utrecht II",
-            "position": "18",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "1",
-            "goals_against": "2",
-            "goal_difference": "-1",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8"
-            },
-            "goals": {
-                "1.5": "77%",
-                "2.5": "50%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "51%"
-            }
-        },
-        {
-            "team": "Volendam",
-            "position": "19",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "2",
-            "goals_against": "3",
-            "goal_difference": "-1",
-            "points": "0",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "9"
-            },
-            "goals": {
-                "1.5": "95%",
-                "2.5": "80%",
-                "3.5": "48%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "87%"
-            }
-        },
-        {
-            "team": "VVV",
             "position": "20",
-            "matches_played": "1",
+            "matches_played": "3",
             "wins": "0",
             "draws": "0",
-            "losses": "1",
+            "losses": "3",
             "goals_for": "3",
-            "goals_against": "4",
-            "goal_difference": "-1",
+            "goals_against": "11",
+            "goal_difference": "-8",
             "points": "0",
             "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
+                "8.5": "33%",
+                "9.5": "0%",
                 "10.5": "0%",
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "10"
+                "average": "7.66"
             },
             "goals": {
-                "1.5": "95%",
-                "2.5": "85%",
-                "3.5": "65%"
+                "1.5": "94%",
+                "2.5": "75%",
+                "3.5": "44%"
             },
             "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
             },
             "btts": {
-                "Yes": "83%"
+                "Yes": "67%"
             }
         }
     ]
-,"last_updated":"2026-08-24T20:52:02Z"}
+,"last_updated":"2026-08-26T17:04:04Z"}
