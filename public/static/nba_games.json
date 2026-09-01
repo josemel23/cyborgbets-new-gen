@@ -6,6 +6,12 @@
         "ubicacion": ""
     },
     {
+        "hora": "04.10. 23:00",
+        "emparejamiento": "LAC @ GSW",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
         "hora": "05.10. 23:00",
         "emparejamiento": "ATL @ MEM",
         "resultado": "vs",
@@ -80,12 +86,6 @@
     {
         "hora": "08.10. 00:00",
         "emparejamiento": "OKC @ MIL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "08.10. 02:00",
-        "emparejamiento": "POR @ GSW",
         "resultado": "vs",
         "ubicacion": ""
     }
