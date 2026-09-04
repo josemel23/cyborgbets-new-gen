@@ -1,8 +1,42 @@
 {
     "teams": [
         {
-            "team": "Maccabi Petah Tikva",
+            "team": "Maccabi Tel Aviv",
             "position": "1",
+            "matches_played": "2",
+            "wins": "2",
+            "draws": "0",
+            "losses": "0",
+            "goals_for": "8",
+            "goals_against": "3",
+            "goal_difference": "5",
+            "points": "6",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "8"
+            },
+            "goals": {
+                "1.5": "95%",
+                "2.5": "85%",
+                "3.5": "54%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "87%"
+            }
+        },
+        {
+            "team": "Maccabi Petah Tikva",
+            "position": "2",
             "matches_played": "2",
             "wins": "2",
             "draws": "0",
@@ -26,17 +60,51 @@
                 "3.5": "22%"
             },
             "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
             },
             "btts": {
-                "Yes": "50%"
+                "Yes": "58%"
+            }
+        },
+        {
+            "team": "Hapoel Tel Aviv",
+            "position": "3",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "1",
+            "losses": "0",
+            "goals_for": "3",
+            "goals_against": "0",
+            "goal_difference": "3",
+            "points": "4",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7"
+            },
+            "goals": {
+                "1.5": "45%",
+                "2.5": "22%",
+                "3.5": "9%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "47%"
             }
         },
         {
             "team": "Maccabi Netanya",
-            "position": "2",
+            "position": "4",
             "matches_played": "2",
             "wins": "1",
             "draws": "1",
@@ -60,51 +128,17 @@
                 "3.5": "15%"
             },
             "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "48%"
             }
         },
         {
-            "team": "Maccabi Tel Aviv",
-            "position": "3",
-            "matches_played": "2",
-            "wins": "1",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "7",
-            "goals_against": "4",
-            "goal_difference": "3",
-            "points": "4",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8"
-            },
-            "goals": {
-                "1.5": "95%",
-                "2.5": "85%",
-                "3.5": "54%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "81%"
-            }
-        },
-        {
-            "team": "Maccabi Haifa",
-            "position": "4",
+            "team": "Hapoel Be'er Sheva",
+            "position": "5",
             "matches_played": "2",
             "wins": "1",
             "draws": "1",
@@ -114,13 +148,13 @@
             "goal_difference": "1",
             "points": "4",
             "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "7.5"
+                "8.5": "50%",
+                "9.5": "50%",
+                "10.5": "50%",
+                "11.5": "50%",
+                "12.5": "50%",
+                "13.5": "50%",
+                "average": "10.5"
             },
             "goals": {
                 "1.5": "82%",
@@ -128,46 +162,12 @@
                 "3.5": "30%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
-                "Yes": "52%"
-            }
-        },
-        {
-            "team": "Hapoel Be'er Sheva",
-            "position": "5",
-            "matches_played": "1",
-            "wins": "1",
-            "draws": "0",
-            "losses": "0",
-            "goals_for": "2",
-            "goals_against": "1",
-            "goal_difference": "1",
-            "points": "3",
-            "corners": {
-                "8.5": "100%",
-                "9.5": "100%",
-                "10.5": "100%",
-                "11.5": "100%",
-                "12.5": "100%",
-                "13.5": "100%",
-                "average": "15"
-            },
-            "goals": {
-                "1.5": "77%",
-                "2.5": "50%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "60%"
+                "Yes": "57%"
             }
         },
         {
@@ -196,9 +196,9 @@
                 "3.5": "15%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
             },
             "btts": {
                 "Yes": "45%"
@@ -230,9 +230,9 @@
                 "3.5": "6%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
             },
             "btts": {
                 "Yes": "45%"
@@ -264,59 +264,25 @@
                 "3.5": "9%"
             },
             "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Hapoel Haifa",
-            "position": "9",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "1",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "8"
-            },
-            "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
-            },
-            "cards": {
                 "over_3_5": "71%",
                 "over_4_5": "51%",
                 "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "50%"
+                "Yes": "48%"
             }
         },
         {
-            "team": "Hapoel Tel Aviv",
-            "position": "10",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "1",
-            "losses": "0",
-            "goals_for": "0",
-            "goals_against": "0",
-            "goal_difference": "0",
-            "points": "1",
+            "team": "Maccabi Haifa",
+            "position": "9",
+            "matches_played": "2",
+            "wins": "1",
+            "draws": "0",
+            "losses": "1",
+            "goals_for": "3",
+            "goals_against": "4",
+            "goal_difference": "-1",
+            "points": "3",
             "corners": {
                 "8.5": "0%",
                 "9.5": "0%",
@@ -324,20 +290,54 @@
                 "11.5": "0%",
                 "12.5": "0%",
                 "13.5": "0%",
-                "average": "8"
+                "average": "7.5"
             },
             "goals": {
-                "1.5": "30%",
-                "2.5": "10%",
-                "3.5": "5%"
+                "1.5": "82%",
+                "2.5": "58%",
+                "3.5": "30%"
             },
             "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "55%"
+            }
+        },
+        {
+            "team": "Hapoel Haifa",
+            "position": "10",
+            "matches_played": "2",
+            "wins": "0",
+            "draws": "2",
+            "losses": "0",
+            "goals_for": "2",
+            "goals_against": "2",
+            "goal_difference": "0",
+            "points": "2",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "7"
+            },
+            "goals": {
+                "1.5": "60%",
+                "2.5": "30%",
+                "3.5": "12%"
+            },
+            "cards": {
+                "over_3_5": "77%",
+                "over_4_5": "57%",
+                "over_5_5": "37%"
+            },
+            "btts": {
+                "Yes": "49%"
             }
         },
         {
@@ -366,12 +366,12 @@
                 "3.5": "9%"
             },
             "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "47%"
+                "Yes": "46%"
             }
         },
         {
@@ -400,51 +400,17 @@
                 "3.5": "22%"
             },
             "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
             },
             "btts": {
-                "Yes": "60%"
-            }
-        },
-        {
-            "team": "Beitar Jerusalem",
-            "position": "13",
-            "matches_played": "1",
-            "wins": "0",
-            "draws": "0",
-            "losses": "1",
-            "goals_for": "1",
-            "goals_against": "4",
-            "goal_difference": "-3",
-            "points": "0",
-            "corners": {
-                "8.5": "0%",
-                "9.5": "0%",
-                "10.5": "0%",
-                "11.5": "0%",
-                "12.5": "0%",
-                "13.5": "0%",
-                "average": "4"
-            },
-            "goals": {
-                "1.5": "95%",
-                "2.5": "80%",
-                "3.5": "48%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "81%"
+                "Yes": "59%"
             }
         },
         {
             "team": "Hapoel Katamon",
-            "position": "14",
+            "position": "13",
             "matches_played": "2",
             "wins": "0",
             "draws": "0",
@@ -468,12 +434,46 @@
                 "3.5": "36%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "69%"
+                "Yes": "70%"
+            }
+        },
+        {
+            "team": "Beitar Jerusalem",
+            "position": "14",
+            "matches_played": "2",
+            "wins": "0",
+            "draws": "0",
+            "losses": "2",
+            "goals_for": "1",
+            "goals_against": "7",
+            "goal_difference": "-6",
+            "points": "0",
+            "corners": {
+                "8.5": "0%",
+                "9.5": "0%",
+                "10.5": "0%",
+                "11.5": "0%",
+                "12.5": "0%",
+                "13.5": "0%",
+                "average": "5"
+            },
+            "goals": {
+                "1.5": "87%",
+                "2.5": "65%",
+                "3.5": "36%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "67%"
             }
         }
     ]
