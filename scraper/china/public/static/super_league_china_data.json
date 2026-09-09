@@ -3,95 +3,27 @@
         {
             "team": "Chengdu Better City FC",
             "position": "1",
-            "matches_played": "24",
-            "wins": "14",
-            "draws": "6",
+            "matches_played": "26",
+            "wins": "15",
+            "draws": "7",
             "losses": "4",
-            "goals_for": "49",
-            "goals_against": "29",
-            "goal_difference": "20",
-            "points": "48",
+            "goals_for": "51",
+            "goals_against": "30",
+            "goal_difference": "21",
+            "points": "52",
             "corners": {
-                "8.5": "67%",
+                "8.5": "69%",
                 "9.5": "54%",
                 "10.5": "50%",
                 "11.5": "50%",
                 "12.5": "38%",
-                "13.5": "21%",
-                "average": "10.71"
+                "13.5": "19%",
+                "average": "10.73"
             },
             "goals": {
-                "1.5": "80%",
-                "2.5": "54%",
-                "3.5": "26%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "58%"
-            }
-        },
-        {
-            "team": "Beijing Guoan",
-            "position": "2",
-            "matches_played": "24",
-            "wins": "11",
-            "draws": "8",
-            "losses": "5",
-            "goals_for": "48",
-            "goals_against": "32",
-            "goal_difference": "16",
-            "points": "36",
-            "corners": {
-                "8.5": "79%",
-                "9.5": "67%",
-                "10.5": "54%",
-                "11.5": "50%",
-                "12.5": "29%",
-                "13.5": "17%",
-                "average": "10.83"
-            },
-            "goals": {
-                "1.5": "80%",
-                "2.5": "55%",
-                "3.5": "28%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "54%"
-            }
-        },
-        {
-            "team": "Qingdao Youth Island",
-            "position": "3",
-            "matches_played": "24",
-            "wins": "8",
-            "draws": "12",
-            "losses": "4",
-            "goals_for": "28",
-            "goals_against": "29",
-            "goal_difference": "-1",
-            "points": "36",
-            "corners": {
-                "8.5": "54%",
-                "9.5": "38%",
-                "10.5": "29%",
-                "11.5": "25%",
-                "12.5": "17%",
-                "13.5": "13%",
-                "average": "9.38"
-            },
-            "goals": {
-                "1.5": "67%",
-                "2.5": "38%",
-                "3.5": "14%"
+                "1.5": "78%",
+                "2.5": "52%",
+                "3.5": "24%"
             },
             "cards": {
                 "over_3_5": "79%",
@@ -99,402 +31,28 @@
                 "over_5_5": "39%"
             },
             "btts": {
-                "Yes": "48%"
-            }
-        },
-        {
-            "team": "Dalian Zhixing",
-            "position": "4",
-            "matches_played": "24",
-            "wins": "11",
-            "draws": "3",
-            "losses": "10",
-            "goals_for": "35",
-            "goals_against": "40",
-            "goal_difference": "-5",
-            "points": "36",
-            "corners": {
-                "8.5": "67%",
-                "9.5": "54%",
-                "10.5": "46%",
-                "11.5": "42%",
-                "12.5": "29%",
-                "13.5": "21%",
-                "average": "10.62"
-            },
-            "goals": {
-                "1.5": "78%",
-                "2.5": "52%",
-                "3.5": "24%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "54%"
-            }
-        },
-        {
-            "team": "Yunnan Yukun",
-            "position": "5",
-            "matches_played": "24",
-            "wins": "10",
-            "draws": "5",
-            "losses": "9",
-            "goals_for": "49",
-            "goals_against": "45",
-            "goal_difference": "4",
-            "points": "35",
-            "corners": {
-                "8.5": "58%",
-                "9.5": "50%",
-                "10.5": "38%",
-                "11.5": "38%",
-                "12.5": "29%",
-                "13.5": "17%",
-                "average": "10.13"
-            },
-            "goals": {
-                "1.5": "86%",
-                "2.5": "64%",
-                "3.5": "35%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "52%"
-            }
-        },
-        {
-            "team": "Shandong Luneng",
-            "position": "6",
-            "matches_played": "24",
-            "wins": "12",
-            "draws": "3",
-            "losses": "9",
-            "goals_for": "42",
-            "goals_against": "40",
-            "goal_difference": "2",
-            "points": "33",
-            "corners": {
-                "8.5": "63%",
-                "9.5": "42%",
-                "10.5": "38%",
-                "11.5": "29%",
-                "12.5": "13%",
-                "13.5": "8%",
-                "average": "9.58"
-            },
-            "goals": {
-                "1.5": "81%",
-                "2.5": "56%",
-                "3.5": "29%"
-            },
-            "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
-            },
-            "btts": {
-                "Yes": "52%"
-            }
-        },
-        {
-            "team": "Chongqing Tongliang Long",
-            "position": "7",
-            "matches_played": "24",
-            "wins": "7",
-            "draws": "9",
-            "losses": "8",
-            "goals_for": "25",
-            "goals_against": "28",
-            "goal_difference": "-3",
-            "points": "30",
-            "corners": {
-                "8.5": "63%",
-                "9.5": "50%",
-                "10.5": "42%",
-                "11.5": "29%",
-                "12.5": "21%",
-                "13.5": "17%",
-                "average": "10"
-            },
-            "goals": {
-                "1.5": "64%",
-                "2.5": "34%",
-                "3.5": "13%"
-            },
-            "cards": {
-                "over_3_5": "71%",
-                "over_4_5": "51%",
-                "over_5_5": "31%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Shanghai SIPG",
-            "position": "8",
-            "matches_played": "24",
-            "wins": "9",
-            "draws": "7",
-            "losses": "8",
-            "goals_for": "39",
-            "goals_against": "33",
-            "goal_difference": "6",
-            "points": "29",
-            "corners": {
-                "8.5": "58%",
-                "9.5": "54%",
-                "10.5": "46%",
-                "11.5": "33%",
-                "12.5": "25%",
-                "13.5": "17%",
-                "average": "9.96"
-            },
-            "goals": {
-                "1.5": "77%",
-                "2.5": "50%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "53%"
-            }
-        },
-        {
-            "team": "Shanghai Shenhua",
-            "position": "9",
-            "matches_played": "24",
-            "wins": "11",
-            "draws": "5",
-            "losses": "8",
-            "goals_for": "47",
-            "goals_against": "42",
-            "goal_difference": "5",
-            "points": "28",
-            "corners": {
-                "8.5": "75%",
-                "9.5": "67%",
-                "10.5": "58%",
-                "11.5": "54%",
-                "12.5": "42%",
-                "13.5": "25%",
-                "average": "11.17"
-            },
-            "goals": {
-                "1.5": "84%",
-                "2.5": "61%",
-                "3.5": "32%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "59%"
-            }
-        },
-        {
-            "team": "Sichuan Jiuniu",
-            "position": "10",
-            "matches_played": "24",
-            "wins": "8",
-            "draws": "3",
-            "losses": "13",
-            "goals_for": "33",
-            "goals_against": "43",
-            "goal_difference": "-10",
-            "points": "27",
-            "corners": {
-                "8.5": "83%",
-                "9.5": "71%",
-                "10.5": "54%",
-                "11.5": "50%",
-                "12.5": "29%",
-                "13.5": "25%",
-                "average": "11.42"
-            },
-            "goals": {
-                "1.5": "79%",
-                "2.5": "52%",
-                "3.5": "25%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "53%"
-            }
-        },
-        {
-            "team": "Shenyang Urban",
-            "position": "11",
-            "matches_played": "23",
-            "wins": "7",
-            "draws": "4",
-            "losses": "12",
-            "goals_for": "33",
-            "goals_against": "39",
-            "goal_difference": "-6",
-            "points": "25",
-            "corners": {
-                "8.5": "61%",
-                "9.5": "43%",
-                "10.5": "30%",
-                "11.5": "26%",
-                "12.5": "17%",
-                "13.5": "9%",
-                "average": "9.52"
-            },
-            "goals": {
-                "1.5": "78%",
-                "2.5": "52%",
-                "3.5": "24%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "60%"
-            }
-        },
-        {
-            "team": "Hangzhou",
-            "position": "12",
-            "matches_played": "23",
-            "wins": "8",
-            "draws": "6",
-            "losses": "9",
-            "goals_for": "34",
-            "goals_against": "40",
-            "goal_difference": "-6",
-            "points": "25",
-            "corners": {
-                "8.5": "65%",
-                "9.5": "52%",
-                "10.5": "43%",
-                "11.5": "43%",
-                "12.5": "30%",
-                "13.5": "17%",
-                "average": "10.26"
-            },
-            "goals": {
-                "1.5": "79%",
-                "2.5": "53%",
-                "3.5": "26%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
                 "Yes": "56%"
             }
         },
         {
-            "team": "Henan Jianye",
-            "position": "13",
-            "matches_played": "23",
-            "wins": "8",
-            "draws": "6",
-            "losses": "9",
-            "goals_for": "31",
-            "goals_against": "33",
-            "goal_difference": "-2",
-            "points": "24",
+            "team": "Dalian Zhixing",
+            "position": "2",
+            "matches_played": "26",
+            "wins": "12",
+            "draws": "4",
+            "losses": "10",
+            "goals_for": "38",
+            "goals_against": "42",
+            "goal_difference": "-4",
+            "points": "40",
             "corners": {
-                "8.5": "52%",
-                "9.5": "35%",
-                "10.5": "30%",
-                "11.5": "30%",
-                "12.5": "26%",
-                "13.5": "17%",
-                "average": "9.87"
-            },
-            "goals": {
-                "1.5": "75%",
-                "2.5": "46%",
-                "3.5": "19%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "49%"
-            }
-        },
-        {
-            "team": "Tianjin Teda",
-            "position": "14",
-            "matches_played": "23",
-            "wins": "7",
-            "draws": "7",
-            "losses": "9",
-            "goals_for": "32",
-            "goals_against": "30",
-            "goal_difference": "2",
-            "points": "18",
-            "corners": {
-                "8.5": "57%",
-                "9.5": "35%",
-                "10.5": "30%",
-                "11.5": "26%",
-                "12.5": "26%",
-                "13.5": "26%",
-                "average": "10.08"
-            },
-            "goals": {
-                "1.5": "73%",
-                "2.5": "44%",
-                "3.5": "18%"
-            },
-            "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
-            },
-            "btts": {
-                "Yes": "47%"
-            }
-        },
-        {
-            "team": "Wuhan Three Towns",
-            "position": "15",
-            "matches_played": "22",
-            "wins": "4",
-            "draws": "9",
-            "losses": "9",
-            "goals_for": "30",
-            "goals_against": "38",
-            "goal_difference": "-8",
-            "points": "16",
-            "corners": {
-                "8.5": "68%",
-                "9.5": "45%",
-                "10.5": "32%",
-                "11.5": "32%",
+                "8.5": "65%",
+                "9.5": "50%",
+                "10.5": "42%",
+                "11.5": "38%",
                 "12.5": "27%",
-                "13.5": "23%",
-                "average": "10.27"
+                "13.5": "19%",
+                "average": "10.34"
             },
             "goals": {
                 "1.5": "78%",
@@ -502,33 +60,441 @@
                 "3.5": "24%"
             },
             "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "58%"
+            }
+        },
+        {
+            "team": "Beijing Guoan",
+            "position": "3",
+            "matches_played": "26",
+            "wins": "11",
+            "draws": "10",
+            "losses": "5",
+            "goals_for": "49",
+            "goals_against": "33",
+            "goal_difference": "16",
+            "points": "38",
+            "corners": {
+                "8.5": "77%",
+                "9.5": "65%",
+                "10.5": "54%",
+                "11.5": "50%",
+                "12.5": "31%",
+                "13.5": "19%",
+                "average": "10.76"
+            },
+            "goals": {
+                "1.5": "79%",
+                "2.5": "52%",
+                "3.5": "25%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
             },
             "btts": {
                 "Yes": "56%"
             }
         },
         {
-            "team": "Qingdao Jonoon",
-            "position": "16",
-            "matches_played": "24",
-            "wins": "6",
-            "draws": "3",
-            "losses": "15",
-            "goals_for": "32",
-            "goals_against": "46",
-            "goal_difference": "-14",
-            "points": "14",
+            "team": "Yunnan Yukun",
+            "position": "4",
+            "matches_played": "26",
+            "wins": "11",
+            "draws": "5",
+            "losses": "10",
+            "goals_for": "54",
+            "goals_against": "51",
+            "goal_difference": "3",
+            "points": "38",
             "corners": {
-                "8.5": "54%",
+                "8.5": "62%",
+                "9.5": "50%",
+                "10.5": "35%",
+                "11.5": "35%",
+                "12.5": "27%",
+                "13.5": "15%",
+                "average": "10.08"
+            },
+            "goals": {
+                "1.5": "87%",
+                "2.5": "66%",
+                "3.5": "36%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "65%"
+            }
+        },
+        {
+            "team": "Qingdao Youth Island",
+            "position": "5",
+            "matches_played": "26",
+            "wins": "8",
+            "draws": "14",
+            "losses": "4",
+            "goals_for": "31",
+            "goals_against": "32",
+            "goal_difference": "-1",
+            "points": "38",
+            "corners": {
+                "8.5": "58%",
+                "9.5": "42%",
+                "10.5": "31%",
+                "11.5": "23%",
+                "12.5": "15%",
+                "13.5": "12%",
+                "average": "9.46"
+            },
+            "goals": {
+                "1.5": "68%",
+                "2.5": "38%",
+                "3.5": "15%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Shandong Luneng",
+            "position": "6",
+            "matches_played": "26",
+            "wins": "13",
+            "draws": "4",
+            "losses": "9",
+            "goals_for": "46",
+            "goals_against": "43",
+            "goal_difference": "3",
+            "points": "37",
+            "corners": {
+                "8.5": "62%",
+                "9.5": "42%",
+                "10.5": "38%",
+                "11.5": "31%",
+                "12.5": "15%",
+                "13.5": "12%",
+                "average": "9.54"
+            },
+            "goals": {
+                "1.5": "81%",
+                "2.5": "56%",
+                "3.5": "29%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Shanghai SIPG",
+            "position": "7",
+            "matches_played": "26",
+            "wins": "10",
+            "draws": "8",
+            "losses": "8",
+            "goals_for": "40",
+            "goals_against": "33",
+            "goal_difference": "7",
+            "points": "33",
+            "corners": {
+                "8.5": "58%",
+                "9.5": "54%",
+                "10.5": "46%",
+                "11.5": "35%",
+                "12.5": "27%",
+                "13.5": "19%",
+                "average": "9.89"
+            },
+            "goals": {
+                "1.5": "75%",
+                "2.5": "46%",
+                "3.5": "20%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Shanghai Shenhua",
+            "position": "8",
+            "matches_played": "26",
+            "wins": "12",
+            "draws": "5",
+            "losses": "9",
+            "goals_for": "52",
+            "goals_against": "46",
+            "goal_difference": "6",
+            "points": "31",
+            "corners": {
+                "8.5": "77%",
+                "9.5": "65%",
+                "10.5": "58%",
+                "11.5": "54%",
+                "12.5": "42%",
+                "13.5": "27%",
+                "average": "11.19"
+            },
+            "goals": {
+                "1.5": "85%",
+                "2.5": "62%",
+                "3.5": "33%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "57%"
+            }
+        },
+        {
+            "team": "Chongqing Tongliang Long",
+            "position": "9",
+            "matches_played": "26",
+            "wins": "7",
+            "draws": "10",
+            "losses": "9",
+            "goals_for": "27",
+            "goals_against": "32",
+            "goal_difference": "-5",
+            "points": "31",
+            "corners": {
+                "8.5": "65%",
                 "9.5": "46%",
                 "10.5": "38%",
-                "11.5": "33%",
-                "12.5": "17%",
+                "11.5": "27%",
+                "12.5": "19%",
+                "13.5": "15%",
+                "average": "9.93"
+            },
+            "goals": {
+                "1.5": "65%",
+                "2.5": "35%",
+                "3.5": "14%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Hangzhou",
+            "position": "10",
+            "matches_played": "25",
+            "wins": "9",
+            "draws": "6",
+            "losses": "10",
+            "goals_for": "41",
+            "goals_against": "42",
+            "goal_difference": "-1",
+            "points": "28",
+            "corners": {
+                "8.5": "68%",
+                "9.5": "56%",
+                "10.5": "44%",
+                "11.5": "44%",
+                "12.5": "32%",
+                "13.5": "20%",
+                "average": "10.4"
+            },
+            "goals": {
+                "1.5": "80%",
+                "2.5": "55%",
+                "3.5": "27%"
+            },
+            "cards": {
+                "over_3_5": "70%",
+                "over_4_5": "50%",
+                "over_5_5": "30%"
+            },
+            "btts": {
+                "Yes": "57%"
+            }
+        },
+        {
+            "team": "Sichuan Jiuniu",
+            "position": "11",
+            "matches_played": "26",
+            "wins": "8",
+            "draws": "4",
+            "losses": "14",
+            "goals_for": "34",
+            "goals_against": "45",
+            "goal_difference": "-11",
+            "points": "28",
+            "corners": {
+                "8.5": "77%",
+                "9.5": "65%",
+                "10.5": "50%",
+                "11.5": "46%",
+                "12.5": "27%",
+                "13.5": "23%",
+                "average": "10.8"
+            },
+            "goals": {
+                "1.5": "77%",
+                "2.5": "51%",
+                "3.5": "23%"
+            },
+            "cards": {
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
+            },
+            "btts": {
+                "Yes": "57%"
+            }
+        },
+        {
+            "team": "Henan Jianye",
+            "position": "12",
+            "matches_played": "25",
+            "wins": "8",
+            "draws": "8",
+            "losses": "9",
+            "goals_for": "32",
+            "goals_against": "34",
+            "goal_difference": "-2",
+            "points": "26",
+            "corners": {
+                "8.5": "56%",
+                "9.5": "32%",
+                "10.5": "28%",
+                "11.5": "28%",
+                "12.5": "24%",
+                "13.5": "16%",
+                "average": "9.8"
+            },
+            "goals": {
+                "1.5": "72%",
+                "2.5": "43%",
+                "3.5": "17%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Shenyang Urban",
+            "position": "13",
+            "matches_played": "25",
+            "wins": "7",
+            "draws": "4",
+            "losses": "14",
+            "goals_for": "34",
+            "goals_against": "46",
+            "goal_difference": "-12",
+            "points": "25",
+            "corners": {
+                "8.5": "64%",
+                "9.5": "44%",
+                "10.5": "32%",
+                "11.5": "28%",
+                "12.5": "20%",
                 "13.5": "8%",
-                "average": "9.21"
+                "average": "9.64"
+            },
+            "goals": {
+                "1.5": "79%",
+                "2.5": "53%",
+                "3.5": "26%"
+            },
+            "cards": {
+                "over_3_5": "73%",
+                "over_4_5": "53%",
+                "over_5_5": "33%"
+            },
+            "btts": {
+                "Yes": "51%"
+            }
+        },
+        {
+            "team": "Tianjin Teda",
+            "position": "14",
+            "matches_played": "25",
+            "wins": "8",
+            "draws": "8",
+            "losses": "9",
+            "goals_for": "35",
+            "goals_against": "32",
+            "goal_difference": "3",
+            "points": "22",
+            "corners": {
+                "8.5": "60%",
+                "9.5": "40%",
+                "10.5": "36%",
+                "11.5": "28%",
+                "12.5": "28%",
+                "13.5": "28%",
+                "average": "10.28"
+            },
+            "goals": {
+                "1.5": "73%",
+                "2.5": "44%",
+                "3.5": "18%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Wuhan Three Towns",
+            "position": "15",
+            "matches_played": "24",
+            "wins": "5",
+            "draws": "10",
+            "losses": "9",
+            "goals_for": "37",
+            "goals_against": "41",
+            "goal_difference": "-4",
+            "points": "20",
+            "corners": {
+                "8.5": "71%",
+                "9.5": "50%",
+                "10.5": "33%",
+                "11.5": "33%",
+                "12.5": "25%",
+                "13.5": "21%",
+                "average": "10.34"
             },
             "goals": {
                 "1.5": "80%",
@@ -536,12 +502,46 @@
                 "3.5": "26%"
             },
             "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
             },
             "btts": {
                 "Yes": "54%"
+            }
+        },
+        {
+            "team": "Qingdao Jonoon",
+            "position": "16",
+            "matches_played": "26",
+            "wins": "6",
+            "draws": "3",
+            "losses": "17",
+            "goals_for": "34",
+            "goals_against": "53",
+            "goal_difference": "-19",
+            "points": "14",
+            "corners": {
+                "8.5": "58%",
+                "9.5": "46%",
+                "10.5": "38%",
+                "11.5": "35%",
+                "12.5": "15%",
+                "13.5": "8%",
+                "average": "9.31"
+            },
+            "goals": {
+                "1.5": "80%",
+                "2.5": "55%",
+                "3.5": "28%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "59%"
             }
         }
     ]
