@@ -60,8 +60,42 @@
             }
         },
         {
-            "team": "Dallas",
+            "team": "St. Louis City",
             "position": "3",
+            "matches_played": "27",
+            "wins": "13",
+            "draws": "8",
+            "losses": "6",
+            "goals_for": "48",
+            "goals_against": "36",
+            "goal_difference": "+12",
+            "points": "0",
+            "btts": {
+                "Yes": "8"
+            },
+            "cards": {
+                "over_3_5": "13",
+                "over_4_5": "8",
+                "over_5_5": "6"
+            },
+            "corners": {
+                "8.5": "70%",
+                "9.5": "59%",
+                "10.5": "52%",
+                "11.5": "30%",
+                "12.5": "22%",
+                "13.5": "7%",
+                "average": "10.07"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Dallas",
+            "position": "4",
             "matches_played": "27",
             "wins": "13",
             "draws": "8",
@@ -86,7 +120,7 @@
         },
         {
             "team": "Inter Miami",
-            "position": "4",
+            "position": "5",
             "matches_played": "27",
             "wins": "12",
             "draws": "10",
@@ -120,7 +154,7 @@
         },
         {
             "team": "New England Revolution",
-            "position": "5",
+            "position": "6",
             "matches_played": "27",
             "wins": "14",
             "draws": "4",
@@ -154,7 +188,7 @@
         },
         {
             "team": "San Jose Earthquakes",
-            "position": "6",
+            "position": "7",
             "matches_played": "27",
             "wins": "13",
             "draws": "6",
@@ -170,40 +204,6 @@
                 "over_3_5": "13",
                 "over_4_5": "6",
                 "over_5_5": "8"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "St. Louis City",
-            "position": "7",
-            "matches_played": "26",
-            "wins": "12",
-            "draws": "8",
-            "losses": "6",
-            "goals_for": "45",
-            "goals_against": "36",
-            "goal_difference": "+9",
-            "points": "0",
-            "btts": {
-                "Yes": "8"
-            },
-            "cards": {
-                "over_3_5": "12",
-                "over_4_5": "8",
-                "over_5_5": "6"
-            },
-            "corners": {
-                "8.5": "73%",
-                "9.5": "62%",
-                "10.5": "54%",
-                "11.5": "31%",
-                "12.5": "23%",
-                "13.5": "8%",
-                "average": "10.19"
             },
             "goals": {
                 "1.5": "N/A",
@@ -373,8 +373,42 @@
             }
         },
         {
-            "team": "Colorado Rapids",
+            "team": "Seattle Sounders",
             "position": "13",
+            "matches_played": "27",
+            "wins": "10",
+            "draws": "8",
+            "losses": "9",
+            "goals_for": "35",
+            "goals_against": "35",
+            "goal_difference": "0",
+            "points": "0",
+            "btts": {
+                "Yes": "8"
+            },
+            "cards": {
+                "over_3_5": "10",
+                "over_4_5": "8",
+                "over_5_5": "9"
+            },
+            "corners": {
+                "8.5": "85%",
+                "9.5": "74%",
+                "10.5": "63%",
+                "11.5": "52%",
+                "12.5": "37%",
+                "13.5": "19%",
+                "average": "11.56"
+            },
+            "goals": {
+                "1.5": "N/A",
+                "2.5": "N/A",
+                "3.5": "N/A"
+            }
+        },
+        {
+            "team": "Colorado Rapids",
+            "position": "14",
             "matches_played": "27",
             "wins": "11",
             "draws": "3",
@@ -408,7 +442,7 @@
         },
         {
             "team": "LA Galaxy",
-            "position": "14",
+            "position": "15",
             "matches_played": "28",
             "wins": "9",
             "draws": "9",
@@ -433,40 +467,6 @@
                 "12.5": "11%",
                 "13.5": "7%",
                 "average": "9.43"
-            },
-            "goals": {
-                "1.5": "N/A",
-                "2.5": "N/A",
-                "3.5": "N/A"
-            }
-        },
-        {
-            "team": "Seattle Sounders",
-            "position": "15",
-            "matches_played": "26",
-            "wins": "9",
-            "draws": "8",
-            "losses": "9",
-            "goals_for": "33",
-            "goals_against": "34",
-            "goal_difference": "-1",
-            "points": "0",
-            "btts": {
-                "Yes": "8"
-            },
-            "cards": {
-                "over_3_5": "9",
-                "over_4_5": "8",
-                "over_5_5": "9"
-            },
-            "corners": {
-                "8.5": "85%",
-                "9.5": "73%",
-                "10.5": "62%",
-                "11.5": "50%",
-                "12.5": "35%",
-                "13.5": "15%",
-                "average": "11.35"
             },
             "goals": {
                 "1.5": "N/A",
@@ -570,13 +570,13 @@
         {
             "team": "New York Red Bulls",
             "position": "19",
-            "matches_played": "26",
+            "matches_played": "27",
             "wins": "9",
             "draws": "6",
-            "losses": "11",
+            "losses": "12",
             "goals_for": "34",
-            "goals_against": "48",
-            "goal_difference": "-14",
+            "goals_against": "51",
+            "goal_difference": "-17",
             "points": "0",
             "btts": {
                 "Yes": "6"
@@ -584,7 +584,7 @@
             "cards": {
                 "over_3_5": "9",
                 "over_4_5": "6",
-                "over_5_5": "11"
+                "over_5_5": "12"
             },
             "goals": {
                 "1.5": "N/A",
@@ -926,13 +926,13 @@
         {
             "team": "Sporting KC",
             "position": "30",
-            "matches_played": "26",
+            "matches_played": "27",
             "wins": "6",
             "draws": "3",
-            "losses": "17",
-            "goals_for": "31",
-            "goals_against": "63",
-            "goal_difference": "-32",
+            "losses": "18",
+            "goals_for": "32",
+            "goals_against": "65",
+            "goal_difference": "-33",
             "points": "0",
             "btts": {
                 "Yes": "3"
@@ -940,16 +940,16 @@
             "cards": {
                 "over_3_5": "6",
                 "over_4_5": "3",
-                "over_5_5": "17"
+                "over_5_5": "18"
             },
             "corners": {
-                "8.5": "54%",
-                "9.5": "46%",
-                "10.5": "31%",
-                "11.5": "19%",
-                "12.5": "15%",
-                "13.5": "8%",
-                "average": "9.66"
+                "8.5": "56%",
+                "9.5": "48%",
+                "10.5": "33%",
+                "11.5": "22%",
+                "12.5": "19%",
+                "13.5": "11%",
+                "average": "9.93"
             },
             "goals": {
                 "1.5": "N/A",
@@ -984,13 +984,13 @@
         {
             "team": "New York RB",
             "corners": {
-                "8.5": "77%",
-                "9.5": "65%",
-                "10.5": "54%",
-                "11.5": "46%",
-                "12.5": "31%",
-                "13.5": "27%",
-                "average": "10.96"
+                "8.5": "74%",
+                "9.5": "63%",
+                "10.5": "52%",
+                "11.5": "44%",
+                "12.5": "30%",
+                "13.5": "26%",
+                "average": "10.82"
             }
         },
         {
