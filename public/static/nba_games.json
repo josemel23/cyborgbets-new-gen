@@ -1,11 +1,5 @@
 [
     {
-        "hora": "06.10. 02:00",
-        "emparejamiento": "SAC @ LAL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "06.10. 23:00",
         "emparejamiento": "BKN @ BKN",
         "resultado": "vs",
@@ -86,6 +80,12 @@
     {
         "hora": "09.10. 00:00",
         "emparejamiento": "SAS @ ATL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "09.10. 02:30",
+        "emparejamiento": "LAL @ SAC",
         "resultado": "vs",
         "ubicacion": ""
     }
