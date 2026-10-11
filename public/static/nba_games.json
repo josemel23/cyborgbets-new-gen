@@ -1,11 +1,5 @@
 [
     {
-        "hora": "11.10. 22:30",
-        "emparejamiento": "CLE @ ORL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "11.10. 23:00",
         "emparejamiento": "BKN @ MIL",
         "resultado": "vs",
@@ -86,6 +80,12 @@
     {
         "hora": "15.10. 00:00",
         "emparejamiento": "DAL @ NOP",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "15.10. 00:00",
+        "emparejamiento": "MIL @ CHI",
         "resultado": "vs",
         "ubicacion": ""
     }
