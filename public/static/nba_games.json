@@ -1,23 +1,5 @@
 [
     {
-        "hora": "14.10. 00:00",
-        "emparejamiento": "OKC @ IND",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "14.10. 02:00",
-        "emparejamiento": "LAL @ GSW",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "14.10. 02:00",
-        "emparejamiento": "SAC @ POR",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "14.10. 23:30",
         "emparejamiento": "BOS @ BKN",
         "resultado": "vs",
@@ -86,6 +68,24 @@
     {
         "hora": "16.10. 23:00",
         "emparejamiento": "ORL @ MIA",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "16.10. 23:00",
+        "emparejamiento": "PHI @ BOS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "17.10. 00:00",
+        "emparejamiento": "CHI @ MIN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "17.10. 00:00",
+        "emparejamiento": "DAL @ ATL",
         "resultado": "vs",
         "ubicacion": ""
     }
