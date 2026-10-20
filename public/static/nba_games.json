@@ -1,11 +1,5 @@
 [
     {
-        "hora": "20.10. 19:00",
-        "emparejamiento": "DET @ BOS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "20.10. 23:00",
         "emparejamiento": "NYK @ PHI",
         "resultado": "vs",
@@ -86,6 +80,12 @@
     {
         "hora": "22.10. 23:00",
         "emparejamiento": "PHI @ CLE",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "23.10. 01:30",
+        "emparejamiento": "OKC @ DEN",
         "resultado": "vs",
         "ubicacion": ""
     }
