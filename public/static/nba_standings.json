@@ -1,34 +1,34 @@
 {
     "Eastern Conference": [
         {
-            "team": "Indiana Pacers",
-            "position": "01",
-            "wins": "1",
-            "losses": "0",
-            "points_for": "123.0",
-            "points_against": "120.0",
-            "win_percentage": "1",
-            "logo_url": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg"
-        },
-        {
             "team": "Philadelphia 76ers",
-            "position": "02",
-            "wins": "1",
+            "position": "01",
+            "wins": "2",
             "losses": "0",
-            "points_for": "106.0",
-            "points_against": "100.0",
+            "points_for": "110.0",
+            "points_against": "103.0",
             "win_percentage": "1",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612755/primary/L/logo.svg"
         },
         {
             "team": "Atlanta Hawks",
-            "position": "03",
+            "position": "02",
             "wins": "1",
             "losses": "0",
             "points_for": "132.0",
             "points_against": "125.0",
             "win_percentage": "1",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612737/primary/L/logo.svg"
+        },
+        {
+            "team": "Indiana Pacers",
+            "position": "03",
+            "wins": "1",
+            "losses": "0",
+            "points_for": "123.0",
+            "points_against": "120.0",
+            "win_percentage": "1",
+            "logo_url": "https://cdn.nba.com/logos/nba/1610612754/primary/L/logo.svg"
         },
         {
             "team": "Washington Wizards",
@@ -131,30 +131,40 @@
             "logo_url": "https://cdn.nba.com/logos/nba/1610612751/primary/L/logo.svg"
         },
         {
-            "team": "New York Knicks",
+            "team": "Cleveland Cavaliers",
             "position": "14",
+            "wins": "0",
+            "losses": "1",
+            "points_for": "106.0",
+            "points_against": "114.0",
+            "win_percentage": "0",
+            "logo_url": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg"
+        },
+        {
+            "team": "New York Knicks",
+            "position": "15",
             "wins": "0",
             "losses": "1",
             "points_for": "100.0",
             "points_against": "106.0",
             "win_percentage": "0",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612752/primary/L/logo.svg"
-        },
-        {
-            "team": "Cleveland Cavaliers",
-            "position": "15",
-            "wins": "0",
-            "losses": "0",
-            "points_for": "0",
-            "points_against": "0",
-            "win_percentage": "0",
-            "logo_url": "https://cdn.nba.com/logos/nba/1610612739/primary/L/logo.svg"
         }
     ],
     "Western Conference": [
         {
-            "team": "Minnesota Timberwolves",
+            "team": "Oklahoma City Thunder",
             "position": "01",
+            "wins": "2",
+            "losses": "0",
+            "points_for": "106.0",
+            "points_against": "94.0",
+            "win_percentage": "1",
+            "logo_url": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg"
+        },
+        {
+            "team": "Minnesota Timberwolves",
+            "position": "02",
             "wins": "1",
             "losses": "0",
             "points_for": "131.0",
@@ -164,7 +174,7 @@
         },
         {
             "team": "Los Angeles Lakers",
-            "position": "02",
+            "position": "03",
             "wins": "1",
             "losses": "0",
             "points_for": "127.0",
@@ -174,23 +184,13 @@
         },
         {
             "team": "Houston Rockets",
-            "position": "03",
+            "position": "04",
             "wins": "1",
             "losses": "0",
             "points_for": "128.0",
             "points_against": "110.0",
             "win_percentage": "1",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612745/primary/L/logo.svg"
-        },
-        {
-            "team": "Oklahoma City Thunder",
-            "position": "04",
-            "wins": "1",
-            "losses": "0",
-            "points_for": "116.0",
-            "points_against": "104.0",
-            "win_percentage": "1",
-            "logo_url": "https://cdn.nba.com/logos/nba/1610612760/primary/L/logo.svg"
         },
         {
             "team": "Memphis Grizzlies",
@@ -283,25 +283,25 @@
             "logo_url": "https://cdn.nba.com/logos/nba/1610612758/primary/L/logo.svg"
         },
         {
-            "team": "San Antonio Spurs",
+            "team": "Denver Nuggets",
             "position": "14",
+            "wins": "0",
+            "losses": "1",
+            "points_for": "84.0",
+            "points_against": "96.0",
+            "win_percentage": "0",
+            "logo_url": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg"
+        },
+        {
+            "team": "San Antonio Spurs",
+            "position": "15",
             "wins": "0",
             "losses": "1",
             "points_for": "104.0",
             "points_against": "116.0",
             "win_percentage": "0",
             "logo_url": "https://cdn.nba.com/logos/nba/1610612759/primary/L/logo.svg"
-        },
-        {
-            "team": "Denver Nuggets",
-            "position": "15",
-            "wins": "0",
-            "losses": "0",
-            "points_for": "0",
-            "points_against": "0",
-            "win_percentage": "0",
-            "logo_url": "https://cdn.nba.com/logos/nba/1610612743/primary/L/logo.svg"
         }
     ],
-    "last_updated": "2026-10-22T22:13:55Z"
-,"last_updated":"2026-10-22T22:14:16Z"}
+    "last_updated": "2026-10-23T19:00:11Z"
+,"last_updated":"2026-10-23T19:00:31Z"}
