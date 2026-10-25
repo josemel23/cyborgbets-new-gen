@@ -1,53 +1,5 @@
 [
     {
-        "hora": "24.10. 22:00",
-        "emparejamiento": "BKN @ MIA",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "24.10. 23:30",
-        "emparejamiento": "CLE @ BKN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "24.10. 23:30",
-        "emparejamiento": "PHI @ MIL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "25.10. 00:00",
-        "emparejamiento": "CHI @ WAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "25.10. 00:00",
-        "emparejamiento": "DAL @ SAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "25.10. 00:30",
-        "emparejamiento": "ATL @ HOU",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "25.10. 02:00",
-        "emparejamiento": "DEN @ NOP",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "25.10. 02:00",
-        "emparejamiento": "PHX @ GSW",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "25.10. 21:00",
         "emparejamiento": "UTA @ LAL",
         "resultado": "vs",
@@ -86,6 +38,54 @@
     {
         "hora": "26.10. 01:00",
         "emparejamiento": "SAC @ MEM",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "26.10. 23:00",
+        "emparejamiento": "BKN @ WAS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "26.10. 23:00",
+        "emparejamiento": "CLE @ MIN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "26.10. 23:30",
+        "emparejamiento": "BOS @ CHI",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "26.10. 23:30",
+        "emparejamiento": "MIA @ DAL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "27.10. 00:00",
+        "emparejamiento": "MIL @ IND",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "27.10. 00:00",
+        "emparejamiento": "OKC @ PHX",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "27.10. 00:30",
+        "emparejamiento": "HOU @ ATL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "27.10. 01:00",
+        "emparejamiento": "UTA @ MEM",
         "resultado": "vs",
         "ubicacion": ""
     }
