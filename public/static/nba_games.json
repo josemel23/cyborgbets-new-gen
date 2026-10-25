@@ -1,11 +1,5 @@
 [
     {
-        "hora": "25.10. 21:00",
-        "emparejamiento": "UTA @ LAL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "25.10. 22:00",
         "emparejamiento": "BKN @ IND",
         "resultado": "vs",
@@ -86,6 +80,12 @@
     {
         "hora": "27.10. 01:00",
         "emparejamiento": "UTA @ MEM",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "27.10. 02:00",
+        "emparejamiento": "DEN @ GSW",
         "resultado": "vs",
         "ubicacion": ""
     }
