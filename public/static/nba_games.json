@@ -1,17 +1,5 @@
 [
     {
-        "hora": "31.10. 19:00",
-        "emparejamiento": "UTA @ POR",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "31.10. 22:00",
-        "emparejamiento": "BKN @ PHI",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "31.10. 23:00",
         "emparejamiento": "NOP @ ATL",
         "resultado": "vs",
@@ -86,6 +74,18 @@
     {
         "hora": "03.11. 00:30",
         "emparejamiento": "NYK @ BKN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "03.11. 00:30",
+        "emparejamiento": "ORL @ WAS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "03.11. 00:30",
+        "emparejamiento": "PHI @ CHI",
         "resultado": "vs",
         "ubicacion": ""
     }
