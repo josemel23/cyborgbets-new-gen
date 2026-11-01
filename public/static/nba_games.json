@@ -1,17 +1,5 @@
 [
     {
-        "hora": "01.11. 20:30",
-        "emparejamiento": "ORL @ BOS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "01.11. 22:00",
-        "emparejamiento": "IND @ BKN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "02.11. 01:30",
         "emparejamiento": "GSW @ LAC",
         "resultado": "vs",
@@ -86,6 +74,18 @@
     {
         "hora": "03.11. 01:30",
         "emparejamiento": "SAS @ UTA",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "03.11. 02:00",
+        "emparejamiento": "DEN @ POR",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "03.11. 03:00",
+        "emparejamiento": "GSW @ PHX",
         "resultado": "vs",
         "ubicacion": ""
     }
