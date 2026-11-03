@@ -1,8 +1,42 @@
 {
     "teams": [
         {
-            "team": "Sirius",
+            "team": "Hammarby",
             "position": "1",
+            "matches_played": "27",
+            "wins": "17",
+            "draws": "4",
+            "losses": "6",
+            "goals_for": "56",
+            "goals_against": "22",
+            "goal_difference": "+34",
+            "points": "0",
+            "corners": {
+                "8.5": "59%",
+                "9.5": "44%",
+                "10.5": "37%",
+                "11.5": "33%",
+                "12.5": "30%",
+                "13.5": "15%",
+                "average": "9.59"
+            },
+            "goals": {
+                "1.5": "76%",
+                "2.5": "48%",
+                "3.5": "21%"
+            },
+            "cards": {
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
+            },
+            "btts": {
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Sirius",
+            "position": "2",
             "matches_played": "26",
             "wins": "17",
             "draws": "4",
@@ -26,34 +60,109 @@
                 "3.5": "29%"
             },
             "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
             },
             "btts": {
-                "Yes": "58%"
+                "Yes": "57%"
             }
         },
         {
-            "team": "Hammarby",
-            "position": "2",
-            "matches_played": "26",
+            "team": "Djurgarden",
+            "position": "3",
+            "matches_played": "27",
             "wins": "16",
             "draws": "4",
-            "losses": "6",
-            "goals_for": "54",
-            "goals_against": "21",
-            "goal_difference": "+33",
+            "losses": "7",
+            "goals_for": "55",
+            "goals_against": "25",
+            "goal_difference": "+30",
+            "points": "0",
+            "goals": {
+                "1.5": "77%",
+                "2.5": "49%",
+                "3.5": "22%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "BK Hacken",
+            "position": "4",
+            "matches_played": "27",
+            "wins": "13",
+            "draws": "10",
+            "losses": "4",
+            "goals_for": "48",
+            "goals_against": "30",
+            "goal_difference": "+18",
+            "points": "0",
+            "goals": {
+                "1.5": "76%",
+                "2.5": "48%",
+                "3.5": "21%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "49%"
+            }
+        },
+        {
+            "team": "Elfsborg",
+            "position": "5",
+            "matches_played": "27",
+            "wins": "12",
+            "draws": "10",
+            "losses": "5",
+            "goals_for": "41",
+            "goals_against": "27",
+            "goal_difference": "+14",
             "points": "0",
             "corners": {
-                "8.5": "62%",
-                "9.5": "46%",
-                "10.5": "38%",
-                "11.5": "35%",
-                "12.5": "31%",
-                "13.5": "15%",
-                "average": "9.73"
+                "8.5": "67%",
+                "9.5": "56%",
+                "10.5": "44%",
+                "11.5": "33%",
+                "12.5": "22%",
+                "13.5": "11%",
+                "average": "9.93"
             },
+            "goals": {
+                "1.5": "70%",
+                "2.5": "40%",
+                "3.5": "15%"
+            },
+            "cards": {
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
+            },
+            "btts": {
+                "Yes": "48%"
+            }
+        },
+        {
+            "team": "Vasteraas",
+            "position": "6",
+            "matches_played": "27",
+            "wins": "13",
+            "draws": "5",
+            "losses": "9",
+            "goals_for": "40",
+            "goals_against": "38",
+            "goal_difference": "+2",
+            "points": "0",
             "goals": {
                 "1.5": "76%",
                 "2.5": "48%",
@@ -63,164 +172,46 @@
                 "over_3_5": "74%",
                 "over_4_5": "54%",
                 "over_5_5": "34%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
+            "team": "Malmo",
+            "position": "7",
+            "matches_played": "27",
+            "wins": "12",
+            "draws": "4",
+            "losses": "11",
+            "goals_for": "42",
+            "goals_against": "36",
+            "goal_difference": "+6",
+            "points": "0",
+            "goals": {
+                "1.5": "76%",
+                "2.5": "48%",
+                "3.5": "21%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
             },
             "btts": {
                 "Yes": "46%"
             }
         },
         {
-            "team": "Djurgarden",
-            "position": "3",
-            "matches_played": "26",
-            "wins": "15",
-            "draws": "4",
-            "losses": "7",
-            "goals_for": "53",
-            "goals_against": "24",
-            "goal_difference": "+29",
-            "points": "0",
-            "goals": {
-                "1.5": "77%",
-                "2.5": "49%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "79%",
-                "over_4_5": "59%",
-                "over_5_5": "39%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Hacken",
-            "position": "4",
-            "matches_played": "26",
-            "wins": "12",
-            "draws": "10",
-            "losses": "4",
-            "goals_for": "47",
-            "goals_against": "30",
-            "goal_difference": "+17",
-            "points": "0",
-            "goals": {
-                "1.5": "77%",
-                "2.5": "49%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "70%",
-                "over_4_5": "50%",
-                "over_5_5": "30%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Elfsborg",
-            "position": "5",
-            "matches_played": "26",
-            "wins": "11",
-            "draws": "10",
-            "losses": "5",
-            "goals_for": "39",
-            "goals_against": "26",
-            "goal_difference": "+13",
-            "points": "0",
-            "corners": {
-                "8.5": "65%",
-                "9.5": "54%",
-                "10.5": "42%",
-                "11.5": "31%",
-                "12.5": "19%",
-                "13.5": "12%",
-                "average": "9.80"
-            },
-            "goals": {
-                "1.5": "69%",
-                "2.5": "40%",
-                "3.5": "15%"
-            },
-            "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Västerås SK",
-            "position": "6",
-            "matches_played": "26",
-            "wins": "12",
-            "draws": "5",
-            "losses": "9",
-            "goals_for": "39",
-            "goals_against": "38",
-            "goal_difference": "+1",
-            "points": "0",
-            "corners": {
-                "8.5": "58%",
-                "9.5": "54%",
-                "10.5": "38%",
-                "11.5": "23%",
-                "12.5": "12%",
-                "13.5": "12%",
-                "average": "9.65"
-            },
-            "goals": {
-                "1.5": "77%",
-                "2.5": "49%",
-                "3.5": "22%"
-            },
-            "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Malmo FF",
-            "position": "7",
-            "matches_played": "26",
-            "wins": "12",
-            "draws": "4",
-            "losses": "10",
-            "goals_for": "41",
-            "goals_against": "34",
-            "goal_difference": "+7",
-            "points": "0",
-            "goals": {
-                "1.5": "76%",
-                "2.5": "48%",
-                "3.5": "21%"
-            },
-            "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
             "team": "AIK",
             "position": "8",
-            "matches_played": "26",
+            "matches_played": "27",
             "wins": "10",
             "draws": "8",
-            "losses": "8",
-            "goals_for": "42",
-            "goals_against": "45",
-            "goal_difference": "-3",
+            "losses": "9",
+            "goals_for": "43",
+            "goals_against": "47",
+            "goal_difference": "-4",
             "points": "0",
             "corners": {
                 "8.5": "62%",
@@ -242,44 +233,44 @@
                 "over_5_5": "30%"
             },
             "btts": {
-                "Yes": "54%"
+                "Yes": "60%"
             }
         },
         {
-            "team": "IFK Goteborg",
+            "team": "Goteborg",
             "position": "9",
-            "matches_played": "26",
+            "matches_played": "27",
             "wins": "10",
             "draws": "8",
-            "losses": "8",
+            "losses": "9",
             "goals_for": "36",
-            "goals_against": "45",
-            "goal_difference": "-9",
+            "goals_against": "46",
+            "goal_difference": "-10",
             "points": "0",
             "goals": {
-                "1.5": "78%",
-                "2.5": "52%",
-                "3.5": "24%"
+                "1.5": "77%",
+                "2.5": "51%",
+                "3.5": "23%"
             },
             "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
+                "over_3_5": "80%",
+                "over_4_5": "60%",
+                "over_5_5": "40%"
             },
             "btts": {
-                "Yes": "57%"
+                "Yes": "60%"
             }
         },
         {
             "team": "GAIS",
             "position": "10",
-            "matches_played": "26",
-            "wins": "9",
+            "matches_played": "27",
+            "wins": "10",
             "draws": "7",
             "losses": "10",
-            "goals_for": "32",
-            "goals_against": "26",
-            "goal_difference": "+6",
+            "goals_for": "34",
+            "goals_against": "27",
+            "goal_difference": "+7",
             "points": "0",
             "corners": {
                 "8.5": "73%",
@@ -291,68 +282,9 @@
                 "average": "9.92"
             },
             "goals": {
-                "1.5": "64%",
+                "1.5": "65%",
                 "2.5": "35%",
-                "3.5": "13%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "45%"
-            }
-        },
-        {
-            "team": "Brommapojkarna",
-            "position": "11",
-            "matches_played": "26",
-            "wins": "9",
-            "draws": "7",
-            "losses": "10",
-            "goals_for": "39",
-            "goals_against": "43",
-            "goal_difference": "-4",
-            "points": "0",
-            "corners": {
-                "8.5": "69%",
-                "9.5": "62%",
-                "10.5": "58%",
-                "11.5": "42%",
-                "12.5": "27%",
-                "13.5": "15%",
-                "average": "10.46"
-            },
-            "goals": {
-                "1.5": "79%",
-                "2.5": "52%",
-                "3.5": "25%"
-            },
-            "cards": {
-                "over_3_5": "75%",
-                "over_4_5": "55%",
-                "over_5_5": "35%"
-            },
-            "btts": {
-                "Yes": "50%"
-            }
-        },
-        {
-            "team": "Mjallby",
-            "position": "12",
-            "matches_played": "26",
-            "wins": "6",
-            "draws": "8",
-            "losses": "12",
-            "goals_for": "30",
-            "goals_against": "43",
-            "goal_difference": "-13",
-            "points": "0",
-            "goals": {
-                "1.5": "75%",
-                "2.5": "46%",
-                "3.5": "20%"
+                "3.5": "14%"
             },
             "cards": {
                 "over_3_5": "78%",
@@ -364,11 +296,70 @@
             }
         },
         {
+            "team": "Brommapojkarna",
+            "position": "11",
+            "matches_played": "27",
+            "wins": "9",
+            "draws": "7",
+            "losses": "11",
+            "goals_for": "39",
+            "goals_against": "44",
+            "goal_difference": "-5",
+            "points": "0",
+            "corners": {
+                "8.5": "70%",
+                "9.5": "63%",
+                "10.5": "59%",
+                "11.5": "44%",
+                "12.5": "30%",
+                "13.5": "15%",
+                "average": "10.56"
+            },
+            "goals": {
+                "1.5": "78%",
+                "2.5": "51%",
+                "3.5": "24%"
+            },
+            "cards": {
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
+            },
+            "btts": {
+                "Yes": "52%"
+            }
+        },
+        {
+            "team": "Mjallby",
+            "position": "12",
+            "matches_played": "27",
+            "wins": "6",
+            "draws": "9",
+            "losses": "12",
+            "goals_for": "30",
+            "goals_against": "43",
+            "goal_difference": "-13",
+            "points": "0",
+            "goals": {
+                "1.5": "73%",
+                "2.5": "44%",
+                "3.5": "18%"
+            },
+            "cards": {
+                "over_3_5": "76%",
+                "over_4_5": "56%",
+                "over_5_5": "36%"
+            },
+            "btts": {
+                "Yes": "45%"
+            }
+        },
+        {
             "team": "Kalmar",
             "position": "13",
-            "matches_played": "26",
+            "matches_played": "27",
             "wins": "6",
-            "draws": "4",
+            "draws": "5",
             "losses": "16",
             "goals_for": "23",
             "goals_against": "42",
@@ -384,85 +375,76 @@
                 "average": "10.54"
             },
             "goals": {
-                "1.5": "69%",
-                "2.5": "40%",
-                "3.5": "15%"
+                "1.5": "68%",
+                "2.5": "38%",
+                "3.5": "14%"
             },
             "cards": {
-                "over_3_5": "78%",
-                "over_4_5": "58%",
-                "over_5_5": "38%"
+                "over_3_5": "72%",
+                "over_4_5": "52%",
+                "over_5_5": "32%"
             },
             "btts": {
-                "Yes": "49%"
+                "Yes": "45%"
             }
         },
         {
             "team": "Degerfors",
             "position": "14",
-            "matches_played": "26",
+            "matches_played": "27",
             "wins": "5",
             "draws": "5",
-            "losses": "16",
-            "goals_for": "21",
-            "goals_against": "44",
-            "goal_difference": "-23",
+            "losses": "17",
+            "goals_for": "22",
+            "goals_against": "46",
+            "goal_difference": "-24",
             "points": "0",
             "corners": {
-                "8.5": "62%",
-                "9.5": "50%",
-                "10.5": "46%",
-                "11.5": "38%",
-                "12.5": "27%",
-                "13.5": "27%",
-                "average": "10.26"
+                "8.5": "59%",
+                "9.5": "48%",
+                "10.5": "44%",
+                "11.5": "37%",
+                "12.5": "26%",
+                "13.5": "26%",
+                "average": "10.11"
             },
             "goals": {
-                "1.5": "69%",
+                "1.5": "70%",
                 "2.5": "40%",
                 "3.5": "15%"
             },
             "cards": {
-                "over_3_5": "74%",
-                "over_4_5": "54%",
-                "over_5_5": "34%"
+                "over_3_5": "71%",
+                "over_4_5": "51%",
+                "over_5_5": "31%"
             },
             "btts": {
                 "Yes": "49%"
             }
         },
         {
-            "team": "Örgryte",
+            "team": "Orgryte",
             "position": "15",
-            "matches_played": "26",
+            "matches_played": "27",
             "wins": "4",
             "draws": "7",
-            "losses": "15",
-            "goals_for": "32",
-            "goals_against": "58",
-            "goal_difference": "-26",
+            "losses": "16",
+            "goals_for": "33",
+            "goals_against": "60",
+            "goal_difference": "-27",
             "points": "0",
-            "corners": {
-                "8.5": "58%",
-                "9.5": "46%",
-                "10.5": "38%",
-                "11.5": "35%",
-                "12.5": "27%",
-                "13.5": "19%",
-                "average": "9.88"
-            },
             "goals": {
-                "1.5": "82%",
+                "1.5": "81%",
                 "2.5": "57%",
                 "3.5": "29%"
             },
             "cards": {
-                "over_3_5": "73%",
-                "over_4_5": "53%",
-                "over_5_5": "33%"
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
             },
             "btts": {
-                "Yes": "54%"
+                "Yes": "60%"
             }
         },
         {
@@ -491,24 +473,24 @@
                 "3.5": "16%"
             },
             "cards": {
-                "over_3_5": "77%",
-                "over_4_5": "57%",
-                "over_5_5": "37%"
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "48%"
             }
         },
         {
             "team": "Häcken",
             "corners": {
-                "8.5": "77%",
-                "9.5": "62%",
-                "10.5": "58%",
-                "11.5": "46%",
-                "12.5": "35%",
-                "13.5": "31%",
-                "average": "11.31"
+                "8.5": "78%",
+                "9.5": "63%",
+                "10.5": "59%",
+                "11.5": "44%",
+                "12.5": "33%",
+                "13.5": "30%",
+                "average": "11.29"
             },
             "goals": {
                 "1.5": "30%",
@@ -521,19 +503,19 @@
                 "over_5_5": "36%"
             },
             "btts": {
-                "Yes": "47%"
+                "Yes": "50%"
             }
         },
         {
             "team": "IFK Göteborg",
             "corners": {
-                "8.5": "77%",
-                "9.5": "73%",
-                "10.5": "65%",
-                "11.5": "62%",
-                "12.5": "54%",
-                "13.5": "46%",
-                "average": "11.96"
+                "8.5": "78%",
+                "9.5": "74%",
+                "10.5": "67%",
+                "11.5": "59%",
+                "12.5": "52%",
+                "13.5": "44%",
+                "average": "11.93"
             },
             "goals": {
                 "1.5": "30%",
@@ -546,19 +528,19 @@
                 "over_5_5": "32%"
             },
             "btts": {
-                "Yes": "46%"
+                "Yes": "48%"
             }
         },
         {
             "team": "Malmö FF",
             "corners": {
-                "8.5": "73%",
-                "9.5": "62%",
-                "10.5": "46%",
-                "11.5": "23%",
+                "8.5": "70%",
+                "9.5": "59%",
+                "10.5": "44%",
+                "11.5": "22%",
                 "12.5": "15%",
-                "13.5": "12%",
-                "average": "10.54"
+                "13.5": "11%",
+                "average": "10.37"
             },
             "goals": {
                 "1.5": "30%",
@@ -566,24 +548,49 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "80%",
-                "over_4_5": "60%",
-                "over_5_5": "40%"
+                "over_3_5": "75%",
+                "over_4_5": "55%",
+                "over_5_5": "35%"
+            },
+            "btts": {
+                "Yes": "49%"
+            }
+        },
+        {
+            "team": "Örgryte",
+            "corners": {
+                "8.5": "59%",
+                "9.5": "48%",
+                "10.5": "41%",
+                "11.5": "37%",
+                "12.5": "30%",
+                "13.5": "19%",
+                "average": "10.00"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "74%",
+                "over_4_5": "54%",
+                "over_5_5": "34%"
             },
             "btts": {
                 "Yes": "45%"
             }
         },
         {
-            "team": "Djurgården",
+            "team": "Västerås SK",
             "corners": {
-                "8.5": "65%",
-                "9.5": "54%",
-                "10.5": "42%",
-                "11.5": "31%",
-                "12.5": "19%",
-                "13.5": "19%",
-                "average": "9.69"
+                "8.5": "59%",
+                "9.5": "56%",
+                "10.5": "41%",
+                "11.5": "26%",
+                "12.5": "15%",
+                "13.5": "11%",
+                "average": "9.78"
             },
             "goals": {
                 "1.5": "30%",
@@ -591,12 +598,37 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "72%",
-                "over_4_5": "52%",
-                "over_5_5": "32%"
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
             },
             "btts": {
-                "Yes": "45%"
+                "Yes": "50%"
+            }
+        },
+        {
+            "team": "Djurgården",
+            "corners": {
+                "8.5": "63%",
+                "9.5": "52%",
+                "10.5": "41%",
+                "11.5": "30%",
+                "12.5": "19%",
+                "13.5": "19%",
+                "average": "9.56"
+            },
+            "goals": {
+                "1.5": "30%",
+                "2.5": "10%",
+                "3.5": "5%"
+            },
+            "cards": {
+                "over_3_5": "79%",
+                "over_4_5": "59%",
+                "over_5_5": "39%"
+            },
+            "btts": {
+                "Yes": "50%"
             }
         },
         {
@@ -616,13 +648,13 @@
                 "3.5": "5%"
             },
             "cards": {
-                "over_3_5": "76%",
-                "over_4_5": "56%",
-                "over_5_5": "36%"
+                "over_3_5": "78%",
+                "over_4_5": "58%",
+                "over_5_5": "38%"
             },
             "btts": {
-                "Yes": "49%"
+                "Yes": "46%"
             }
         }
     ]
-,"last_updated":"2026-10-30T22:15:31Z"}
+,"last_updated":"2026-11-03T00:43:58Z"}
