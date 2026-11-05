@@ -1,91 +1,91 @@
 [
     {
-        "hora": "05.11. 00:00",
-        "emparejamiento": "DET @ PHI",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 00:00",
-        "emparejamiento": "WAS @ ATL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 00:30",
-        "emparejamiento": "BOS @ MIL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 00:30",
-        "emparejamiento": "BKN @ BKN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 00:30",
-        "emparejamiento": "NYK @ CHI",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 01:00",
-        "emparejamiento": "MEM @ IND",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 01:00",
-        "emparejamiento": "NOP @ UTA",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 01:00",
-        "emparejamiento": "OKC @ CLE",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 01:30",
-        "emparejamiento": "HOU @ MIN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 02:00",
-        "emparejamiento": "DEN @ TOR",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 02:00",
-        "emparejamiento": "PHX @ POR",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 02:30",
-        "emparejamiento": "SAS @ DAL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 03:00",
-        "emparejamiento": "SAC @ LAL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "05.11. 03:30",
-        "emparejamiento": "LAC @ MIA",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "06.11. 02:00",
         "emparejamiento": "PHX @ ORL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "06.11. 03:00",
+        "emparejamiento": "GSW @ MIA",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "07.11. 00:00",
+        "emparejamiento": "ATL @ WAS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "07.11. 00:00",
+        "emparejamiento": "BKN @ BOS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "07.11. 00:30",
+        "emparejamiento": "CLE @ PHI",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "07.11. 01:00",
+        "emparejamiento": "DAL @ UTA",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "07.11. 01:00",
+        "emparejamiento": "MEM @ OKC",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "07.11. 01:00",
+        "emparejamiento": "MIL @ TOR",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "07.11. 01:00",
+        "emparejamiento": "NOP @ MIN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "07.11. 03:00",
+        "emparejamiento": "LAL @ POR",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "07.11. 03:00",
+        "emparejamiento": "SAC @ SAS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "07.11. 22:00",
+        "emparejamiento": "IND @ DEN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "08.11. 00:30",
+        "emparejamiento": "ATL @ BKN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "08.11. 01:00",
+        "emparejamiento": "CLE @ NYK",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "08.11. 01:00",
+        "emparejamiento": "OKC @ WAS",
         "resultado": "vs",
         "ubicacion": ""
     }
