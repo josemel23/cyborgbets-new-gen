@@ -1,41 +1,5 @@
 [
     {
-        "hora": "08.11. 00:30",
-        "emparejamiento": "ATL @ BKN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "08.11. 01:00",
-        "emparejamiento": "CLE @ NYK",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "08.11. 01:00",
-        "emparejamiento": "OKC @ WAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "08.11. 01:30",
-        "emparejamiento": "GSW @ ORL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "08.11. 02:00",
-        "emparejamiento": "PHX @ HOU",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "08.11. 03:00",
-        "emparejamiento": "POR @ SAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "08.11. 20:30",
         "emparejamiento": "CHI @ PHI",
         "resultado": "vs",
@@ -86,6 +50,42 @@
     {
         "hora": "10.11. 00:00",
         "emparejamiento": "BKN @ CLE",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "10.11. 00:00",
+        "emparejamiento": "DET @ WAS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "10.11. 00:30",
+        "emparejamiento": "TOR @ MEM",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "10.11. 01:00",
+        "emparejamiento": "DAL @ IND",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "10.11. 01:30",
+        "emparejamiento": "HOU @ DEN",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "10.11. 02:00",
+        "emparejamiento": "PHX @ SAS",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "10.11. 03:00",
+        "emparejamiento": "GSW @ NOP",
         "resultado": "vs",
         "ubicacion": ""
     }
