@@ -1,47 +1,5 @@
 [
     {
-        "hora": "12.11. 00:00",
-        "emparejamiento": "IND @ WAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "12.11. 00:00",
-        "emparejamiento": "NYK @ CLE",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "12.11. 00:00",
-        "emparejamiento": "TOR @ BOS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "12.11. 01:00",
-        "emparejamiento": "CHI @ SAS",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "12.11. 01:00",
-        "emparejamiento": "MEM @ DEN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "12.11. 01:00",
-        "emparejamiento": "MIL @ LAL",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
-        "hora": "12.11. 01:00",
-        "emparejamiento": "NOP @ BKN",
-        "resultado": "vs",
-        "ubicacion": ""
-    },
-    {
         "hora": "12.11. 02:00",
         "emparejamiento": "UTA @ ORL",
         "resultado": "vs",
@@ -86,6 +44,48 @@
     {
         "hora": "14.11. 00:00",
         "emparejamiento": "IND @ NYK",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "14.11. 00:00",
+        "emparejamiento": "ORL @ MIL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "14.11. 01:00",
+        "emparejamiento": "CHI @ ATL",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "14.11. 01:00",
+        "emparejamiento": "MIA @ CLE",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "14.11. 01:00",
+        "emparejamiento": "NOP @ MEM",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "14.11. 01:30",
+        "emparejamiento": "HOU @ UTA",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "14.11. 02:30",
+        "emparejamiento": "SAS @ GSW",
+        "resultado": "vs",
+        "ubicacion": ""
+    },
+    {
+        "hora": "14.11. 03:00",
+        "emparejamiento": "SAC @ POR",
         "resultado": "vs",
         "ubicacion": ""
     }
